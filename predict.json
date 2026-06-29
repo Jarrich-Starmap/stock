@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T05:13:28+08:00",
+  "update_time": "2026-06-30T07:13:11+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -2827,6 +2827,117 @@
           "long_term": "↑↑"
         }
       ]
+    },
+    {
+      "id": 60,
+      "title": "独特中国水墨画工作坊搭建跨文化桥梁",
+      "logic": "纯文化艺术交流活动，对资本市场无直接影响。若后续扩展为文化出海/教育出口项目，极长线对文创板块有轻微利好，当前实质影响为零。",
+      "stocks": [
+        {
+          "name": "中国出版",
+          "code": "601949.SH",
+          "market": "SH",
+          "sector": "文化传媒央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电影",
+          "code": "600977.SH",
+          "market": "SH",
+          "sector": "影视传媒央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "阿尔伯尼港营地在野火后展现韧性",
+      "logic": "加拿大BC省野火对当地木材供应和保险业有短期冲击，但报道强调'韧性'暗示恢复较快。加拿大林木和保险股短期情绪承压，中长期影响有限。对中国资本市场无直接传导。",
+      "stocks": [
+        {
+          "name": "West Fraser Timber",
+          "code": "WFG",
+          "market": "US",
+          "sector": "加拿大林木",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Canfor",
+          "code": "CFP.TO",
+          "market": "CA",
+          "sector": "加拿大林木",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Intact Financial",
+          "code": "IFC.TO",
+          "market": "CA",
+          "sector": "加拿大保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "美国副国务卿称印度是唯一在工程人才深度上能与中国抗衡的国家",
+      "logic": "美国官方背书印度工程人才实力，强化科技供应链'去中国化'向印度转移的叙事。利好印度IT服务出口企业（Infosys、TCS等），对中概科技股在美国科技合作中的定位构成长期竞争压力。短期属言论层面，实质政策转向需时间。",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "code": "INFY",
+          "market": "US",
+          "sector": "印度IT服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Tata Consultancy",
+          "code": "TCS.NS",
+          "market": "IN",
+          "sector": "印度IT服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Wipro",
+          "code": "WIT",
+          "market": "US",
+          "sector": "印度IT服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概科技/竞争承压",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "中概AI/竞争承压",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
     }
   ],
   "summary": {
@@ -3070,8 +3181,36 @@
             "code": "600221.SH"
           }
         ]
+      },
+      {
+        "label": "印度IT替代（新增）",
+        "theme": "美国背书印度工程人才 / IT服务外包向印度转移",
+        "stocks": [
+          {
+            "name": "Infosys",
+            "code": "INFY"
+          },
+          {
+            "name": "Tata Consultancy",
+            "code": "TCS.NS"
+          }
+        ]
+      },
+      {
+        "label": "加拿大野火事件（新增）",
+        "theme": "BC省野火短期冲击林木保险 / 恢复韧性",
+        "stocks": [
+          {
+            "name": "West Fraser",
+            "code": "WFG"
+          },
+          {
+            "name": "Canfor",
+            "code": "CFP.TO"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有48条+新增11条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有59条+新增3条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
