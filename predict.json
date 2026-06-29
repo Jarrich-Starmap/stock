@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T12:00:00+08:00",
+  "update_time": "2026-06-30T02:50:00+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -1175,6 +1175,452 @@
           "long_term": "↓"
         }
       ]
+    },
+    {
+      "id": 26,
+      "title": "苹果考虑中国存储选项",
+      "logic": "苹果为降低地缘风险将存储供应链转向中国长江存储，利好国产存储芯片，利空韩系存储（三星/SK海力士在华份额可能被蚕食）。",
+      "stocks": [
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北京君正",
+          "code": "300223.SZ",
+          "market": "SZ",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "苹果",
+          "code": "AAPL",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "SK海力士",
+          "code": "000660.KS",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "日韩紧急出动战斗机应对中俄轰炸机联合巡逻",
+      "logic": "中俄联合战略巡航常态化，东北亚地缘紧张升级。日本和韩国国防开支预期持续攀升，利好亚太军工板块。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "航空发动机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "T",
+          "sector": "日本军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "韩华航空航天",
+          "code": "012450.KS",
+          "market": "KR",
+          "sector": "韩国军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "全球军工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "2028款梅赛德斯-奔驰VLE：豪华MPV",
+      "logic": "奔驰新豪华MPV发布，强化高端商务出行市场。但中国豪华MPV市场已被腾势D9、极氪009等国产新能源抢占，奔驰VLE定价和电动化策略是关键变量。",
+      "stocks": [
+        {
+          "name": "梅赛德斯-奔驰",
+          "code": "MBG.DE",
+          "market": "DE",
+          "sector": "豪华车企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源MPV(腾势)",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "新能源MPV(极氪)",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "中国考虑新的黄金进出口制度，限制央行监管权限",
+      "logic": "黄金进出口制度改革可能提升市场流动性、吸引国际参与者。若放松央行管制则利好黄金交易商和金矿企业。",
+      "stocks": [
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "金矿",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中金黄金",
+          "code": "600489.SH",
+          "market": "SH",
+          "sector": "金矿",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "金铜矿",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "招金矿业",
+          "code": "1818.HK",
+          "market": "HK",
+          "sector": "金矿",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "黄金ETF",
+          "code": "518880",
+          "market": "SH",
+          "sector": "黄金指数",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "日本签证费飙升五倍，中国、印度、菲律宾旅客受冲击",
+      "logic": "日本签证费暴涨将显著抑制中国赴日旅游需求，短期利空日本旅游业和航空，但可能分流游客至韩国、东南亚等替代目的地。",
+      "stocks": [
+        {
+          "name": "日本航空",
+          "code": "9201.T",
+          "market": "T",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "全日空",
+          "code": "9202.T",
+          "market": "T",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "携程",
+          "code": "TCOM",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "韩国新罗酒店",
+          "code": "008770.KS",
+          "market": "KR",
+          "sector": "免税/旅游替代",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "春秋航空",
+          "code": "601021.SH",
+          "market": "SH",
+          "sector": "廉价航空",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Jeep借助中国东风汽车重建欧洲产品线",
+      "logic": "Stellantis旗下Jeep借助东风平台重建欧洲小型车产品线，印证中国车企技术输出趋势。利好东风汽车供应链，但Stellantis自身品牌定位面临考验。",
+      "stocks": [
+        {
+          "name": "东风汽车",
+          "code": "600006.SH",
+          "market": "SH",
+          "sector": "整车制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "东风集团股份",
+          "code": "0489.HK",
+          "market": "HK",
+          "sector": "整车制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Stellantis",
+          "code": "STLA",
+          "market": "US",
+          "sector": "跨国车企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Stellantis",
+          "code": "STLAM.MI",
+          "market": "IT",
+          "sector": "跨国车企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "雀巢调整中国业务组合与股息重点",
+      "logic": "雀巢重新审视中国市场业务组合，可能涉及品牌出售或战略收缩。消费品在华竞争加剧，本土品牌崛起对跨国快消形成持续压力。",
+      "stocks": [
+        {
+          "name": "雀巢",
+          "code": "NESN.SW",
+          "market": "CH",
+          "sector": "食品饮料",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "伊利股份",
+          "code": "600887.SH",
+          "market": "SH",
+          "sector": "乳制品",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "农夫山泉",
+          "code": "9633.HK",
+          "market": "HK",
+          "sector": "饮料",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "福克斯新闻就凯文·奥利里无根据的中国指控道歉",
+      "logic": "福克斯新闻因不实涉华报道道歉，事件反映美国媒体在中美关系报道上的谨慎度提升。传媒股短期舆情承压但实质财务影响有限。",
+      "stocks": [
+        {
+          "name": "福克斯",
+          "code": "FOXA",
+          "market": "US",
+          "sector": "传媒",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "福克斯",
+          "code": "FOX",
+          "market": "US",
+          "sector": "传媒",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "辉瑞与信达GLP-1药物通过中国医保审批",
+      "logic": "GLP-1减肥药纳入中国医保是行业里程碑事件，打开千亿级慢性病管理市场。辉瑞、信达率先获批将抢占先发优势，但面临诺和诺德、华东医药等后来者竞争。",
+      "stocks": [
+        {
+          "name": "信达生物",
+          "code": "1801.HK",
+          "market": "HK",
+          "sector": "创新药/GLP-1",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "辉瑞",
+          "code": "PFE",
+          "market": "US",
+          "sector": "跨国药企",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华东医药",
+          "code": "000963.SZ",
+          "market": "SZ",
+          "sector": "GLP-1仿制",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "诺和诺德",
+          "code": "NVO",
+          "market": "US",
+          "sector": "GLP-1原研",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "常山药业",
+          "code": "300255.SZ",
+          "market": "SZ",
+          "sector": "GLP-1概念",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "澳大利亚与瓦努阿图签署协议阻止中国军事基地（更新）",
+      "logic": "与已有第25条高度相关但角度更新：协议已正式签署。南太地缘格局进一步向澳大利亚倾斜，中国一带一路在南太的长期布局面临更大阻力。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "一带一路基建",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "海外基建",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "中国对西藏严格管控导致印度朝圣者滞留尼泊尔",
+      "logic": "中印边境管控收紧信号，可能加剧两国紧张关系。对资本市场直接影响有限，但若事态升级为中印外交摩擦则脉冲式利好军工。",
+      "stocks": [
+        {
+          "name": "军工ETF",
+          "code": "512660",
+          "market": "SH",
+          "sector": "军工指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中兵红箭",
+          "code": "000519.SZ",
+          "market": "SZ",
+          "sector": "军工弹药",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
@@ -1272,8 +1718,86 @@
             "code": "AAPL"
           }
         ]
+      },
+      {
+        "label": "存储国产化",
+        "theme": "苹果中国存储供应链 / 存储芯片",
+        "stocks": [
+          {
+            "name": "兆易创新",
+            "code": "603986.SH"
+          },
+          {
+            "name": "北京君正",
+            "code": "300223.SZ"
+          }
+        ]
+      },
+      {
+        "label": "医药GLP-1",
+        "theme": "辉瑞信达GLP-1入医保 / 减肥药赛道",
+        "stocks": [
+          {
+            "name": "信达生物",
+            "code": "1801.HK"
+          },
+          {
+            "name": "华东医药",
+            "code": "000963.SZ"
+          },
+          {
+            "name": "常山药业",
+            "code": "300255.SZ"
+          }
+        ]
+      },
+      {
+        "label": "黄金制度变革",
+        "theme": "中国黄金进出口改革 / 贵金属",
+        "stocks": [
+          {
+            "name": "山东黄金",
+            "code": "600547.SH"
+          },
+          {
+            "name": "紫金矿业",
+            "code": "601899.SH"
+          }
+        ]
+      },
+      {
+        "label": "中国车企技术输出",
+        "theme": "东风合作Jeep / 奔驰MPV竞争",
+        "stocks": [
+          {
+            "name": "东风汽车",
+            "code": "600006.SH"
+          },
+          {
+            "name": "东风集团股份",
+            "code": "0489.HK"
+          }
+        ]
+      },
+      {
+        "label": "受损方(新增)",
+        "theme": "日韩存储 / 日本旅游航空 / 雀巢中国 / 福克斯",
+        "stocks": [
+          {
+            "name": "三星电子",
+            "code": "005930.KS"
+          },
+          {
+            "name": "日本航空",
+            "code": "9201.T"
+          },
+          {
+            "name": "雀巢",
+            "code": "NESN.SW"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有13条+新增12条），市场变化迅速，请结合实时行情决策。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有25条+新增11条），市场变化迅速，请结合实时行情决策。"
 }
