@@ -2281,6 +2281,552 @@
           "long_term": "→"
         }
       ]
+    },
+    {
+      "id": 49,
+      "title": "中国加强反击外国制裁的法律工具箱",
+      "logic": "中国准备新法律以反击外国制裁，强化反外国制裁法体系。短期提振国产替代和自主可控情绪，利好稀土、半导体等战略资源板块；中长期降低外部制裁对关键产业的冲击预期。",
+      "stocks": [
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土战略资源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土战略资源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体国产替代",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "厦门钨业",
+          "code": "600549.SH",
+          "market": "SH",
+          "sector": "钨/稀土",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "中国加大对苏丹财政支持的战略考量",
+      "logic": "中国最新对苏丹提供财政支持，背后是确保石油供应稳定和一带一路非洲支点战略。利好参与非洲基建和能源合作的中资企业。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "非洲油气合作",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中油工程",
+          "code": "600339.SH",
+          "market": "SH",
+          "sector": "海外油气工程",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "一带一路基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "海外基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "中国技术规则阻止极星(Polestar)美国车型",
+      "logic": "中国技术出口管制规则影响极星在美国的新车型计划，反映中欧美汽车供应链脱钩加深。极星短期承压，同时利好不受技术出口限制的海外竞品。",
+      "stocks": [
+        {
+          "name": "极星汽车",
+          "code": "PSNY",
+          "market": "US",
+          "sector": "新能源车",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "中国车企出海",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "受益竞品受限",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "沃尔沃汽车",
+          "code": "VOLV-B.ST",
+          "market": "SE",
+          "sector": "欧洲车企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "马自达6e电动车深度依赖中国原型车平台",
+      "logic": "马自达6e电动车仅与中国原型车（长安深蓝平台）共享一块车身面板，但核心三电和平台架构深度依赖中国供应链。彰显中国新能源车技术输出能力增强，利好国内核心供应商。",
+      "stocks": [
+        {
+          "name": "长安汽车",
+          "code": "000625.SZ",
+          "market": "SZ",
+          "sector": "技术输出平台",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "马自达",
+          "code": "7261.T",
+          "market": "JP",
+          "sector": "日系车企转型",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "中国电车龙头",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "华为寒武纪瞄准英伟达空缺，昆仑芯50亿美元IPO在即",
+      "logic": "中国AI芯片自给自足加速推进，华为昇腾、寒武纪在英伟达受限背景下快速扩量，昆仑芯（百度旗下）筹备50亿美元IPO。国产AI芯片产业链全面受益，短期情绪高涨。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片设计",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产算力芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "AI服务器/算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "昆仑芯母公司",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "在华份额承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "景嘉微",
+          "code": "300474.SZ",
+          "market": "SZ",
+          "sector": "国产GPU",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "中国深化孟加拉国经济外交",
+      "logic": "中国访问标志着孟加拉国经济外交新篇章，预计将签署一系列基建、港口和能源合作协议。一带一路南亚支点进一步巩固，利好参与孟加拉国项目的中资企业。",
+      "stocks": [
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "海外电力基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "market_alt": "SH",
+          "sector": "一带一路港口",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "徐工机械",
+          "code": "000425.SZ",
+          "market": "SZ",
+          "sector": "工程机械出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "海外铁路基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "中国多地航班大面积取消：国航海航等取消超85个航班",
+      "logic": "因天气或运营原因多地航班大面积取消，短期利空航空公司运营数据和股价。但此类事件通常为一次性冲击，中长期基本面不受影响。关注后续恢复情况。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "海南航空",
+          "code": "600221.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国东航",
+          "code": "600115.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "机场运营",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "2026年5月欧洲汽车注册量数据出炉",
+      "logic": "欧洲5月各国/各品牌汽车注册量估算发布，是判断中国车企出海欧洲前景的关键数据。若欧洲车市回暖，利好出口导向的中国车企；若持续低迷，则短期承压。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源车出口欧洲",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "MG欧洲销量",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "极星/沃尔沃欧洲",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "大众",
+          "code": "VOW3.DE",
+          "market": "DE",
+          "sector": "欧洲传统车企",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "斯特兰蒂斯",
+          "code": "STLAM.MI",
+          "market": "IT",
+          "sector": "欧洲传统车企",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "中国国务院会议审议AI、贸易和碳排放计划",
+      "logic": "国务院级别会议同时涵盖AI、贸易、碳排放三大战略方向，意味着国家级政策组合拳即将出台。AI产业将获更明确政策支持，碳交易市场扩容预期升温，贸易政策或涉出口管制和自贸谈判。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华能国际",
+          "code": "600011.SH",
+          "market": "SH",
+          "sector": "碳交易/电力",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "深圳能源",
+          "code": "000027.SZ",
+          "market": "SZ",
+          "sector": "碳交易/清洁能源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁/碳减排",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "中国背景巨额捐助者资助左翼活动受美国司法部调查",
+      "logic": "美国司法部对中国背景政治献金的调查升级，可能引发新一轮中美关系紧张和对华更强硬政策预期。中概股和在美有重大业务的中资企业短期面临政治风险溢价上升。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概股/电商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD",
+          "market": "US",
+          "sector": "中概股/电商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "中概股/AI",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "京东",
+          "code": "JD",
+          "market": "US",
+          "sector": "中概股/电商物流",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "网易",
+          "code": "NTES",
+          "market": "US",
+          "sector": "中概股/游戏",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "习近平在G20峰会呼吁加强AI全球治理",
+      "logic": "中国最高领导人在G20平台推动AI治理，表明中国正从AI规则追随者转向规则制定者。利好国产AI伦理、安全、标准制定相关企业，同时全球AI合作预期升温。",
+      "stocks": [
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI平台/治理",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI大模型",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用/标准",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "AI安全",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "AI算力基础设施",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -2456,8 +3002,76 @@
             "code": "NESN.SW"
           }
         ]
+      },
+      {
+        "label": "AI芯片与算力（新增催化）",
+        "theme": "昆仑芯50亿美元IPO / 华为寒武纪国产替代 / G20 AI治理",
+        "stocks": [
+          {
+            "name": "寒武纪",
+            "code": "688256.SH"
+          },
+          {
+            "name": "海光信息",
+            "code": "688041.SH"
+          },
+          {
+            "name": "百度",
+            "code": "9888.HK"
+          },
+          {
+            "name": "商汤-W",
+            "code": "0020.HK"
+          }
+        ]
+      },
+      {
+        "label": "反制裁与自主可控（新增）",
+        "theme": "中国完善反外国制裁法 / 技术出口管制反制",
+        "stocks": [
+          {
+            "name": "北方稀土",
+            "code": "600111.SH"
+          },
+          {
+            "name": "中芯国际",
+            "code": "688981.SH"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ"
+          }
+        ]
+      },
+      {
+        "label": "中美政治风险升温（新增）",
+        "theme": "美司法部调查中国政治献金 / 中概股承压",
+        "stocks": [
+          {
+            "name": "阿里巴巴",
+            "code": "BABA"
+          },
+          {
+            "name": "拼多多",
+            "code": "PDD"
+          }
+        ]
+      },
+      {
+        "label": "航空短期扰动（新增）",
+        "theme": "国内航班大面积取消 / 关注恢复节奏",
+        "stocks": [
+          {
+            "name": "中国国航",
+            "code": "601111.SH"
+          },
+          {
+            "name": "海南航空",
+            "code": "600221.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有25条+新增11条），市场变化迅速，请结合实时行情决策。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有48条+新增11条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
