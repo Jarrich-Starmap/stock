@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T02:50:00+08:00",
+  "update_time": "2026-06-30T05:13:28+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -1618,6 +1618,666 @@
           "sector": "军工弹药",
           "short_term": "→",
           "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "加拿大讨好中国与戈迪·豪大桥",
+      "logic": "加拿大对华态度软化信号利好中加贸易相关标的；戈迪·豪大桥作为北美关键基建项目，若中国参与将直接利好基建出海板块。短期情绪提振，中期看实际合作进展。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建出海",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "1800.HK",
+          "market": "HK",
+          "sector": "基建出海",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建出海",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中联重科",
+          "code": "000157.SZ",
+          "market": "SZ",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "中加航运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "中国氢燃料电池产业新动态（2026年6月）",
+      "logic": "氢能作为国家战略新兴产业持续受政策推动，技术突破和示范应用加速。短期概念波动，中期商业化落地决定估值，长期替代能源趋势明确。",
+      "stocks": [
+        {
+          "name": "亿华通",
+          "code": "688339.SH",
+          "market": "SH",
+          "sector": "氢燃料电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "美锦能源",
+          "code": "000723.SZ",
+          "market": "SZ",
+          "sector": "氢能全产业链",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "潍柴动力",
+          "code": "000338.SZ",
+          "market": "SZ",
+          "sector": "氢燃料发动机",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "雄韬股份",
+          "code": "002733.SZ",
+          "market": "SZ",
+          "sector": "氢燃料电池",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "厚普股份",
+          "code": "300471.SZ",
+          "market": "SZ",
+          "sector": "加氢站设备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "中国制裁菲律宾国防部长及其亲属",
+      "logic": "中菲关系紧张加剧，南海地缘风险升温。对在菲有业务的中资企业构成短期不确定性，军工板块可能因区域紧张获得情绪支撑。",
+      "stocks": [
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "海洋防务",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "海格通信",
+          "code": "002465.SZ",
+          "market": "SZ",
+          "sector": "军工通信",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "中国16兆瓦浮式风电平台出海投运",
+      "logic": "全球最大浮式风电平台投运标志着中国海上风电技术重大突破，深远海风电商业化加速。直接利好风电整机及海缆海工产业链。",
+      "stocks": [
+        {
+          "name": "明阳智能",
+          "code": "601615.SH",
+          "market": "SH",
+          "sector": "海上风电整机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "东方电缆",
+          "code": "603606.SH",
+          "market": "SH",
+          "sector": "海缆",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "金风科技",
+          "code": "002202.SZ",
+          "market": "SZ",
+          "sector": "风电整机",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "远景能源",
+          "code": "300332.SZ",
+          "market": "SZ",
+          "sector": "风电",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中天科技",
+          "code": "600522.SH",
+          "market": "SH",
+          "sector": "海缆海工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海力风电",
+          "code": "301155.SZ",
+          "market": "SZ",
+          "sector": "海上风电基础",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "中国核反应堆因故障发生130次非正常停机",
+      "logic": "核电安全问题引发关注，短期对核电运营板块形成情绪压制，但长期有利于安全升级需求释放，利好核电设备和安全监测企业。",
+      "stocks": [
+        {
+          "name": "中国核电",
+          "code": "601985.SH",
+          "market": "SH",
+          "sector": "核电运营",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国广核",
+          "code": "003816.SZ",
+          "market": "SZ",
+          "sector": "核电运营",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中核科技",
+          "code": "000777.SZ",
+          "market": "SZ",
+          "sector": "核电阀门",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "江苏神通",
+          "code": "002438.SZ",
+          "market": "SZ",
+          "sector": "核电阀门",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "纽威股份",
+          "code": "603699.SH",
+          "market": "SH",
+          "sector": "核电安全设备",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "欧盟对小包裹征收3欧元关税以遏制廉价中国商品进口",
+      "logic": "欧盟关税壁垒直接影响跨境电商低价模式（SHEIN、Temu等），短期利空跨境电商和轻工出口；倒逼中国品牌升级，长期利好品牌化出海。",
+      "stocks": [
+        {
+          "name": "拼多多(Temu)",
+          "code": "PDD",
+          "market": "US",
+          "sector": "跨境电商",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "南极电商",
+          "code": "002127.SZ",
+          "market": "SZ",
+          "sector": "跨境电商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "焦点科技",
+          "code": "002315.SZ",
+          "market": "SZ",
+          "sector": "跨境B2B",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "华凯易佰",
+          "code": "300592.SZ",
+          "market": "SZ",
+          "sector": "跨境电商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "赛维时代",
+          "code": "301381.SZ",
+          "market": "SZ",
+          "sector": "跨境电商品牌",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "SHEIN",
+          "code": "SHEIN.PRIVATE",
+          "market": "PRIVATE",
+          "sector": "快时尚跨境电商",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "中日关系紧张升级 中国对40家日本实体实施出口管制",
+      "logic": "出口管制扩大至40家日企，中日供应链脱钩风险加剧。日本半导体设备/材料/汽车零部件对华依赖企业短期承压，国产替代标的受益。",
+      "stocks": [
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备国产替代",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "半导体设备国产替代",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "江丰电子",
+          "code": "300666.SZ",
+          "market": "SZ",
+          "sector": "半导体靶材",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "日本半导体设备",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日本汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "本田汽车",
+          "code": "7267.T",
+          "market": "JP",
+          "sector": "日本汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "信越化学",
+          "code": "4063.T",
+          "market": "JP",
+          "sector": "日本半导体材料",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "空客A220的中国缺口",
+      "logic": "空客A220因中国供应链受限出现生产缺口，短期利空空客及依赖中国航空供应链的欧洲企业；中长期利好中国本土航空制造企业参与全球供应链。",
+      "stocks": [
+        {
+          "name": "中航西飞",
+          "code": "000768.SZ",
+          "market": "SZ",
+          "sector": "航空制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "航空制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "空客",
+          "code": "AIR.PA",
+          "market": "FR",
+          "sector": "飞机制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "洪都航空",
+          "code": "600316.SH",
+          "market": "SH",
+          "sector": "航空制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "爱乐达",
+          "code": "300696.SZ",
+          "market": "SZ",
+          "sector": "航空零部件",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "日本敦促中国撤销军民两用出口禁令",
+      "logic": "日本抗议升级表明中日科技供应链摩擦加剧，禁令若持续将加速日本寻找替代供应源。短期内相关日企面临供应链中断风险，中国稀土等战略资源企业话语权提升。",
+      "stocks": [
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土战略资源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土战略资源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "索尼",
+          "code": "6758.T",
+          "market": "JP",
+          "sector": "日本电子",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "尼康",
+          "code": "7731.T",
+          "market": "JP",
+          "sector": "日本精密仪器",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "盛和资源",
+          "code": "600392.SH",
+          "market": "SH",
+          "sector": "稀土加工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "丰田5月销量连降四月 中国、美国及中东市场低迷拖累",
+      "logic": "丰田全球销量持续下滑反映传统燃油车在全球主要市场面临结构性压力。中国市场竞争加剧（比亚迪等），美国市场电动化转型缓慢，中东受经济不确定性影响。利空日系传统车企，利好中国新能源车企。",
+      "stocks": [
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日本汽车",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "本田汽车",
+          "code": "7267.T",
+          "market": "JP",
+          "sector": "日本汽车",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "日产汽车",
+          "code": "7201.T",
+          "market": "JP",
+          "sector": "日本汽车",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "中国新能源车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "中国新能源车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "中国新能源车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "中国智谱AI据称在漏洞检测方面匹敌Claude Mythos",
+      "logic": "智谱AI在安全领域能力对标国际顶级模型，强化中国AI自主可控叙事。利好国产AI算力、大模型及应用生态。短期概念热潮，中期看商业化落地。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "三六零",
+          "code": "601360.SH",
+          "market": "SH",
+          "sector": "网络安全+AI",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "中国网络安全追平Anthropic 重塑AI竞赛格局",
+      "logic": "中国在AI安全领域达到国际顶尖水平，降低了对海外AI安全解决方案的依赖。利好国产AI安全和网络安全板块，同时对海外AI安全企业（如CrowdStrike等）的亚太市场预期形成压力。",
+      "stocks": [
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "启明星辰",
+          "code": "002439.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "安恒信息",
+          "code": "688023.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "CrowdStrike",
+          "code": "CRWD",
+          "market": "US",
+          "sector": "海外网络安全",
+          "short_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
