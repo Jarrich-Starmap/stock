@@ -1,0 +1,196 @@
+{
+  "update_time": "2026-06-30T10:00:00+08:00",
+  "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "中欧贸易战谈判",
+      "logic": "谈判若缓和则利好出口，当前不确定性压制短期估值。长期中国供应链优势不变。",
+      "stocks": [
+        {"name": "比亚迪", "code": "1211.HK", "market": "HK", "sector": "新能源车出口", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "比亚迪", "code": "002594.SZ", "market": "SZ", "sector": "新能源车出口", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "隆基绿能", "code": "601012.SH", "market": "SH", "sector": "光伏出口", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "宝马", "code": "BMW.DE", "market": "DE", "sector": "欧洲车企", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "大众", "code": "VOW3.DE", "market": "DE", "sector": "欧洲车企", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "中远海控", "code": "1919.HK", "market": "HK", "sector": "航运", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "中远海控", "code": "601919.SH", "market": "SH", "sector": "航运", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "第六代战斗机画面发布",
+      "logic": "六代机官方画面释放是明确的国防现代化信号，军工长期受益。",
+      "stocks": [
+        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中航西飞", "code": "000768.SZ", "market": "SZ", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "航发动力", "code": "600893.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中航光电", "code": "002179.SZ", "market": "SZ", "sector": "军工电子", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国对40家日本实体出口管制",
+      "logic": "稀土/半导体国产替代直接受益。日企在华供应链面临重构风险。",
+      "stocks": [
+        {"name": "北方稀土", "code": "600111.SH", "market": "SH", "sector": "稀土", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国稀土", "code": "000831.SZ", "market": "SZ", "sector": "稀土", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中芯国际", "code": "0981.HK", "market": "HK", "sector": "半导体", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "东京电子", "code": "8035.T", "market": "T", "sector": "日本半导体设备", "short_term": "↓", "mid_term": "↓↓", "long_term": "↓"},
+        {"name": "丰田", "code": "7203.T", "market": "T", "sector": "日本车企", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "本田", "code": "7267.T", "market": "T", "sector": "日本车企", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国向委内瑞拉提供地震援助",
+      "logic": "援助为外交筹码，长期利好中国在拉美的基建和能源布局。",
+      "stocks": [
+        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "中国铁建", "code": "601186.SH", "market": "SH", "sector": "基建", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "中石油", "code": "601857.SH", "market": "SH", "sector": "石油能源", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "李强主持AI发展会议",
+      "logic": "国务院常务会议级别极高，AI提升到国家战略高度，政策催化确定性强。",
+      "stocks": [
+        {"name": "百度", "code": "9888.HK", "market": "HK", "sector": "AI平台", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "百度", "code": "BIDU", "market": "US", "sector": "AI平台", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "AI应用", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "→"},
+        {"name": "中科曙光", "code": "603019.SH", "market": "SH", "sector": "AI算力", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中际旭创", "code": "300308.SZ", "market": "SZ", "sector": "光模块", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "白俄罗斯-中国新联盟",
+      "logic": "地缘政治联盟扩展一带一路欧洲桥头堡，基建出口受益。",
+      "stocks": [
+        {"name": "中国中车", "code": "601766.SH", "market": "SH", "sector": "高端装备", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "基建", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "一带一路基建", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "四川5.5级地震",
+      "logic": "震后重建预期短期拉动区域建材，保险小幅承压。幅度有限（5.5级非重大灾害）。",
+      "stocks": [
+        {"name": "四川金顶", "code": "600678.SH", "market": "SH", "sector": "区域水泥", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "中国人保", "code": "601319.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "四川路桥", "code": "600039.SH", "market": "SH", "sector": "区域基建", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "英伟达在华AI芯片销售停滞，华为领先",
+      "logic": "国产替代从'备选'变成'首选'，华为昇腾产业链拐点明确。NVDA在华收入永久性受损。",
+      "stocks": [
+        {"name": "拓维信息", "code": "002261.SZ", "market": "SZ", "sector": "华为昇腾产业链", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "海光信息", "code": "688041.SH", "market": "SH", "sector": "国产AI芯片", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体制造", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "英伟达", "code": "NVDA", "market": "US", "sector": "GPU", "short_term": "↓", "mid_term": "↓↓", "long_term": "↓"},
+        {"name": "浪潮信息", "code": "000977.SZ", "market": "SZ", "sector": "服务器", "short_term": "↓", "mid_term": "↓", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国免除苏丹5000万美元债务",
+      "logic": "债务减免换取资源权益，影响有限但非洲战略延续。",
+      "stocks": [
+        {"name": "中石油", "code": "601857.SH", "market": "SH", "sector": "油气资产", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "中国武夷", "code": "000797.SZ", "market": "SZ", "sector": "中非贸易基建", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "群邑中国前CIO因1.76亿美元贿赂案终身监禁",
+      "logic": "WPP声誉短期受损，中国本土广告代理或抢占份额。",
+      "stocks": [
+        {"name": "WPP", "code": "WPP.L", "market": "UK", "sector": "广告传媒", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "WPP", "code": "WPP", "market": "US", "sector": "广告传媒", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "蓝色光标", "code": "300058.SZ", "market": "SZ", "sector": "本土广告", "short_term": "→", "mid_term": "↑", "long_term": "→"},
+        {"name": "分众传媒", "code": "002027.SZ", "market": "SZ", "sector": "楼宇广告", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国IPO市场回暖",
+      "logic": "IPO窗口重开直接拉动投行收入，券商板块弹性最大。",
+      "stocks": [
+        {"name": "中信证券", "code": "600030.SH", "market": "SH", "sector": "券商", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中信证券", "code": "6030.HK", "market": "HK", "sector": "券商", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "华泰证券", "code": "601688.SH", "market": "SH", "sector": "券商", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中金公司", "code": "3908.HK", "market": "HK", "sector": "券商", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中金公司", "code": "601995.SH", "market": "SH", "sector": "券商", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "香港交易所", "code": "0388.HK", "market": "HK", "sector": "交易所", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "东方财富", "code": "300059.SZ", "market": "SZ", "sector": "互联网券商", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国超算跃居全球最快",
+      "logic": "超算登顶是半导体自主突破的信号，利好国产算力全链条。",
+      "stocks": [
+        {"name": "中科曙光", "code": "603019.SH", "market": "SH", "sector": "超算/算力", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "海光信息", "code": "688041.SH", "market": "SH", "sector": "国产CPU", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "浪潮信息", "code": "000977.SZ", "market": "SZ", "sector": "服务器", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国长城", "code": "000066.SZ", "market": "SZ", "sector": "国产整机", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "中印边境争议（阿鲁纳恰尔邦）",
+      "logic": "边境摩擦脉冲式刺激军工，但持续性取决于事态升级程度。",
+      "stocks": [
+        {"name": "军工ETF", "code": "512660", "market": "SH", "sector": "军工指数", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
+        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
+        {"name": "中兵红箭", "code": "000519.SZ", "market": "SZ", "sector": "军工弹药", "short_term": "↑", "mid_term": "→", "long_term": "↑"}
+      ]
+    }
+  ],
+  "summary": {
+    "directions": [
+      {
+        "label": "确定性最高",
+        "theme": "国产AI芯片/算力",
+        "stocks": [
+          {"name": "海光信息", "code": "688041.SH"},
+          {"name": "中科曙光", "code": "603019.SH"},
+          {"name": "寒武纪", "code": "688256.SH"}
+        ]
+      },
+      {
+        "label": "政策催化",
+        "theme": "券商（IPO回暖）",
+        "stocks": [
+          {"name": "中信证券", "code": "600030.SH"},
+          {"name": "港交所", "code": "0388.HK"}
+        ]
+      },
+      {
+        "label": "地缘博弈",
+        "theme": "军工/稀土",
+        "stocks": [
+          {"name": "中航沈飞", "code": "600760.SH"},
+          {"name": "北方稀土", "code": "600111.SH"}
+        ]
+      },
+      {
+        "label": "受损方",
+        "theme": "日本半导体设备 / NVDA中国 / WPP",
+        "stocks": [
+          {"name": "东京电子", "code": "8035.T"},
+          {"name": "英伟达", "code": "NVDA"},
+          {"name": "WPP", "code": "WPP"}
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于 2026-06-30 新闻快照，市场变化迅速，请结合实时行情决策。"
+}
