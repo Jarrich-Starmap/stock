@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T15:45:49+08:00",
+  "update_time": "2026-06-30T16:47:19+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -4600,6 +4600,603 @@
           "long_term": "↑"
         }
       ]
+    },
+    {
+      "id": 96,
+      "title": "从鱼子酱到鹅肝：中国下一个出口冲击",
+      "logic": "中国高端食品出口（鱼子酱、鹅肝等）正冲击全球高端食材市场，反映中国农业产业升级和食品加工技术飞跃。利好水产养殖、高端食品加工出口企业。传统欧洲食品出口国（法国、意大利）面临市场份额蚕食。",
+      "stocks": [
+        {
+          "name": "国联水产",
+          "code": "300094.SZ",
+          "market": "SZ",
+          "sector": "水产养殖出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百洋股份",
+          "code": "002696.SZ",
+          "market": "SZ",
+          "sector": "水产加工出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "大湖股份",
+          "code": "600257.SH",
+          "market": "SH",
+          "sector": "淡水养殖",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "圣农发展",
+          "code": "002299.SZ",
+          "market": "SZ",
+          "sector": "禽类食品加工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "达能",
+          "code": "BN.PA",
+          "market": "FR",
+          "sector": "欧洲食品承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "日元暴跌创40年新低，中国工厂数据向好推动日本期货上涨",
+      "logic": "日元贬值40年新低短期提振日本出口竞争力，但加剧输入型通胀和央行加息压力。日本期货因中国PMI向好上涨说明亚洲经济联动增强。利好日本出口型企业，但日本央行政策转向风险压制日债和金融股。中国出口企业面临日元计价竞争力短期削弱。",
+      "stocks": [
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日元贬值受益出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "索尼",
+          "code": "6758.T",
+          "market": "JP",
+          "sector": "日元贬值受益出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "日经225ETF",
+          "code": "513520",
+          "market": "SH",
+          "sector": "日股指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "对日出口竞争承压",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "中国海警船进入金门限制水域",
+      "logic": "中国海警船进入金门限制水域加剧台海紧张，短期脉冲式刺激军工板块和国防概念。台海风险溢价上升可能压制台股和两岸贸易敏感标的。台湾半导体供应链地缘风险溢价升高。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工舰船",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "军工ETF",
+          "code": "512660",
+          "market": "SH",
+          "sector": "军工指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "台海风险承压",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM",
+          "market": "US",
+          "sector": "台海风险承压",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "中国游戏热潮背后的文化力量",
+      "logic": "中国游戏产业从《原神》到《黑神话》再到海外爆款，已从代工和代理走向原创文化输出。游戏出海成为中国文化软实力载体，版号常态化+AI赋能降本增效。利好腾讯、网易、米哈游等头部厂商，游戏引擎和云游戏基础设施受益。",
+      "stocks": [
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "游戏龙头/出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "网易",
+          "code": "NTES",
+          "market": "US",
+          "sector": "游戏龙头/出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "网易-S",
+          "code": "9999.HK",
+          "market": "HK",
+          "sector": "游戏龙头/出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "完美世界",
+          "code": "002624.SZ",
+          "market": "SZ",
+          "sector": "游戏研发",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三七互娱",
+          "code": "002555.SZ",
+          "market": "SZ",
+          "sector": "游戏发行出海",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "心动公司",
+          "code": "2400.HK",
+          "market": "HK",
+          "sector": "游戏平台/TapTap",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "中国外长将访问丹麦、瑞典、芬兰、挪威",
+      "logic": "中国外长高调访问北欧四国是外交破局信号。北欧是新能源、绿色科技和高端制造高地，加强与北欧合作利好风电、氢能、生物科技等绿色产业；同时北欧在北极事务上有话语权，中国北极战略受益。",
+      "stocks": [
+        {
+          "name": "金风科技",
+          "code": "002202.SZ",
+          "market": "SZ",
+          "sector": "风电/北欧合作",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "明阳智能",
+          "code": "601615.SH",
+          "market": "SH",
+          "sector": "海上风电/北欧技术",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "北极航线/中欧贸易",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "维斯塔斯",
+          "code": "VWS.CO",
+          "market": "DK",
+          "sector": "丹麦风电巨头",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "title": "中国央行加倍隔夜现金投放，利率维持不变",
+      "logic": "央行加大短期流动性投放但维持利率不变，表明货币政策'量宽价稳'取向。短期利好银行间流动性和债市，但对股市直接催化有限。若后续降息预期落空，高估值成长股承压。利好银行净息差稳定。",
+      "stocks": [
+        {
+          "name": "工商银行",
+          "code": "601398.SH",
+          "market": "SH",
+          "sector": "银行/流动性受益",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "sector": "零售银行标杆",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "债券ETF",
+          "code": "511260",
+          "market": "SH",
+          "sector": "国债指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "sector": "券商/流动性",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "JLR对中国市场表示信心，欧洲高端竞争对手陷入困境",
+      "logic": "捷豹路虎（JLR母公司塔塔汽车）逆势看好中国豪华车市场，而欧洲高端竞争对手（BBA等）面临中国国产新能源替代和价格战双重压力。中国豪华车市场正从外资主导转向自主品牌蚕食格局。利好塔塔汽车/JLR中国供应链，利空欧洲传统豪华品牌。",
+      "stocks": [
+        {
+          "name": "塔塔汽车",
+          "code": "TATAMOTORS.NS",
+          "market": "IN",
+          "sector": "JLR母公司",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "塔塔汽车",
+          "code": "TTM",
+          "market": "US",
+          "sector": "JLR母公司",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "豪华新能源(仰望/腾势)",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "理想汽车",
+          "code": "LI",
+          "market": "US",
+          "sector": "豪华新能源SUV",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宝马",
+          "code": "BMW.DE",
+          "market": "DE",
+          "sector": "欧洲豪华品牌承压",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "梅赛德斯-奔驰",
+          "code": "MBG.DE",
+          "market": "DE",
+          "sector": "欧洲豪华品牌承压",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "中国股市下跌15%，科技板块面临需求疲软",
+      "logic": "中国股市半年末遭遇15%下跌，科技板块因需求疲软领跌。短期市场情绪极度悲观，但PMI超预期和央行流动性投放有助于市场寻底。科技股估值回到更具吸引力水平，但反弹需等待需求端催化剂。中长期AI和自主可控主线不变。",
+      "stocks": [
+        {
+          "name": "科创50ETF",
+          "code": "588000",
+          "market": "SH",
+          "sector": "科技宽基/超跌反弹",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片/超跌",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体/超跌",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源/估值洼地",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "消费防御",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "title": "欧盟与中国关系处于十字路口：共存的几何学",
+      "logic": "欧洲政策中心发布中欧关系深度报告，指出双方在贸易、技术和地缘政治上面临'共存还是对抗'的结构性选择。10月前寻求'切实成果'的窗口期内，若谈判取得突破可能阶段性缓和。光伏、电动车关税是关键变量。短期不确定性压制出口板块估值，中长期若缓和则打开上行空间。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "对欧EV出口敏感",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏对欧出口敏感",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "电池/欧洲工厂",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "MG欧洲销量",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "大众",
+          "code": "VOW3.DE",
+          "market": "DE",
+          "sector": "欧洲车企/中国依赖",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "公安部强调香港国安法成功维护香港稳定，394人被捕",
+      "logic": "公安部公布国安法执法数据（394人被捕），传递法治稳定信号。短期有利于港股风险偏好修复（不确定性降低），但可能引发西方新一轮对港金融制裁担忧。港股本地地产和金融股情绪面双向波动。中长期香港国际金融中心地位取决于中美博弈走向。",
+      "stocks": [
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "港股情绪风向标",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "新鸿基地产",
+          "code": "0016.HK",
+          "market": "HK",
+          "sector": "香港本地地产",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生银行",
+          "code": "0011.HK",
+          "market": "HK",
+          "sector": "香港本地银行",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "友邦保险",
+          "code": "1299.HK",
+          "market": "HK",
+          "sector": "港股保险/外资信心",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "title": "中国国家电影局推广暑期电影片单",
+      "logic": "国家电影局官方推广暑期档片单，政策层面对电影消费的积极引导信号明确。暑期档为中国电影全年最大票仓，头部影片票房表现将直接决定全年影视板块业绩。利好院线和头部影视制作公司。",
+      "stocks": [
+        {
+          "name": "中国电影",
+          "code": "600977.SH",
+          "market": "SH",
+          "sector": "电影发行龙头",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "万达电影",
+          "code": "002739.SZ",
+          "market": "SZ",
+          "sector": "院线龙头",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "光线传媒",
+          "code": "300251.SZ",
+          "market": "SZ",
+          "sector": "影视制作",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "猫眼娱乐",
+          "code": "1896.HK",
+          "market": "HK",
+          "sector": "在线票务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "横店影视",
+          "code": "603103.SH",
+          "market": "SH",
+          "sector": "院线/影视基地",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "title": "印度官员据悉正洽谈允许中国记者返回",
+      "logic": "中印在记者签证问题上释放缓和信号，可能是中印关系渐进改善的早期迹象。若后续扩展为贸易、投资和人员往来正常化，利好对印出口的中国手机、电子和工程企业。但边境问题仍是核心变量，缓和步伐可能缓慢。",
+      "stocks": [
+        {
+          "name": "小米集团-W",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "手机/印度市场",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "传音控股",
+          "code": "688036.SH",
+          "market": "SH",
+          "sector": "手机/新兴市场",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "海尔智家",
+          "code": "600690.SH",
+          "market": "SH",
+          "sector": "家电/印度市场",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械/印度",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -5154,5 +5751,5 @@
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有92条+新增3条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有95条+新增12条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
