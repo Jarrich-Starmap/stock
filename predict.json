@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T07:13:11+08:00",
+  "update_time": "2026-06-30T08:13:12+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -2936,6 +2936,85 @@
           "short_term": "→",
           "mid_term": "→",
           "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "中国核武库规模与美国和俄罗斯相比如何",
+      "logic": "核武库规模比较报道引发全球军备竞赛预期，短期刺激军工板块情绪。美国及盟友可能加速国防开支，中长期利好全球军工供应链。中国核武扩张速度引关注，军工自主可控逻辑强化。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航西飞",
+          "code": "000768.SZ",
+          "market": "SZ",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "军工航空发动机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "美国军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "诺斯罗普格鲁曼",
+          "code": "NOC",
+          "market": "US",
+          "sector": "美国军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "雷神技术",
+          "code": "RTX",
+          "market": "US",
+          "sector": "美国军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国核建",
+          "code": "601611.SH",
+          "market": "SH",
+          "sector": "核工业建设",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中核科技",
+          "code": "000777.SZ",
+          "market": "SZ",
+          "sector": "核工业阀门",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     }
