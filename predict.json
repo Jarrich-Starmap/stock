@@ -3458,6 +3458,257 @@
           "long_term": "→"
         }
       ]
+    },
+    {
+      "id": 73,
+      "title": "中国6月制造业PMI回升至50.3，高科技出口扩张推动制造业恢复增长",
+      "logic": "6月官方制造业PMI回升至50.3（预期49.8），重返扩张区间。高科技出口是主要驱动力，印证中国供应链韧性和产业升级趋势。短期提振市场信心，中期关注出口持续性和内需接力。利好高端制造、半导体、新能源出口链。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源车出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源车出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "消费电子出口",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "大盘指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "中国特色的丰田HiLux猎手：本土皮卡挑战日系标杆",
+      "logic": "中国本土皮卡品牌（长城炮、比亚迪鲨鱼等）在产品力上逼近丰田HiLux，且价格优势明显。东南亚和非洲等新兴市场是中国皮卡出海的下一个增长极。利好长城汽车等出口导向型自主品牌，对丰田在皮卡市场的长期垄断构成挑战。",
+      "stocks": [
+        {
+          "name": "长城汽车",
+          "code": "601633.SH",
+          "market": "SH",
+          "sector": "皮卡出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "长城汽车",
+          "code": "2333.HK",
+          "market": "HK",
+          "sector": "皮卡出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源皮卡",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "江淮汽车",
+          "code": "600418.SH",
+          "market": "SH",
+          "sector": "商用车出口",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日系皮卡承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "第四届中国—中东欧国家新闻发言人对话会举行，共议数智时代机遇和挑战",
+      "logic": "中国与中东欧国家机制化对话持续，数智化合作是'中国—中东欧合作'框架下的新增长点。短期实质性订单落地需要时间，但长期利好参与中东欧数字基建和IT服务的中国企业。中东欧是欧盟新兴市场，中国技术出海的试验田。",
+      "stocks": [
+        {
+          "name": "中兴通讯",
+          "code": "000063.SZ",
+          "market": "SZ",
+          "sector": "通信设备出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "烽火通信",
+          "code": "600498.SH",
+          "market": "SH",
+          "sector": "光通信出海",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国软件",
+          "code": "600536.SH",
+          "market": "SH",
+          "sector": "数字政务出海",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "中国共产党成立105周年：习近平在题词前驻足，民生答卷书写新征程",
+      "logic": "建党105周年系列政治仪式传递政策连续性和稳定性信号。民生议题持续置于政策优先级高位，教育、医疗、养老等公共服务领域有望获得新一轮政策加码。对资本市场直接影响有限，但政策稳定性降低尾部风险，中长期利好消费和公共服务板块。",
+      "stocks": [
+        {
+          "name": "中国太保",
+          "code": "601601.SH",
+          "market": "SH",
+          "sector": "养老保险",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "迈瑞医疗",
+          "code": "300760.SZ",
+          "market": "SZ",
+          "sector": "医疗设备/民生",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "爱尔眼科",
+          "code": "300015.SZ",
+          "market": "SZ",
+          "sector": "医疗服务",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "消费升级/民生",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "中国始终是纳米比亚值得信赖的伙伴：中纳关系新进展",
+      "logic": "中国重申与纳米比亚的合作伙伴关系。纳米比亚是非洲重要的铀矿和钻石产地，中纳关系深化有利于保障中国核燃料和矿产供应链安全。一带一路在非洲西南部的支点进一步巩固。利好核电和矿业相关企业。",
+      "stocks": [
+        {
+          "name": "中国核电",
+          "code": "601985.SH",
+          "market": "SH",
+          "sector": "核电/铀矿供应链",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中广核技",
+          "code": "000881.SZ",
+          "market": "SZ",
+          "sector": "核技术应用",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "非洲基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "洛阳钼业",
+          "code": "603993.SH",
+          "market": "SH",
+          "sector": "非洲矿业",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -3813,8 +4064,64 @@
             "code": "688256.SH"
           }
         ]
+      },
+      {
+        "label": "PMI超预期（新增）",
+        "theme": "6月制造业PMI升至50.3 / 高科技出口扩张",
+        "stocks": [
+          {
+            "name": "中芯国际",
+            "code": "688981.SH"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ"
+          },
+          {
+            "name": "比亚迪",
+            "code": "1211.HK"
+          }
+        ]
+      },
+      {
+        "label": "中国皮卡出海（新增）",
+        "theme": "国产皮卡挑战丰田HiLux / 新兴市场出海",
+        "stocks": [
+          {
+            "name": "长城汽车",
+            "code": "601633.SH"
+          },
+          {
+            "name": "长城汽车",
+            "code": "2333.HK"
+          }
+        ]
+      },
+      {
+        "label": "中东欧数智合作（新增）",
+        "theme": "中国—中东欧对话机制 / 数字基建出海",
+        "stocks": [
+          {
+            "name": "中兴通讯",
+            "code": "000063.SZ"
+          }
+        ]
+      },
+      {
+        "label": "中非矿业合作（新增）",
+        "theme": "纳米比亚铀矿钻石 / 一带一路非洲支点",
+        "stocks": [
+          {
+            "name": "中国核电",
+            "code": "601985.SH"
+          },
+          {
+            "name": "洛阳钼业",
+            "code": "603993.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有64条+新增8条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有72条+新增5条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
