@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T16:47:19+08:00",
+  "update_time": "2026-06-30T18:45:47+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -5197,6 +5197,450 @@
           "long_term": "↑"
         }
       ]
+    },
+    {
+      "id": 108,
+      "title": "安全法助力香港经济创新高",
+      "logic": "国安法公布394人被捕数据后香港经济数据创新高，强化法治稳定预期，增强国际投资者对港股信心。短期情绪提振，中期看资金回流速度，长期香港国际金融中心地位取决于中美博弈走向。",
+      "stocks": [
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "港股风向标",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "新鸿基地产",
+          "code": "0016.HK",
+          "market": "HK",
+          "sector": "香港地产",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生银行",
+          "code": "0011.HK",
+          "market": "HK",
+          "sector": "香港银行",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "友邦保险",
+          "code": "1299.HK",
+          "market": "HK",
+          "sector": "港股保险",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "title": "汉坤律师事务所在上海聘请数据合规专家",
+      "logic": "顶级律所扩编数据合规团队，反映中国数据合规和个人信息保护需求爆发式增长。利好数据安全、隐私计算和合规科技赛道。短期概念，中期看合规订单落地速度。",
+      "stocks": [
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "数据安全",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全/合规",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "安恒信息",
+          "code": "688023.SH",
+          "market": "SH",
+          "sector": "数据安全",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "启明星辰",
+          "code": "002439.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "title": "中国称深化合作是解决与欧盟关切的关键",
+      "logic": "中国官方积极表态愿与欧盟通过深化合作解决分歧，暗示可能在电动车关税、光伏反补贴等议题上寻求突破。短期情绪提振对欧出口标的，中期看10月前谈判实质进展，长期若关系缓和打开估值空间。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "对欧EV出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "对欧光伏出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "电池/欧洲工厂",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "MG欧洲",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "title": "百年灵所有者：中国仍是一个复杂的市场",
+      "logic": "百年灵母公司CVC表态中国市场复杂，暗示高端瑞士手表在华面临国产替代和消费理性化双重压力。利好国产高端腕表和轻奢品牌，利空依赖中国市场的瑞士制表商。",
+      "stocks": [
+        {
+          "name": "飞亚达",
+          "code": "000026.SZ",
+          "market": "SZ",
+          "sector": "国产高端腕表",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "老凤祥",
+          "code": "600612.SH",
+          "market": "SH",
+          "sector": "珠宝轻奢替代",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "LVMH",
+          "code": "MC.PA",
+          "market": "FR",
+          "sector": "奢侈品集团中国承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "Swatch Group",
+          "code": "UHR.SW",
+          "market": "CH",
+          "sector": "瑞士钟表中国承压",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "title": "中国据称因供应充足而放宽部分燃油出口限制",
+      "logic": "国内成品油供应充足促使中国放宽出口限制，增加全球成品油供给。利空国际炼油价差，但利好中石化/中石油出口量增长。短期炼化板块分化，出口配额多的企业受益。",
+      "stocks": [
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "炼化出口受益",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "成品油出口",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "荣盛石化",
+          "code": "002493.SZ",
+          "market": "SZ",
+          "sector": "民营炼化出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒力石化",
+          "code": "600346.SH",
+          "market": "SH",
+          "sector": "民营炼化出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "title": "中国公司如何为欧洲消费者设计产品",
+      "logic": "中国品牌出海战略升级为本土化设计驱动，从低价铺货转向品牌溢价。利好以设计创新驱动的出海消费电子、家电和新能源车企。中长期品牌化出海将提升估值中枢。",
+      "stocks": [
+        {
+          "name": "安克创新",
+          "code": "300866.SZ",
+          "market": "SZ",
+          "sector": "品牌出海/充电储能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海尔智家",
+          "code": "600690.SH",
+          "market": "SH",
+          "sector": "家电品牌出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "石头科技",
+          "code": "688169.SH",
+          "market": "SH",
+          "sector": "扫地机器人出海",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "小米集团-W",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "IoT出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "title": "因涉华宣传在印度被调查的内维尔·辛厄姆在美国面临调查",
+      "logic": "美国司法部与印度同步调查涉华宣传案件，中美在特定议题上形成罕见共同利益。对资本市场直接影响极有限，更多是地缘层面的信号意义。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "大盘指数/无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "title": "中美贸易",
+      "logic": "中美贸易关系仍处于博弈阶段，农产品、能源和高科技是三大战场。中国推动粮食自主和能源多元化，美国农民面临出口市场不确定性。短期板块分化加剧，中期取决于关税谈判走向。",
+      "stocks": [
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "粮食安全受益",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "隆平高科",
+          "code": "000998.SZ",
+          "market": "SZ",
+          "sector": "种业自主",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "能源安全",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "科技自主",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "title": "农民可能因对华贸易和E15生物燃料而受益",
+      "logic": "美国农民因对华农产品出口恢复和E15生物燃料政策双重受益。利好美国农业和生物乙醇板块，但中国若转向巴西等替代来源将削弱利好。对中国农业自给战略无直接影响。",
+      "stocks": [
+        {
+          "name": "ADM",
+          "code": "ADM",
+          "market": "US",
+          "sector": "美国农业综合",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "邦吉",
+          "code": "BG",
+          "market": "US",
+          "sector": "全球农产品贸易",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "中国农业自主",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "title": "中国日常生活",
+      "logic": "纯文化与生活类报道，反映中国社会日常面貌。对资本市场无实质影响，属于软性文化输出内容。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "title": "新加坡航空与中国国航签署合作备忘录以提供更多航班选择",
+      "logic": "新航与国航深化代码共享和航线合作，提升两国航空互联互通。国航借此增强东南亚航线竞争力，新航进入更多中国二三线城市。亚太航空复苏逻辑加强。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "新加坡航空",
+          "code": "C6L.SI",
+          "market": "SG",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "机场枢纽",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "国际航线免税",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "title": "索马里部长：零关税进入中国14亿消费市场是'重大利好'",
+      "logic": "索马里获得中国零关税准入是中非合作的又一里程碑，象征意义大于实质（索马里经济体量极小）。利好中非贸易基础设施和物流企业，长期一带一路非洲支点战略延续。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "非洲基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "传音控股",
+          "code": "688036.SH",
+          "market": "SH",
+          "sector": "非洲手机市场",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国武夷",
+          "code": "000797.SZ",
+          "market": "SZ",
+          "sector": "中非贸易",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
@@ -5748,8 +6192,120 @@
             "code": "601669.SH"
           }
         ]
+      },
+      {
+        "label": "香港法治巩固（新增）",
+        "theme": "国安法维护稳定 / 经济创新高 / 港股信心",
+        "stocks": [
+          {
+            "name": "香港交易所",
+            "code": "0388.HK"
+          },
+          {
+            "name": "友邦保险",
+            "code": "1299.HK"
+          }
+        ]
+      },
+      {
+        "label": "数据合规加速（新增）",
+        "theme": "数据合规需求爆发 / 律所扩编 / 信息安全",
+        "stocks": [
+          {
+            "name": "奇安信",
+            "code": "688561.SH"
+          },
+          {
+            "name": "深信服",
+            "code": "300454.SZ"
+          }
+        ]
+      },
+      {
+        "label": "中欧合作积极信号（新增）",
+        "theme": "中国主动深化合作 / 10月前谈判窗口 / EV光伏出口",
+        "stocks": [
+          {
+            "name": "比亚迪",
+            "code": "1211.HK"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ"
+          }
+        ]
+      },
+      {
+        "label": "奢侈品在华承压（新增）",
+        "theme": "百年灵母公司警示中国市场 / 瑞士手表国产替代",
+        "stocks": [
+          {
+            "name": "飞亚达",
+            "code": "000026.SZ"
+          },
+          {
+            "name": "Swatch Group",
+            "code": "UHR.SW"
+          }
+        ]
+      },
+      {
+        "label": "成品油出口放松（新增）",
+        "theme": "供应充足放宽出口限制 / 民营炼化受益",
+        "stocks": [
+          {
+            "name": "中国石化",
+            "code": "600028.SH"
+          },
+          {
+            "name": "荣盛石化",
+            "code": "002493.SZ"
+          }
+        ]
+      },
+      {
+        "label": "中国品牌出海升级（新增）",
+        "theme": "从低价到本土化设计 / 品牌溢价提升",
+        "stocks": [
+          {
+            "name": "安克创新",
+            "code": "300866.SZ"
+          },
+          {
+            "name": "石头科技",
+            "code": "688169.SH"
+          }
+        ]
+      },
+      {
+        "label": "新航国航合作（新增）",
+        "theme": "代码共享航线合作 / 亚太航空互联互通",
+        "stocks": [
+          {
+            "name": "中国国航",
+            "code": "601111.SH"
+          },
+          {
+            "name": "新加坡航空",
+            "code": "C6L.SI"
+          }
+        ]
+      },
+      {
+        "label": "中非零关税里程碑（新增）",
+        "theme": "索马里零关税准入 / 一带一路非洲深化",
+        "stocks": [
+          {
+            "name": "中国交建",
+            "code": "601800.SH"
+          },
+          {
+            "name": "传音控股",
+            "code": "688036.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有95条+新增12条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有107条+新增12条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
