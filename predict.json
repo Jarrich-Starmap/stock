@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T21:45:37+08:00",
+  "update_time": "2026-06-30T23:00:00+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -6965,6 +6965,650 @@
           "long_term": "↑"
         }
       ]
+    },
+    {
+      "title": "习近平主持防汛抗洪最高级别会议",
+      "logic": "最高级别防汛会议短期利好水利基建、防汛材料和工程机械。洪灾风险推升农产品和保险赔付预期。中长期水利投资确定性增强。",
+      "stocks": [
+        {
+          "name": "钱江水利",
+          "code": "600283.SH",
+          "market": "SH",
+          "sector": "水利基建",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "安徽水利",
+          "code": "600502.SH",
+          "market": "SH",
+          "sector": "水利工程",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "青龙管业",
+          "code": "002457.SZ",
+          "market": "SZ",
+          "sector": "管道管材",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "水利水电工程",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国人保",
+          "code": "601319.SH",
+          "market": "SH",
+          "sector": "财产保险/洪灾赔付",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 151
+    },
+    {
+      "title": "中国前省级政法委书记因巨额受贿被判终身监禁",
+      "logic": "高级别反腐案件强化法治信心和治理信号。对资本市场直接影响有限，但传递政策连续性和反腐决心，长期利好港股风险偏好和外资信心。",
+      "stocks": [
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "港股情绪/法治信心",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "大盘指数/无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 152
+    },
+    {
+      "title": "CGTN民调：全球受访者将中国发展成就归功于中共领导",
+      "logic": "舆论宣传类新闻，对资本市场无直接传导。属于软性国际形象建设，不涉及具体产业政策变化。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 153
+    },
+    {
+      "title": "中共庆祝成立105周年 展望未来",
+      "logic": "政治仪式类新闻，传递政策连续性和稳定预期。对资本市场直接影响有限，但建党周年通常伴随民生政策加码预期（医疗、养老、教育），中长期利好公共服务板块。",
+      "stocks": [
+        {
+          "name": "中国太保",
+          "code": "601601.SH",
+          "market": "SH",
+          "sector": "养老保险",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "迈瑞医疗",
+          "code": "300760.SZ",
+          "market": "SZ",
+          "sector": "医疗设备/民生",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国出版",
+          "code": "601949.SH",
+          "market": "SH",
+          "sector": "文化传媒央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电影",
+          "code": "600977.SH",
+          "market": "SH",
+          "sector": "影视传媒央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 154
+    },
+    {
+      "title": "中国对加拿大豌豆淀粉征收73.5%初步关税",
+      "logic": "对加拿大农产品反倾销/反补贴关税加码，中加贸易摩擦延续。短期利好国内淀粉替代企业，加拿大农产品出口商承压。中加关系紧张对在加有业务的中资基建和能源企业构成长期不确定性。",
+      "stocks": [
+        {
+          "name": "保龄宝",
+          "code": "002286.SZ",
+          "market": "SZ",
+          "sector": "淀粉/功能糖替代",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中粮科技",
+          "code": "000930.SZ",
+          "market": "SZ",
+          "sector": "玉米深加工/淀粉",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "1800.HK",
+          "market": "HK",
+          "sector": "中加基建/贸易承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ],
+      "id": 155
+    },
+    {
+      "title": "中国有限防御能力引发讨论",
+      "logic": "国防能力讨论强化军工自主可控叙事。短期脉冲式刺激军工板块情绪，中长期国防预算持续增长预期巩固。利好军工航空、导弹和信息化装备产业链。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "航空发动机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中兵红箭",
+          "code": "000519.SZ",
+          "market": "SZ",
+          "sector": "军工弹药",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "军工ETF",
+          "code": "512660",
+          "market": "SH",
+          "sector": "军工指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 156
+    },
+    {
+      "title": "中国智谱AI新模型在漏洞检测方面据报匹敌Claude Mythos",
+      "logic": "智谱AI安全能力对标国际顶尖水平，强化中国AI自主可控叙事。利好国产AI安全、网络安全和AI算力板块。短期概念热潮，中期看商业化落地。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全/AI安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "三六零",
+          "code": "601360.SH",
+          "market": "SH",
+          "sector": "网络安全+AI",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 157
+    },
+    {
+      "title": "中国重申推进东盟发展合作的承诺",
+      "logic": "中国与东盟合作深化，利好一带一路东南亚支点。基建、港口、铁路和数字经济合作预期升温。RCEP框架下贸易便利化持续推进。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "东盟基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "东盟轨交",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "北部湾港",
+          "code": "000582.SZ",
+          "market": "SZ",
+          "sector": "东盟港口物流",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 158
+    },
+    {
+      "title": "卢卡申科阐述白俄罗斯与中国高等教育合作愿景",
+      "logic": "教育合作深化中白关系，利好教育科技和留学生服务。但教育类直接影响有限，更多是外交关系的延伸。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI教育科技",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "sector": "职业教育",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 159
+    },
+    {
+      "title": "中国制造业活动受出口推动而扩张",
+      "logic": "制造业PMI数据显示出口驱动扩张，确认前期PMI回升趋势。利好外向型制造业、航运和港口板块。出口强劲但内需仍待巩固，消费板块结构性分化。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体出口制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "消费电子出口",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运/出口运输",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "宁波港",
+          "code": "601018.SH",
+          "market": "SH",
+          "sector": "港口",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 160
+    },
+    {
+      "title": "重新审视UNCLOS：中国发布关于条约法律地位、历史贡献与挑战的评估报告",
+      "logic": "中国在海洋法公约框架下争取话语权，南海法律博弈工具强化。短期脉冲利好海洋防务，中长期海洋经济和海工装备受益。",
+      "stocks": [
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "海洋防务",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "海油工程",
+          "code": "600583.SH",
+          "market": "SH",
+          "sector": "海洋工程",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 161
+    },
+    {
+      "title": "加中紧张局势下加拿大向日本推销稳定性",
+      "logic": "加拿大在中加关系紧张之际寻求向日本出口稳定性，折射加方在中美博弈中的战略摇摆。对中日加三边贸易格局影响有限，短期无明确受益方。加日在能源和农产品领域可能加强合作，间接利空中国对加贸易。",
+      "stocks": [
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "中加航运/贸易承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "T",
+          "sector": "日加能源合作",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 162
+    },
+    {
+      "title": "巴基斯坦与中国深化灾害管理合作",
+      "logic": "中巴全天候关系继续深化，灾害管理合作为一带一路安全运营提供保障。利好参与中巴经济走廊的安全和基础设施企业。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "中巴经济走廊基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "巴基斯坦电力基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 163
+    },
+    {
+      "title": "中国如何在现代化进程中优先保障人民福祉",
+      "logic": "政策宣传类新闻，强调民生优先导向。医疗、养老、教育等公共服务领域政策预期升温。中长期利好消费和公共服务板块，短期无直接催化。",
+      "stocks": [
+        {
+          "name": "迈瑞医疗",
+          "code": "300760.SZ",
+          "market": "SZ",
+          "sector": "医疗设备/民生",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国太保",
+          "code": "601601.SH",
+          "market": "SH",
+          "sector": "养老保险/民生",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 164
+    },
+    {
+      "title": "中巴经济走廊贸易推动下中国买家对巴基斯坦零食表现出兴趣",
+      "logic": "中巴贸易从基建拓展至消费品领域，CPEC经济走廊溢出效应显现。利好中巴跨境贸易和食品加工出口，但体量尚小实质影响有限。",
+      "stocks": [
+        {
+          "name": "嘉里物流",
+          "code": "0636.HK",
+          "market": "HK",
+          "sector": "跨境物流",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国武夷",
+          "code": "000797.SZ",
+          "market": "SZ",
+          "sector": "中巴贸易基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 165
+    },
+    {
+      "title": "俄中伊缩小核差距 美国全面恐慌 新型W93/Mk7弹头准备就绪？",
+      "logic": "全球核军备竞赛叙事升温，军工板块中长期受益逻辑加强。俄罗斯、中国、伊朗核能力提升刺激美国及盟友加速国防开支。利好全球军工供应链，国内军工/核工业板块确定性增强。",
+      "stocks": [
+        {
+          "name": "中国核建",
+          "code": "601611.SH",
+          "market": "SH",
+          "sector": "核工业建设",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "美国军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中核科技",
+          "code": "000777.SZ",
+          "market": "SZ",
+          "sector": "核工业阀门",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ],
+      "id": 166
+    },
+    {
+      "title": "中国长远规划准则确保政策连续性",
+      "logic": "政策宣传类，强调中国体制优势带来的政策稳定性。降低市场尾部风险预期，中长期利好外资流入和港股估值修复。短期无直接催化。",
+      "stocks": [
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "港股外资信心",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "政策稳定性受益",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ],
+      "id": 167
+    },
+    {
+      "title": "中国面临全球反弹 CTA敦促联合国人权理事会采取强有力行动",
+      "logic": "国际NGO对中国施压可能引发新一轮涉华制裁讨论，短期压制中概股和在美有重大业务的中资企业风险偏好。中长期若升级为实际制裁则影响出口链。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概股/地缘风险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD",
+          "market": "US",
+          "sector": "中概股/地缘风险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ],
+      "id": 168
+    },
+    {
+      "title": "上证综指上涨1.16% 市场表现分化 北京佰仁医疗飙升20%",
+      "logic": "A股半年末收官上涨，市场分化格局延续。医疗板块个别股票暴涨反映资金对创新医疗器械赛道热情。半年末机构调仓效应明显，下半年关注科技和医疗主线。",
+      "stocks": [
+        {
+          "name": "佰仁医疗",
+          "code": "688198.SH",
+          "market": "SH",
+          "sector": "创新医疗器械",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "迈瑞医疗",
+          "code": "300760.SZ",
+          "market": "SZ",
+          "sector": "医疗器械龙头",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科创50ETF",
+          "code": "588000",
+          "market": "SH",
+          "sector": "科创板宽基",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ],
+      "id": 169
+    },
+    {
+      "title": "日印将举行安全经济会谈 重点关注中国",
+      "logic": "日印安全经济合作加深，中国在印太地区面临更紧密的美日印澳四方围堵。短期利好印度和日本军工/IT产业，中国对印出口企业面临地缘不确定性。但日印合作深度有限，实质影响需观察。",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "code": "INFY",
+          "market": "US",
+          "sector": "印度IT/日印合作",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "T",
+          "sector": "日本军工/日印合作",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "小米集团-W",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "手机/印度出口承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ],
+      "id": 170
     }
   ],
   "summary": {
