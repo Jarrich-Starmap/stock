@@ -1,11 +1,11 @@
 {
   "meta": {
     "name": "2026年7月1日全球新闻股票推演",
-    "description": "基于2026年7月1日香港K415新闻聚合页面的13条国际新闻，进行短中长期股票多空推演分析，覆盖A股、港股、美股及亚太市场",
+    "description": "基于2026年7月1日香港K415新闻聚合页面的20条国际新闻，进行短中长期股票多空推演分析，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
     "source": "https://hk.k415.win/news/ 2026-07-01",
-    "version": "1.0",
-    "update_time": "2026-07-01T01:50:00+08:00",
+    "version": "1.1",
+    "update_time": "2026-07-01T02:50:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
@@ -549,6 +549,554 @@
           "long_term": "→"
         }
       ]
+    },
+    {
+      "id": 14,
+      "title": "报告总结：中国是特朗普中东战争的明显赢家",
+      "logic": "中东冲突利好中国作为中立调停方获取能源合作与基建订单；中国军工出口可能受益；航运绕道推高运费利好中远海控；油价波动加大能源股波动",
+      "stocks": [
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "石油能源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海能",
+          "code": "1138.HK",
+          "market": "HK",
+          "sector": "能源运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "中国AI正追赶美国竞争对手，对CrowdStrike及网络安全股是利好",
+      "logic": "中国AI技术进步推动全球网络安全需求增长，CrowdStrike、Palo Alto等美国网安龙头受益于地缘政治驱动的安全支出增长；中国AI公司面临技术封锁，国产替代概念亦受关注",
+      "stocks": [
+        {
+          "name": "CrowdStrike",
+          "code": "CRWD",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Palo Alto Networks",
+          "code": "PANW",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "中国放松对朝鲜货物的检查",
+      "logic": "放松检查暗示中朝贸易回暖，利好东北边境贸易和物流企业；朝鲜经济开放预期提升，吉林、辽宁本地基建和贸易股可能受益",
+      "stocks": [
+        {
+          "name": "吉林高速",
+          "code": "601518.SH",
+          "market": "SH",
+          "sector": "交通基建",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "锦州港",
+          "code": "600190.SH",
+          "market": "SH",
+          "sector": "港口物流",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "辽宁成大",
+          "code": "600739.SH",
+          "market": "SH",
+          "sector": "贸易",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "丰田称可靠性使其领先中国竞争对手",
+      "logic": "丰田强调品质优势应对中国电动车竞争，表明中国车企品牌力仍在追赶阶段；但比亚迪、吉利等中国车企价格优势明显，丰田言论侧面反映其面临的中国市场竞争压力加大",
+      "stocks": [
+        {
+          "name": "丰田汽车",
+          "code": "TM",
+          "market": "US",
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "本田汽车",
+          "code": "HMC",
+          "market": "US",
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "美国因安全担忧起草对中国能源逆变器的禁令",
+      "logic": "美国拟禁止中国逆变器产品，直接冲击阳光电源、华为等出口企业；但中国逆变器全球市占率超70%，短期内替代困难，实际影响取决于禁令范围；利好美国本土逆变器替代商",
+      "stocks": [
+        {
+          "name": "阳光电源",
+          "code": "300274.SZ",
+          "market": "SZ",
+          "sector": "光伏逆变器",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "锦浪科技",
+          "code": "300763.SZ",
+          "market": "SZ",
+          "sector": "光伏逆变器",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "Enphase Energy",
+          "code": "ENPH",
+          "market": "US",
+          "sector": "光伏逆变器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "固德威",
+          "code": "688390.SH",
+          "market": "SH",
+          "sector": "光伏逆变器",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "中国对加拿大豌豆淀粉征收73.5%初步关税",
+      "logic": "高额关税将大幅减少加拿大豌豆淀粉对华出口，利好中国本土淀粉生产企业；中加贸易摩擦持续升级，加拿大农产品出口商承压",
+      "stocks": [
+        {
+          "name": "保龄宝",
+          "code": "002286.SZ",
+          "market": "SZ",
+          "sector": "农产品加工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中粮科技",
+          "code": "000930.SZ",
+          "market": "SZ",
+          "sector": "农产品加工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "双塔食品",
+          "code": "002481.SZ",
+          "market": "SZ",
+          "sector": "食品加工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "随着中国威胁增长，空军披露B-2隐形轰炸机反舰能力",
+      "logic": "美军强化反舰能力针对中国海军扩张，地缘政治紧张推高军工板块热度；中国海军装备升级需求更迫切，利好中国军工船舶股",
+      "stocks": [
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "诺斯罗普格鲁曼",
+          "code": "NOC",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国重工",
+          "code": "601989.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Silvercorp中国矿山因安全升级产量削减多达50%",
+      "logic": "产量骤降直接影响Silvercorp营收和利润，短期股价承压；中国矿山安全监管趋严可能波及其他矿业公司；白银供给收紧中长期利好银价",
+      "stocks": [
+        {
+          "name": "Silvercorp Metals",
+          "code": "SVM",
+          "market": "US",
+          "sector": "矿业/白银",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "矿业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "黄金矿业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "中国车载电磁弹射器首次亮相实战",
+      "logic": "中国军工技术突破展示电磁弹射系统实战化能力，利好相关军工电子和装备企业；电磁弹射技术可延伸至航母等领域，提升中国军工整体估值",
+      "stocks": [
+        {
+          "name": "中国动力",
+          "code": "600482.SH",
+          "market": "SH",
+          "sector": "军工电子",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "军工电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "军工连接器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "美国参议员指出中国民族团结法对藏人和维吾尔人的威胁",
+      "logic": "人权议题升温可能引发美国新一轮对华制裁或限制措施，中概股面临政治风险溢价上升；新疆/西藏相关议题持续影响西方投资者对中国市场的信心",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD",
+          "market": "US",
+          "sector": "电商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "互联网/AI",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "联邦机构称LinkedIn成为中国间谍最新目标",
+      "logic": "网络安全威胁升级推高企业安全支出，利好网络安全板块；微软旗下LinkedIn若面临监管审查，可能影响微软企业服务在华业务；中美科技脱钩加速利好国产替代",
+      "stocks": [
+        {
+          "name": "微软",
+          "code": "MSFT",
+          "market": "US",
+          "sector": "科技",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "CrowdStrike",
+          "code": "CRWD",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三六零",
+          "code": "601360.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "启明星辰",
+          "code": "002439.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "欧洲对中国空调需求激增：TCL和海信领跑",
+      "logic": "欧洲高温和能源转型推动空调需求，TCL和海信海外收入增长确定性高；中国家电品牌全球份额持续提升，利好出口型家电企业",
+      "stocks": [
+        {
+          "name": "TCL科技",
+          "code": "000100.SZ",
+          "market": "SZ",
+          "sector": "家电/面板",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海信家电",
+          "code": "000921.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "特朗普在出生公民权受挫后嘲讽中国",
+      "logic": "特朗普持续对华强硬言论增加中美关系不确定性，短期打压市场风险偏好；但市场对特朗普言论敏感度已边际递减，实际影响取决于后续政策落地",
+      "stocks": [
+        {
+          "name": "iShares中国大盘股ETF",
+          "code": "FXI",
+          "market": "US",
+          "sector": "ETF/中概股",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "KraneShares中概互联网ETF",
+          "code": "KWEB",
+          "market": "US",
+          "sector": "ETF/中概股",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "标普500 ETF",
+          "code": "SPY",
+          "market": "US",
+          "sector": "ETF",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Brad Setser：中国国有金融体系海外资产接近6万亿美元",
+      "logic": "中国国有银行海外资产规模庞大，表明中国金融全球化程度加深；大型国有银行海外业务多元化增强抗风险能力；人民币国际化趋势利好银行板块长期估值",
+      "stocks": [
+        {
+          "name": "工商银行",
+          "code": "601398.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国银行",
+          "code": "601988.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "建设银行",
+          "code": "0939.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "交通银行",
+          "code": "601328.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -664,8 +1212,78 @@
             "short_term": "↑"
           }
         ]
+      },
+      {
+        "label": "中国中东战争赢家（新增）",
+        "theme": "中东冲突利好中国能源与航运",
+        "stocks": []
+      },
+      {
+        "label": "中国AI追赶利好CrowdStrike（新增）",
+        "theme": "网络安全投资主题",
+        "stocks": []
+      },
+      {
+        "label": "朝鲜货物检查放松（新增）",
+        "theme": "中朝边境贸易回暖",
+        "stocks": []
+      },
+      {
+        "label": "丰田vs中国车企（新增）",
+        "theme": "中日汽车竞争格局",
+        "stocks": []
+      },
+      {
+        "label": "美国逆变器禁令（新增）",
+        "theme": "光伏逆变器出口承压",
+        "stocks": []
+      },
+      {
+        "label": "加拿大豌豆淀粉关税（新增）",
+        "theme": "中加贸易摩擦升级",
+        "stocks": []
+      },
+      {
+        "label": "B-2反舰能力披露（新增）",
+        "theme": "中美军事博弈推高军工",
+        "stocks": []
+      },
+      {
+        "label": "Silvercorp矿山减产（新增）",
+        "theme": "银矿供给收紧",
+        "stocks": []
+      },
+      {
+        "label": "中国电磁弹射器亮相（新增）",
+        "theme": "军工电子技术突破",
+        "stocks": []
+      },
+      {
+        "label": "民族团结法争议（新增）",
+        "theme": "中概股政治风险溢价",
+        "stocks": []
+      },
+      {
+        "label": "LinkedIn间谍目标（新增）",
+        "theme": "网络安全板块受益",
+        "stocks": []
+      },
+      {
+        "label": "欧洲空调需求激增（新增）",
+        "theme": "中国家电出口景气",
+        "stocks": []
+      },
+      {
+        "label": "特朗普嘲讽中国（新增）",
+        "theme": "中美关系不确定性",
+        "stocks": []
+      },
+      {
+        "label": "中国银行海外资产6万亿（新增）",
+        "theme": "国有银行全球化估值提升",
+        "stocks": []
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月1日公开新闻的逻辑推演，不构成任何投资建议。股票市场受多重因素影响，预测具有不确定性，投资者应独立判断并承担风险。数据来源：https://hk.k415.win/news/"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。预测方向仅反映新闻事件的短期情绪和中长期逻辑推演，实际股价受多种因素影响。"
 }
