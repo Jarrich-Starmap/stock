@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新闻-股票分析</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #111;
+    --border: #d4d4d4;
+    --border-light: #e8e8e8;
+    --muted: #888;
+    --up2: #c62828;
+    --up1: #e53935;
+    --flat: #999;
+    --down1: #43a047;
+    --down2: #2e7d32;
+    --card-bg: #fafafa;
+    --tag-bg: #f0f0f0;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+    padding: 0 16px 40px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  header {
+    padding: 32px 0 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+  header .meta {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .summary-card {
+    border: 1px solid var(--border);
+    padding: 14px;
+    background: var(--card-bg);
+  }
+  .summary-card .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .summary-card .theme {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .summary-card .tickers {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.8;
+  }
+  .summary-card .tickers span {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 2px 6px;
+    background: var(--tag-bg);
+    border-radius: 2px;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+  }
+  .news-item {
+    border: 1px solid var(--border);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .news-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    cursor: pointer;
+    user-select: none;
+    background: #fff;
+    transition: background 0.15s;
+  }
+  .news-header:hover { background: #f5f5f5; }
+  .news-header .num {
+    font-size: 11px;
+    color: var(--muted);
+    min-width: 24px;
+  }
+  .news-header .title {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 8px;
+  }
+  .news-header .toggle {
+    font-size: 12px;
+    color: var(--muted);
+    transition: transform 0.2s;
+  }
+  .news-item.open .news-header .toggle { transform: rotate(180deg); }
+  .news-body {
+    display: none;
+    padding: 0 14px 14px;
+    border-top: 1px solid var(--border-light);
+  }
+  .news-item.open .news-body { display: block; }
+  .news-logic {
+    font-size: 13px;
+    color: #555;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 10px;
+  }
+  .news-logic::before { content: "逻辑: "; font-weight: 600; color: var(--fg); }
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .stock-table th, .stock-table td {
+    padding: 7px 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .stock-table th {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .stock-table td.code { font-family: "SF Mono", "Menlo", "Monaco", monospace; font-size: 12px; color: #555; }
+  .stock-table td.rating { text-align: center; font-weight: 600; min-width: 36px; }
+  .rating-up2   { color: var(--up2);   }
+  .rating-up1   { color: var(--up1);   }
+  .rating-flat  { color: var(--flat);  }
+  .rating-down1 { color: var(--down1); }
+  .rating-down2 { color: var(--down2); }
+  .market-tag {
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px 5px;
+    border: 1px solid var(--border-light);
+    border-radius: 2px;
+    margin-right: 4px;
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 24px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .loading-state { text-align: center; padding: 60px 0; color: var(--muted); font-size: 14px; }
+  .error-state { text-align: center; padding: 60px 0; color: #555; font-size: 14px; }
+  
+  .search-bar {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--fg);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-bar input:focus {
+    border-color: #888;
+  }
+  .search-bar input::placeholder {
+    color: #bbb;
+  }
+  .search-count {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: var(--muted);
+    pointer-events: none;
+  }
+  .news-item.hidden { display: none; }
+  .highlight {
+    background: #e8e8e8;
+    padding: 1px 2px;
+    border-radius: 2px;
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 0 10px 30px; }
+    header h1 { font-size: 17px; }
+    .news-header { padding: 10px 12px; }
+    .news-header .title { font-size: 13px; }
+    .stock-table { font-size: 11px; }
+    .stock-table th, .stock-table td { padding: 5px 6px; }
+    .summary-grid { grid-template-columns: 1fr 1fr; gap: 6px; }
+
+    .search-bar input { font-size: 16px; padding: 10px 12px; }
+
+    .summary-card { padding: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>新闻-股票分析</h1>
+  <div class="meta">数据更新: <span id="updateTime">加载中...</span></div>
+</header>
+
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="搜索股票名称、代码、新闻关键词..." autocomplete="off">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="section-title">综合判断</div>
+<div class="summary-grid" id="summaryGrid"></div>
+
+<div class="section-title" id="newsSectionTitle">逐条分析</div>
+<div id="newsList" class="loading-state">加载数据中...</div>
+
+<footer>
+  <div id="disclaimer"></div>
+</footer>
+
+<script>
+(function() {
+  const DATA_URL = '/stock/predict.json';
+
+  function ratingClass(val) {
+    if (!val) return 'rating-flat';
+    if (val === '↑↑') return 'rating-up2';
+    if (val === '↑')  return 'rating-up1';
+    if (val === '→')  return 'rating-flat';
+    if (val === '↓')  return 'rating-down1';
+    if (val === '↓↓') return 'rating-down2';
+    return 'rating-flat';
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
+  function dirStyle(dir) {
+    if (!dir) return '';
+    if (dir.indexOf('↑') !== -1) return 'color:#c62828;font-weight:700;letter-spacing:-0.5px';
+    if (dir.indexOf('↓') !== -1) return 'color:#2e7d32;font-weight:700;letter-spacing:-0.5px';
+    return 'color:#999;font-weight:700;letter-spacing:-0.5px';
+  }
+
+  function renderSummary(data) {
+    var grid = document.getElementById('summaryGrid');
+    if (!data.summary || !data.summary.directions) {
+      grid.innerHTML = '<div class="error-state">暂无综合判断数据</div>';
+      return;
+    }
+    var html = '';
+    data.summary.directions.forEach(function(d) {
+      var tickers = d.stocks.map(function(s) {
+        return '<span>' + escapeHtml(s.name) + ' ' + escapeHtml(s.code) +
+          (s.direction ? ' <b style="' + dirStyle(s.direction) + '">' + escapeHtml(s.direction) + '</b>' : '') + '</span>';
+      }).join('');
+      html += '<div class="summary-card">' +
+        '<div class="label">' + escapeHtml(d.label) + '</div>' +
+        '<div class="theme">' + escapeHtml(d.theme) + '</div>' +
+        '<div class="tickers">' + tickers + '</div>' +
+      '</div>';
+    });
+    grid.innerHTML = html;
+  }
+
+  function renderNewsList(data) {
+    var list = document.getElementById('newsList');
+    if (!data.news_analysis || !data.news_analysis.length) {
+      list.innerHTML = '<div class="error-state">暂无分析数据</div>';
+      return;
+    }
+    var html = '';
+    data.news_analysis.forEach(function(news) {
+      html += '<div class="news-item">' +
+        '<div class="news-header" onclick="this.parentElement.classList.toggle(\'open\')">' +
+          '<span class="num">#' + news.id + '</span>' +
+          '<span class="title">' + escapeHtml(news.title) + '</span>' +
+          '<span class="toggle">&#9660;</span>' +
+        '</div>' +
+        '<div class="news-body">' +
+          '<div class="news-logic">' + escapeHtml(news.logic || '') + '</div>' +
+          '<table class="stock-table"><thead><tr>' +
+            '<th>股票名称</th><th>代码</th><th>市场</th><th>板块</th>' +
+            '<th>短期</th><th>中期</th><th>长期</th>' +
+          '</tr></thead><tbody>';
+
+      (news.stocks || []).forEach(function(s) {
+        html += '<tr>' +
+          '<td>' + escapeHtml(s.name) + '</td>' +
+          '<td class="code">' + escapeHtml(s.code) + '</td>' +
+          '<td><span class="market-tag">' + escapeHtml(s.market) + '</span></td>' +
+          '<td>' + escapeHtml(s.sector || '') + '</td>' +
+          '<td class="rating ' + ratingClass(s.short_term) + '">' + escapeHtml(s.short_term || '') + '</td>' +
+          '<td class="rating ' + ratingClass(s.mid_term) + '">' + escapeHtml(s.mid_term || '') + '</td>' +
+          '<td class="rating ' + ratingClass(s.long_term) + '">' + escapeHtml(s.long_term || '') + '</td>' +
+        '</tr>';
+      });
+
+      html += '</tbody></table></div></div>';
+    });
+    list.innerHTML = html;
+    document.getElementById('newsSectionTitle').textContent =
+      '逐条分析（' + data.news_analysis.length + '条）';
+  }
+
+  function loadData() {
+    fetch(DATA_URL)
+      .then(function(res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function(data) {
+        document.getElementById('updateTime').textContent = data.update_time || '未知';
+        document.getElementById('disclaimer').textContent = data.disclaimer || '';
+        renderSummary(data);
+        renderNewsList(data);
+      })
+      .catch(function(err) {
+        document.getElementById('newsList').innerHTML =
+          '<div class="error-state">数据加载失败: ' + escapeHtml(err.message) + '</div>';
+        document.getElementById('updateTime').textContent = '加载失败';
+      });
+  }
+
+  loadData();
+
+  // 搜索功能
+  var searchInput = document.getElementById('searchInput');
+  var searchCount = document.getElementById('searchCount');
+
+  function highlightText(el, keyword) {
+    if (!keyword) return;
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function(node) {
+      var text = node.textContent;
+      var idx = text.toLowerCase().indexOf(keyword.toLowerCase());
+      if (idx === -1) return;
+      var span = document.createElement('span');
+      var before = text.substring(0, idx);
+      var match = text.substring(idx, idx + keyword.length);
+      var after = text.substring(idx + keyword.length);
+      span.appendChild(document.createTextNode(before));
+      var mark = document.createElement('mark');
+      mark.className = 'highlight';
+      mark.textContent = match;
+      span.appendChild(mark);
+      span.appendChild(document.createTextNode(after));
+      node.parentNode.replaceChild(span, node);
+    });
+  }
+
+  function clearHighlights() {
+    var marks = document.querySelectorAll('.highlight');
+    marks.forEach(function(m) {
+      var parent = m.parentNode;
+      parent.replaceChild(document.createTextNode(m.textContent), m);
+      parent.normalize();
+    });
+  }
+
+  searchInput.addEventListener('input', function() {
+    var keyword = this.value.trim();
+    clearHighlights();
+
+    var items = document.querySelectorAll('.news-item');
+    if (!items.length) return;
+
+    var visible = 0;
+    items.forEach(function(item) {
+      var header = item.querySelector('.news-header .title');
+      var body = item.querySelector('.news-body');
+      var titleText = header ? header.textContent : '';
+      var bodyText = body ? body.textContent : '';
+
+      if (!keyword) {
+        item.classList.remove('hidden');
+        item.classList.remove('open');
+        visible++;
+      } else if (titleText.toLowerCase().indexOf(keyword.toLowerCase()) !== -1 ||
+                 bodyText.toLowerCase().indexOf(keyword.toLowerCase()) !== -1) {
+        item.classList.remove('hidden');
+        item.classList.add('open');
+        visible++;
+        // 高亮匹配文本
+        highlightText(header, keyword);
+        if (body) highlightText(body, keyword);
+        // 滚动到第一个匹配项
+        if (visible === 1) {
+          setTimeout(function() {
+            item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 50);
+        }
+      } else {
+        item.classList.remove('open');
+        item.classList.add('hidden');
+      }
+    });
+
+    searchCount.textContent = keyword ? visible + '/' + items.length : '';
+  });
+})();
+</script>
+</body>
+</html>
