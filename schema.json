@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jarrich-starmap.github.io/stock/schema.json",
+  "title": "新闻驱动股票推演数据通用格式",
+  "description": "基于公开新闻事件驱动的短中长期股票多空推演数据集，覆盖 A 股、港股、美股及亚太欧洲市场",
+  "type": "object",
+  "required": ["meta", "news_analysis"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "description": "数据集元信息",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "数据集名称，如 2026年6月全球新闻股票推演"
+        },
+        "description": {
+          "type": "string",
+          "description": "数据集整体说明"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["daily", "weekly", "event", "custom"],
+          "description": "分类标签：daily=日更, weekly=周更, event=事件驱动, custom=自定义"
+        },
+        "source": {
+          "type": "string",
+          "description": "数据来源/整理日期，如 2026年6月综合整理"
+        },
+        "version": {
+          "type": "string",
+          "description": "数据版本号"
+        },
+        "update_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "数据更新时间（ISO 8601），如 2026-06-30T13:40:11+08:00"
+        },
+        "declaration": {
+          "type": "string",
+          "description": "免责声明，如 以下为基于公开新闻的逻辑推演，不构成投资建议"
+        }
+      }
+    },
+    "news_analysis": {
+      "type": "array",
+      "description": "新闻-股票关联分析条目列表",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "logic", "stocks"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "新闻编号，唯一递增"
+          },
+          "title": {
+            "type": "string",
+            "description": "新闻标题，简洁概括事件核心"
+          },
+          "logic": {
+            "type": "string",
+            "description": "从新闻到股票影响的逻辑推演链路"
+          },
+          "stocks": {
+            "type": "array",
+            "description": "受该新闻影响的股票列表",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["name", "code", "market"],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "股票名称"
+                },
+                "code": {
+                  "type": "string",
+                  "description": "股票代码（含交易所后缀），如 1211.HK"
+                },
+                "market": {
+                  "type": "string",
+                  "description": "交易市场代码",
+                  "enum": ["AU", "CA", "CH", "DE", "DK", "FR", "HK", "IN", "IT", "JP", "KR", "PRIVATE", "SE", "SH", "SZ", "T", "TH", "TW", "UK", "US"]
+                },
+                "sector": {
+                  "type": "string",
+                  "description": "行业板块分类"
+                },
+                "short_term": {
+                  "type": "string",
+                  "description": "短期（1-30天）影响方向",
+                  "enum": ["↑", "↑↑", "↓", "→"]
+                },
+                "mid_term": {
+                  "type": "string",
+                  "description": "中期（1-6个月）影响方向",
+                  "enum": ["↑", "↑↑", "↓", "→"]
+                },
+                "long_term": {
+                  "type": "string",
+                  "description": "长期（6个月以上）影响方向",
+                  "enum": ["↑", "↑↑", "↓", "→"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "description": "数据集的汇总与新增记录",
+      "properties": {
+        "newly_added": {
+          "type": "array",
+          "description": "最新新增的新闻条目记录",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "description": "新增条目标签，如 金价回调中国增持（新增）"
+              },
+              "theme": {
+                "type": "string",
+                "description": "新闻主题摘要"
+              },
+              "stocks": {
+                "type": "array",
+                "description": "关联的股票列表",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "code"],
+                  "properties": {
+                    "name": { "type": "string" },
+                    "code": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "disclaimer": {
+      "type": "string",
+      "description": "风险提示与免责声明，如 以上分析基于公开新闻，不构成投资建议"
+    }
+  }
+}
