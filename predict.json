@@ -3017,6 +3017,76 @@
           "long_term": "↑"
         }
       ]
+    },
+    {
+      "id": 64,
+      "title": "中国警告澳大利亚不要在瓦努阿图协议上玩'地缘政治游戏'",
+      "logic": "中国官方对澳瓦安全协议发出外交警告，表明中国在南太平洋地缘博弈中从被动接受转向主动反制。短期南太基建项目推进可能面临更多外交阻力，但中国的强硬姿态有利于维护长期战略利益。涉及一带一路南太布局、中澳贸易关系和区域安全格局。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "南太基建",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "海外基建",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "海外基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "澳大利亚联邦银行",
+          "code": "CBA.AX",
+          "market": "AU",
+          "sector": "澳洲金融",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "必和必拓",
+          "code": "BHP",
+          "market": "US",
+          "sector": "澳矿/中澳贸易",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "力拓",
+          "code": "RIO",
+          "market": "US",
+          "sector": "澳矿/中澳贸易",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "中澳航运",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
@@ -3288,8 +3358,22 @@
             "code": "CFP.TO"
           }
         ]
+      },
+      {
+        "label": "南太地缘博弈（新增）",
+        "theme": "中国警告澳瓦安全协议 / 中澳关系",
+        "stocks": [
+          {
+            "name": "必和必拓",
+            "code": "BHP"
+          },
+          {
+            "name": "中国交建",
+            "code": "601800.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有59条+新增3条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有63条+新增1条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
