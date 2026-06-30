@@ -69,7 +69,7 @@
             "minItems": 1,
             "items": {
               "type": "object",
-              "required": ["name", "code", "market"],
+              "required": ["name", "code", "market", "short_term"],
               "properties": {
                 "name": {
                   "type": "string",
