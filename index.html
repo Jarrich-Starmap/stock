@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>新闻-股票分析</title>
+<title id="pageTitle">新闻-股票分析</title>
 <style>
   :root {
     --bg: #fff;
@@ -40,16 +40,25 @@
     letter-spacing: -0.3px;
   }
   header .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 6px;
     font-size: 13px;
     color: var(--muted);
   }
+  .meta a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .meta a:hover { color: var(--fg); }
 
   .summary-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
   .summary-card {
     border: 1px solid var(--border);
@@ -88,7 +97,7 @@
     color: var(--muted);
     border-bottom: 1px solid var(--border-light);
     padding-bottom: 8px;
-    margin-bottom: 14px;
+    margin-bottom: 6px;
   }
   .news-item {
     border: 1px solid var(--border);
@@ -177,7 +186,7 @@
     font-size: 12px;
     color: var(--muted);
   }
-  .loading-state { text-align: center; padding: 60px 0; color: var(--muted); font-size: 14px; }
+  .loading-state { text-align: center; padding: 12px 0; color: var(--muted); font-size: 14px; }
   .error-state { text-align: center; padding: 60px 0; color: #555; font-size: 14px; }
   
   .search-bar {
@@ -236,8 +245,8 @@
 <body>
 
 <header>
-  <h1>新闻-股票分析</h1>
-  <div class="meta">数据更新: <span id="updateTime">加载中...</span></div>
+  <h1 id="pageHeading">新闻-股票分析</h1>
+  <div class="meta"><span>数据更新: <span id="updateTime">加载中...</span></span><a target="_blank" href="https://hk.k415.win/news/">新闻源 &rarr;</a></div>
 </header>
 
 
@@ -258,7 +267,12 @@
 
 <script>
 (function() {
-  const DATA_URL = '/stock/predict.json';
+  var today = new Date();
+  var yyyy = today.getFullYear();
+  var mm = String(today.getMonth() + 1).padStart(2, '0');
+  var dd = String(today.getDate()).padStart(2, '0');
+  var dayStr = yyyy + '-' + mm + '-' + dd;
+  var DATA_URL = '/stock/predict_' + dayStr + '.json';
 
   function ratingClass(val) {
     if (!val) return 'rating-flat';
@@ -285,15 +299,16 @@
 
   function renderSummary(data) {
     var grid = document.getElementById('summaryGrid');
-    if (!data.summary || !data.summary.directions) {
+    var summaryItems = (data.summary && data.summary.newly_added) || (data.summary && data.summary.directions) || [];
+      if (!summaryItems.length) {
       grid.innerHTML = '<div class="error-state">暂无综合判断数据</div>';
       return;
     }
     var html = '';
-    data.summary.directions.forEach(function(d) {
+    summaryItems.forEach(function(d) {
       var tickers = d.stocks.map(function(s) {
         return '<span>' + escapeHtml(s.name) + ' ' + escapeHtml(s.code) +
-          (s.direction ? ' <b style="' + dirStyle(s.direction) + '">' + escapeHtml(s.direction) + '</b>' : '') + '</span>';
+          (s.direction || s.short_term ? ' <b style="' + dirStyle(s.direction || s.short_term) + '">' + escapeHtml(s.direction || s.short_term) + '</b>' : '') + '</span>';
       }).join('');
       html += '<div class="summary-card">' +
         '<div class="label">' + escapeHtml(d.label) + '</div>' +
@@ -351,7 +366,12 @@
         return res.json();
       })
       .then(function(data) {
-        document.getElementById('updateTime').textContent = data.update_time || '未知';
+        document.getElementById('updateTime').textContent = (data.meta && data.meta.update_time) || data.update_time || '未知';
+        var pageName = (data.meta && data.meta.name) || '';
+        if (pageName) {
+          document.getElementById('pageTitle').textContent = pageName;
+          document.getElementById('pageHeading').textContent = pageName;
+        }
         document.getElementById('disclaimer').textContent = data.disclaimer || '';
         renderSummary(data);
         renderNewsList(data);
