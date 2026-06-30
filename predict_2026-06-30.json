@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "name": "2026年6月30日全球新闻股票推演",
+    "description": "基于2026年6月30日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及欧洲市场",
+    "category": "daily",
+    "source": "https://hk.k415.win/news/ 2026年6月30日综合整理",
+    "version": "1.0",
+    "update_time": "2026-06-30T23:00:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "中国是特朗普中东战争的明显赢家",
+      "logic": "中东局势持续紧张，霍尔木兹海峡通行受阻推高油运价格，中国能源安全战略受益，油运和军工板块直接受益于地缘冲突预期",
+      "stocks": [
+        {
+          "name": "中远海能",
+          "code": "600026.SH",
+          "market": "SH",
+          "sector": "航运/油运",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "招商轮船",
+          "code": "601872.SH",
+          "market": "SH",
+          "sector": "航运/油运",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海油",
+          "code": "600938.SH",
+          "market": "SH",
+          "sector": "能源/油气",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "军工/无人机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "铜：中国PMI支持，美国关税风险",
+      "logic": "中国6月PMI回升至50.3扩张区间支撑铜需求预期，但美国关税风险压制全球贸易情绪，铜价短期震荡偏强，中长期取决于关税谈判结果",
+      "stocks": [
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "有色金属/铜矿",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "江西铜业",
+          "code": "600362.SH",
+          "market": "SH",
+          "sector": "有色金属/铜矿",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "洛阳钼业",
+          "code": "603993.SH",
+          "market": "SH",
+          "sector": "有色金属/铜钴",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "随着美国规则收紧，中国人工智能股票散户投资者正在关注",
+      "logic": "美国对华AI芯片管制加强反而催化国产替代需求，海光信息、寒武纪等国产AI芯片龙头受益于政策红利和禁令替代效应",
+      "stocks": [
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "半导体/AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "半导体/AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体/晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国向委内瑞拉地震灾区提供卫星图像支持",
+      "logic": "中国卫星遥感技术对外输出展示实力，利好航天卫星产业链，提升国产遥感卫星国际影响力",
+      "stocks": [
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天/卫星制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天宏图",
+          "code": "688066.SH",
+          "market": "SH",
+          "sector": "航天/遥感应用",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "丰田表示可靠性使其比中国竞争对手更具优势",
+      "logic": "丰田强调可靠性优势对比中国新能源车企，短期对比亚迪等品牌形成舆论压力，但中国车企技术进步和性价比优势中期难以动摇",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "汽车/新能源车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO.N",
+          "market": "US",
+          "sector": "汽车/新能源车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "小鹏汽车",
+          "code": "XPEV.N",
+          "market": "US",
+          "sector": "汽车/新能源车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "美国立法者调查默克和艾伯维中国临床试验",
+      "logic": "美国调查跨国药企在华临床试验可能影响中美医药合作，CXO板块短期承压，但对国产创新药企长期是替代机遇",
+      "stocks": [
+        {
+          "name": "药明康德",
+          "code": "603259.SH",
+          "market": "SH",
+          "sector": "医药/CXO",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "凯莱英",
+          "code": "002821.SZ",
+          "market": "SZ",
+          "sector": "医药/CDMO",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒瑞医药",
+          "code": "600276.SH",
+          "market": "SH",
+          "sector": "医药/创新药",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "默克",
+          "code": "MRK.N",
+          "market": "US",
+          "sector": "医药/跨国药企",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "艾伯维",
+          "code": "ABBV.N",
+          "market": "US",
+          "sector": "医药/跨国药企",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "新加坡航空与中国国际航空深化战略合作并签署合资协议",
+      "logic": "国航与新航联营合作将优化中新航线网络，提升中转效率和旅客体验，利好航空出行板块，国航国际航线竞争力增强",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "交通运输/航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "交通运输/航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "习近平同塞舌尔总统互致贺电庆祝建交50周年",
+      "logic": "中非外交关系强化利好一带一路概念，塞舌尔作为印度洋战略节点，基建和贸易合作预期提升",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建/一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建/一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "美国对华打击力度加大，阿斯麦股价暴跌",
+      "logic": "MATCH法案拟将DUV光刻机纳入对华出口管制，ASML在华收入将受冲击，但国产半导体设备和材料企业迎来替代窗口",
+      "stocks": [
+        {
+          "name": "ASML",
+          "code": "ASML.O",
+          "market": "US",
+          "sector": "半导体/设备",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "半导体/刻蚀设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体/设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体/晶圆代工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中国褐皮书：强劲制造业拉动中国6月经济增长",
+      "logic": "6月制造业PMI回升至50.3，生产和需求双双回暖，工业金属和制造业龙头直接受益于经济复苏预期",
+      "stocks": [
+        {
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁/制造业",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "机械/工程机械",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国2950亿美元的人工智能雄心将推动国内高科技股上涨",
+      "logic": "2万亿算力网计划驱动国产AI芯片、服务器、光模块全产业链受益，国产化率80%红线锁定核心硬件企业订单",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "半导体/AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "半导体/AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "浪潮信息",
+          "code": "000977.SZ",
+          "market": "SZ",
+          "sector": "计算机/AI服务器",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "计算机/超算",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "工业富联",
+          "code": "601138.SH",
+          "market": "SH",
+          "sector": "计算机/AI服务器ODM",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "sector": "通信/光模块",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国在战略航空材料领域加大对美日的挑战：T1100碳纤维新产线投产",
+      "logic": "中复神鹰T1100级碳纤维千吨产线投产打破国外高端碳纤维垄断，航空航天和新能源材料自主可控加速",
+      "stocks": [
+        {
+          "name": "中复神鹰",
+          "code": "688295.SH",
+          "market": "SH",
+          "sector": "新材料/碳纤维",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "光威复材",
+          "code": "300699.SZ",
+          "market": "SZ",
+          "sector": "新材料/碳纤维",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国建材",
+          "code": "03323.HK",
+          "market": "HK",
+          "sector": "建材/新材料",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "解读西方「中国冲击2.0」叙事背后的逻辑",
+      "logic": "西方对中国制造业出口新一波冲击的担忧加剧，短期可能引发更多贸易摩擦，但中国制造业竞争力持续提升趋势不变",
+      "stocks": [
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源/电池",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电/制造业出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "与中国的芯片战正在失败",
+      "logic": "美国智库承认对华芯片管制效果有限，中国半导体在成熟制程已实现突破，利好国产半导体产业链信心修复",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体/晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华虹半导体",
+          "code": "688347.SH",
+          "market": "SH",
+          "sector": "半导体/特色工艺",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "沪硅产业",
+          "code": "688126.SH",
+          "market": "SH",
+          "sector": "半导体/硅片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "随着人工智能出口需求的增加，中国工厂活动有所回升",
+      "logic": "AI出口需求推动中国制造业PMI回升，AI硬件产业链出口型企业直接受益，算力相关制造业景气度持续走高",
+      "stocks": [
+        {
+          "name": "新易盛",
+          "code": "300502.SZ",
+          "market": "SZ",
+          "sector": "通信/光模块",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "电子/精密制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "sector": "通信/光模块",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "中国AI 2950亿美元算力网计划（新增）",
+        "theme": "中国2万亿算力网计划驱动国产AI芯片、服务器、光模块全产业链受益",
+        "stocks": [
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "浪潮信息",
+            "code": "000977.SZ",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "T1100碳纤维千吨产线投产（新增）",
+        "theme": "中复神鹰T1100级碳纤维打破国外垄断，航空航天材料自主可控里程碑",
+        "stocks": [
+          {
+            "name": "中复神鹰",
+            "code": "688295.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "光威复材",
+            "code": "300699.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "ASML暴跌/芯片战失败（新增）",
+        "theme": "美国加码对华芯片管制反噬ASML，中国半导体自主化加速",
+        "stocks": [
+          {
+            "name": "ASML",
+            "code": "ASML.O",
+            "short_term": "↓"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中东局势/航运受益（新增）",
+        "theme": "特朗普中东战争推动霍尔木兹海峡紧张，油运和能源板块持续受益",
+        "stocks": [
+          {
+            "name": "中远海能",
+            "code": "600026.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中国海油",
+            "code": "600938.SH",
+            "short_term": "↑"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年6月30日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向仅供参考，实际走势受多重因素影响。"
+}
