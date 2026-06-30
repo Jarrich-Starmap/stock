@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T08:13:12+08:00",
+  "update_time": "2026-06-30T11:28:40+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -3087,6 +3087,377 @@
           "long_term": "→"
         }
       ]
+    },
+    {
+      "id": 65,
+      "title": "郭文贵：中国富豪在美国被判30年监禁",
+      "logic": "郭文贵案是中美司法协作的标志性个案，对中美关系信号复杂：一方面显示司法合作可能，另一方面可能激化部分美国政客对华强硬立场。中概股短期面临中美关系不确定性溢价，但个案影响有限。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概股/中美关系敏感",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "中概股/中美关系敏感",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD",
+          "market": "US",
+          "sector": "中概股/中美关系敏感",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "中国第二大零售商押注国产葡萄酒",
+      "logic": "大型零售商转向国产葡萄酒是消费升级+国货替代的双重信号。洋酒进口可能受挤压，国产葡萄酒品牌、上游葡萄种植及零售渠道受益。长期来看，国产葡萄酒品质提升叠加渠道加持，有望抢占市场份额。",
+      "stocks": [
+        {
+          "name": "张裕A",
+          "code": "000869.SZ",
+          "market": "SZ",
+          "sector": "国产葡萄酒龙头",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "张裕B",
+          "code": "200869.SZ",
+          "market": "SZ",
+          "sector": "国产葡萄酒龙头",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "莫高股份",
+          "code": "600543.SH",
+          "market": "SH",
+          "sector": "葡萄酒",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中葡股份",
+          "code": "600084.SH",
+          "market": "SH",
+          "sector": "葡萄酒",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "永辉超市",
+          "code": "601933.SH",
+          "market": "SH",
+          "sector": "商超零售",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Silvercorp发布中国业务最新进展",
+      "logic": "Silvercorp Metals是加拿大上市的以中国为主要矿区的白银生产商。业务更新若偏正面（产量提升/新矿获批），将直接利好其股价，并间接提振市场对中国白银矿业的关注。白银兼具贵金属和工业金属属性。",
+      "stocks": [
+        {
+          "name": "Silvercorp Metals",
+          "code": "SVM",
+          "market": "US",
+          "sector": "白银矿业",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "兴业银锡",
+          "code": "000426.SZ",
+          "market": "SZ",
+          "sector": "银矿",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "盛达资源",
+          "code": "000603.SZ",
+          "market": "SZ",
+          "sector": "银矿",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "中国对日再出重拳，遏制'新型军国主义'妄动",
+      "logic": "中日关系紧张持续升级，中国对日反制手段加码。半导体材料、稀土等战略资源出口管制预期升温。日系车企在华市占率持续承压，国产替代加速。日本股市短期面临对华出口下滑风险。",
+      "stocks": [
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土战略反制",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土战略反制",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体国产替代",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日系车企承压",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "本田汽车",
+          "code": "7267.T",
+          "market": "JP",
+          "sector": "日系车企承压",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "日半导体设备",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "欧盟委员会：想在10月前和中方取得'切实成果'",
+      "logic": "欧盟释放对华谈判积极信号，可能在电动汽车关税、光伏反补贴等领域取得突破。若能达成阶段性协议，将缓解中欧贸易紧张，利好对欧出口的新能源车、光伏和机电企业。短期情绪提振，中期取决于谈判实质进展。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源车对欧出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源车对欧出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏对欧出口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池欧洲",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "MG欧洲",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宝马",
+          "code": "BMW.DE",
+          "market": "DE",
+          "sector": "欧洲车企受益缓和",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "教育发展'十五五'规划印发 到2030年高质量教育体系基本建成",
+      "logic": "'十五五'教育规划是国家中长期战略文件，2030年建设高质量教育体系目标明确。利好教育信息化、职业教育和教育科技板块。短期政策催化有限（规划类文件市场已部分预期），中长期利好方向明确。K12学科培训仍受'双减'约束，利好方向在toG教育信息化和职业教育。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "教育信息化/AI教育",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "视源股份",
+          "code": "002841.SZ",
+          "market": "SZ",
+          "sector": "教育交互平板",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "鸿合科技",
+          "code": "002955.SZ",
+          "market": "SZ",
+          "sector": "教育信息化",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "sector": "职业教育",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国东方教育",
+          "code": "0667.HK",
+          "market": "HK",
+          "sector": "职业教育",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "中国地方官员在虚报绩效数据方面走得多远？",
+      "logic": "地方GDP等数据虚报问题引发对经济数据真实性的担忧，短期可能压制中资股风险偏好。但中央政府近年持续推动'高质量发展'和统计执法，长期有利于数据治理改善。对资本市场实质影响有限，更多是情绪层面扰动。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "大盘指数/情绪承压",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生中国企业",
+          "code": "2828.HK",
+          "market": "HK",
+          "sector": "中资股指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "中国股市月度收官涨跌互现",
+      "logic": "半年末市场呈现分化格局，科技/AI板块强势与消费/地产疲弱并存。年中资金调仓和机构排名效应下波动加剧。PMI超预期为下半年开局提供支撑，但结构性问题仍需关注。高景气赛道（AI/半导体/新能源）相对优势明显。",
+      "stocks": [
+        {
+          "name": "科创50ETF",
+          "code": "588000",
+          "market": "SH",
+          "sector": "科技宽基",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "消费龙头/防御",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
@@ -3372,8 +3743,78 @@
             "code": "601800.SH"
           }
         ]
+      },
+      {
+        "label": "国产葡萄酒（新增）",
+        "theme": "零售商押注国产葡萄酒 / 国货替代消费",
+        "stocks": [
+          {
+            "name": "张裕A",
+            "code": "000869.SZ"
+          },
+          {
+            "name": "永辉超市",
+            "code": "601933.SH"
+          }
+        ]
+      },
+      {
+        "label": "教育信息化（新增）",
+        "theme": "教育'十五五'规划 / 高质量教育体系2030",
+        "stocks": [
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ"
+          },
+          {
+            "name": "视源股份",
+            "code": "002841.SZ"
+          }
+        ]
+      },
+      {
+        "label": "中日关系再升级（新增）",
+        "theme": "中国对日反制加码 / 稀土半导体国产替代",
+        "stocks": [
+          {
+            "name": "北方稀土",
+            "code": "600111.SH"
+          },
+          {
+            "name": "东京电子",
+            "code": "8035.T"
+          }
+        ]
+      },
+      {
+        "label": "中欧贸易缓和信号（新增）",
+        "theme": "欧盟10月前寻求对华成果 / 新能源车光伏出口",
+        "stocks": [
+          {
+            "name": "比亚迪",
+            "code": "1211.HK"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ"
+          }
+        ]
+      },
+      {
+        "label": "2026上半年市场收官（新增）",
+        "theme": "PMI超预期 / 结构性分化 / 科技领跑",
+        "stocks": [
+          {
+            "name": "科创50ETF",
+            "code": "588000"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有63条+新增1条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有64条+新增8条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
