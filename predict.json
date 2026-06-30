@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T23:00:00+08:00",
+  "update_time": "2026-06-30T23:46:09+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -7609,6 +7609,803 @@
         }
       ],
       "id": 170
+    },
+    {
+      "id": 171,
+      "title": "报告得出结论，中国是特朗普中东战争的明显赢家",
+      "logic": "中东局势紧张推高油价和地缘避险情绪，中国作为最大石油进口国短期面临成本压力，但中长期通过深化与海湾国家能源合作、一带一路中东基建订单扩张，反而强化了能源采购议价权和地区影响力。石油贸易、基建出海和军工板块受益。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "油气进口/中东",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "炼化/能源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "中东基建出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中油工程",
+          "code": "600339.SH",
+          "market": "SH",
+          "sector": "中东油田工程",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中远海能",
+          "code": "600026.SH",
+          "market": "SH",
+          "sector": "油运VLCC",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "title": "铜：中国PMI支持，美国关税风险",
+      "logic": "中国PMI回升支撑铜需求面，但美国关税风险压制铜价上行空间，铜矿企业处于需求回暖与贸易摩擦的拉锯中。短期需求端利好，中期中美贸易博弈带来不确定性，长期新能源/电网铜需求增长趋势不变。",
+      "stocks": [
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "铜金龙头",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "江西铜业",
+          "code": "600362.SH",
+          "market": "SH",
+          "sector": "铜冶炼",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "云南铜业",
+          "code": "000878.SZ",
+          "market": "SZ",
+          "sector": "铜矿采选",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "铜陵有色",
+          "code": "000630.SZ",
+          "market": "SZ",
+          "sector": "铜冶炼加工",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "自由港麦克莫兰",
+          "code": "FCX",
+          "market": "US",
+          "sector": "全球铜矿",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "title": "随着美国规则收紧，中国人工智能股票散户投资者正在关注",
+      "logic": "美国AI芯片出口限制加码反激中国散户对国产AI板块的关注和参与度，情绪面催化国产替代预期。短期概念驱动散户涌入AI芯片/算力股，中期看国产替代实际落地进度，长期AI自主可控战略方向不变。",
+      "stocks": [
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产CPU/DCU",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "国产AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "国产算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "国产大模型",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "国产AI平台",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "title": "中国向委内瑞拉地震灾区提供卫星图像支持",
+      "logic": "卫星图像国际援助展示中国太空科技外交能力，遥感卫星商用化出海信号明确。短期情绪利好航天卫星板块，中期看卫星数据服务商业化落地，长期中国低轨卫星星座全球化布局受益。",
+      "stocks": [
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "卫星制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国卫通",
+          "code": "601698.SH",
+          "market": "SH",
+          "sector": "卫星通信",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天宏图",
+          "code": "688066.SH",
+          "market": "SH",
+          "sector": "遥感卫星应用",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "title": "丰田表示可靠性使其比中国竞争对手更具优势",
+      "logic": "丰田官方强调可靠性优势对抗中国EV崛起，折射日系在华市场份额持续被蚕食的焦虑。EV时代消费者更看重智能化、成本和补能体验，中国品牌已在核心维度建立优势。短期利好中国新能源车企情绪，中长期丰田转型压力加大。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "中国EV龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "中国EV龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日系车企防御/转型承压",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "中国新势力",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "小鹏汽车",
+          "code": "XPEV",
+          "market": "US",
+          "sector": "中国智能驾驶",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "title": "美国立法者调查默克和艾伯维中国临床试验",
+      "logic": "美国对中国医药临床试验合规性调查升温，短期利空在美开展临床的CRO/CDMO企业，叠加中美医药脱钩预期。中长期倒逼中国创新药自主研发和国内临床体系完善，创新药龙头长期受益于国产替代。",
+      "stocks": [
+        {
+          "name": "药明康德",
+          "code": "603259.SH",
+          "market": "SH",
+          "sector": "CRO龙头/中美脱钩风险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "泰格医药",
+          "code": "300347.SZ",
+          "market": "SZ",
+          "sector": "临床CRO",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "康龙化成",
+          "code": "300759.SZ",
+          "market": "SZ",
+          "sector": "CRO/CDMO",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "默克",
+          "code": "MRK",
+          "market": "US",
+          "sector": "在华临床承压",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "艾伯维",
+          "code": "ABBV",
+          "market": "US",
+          "sector": "在华临床承压",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "title": "用新的视角看中国",
+      "logic": "纯文化/媒体报道类内容，不涉及具体产业政策变化或经济数据。对资本市场无直接传导，视为中性信息。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无直接影响/大盘基准",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "title": "新加坡航空与中国国际航空深化战略旅游合作并签署重大合资协议",
+      "logic": "新航与国航签署合资协议，亚太两大航空枢纽（新加坡+北京）航线加密，双方营收协同效应显著。短期暑期出行催化，中期航线加密提升票价弹性，长期亚太航空枢纽竞争力增强利好机场免税产业链。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空客运/合资受益",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "新加坡航空",
+          "code": "C6L.SI",
+          "market": "SG",
+          "sector": "亚太航空/合资受益",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "航空枢纽",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "机场免税",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "title": "滞留在中国的学生回国时UNILAG进行干预",
+      "logic": "单一大学留学事务，不涉及宏观政策或资本市场。对股票市场无传导。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "title": "习近平同塞舌尔总统互致贺电庆祝建交50周年",
+      "logic": "外交礼仪类新闻，塞舌尔是印度洋海上丝绸之路节点。短期无实质经济影响，但一带一路印度洋支点长期利好中国在非洲东海岸的港口和基建布局。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "一带一路基建/印度洋",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无短期影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "title": "辛厄姆被指控在印度推动中国宣传，因资助左翼团体而在美国面临调查",
+      "logic": "地缘政治和人权相关调查，中印美三边博弈加剧。对资本市场的直接影响有限，但可能加剧中概股政治风险溢价。短期情绪微扰，长期无实质影响。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概股/地缘风险情绪",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "间接情绪扰动",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "title": "西安咸阳国际机场进入全球旅行新时代，中国全新豪华机场酒店揭幕",
+      "logic": "西安机场升级豪华酒店标志着西部航空枢纽国际化提速，利好西安及西北地区航空旅游经济。一带一路中亚方向客流增长预期强化，机场商业和酒店运营受益。",
+      "stocks": [
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "机场运营/行业标杆",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "春秋航空",
+          "code": "601021.SH",
+          "market": "SH",
+          "sector": "西部航线/廉价航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店旅游",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "首旅酒店",
+          "code": "600258.SH",
+          "market": "SH",
+          "sector": "酒店运营",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "title": "美国对华打击力度加大，阿斯麦股价暴跌",
+      "logic": "美国升级对华芯片设备限制直接打击ASML在华收入预期，ASML股价暴跌反映市场对中美科技脱钩的担忧加深。短期国产半导体设备替代逻辑加强，北方华创/中微公司受益于国产替代加速。中长期ASML若被迫减少对华出货，全球半导体设备格局将重塑。",
+      "stocks": [
+        {
+          "name": "阿斯麦",
+          "code": "ASML",
+          "market": "US",
+          "sector": "光刻机/在华受限",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "国产半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "国产刻蚀设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "国产晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "半导体设备/连带受损",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "title": "中国褐皮书：强劲制造业拉动中国6月经济增长",
+      "logic": "中国褐皮书(CBB)民间调查确认6月制造业强劲扩张，与官方PMI数据交叉验证经济复苏趋势。出口和高端制造驱动，利好制造业龙头和航运板块。短期强化经济复苏信心，中期关注内需能否接力出口。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造/出口驱动",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池/制造业龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "消费电子出口",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "大盘指数/经济复苏",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "title": "中国2950亿美元的人工智能雄心将推动国内高科技股上涨",
+      "logic": "国家层面2950亿美元AI投资规模披露，远超市场预期，强化AI全产业链确定性。从芯片到算力基建再到大模型应用，全链条受益。短期政策催化强烈，中期关注资金实际到位和项目落地，长期AI国产生态成形。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "国产AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产算力CPU/DCU",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "AI算力基建",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "国产大模型/文心",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI平台/日日新大模型",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "title": "中国在战略航空材料领域加大对美日的挑战",
+      "logic": "中国T1100级碳纤维产线投产打破美日技术垄断，航空级碳纤维进口替代加速。短期利好碳纤维和航空复合材料企业，中期国产大飞机C919/C929供应链自主化受益，长期高端材料出口潜力打开。日系东丽市场份额面临侵蚀。",
+      "stocks": [
+        {
+          "name": "光威复材",
+          "code": "300699.SZ",
+          "market": "SZ",
+          "sector": "碳纤维龙头",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中复神鹰",
+          "code": "688295.SH",
+          "market": "SH",
+          "sector": "碳纤维/航空级",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航高科",
+          "code": "600862.SH",
+          "market": "SH",
+          "sector": "航空复合材料",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "东丽",
+          "code": "3402.T",
+          "market": "JP",
+          "sector": "碳纤维/中国挑战",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "title": "解读西方'中国冲击2.0'叙事背后的逻辑",
+      "logic": "媒体评论分析类内容，讨论西方对中国产业政策的新一轮舆论框架。无具体产业政策或经济数据变化，对资本市场直接影响趋近于零。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "title": "与中国的芯片战正在失败",
+      "logic": "外媒反思美国芯片限制效果不及预期，中国半导体自主化速度超预期。短期内强化国产替代信心和半导体板块情绪，中期利好国产设备和晶圆代工市占率提升，长期中国半导体产业从被动防御转向主动竞争。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "国产晶圆代工龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "国产半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产CPU/算力",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "国产AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "国产刻蚀设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "title": "随着人工智能出口需求的增加，中国工厂活动有所回升",
+      "logic": "AI相关产品出口需求拉动中国制造业PMI回升，AI硬件（服务器、光模块、交换机）出口增速加快。利好AI算力硬件制造和出口链，光模块和服务器代工企业直接受益于全球AI资本开支扩张。",
+      "stocks": [
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "AI服务器/算力",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "浪潮信息",
+          "code": "000977.SZ",
+          "market": "SZ",
+          "sector": "AI服务器龙头",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "sector": "光模块/AI出口",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "工业富联",
+          "code": "601138.SH",
+          "market": "SH",
+          "sector": "AI服务器代工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "天孚通信",
+          "code": "300394.SZ",
+          "market": "SZ",
+          "sector": "光器件/AI出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "title": "沃克索普学校热烈欢迎中国学生并为其提供'鼓舞人心的体验'",
+      "logic": "中英教育文化交流个案，不涉及政策变化或产业影响。对资本市场无传导。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "无直接影响",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
