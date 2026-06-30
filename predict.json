@@ -4008,6 +4008,433 @@
           "long_term": "→"
         }
       ]
+    },
+    {
+      "id": 86,
+      "title": "完美日记（Perfect Diary）入驻丝芙兰中国",
+      "logic": "国产美妆品牌进入高端渠道（丝芙兰）标志国货美妆品牌升级加速。完美日记母公司逸仙电商打开线下高端渠道提升品牌溢价，利好国产美妆供应链。丝芙兰母公司LVMH在中国高端美妆渠道护城河加固。",
+      "stocks": [
+        {
+          "name": "逸仙电商",
+          "code": "YSG",
+          "market": "US",
+          "sector": "国产美妆品牌",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "LVMH",
+          "code": "MC.PA",
+          "market": "FR",
+          "sector": "高端零售渠道",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "珀莱雅",
+          "code": "603605.SH",
+          "market": "SH",
+          "sector": "国产美妆竞品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华熙生物",
+          "code": "688363.SH",
+          "market": "SH",
+          "sector": "美妆原料",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "美国零售商提前下单中国商品推高运费",
+      "logic": "美国零售商为规避潜在关税和供应链风险提前大量下单，短期推高海运价格。航运企业直接受益于运价上涨，但需求透支可能导致Q4淡季更淡。美国零售商库存积压风险上升。",
+      "stocks": [
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "集运龙头",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "集运龙头",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "东方海外国际",
+          "code": "0316.HK",
+          "market": "HK",
+          "sector": "集运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "马士基",
+          "code": "MAERSK-B.CO",
+          "market": "DK",
+          "sector": "全球航运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "沃尔玛",
+          "code": "WMT",
+          "market": "US",
+          "sector": "美零售商库存",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "塔吉特",
+          "code": "TGT",
+          "market": "US",
+          "sector": "美零售商库存",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "亚马逊",
+          "code": "AMZN",
+          "market": "US",
+          "sector": "电商物流",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "宁德时代、中航锂电等推动中国新型储能（BESS）行业支付与合同倡议",
+      "logic": "头部电池企业联合推动储能行业标准化支付和合同体系，标志中国储能产业从野蛮生长进入规范化阶段。短期利好行业龙头集中度提升，中长期为大规模储能商业化扫清制度障碍。",
+      "stocks": [
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "储能电池龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航锂电",
+          "code": "3931.HK",
+          "market": "HK",
+          "sector": "储能电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阳光电源",
+          "code": "300274.SZ",
+          "market": "SZ",
+          "sector": "储能逆变器",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "亿纬锂能",
+          "code": "300014.SZ",
+          "market": "SZ",
+          "sector": "储能电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "派能科技",
+          "code": "688063.SH",
+          "market": "SH",
+          "sector": "户用储能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "南网储能",
+          "code": "600995.SH",
+          "market": "SH",
+          "sector": "电网侧储能",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "中日旅游复苏引发亚洲游客流向重大转变，泰国旅游业界高度警惕",
+      "logic": "中日旅游快速恢复分流了原本流向泰国的中国游客，泰国旅游业面临竞争压力。利好中日航线航空和日本免税零售，利空泰国旅游相关标的。韩国作为替代目的地可能间接受益。",
+      "stocks": [
+        {
+          "name": "携程",
+          "code": "TCOM",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "同程旅行",
+          "code": "0780.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "全日空",
+          "code": "9202.T",
+          "market": "JP",
+          "sector": "日本航空受益",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "日本航空",
+          "code": "9201.T",
+          "market": "JP",
+          "sector": "日本航空受益",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "泰国机场",
+          "code": "AOT.BK",
+          "market": "TH",
+          "sector": "泰国旅游受损",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "春秋航空",
+          "code": "601021.SH",
+          "market": "SH",
+          "sector": "中日航线",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "免税消费",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "44艘中国船只现身西菲律宾海（6月23-29日）",
+      "logic": "大规模中国船只在南海争议水域集结加剧中菲海上紧张。短期脉冲式利好军工船舶板块，南海地缘风险溢价上升。菲律宾及区域航运安全预期受到影响。",
+      "stocks": [
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "海洋防务",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运地缘风险",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "军工ETF",
+          "code": "512660",
+          "market": "SH",
+          "sector": "军工指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "中国电动汽车全面领先",
+      "logic": "中国EV在技术、成本、产能和出海方面形成系统性优势，全球竞争格局已从'追赶'变为'引领'。比亚迪、宁德时代等龙头估值中枢有望上移。特斯拉和传统车企在中国市场份额持续被蚕食。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "EV全球龙头",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "EV全球龙头",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池全球第一",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "新势力出海",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "小鹏汽车",
+          "code": "XPEV",
+          "market": "US",
+          "sector": "新势力智能化",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "在华份额承压",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "长城汽车",
+          "code": "601633.SH",
+          "market": "SH",
+          "sector": "EV出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "金价下跌之际中国的举动",
+      "logic": "金价回落期间中国可能加速黄金储备增持和制度松绑（呼应此前黄金进出口改革）。短期金价承压但中国官方买入形成底部支撑，中长期黄金战略地位提升利好金矿和黄金ETF。",
+      "stocks": [
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "金矿龙头",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "金铜矿",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中金黄金",
+          "code": "600489.SH",
+          "market": "SH",
+          "sector": "金矿",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "招金矿业",
+          "code": "1818.HK",
+          "market": "HK",
+          "sector": "金矿",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国黄金",
+          "code": "600916.SH",
+          "market": "SH",
+          "sector": "黄金零售",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "黄金ETF",
+          "code": "518880",
+          "market": "SH",
+          "sector": "黄金指数",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -4419,8 +4846,106 @@
             "code": "603993.SH"
           }
         ]
+      },
+      {
+        "label": "国产美妆渠道升级（新增）",
+        "theme": "完美日记入驻丝芙兰 / 国货美妆高端化",
+        "stocks": [
+          {
+            "name": "逸仙电商",
+            "code": "YSG"
+          },
+          {
+            "name": "珀莱雅",
+            "code": "603605.SH"
+          }
+        ]
+      },
+      {
+        "label": "海运运费急涨（新增）",
+        "theme": "美国零售商抢单推高运价 / 集运短期受益",
+        "stocks": [
+          {
+            "name": "中远海控",
+            "code": "601919.SH"
+          },
+          {
+            "name": "东方海外国际",
+            "code": "0316.HK"
+          }
+        ]
+      },
+      {
+        "label": "储能行业规范化（新增）",
+        "theme": "CATL/CALB推动BESS支付合同标准 / 储能龙头受益",
+        "stocks": [
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ"
+          },
+          {
+            "name": "阳光电源",
+            "code": "300274.SZ"
+          }
+        ]
+      },
+      {
+        "label": "亚洲游客流向迁移（新增）",
+        "theme": "中日旅游复苏分流泰国游客 / 日本航旅受益",
+        "stocks": [
+          {
+            "name": "携程",
+            "code": "TCOM"
+          },
+          {
+            "name": "全日空",
+            "code": "9202.T"
+          }
+        ]
+      },
+      {
+        "label": "南海紧张再升温（新增）",
+        "theme": "44艘中国船只现身西菲律宾海 / 军工船舶脉冲",
+        "stocks": [
+          {
+            "name": "中国船舶",
+            "code": "600150.SH"
+          },
+          {
+            "name": "中船防务",
+            "code": "600685.SH"
+          }
+        ]
+      },
+      {
+        "label": "中国EV全球引领（新增）",
+        "theme": "电动汽车全面领先 / 比亚迪宁德时代估值重估",
+        "stocks": [
+          {
+            "name": "比亚迪",
+            "code": "1211.HK"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ"
+          }
+        ]
+      },
+      {
+        "label": "金价回调中国增持（新增）",
+        "theme": "金价下跌中国战略买入 / 中长期利好金矿",
+        "stocks": [
+          {
+            "name": "山东黄金",
+            "code": "600547.SH"
+          },
+          {
+            "name": "紫金矿业",
+            "code": "601899.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有72条+新增5条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有85条+新增7条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
