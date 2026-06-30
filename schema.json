@@ -132,10 +132,11 @@
                 "description": "关联的股票列表",
                 "items": {
                   "type": "object",
-                  "required": ["name", "code"],
+                  "required": ["name", "code", "short_term"],
                   "properties": {
                     "name": { "type": "string" },
-                    "code": { "type": "string" }
+                    "code": { "type": "string" },
+                    "short_term": { "type": "string" }
                   }
                 }
               }
