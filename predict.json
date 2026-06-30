@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T13:40:11+08:00",
+  "update_time": "2026-06-30T15:45:49+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -4435,6 +4435,171 @@
           "long_term": "↑↑"
         }
       ]
+    },
+    {
+      "id": 93,
+      "title": "雅加达500周年：大都市交通瘫痪危机",
+      "logic": "雅加达将满500周年但交通拥堵加剧、城市群一体化计划悬而未决。印尼迁都努桑塔拉进程缓慢拖累雅加达基建投入。中国参与雅万高铁后有望进一步参与印尼城市轨交和智能交通项目，中长期利好中资基建出海。",
+      "stocks": [
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "印尼雅万高铁/轨交",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "印尼基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "轨交车辆出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "1766.HK",
+          "market": "HK",
+          "sector": "轨交车辆出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "印尼Wijaya Karya",
+          "code": "WIKA.JK",
+          "market": "ID",
+          "sector": "印尼本土基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Jeep联合东风在中国制造旗舰4x4出口欧洲",
+      "logic": "Jeep宣布与东风合作在中国制造大型旗舰SUV出口欧洲，标志国际品牌将中国作为高端车型出口基地，中国汽车制造从'代工低端'升级为'高端出口'。东风供应链直接受益，但Jeep品牌美式基因与'中国制造'之间的张力是长期风险。同时Stellantis平台两款专为欧洲开发的小型SUV并行推进。",
+      "stocks": [
+        {
+          "name": "东风汽车",
+          "code": "600006.SH",
+          "market": "SH",
+          "sector": "合资制造出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "东风集团股份",
+          "code": "0489.HK",
+          "market": "HK",
+          "sector": "合资制造出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Stellantis",
+          "code": "STLA",
+          "market": "US",
+          "sector": "跨国车企成本优化",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Stellantis",
+          "code": "STLAM.MI",
+          "market": "IT",
+          "sector": "跨国车企成本优化",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "中国EV欧洲竞品",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池供应链",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "习近平支持白俄罗斯主权，Polymarket定价Xi 2027年前退位概率仅6.25%",
+      "logic": "习会见卢卡申科重申支持白俄主权，强化中白战略协作。Polymarket预测市场Xi在2027年前离任概率仅6.25%（交易量超1070万美元），市场定价中国领导层连续性极高。地缘层面中白关系深化利好一带一路东欧桥头堡项目，但白俄深度卷入俄乌冲突构成间接风险。",
+      "stocks": [
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "白俄基建/装备出口",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国海外发展",
+          "code": "0688.HK",
+          "market": "HK",
+          "sector": "中白工业园",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "招商局港口",
+          "code": "0144.HK",
+          "market": "HK",
+          "sector": "中白贸易物流",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "东欧一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "白俄基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -4944,8 +5109,50 @@
             "code": "601899.SH"
           }
         ]
+      },
+      {
+        "label": "印尼城市基建（新增）",
+        "theme": "雅加达500周年交通危机 / 中国轨交出海印尼",
+        "stocks": [
+          {
+            "name": "中国中铁",
+            "code": "601390.SH"
+          },
+          {
+            "name": "中国交建",
+            "code": "601800.SH"
+          }
+        ]
+      },
+      {
+        "label": "中国车企高端制造出口（新增）",
+        "theme": "Jeep东风合作旗舰SUV出口欧洲 / 中国制造升级",
+        "stocks": [
+          {
+            "name": "东风汽车",
+            "code": "600006.SH"
+          },
+          {
+            "name": "东风集团股份",
+            "code": "0489.HK"
+          }
+        ]
+      },
+      {
+        "label": "中白战略合作深化（新增）",
+        "theme": "习近平支持白俄主权 / 一带一路东欧桥头堡",
+        "stocks": [
+          {
+            "name": "中国海外发展",
+            "code": "0688.HK"
+          },
+          {
+            "name": "中国电建",
+            "code": "601669.SH"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有85条+新增7条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有92条+新增3条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
