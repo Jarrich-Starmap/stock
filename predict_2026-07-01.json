@@ -1,215 +1,86 @@
 {
   "meta": {
     "name": "2026年7月1日全球新闻股票推演",
-    "description": "基于2026年7月1日 superNews 新闻聚合页的20条新闻，逐条推演潜在受影响的股票及其短/中/长期走势预测",
+    "description": "基于2026年7月1日最新全球新闻事件，分析关联股票并预测短中长期涨跌方向",
     "category": "daily",
     "source": "https://hk.k415.win/news/ 2026-07-01综合整理",
     "version": "1.0",
-    "update_time": "2026-07-01T00:00:00+08:00",
-    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议，预测仅供研究参考"
+    "update_time": "2026-07-01T08:00:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "特朗普限制出生公民权的提案被驳回",
-      "logic": "提案被驳回减轻了移民政策收紧预期，利好依赖移民劳动力的科技、医疗行业，同时对在美上市的中概股情绪有边际改善。",
+      "title": "人工智能乐观情绪推动纳斯达克创六年来最佳季度表现",
+      "logic": "AI热潮持续驱动科技股上涨，纳斯达克创六年最佳季度表现，AI芯片、云计算和大型科技公司直接受益，短期情绪高涨但估值偏高需警惕回调。",
       "stocks": [
         {
-          "name": "中概互联网ETF",
-          "code": "KWEB",
+          "name": "英伟达",
+          "code": "NVDA",
           "market": "US",
-          "sector": "ETF",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "sector": "半导体/AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "阿里巴巴",
-          "code": "BABA",
+          "name": "微软",
+          "code": "MSFT",
           "market": "US",
-          "sector": "科技/电商",
+          "sector": "云计算/AI",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "拼多多",
-          "code": "PDD",
+          "name": "谷歌",
+          "code": "GOOGL",
           "market": "US",
-          "sector": "电商",
+          "sector": "AI/搜索",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "纳斯达克100 ETF",
+          "code": "QQQ",
+          "market": "US",
+          "sector": "科技指数",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "中国银行信用卡：第一季度宠物相关消费同比增长超40%",
-      "logic": "宠物消费高增长直接利好宠物经济产业链，包括宠物食品、医疗、用品等细分赛道。",
+      "title": "美国议员被告知需加快创新以应对中国科技崛起",
+      "logic": "美国国会推动加大AI/机器人/芯片投资，半导体国产化和AI军备竞赛加剧，利好中美半导体及AI产业链，但地缘紧张可能压制部分中概股。",
       "stocks": [
         {
-          "name": "中宠股份",
-          "code": "002891.SZ",
-          "market": "SH",
-          "sector": "宠物食品",
-          "short_term": "↑↑",
+          "name": "英特尔",
+          "code": "INTC",
+          "market": "US",
+          "sector": "半导体制造",
+          "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "乖宝宠物",
-          "code": "301498.SZ",
-          "market": "SH",
-          "sector": "宠物食品",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "佩蒂股份",
-          "code": "300673.SZ",
-          "market": "SH",
-          "sector": "宠物咬胶",
+          "name": "AMD",
+          "code": "AMD",
+          "market": "US",
+          "sector": "半导体/AI芯片",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
-        {
-          "name": "瑞普生物",
-          "code": "300119.SZ",
-          "market": "SH",
-          "sector": "宠物医疗",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "勒布朗·詹姆斯将离开湖人队，加盟另一支NBA球队",
-      "logic": "詹姆斯转会引发NBA商业版图变动，影响湖人队母公司股价及体育博彩、体育媒体板块的交易活跃度。",
-      "stocks": [
-        {
-          "name": "Madison Square Garden Sports",
-          "code": "MSGS",
-          "market": "US",
-          "sector": "体育俱乐部",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "DraftKings",
-          "code": "DKNG",
-          "market": "US",
-          "sector": "体育博彩",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "耐克",
-          "code": "NKE",
-          "market": "US",
-          "sector": "运动品牌",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "华纳兄弟探索",
-          "code": "WBD",
-          "market": "US",
-          "sector": "体育媒体",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "美国众议院委员会对默克、艾伯维中国药物试验展开调查",
-      "logic": "调查可能导致默克和艾伯维在华临床试验受阻，利空这两家美股药企，同时中国CRO企业可能因订单减少而承压。",
-      "stocks": [
-        {
-          "name": "默克",
-          "code": "MRK",
-          "market": "US",
-          "sector": "制药",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "艾伯维",
-          "code": "ABBV",
-          "market": "US",
-          "sector": "制药",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "药明康德",
-          "code": "603259.SH",
-          "market": "SH",
-          "sector": "CRO",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "药明康德",
-          "code": "2359.HK",
-          "market": "HK",
-          "sector": "CRO",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "康龙化成",
-          "code": "300759.SZ",
-          "market": "SH",
-          "sector": "CRO",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "中国打造自主芯片，现已推出相关ETF",
-      "logic": "中国半导体自主化政策持续加码，相关ETF推出为板块引入增量资金，利好国产芯片全产业链。",
-      "stocks": [
         {
           "name": "中芯国际",
           "code": "688981.SH",
           "market": "SH",
-          "sector": "晶圆代工",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "0981.HK",
-          "market": "HK",
-          "sector": "晶圆代工",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SH",
-          "sector": "半导体设备",
-          "short_term": "↑↑",
+          "sector": "半导体制造",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
@@ -218,26 +89,60 @@
           "code": "688256.SH",
           "market": "SH",
           "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "韦尔股份",
-          "code": "603501.SH",
-          "market": "SH",
-          "sector": "芯片设计",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
-      "id": 6,
-      "title": "中国驻摩洛哥大使：主权是我们所有人的优先事项",
-      "logic": "外交表态强化中国在非洲/北非的一带一路战略立场，利好参与非洲基建工程的中资企业。",
+      "id": 3,
+      "title": "中国央行推出新隔夜流动性工具完善政策框架",
+      "logic": "央行新工具增强货币政策调控灵活性，有利于稳定银行间流动性，对银行和债券市场形成支撑，短期利好金融板块。",
       "stocks": [
+        {
+          "name": "工商银行",
+          "code": "601398.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "建设银行",
+          "code": "0939.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国与阿拉伯世界合作七十年伙伴关系深化",
+      "logic": "中阿合作持续深化，能源、基建、数字经济等领域受益，一带一路概念和能源贸易相关股票正面影响。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "能源",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
         {
           "name": "中国交建",
           "code": "601800.SH",
@@ -248,226 +153,231 @@
           "long_term": "↑"
         },
         {
-          "name": "中国中冶",
-          "code": "601618.SH",
+          "name": "中国能建",
+          "code": "601868.SH",
           "market": "SH",
-          "sector": "冶金工程",
+          "sector": "能源基建",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中印边境地区维持和平与安宁双方表示满意",
+      "logic": "中印边境局势缓和，降低地缘风险溢价，利好两国股市整体风险偏好，军工股短期承压但长期国防投入不减。",
+      "stocks": [
+        {
+          "name": "印度Nifty 50 ETF",
+          "code": "INDY",
+          "market": "US",
+          "sector": "印度市场",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
-          "name": "中国电建",
-          "code": "601669.SH",
+          "name": "中航沈飞",
+          "code": "600760.SH",
           "market": "SH",
-          "sector": "电力建设",
+          "sector": "军工",
           "short_term": "→",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国对加拿大豌豆淀粉征收73.5%反倾销关税",
+      "logic": "中加贸易摩擦升级，关税反制措施短期利好国内农产品加工企业，但可能引发加拿大进一步报复，中长期贸易不确定性增加。",
+      "stocks": [
+        {
+          "name": "中粮糖业",
+          "code": "600737.SH",
+          "market": "SH",
+          "sector": "农产品加工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "金龙鱼",
+          "code": "300999.SZ",
+          "market": "SZ",
+          "sector": "粮油加工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 7,
-      "title": "法拉利Luce在中国售罄，尽管存在设计争议",
-      "logic": "法拉利在中国市场的强劲需求验证了超豪华车消费韧性，利好法拉利及中国高端汽车经销商。",
+      "title": "议员就与中国军方关联医院药物试验施压礼来公司",
+      "logic": "美国国会对礼来在中国进行药物试验施压，涉及地缘政治风险，礼来股价短期承压，中国CRO和临床试验相关企业可能受波及。",
       "stocks": [
         {
-          "name": "法拉利",
-          "code": "RACE",
+          "name": "礼来",
+          "code": "LLY",
           "market": "US",
-          "sector": "豪华汽车",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "sector": "制药",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "药明康德",
+          "code": "603259.SH",
+          "market": "SH",
+          "sector": "CRO",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "美东汽车",
-          "code": "1268.HK",
-          "market": "HK",
-          "sector": "汽车经销商",
-          "short_term": "↑",
+          "name": "康龙化成",
+          "code": "300759.SZ",
+          "market": "SZ",
+          "sector": "CRO",
+          "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中升控股",
-          "code": "0881.HK",
-          "market": "HK",
-          "sector": "汽车经销商",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 8,
-      "title": "这种金属能否遏制中国的军事主导地位（彭博：关键战略金属）",
-      "logic": "彭博讨论的战略金属（推测为钨、锑或稀土）若被西方管制出口，将推高相关金属价格，利好海外矿业公司，利空依赖进口的中国下游企业。",
+      "title": "本田计划应对中国市场策略调整",
+      "logic": "日系车企在中国市场份额承压，本田加速电动化转型应对中国本土品牌竞争，日系供应链和合资车企面临挑战。",
       "stocks": [
         {
-          "name": "MP Materials",
-          "code": "MP",
-          "market": "US",
-          "sector": "稀土开采",
+          "name": "本田汽车",
+          "code": "7267.T",
+          "market": "JP",
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "北方稀土",
-          "code": "600111.SH",
+          "name": "广汽集团",
+          "code": "601238.SH",
           "market": "SH",
-          "sector": "稀土",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↓"
-        },
-        {
-          "name": "厦门钨业",
-          "code": "600549.SH",
-          "market": "SH",
-          "sector": "钨业",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↓"
-        },
-        {
-          "name": "Lynas Rare Earths",
-          "code": "LYC.AU",
-          "market": "AU",
-          "sector": "稀土开采",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 9,
-      "title": "北京塔台事故后中国限制轻型飞机飞行",
-      "logic": "飞行限制短期利空通用航空和低空经济板块，但中长期可能加速安全管理升级和空管系统投入。",
+      "title": "中国瞄准日本新军国主义倾向实施出口管制",
+      "logic": "中日关系紧张升级，中国对日本实体出口管制影响半导体材料和高端设备贸易，日本相关材料企业承压，中国国产替代加速。",
       "stocks": [
         {
-          "name": "中直股份",
-          "code": "600038.SH",
-          "market": "SH",
-          "sector": "通用航空",
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "半导体设备",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中信海直",
-          "code": "000099.SZ",
-          "market": "SH",
-          "sector": "通航运营",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "莱斯信息",
-          "code": "688631.SH",
+          "name": "沪硅产业",
+          "code": "688126.SH",
           "market": "SH",
-          "sector": "空管系统",
+          "sector": "半导体材料",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "亿航智能",
-          "code": "EH",
-          "market": "US",
-          "sector": "eVTOL",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 10,
-      "title": "中国最高外交官会见沙特外长时强调美伊对话",
-      "logic": "中国介入中东外交若推动美伊关系缓和，原油供给风险溢价下降，短期利空油价及相关能源股。",
+      "title": "英国在中英贸易谈判中瞄准服务业出口增长",
+      "logic": "中英贸易关系回暖，服务业成为新增长点，英国金融、教育、法律服务企业受益，中国服务业开放利好相关板块。",
       "stocks": [
         {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国海洋石油",
-          "code": "0883.HK",
+          "name": "汇丰控股",
+          "code": "0005.HK",
           "market": "HK",
-          "sector": "石油",
-          "short_term": "↓",
-          "mid_term": "→",
+          "sector": "金融",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中国石化",
-          "code": "600028.SH",
+          "name": "中国中免",
+          "code": "601888.SH",
           "market": "SH",
-          "sector": "石化",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "sector": "免税/服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "埃克森美孚",
-          "code": "XOM",
-          "market": "US",
-          "sector": "石油",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "新东方",
+          "code": "9901.HK",
+          "market": "HK",
+          "sector": "教育服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 11,
-      "title": "波兰就SAFE框架下向乌克兰转让无人机技术进行谈判",
-      "logic": "波兰推动无人机技术转让加剧地缘紧张，利好全球军工和无人机板块，欧洲防务开支预期上升。",
+      "title": "中国占据全球十大货物吞吐量港口中的八个",
+      "logic": "中国港口全球主导地位巩固，贸易基础设施优势明显，港口和航运龙头长期受益全球贸易增长。",
       "stocks": [
         {
-          "name": "航天彩虹",
-          "code": "002389.SZ",
+          "name": "中远海控",
+          "code": "601919.SH",
           "market": "SH",
-          "sector": "军用无人机",
-          "short_term": "↑",
+          "sector": "航运",
+          "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         },
         {
-          "name": "中无人机",
-          "code": "688297.SH",
+          "name": "上港集团",
+          "code": "600018.SH",
           "market": "SH",
-          "sector": "无人机系统",
-          "short_term": "↑",
+          "sector": "港口",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "AeroVironment",
-          "code": "AVAV",
-          "market": "US",
-          "sector": "无人机",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "莱茵金属",
-          "code": "RHM.DE",
-          "market": "DE",
-          "sector": "军工",
-          "short_term": "↑",
+          "name": "招商港口",
+          "code": "001872.SZ",
+          "market": "SZ",
+          "sector": "港口",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         }
@@ -475,334 +385,78 @@
     },
     {
       "id": 12,
-      "title": "美中几乎无共识，唯对AI最致命风险看法一致",
-      "logic": "中美在AI安全风险上的罕见共识可能推动AI监管合作，短期AI概念股情绪承压，但长期有利于行业健康发展。",
+      "title": "AI产业革命：为何美国面临来自中国的历史性技术清算",
+      "logic": "中国AI/电动车/机器人领域快速追赶引发全球关注，中美科技竞争持续加剧，中国科技自主可控概念和AI应用端企业长期受益。",
       "stocks": [
-        {
-          "name": "英伟达",
-          "code": "NVDA",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "微软",
-          "code": "MSFT",
-          "market": "US",
-          "sector": "AI/云计算",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
         {
           "name": "百度",
           "code": "9888.HK",
           "market": "HK",
-          "sector": "AI/搜索",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "sector": "AI/互联网",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤科技",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
           "name": "科大讯飞",
           "code": "002230.SZ",
-          "market": "SH",
-          "sector": "AI语音",
-          "short_term": "↓",
-          "mid_term": "→",
+          "market": "SZ",
+          "sector": "AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "电动车/AI",
+          "short_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 13,
-      "title": "亨茨维尔人气中餐馆2024年火灾后重新开业",
-      "logic": "仅具本地社区意义，无直接资本市场影响，间接反映美国中餐消费的刚需韧性。无明确股票标的。",
+      "title": "特朗普对华政策被指重蹈奥巴马覆辙",
+      "logic": "美国对华遏制政策延续性预期加强，贸易摩擦和科技封锁常态化，利好国内自主可控（芯片/信创/军工），利空高度依赖美国市场的中概股。",
       "stocks": [
         {
-          "name": "无直接关联标的",
-          "code": "N/A",
-          "market": "US",
-          "sector": "餐饮",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "中国国航与新加坡航空推进商业合资伙伴关系",
-      "logic": "合资伙伴关系将提升两家航司在亚太航线的协同效应和盈利能力，直接利好双方股价。",
-      "stocks": [
-        {
-          "name": "中国国航",
-          "code": "601111.SH",
+          "name": "中科曙光",
+          "code": "603019.SH",
           "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "sector": "信创",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "中国国航",
-          "code": "0753.HK",
+          "name": "金山办公",
+          "code": "688111.SH",
+          "market": "SH",
+          "sector": "信创/软件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
           "market": "HK",
-          "sector": "航空运输",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "新加坡航空",
-          "code": "C6L.SI",
-          "market": "PRIVATE",
-          "sector": "航空运输",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "南方航空",
-          "code": "600029.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "哈兰德进球助挪威晋级16强",
-      "logic": "世界杯/欧洲杯等大赛期间体育博彩交易量激增，利好博彩平台和体育流媒体。",
-      "stocks": [
-        {
-          "name": "DraftKings",
-          "code": "DKNG",
-          "market": "US",
-          "sector": "体育博彩",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "Flutter Entertainment",
-          "code": "FLTR.UK",
-          "market": "UK",
-          "sector": "体育博彩",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "FuboTV",
-          "code": "FUBO",
-          "market": "US",
-          "sector": "体育流媒体",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "title": "特朗普在最高法院裁决后祝贺习近平",
-      "logic": "特朗普对习近平的正面表态可能暗示中美关系短期缓和，利好对中美贸易敏感的板块和中概股。",
-      "stocks": [
-        {
-          "name": "中概互联网ETF",
-          "code": "KWEB",
-          "market": "US",
-          "sector": "ETF",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "京东",
-          "code": "JD",
-          "market": "US",
-          "sector": "电商",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SH",
-          "sector": "新能源汽车",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "苹果",
-          "code": "AAPL",
-          "market": "US",
-          "sector": "消费电子",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "马克思主义富豪资助中国背景的反AI数据中心影响力运动",
-      "logic": "反AI数据中心运动可能延缓全球数据中心扩张步伐，短期利空数据中心REITs和相关基础设施股。",
-      "stocks": [
-        {
-          "name": "Equinix",
-          "code": "EQIX",
-          "market": "US",
-          "sector": "数据中心REIT",
+          "sector": "互联网/电商",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
-        },
-        {
-          "name": "Digital Realty",
-          "code": "DLR",
-          "market": "US",
-          "sector": "数据中心REIT",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "万国数据",
-          "code": "9698.HK",
-          "market": "HK",
-          "sector": "数据中心",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "世纪互联",
-          "code": "VNET",
-          "market": "US",
-          "sector": "数据中心",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "title": "今日中国谚语：「癞蛤蟆想吃天鹅肉」",
-      "logic": "纯文化内容，无资本市场关联。该谚语隐喻过度野心，仅具文化传播意义。",
-      "stocks": [
-        {
-          "name": "无直接关联标的",
-          "code": "N/A",
-          "market": "SH",
-          "sector": "文化",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "铜市展望：中国PMI提供支撑，但美国关税风险持续",
-      "logic": "中国PMI支撑短期铜需求预期，但美国关税风险压制中长期铜价，铜矿股和铜期货短期偏多、中期谨慎。",
-      "stocks": [
-        {
-          "name": "紫金矿业",
-          "code": "601899.SH",
-          "market": "SH",
-          "sector": "铜金矿",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "江西铜业",
-          "code": "600362.SH",
-          "market": "SH",
-          "sector": "铜冶炼",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "Freeport-McMoRan",
-          "code": "FCX",
-          "market": "US",
-          "sector": "铜矿",
-          "short_term": "↑",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "洛阳钼业",
-          "code": "603993.SH",
-          "market": "SH",
-          "sector": "铜钴矿",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "中国推出数字化离境退税（7月1日起）",
-      "logic": "数字化离境退税简化境外旅客购物流程，直接利好免税零售、旅游服务和航空板块，刺激入境消费。",
-      "stocks": [
-        {
-          "name": "中国中免",
-          "code": "601888.SH",
-          "market": "SH",
-          "sector": "免税零售",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国中免",
-          "code": "1880.HK",
-          "market": "HK",
-          "sector": "免税零售",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "携程集团",
-          "code": "9961.HK",
-          "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "众信旅游",
-          "code": "002707.SZ",
-          "market": "SH",
-          "sector": "旅行社",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "上海机场",
-          "code": "600009.SH",
-          "market": "SH",
-          "sector": "机场运营",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
         }
       ]
     }
@@ -810,86 +464,69 @@
   "summary": {
     "newly_added": [
       {
-        "label": "宠物消费高增长（新增）",
-        "theme": "中国银行信用卡宠物消费同比增长超40%",
-        "stocks": [
-          {
-            "name": "中宠股份",
-            "code": "002891.SZ",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "乖宝宠物",
-            "code": "301498.SZ",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "国产芯片ETF推出（新增）",
-        "theme": "中国打造自主芯片，已推出相关ETF",
-        "stocks": [
-          {
-            "name": "中芯国际",
-            "code": "688981.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "北方华创",
-            "code": "002371.SZ",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "中美AI风险共识（新增）",
-        "theme": "美中唯对AI最致命风险看法一致",
+        "label": "纳斯达克AI行情（新增）",
+        "theme": "AI乐观情绪推动纳斯达克创六年最佳季度表现，科技股普涨",
         "stocks": [
           {
             "name": "英伟达",
             "code": "NVDA",
-            "short_term": "↓"
+            "short_term": "↑↑"
           },
           {
             "name": "微软",
             "code": "MSFT",
+            "short_term": "↑"
+          },
+          {
+            "name": "纳斯达克100 ETF",
+            "code": "QQQ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中美科技竞赛加剧（新增）",
+        "theme": "美国推动AI/芯片创新应对中国挑战，中国AI自主加速",
+        "stocks": [
+          {
+            "name": "英伟达",
+            "code": "NVDA",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中日贸易紧张（新增）",
+        "theme": "中国对日出口管制升级，半导体国产替代逻辑强化",
+        "stocks": [
+          {
+            "name": "东京电子",
+            "code": "8035.T",
             "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "国航-新航合资（新增）",
-        "theme": "中国国航与新加坡航空推进合资伙伴关系",
-        "stocks": [
-          {
-            "name": "中国国航",
-            "code": "601111.SH",
-            "short_term": "↑↑"
           },
           {
-            "name": "新加坡航空",
-            "code": "C6L.SI",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "数字化离境退税（新增）",
-        "theme": "中国7月1日起推出数字化离境退税",
-        "stocks": [
-          {
-            "name": "中国中免",
-            "code": "601888.SH",
-            "short_term": "↑↑"
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↑"
           },
           {
-            "name": "携程集团",
-            "code": "9961.HK",
+            "name": "沪硅产业",
+            "code": "688126.SH",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月1日 superNews 公开新闻的逻辑推演，不构成任何投资建议。股票市场受多重因素影响，新闻仅为其中一个变量，请投资者独立判断、审慎决策。"
+  "disclaimer": "以上分析基于2026年7月1日公开新闻的逻辑推演，不构成任何投资建议。股票市场受多重因素影响，实际走势可能与推演存在重大差异。投资有风险，入市需谨慎。"
 }
