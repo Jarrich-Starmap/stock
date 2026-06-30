@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T20:46:04+08:00",
+  "update_time": "2026-06-30T21:45:37+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -6456,6 +6456,515 @@
           "long_term": "↑"
         }
       ]
+    },
+    {
+      "id": 140,
+      "title": "贝森特称仅中国仍在购买伊朗石油",
+      "logic": "美国财长点名中国是伊朗石油唯一大买家，制裁风险急剧升温。短期利好油运（VLCC运价跳涨）和国内炼化替代，中长期若制裁落地将重塑全球原油贸易流向。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "油气进口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "炼化替代",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油服",
+          "code": "601808.SH",
+          "market": "SH",
+          "sector": "油服",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海能",
+          "code": "600026.SH",
+          "market": "SH",
+          "sector": "油运VLCC",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海能",
+          "code": "1138.HK",
+          "market": "HK",
+          "sector": "油运VLCC",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "招商轮船",
+          "code": "601872.SH",
+          "market": "SH",
+          "sector": "油运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "title": "中国钢铁行业面临重大排放困境",
+      "logic": "钢铁行业碳排放合规成本将大幅上升，落后产能加速出清。短期利空中小钢企，中长期利好具备低碳冶炼技术的龙头企业（宝钢氢基竖炉等），环保设备商受益。",
+      "stocks": [
+        {
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁龙头/低碳转型",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华菱钢铁",
+          "code": "000932.SZ",
+          "market": "SZ",
+          "sector": "钢铁",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "龙净环保",
+          "code": "600388.SH",
+          "market": "SH",
+          "sector": "钢铁环保设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "清新环境",
+          "code": "002573.SZ",
+          "market": "SZ",
+          "sector": "工业烟气治理",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "河钢股份",
+          "code": "000709.SZ",
+          "market": "SZ",
+          "sector": "钢铁/氢冶金转型",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "title": "津上精密（中国）利润率改善考验高市盈率",
+      "logic": "津上精密（1651.HK）利润率改善但高市盈率面临考验，中国精密机床国产替代逻辑长期成立，但短期估值消化需盈利持续验证。",
+      "stocks": [
+        {
+          "name": "津上精密中国",
+          "code": "1651.HK",
+          "market": "HK",
+          "sector": "精密机床",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "创世纪",
+          "code": "300083.SZ",
+          "market": "SZ",
+          "sector": "CNC机床",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海天精工",
+          "code": "601882.SH",
+          "market": "SH",
+          "sector": "数控机床",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "title": "中国关联地面行动阻碍236亿美元美国AI基础设施",
+      "logic": "报告称中国关联行动已阻碍或阻止236亿美元美国AI基建项目，中美AI竞争从技术层面扩展到基础设施博弈。美国AI基建受阻短期利好中国本土AI算力，但美方反制措施也可能升级。国产AI芯片和算力产业链受益。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "国产AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产算力",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "AI算力基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片/在华受限",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "微软",
+          "code": "MSFT",
+          "market": "US",
+          "sector": "AI基建承压",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "title": "丰田称可靠性使其优于中国竞争对手",
+      "logic": "丰田官方强调可靠性优势对抗中国EV，反映日系在华市场份额持续被蚕食的焦虑。但可靠性是传统燃油车时代的核心卖点，EV时代智能化、成本、补能体验成为新标准。中国EV品牌已在核心维度建立优势。",
+      "stocks": [
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "日系车企防御",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "中国EV龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "中国EV龙头",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "中国新势力",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "小鹏汽车",
+          "code": "XPEV",
+          "market": "US",
+          "sector": "智能驾驶",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "title": "中国可重复使用运载火箭发动机完成长程试车",
+      "logic": "可重复使用火箭发动机长程试车成功是中国商业航天的重大里程碑，对标SpaceX猎鹰9号。商业发射成本将大幅下降，低轨卫星星座建设加速。利好航天军工和卫星互联网全产业链。",
+      "stocks": [
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "卫星制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "航天连接器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天动力",
+          "code": "600343.SH",
+          "market": "SH",
+          "sector": "液体火箭发动机",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国卫通",
+          "code": "601698.SH",
+          "market": "SH",
+          "sector": "卫星通信",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "title": "美国众议员警告须超越中国封闭社会才能赢得AI竞赛",
+      "logic": "美国议员对华AI竞争言论升级，AI从科技竞争上升为制度竞争。短期强化中美AI脱钩预期，利好国产AI全产业链。中长期中国AI生态完整度（数据、场景、政策）仍是核心优势。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "国产AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "国产算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "中美AI博弈",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "国产大模型",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "国产AI平台",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "title": "CTA在联合国人权理事会敦促强硬国际行动",
+      "logic": "人权议题引发国际社会对华关注升温。对资本市场直接影响极有限，但可能被部分外资用作降低中国配置的借口。中概股短期情绪面受到轻微扰动，实质影响趋近于零。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300",
+          "market": "SH",
+          "sector": "大盘指数/情绪微扰",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概股/外资情绪",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "title": "中国预计保持亚太最大旅游市场地位",
+      "logic": "亚太地区游客量预计2028年超疫情前水平，中国保持最大旅游市场地位。利好OTA平台、航空和免税消费。中长期出境游渗透率提升和入境游恢复是两大增长引擎。",
+      "stocks": [
+        {
+          "name": "携程",
+          "code": "TCOM",
+          "market": "US",
+          "sector": "OTA龙头",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "同程旅行",
+          "code": "0780.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "免税消费",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "春秋航空",
+          "code": "601021.SH",
+          "market": "SH",
+          "sector": "廉价航空/出境游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "首旅酒店",
+          "code": "600258.SH",
+          "market": "SH",
+          "sector": "酒店旅游",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店旅游",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "title": "中国全球文明倡议能否帮助保护脆弱文化",
+      "logic": "全球文明倡议是中国文化软实力出海顶层设计的一部分。对资本市场的直接财务影响微乎其微，但长期若转化为文化贸易和旅游收入，极长线利好文创和文旅板块。当前阶段估值影响可忽略。",
+      "stocks": [
+        {
+          "name": "中国出版",
+          "code": "601949.SH",
+          "market": "SH",
+          "sector": "文化央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电影",
+          "code": "600977.SH",
+          "market": "SH",
+          "sector": "影视央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "title": "Silvercorp因安全整改放缓中国采矿作业",
+      "logic": "Silvercorp因安全整改放缓中国矿山作业，短期产量下降利空其股价和白银供给预期。中长期安全升级有利于行业规范化和估值修复。白银价格若因供给收缩上行，利好其他白银生产商。",
+      "stocks": [
+        {
+          "name": "Silvercorp Metals",
+          "code": "SVM",
+          "market": "US",
+          "sector": "白银矿业/整改中",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "兴业银锡",
+          "code": "000426.SZ",
+          "market": "SZ",
+          "sector": "银矿/供给收缩受益",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "盛达资源",
+          "code": "000603.SZ",
+          "market": "SZ",
+          "sector": "银矿/供给收缩受益",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "贵金属/白银伴生",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
     }
   ],
   "summary": {
@@ -7259,8 +7768,120 @@
             "code": "600125.SH"
           }
         ]
+      },
+      {
+        "label": "伊朗石油制裁风险（新增）",
+        "theme": "美国点名中国是伊朗石油唯一买家 / 油运VLCC受益",
+        "stocks": [
+          {
+            "name": "中远海能",
+            "code": "600026.SH"
+          },
+          {
+            "name": "招商轮船",
+            "code": "601872.SH"
+          }
+        ]
+      },
+      {
+        "label": "钢铁碳排放合规（新增）",
+        "theme": "钢铁行业排放困境 / 环保设备商受益 / 龙头低碳转型",
+        "stocks": [
+          {
+            "name": "宝钢股份",
+            "code": "600019.SH"
+          },
+          {
+            "name": "龙净环保",
+            "code": "600388.SH"
+          }
+        ]
+      },
+      {
+        "label": "精密机床国产替代（新增）",
+        "theme": "津上精密利润率考验 / CNC机床国产化",
+        "stocks": [
+          {
+            "name": "津上精密中国",
+            "code": "1651.HK"
+          },
+          {
+            "name": "创世纪",
+            "code": "300083.SZ"
+          }
+        ]
+      },
+      {
+        "label": "中美AI基建博弈（新增）",
+        "theme": "中国关联行动阻碍美国AI基建236亿美元 / 国产算力受益",
+        "stocks": [
+          {
+            "name": "寒武纪",
+            "code": "688256.SH"
+          },
+          {
+            "name": "海光信息",
+            "code": "688041.SH"
+          }
+        ]
+      },
+      {
+        "label": "丰田可靠性叙事（新增）",
+        "theme": "日系车企防御中国EV / 中国新能源车优势确立",
+        "stocks": [
+          {
+            "name": "比亚迪",
+            "code": "1211.HK"
+          },
+          {
+            "name": "丰田汽车",
+            "code": "7203.T"
+          }
+        ]
+      },
+      {
+        "label": "可重复使用火箭突破（新增）",
+        "theme": "火箭发动机长程试车成功 / 商业航天产业链受益",
+        "stocks": [
+          {
+            "name": "航天动力",
+            "code": "600343.SH"
+          },
+          {
+            "name": "中国卫星",
+            "code": "600118.SH"
+          }
+        ]
+      },
+      {
+        "label": "亚太旅游市场展望（新增）",
+        "theme": "中国保持最大旅游市场 / 2028年超疫情前",
+        "stocks": [
+          {
+            "name": "携程",
+            "code": "TCOM"
+          },
+          {
+            "name": "中国中免",
+            "code": "601888.SH"
+          }
+        ]
+      },
+      {
+        "label": "Silvercorp安全整改（新增）",
+        "theme": "整改放缓中国采矿 / 白银供给收缩",
+        "stocks": [
+          {
+            "name": "兴业银锡",
+            "code": "000426.SZ"
+          },
+          {
+            "name": "盛达资源",
+            "code": "000603.SZ"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有119条+新增20条=139条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
+  "disclaimer": "以上分析基于 2026-06-30 多批次新闻快照合并（原有139条+新增11条=150条），市场变化迅速，请结合实时行情决策。投资有风险，本文不构成投资建议。"
 }
