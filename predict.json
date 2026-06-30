@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-30T11:28:40+08:00",
+  "update_time": "2026-06-30T13:40:11+08:00",
   "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。",
   "news_analysis": [
     {
@@ -3707,6 +3707,305 @@
           "short_term": "→",
           "mid_term": "→",
           "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "礼来将乳腺癌药物Verzenios中国权益授予信达生物",
+      "logic": "信达获得国际重磅药物中国商业化权，直接增厚营收；礼来通过轻资产模式渗透中国市场，降低合规和运营成本。",
+      "stocks": [
+        {
+          "name": "信达生物",
+          "code": "1801.HK",
+          "market": "HK",
+          "sector": "创新药",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "礼来",
+          "code": "LLY",
+          "market": "US",
+          "sector": "跨国药企",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒瑞医药",
+          "code": "600276.SH",
+          "market": "SH",
+          "sector": "创新药竞品",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "新鲜榴莲出口中国支撑泰国过境贸易增长",
+      "logic": "东南亚农产品加速进入中国市场，利好跨境冷链物流和东南亚贸易链，同时对国内热带水果种植形成替代压力。",
+      "stocks": [
+        {
+          "name": "嘉里物流",
+          "code": "0636.HK",
+          "market": "HK",
+          "sector": "跨境冷链物流",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中通快递",
+          "code": "ZTO",
+          "market": "US",
+          "sector": "跨境物流",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "宏辉果蔬",
+          "code": "603336.SH",
+          "market": "SH",
+          "sector": "果蔬贸易",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "中国对北京塔台坠机事故后限制小型飞机",
+      "logic": "事故后监管收紧短期抑制通用航空运营，但长期推动安全升级和设备更新需求。",
+      "stocks": [
+        {
+          "name": "中信海直",
+          "code": "000099.SZ",
+          "market": "SZ",
+          "sector": "通用航空运营",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中航科工",
+          "code": "2357.HK",
+          "market": "HK",
+          "sector": "航空制造",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "海特高新",
+          "code": "002023.SZ",
+          "market": "SZ",
+          "sector": "航空维修培训",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "蒙牛高端牛奶产品面向城市家庭推出",
+      "logic": "蒙牛产品结构向高毛利高端线升级，提升盈利能力；乳制品消费升级趋势持续，行业集中度提升利好龙头。",
+      "stocks": [
+        {
+          "name": "蒙牛乳业",
+          "code": "2319.HK",
+          "market": "HK",
+          "sector": "乳制品",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "伊利股份",
+          "code": "600887.SH",
+          "market": "SH",
+          "sector": "乳制品竞品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "光明乳业",
+          "code": "600597.SH",
+          "market": "SH",
+          "sector": "区域乳企",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "台湾总统告诫军校学员远离中国渗透",
+      "logic": "两岸政治紧张升温，短期脉冲刺激军工板块，但持续性取决于后续事态发展。半导体供应链地缘风险溢价上升。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "军工ETF",
+          "code": "512660",
+          "market": "SH",
+          "sector": "军工指数",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM",
+          "market": "US",
+          "sector": "台湾半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "台湾半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "中国被曝劝阻企业以较高孳息率赴海外筹资",
+      "logic": "监管引导企业转向境内融资，利好国内债券市场和投行业务，但抑制企业海外融资灵活性，中资美元债市场承压。",
+      "stocks": [
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "sector": "国内投行",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "交易所",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国银行",
+          "code": "601988.SH",
+          "market": "SH",
+          "sector": "银行间债市",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "小小芯片激起大湾区产业活水",
+      "logic": "大湾区芯片产业生态加速成型，EDA、制造、封测全链条受益，政策持续加码半导体自主化。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华大九天",
+          "code": "301269.SZ",
+          "market": "SZ",
+          "sector": "EDA工具",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "大湾区制造",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "长电科技",
+          "code": "600584.SH",
+          "market": "SH",
+          "sector": "芯片封测",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "美国高官称印度工程人才在AI领域比中国有优势",
+      "logic": "美国官方表态信号意味AI人才竞争从'中美二元'转向'中印美三角'，中国AI企业面临人才争夺加剧，短期情绪面承压但长期中国AI生态完整度仍占优。",
+      "stocks": [
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI平台",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Infosys",
+          "code": "INFY",
+          "market": "US",
+          "sector": "印度IT服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "塔塔咨询",
+          "code": "TCS.NS",
+          "market": "IN",
+          "sector": "印度IT服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     }
