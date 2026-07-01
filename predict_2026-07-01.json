@@ -1,170 +1,460 @@
 {
   "meta": {
     "name": "2026年7月1日全球新闻股票推演",
-    "description": "基于2026年7月1日hk.k415.win/news/抓取的15条国际新闻，关联潜在受影响的股票标的，涵盖A股、港股、美股市场，进行短中长期多空方向推演",
+    "description": "基于2026年7月1日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "https://hk.k415.win/news/ 2026-07-01抓取整理",
+    "source": "2026年7月1日综合整理（来源：hk.k415.win/news/）",
     "version": "1.0.0",
-    "update_time": "2026-07-01T19:00:00+08:00",
+    "update_time": "2026-07-01T20:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "CGTN：什么驱动了中国人民对中国执政党的信任？",
-      "logic": "建党105周年正面舆论强化国有经济信心，利好中字头/央企板块，市场情绪提振国企估值修复",
+      "title": "飞机失事保密揭示中国安全国家特征",
+      "logic": "The Week报道中国航空事故信息保密问题，引发国际社会对中国航空安全透明度的质疑。短期内可能影响中国航司的国际航线审批和乘客信心，尤其是国际航线占比高的航司；中期看若监管趋严将推高合规成本；长期航空安全体系改革可能利好国产大飞机和航空安全技术供应商。",
       "stocks": [
-        {"name": "中国中免", "code": "601888.SH", "market": "SH", "sector": "消费/免税", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "金融保险", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "基建", "short_term": "↑", "mid_term": "→", "long_term": "↑"}
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国东航",
+          "code": "600115.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中航西飞",
+          "code": "000768.SZ",
+          "market": "SZ",
+          "sector": "国防军工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 2,
-      "title": "中印媒体解冻？新华社会议释放谨慎重启信号",
-      "logic": "中印关系缓和信号利好双边贸易和跨境投资，印度市场相关中资企业及印度本土企业受益；贸易壁垒降低预期",
+      "title": "调查揭露中国地下增高手术市场",
+      "logic": "Sixth Tone调查报道揭露中国非法增高手术黑市，涉及多地无资质诊所。短期内可能引发监管风暴，合规医美机构短期承压；中期行业洗牌利好龙头合规企业；长期国民身高焦虑驱动的增高/医美刚需不变。",
       "stocks": [
-        {"name": "小米集团-W", "code": "1810.HK", "market": "HK", "sector": "消费电子", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "比亚迪", "code": "002594.SZ", "market": "SZ", "sector": "新能源汽车", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "OPPO/VIVO(传音控股)", "code": "688036.SH", "market": "SH", "sector": "手机终端", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "爱美客",
+          "code": "300896.SZ",
+          "market": "SZ",
+          "sector": "医疗美容",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华熙生物",
+          "code": "688363.SH",
+          "market": "SH",
+          "sector": "医疗美容",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "昊海生科",
+          "code": "688366.SH",
+          "market": "SH",
+          "sector": "医疗美容",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 3,
-      "title": "北京坠机事件引发对中国低空飞行安全的质疑",
-      "logic": "安全事故引发监管收紧预期，短期利空低空经济/通航板块；中长期行业规范化利好龙头企业集中度提升",
+      "title": "中共建党105周年庆典",
+      "logic": "中共建党105周年，全国举行庆祝活动。政策利好预期升温，短期提振市场情绪；庆典期间国企改革、科技自主等主题可能获政策加码；中长期看党建主题对资本市场的影响偏向中性，实质取决于后续具体政策落地。",
       "stocks": [
-        {"name": "亿航智能", "code": "EH.US", "market": "US", "sector": "eVTOL/无人机", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "万丰奥威", "code": "002085.SZ", "market": "SZ", "sector": "通用航空", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
-        {"name": "中信海直", "code": "000099.SZ", "market": "SZ", "sector": "直升机服务", "short_term": "↓", "mid_term": "→", "long_term": "↑"}
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游零售",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 4,
-      "title": "中国-尼泊尔文化沙龙汇聚200余位艺术家与学者",
-      "logic": "一带一路文化交流深化，利好中尼经济走廊相关基建、旅游概念；项目落地预期增强",
+      "title": "NIQ收购飞轮电商中国及东南亚数据业务",
+      "logic": "NielsenIQ收购飞轮电商中国及东南亚数据业务，标志全球数据巨头加速布局亚太电商数据赛道。短期内利好中国电商SaaS和数据服务商估值对标；中期中国电商数据资产价值重估；长期数据主权审查可能限制外资数据服务商在华扩张。",
       "stocks": [
-        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建/海外工程", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国中铁", "code": "601390.SH", "market": "SH", "sector": "基建/铁路", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "西藏旅游", "code": "600749.SH", "market": "SH", "sector": "旅游", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "电子商务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "京东",
+          "code": "JD",
+          "market": "US",
+          "sector": "电子商务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD",
+          "market": "US",
+          "sector": "电子商务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "微盟集团",
+          "code": "2013.HK",
+          "market": "HK",
+          "sector": "电商SaaS",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 5,
-      "title": "苏丹前外长：发展中国家可借鉴中国发展经验",
-      "logic": "中国发展模式获非洲高层认可，强化中非合作预期；利好对非工程承包、资源开发企业",
+      "title": "世界银行将于2031年前逐步停止对华贷款",
+      "logic": "世行宣布2031年前逐步停止对华新贷款，反映中国从受援国向捐赠国转型。短期内对依赖世行联合融资的基建项目形成资金缺口压力；中期倒逼中国加速国内绿色金融和开发性金融体系建设；长期看中国将加大亚投行和新开发银行主导权，利好人民币国际化。",
       "stocks": [
-        {"name": "中国铁建", "code": "601186.SH", "market": "SH", "sector": "基建/海外工程", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中材国际", "code": "600970.SH", "market": "SH", "sector": "建材/海外工程", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中矿资源", "code": "002738.SZ", "market": "SZ", "sector": "矿产资源", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "工商银行",
+          "code": "601398.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国银行",
+          "code": "3988.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 6,
-      "title": "中国共产党建党105周年，中国承诺加强与尼日利亚的关系",
-      "logic": "高层外交承诺强化中尼经贸纽带，尼日利亚是非洲最大经济体，利好对尼能源、基建、通信板块",
+      "title": "中国公司销售超仿真机器人：将无条件爱你",
+      "logic": "NDTV报道中国机器人公司推出情感陪伴型超仿真机器人。短期内引爆人形机器人/情感AI概念热度；中期商业化落地取决于量产成本和伦理监管；长期老龄化社会驱动陪伴机器人成为万亿级刚需市场。",
       "stocks": [
-        {"name": "中油工程", "code": "600339.SH", "market": "SH", "sector": "油气工程", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "电力/基建", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中兴通讯", "code": "000063.SZ", "market": "SZ", "sector": "通信设备", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "优必选",
+          "code": "9880.HK",
+          "market": "HK",
+          "sector": "机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "机器人",
+          "code": "300024.SZ",
+          "market": "SZ",
+          "sector": "机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 7,
-      "title": "欧盟对中国低价包裹征收新费用",
-      "logic": "欧盟取消150欧元以下进口免税，直接冲击跨境电商低价模式；SHEIN/Temu/Pinduoduo海外业务成本上升，短期利空，中长期倒逼模式升级",
+      "title": "中国愿景：致力于实现14亿多人的现代化",
+      "logic": "CGTN报道中国现代化愿景，强调共同富裕与高质量发展。短期政策利好消费升级和数字经济板块；中期内需扩张驱动消费龙头增长；长期现代化进程中的能源转型和科技自主是确定性主线。",
       "stocks": [
-        {"name": "拼多多(PDD Holdings)", "code": "PDD.US", "market": "US", "sector": "跨境电商", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "阿里巴巴-SW", "code": "9988.HK", "market": "HK", "sector": "电商/云计算", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "京东集团-SW", "code": "9618.HK", "market": "HK", "sector": "电商/物流", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "锂电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 8,
-      "title": "中国愿在平等友好基础上与印度合作",
-      "logic": "继中印媒体解冻后，官方层面合作表态进一步确认关系缓和趋势；边境贸易、制造业合作预期升温",
+      "title": "澳大利亚与瓦努阿图签署修订版安全协议以应对中国影响力",
+      "logic": "澳大利亚与瓦努阿图签署新安全协议，旨在制衡中国在南太平洋的影响力扩张。短期内加剧中澳地缘博弈，澳洲矿产资源可能面临中国进口政策调整风险；中期中国加速在南太平洋的替代资源布局；长期全球关键矿产供应链重构利好多元化矿源。",
       "stocks": [
-        {"name": "比亚迪", "code": "002594.SZ", "market": "SZ", "sector": "新能源汽车", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "三一重工", "code": "600031.SH", "market": "SH", "sector": "工程机械", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "海尔智家", "code": "600690.SH", "market": "SH", "sector": "家电", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "必和必拓",
+          "code": "BHP.AU",
+          "market": "AU",
+          "sector": "矿业",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "力拓",
+          "code": "RIO.AU",
+          "market": "AU",
+          "sector": "矿业",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "矿业",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 9,
-      "title": "美国参议员：'我的手机连德里，不到北京'——对中国信任的嘲讽与对印度的赞扬",
-      "logic": "美国政客公开质疑中国科技信任度，强化中美科技脱钩叙事；短期内中概股情绪受压，但利好国产替代板块",
+      "title": "中共成立105周年：开辟中尼友谊新篇章",
+      "logic": "中共建党105周年之际，Vanguard报道中尼友谊新篇章。短期内中非合作论坛题材升温，利好对非基建和贸易企业；中期尼日利亚作为非洲第一大经济体，中尼合作深化打开西非市场增量；长期一带一路非洲板块持续扩张",
       "stocks": [
-        {"name": "阿里巴巴-SW", "code": "9988.HK", "market": "HK", "sector": "电商/云计算", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "AI/信创", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "中国铁建",
+          "code": "601186.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "传音控股",
+          "code": "688036.SH",
+          "market": "SH",
+          "sector": "消费电子",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 10,
-      "title": "中国公司推出超仿真、'永远忠诚'的人形机器人",
-      "logic": "人形机器人技术突破进展，超仿真产品商业化预期升温；利好机器人产业链（伺服、减速器、传感器、AI）",
+      "title": "中国将建设天地一体化监测网络用于小行星防御",
+      "logic": "CGTN报道中国宣布建设天地一体化小行星防御监测网络。短期内引爆航天军工概念，卫星制造和地面监测设备供应商直接受益；中期中国航天预算有望持续增长；长期近地轨道安全体系构建利好商业航天全产业链。",
       "stocks": [
-        {"name": "优必选", "code": "9880.HK", "market": "HK", "sector": "人形机器人", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "拓斯达", "code": "300607.SZ", "market": "SZ", "sector": "工业机器人", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "绿的谐波", "code": "688017.SH", "market": "SH", "sector": "精密减速器", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北斗星通",
+          "code": "002151.SZ",
+          "market": "SZ",
+          "sector": "卫星导航",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 11,
-      "title": "美高梅中国以2000万美元酒店管理交易拓展内地市场",
-      "logic": "美高梅通过轻资产酒店管理模式渗透内地市场，规避博彩牌照限制；利好澳门博彩+文旅融合概念",
+      "title": "中国新民族团结法引发藏人全球抗议",
+      "logic": "NewsX报道中国新民族团结法引发海外藏人抗议。短期内可能加剧中美/中欧在人权议题上的摩擦，影响中概股情绪和西藏相关旅游/基建股；中期关注法案正式落地后的实际实施力度；长期民族政策稳定性影响边疆地区经济发展预期。",
       "stocks": [
-        {"name": "美高梅中国", "code": "2282.HK", "market": "HK", "sector": "博彩/酒店", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "金沙中国有限公司", "code": "1928.HK", "market": "HK", "sector": "博彩/度假村", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "携程集团-S", "code": "9961.HK", "market": "HK", "sector": "在线旅游", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
-      ]
-    },
-    {
-      "id": 12,
-      "title": "中国深红色河流从空中呈现大理石般纹理",
-      "logic": "环境污染事件引发舆论关注，短期利空涉事地区工业企业，中长期利好环保监测/治理板块政策加码预期",
-      "stocks": [
-        {"name": "碧水源", "code": "300070.SZ", "market": "SZ", "sector": "水处理/环保", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "先河环保", "code": "300137.SZ", "market": "SZ", "sector": "环境监测", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "伟明环保", "code": "603568.SH", "market": "SH", "sector": "固废处理", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
-      ]
-    },
-    {
-      "id": 13,
-      "title": "中国企业海外投资将变得更加困难",
-      "logic": "中国收紧海外投资规则应对美国科技竞争，出海企业面临更高审批壁垒；短期利空海外并购/扩张概念，中长期利好内循环标的",
-      "stocks": [
-        {"name": "海尔智家", "code": "600690.SH", "market": "SH", "sector": "家电/出海", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "美的集团", "code": "000333.SZ", "market": "SZ", "sector": "家电/出海", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "三一重工", "code": "600031.SH", "market": "SH", "sector": "工程机械/出海", "short_term": "↓", "mid_term": "→", "long_term": "→"}
-      ]
-    },
-    {
-      "id": 14,
-      "title": "西藏活动人士抗议中国新法'抹除'其身份",
-      "logic": "涉藏议题引发国际关注，短期可能触发部分国家对华外交摩擦；对西藏板块旅游/基建构成情绪面扰动，实质影响有限",
-      "stocks": [
-        {"name": "西藏旅游", "code": "600749.SH", "market": "SH", "sector": "旅游", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "西藏矿业", "code": "000762.SZ", "market": "SZ", "sector": "锂矿/资源", "short_term": "→", "mid_term": "→", "long_term": "↑"}
-      ]
-    },
-    {
-      "id": 15,
-      "title": "文件声称中国秘密训练俄罗斯军队",
-      "logic": "涉及中俄军事合作的敏感议题，可能加剧西方对华制裁预期；短期利好军工自主可控板块，利空中概股和涉俄贸易企业",
-      "stocks": [
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工/战斗机", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工/造船", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "航天彩虹", "code": "002389.SZ", "market": "SZ", "sector": "军工/无人机", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "西藏旅游",
+          "code": "600749.SH",
+          "market": "SH",
+          "sector": "旅游",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "电子商务",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     }
   ],
   "summary": {
     "newly_added": [
-      {"label": "人形机器人新品发布（新增）", "theme": "中国公司推出超仿真人形机器人，产业链商业化预期升温", "stocks": [{"name": "优必选", "code": "9880.HK", "short_term": "↑↑"}, {"name": "绿的谐波", "code": "688017.SH", "short_term": "↑"}]},
-      {"label": "欧盟加征低价包裹费（新增）", "theme": "欧盟取消150欧元进口免税门槛，冲击跨境电商低价模式", "stocks": [{"name": "拼多多", "code": "PDD.US", "short_term": "↓"}, {"name": "阿里巴巴", "code": "9988.HK", "short_term": "↓"}]},
-      {"label": "美高梅20M美元内地拓展（新增）", "theme": "美高梅中国通过酒店管理交易渗透内地文旅市场", "stocks": [{"name": "美高梅中国", "code": "2282.HK", "short_term": "↑"}]}
+      {
+        "label": "超仿真机器人全球关注（新增）",
+        "theme": "中国机器人公司推出情感陪伴型超仿真机器人引发全球关注，人形机器人概念股短期暴涨预期",
+        "stocks": [
+          { "name": "优必选", "code": "9880.HK", "short_term": "↑↑" },
+          { "name": "机器人", "code": "300024.SZ", "short_term": "↑↑" }
+        ]
+      },
+      {
+        "label": "世行停止对华贷款（新增）",
+        "theme": "世界银行宣布2031年前逐步停止对华新贷款，标志中国国际融资模式转型",
+        "stocks": [
+          { "name": "中国银行", "code": "3988.HK", "short_term": "→" },
+          { "name": "隆基绿能", "code": "601012.SH", "short_term": "↓" }
+        ]
+      },
+      {
+        "label": "小行星防御网络建设（新增）",
+        "theme": "中国将建设天地一体化小行星防御监测网络，航天军工板块迎重磅催化剂",
+        "stocks": [
+          { "name": "中国卫星", "code": "600118.SH", "short_term": "↑↑" },
+          { "name": "航天电子", "code": "600879.SH", "short_term": "↑↑" }
+        ]
+      },
+      {
+        "label": "南太平洋地缘博弈升温（新增）",
+        "theme": "澳大利亚与瓦努阿图签署安全协议制衡中国影响力，关键矿产供应链博弈加剧",
+        "stocks": [
+          { "name": "北方稀土", "code": "600111.SH", "short_term": "↑" },
+          { "name": "BHP", "code": "BHP.AU", "short_term": "↓" }
+        ]
+      }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻，不构成投资建议。股票市场存在不可预测的风险，投资者应独立判断决策。数据来源：https://hk.k415.win/news/ 2026-07-01"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。数据来源：The Week, Sixth Tone, Stock Titan, Gulf Business, NDTV, CGTN, MSN, Vanguard News, NewsX 等。"
 }
