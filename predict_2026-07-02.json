@@ -1,36 +1,36 @@
 {
   "meta": {
-    "name": "2026-07-02 全球新闻股票推演",
-    "description": "基于2026年7月2日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
+    "name": "2026年7月2日全球新闻股票推演",
+    "description": "基于2026年7月2日全球新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "2026-07-02 超级News (hk.k415.win/news/) 综合整理",
+    "source": "hk.k415.win/news/ 综合整理，2026年7月2日",
     "version": "1.0.0",
-    "update_time": "2026-07-02T08:00:00+08:00",
+    "update_time": "2026-07-02T07:59:24+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
       "title": "中国制造业创2020年以来最佳季度表现",
-      "logic": "PMI数据超预期表明制造业景气度回升，利好工业自动化、机械制造、原材料等板块。制造业回暖将带动上游设备需求和中游生产扩张，短期提振市场情绪，中期驱动盈利改善。",
+      "logic": "制造业PMI超预期回升，工业产出扩张利好机械设备、原材料、工业自动化板块。基建投资持续发力带动工程机械和钢铁需求。",
       "stocks": [
         {
-          "name": "工业富联",
-          "code": "601138.SH",
+          "name": "三一重工",
+          "code": "600031.SH",
           "market": "SH",
-          "sector": "工业制造",
+          "sector": "工程机械",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "汇川技术",
-          "code": "300124.SZ",
-          "market": "SZ",
-          "sector": "工业自动化",
+          "name": "中国中车",
+          "code": "1766.HK",
+          "market": "HK",
+          "sector": "轨道交通",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "mid_term": "↑↑",
+          "long_term": "↑"
         },
         {
           "name": "宝钢股份",
@@ -42,26 +42,26 @@
           "long_term": "→"
         },
         {
-          "name": "沪深300ETF",
-          "code": "510300.SH",
-          "market": "SH",
-          "sector": "大盘指数",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "工业自动化",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 2,
       "title": "美国海关在诺福克查获从中国进口的橱柜和椅子",
-      "logic": "美国海关执法收紧对华进口商品，预示中美贸易摩擦可能再度升级。家具、家居等出口依赖度高的行业面临关税和清关风险，短期打压出口型企业股价，中期若摩擦扩大将冲击整个出口链。",
+      "logic": "美国海关对中国家居产品执法趋严，预示新一轮贸易摩擦升级。出口型家居企业面临关税加征风险，订单可能转移至东南亚。",
       "stocks": [
         {
           "name": "欧派家居",
           "code": "603833.SH",
           "market": "SH",
-          "sector": "家居制造",
+          "sector": "定制家居",
           "short_term": "↓",
           "mid_term": "↓",
           "long_term": "→"
@@ -70,205 +70,187 @@
           "name": "顾家家居",
           "code": "603816.SH",
           "market": "SH",
-          "sector": "家具出口",
+          "sector": "软体家居",
           "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "↓"
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
           "name": "敏华控股",
           "code": "1999.HK",
           "market": "HK",
-          "sector": "家具制造",
+          "sector": "功能沙发出口",
           "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↓",
+          "long_term": "↓"
         }
       ]
     },
     {
       "id": 3,
-      "title": "司法部调查亿万富翁引发中美科技资本博弈",
-      "logic": "美国司法部调查与中国科技组织关联的亿万富翁，加剧中美科技脱钩担忧。中概股面临新一轮监管审查压力，短期避险情绪升温，资金可能撤出中概科技板块，但长期看龙头企业基本面韧性强。",
+      "title": "DOJ调查亿万富翁后中共战略部署",
+      "logic": "美国司法部调查科技富豪Neville Roy Singham引发中美科技博弈升温，可能波及在美有业务的芯片和AI企业，加剧技术脱钩担忧。",
       "stocks": [
         {
-          "name": "阿里巴巴",
-          "code": "BABA.US",
-          "market": "US",
-          "sector": "互联网科技",
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体制造",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "拼多多",
-          "code": "PDD.US",
-          "market": "US",
-          "sector": "电子商务",
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
           "short_term": "↓",
           "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "中概互联网ETF",
-          "code": "KWEB.US",
-          "market": "US",
-          "sector": "中概股指数",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI语音",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "特朗普发出巴拿马运河警告：中国试图控制",
-      "logic": "美国前总统特朗普就巴拿马运河发声，暗示地缘博弈升级。全球航运路线不确定性增加，可能推高航运成本和运费，利好航运巨头；同时港口/物流资产的战略价值凸显，军工板块受地缘紧张情绪提振。",
+      "title": "特朗普警告巴拿马运河：中国正试图控制",
+      "logic": "特朗普对巴拿马运河的警告升级中美地缘博弈，航运和港口股短期承压。但中国在全球港口布局已具规模，中长期影响有限。",
       "stocks": [
         {
           "name": "中远海控",
           "code": "1919.HK",
           "market": "HK",
           "sector": "航运",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "招商港口",
-          "code": "001872.SZ",
-          "market": "SZ",
-          "sector": "港口物流",
-          "short_term": "↑",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "洛克希德马丁",
-          "code": "LMT.US",
-          "market": "US",
-          "sector": "军工",
-          "short_term": "↑",
+          "name": "上港集团",
+          "code": "600018.SH",
+          "market": "SH",
+          "sector": "港口",
+          "short_term": "→",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
+        },
+        {
+          "name": "招商局港口",
+          "code": "0144.HK",
+          "market": "HK",
+          "sector": "港口运营",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 5,
       "title": "上海加密货币外汇案五人被判入狱，涉案超2900万美元",
-      "logic": "中国对加密货币相关非法外汇交易的打击力度加大，监管信号明确。短期打压加密货币市场情绪，利空加密交易平台和相关概念股；中长期监管趋严可能加速行业洗牌，合规化企业相对受益。",
+      "logic": "中国继续高压打击非法加密货币交易，短期利空加密概念股。但合规化趋势不变，持牌数字资产平台中长期受益。",
       "stocks": [
         {
-          "name": "比特币",
-          "code": "BTC.US",
-          "market": "US",
-          "sector": "加密货币",
+          "name": "火币科技",
+          "code": "1611.HK",
+          "market": "HK",
+          "sector": "数字资产",
           "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
+        },
+        {
+          "name": "欧科云链",
+          "code": "1499.HK",
+          "market": "HK",
+          "sector": "区块链服务",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
         },
         {
           "name": "Coinbase",
           "code": "COIN.US",
           "market": "US",
-          "sector": "加密交易平台",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "新火科技",
-          "code": "1611.HK",
-          "market": "HK",
-          "sector": "加密服务",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
+          "sector": "加密货币交易所",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 6,
-      "title": "中国向太平洋岛国论坛提供108万美元援助",
-      "logic": "中国持续加大对太平洋岛国的外交与援助投入，是一带一路战略的延续。利好海外基建工程承包企业，南太平洋区域合作深化将为基建出海打开增量市场，短期情绪面正面但实质性订单落地需时间。",
+      "title": "主持人称民主党应像穿廉价中国制造T恤一样拥抱社会主义信息",
+      "logic": "美国舆论持续将中国制造与廉价标签绑定，不利于中国品牌高端化出海。家电、消费电子品牌在美品牌形象承压。",
       "stocks": [
         {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建工程",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "name": "海尔智家",
+          "code": "6690.HK",
+          "market": "HK",
+          "sector": "家电",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "中国铁建",
-          "code": "601186.SH",
-          "market": "SH",
-          "sector": "工程建筑",
-          "short_term": "↑",
-          "mid_term": "→",
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "→",
+          "mid_term": "↓",
           "long_term": "↑"
         },
         {
-          "name": "中工国际",
-          "code": "002051.SZ",
+          "name": "安克创新",
+          "code": "300866.SZ",
           "market": "SZ",
-          "sector": "国际工程",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "sector": "消费电子出海",
+          "short_term": "→",
+          "mid_term": "→",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 7,
-      "title": "比亚迪在华销量令投资者震惊，股价下跌",
-      "logic": "比亚迪销量数据低于市场预期引发抛售，短期股价承压。新能源车市场竞争加剧，比亚迪份额可能被蚕食，但长期看其垂直整合和技术积累仍是护城河。竞争对手短期可能获得资金溢出效应，特斯拉、蔚来等或间接受益。",
+      "title": "遭北京封杀的脱口秀演员转向海外华人观众",
+      "logic": "内容审查收紧推动海外华人文化消费增长，利好面向海外华人的内容平台。国内文娱股短期受监管不确定性压制。",
       "stocks": [
         {
-          "name": "比亚迪股份",
-          "code": "1211.HK",
+          "name": "哔哩哔哩",
+          "code": "9626.HK",
           "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↓",
+          "sector": "视频平台",
+          "short_term": "→",
           "mid_term": "↓",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
-          "sector": "新能源汽车",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "↑"
-        },
-        {
-          "name": "特斯拉",
-          "code": "TSLA.US",
+          "name": "爱奇艺",
+          "code": "IQ.US",
           "market": "US",
-          "sector": "新能源汽车",
-          "short_term": "↑",
+          "sector": "流媒体",
+          "short_term": "→",
           "mid_term": "→",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "蔚来",
-          "code": "NIO.US",
-          "market": "US",
-          "sector": "新能源汽车",
-          "short_term": "↑",
+          "name": "阅文集团",
+          "code": "0772.HK",
+          "market": "HK",
+          "sector": "数字阅读",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -276,17 +258,103 @@
     },
     {
       "id": 8,
-      "title": "美联储主席誓言坚持2%通胀目标",
-      "logic": "鲍威尔重申2%通胀目标，暗示短期内不会降息，鹰派信号明显。利率敏感型资产（科技成长股、黄金）承压，银行板块受益于高利率环境利差扩大。短期市场可能重新定价降息预期，波动加大。",
+      "title": "中国向太平洋岛国论坛提供108万美元援助",
+      "logic": "中国加大对太平洋岛国的外交和援助力度，一带一路在南太平洋的基建合作有望加速，利好基建出海和深海资源开发企业。",
       "stocks": [
         {
-          "name": "纳指100ETF",
-          "code": "QQQ.US",
-          "market": "US",
-          "sector": "科技指数",
+          "name": "中国交建",
+          "code": "1800.HK",
+          "market": "HK",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "0390.HK",
+          "market": "HK",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "电力基建",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "比亚迪在华销量令投资者震惊，股价下跌",
+      "logic": "比亚迪销量数据不及市场高预期引发抛售，短期技术面走弱。但基本面依然强劲，新能源渗透率持续提升，中长期产品矩阵和海外扩张支撑估值。",
+      "stocks": [
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪电子",
+          "code": "0285.HK",
+          "market": "HK",
+          "sector": "电子零部件",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA.US",
+          "market": "US",
+          "sector": "电动汽车",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "美联储主席誓言坚持2%通胀目标",
+      "logic": "鲍威尔鹰派表态暗示高利率维持更久，全球风险资产承压。利率敏感型板块（地产、科技成长股）短期折现率上行利空，银行息差受益。",
+      "stocks": [
+        {
+          "name": "标普500 ETF",
+          "code": "SPY.US",
+          "market": "US",
+          "sector": "大盘指数",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒生指数ETF",
+          "code": "2800.HK",
+          "market": "HK",
+          "sector": "港股大盘",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
           "name": "摩根大通",
@@ -298,114 +366,155 @@
           "long_term": "→"
         },
         {
-          "name": "黄金ETF",
-          "code": "GLD.US",
-          "market": "US",
-          "sector": "贵金属",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "美国银行",
-          "code": "BAC.US",
-          "market": "US",
-          "sector": "银行",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "美国股市回撤开启第三季度，市场关注6月就业数据",
-      "logic": "美股三季度开局不利，市场对就业数据的关注度上升。若就业数据强劲将强化美联储鹰派立场，股市进一步承压；若数据疲软则可能缓解加息预期。VIX恐慌指数短期上行，防御性板块相对抗跌。",
-      "stocks": [
-        {
-          "name": "标普500ETF",
-          "code": "SPY.US",
-          "market": "US",
-          "sector": "大盘指数",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "VIX恐慌指数",
-          "code": "VIX.US",
-          "market": "US",
-          "sector": "波动率指数",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "公共事业ETF",
-          "code": "XLU.US",
-          "market": "US",
-          "sector": "防御板块",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "北京向东盟传达信息：中国不想成为地区霸权",
-      "logic": "中国外交主动释放缓和信号，意图缓解东盟国家对南海等问题的担忧。地缘政治风险溢价下降，利好中国-东盟贸易链相关企业，东盟市场敞口较大的中资企业和区域ETF受益。",
-      "stocks": [
-        {
-          "name": "东盟ETF",
-          "code": "ASEA.US",
-          "market": "US",
-          "sector": "区域ETF",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
+          "name": "新鸿基地产",
+          "code": "0016.HK",
           "market": "HK",
-          "sector": "互联网科技",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中远海控",
-          "code": "1919.HK",
-          "market": "HK",
-          "sector": "航运",
-          "short_term": "↑",
-          "mid_term": "→",
+          "sector": "房地产",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 11,
-      "title": "阿里为苏里南科伦坦河大桥项目留有余地",
-      "logic": "阿里巴巴参与南美洲基础设施项目的信号，表明其业务版图正向海外基建领域延伸。短期提振市场对公司多元化战略的信心，但项目体量相对阿里整体营收较小，长期影响取决于后续项目落地和复制能力。",
+      "title": "美国股市回撤开启第三季度，市场关注6月就业数据",
+      "logic": "美股在历史高位开启技术性回调，市场等待就业数据验证经济韧性。VIX波动率上升，防御性板块短期受青睐。",
       "stocks": [
         {
-          "name": "阿里巴巴",
-          "code": "BABA.US",
+          "name": "纳斯达克100 ETF",
+          "code": "QQQ.US",
           "market": "US",
-          "sector": "互联网科技",
+          "sector": "科技大盘",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "波动率指数ETF",
+          "code": "VXX.US",
+          "market": "US",
+          "sector": "波动率",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "沃尔玛",
+          "code": "WMT.US",
+          "market": "US",
+          "sector": "防御性零售",
           "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "北京向东盟传达信息：中国不想成为地区霸权",
+      "logic": "中国主动释放缓和信号，有助于稳定东盟经贸关系。南海局势降温利好区域贸易、跨境物流和东盟中资企业。",
+      "stocks": [
+        {
+          "name": "嘉里物流",
+          "code": "0636.HK",
+          "market": "HK",
+          "sector": "东盟物流",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "泰国正大集团相关",
+          "code": "CPALL.TH",
+          "market": "TH",
+          "sector": "东盟零售",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "新加坡交易所",
+          "code": "S68.SG",
+          "market": "SG",
+          "sector": "金融",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "特朗普政府与共和党寻求绕道解决出生公民权问题",
+      "logic": "移民政策收紧可能影响美国劳动力供给，短期对劳动密集型行业（建筑、农业、服务业）成本端形成压力。",
+      "stocks": [
+        {
+          "name": "泰森食品",
+          "code": "TSN.US",
+          "market": "US",
+          "sector": "食品加工",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "霍顿房屋",
+          "code": "DHI.US",
+          "market": "US",
+          "sector": "住宅建筑",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "危地马拉外长接受采访（涉中美拉美博弈）",
+      "logic": "拉美外交动态可能影响中国在拉美的矿业和基建投资。中美在拉美的竞争加剧，中资矿业企业需关注地缘风险溢价。",
+      "stocks": [
+        {
+          "name": "紫金矿业",
+          "code": "2899.HK",
+          "market": "HK",
+          "sector": "有色金属",
+          "short_term": "→",
           "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "阿里巴巴",
+          "name": "中国铝业",
+          "code": "2600.HK",
+          "market": "HK",
+          "sector": "有色金属",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "阿里为苏里南在科伦坦河大桥项目留有余地",
+      "logic": "阿里巴巴参与苏里南基建项目体现其海外基建与数字丝绸之路布局。海外基建订单增长利好阿里云和菜鸟物流出海。",
+      "stocks": [
+        {
+          "name": "阿里巴巴-SW",
           "code": "9988.HK",
           "market": "HK",
           "sector": "互联网科技",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿里健康",
+          "code": "0241.HK",
+          "market": "HK",
+          "sector": "数字健康",
+          "short_term": "→",
+          "mid_term": "↑",
           "long_term": "↑"
         }
       ]
@@ -414,54 +523,81 @@
   "summary": {
     "newly_added": [
       {
-        "label": "中国制造业PMI超预期（新增）",
-        "theme": "中国制造业创2020年以来最佳季度表现，工业板块受益",
+        "label": "中国制造业最佳季度（新增）",
+        "theme": "制造业PMI超预期，工业周期股全面受益",
         "stocks": [
           {
-            "name": "工业富联",
-            "code": "601138.SH",
+            "name": "三一重工",
+            "code": "600031.SH",
             "short_term": "↑"
           },
           {
             "name": "汇川技术",
             "code": "300124.SZ",
-            "short_term": "↑"
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "比亚迪销量不及预期股价下跌（新增）",
-        "theme": "比亚迪在华销量令投资者震惊，新能源车竞争加剧",
+        "label": "比亚迪销量震惊股价下跌（新增）",
+        "theme": "新能源车短期销量预期差引发调整",
         "stocks": [
           {
             "name": "比亚迪股份",
             "code": "1211.HK",
             "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "美联储鹰派高利率持续（新增）",
+        "theme": "高利率环境压制全球风险资产估值",
+        "stocks": [
+          {
+            "name": "SPY.US",
+            "code": "SPY.US",
+            "short_term": "↓"
           },
           {
-            "name": "特斯拉",
-            "code": "TSLA.US",
+            "name": "JPM.US",
+            "code": "JPM.US",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "美联储鹰派重申2%通胀目标（新增）",
-        "theme": "鲍威尔誓守2%通胀目标，降息预期降温，银行股受益科技股承压",
+        "label": "中美贸易摩擦升温（新增）",
+        "theme": "海关执法与科技调查双线施压",
         "stocks": [
           {
-            "name": "摩根大通",
-            "code": "JPM.US",
+            "name": "欧派家居",
+            "code": "603833.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "中芯国际",
+            "code": "0981.HK",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "太平洋外交布局加速（新增）",
+        "theme": "岛国援助+东盟缓和+拉美基建多线推进",
+        "stocks": [
+          {
+            "name": "中国交建",
+            "code": "1800.HK",
             "short_term": "↑"
           },
           {
-            "name": "纳指100ETF",
-            "code": "QQQ.US",
-            "short_term": "↓"
+            "name": "阿里巴巴-SW",
+            "code": "9988.HK",
+            "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月2日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向仅代表基于当前信息的合理推演，实际走势受多重因素影响。"
+  "disclaimer": "以上分析基于公开新闻事件进行逻辑推演，不构成任何投资建议。股票市场存在不确定性，投资者应独立判断并承担风险。"
 }
