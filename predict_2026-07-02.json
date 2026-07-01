@@ -1,121 +1,85 @@
 {
   "meta": {
-    "name": "2026年7月2日全球新闻股票推演",
-    "description": "基于2026年7月2日 hk.k415.win/news/ 抓取的全球新闻事件，进行短中长期股票多空推演，覆盖A股、港股、美股及亚太欧洲市场",
+    "name": "2026-07-02 全球新闻股票推演",
+    "description": "基于2026年7月2日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "hk.k415.win/news/ 2026-07-02T05:55+08:00",
-    "version": "1.0",
-    "update_time": "2026-07-02T05:55:00+08:00",
+    "source": "2026-07-02 超级News (hk.k415.win/news/) 综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-02T08:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "罗珊娜：香港从稳定迈向繁荣，启德门票销量稳居亚洲第一",
-      "logic": "启德体育公园承办香港七人橄榄球赛售出超13万张门票，4月访港旅客激增，旅游消费提振香港本地消费、酒店、航空、零售板块。香港经济信心回升利好恒指权重股。",
+      "title": "中国制造业创2020年以来最佳季度表现",
+      "logic": "PMI数据超预期表明制造业景气度回升，利好工业自动化、机械制造、原材料等板块。制造业回暖将带动上游设备需求和中游生产扩张，短期提振市场情绪，中期驱动盈利改善。",
       "stocks": [
         {
-          "name": "香港交易所",
-          "code": "0388.HK",
-          "market": "HK",
-          "sector": "金融服务",
+          "name": "工业富联",
+          "code": "601138.SH",
+          "market": "SH",
+          "sector": "工业制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "工业自动化",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "太古地产",
-          "code": "1972.HK",
-          "market": "HK",
-          "sector": "房地产",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "九龙仓置业",
-          "code": "1997.HK",
-          "market": "HK",
-          "sector": "商业地产",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "国泰航空",
-          "code": "0293.HK",
-          "market": "HK",
-          "sector": "航空运输",
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "迪士尼",
-          "code": "DIS",
-          "market": "US",
-          "sector": "娱乐旅游",
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "大盘指数",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 2,
-      "title": "美国不会续签北美贸易协定（USMCA），格里尔瞄准加拿大与中国关系",
-      "logic": "美国贸易代表格里尔以加拿大亲近中国投资为由拒绝续签USMCA，协定进入年度审查直至2036年到期。1.8万亿美元区域贸易面临十年不确定性，汽车供应链受冲击最大。美方要求北美零部件含量从75%提至82%且50%须来自美国，墨西哥和加拿大汽车股承压，避险资金流入美国本土制造股。",
+      "title": "美国海关在诺福克查获从中国进口的橱柜和椅子",
+      "logic": "美国海关执法收紧对华进口商品，预示中美贸易摩擦可能再度升级。家具、家居等出口依赖度高的行业面临关税和清关风险，短期打压出口型企业股价，中期若摩擦扩大将冲击整个出口链。",
       "stocks": [
         {
-          "name": "通用汽车",
-          "code": "GM",
-          "market": "US",
-          "sector": "汽车制造",
+          "name": "欧派家居",
+          "code": "603833.SH",
+          "market": "SH",
+          "sector": "家居制造",
           "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "福特汽车",
-          "code": "F",
-          "market": "US",
-          "sector": "汽车制造",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "特斯拉",
-          "code": "TSLA",
-          "market": "US",
-          "sector": "电动汽车",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "麦格纳国际",
-          "code": "MGA",
-          "market": "US",
-          "sector": "汽车零部件",
-          "short_term": "↓",
-          "mid_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "丰田汽车",
-          "code": "7203.T",
-          "market": "JP",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "name": "顾家家居",
+          "code": "603816.SH",
+          "market": "SH",
+          "sector": "家具出口",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↓"
         },
         {
-          "name": "加拿大皇家银行",
-          "code": "RY",
-          "market": "US",
-          "sector": "金融服务(加拿大)",
+          "name": "敏华控股",
+          "code": "1999.HK",
+          "market": "HK",
+          "sector": "家具制造",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
@@ -124,277 +88,187 @@
     },
     {
       "id": 3,
-      "title": "伊朗副外长宣布结束关于实施伊朗与美国协议的多哈会谈谅解备忘录",
-      "logic": "美伊达成和平协议，60天豁免令让伊朗石油重返市场（日产可恢复至160万桶），华尔街集体下调油价预期：高盛Q4布伦特预测从90降至80美元，花旗更悲观至70美元。霍尔木兹海峡即将重开，油价短期承压。OPEC+减产协议面临瓦解风险，利好航空等石油消费行业，利空能源勘探和油服。",
+      "title": "司法部调查亿万富翁引发中美科技资本博弈",
+      "logic": "美国司法部调查与中国科技组织关联的亿万富翁，加剧中美科技脱钩担忧。中概股面临新一轮监管审查压力，短期避险情绪升温，资金可能撤出中概科技板块，但长期看龙头企业基本面韧性强。",
       "stocks": [
         {
-          "name": "埃克森美孚",
-          "code": "XOM",
+          "name": "阿里巴巴",
+          "code": "BABA.US",
           "market": "US",
-          "sector": "能源",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "雪佛龙",
-          "code": "CVX",
-          "market": "US",
-          "sector": "能源",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "中国石油",
-          "code": "0857.HK",
-          "market": "HK",
-          "sector": "能源",
+          "sector": "互联网科技",
           "short_term": "↓",
           "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD.US",
+          "market": "US",
+          "sector": "电子商务",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "中国石化",
-          "code": "600028.SH",
-          "market": "SH",
-          "sector": "能源化工",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "达美航空",
-          "code": "DAL",
+          "name": "中概互联网ETF",
+          "code": "KWEB.US",
           "market": "US",
-          "sector": "航空(油价受益)",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "斯伦贝谢",
-          "code": "SLB",
-          "market": "US",
-          "sector": "油田服务",
+          "sector": "中概股指数",
           "short_term": "↓",
-          "mid_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 4,
-      "title": "孟加拉国访华释放信号——BNP政府首访选择北京而非新德里",
-      "logic": "孟加拉国新一届BNP政府总理拉赫曼6月23-26日访华，将中国作为首个重大国事访问目的地。中孟自贸协定谈判加速，基础设施项目对接。利好中国基建出海、纺织产业链，对印度地缘影响力形成挤压。",
+      "title": "特朗普发出巴拿马运河警告：中国试图控制",
+      "logic": "美国前总统特朗普就巴拿马运河发声，暗示地缘博弈升级。全球航运路线不确定性增加，可能推高航运成本和运费，利好航运巨头；同时港口/物流资产的战略价值凸显，军工板块受地缘紧张情绪提振。",
       "stocks": [
         {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建",
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "航运",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
+          "long_term": "→"
         },
         {
-          "name": "中国中铁",
-          "code": "601390.SH",
+          "name": "中远海控",
+          "code": "601919.SH",
           "market": "SH",
-          "sector": "铁路基建",
+          "sector": "航运",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "中国电建",
-          "code": "601669.SH",
-          "market": "SH",
-          "sector": "电力基建",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
+          "name": "招商港口",
+          "code": "001872.SZ",
           "market": "SZ",
-          "sector": "新能源",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "sector": "港口物流",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
         },
         {
-          "name": "信实工业",
-          "code": "RELIANCE.NS",
-          "market": "IN",
-          "sector": "印度综合企业(地缘利空)",
-          "short_term": "→",
-          "mid_term": "↓",
+          "name": "洛克希德马丁",
+          "code": "LMT.US",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 5,
-      "title": "华尔街继续争论耐克扭亏为盈时间表，认为毛利率扩张是积极的",
-      "logic": "耐克股价约44.62美元，处52周中位（高点80.17、低点41.35），PE约28.41x。Q2批发增长8%但直销收入降8%，毛利率压缩300bps。6月30日财报是关键测试点，中国市场复苏、毛利率稳定化和直销恢复是三大观察指标。",
+      "title": "上海加密货币外汇案五人被判入狱，涉案超2900万美元",
+      "logic": "中国对加密货币相关非法外汇交易的打击力度加大，监管信号明确。短期打压加密货币市场情绪，利空加密交易平台和相关概念股；中长期监管趋严可能加速行业洗牌，合规化企业相对受益。",
       "stocks": [
         {
-          "name": "耐克",
-          "code": "NKE",
+          "name": "比特币",
+          "code": "BTC.US",
           "market": "US",
-          "sector": "运动服饰",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "Foot Locker",
-          "code": "FL",
-          "market": "US",
-          "sector": "运动零售",
-          "short_term": "→",
-          "mid_term": "↑",
+          "sector": "加密货币",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "安踏体育",
-          "code": "2020.HK",
-          "market": "HK",
-          "sector": "运动服饰(竞品)",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "阿迪达斯",
-          "code": "ADS.DE",
-          "market": "DE",
-          "sector": "运动服饰(竞品)",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "Coinbase",
+          "code": "COIN.US",
+          "market": "US",
+          "sector": "加密交易平台",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "申洲国际",
-          "code": "2313.HK",
+          "name": "新火科技",
+          "code": "1611.HK",
           "market": "HK",
-          "sector": "纺织代工(耐克供应商)",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "sector": "加密服务",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 6,
-      "title": "菲律宾防长特奥多罗对中国的批评不屑一顾，称北京应该照照镜子",
-      "logic": "菲律宾防长在香格里拉对话会后继续强硬表态，南海争端持续升级。东盟内部在南海行为准则上分歧加剧，区域不稳定上升，利好军工板块和黄金避险资产。菲律宾主权信用风险升高，周边国家旅游业和外资流入可能受影响。",
+      "title": "中国向太平洋岛国论坛提供108万美元援助",
+      "logic": "中国持续加大对太平洋岛国的外交与援助投入，是一带一路战略的延续。利好海外基建工程承包企业，南太平洋区域合作深化将为基建出海打开增量市场，短期情绪面正面但实质性订单落地需时间。",
       "stocks": [
         {
-          "name": "洛克希德马丁",
-          "code": "LMT",
-          "market": "US",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "雷神技术",
-          "code": "RTX",
-          "market": "US",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
+          "name": "中国交建",
+          "code": "601800.SH",
           "market": "SH",
-          "sector": "军工",
+          "sector": "基建工程",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "SPDR黄金ETF",
-          "code": "GLD",
-          "market": "US",
-          "sector": "贵金属避险",
+          "name": "中国铁建",
+          "code": "601186.SH",
+          "market": "SH",
+          "sector": "工程建筑",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "宿务太平洋航空",
-          "code": "CEB.PS",
-          "market": "PH",
-          "sector": "菲律宾航空(区域利空)",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "中工国际",
+          "code": "002051.SZ",
+          "market": "SZ",
+          "sector": "国际工程",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 7,
-      "title": "消息人士称，俄罗斯批准了中国高层秘密军事训练",
-      "logic": "欧盟外长卡拉斯证实中国在训练俄罗斯军队（尤其无人机操作），标志中俄军事同盟实质化升级。中俄朝伊专制同盟挑战西方秩序，欧洲各国被迫加速国防开支增加，利好全球军工复合体。西方对华制裁预期升温，中概股和依赖西方市场的中国科技公司承压。",
+      "title": "比亚迪在华销量令投资者震惊，股价下跌",
+      "logic": "比亚迪销量数据低于市场预期引发抛售，短期股价承压。新能源车市场竞争加剧，比亚迪份额可能被蚕食，但长期看其垂直整合和技术积累仍是护城河。竞争对手短期可能获得资金溢出效应，特斯拉、蔚来等或间接受益。",
       "stocks": [
         {
-          "name": "莱茵金属",
-          "code": "RHM.DE",
-          "market": "DE",
-          "sector": "欧洲军工",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "BAE系统",
-          "code": "BA.L",
-          "market": "UK",
-          "sector": "欧洲军工",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "诺斯罗普格鲁曼",
-          "code": "NOC",
-          "market": "US",
-          "sector": "美国军工",
-          "short_term": "↑",
-          "mid_term": "↑↑",
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "↑"
         },
         {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "中国军工",
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↑"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA.US",
+          "market": "US",
+          "sector": "新能源汽车",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "阿里巴巴",
-          "code": "BABA",
-          "market": "US",
-          "sector": "中国科技(制裁风险)",
-          "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "iShares中国大盘股ETF",
-          "code": "FXI",
+          "name": "蔚来",
+          "code": "NIO.US",
           "market": "US",
-          "sector": "中概股指数(制裁风险)",
-          "short_term": "↓",
+          "sector": "新能源汽车",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -402,154 +276,109 @@
     },
     {
       "id": 8,
-      "title": "中国把俄罗斯的无人机战争变成对美国的警告",
-      "logic": "中国制造商公开向俄伊供应Shahed无人机关键部件（涡扇发动机、双用途芯片），无视美国制裁。全球无人机冲突事件达1666次/30天。美国反无人机系统需求急增，C-UAS成为国防领域增长最快赛道。西方制裁有效性受质疑，利好无人机产业链相关标的。",
+      "title": "美联储主席誓言坚持2%通胀目标",
+      "logic": "鲍威尔重申2%通胀目标，暗示短期内不会降息，鹰派信号明显。利率敏感型资产（科技成长股、黄金）承压，银行板块受益于高利率环境利差扩大。短期市场可能重新定价降息预期，波动加大。",
       "stocks": [
         {
-          "name": "AeroVironment",
-          "code": "AVAV",
+          "name": "纳指100ETF",
+          "code": "QQQ.US",
           "market": "US",
-          "sector": "军用无人机",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "Kratos国防",
-          "code": "KTOS",
-          "market": "US",
-          "sector": "无人机/反无人机",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
+          "sector": "科技指数",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "航天彩虹",
-          "code": "002389.SZ",
-          "market": "SZ",
-          "sector": "中国无人机",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中无人机",
-          "code": "600297.SH",
-          "market": "SH",
-          "sector": "中国无人机",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "Palantir",
-          "code": "PLTR",
+          "name": "摩根大通",
+          "code": "JPM.US",
           "market": "US",
-          "sector": "AI/国防数据分析",
+          "sector": "银行",
           "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "黄金ETF",
+          "code": "GLD.US",
+          "market": "US",
+          "sector": "贵金属",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "美国银行",
+          "code": "BAC.US",
+          "market": "US",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 9,
-      "title": "泰国、日本、新加坡、香港、中国和印尼取消365架航班并延误4688架航班",
-      "logic": "亚洲多国大规模航班取消和延误，IndiGo已宣布7月-9月暂停6条国际航线。航空业面临运营成本飙升和季节性需求疲软双重压力。油价因伊朗协议下跌短期利好航空成本端，但需求端疲软抵消利好。航空股短期承压，机场运营股偏中性。",
+      "title": "美国股市回撤开启第三季度，市场关注6月就业数据",
+      "logic": "美股三季度开局不利，市场对就业数据的关注度上升。若就业数据强劲将强化美联储鹰派立场，股市进一步承压；若数据疲软则可能缓解加息预期。VIX恐慌指数短期上行，防御性板块相对抗跌。",
       "stocks": [
         {
-          "name": "新加坡航空",
-          "code": "C6L.SI",
-          "market": "SG",
-          "sector": "航空运输",
+          "name": "标普500ETF",
+          "code": "SPY.US",
+          "market": "US",
+          "sector": "大盘指数",
           "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "VIX恐慌指数",
+          "code": "VIX.US",
+          "market": "US",
+          "sector": "波动率指数",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "全日空",
-          "code": "9202.T",
-          "market": "JP",
-          "sector": "航空运输",
-          "short_term": "↓",
+          "name": "公共事业ETF",
+          "code": "XLU.US",
+          "market": "US",
+          "sector": "防御板块",
+          "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "IndiGo",
-          "code": "INDIGO.NS",
-          "market": "IN",
-          "sector": "航空运输",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "泰国机场",
-          "code": "AOT.BK",
-          "market": "TH",
-          "sector": "机场运营",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 10,
-      "title": "特朗普警告：不会让中国接管巴拿马运河",
-      "logic": "巴拿马运河争端持续升级。中远海运已暂停巴尔博亚港运营，长和港口特许经营权被剥夺后由马士基和MSC临时运营。中方约谈两大航运巨头要求退出。全球航运路线面临重大调整风险，运费波动加大。航运股短期受益于运价上涨，但长期不确定性利空。",
+      "title": "北京向东盟传达信息：中国不想成为地区霸权",
+      "logic": "中国外交主动释放缓和信号，意图缓解东盟国家对南海等问题的担忧。地缘政治风险溢价下降，利好中国-东盟贸易链相关企业，东盟市场敞口较大的中资企业和区域ETF受益。",
       "stocks": [
         {
-          "name": "马士基",
-          "code": "MAERSK-B.CO",
-          "market": "DK",
-          "sector": "航运",
+          "name": "东盟ETF",
+          "code": "ASEA.US",
+          "market": "US",
+          "sector": "区域ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网科技",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↓"
+          "long_term": "↑"
         },
         {
           "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "长和",
-          "code": "0001.HK",
+          "code": "1919.HK",
           "market": "HK",
-          "sector": "综合企业(港口)",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "贝莱德",
-          "code": "BLK",
-          "market": "US",
-          "sector": "资产管理(港口收购)",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "日本邮船",
-          "code": "9101.T",
-          "market": "JP",
-          "sector": "航运(替代受益)",
+          "sector": "航运",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -558,252 +387,26 @@
     },
     {
       "id": 11,
-      "title": "苹果积极游说特朗普政府批准购买中国存储芯片",
-      "logic": "苹果因DRAM成本飙升被迫全线涨价（MacBook/iPad最高涨54%），市值单日蒸发2630亿美元。苹果游说白宫寻求从长鑫存储（CXMT）采购DRAM，但面临国会鹰派强烈反对。三星、SK海力士、美光三家垄断HBM转向AI供应，挤压消费级DRAM供给。",
+      "title": "阿里为苏里南科伦坦河大桥项目留有余地",
+      "logic": "阿里巴巴参与南美洲基础设施项目的信号，表明其业务版图正向海外基建领域延伸。短期提振市场对公司多元化战略的信心，但项目体量相对阿里整体营收较小，长期影响取决于后续项目落地和复制能力。",
       "stocks": [
         {
-          "name": "苹果",
-          "code": "AAPL",
+          "name": "阿里巴巴",
+          "code": "BABA.US",
           "market": "US",
-          "sector": "消费电子",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "美光科技",
-          "code": "MU",
-          "market": "US",
-          "sector": "存储芯片",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "三星电子",
-          "code": "005930.KS",
-          "market": "KR",
-          "sector": "存储芯片",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "SK海力士",
-          "code": "000660.KS",
-          "market": "KR",
-          "sector": "存储芯片(HBM)",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "兆易创新",
-          "code": "603986.SH",
-          "market": "SH",
-          "sector": "存储/MCU芯片",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "中国民族团结法不顾海外批评正式生效",
-      "logic": "2026年7月1日民族团结进步法正式生效，新疆民族融合政策推进。西方ESG基金撤资压力增大，但实际数据显示中国石油等新疆能源企业运营正常。政策利好新疆基建、能源开发和区域经济一体化，但国际制裁风险上升。",
-      "stocks": [
-        {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "能源(新疆)",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "新疆交建",
-          "code": "002941.SZ",
-          "market": "SZ",
-          "sector": "基建(新疆)",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "西部矿业",
-          "code": "601168.SH",
-          "market": "SH",
-          "sector": "有色金属(新疆)",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "特变电工",
-          "code": "600089.SH",
-          "market": "SH",
-          "sector": "电力设备(新疆)",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "iShares MSCI新兴市场ETF",
-          "code": "EEM",
-          "market": "US",
-          "sector": "新兴市场指数(制裁风险)",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "苹果股价盘后下跌——由于内存紧缩，苹果盯上五角大楼黑名单的中国芯片制造商",
-      "logic": "苹果罕见上调MacBook和iPad价格导致市值蒸发2630亿美元（历史第二大单日跌幅）。内存紧缩本质原因是AI需求挤占消费级DRAM产能。长鑫存储两次进出美国1260H黑名单，政治不确定性极高。短期苹果股价承压，中长期若供应链多元化成功则反弹。",
-      "stocks": [
-        {
-          "name": "苹果",
-          "code": "AAPL",
-          "market": "US",
-          "sector": "消费电子",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "英伟达",
-          "code": "NVDA",
-          "market": "US",
-          "sector": "AI芯片(间接受益)",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "美光科技",
-          "code": "MU",
-          "market": "US",
-          "sector": "存储芯片",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "西部数据",
-          "code": "WDC",
-          "market": "US",
-          "sector": "存储(NAND)",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "澜起科技",
-          "code": "688008.SH",
-          "market": "SH",
-          "sector": "内存接口芯片",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "随着EPA即将进行新的安全审查，MAHA推动草甘膦禁令",
-      "logic": "美国最高法院6月25日以7:2裁定FIFRA联邦优先权高于州法，推翻草甘膦致癌诉讼，拜耳股价单日暴涨超20%。但MAHA运动仍在推动草甘膦禁令，EPA新一轮安全审查临近。19万起诉讼中仍有6万起待审。拜耳短期胜利但长期政策风险未消，利好中国草甘膦生产商替代供应。",
-      "stocks": [
-        {
-          "name": "拜耳",
-          "code": "BAYN.DE",
-          "market": "DE",
-          "sector": "农业化学/制药",
-          "short_term": "↑↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "科迪华",
-          "code": "CTVA",
-          "market": "US",
-          "sector": "农业科技",
+          "sector": "互联网科技",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "江山股份",
-          "code": "600389.SH",
-          "market": "SH",
-          "sector": "草甘膦(中国)",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "兴发集团",
-          "code": "600141.SH",
-          "market": "SH",
-          "sector": "草甘膦(中国)",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "FMC公司",
-          "code": "FMC",
-          "market": "US",
-          "sector": "农业化学",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "这是特朗普不遗余力表现得像俄罗斯特工的又一个例子",
-      "logic": "Slate等媒体继续炒作特朗普亲俄叙事，叠加中俄军事同盟强化，美国国内政治分裂加剧。若2026中期选举前通俄门叙事升温，可能影响特朗普政府政策稳定性，增加市场不确定性。VIX波动率可能上升，利好避险资产，利空风险资产。",
-      "stocks": [
-        {
-          "name": "SPDR标普500 ETF",
-          "code": "SPY",
-          "market": "US",
-          "sector": "美股大盘(不确定性)",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "iPath B系列标普500 VIX",
-          "code": "VXX",
-          "market": "US",
-          "sector": "波动率",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "SPDR黄金ETF",
-          "code": "GLD",
-          "market": "US",
-          "sector": "贵金属避险",
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网科技",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "↑"
-        },
-        {
-          "name": "洛克希德马丁",
-          "code": "LMT",
-          "market": "US",
-          "sector": "国防(地缘风险受益)",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
         }
       ]
     }
@@ -811,102 +414,54 @@
   "summary": {
     "newly_added": [
       {
-        "label": "USMCA协定不续签（新增）",
-        "theme": "北美贸易协定进入十年终止倒计时，汽车供应链首当其冲",
+        "label": "中国制造业PMI超预期（新增）",
+        "theme": "中国制造业创2020年以来最佳季度表现，工业板块受益",
         "stocks": [
           {
-            "name": "通用汽车",
-            "code": "GM",
+            "name": "工业富联",
+            "code": "601138.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "汇川技术",
+            "code": "300124.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "比亚迪销量不及预期股价下跌（新增）",
+        "theme": "比亚迪在华销量令投资者震惊，新能源车竞争加剧",
+        "stocks": [
+          {
+            "name": "比亚迪股份",
+            "code": "1211.HK",
             "short_term": "↓"
           },
           {
-            "name": "福特汽车",
-            "code": "F",
+            "name": "特斯拉",
+            "code": "TSLA.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "美联储鹰派重申2%通胀目标（新增）",
+        "theme": "鲍威尔誓守2%通胀目标，降息预期降温，银行股受益科技股承压",
+        "stocks": [
+          {
+            "name": "摩根大通",
+            "code": "JPM.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "纳指100ETF",
+            "code": "QQQ.US",
             "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "美伊和平协议落地（新增）",
-        "theme": "伊朗石油重返市场，华尔街集体下调油价预期，能源股承压",
-        "stocks": [
-          {
-            "name": "埃克森美孚",
-            "code": "XOM",
-            "short_term": "↓"
-          },
-          {
-            "name": "达美航空",
-            "code": "DAL",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "苹果游说白宫采购中国芯片（新增）",
-        "theme": "内存紧缺致苹果全线涨价，游说长鑫存储引发国会鹰派反弹",
-        "stocks": [
-          {
-            "name": "苹果",
-            "code": "AAPL",
-            "short_term": "↓"
-          },
-          {
-            "name": "美光科技",
-            "code": "MU",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "中俄军事同盟升级（新增）",
-        "theme": "中国秘密训练俄军，欧盟确认军事合作，全球军工股受益",
-        "stocks": [
-          {
-            "name": "莱茵金属",
-            "code": "RHM.DE",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "BAE系统",
-            "code": "BA.L",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "草甘膦最高法院裁决（新增）",
-        "theme": "最高法院支持拜耳，股价单日涨超20%，但MAHA禁令威胁未消",
-        "stocks": [
-          {
-            "name": "拜耳",
-            "code": "BAYN.DE",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "江山股份",
-            "code": "600389.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "香港启德旅游热潮（新增）",
-        "theme": "启德体育公园门票亚洲第一，4月访港旅客激增，利好本地消费",
-        "stocks": [
-          {
-            "name": "香港交易所",
-            "code": "0388.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "国泰航空",
-            "code": "0293.HK",
-            "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月2日公开新闻的逻辑推演，不构成投资建议。股市有风险，投资须谨慎。数据来源：hk.k415.win/news/，研究所基于公开信息，预测仅供参考。"
+  "disclaimer": "以上分析基于2026年7月2日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向仅代表基于当前信息的合理推演，实际走势受多重因素影响。"
 }
