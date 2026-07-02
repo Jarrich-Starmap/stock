@@ -4,8 +4,8 @@
     "description": "基于2026-07-03当日全球热点新闻，推演潜在受影响的股票并给出短中长期方向预判，覆盖A股、港股、美股及亚太欧洲市场",
     "category": "daily",
     "source": "hk.k415.win/news 综合整理",
-    "version": "2.0",
-    "update_time": "2026-07-03T23:59:00+08:00",
+    "version": "3.0",
+    "update_time": "2026-07-03T05:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
@@ -671,173 +671,706 @@
           "long_term": "↑"
         }
       ]
+    },
+    {
+      "id": 16,
+      "title": "美国议员推动减少税收优惠以降低对中国技术依赖",
+      "logic": "美国两党推动取消对依赖中国供应链企业的税收优惠，加速科技脱钩。短期冲击在华有重大供应链的美国科技公司和依赖美国市场的中国半导体企业，市场将对供应链转移成本重新定价；中期利好美国本土半导体制造和东南亚替代产能；长期中美科技产业进一步割裂，各国加速构建自主可控供应链。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Intel",
+          "code": "INTC.US",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Applied Materials",
+          "code": "AMAT.US",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM.US",
+          "market": "US",
+          "sector": "半导体制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "算力首次被纳入中国新能源体系规划",
+      "logic": "中国将算力正式纳入新能源体系规划，标志着AI基础设施上升到国家能源战略高度。短期利好数据中心、液冷、AI服务器等算力基础设施板块，政策驱动下相关企业订单有望加速释放；中期算力与绿色能源协同发展（如东数西算+绿电），IDC企业估值逻辑从地产转向新基建；长期算力将成为类似水电气的基础设施，头部企业享受稳定增长。",
+      "stocks": [
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "算力/AI服务器",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "浪潮信息",
+          "code": "000977.SZ",
+          "market": "SZ",
+          "sector": "AI服务器",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "光环新网",
+          "code": "300383.SZ",
+          "market": "SZ",
+          "sector": "IDC/数据中心",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "英维克",
+          "code": "002837.SZ",
+          "market": "SZ",
+          "sector": "液冷散热",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "比亚迪重夺电动车销量冠军，尽管特斯拉季度表现强劲",
+      "logic": "比亚迪在Q2 2026重夺全球电动车销量冠军，再次证明其全产业链+多品牌矩阵战略的有效性。短期销量数据超预期将推动股价和估值修复；中期海外工厂陆续投产（泰国、巴西、匈牙利）打开增量空间；长期若比亚迪维持20%+的年增长，有望在2028年前成为全球前三汽车集团。特斯拉虽季度交付强劲但在产品迭代速度和价格带宽度上落后比亚迪。",
+      "stocks": [
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪A股",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA.US",
+          "market": "US",
+          "sector": "新能源汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "高盛大幅上调HBM 2027年价格预期——DRAM六月调查",
+      "logic": "高盛在6月DRAM调查中大幅上调HBM（高带宽内存）2027年价格预期，反映AI算力需求对高端存储的拉动远超此前预估。短期HBM相关产业链（存储原厂、先进封装、测试设备）获资金追捧；中期HBM产能扩张拉动整个DRAM行业景气度；长期HBM从AI专用走向通用服务器，市场规模呈指数级增长。",
+      "stocks": [
+        {
+          "name": "SK海力士",
+          "code": "000660.KS",
+          "market": "KR",
+          "sector": "存储芯片/HBM",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "通富微电",
+          "code": "002156.SZ",
+          "market": "SZ",
+          "sector": "先进封装",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "美光科技",
+          "code": "MU.US",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "美伊和谈传新进展，国际油价偏软",
+      "logic": "美伊核谈判取得新进展，市场预期伊朗原油可能重返国际市场，增加全球供应，导致国际油价承压下行。短期利空油气生产商，利好航空、航运、化工等用油大户；中期若伊朗原油真正回归，OPEC+减产协议面临挑战，油价中枢可能进一步下移；长期全球能源供应格局重构，中东地缘溢价趋于收窄。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油天然气",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "埃克森美孚",
+          "code": "XOM.US",
+          "market": "US",
+          "sector": "石油天然气",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "万华化学",
+          "code": "600309.SH",
+          "market": "SH",
+          "sector": "化工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海能",
+          "code": "600026.SH",
+          "market": "SH",
+          "sector": "油轮运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "俄罗斯对基辅发动最大规模袭击，至少27人死亡",
+      "logic": "俄乌战争出现新一轮重大升级，俄罗斯对基辅发动战争以来最大规模袭击。短期地缘避险情绪升温，利好军工、黄金、原油等避险资产；中期若冲突进一步扩大，欧洲能源和安全开支将持续增加；长期全球军备竞赛加速，国防预算占比系统性提升，利好全球军工复合体。",
+      "stocks": [
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT.US",
+          "market": "US",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国海油",
+          "code": "600938.SH",
+          "market": "SH",
+          "sector": "海洋石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Rheinmetall",
+          "code": "RHM.DE",
+          "market": "DE",
+          "sector": "军工",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "美元因非农就业数据不及预期下跌",
+      "logic": "美国6月非农就业数据不及预期，市场对美联储降息预期升温，美元指数下跌。短期利好以美元计价的大宗商品（黄金、铜、原油）、新兴市场资产和出口导向型经济体；中期若美联储启动降息周期，美元走弱趋势确立，将推动资金从美国流向非美市场；长期美元信用和储备货币地位面临挑战。",
+      "stocks": [
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "有色金属/黄金",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "SPDR Gold Trust",
+          "code": "GLD.US",
+          "market": "US",
+          "sector": "黄金ETF",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒生指数ETF",
+          "code": "2800.HK",
+          "market": "HK",
+          "sector": "港股大盘",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网综合",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "ElevenLabs探索员工股权出售，估值220亿美元",
+      "logic": "AI语音合成龙头ElevenLabs以220亿美元估值探索员工股权出售，较上一轮估值大幅跃升，反映AI应用层公司商业化加速获得资本市场认可。短期提振AI语音/多模态赛道估值中枢，A股对标（科大讯飞等）有望跟随上涨；中期AI语音在内容创作、客服、教育等场景渗透率快速提升；长期语音交互可能成为下一代人机交互入口。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI/语音技术",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "微软",
+          "code": "MSFT.US",
+          "market": "US",
+          "sector": "AI/云计算",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "出门问问",
+          "code": "2438.HK",
+          "market": "HK",
+          "sector": "AI语音",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "美国最高法院强化Trump议程权力——'King Trump'地位空前巩固",
+      "logic": "美国最高法院多项裁决强化总统行政权力，Trump施政空间大幅扩展。短期政策不确定性增加，利好传统能源（放松监管）、军工（强硬外交）、金融（放松监管），利空新能源（补贴不确定）、ESG投资和国际贸易依赖型企业；中期美国政策大幅右转可能引发全球贸易格局重构；长期制度制衡弱化可能导致美国政策波动性系统性上升。",
+      "stocks": [
+        {
+          "name": "埃克森美孚",
+          "code": "XOM.US",
+          "market": "US",
+          "sector": "传统能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "摩根大通",
+          "code": "JPM.US",
+          "market": "US",
+          "sector": "金融/银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "First Solar",
+          "code": "FSLR.US",
+          "market": "US",
+          "sector": "美国光伏",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT.US",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "特斯拉在美国推出长轴距三排座Model Y L特别版",
+      "logic": "特斯拉推出Model Y L长轴距三排座版本，瞄准美国家庭用户市场，是对现有产品线的重要补充。短期有助于提振北美市场订单，缓解Model Y增长疲软态势；中期三排座版本可能成为特斯拉在北美SUV市场的新增长极；长期产品线丰富化是特斯拉维持增长的必要条件，但需观察消费者对三排座电动SUV的真实需求弹性。",
+      "stocks": [
+        {
+          "name": "特斯拉",
+          "code": "TSLA.US",
+          "market": "US",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拓普集团",
+          "code": "601689.SH",
+          "market": "SH",
+          "sector": "汽车零部件",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "中国成功发射海洋二号E海洋观测卫星",
+      "logic": "中国成功发射海洋二号E卫星，进一步完善海洋观测卫星星座，展示中国商业航天和海洋经济的战略布局。短期航天发射概念股有望获得市场关注；中期卫星应用（海洋监测、气象、渔业）商业化前景广阔；长期中国低轨卫星星座加速建设，商业航天产业链进入黄金发展期。",
+      "stocks": [
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天/卫星制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天电子设备",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国卫通",
+          "code": "601698.SH",
+          "market": "SH",
+          "sector": "卫星通信",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "中国玉柴国际新宣布派息——股价是否被低估？",
+      "logic": "中国玉柴国际（CYD）宣布新派息计划，引发市场对其估值是否偏低的讨论。短期分红消息通常带来正面股价反应，尤其在当前高息环境下；中期若公司持续提升分红比例，有望吸引价值型投资者；但长期估值修复还需依赖主营业务（柴油发动机）的业绩改善和新能源转型进展。",
+      "stocks": [
+        {
+          "name": "中国玉柴国际",
+          "code": "CYD.US",
+          "market": "US",
+          "sector": "工业/发动机",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "潍柴动力",
+          "code": "000338.SZ",
+          "market": "SZ",
+          "sector": "柴油发动机",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Pershing Square自IPO以来首次宣派季度股息",
+      "logic": "Bill Ackman旗下Pershing Square Holdings自IPO以来首次宣布季度派息，标志着该对冲基金从纯资本增值转向股东回报策略。短期正面信号刺激股价上行；中期若持续派息将改善封闭式基金的折价率，为投资者提供稳定现金回报；长期反映对冲基金行业从管理费驱动向股东回报驱动的转型趋势。",
+      "stocks": [
+        {
+          "name": "Pershing Square",
+          "code": "PSH.US",
+          "market": "US",
+          "sector": "对冲基金/资管",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "黑石集团",
+          "code": "BX.US",
+          "market": "US",
+          "sector": "另类资管",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Nexa Resources确认与Boliden就潜在交易展开谈判",
+      "logic": "巴西锌矿巨头Nexa Resources确认与瑞典矿业公司Boliden进行潜在交易谈判，可能涉及资产出售或并购。短期并购预期推升Nexa估值，矿业板块并购活动升温利好整个行业估值；中期若交易达成，Nexa可获得资金改善资产负债表，Boliden扩大在拉美布局；长期全球矿业整合加速，资源民族主义风险是重要变量。",
+      "stocks": [
+        {
+          "name": "Nexa Resources",
+          "code": "NEXA.US",
+          "market": "US",
+          "sector": "矿业/锌",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Boliden",
+          "code": "BOL.ST",
+          "market": "SE",
+          "sector": "矿业/冶炼",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "有色金属",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "WHO宣布邮轮汉坦病毒疫情结束",
+      "logic": "WHO正式宣布此前引发关注的邮轮汉坦病毒疫情结束，消除了邮轮旅游业的一个重大不确定性因素。短期利好邮轮板块情绪修复，暑期旅游旺季预订数据有望回升；中期疫情记忆消退后邮轮需求恢复至疫情前水平；长期邮轮行业已证明自身对公共卫生事件的应对能力，行业风险溢价下降。",
+      "stocks": [
+        {
+          "name": "嘉年华邮轮",
+          "code": "CCL.US",
+          "market": "US",
+          "sector": "邮轮旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "皇家加勒比",
+          "code": "RCL.US",
+          "market": "US",
+          "sector": "邮轮旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "挪威邮轮",
+          "code": "NCLH.US",
+          "market": "US",
+          "sector": "邮轮旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "美股涨跌互现：道指创历史新高，纳指收低——科技股承压",
+      "logic": "美股市场出现明显的风格轮动：道琼斯指数创历史新高但纳斯达克收跌，资金从高估值科技股向价值/周期股转移。短期市场对AI估值泡沫的担忧加剧，纳指成分股面临获利回吐压力；中期若经济软着陆预期兑现，资金轮动至银行、工业、能源等传统板块；长期AI产业趋势未变但估值需要时间消化，选股难度加大。",
+      "stocks": [
+        {
+          "name": "道指ETF",
+          "code": "DIA.US",
+          "market": "US",
+          "sector": "大盘价值ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "纳斯达克ETF",
+          "code": "QQQ.US",
+          "market": "US",
+          "sector": "科技成长ETF",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA.US",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "摩根大通",
+          "code": "JPM.US",
+          "market": "US",
+          "sector": "金融/银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "中欧贸易顺差缩小信号（新增）",
-        "theme": "中国释放缩小对欧贸易顺差信号，利空对欧出口、利好欧洲对华出口企业",
+        "label": "美国推动取消对华技术依赖企业税收优惠（新增）",
+        "theme": "中美科技脱钩加速，半导体供应链加速重构",
         "stocks": [
           {
-            "name": "比亚迪股份",
-            "code": "1211.HK",
+            "name": "中芯国际",
+            "code": "0981.HK",
             "short_term": "↓"
           },
           {
-            "name": "LVMH",
-            "code": "MC.PA",
+            "name": "Intel",
+            "code": "INTC.US",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "耐克中国渠道政策重置（新增）",
-        "theme": "耐克重启中国分销政策，国产运动品牌或借势抢占市场",
+        "label": "算力纳入中国新能源体系规划（新增）",
+        "theme": "AI算力上升为国家能源战略，数据中心/AI服务器板块受益",
         "stocks": [
           {
-            "name": "安踏体育",
-            "code": "2020.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "宝胜国际",
-            "code": "3813.HK",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "秘鲁重新掌控中国旗舰港口（新增）",
-        "theme": "秘鲁政府收回钱凯港控制权，中国海外基建政治风险升温",
-        "stocks": [
-          {
-            "name": "中远海控",
-            "code": "601919.SH",
-            "short_term": "↓"
-          },
-          {
-            "name": "中国交建",
-            "code": "601800.SH",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "中国对加拿大豌豆淀粉征收73.5%关税（新增）",
-        "theme": "中加农产品贸易摩擦升级，国内淀粉替代企业受益",
-        "stocks": [
-          {
-            "name": "保龄宝",
-            "code": "002286.SZ",
-            "short_term": "↑"
-          },
-          {
-            "name": "Nutrien",
-            "code": "NTR.US",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "美国拍卖扣押中国铝材（新增）",
-        "theme": "中美铝贸易摩擦持续，铝供应链割裂加剧",
-        "stocks": [
-          {
-            "name": "中国铝业",
-            "code": "601600.SH",
-            "short_term": "↓"
-          },
-          {
-            "name": "美国铝业",
-            "code": "AA.US",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "保时捷关闭中国经销商（新增）",
-        "theme": "中国豪华车市场疲软，国产新能源豪华品牌加速替代",
-        "stocks": [
-          {
-            "name": "保时捷AG",
-            "code": "P911.DE",
-            "short_term": "↓"
-          },
-          {
-            "name": "赛力斯",
-            "code": "601127.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "苹果折叠iPhone目标产量1000万台（新增）",
-        "theme": "苹果加码折叠屏，供应链核心标的显著受益",
-        "stocks": [
-          {
-            "name": "苹果",
-            "code": "AAPL.US",
-            "short_term": "↑"
-          },
-          {
-            "name": "蓝思科技",
-            "code": "300433.SZ",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "中俄联手否决霍尔木兹海峡决议（新增）",
-        "theme": "海湾地缘紧张升级，利好油气和航运板块",
-        "stocks": [
-          {
-            "name": "招商轮船",
-            "code": "601872.SH",
+            "name": "中科曙光",
+            "code": "603019.SH",
             "short_term": "↑↑"
           },
           {
-            "name": "中国海油",
-            "code": "600938.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "问界品牌动量全球第12名（新增）",
-        "theme": "AITO连续两年领跑中国豪华新能源，赛力斯品牌势能爆发",
-        "stocks": [
-          {
-            "name": "赛力斯",
-            "code": "601127.SH",
+            "name": "浪潮信息",
+            "code": "000977.SZ",
             "short_term": "↑↑"
-          },
-          {
-            "name": "保时捷AG",
-            "code": "P911.DE",
-            "short_term": "↓"
           }
         ]
       },
       {
-        "label": "富途控股涉证券欺诈股价暴跌27%（新增）",
-        "theme": "互联网券商合规危机，行业性监管风险升温",
-        "stocks": [
-          {
-            "name": "富途控股",
-            "code": "FUTU.US",
-            "short_term": "↓"
-          },
-          {
-            "name": "老虎证券",
-            "code": "TIGR.US",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "BYD海豹08彰显中国汽车全球引领（新增）",
-        "theme": "比亚迪产品力跃升，全球化进程加速，看好全产业链",
+        "label": "比亚迪重夺全球电动车销量冠军（新增）",
+        "theme": "比亚迪Q2销量超越特斯拉，全球化进程加速",
         "stocks": [
           {
             "name": "比亚迪股份",
@@ -845,72 +1378,216 @@
             "short_term": "↑↑"
           },
           {
-            "name": "宁德时代",
-            "code": "300750.SZ",
+            "name": "特斯拉",
+            "code": "TSLA.US",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "高盛大幅上调HBM 2027年价格预期（新增）",
+        "theme": "AI驱动HBM需求爆发，存储芯片产业链全面受益",
+        "stocks": [
+          {
+            "name": "SK海力士",
+            "code": "000660.KS",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "美光科技",
+            "code": "MU.US",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "携程Q2展望放缓叠加反垄断不确定性（新增）",
-        "theme": "OTA龙头短期承压，关注竞争格局变化",
+        "label": "美伊和谈新进展，油价承压（新增）",
+        "theme": "伊朗原油可能重返市场，利好航空化工、利空油气",
         "stocks": [
           {
-            "name": "携程集团-S",
-            "code": "9961.HK",
-            "short_term": "↓"
+            "name": "中国国航",
+            "code": "601111.SH",
+            "short_term": "↑"
           },
           {
-            "name": "同程旅行",
-            "code": "0780.HK",
+            "name": "中国石油",
+            "code": "601857.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "俄罗斯对基辅发动最大规模袭击（新增）",
+        "theme": "俄乌战争重大升级，全球军工黄金避险需求飙升",
+        "stocks": [
+          {
+            "name": "洛克希德马丁",
+            "code": "LMT.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "Rheinmetall",
+            "code": "RHM.DE",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "美元因非农数据不及预期下跌（新增）",
+        "theme": "美联储降息预期升温，利好黄金、新兴市场",
+        "stocks": [
+          {
+            "name": "紫金矿业",
+            "code": "601899.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "GLD",
+            "code": "GLD.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "ElevenLabs估值220亿美元（新增）",
+        "theme": "AI语音赛道估值飙升，A股对标科大讯飞受益",
+        "stocks": [
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "微软",
+            "code": "MSFT.US",
             "short_term": "→"
           }
         ]
       },
       {
-        "label": "腾讯音乐押注付费订阅模式（新增）",
-        "theme": "中国在线音乐付费率提升空间巨大，TME长期受益",
+        "label": "美国最高法院强化Trump权力（新增）",
+        "theme": "政策右转利好传统能源/军工/金融，利空新能源/ESG",
         "stocks": [
           {
-            "name": "腾讯音乐",
-            "code": "TME.US",
+            "name": "埃克森美孚",
+            "code": "XOM.US",
             "short_term": "↑"
           },
           {
-            "name": "腾讯音乐-SW",
-            "code": "1698.HK",
-            "short_term": "↑"
+            "name": "First Solar",
+            "code": "FSLR.US",
+            "short_term": "↓"
           }
         ]
       },
       {
-        "label": "奥迪放弃全球统一车型策略（新增）",
-        "theme": "传统车企全球化规模优势削弱，中国本土品牌受益",
+        "label": "特斯拉推出Model Y L长轴三排版（新增）",
+        "theme": "特斯拉拓展北美家庭SUV市场，短期提振订单",
         "stocks": [
           {
-            "name": "大众汽车",
-            "code": "VOW3.DE",
-            "short_term": "↓"
+            "name": "特斯拉",
+            "code": "TSLA.US",
+            "short_term": "↑"
           },
           {
-            "name": "上汽集团",
-            "code": "600104.SH",
+            "name": "拓普集团",
+            "code": "601689.SH",
             "short_term": "→"
           }
         ]
       },
       {
-        "label": "孟中缅经济走廊加速推进（新增）",
-        "theme": "中国打通印度洋出海通道，海外基建龙头受益",
+        "label": "中国发射海洋二号E卫星（新增）",
+        "theme": "中国商业航天产业链加速发展，卫星应用前景广阔",
         "stocks": [
           {
-            "name": "中国交建",
-            "code": "601800.SH",
+            "name": "中国卫星",
+            "code": "600118.SH",
             "short_term": "↑"
           },
           {
-            "name": "北部湾港",
-            "code": "000582.SZ",
+            "name": "中国卫通",
+            "code": "601698.SH",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "中国玉柴国际新宣布派息（新增）",
+        "theme": "CYD新派息计划引发估值讨论，高息环境下价值型投资者关注",
+        "stocks": [
+          {
+            "name": "中国玉柴国际",
+            "code": "CYD.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "潍柴动力",
+            "code": "000338.SZ",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "Pershing Square首派季度股息（新增）",
+        "theme": "对冲基金从资本增值转向股东回报，PSH折价率有望收窄",
+        "stocks": [
+          {
+            "name": "Pershing Square",
+            "code": "PSH.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "黑石集团",
+            "code": "BX.US",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "Nexa与Boliden矿业并购谈判（新增）",
+        "theme": "全球矿业整合加速，并购预期推升估值",
+        "stocks": [
+          {
+            "name": "Nexa Resources",
+            "code": "NEXA.US",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "Boliden",
+            "code": "BOL.ST",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "WHO宣布邮轮汉坦病毒疫情结束（新增）",
+        "theme": "邮轮行业公共卫生风险消除，暑期旺季预订回暖",
+        "stocks": [
+          {
+            "name": "嘉年华邮轮",
+            "code": "CCL.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "皇家加勒比",
+            "code": "RCL.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "道指历史新高纳指收低——风格轮动显现（新增）",
+        "theme": "资金从高估值科技股转向价值/周期股，AI估值消化中",
+        "stocks": [
+          {
+            "name": "英伟达",
+            "code": "NVDA.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "摩根大通",
+            "code": "JPM.US",
             "short_term": "↑"
           }
         ]
