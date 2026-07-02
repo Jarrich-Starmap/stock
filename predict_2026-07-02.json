@@ -1,229 +1,52 @@
 {
   "meta": {
-    "name": "2026-07-02 全球新闻股票推演",
-    "description": "基于 2026-07-02 hk.k415.win 新闻源，逐条分析每条新闻对相关股票短中长期涨跌的逻辑推演",
+    "name": "2026年7月2日全球新闻股票推演",
+    "description": "基于2026年7月2日hk.k415.win新闻聚合页面20条新闻的股票市场影响推演分析，覆盖A股、港股、美股市场",
     "category": "daily",
-    "source": "2026-07-02 hk.k415.win/news/ 综合整理",
+    "source": "https://hk.k415.win/news/ 2026-07-02",
     "version": "1.0",
-    "update_time": "2026-07-02T20:55:00+08:00",
+    "update_time": "2026-07-02T21:59:48+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国何时及如何放松资本管制？",
-      "logic": "SCMP探讨中国资本管制放松路径，若放松将提升跨境资本流动自由度，直接利好港股市场流动性及跨境金融服务机构。短期市场情绪提振，中期若政策落地将吸引外资回流港股，长期资本账户开放利好人民币国际化相关标的。",
+      "title": "立法会严肃处理议员行为案件",
+      "logic": "香港立法会强化纪律，短期可能引发对香港政治稳定性的关注，影响本地地产、金融板块情绪；中长期若治理改善则利好营商环境",
       "stocks": [
         {
-          "name": "香港交易所",
-          "code": "0388.HK",
+          "name": "新鸿基地产",
+          "code": "0016.HK",
           "market": "HK",
-          "sector": "金融服务",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中国平安",
-          "code": "2318.HK",
-          "market": "HK",
-          "sector": "保险金融",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "sector": "地产",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "中信证券",
-          "code": "6030.HK",
+          "name": "恒生银行",
+          "code": "0011.HK",
           "market": "HK",
-          "sector": "券商",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "sector": "金融",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "红线：北京的新冷战叙事",
-      "logic": "Euractiv报道北京新冷战叙事升温，中美博弈加剧推动半导体自主可控与军工板块需求。短期情绪驱动军工走强，中期国产替代逻辑强化，长期科技脱钩加深利好国内半导体产业链。",
+      "title": "北京表示中欧贸易谈判将于秋季举行，此后每年定期举行",
+      "logic": "中欧贸易机制化利好出口企业，降低贸易摩擦不确定性；汽车、光伏、机电等对欧出口板块受益",
       "stocks": [
         {
-          "name": "中芯国际",
-          "code": "0981.HK",
+          "name": "比亚迪股份",
+          "code": "1211.HK",
           "market": "HK",
-          "sector": "半导体",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SZ",
-          "sector": "半导体设备",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "北方导航",
-          "code": "600435.SH",
-          "market": "SH",
-          "sector": "军工导航",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "中国发射新的海洋观测卫星",
-      "logic": "中国成功发射海洋观测卫星，展示航天技术持续进步。短期航天板块受事件催化走强，中期卫星应用与数据服务产业链受益，长期商业航天布局深化利好核心航天企业。",
-      "stocks": [
-        {
-          "name": "中国卫星",
-          "code": "600118.SH",
-          "market": "SH",
-          "sector": "航天制造",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "航天电子",
-          "code": "600879.SH",
-          "market": "SH",
-          "sector": "航天电子",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "德国和西班牙晋级2026年中国手球世锦赛半决赛",
-      "logic": "2026年手球世锦赛在中国举办，国际赛事提升中国体育旅游关注度。短期体育概念和旅游板块小幅受益，中期赛事经济带动相关消费，但手球影响力有限，长期影响偏中性。",
-      "stocks": [
-        {
-          "name": "中体产业",
-          "code": "600158.SH",
-          "market": "SH",
-          "sector": "体育产业",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "携程集团",
-          "code": "TCOM.US",
-          "market": "US",
-          "sector": "在线旅游",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "欧盟对中国新民族团结法发出警告",
-      "logic": "欧盟对中国的民族政策提出警告，可能加剧中欧贸易摩擦。短期市场对中欧关系担忧利空出口型企业，中期若摩擦升级可能影响新能源、光伏等出口板块，长期需关注中欧贸易谈判走向。",
-      "stocks": [
-        {
-          "name": "隆基绿能",
-          "code": "601012.SH",
-          "market": "SH",
-          "sector": "光伏",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "阳光电源",
-          "code": "300274.SZ",
-          "market": "SZ",
-          "sector": "逆变器储能",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
           "sector": "新能源汽车",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "中国华商律所将在新加坡开设办事处推动区域扩张",
-      "logic": "中国法律服务企业出海东南亚，反映中国企业国际化趋势。短期影响力有限，中期利好跨境法律服务及中新经贸合作概念，长期中国企业出海驱动相关服务需求增长。",
-      "stocks": [
-        {
-          "name": "凯德集团(新加坡)",
-          "code": "C31.SI",
-          "market": "PRIVATE",
-          "sector": "商业地产",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "卓荣泰宣布建立平台反制中国跨境打压",
-      "logic": "两岸关系再度紧张，台湾当局反制行动可能加剧地缘政治不确定性。短期台股及半导体供应链受情绪冲击，中期若局势恶化可能影响台积电等供应链安全，长期加速半导体全球分散布局。",
-      "stocks": [
-        {
-          "name": "台积电",
-          "code": "TSM.US",
-          "market": "US",
-          "sector": "半导体制造",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中芯国际",
-          "code": "0981.HK",
-          "market": "HK",
-          "sector": "半导体",
           "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
-        },
-        {
-          "name": "联发科",
-          "code": "2454.TW",
-          "market": "TW",
-          "sector": "芯片设计",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "特斯拉中国产电动车6月销量同比增长24.4%，批发量创2026年月度新高",
-      "logic": "特斯拉上海工厂6月销量同比增24.4%且连续第八个月增长，批发量创2026年月度新高。短期直接利好特斯拉股价及中国供应链企业，中期销量持续增长验证中国市场需求强劲，长期特斯拉本土化生产优势进一步巩固。",
-      "stocks": [
-        {
-          "name": "特斯拉",
-          "code": "TSLA.US",
-          "market": "US",
-          "sector": "电动汽车",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
         },
         {
           "name": "宁德时代",
@@ -231,114 +54,318 @@
           "market": "SZ",
           "sector": "动力电池",
           "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "航运物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "马骏智库将发布六项中国转型金融新基准",
+      "logic": "转型金融标准确立将引导资金流向绿色低碳产业，利好ESG评级高的企业和清洁能源板块",
+      "stocks": [
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "拓普集团",
-          "code": "601689.SH",
+          "name": "三峡能源",
+          "code": "600905.SH",
           "market": "SH",
-          "sector": "汽车零部件",
+          "sector": "新能源电力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华能国际",
+          "code": "0902.HK",
+          "market": "HK",
+          "sector": "电力",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国版迪士尼：更小、更便宜、更具社交性",
+      "logic": "本土主题乐园与文旅消费新模式崛起，利好文旅运营商和IP运营企业，对传统大型主题乐园形成差异化竞争",
+      "stocks": [
+        {
+          "name": "华侨城A",
+          "code": "000069.SZ",
+          "market": "SZ",
+          "sector": "文旅地产",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "旭升集团",
-          "code": "603305.SH",
-          "market": "SH",
-          "sector": "铝压铸零部件",
+          "name": "宋城演艺",
+          "code": "300144.SZ",
+          "market": "SZ",
+          "sector": "演艺文旅",
           "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "→",
           "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "智库报告阐述习近平党建思想的特点与意义",
+      "logic": "党建理论阐述属于政治宣示，对资本市场的直接影响微弱；但强化党的治理体系概念可能间接利好国企改革与治理改善主题",
+      "stocks": [
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "建筑基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "理解习近平党建思想是理解中共与中国的关键：智库报告",
+      "logic": "与上条同源，对外宣介性质；无明显资本市场直接传导路径",
+      "stocks": [
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国新的民族团结法是什么？对少数民族意味着什么？",
+      "logic": "Al Jazeera报道民族团结法引发国际关注，短期可能加剧新疆/西藏相关公司的地缘风险折价；中长期政策明确后不确定性消除",
+      "stocks": [
+        {
+          "name": "新疆交建",
+          "code": "002941.SZ",
+          "market": "SZ",
+          "sector": "基建",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "西部建设",
+          "code": "002302.SZ",
+          "market": "SZ",
+          "sector": "建材",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "特变电工",
+          "code": "600089.SH",
+          "market": "SH",
+          "sector": "电力设备",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国拟更新隐私标准，瞄准AI与敏感数据",
+      "logic": "隐私标准趋严将增加AI企业合规成本，短期利空数据驱动型AI公司；中长期利好数据安全与合规科技企业",
+      "stocks": [
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 9,
-      "title": "中国车企曾以国内销售为荣，如今不出口就受损，大众就是例证",
-      "logic": "中国汽车市场竞争白热化，合资品牌如大众在中国市场份额下滑，出口成为各家车企关键出路。短期出口型车企受益，中期国内价格战加剧利好有海外布局的车企，长期中国汽车全球化重塑行业格局。",
+      "title": "欧盟在中欧贸易重置中退缩，担忧痛苦的反制",
+      "logic": "欧盟在贸易谈判中趋于妥协，降低对中国新能源车、光伏等出口关税加征风险，利好对欧出口龙头",
       "stocks": [
         {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
           "sector": "新能源汽车",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阳光电源",
+          "code": "300274.SZ",
+          "market": "SZ",
+          "sector": "光伏逆变器",
           "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "吉利汽车",
-          "code": "0175.HK",
+          "name": "海尔智家",
+          "code": "6690.HK",
           "market": "HK",
-          "sector": "汽车制造",
+          "sector": "家电",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
-        },
-        {
-          "name": "上汽集团",
-          "code": "600104.SH",
-          "market": "SH",
-          "sector": "汽车制造",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
         }
       ]
     },
     {
       "id": 10,
-      "title": "中国玉柴将于7月28日派发每股0.87美元股息",
-      "logic": "中国玉柴宣布高额现金派息，反映公司现金流充裕，直接利好股价。短期除息前抢权行情，中期股息率吸引价值投资者，长期需关注公司发动机业务基本面能否支撑持续高分红。",
+      "title": "北京中信大厦坠机被认定为蓄意行为，当局披露飞行员心理健康问题",
+      "logic": "中信集团品牌受冲击，短期股价承压；航空业心理健康审查可能增加运营成本，利空航空板块",
       "stocks": [
         {
-          "name": "玉柴国际",
-          "code": "CYD.US",
-          "market": "US",
-          "sector": "工业制造",
-          "short_term": "↑↑",
-          "mid_term": "↑",
+          "name": "中信股份",
+          "code": "0267.HK",
+          "market": "HK",
+          "sector": "综合金融",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国东方航空",
+          "code": "0670.HK",
+          "market": "HK",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 11,
-      "title": "法拉利首款电动车在中国一炮而红",
-      "logic": "法拉利首款电动车在中国市场订单火爆，验证超豪华电动车市场需求。短期直接利好法拉利股价，中期中国高净值人群消费力推动超豪华车市场增长，长期传统超跑品牌电动化转型成功案例提升估值。",
+      "title": "北京医疗器械行业：外国投资者的机遇",
+      "logic": "医疗器械开放外资准入利好国内医疗器械龙头引入技术与资本，加速国产替代进程",
       "stocks": [
         {
-          "name": "法拉利",
-          "code": "RACE.US",
-          "market": "US",
-          "sector": "豪华汽车",
-          "short_term": "↑↑",
+          "name": "迈瑞医疗",
+          "code": "300760.SZ",
+          "market": "SZ",
+          "sector": "医疗器械",
+          "short_term": "↑",
           "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "乐普医疗",
+          "code": "300003.SZ",
+          "market": "SZ",
+          "sector": "医疗器械",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "微创医疗",
+          "code": "0853.HK",
+          "market": "HK",
+          "sector": "医疗器械",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 12,
-      "title": "SKF与中国绿的谐波在中国组建机器人合资企业",
-      "logic": "瑞典SKF与中国绿的谐波成立机器人合资公司，结合SKF精密轴承技术与绿的谐波减速器优势。短期利好绿的谐波打开国际市场，中期合资产品放量驱动业绩，长期国产机器人核心零部件全球竞争力提升。",
+      "title": "菲律宾供美军使用基地扩建进展如何？中国分析人士评估",
+      "logic": "南海军事化态势升级，短期提振军工板块情绪；中长期大国博弈加剧利好国防预算增长",
       "stocks": [
         {
-          "name": "绿的谐波",
-          "code": "688017.SH",
+          "name": "中航沈飞",
+          "code": "600760.SH",
           "market": "SH",
-          "sector": "机器人零部件",
-          "short_term": "↑↑",
+          "sector": "军工航空",
+          "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "SKF",
-          "code": "SKF-B.ST",
-          "market": "SE",
-          "sector": "精密轴承",
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航西飞",
+          "code": "000768.SZ",
+          "market": "SZ",
+          "sector": "军工航空",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -347,100 +374,168 @@
     },
     {
       "id": 13,
-      "title": "ABB以太网APL流量计助力中国大型石化综合体数字化",
-      "logic": "ABB先进流量计进入中国大型石化项目，反映中国石化行业数字化转型加速。短期ABB获得中国石化大单利好，中期石化智能化改造利好相关设备与服务商，长期工业数字化趋势利好自动化龙头。",
+      "title": "中国空调热潮展现供应链合作机遇",
+      "logic": "全球高温+空调需求旺盛，中国家电供应链优势凸显，利好白电龙头及上游压缩机、制冷零部件企业",
       "stocks": [
         {
-          "name": "ABB",
-          "code": "ABBN.SW",
-          "market": "CH",
-          "sector": "工业自动化",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国石化",
-          "code": "600028.SH",
-          "market": "SH",
-          "sector": "石油化工",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中控技术",
-          "code": "688777.SH",
-          "market": "SH",
-          "sector": "工业自动化",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "阿斯利康与中国石药集团建立更紧密合作关系",
-      "logic": "跨国药企阿斯利康加深与中国石药集团合作，体现中国创新药企国际化趋势。短期利好石药集团估值提升，中期合作管线推进驱动业绩，长期中国药企通过跨国合作加速全球化布局。",
-      "stocks": [
-        {
-          "name": "阿斯利康",
-          "code": "AZN.US",
-          "market": "US",
-          "sector": "制药",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "石药集团",
-          "code": "1093.HK",
-          "market": "HK",
-          "sector": "制药",
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电",
           "short_term": "↑↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "恒瑞医药",
-          "code": "600276.SH",
-          "market": "SH",
-          "sector": "创新药",
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三花智控",
+          "code": "002050.SZ",
+          "market": "SZ",
+          "sector": "制冷零部件",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "中埃技术教育联盟在新开罗成立",
+      "logic": "中国教育出海与一带一路技术合作深化，利好职业教育、教育科技出口企业",
+      "stocks": [
+        {
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "sector": "职业教育",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "轨交装备",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 15,
-      "title": "匈牙利威胁在污染事件后对电动车电池行业进行打击",
-      "logic": "匈牙利因污染事件威胁收紧对中国电池制造商的监管，宁德时代等在匈有产能布局的企业面临政策风险。短期利空情绪压制电池板块，中期若监管升级将增加合规成本和产能扩张难度，长期欧洲本土化生产门槛提高利好已合规企业。",
+      "title": "中美寻求农产品关税回调",
+      "logic": "中美农产品关税谈判若取得进展，将降低中国进口大豆/玉米成本，利好下游饲料和养殖企业；同时中国农产品出口企业受益",
       "stocks": [
         {
-          "name": "宁德时代",
-          "code": "300750.SZ",
+          "name": "新希望",
+          "code": "000876.SZ",
           "market": "SZ",
-          "sector": "动力电池",
-          "short_term": "↓",
-          "mid_term": "↓",
+          "sector": "养殖饲料",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "温氏股份",
+          "code": "300498.SZ",
+          "market": "SZ",
+          "sector": "养殖",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中粮糖业",
+          "code": "600737.SH",
+          "market": "SH",
+          "sector": "农产品贸易",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "中欧将于秋季举行第二轮贸易投资磋商会议",
+      "logic": "中欧磋商机制化释放积极信号，降低贸易战风险，利好出口欧洲占比高的企业",
+      "stocks": [
+        {
+          "name": "长城汽车",
+          "code": "2333.HK",
+          "market": "HK",
+          "sector": "汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "福耀玻璃",
+          "code": "3606.HK",
+          "market": "HK",
+          "sector": "汽车玻璃",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "药明康德",
+          "code": "2359.HK",
+          "market": "HK",
+          "sector": "CXO",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "台湾称中国民族团结法是「强制统一」工具，正研议反制措施",
+      "logic": "两岸关系紧张加剧短期利空军工和福建板块；中长期若局势缓和则利好两岸经贸",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "国轩高科",
-          "code": "002074.SZ",
+          "name": "厦门港务",
+          "code": "000905.SZ",
           "market": "SZ",
-          "sector": "动力电池",
+          "sector": "港口",
           "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
+          "mid_term": "→",
+          "long_term": "↑"
         },
         {
-          "name": "亿纬锂能",
-          "code": "300014.SZ",
-          "market": "SZ",
-          "sector": "锂电池",
+          "name": "福建高速",
+          "code": "600033.SH",
+          "market": "SH",
+          "sector": "交通",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
@@ -448,36 +543,95 @@
       ]
     },
     {
-      "id": 16,
-      "title": "埃及政党领袖：中国共产党提供了可供借鉴的经验和模式",
-      "logic": "埃及政党领袖高度评价中共治理经验，中非合作关系持续深化。短期一带一路概念小幅受益，中期中非基建合作项目持续推进利好相关企业，长期中国模式输出助力企业拓展非洲市场。",
+      "id": 18,
+      "title": "中国具身AI领域营收增长强劲",
+      "logic": "具身AI(Embodied AI)即AI+机器人融合领域，营收增长验证商业化路径，利好机器人产业链",
       "stocks": [
         {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建工程",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "name": "机器人",
+          "code": "300024.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "中国铁建",
-          "code": "601186.SH",
+          "name": "绿的谐波",
+          "code": "688017.SH",
           "market": "SH",
-          "sector": "基建工程",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "sector": "机器人减速器",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "传音控股",
-          "code": "688036.SH",
+          "name": "优必选",
+          "code": "9880.HK",
+          "market": "HK",
+          "sector": "人形机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "大陆重申支持台湾农产品出口",
+      "logic": "两岸农产品贸易政策利好，但台方可能抵制；大陆进口替代品种或间接受益",
+      "stocks": [
+        {
+          "name": "宏辉果蔬",
+          "code": "603336.SH",
           "market": "SH",
-          "sector": "消费电子",
+          "sector": "农产品加工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "国联水产",
+          "code": "300094.SZ",
+          "market": "SZ",
+          "sector": "水产",
           "short_term": "→",
           "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "报告揭露日本-菲律宾海洋划界计划的法律谬误",
+      "logic": "中国通过法律和舆论手段应对日菲海洋合作，南海博弈持续；短期利好军工，中长期利好海洋经济",
+      "stocks": [
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "海洋防务",
+          "short_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中远海特",
+          "code": "600428.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     }
@@ -485,13 +639,13 @@
   "summary": {
     "newly_added": [
       {
-        "label": "特斯拉中国6月销量八连增（新增）",
-        "theme": "特斯拉中国6月批发量创2026年月度新高，同比增长24.4%，连续第八个月增长，反映中国电动车市场需求强劲。",
+        "label": "中欧贸易谈判秋季启动（新增）",
+        "theme": "中欧贸易机制化利好出口板块",
         "stocks": [
           {
-            "name": "特斯拉",
-            "code": "TSLA.US",
-            "short_term": "↑↑"
+            "name": "比亚迪股份",
+            "code": "1211.HK",
+            "short_term": "↑"
           },
           {
             "name": "宁德时代",
@@ -501,54 +655,70 @@
         ]
       },
       {
-        "label": "SKF与绿的谐波组建机器人合资企业（新增）",
-        "theme": "瑞典精密轴承巨头SKF与中国绿的谐波联手进军机器人领域，结合双方技术优势开拓全球市场。",
+        "label": "中国版迪士尼新模式（新增）",
+        "theme": "本土文旅消费创新",
         "stocks": [
+          {
+            "name": "宋城演艺",
+            "code": "300144.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "华侨城A",
+            "code": "000069.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "欧盟中欧贸易退缩（新增）",
+        "theme": "欧盟妥协降低关税风险",
+        "stocks": [
+          {
+            "name": "比亚迪股份",
+            "code": "1211.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "阳光电源",
+            "code": "300274.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中美农产品关税回调（新增）",
+        "theme": "降低进口成本利好养殖",
+        "stocks": [
+          {
+            "name": "新希望",
+            "code": "000876.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "温氏股份",
+            "code": "300498.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "具身AI营收强劲增长（新增）",
+        "theme": "AI+机器人商业化加速",
+        "stocks": [
+          {
+            "name": "机器人",
+            "code": "300024.SZ",
+            "short_term": "↑↑"
+          },
           {
             "name": "绿的谐波",
             "code": "688017.SH",
             "short_term": "↑↑"
-          },
-          {
-            "name": "SKF",
-            "code": "SKF-B.ST",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "匈牙利威胁打击电池行业（新增）",
-        "theme": "匈牙利因污染事件威胁收紧对中国电池制造商的监管，宁德时代等在匈布局企业面临政策不确定性。",
-        "stocks": [
-          {
-            "name": "宁德时代",
-            "code": "300750.SZ",
-            "short_term": "↓"
-          },
-          {
-            "name": "国轩高科",
-            "code": "002074.SZ",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "阿斯利康与石药集团深化合作（新增）",
-        "theme": "跨国药企阿斯利康进一步深化与中国石药集团的合作，推动创新药国际化进程。",
-        "stocks": [
-          {
-            "name": "石药集团",
-            "code": "1093.HK",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "阿斯利康",
-            "code": "AZN.US",
-            "short_term": "→"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026-07-02公开新闻进行的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月2日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向符号含义：↑↑=强烈看多，↑=看多，→=中性/横盘，↓=看空。"
 }
