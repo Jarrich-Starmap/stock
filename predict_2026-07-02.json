@@ -1,146 +1,203 @@
 {
   "meta": {
-    "name": "2026年7月2日全球新闻股票推演",
-    "description": "基于2026年7月2日13:55 hk.k415.win/news页面抓取的13条公开新闻，分析潜在受影响的股票及短中长涨跌推演。覆盖游戏、汽车、航空、AI、半导体、牧业、航运、一带一路、服务贸易等多个板块。",
+    "name": "2026-07-02全球新闻股票推演",
+    "description": "基于2026-07-02新闻事件驱动的短中长期股票多空推演数据集",
     "category": "daily",
-    "source": "hk.k415.win/news 2026-07-02 13:55",
-    "version": "4.0",
-    "update_time": "2026-07-02T14:30:00+08:00",
+    "source": "2026-07-02综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-02T16:01:12+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国高级游戏牌照的批准强化了行业的乐观论点",
-      "logic": "2026年Q2共发放483款网络游戏版号（同比+13%），6月单月171款。腾讯获《奥星热浪》《异克斯小队》等6款，网易获《遗忘之海》版号。版号常态化释放行业复苏信号，游戏公司产品管线确定性大幅提升，晨星维持腾讯800港元目标价。",
+      "title": "欧盟商会主席：欧洲企业对中国的依赖有增无减",
+      "logic": "欧洲企业对中国市场依赖度增加，利好在中国市场有重要业务的欧洲上市公司，特别是汽车、奢侈品、工业设备等行业的龙头企业",
       "stocks": [
         {
-          "name": "腾讯控股",
-          "code": "0700.HK",
-          "market": "HK",
-          "sector": "游戏/互联网",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "网易",
-          "code": "9999.HK",
-          "market": "HK",
-          "sector": "游戏",
+          "name": "大众汽车",
+          "code": "VOW3.DE",
+          "market": "DE",
+          "sector": "汽车制造",
           "short_term": "↑",
           "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "long_term": "↑"
         },
         {
-          "name": "网易",
-          "code": "NTES",
-          "market": "US",
-          "sector": "游戏",
+          "name": "宝马集团",
+          "code": "BMW.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "路易威登",
+          "code": "MC.PA",
+          "market": "FR",
+          "sector": "奢侈品",
           "short_term": "↑",
           "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "惬英网络",
-          "code": "002517.SZ",
-          "market": "SZ",
-          "sector": "游戏",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "哔哩哔哩",
-          "code": "BILI",
-          "market": "US",
-          "sector": "游戏/视频",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "法拉利首款电动汽车Luce在中国一炮而红，88台配额售罄",
-      "logic": "法拉利Luce EV在华88台配额迅速售罄，售价398.8万元。尽管发布当日股价跌超5.25%，大摩已上调评级至“增持”目标373美元，认为近期抛售过度。中国市场强劲需求验证超豪华电动车细分赛道可行性，对同类超豪华品牌及中国新能源供应链有正面示范。",
+      "title": "中国HBM追赶对韩国的启示",
+      "logic": "中国在HBM（高带宽存储器）领域加速追赶，可能对韩国存储芯片巨头形成竞争压力，同时利好中国本土半导体设备材料供应商",
       "stocks": [
         {
-          "name": "法拉利",
-          "code": "RACE",
-          "market": "US",
-          "sector": "豪华汽车",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "动力电池",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "name": "SK海力士",
+          "code": "000660.KS",
+          "market": "KR",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
-          "sector": "新能源汽车",
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "半导体设备",
           "short_term": "↑",
           "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "特斯拉",
-          "code": "TSLA",
-          "market": "US",
-          "sector": "电动汽车",
-          "short_term": "→",
-          "mid_term": "↑",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 3,
-      "title": "国航与新加坡航空签署联营合作谅解备忘录",
-      "logic": "6月29日国航(601111.SH)与新航在京签署联营合作MoU，双方同为星空联盟成员，将协同优化航班计划、扩大代码共享、推进联合营销、深化常旅客计划合作。联营将提升中新航线营收与利润率，加强东南亚航网布局。",
+      "title": "反倾销调查到来，中国取向硅钢出口遭遇重大变局",
+      "logic": "反倾销调查将限制中国取向硅钢出口，对国内钢铁企业形成利空，但可能利好海外竞争对手",
       "stocks": [
         {
-          "name": "中国国航",
-          "code": "601111.SH",
+          "name": "宝钢股份",
+          "code": "600019.SH",
           "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "sector": "钢铁",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "中国国航",
-          "code": "0753.HK",
-          "market": "HK",
-          "sector": "航空运输",
+          "name": "新日铁",
+          "code": "5401.T",
+          "market": "JP",
+          "sector": "钢铁",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
+          "long_term": "→"
         },
         {
-          "name": "新加坡航空",
-          "code": "C6L.SI",
+          "name": "浦项制铁",
+          "code": "005490.KS",
+          "market": "KR",
+          "sector": "钢铁",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "SKF与Leaderdrive在华成立精密机器人零部件合资企业",
+      "logic": "国际轴承巨头SKF与中国企业合资，看好中国机器人市场前景，利好相关产业链公司",
+      "stocks": [
+        {
+          "name": "SKF",
+          "code": "SKF-B.ST",
           "market": "SE",
-          "sector": "航空运输",
+          "sector": "工业设备",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "南方航空",
-          "code": "600029.SH",
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "工业自动化",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国ICT厂商H3C在紫光领导层调整后开启AI服务器新篇章",
+      "logic": "H3C作为紫光股份核心子公司，领导层调整后聚焦AI服务器业务，受益于AI算力需求增长",
+      "stocks": [
+        {
+          "name": "紫光股份",
+          "code": "000938.SZ",
+          "market": "SZ",
+          "sector": "信息技术",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "浪潮信息",
+          "code": "000977.SZ",
+          "market": "SZ",
+          "sector": "服务器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
           "market": "SH",
-          "sector": "航空运输",
+          "sector": "高性能计算",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国商法所开设新加坡办公室，推进区域扩张",
+      "logic": "中国律所国际化扩张，反映中国企业出海法律服务需求增长，利好专业服务机构",
+      "stocks": [
+        {
+          "name": "金杜律师事务所",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "专业服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中伦律师事务所",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "专业服务",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
@@ -148,441 +205,36 @@
       ]
     },
     {
-      "id": 4,
-      "title": "中国Z.AI来了：智谱GLM-5.2模型逼近美国前沿水平，拟A+H双重上市",
-      "logic": "智谱(02509.HK)旗下GLM-5.2模型在人工智能排行榜位列第四，以美国同类模型六分之一成本达到接近水平。拟科创板募资150亿元、英文名变更为Z.AI Co., Ltd.。股价自上市以来累涨超20倍，市值突破万亿港元。摩根大通预测2028年实现盈利。",
-      "stocks": [
-        {
-          "name": "智谱 (Z.AI)",
-          "code": "2509.HK",
-          "market": "HK",
-          "sector": "AI/大模型",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "商汤科技",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "AI平台",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "剑桥科技",
-          "code": "603083.SH",
-          "market": "SH",
-          "sector": "AI算力",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "高盛盯上中国猪肉行业：猪价触底下半年或反弹至15元/kg",
-      "logic": "高盛7月2日研报指出，当前猪价跌至9.4元/kg，近100%养殖户现金亏损。能繁母猪存栏预计至2026年末减少11%，2026年下半年供给缺口约5%，猪价有望反弹至15元/kg。牧原A目标价51.5元。",
-      "stocks": [
-        {
-          "name": "牧原股份",
-          "code": "002714.SZ",
-          "market": "SZ",
-          "sector": "生猪养殖",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "牧原股份",
-          "code": "2714.HK",
-          "market": "HK",
-          "sector": "生猪养殖",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "温氏股份",
-          "code": "300498.SZ",
-          "market": "SZ",
-          "sector": "生猪养殖",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "新希望",
-          "code": "000876.SZ",
-          "market": "SZ",
-          "sector": "饲料/养殖",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "神农集团",
-          "code": "605296.SH",
-          "market": "SH",
-          "sector": "生猪养殖",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "欧盟芯片产业受到中国和美国依赖的挤压",
-      "logic": "欧盟报告指出，欧洲芯片产业受中国出口管制与对美国技术依赖双重挤压。ASML中国收入占比从33%降至20%，美MATCH法案可能禁止DUV设备对华出口。ASML股价6月再度下跌。欧盟推出芯片法案2.0。",
-      "stocks": [
-        {
-          "name": "阿斯麦",
-          "code": "ASML",
-          "market": "US",
-          "sector": "半导体设备",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "阿斯麦",
-          "code": "ASML.AS",
-          "market": "DE",
-          "sector": "半导体设备",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "英飞凌",
-          "code": "IFX.DE",
-          "market": "DE",
-          "sector": "汽规芯片",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "意法半导体",
-          "code": "STM",
-          "market": "US",
-          "sector": "汽规芯片",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "芯片制造",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
       "id": 7,
-      "title": "特朗普再次攻击中国在巴拿马运河的影响力，誓言保护这条战略水道",
-      "logic": "特朗普7月1日再度宣称绝不让中国“接管”巴拿马运河。巴拿马法院裁定长和港口运营权“违宪”，长和启动20亿美元仲裁。中远海控坪停巴尔博亚港业务，运河集装箱吞吐量跌12%。市场预期中远海控借势收购港口股权。",
+      "title": "中老铁路跨境客运量持续增长",
+      "logic": "一带一路基础设施项目运营良好，利好相关基建、物流和旅游公司",
       "stocks": [
-        {
-          "name": "中远海控",
-          "code": "1919.HK",
-          "market": "HK",
-          "sector": "航运",
-          "short_term": "↓",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运",
-          "short_term": "↓",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "招商轮船",
-          "code": "601872.SH",
-          "market": "SH",
-          "sector": "航运",
-          "short_term": "↓",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "招商局港口",
-          "code": "0144.HK",
-          "market": "HK",
-          "sector": "港口运营",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "前5个月我国服务贸易增长6%，知识密集型服务出口增12.2%",
-      "logic": "商务部7月1日数据：2026年1-5月服务进出口总额30994.8亿元同比+6%，出口+15.9%。知识产权使用费出口+64.9%，旅行服务出口+31.3%。逆差缩1607.2亿元，自主供给能力提升。入境游、商务出行复苏推动旅行服务出口增长。",
-      "stocks": [
-        {
-          "name": "中国中免",
-          "code": "601888.SH",
-          "market": "SH",
-          "sector": "旅游零售",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "携程集团",
-          "code": "9961.HK",
-          "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "首旅酒店",
-          "code": "600258.SH",
-          "market": "SH",
-          "sector": "酒店",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "宋城演艺",
-          "code": "300144.SZ",
-          "market": "SZ",
-          "sector": "旅游演艺",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "中国特使重申致力于加强与巴基斯坦的关系；中缅孟经济走廊能否成为现实？",
-      "logic": "巴基斯坦总理刚结束访华，双方签署多份合作文件，CPEC 2.0进入“自主造血”新阶段。中缅孟经济走廊聚焦皆漾深水港、木姐-曼德勒铁路、油气管道三位一体，开拓印度洋陆上出海口。中国交建Q1境外新签+25.9%。",
-      "stocks": [
-        {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建工程",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中国交建",
-          "code": "1800.HK",
-          "market": "HK",
-          "sector": "基建工程",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
         {
           "name": "中国中铁",
           "code": "601390.SH",
           "market": "SH",
-          "sector": "铁路建设",
+          "sector": "基建",
           "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
           "name": "中国铁建",
           "code": "601186.SH",
           "market": "SH",
-          "sector": "铁路/公路建设",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "油气管道",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中国电建",
-          "code": "601669.SH",
-          "market": "SH",
-          "sector": "电力工程",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "财政部：中方将继续加强与世行合作；中国将测试跨大西洋动荡能否软化欧洲北欧鹰派",
-      "logic": "财政部宣布加强与世界银行合作，提升国际金融话语权。王毅出访测试北欧对华态度，在特朗普第二任期背景下，若欧洲向中国靠拢，将为中国新能源、光伏出口创造窗口。",
-      "stocks": [
-        {
-          "name": "中国建筑",
-          "code": "601668.SH",
-          "market": "SH",
-          "sector": "建筑工程",
+          "sector": "基建",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "隆基绿能",
-          "code": "601012.SH",
-          "market": "SH",
-          "sector": "光伏",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "阳光电源",
-          "code": "300274.SZ",
+          "name": "云南旅游",
+          "code": "002059.SZ",
           "market": "SZ",
-          "sector": "光伏逆变器",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "烧烤学院为中国下岗工人提供新的职业道路",
-      "logic": "烧烤学院成为下岗工人再就业新渠道，折射当前就业压力与服务消费结构转型。地滩经济、小微创业、餐饮下沉市场受益于政策支持和消费降级趋势，但整体反映经济复苏仍较脆弱。",
-      "stocks": [
-        {
-          "name": "海底捞",
-          "code": "6862.HK",
-          "market": "HK",
-          "sector": "餐饮",
+          "sector": "旅游",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "百胜中国",
-          "code": "9987.HK",
-          "market": "HK",
-          "sector": "餐饮",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "绝味食品",
-          "code": "603517.SH",
-          "market": "SH",
-          "sector": "休闲食品",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "传奇服务",
-          "code": "600415.SH",
-          "market": "SH",
-          "sector": "职业教育",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "朝鲜金正恩向习近平致信，誓言深化与中国的关系",
-      "logic": "金正恩向习近平致信誓言深化双边关系。朝鲜作为中国东北战略缓冲区和“一带一路”潜在桥头堡，关系升温将提升东北亚经济合作预期，边境贸易、基建、旅游板块受益。",
-      "stocks": [
-        {
-          "name": "吉林高速",
-          "code": "601518.SH",
-          "market": "SH",
-          "sector": "边境交通",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "长白山",
-          "code": "603099.SH",
-          "market": "SH",
-          "sector": "边境旅游",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "锦江酒店",
-          "code": "600754.SH",
-          "market": "SH",
-          "sector": "酒店/旅游",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "台湾总理：中国新民族团结法等同于跨国镇压",
-      "logic": "中国大陆新民族团结法引发台湾方面强烈反应，两岸关系紧张升级。台湾加权指数、两岸概念股短期承压，军工板块受益于紧张预期。",
-      "stocks": [
-        {
-          "name": "台泥集团",
-          "code": "2330.TW",
-          "market": "TW",
-          "sector": "半导体",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "iShares MSCI Taiwan ETF",
-          "code": "EWT",
-          "market": "US",
-          "sector": "台湾ETF",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中航成飞",
-          "code": "600391.SH",
-          "market": "SH",
-          "sector": "航空发动机",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     }
@@ -590,166 +242,38 @@
   "summary": {
     "newly_added": [
       {
-        "label": "法拉利Luce EV中国热销 (新增)",
-        "theme": "法拉利首款EV在华88台配额售罄，大摩上调评级至增持，超豪华EV细分赛道获验证",
+        "label": "欧盟企业依赖中国（新增）",
+        "theme": "欧洲企业对中国市场依赖度增加",
         "stocks": [
           {
-            "name": "法拉利",
-            "code": "RACE",
+            "name": "大众汽车",
+            "code": "VOW3.DE",
             "short_term": "↑"
           },
           {
-            "name": "宁德时代",
-            "code": "300750.SZ",
+            "name": "路易威登",
+            "code": "MC.PA",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "国航-新航联营备忘录 (新增)",
-        "theme": "国航与新航签署联营MoU，协同航班与常旅客计划合作，中新航线利润率提升",
+        "label": "中国HBM追赶韩国（新增）",
+        "theme": "中国在HBM领域加速追赶",
         "stocks": [
           {
-            "name": "中国国航",
-            "code": "601111.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "新加坡航空",
-            "code": "C6L.SI",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "服务贸易增长6% (新增)",
-        "theme": "前5月服务进出口同比+6%，旅行服务出口+31.3%，入境游复苏推动旅游板块",
-        "stocks": [
-          {
-            "name": "中国中免",
-            "code": "601888.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "携程集团",
-            "code": "9961.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "烧烤学院与职业教育 (新增)",
-        "theme": "下岗工人再就业新渠道，地滩经济、职业教育、小微创业受益",
-        "stocks": [
-          {
-            "name": "传奇服务",
-            "code": "600415.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "海底捞",
-            "code": "6862.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "朝鲜金正恩致信习近平 (新增)",
-        "theme": "金正恩誓言深化中朝关系，东北亚经济合作预期升温",
-        "stocks": [
-          {
-            "name": "长白山",
-            "code": "603099.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "吉林高速",
-            "code": "601518.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "Z.AI智谱GLM-5.2突破 (更新)",
-        "theme": "智谱模型逼近美国前沿水平，拟A+H双重上市募资150亿，市值破万亿",
-        "stocks": [
-          {
-            "name": "智谱 Z.AI",
-            "code": "2509.HK",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "寒武纪",
-            "code": "688256.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "高盛猪周期底部研报 (更新)",
-        "theme": "猪价9.4元/kg触底，能繁母猪去化11%，下半年反弹至15元/kg",
-        "stocks": [
-          {
-            "name": "牧原股份",
-            "code": "002714.SZ",
-            "short_term": "↑"
-          },
-          {
-            "name": "神农集团",
-            "code": "605296.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "欧盟芯片产业受挤压 (更新)",
-        "theme": "欧盟报告指出ASML受中美双重挤压，MATCH法案或禁止DUV对华出口",
-        "stocks": [
-          {
-            "name": "阿斯麦",
-            "code": "ASML",
+            "name": "三星电子",
+            "code": "005930.KS",
             "short_term": "↓"
           },
           {
-            "name": "中芯国际",
-            "code": "688981.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "巴拿马运河地缘风险 (更新)",
-        "theme": "特朗普再度攻击中国影响力，中远海控悬停巴尔博亚港业务，长和启动仲裁",
-        "stocks": [
-          {
-            "name": "中远海控",
-            "code": "1919.HK",
-            "short_term": "↓"
-          },
-          {
-            "name": "招商局港口",
-            "code": "0144.HK",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "中巴中缅经济走廊 (更新)",
-        "theme": "CPEC 2.0进入新阶段+中缅孟走廊讨论升温，一带一路基建概念获催化",
-        "stocks": [
-          {
-            "name": "中国交建",
-            "code": "1800.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "中国中铁",
-            "code": "601390.SH",
+            "name": "中微公司",
+            "code": "688012.SH",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月2日13:55 hk.k415.win/news公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。涨跌预测仅为基于事件驱动的逻辑推断，实际市场走势受多种因素影响。"
+  "disclaimer": "以上分析基于公开新闻，不构成投资建议。市场有风险，投资需谨慎。"
 }
