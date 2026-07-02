@@ -1,0 +1,806 @@
+{
+  "meta": {
+    "name": "2026年7月3日全球新闻股票推演",
+    "description": "基于2026年7月3日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太欧洲市场",
+    "category": "daily",
+    "source": "https://hk.k415.win/news/ 2026年7月3日综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-03T00:55:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "苹果被曝洽购中国黑名单芯片企业存储芯片，因内存短缺冲击价格",
+      "logic": "苹果因全球内存短缺转向中国被列入黑名单的芯片企业采购存储芯片，短期利好中国存储芯片供应链（如长江存储相关合作方），同时可能缓解苹果自身成本压力利好AAPL；中长期若交易达成将重塑全球存储芯片格局，利空三星/SK海力士等传统韩系厂商。",
+      "stocks": [
+        {
+          "name": "苹果",
+          "code": "AAPL",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "江波龙",
+          "code": "301308.SZ",
+          "market": "SZ",
+          "sector": "存储模组",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "SK海力士",
+          "code": "000660.KS",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "澜起科技",
+          "code": "688008.SH",
+          "market": "SH",
+          "sector": "内存接口芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "报告：习近平党建思想为全球政党治理提供新路径",
+      "logic": "政治理论宣传类新闻，短期对资本市场无直接交易信号，长期可能强化政策稳定性预期，对中特估/国企改革概念有温和支撑。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建央企",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "香港书商林荣基去世，享年70岁",
+      "logic": "社会事件，对股票市场无直接影响。林荣基为香港知名书商及政治人物，事件可能被部分外媒炒作，但对港股市场影响微乎其微。",
+      "stocks": [
+        {
+          "name": "恒生指数ETF",
+          "code": "2800.HK",
+          "market": "HK",
+          "sector": "综合指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国高山荞麦从边缘走向全球健康食品产业链",
+      "logic": "荞麦作为健康食品受全球关注，利好中国农产品深加工及健康食品出口企业，中长期可能带动相关农业概念股。",
+      "stocks": [
+        {
+          "name": "西王食品",
+          "code": "000639.SZ",
+          "market": "SZ",
+          "sector": "健康食品",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "金龙鱼",
+          "code": "300999.SZ",
+          "market": "SZ",
+          "sector": "粮油加工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国联手印尼、越南、印度、菲律宾和柬埔寨，韩国延长团体旅游签证费豁免至2026年",
+      "logic": "多国旅游签证政策放宽利好出境游和入境游市场，短期提振航空、酒店、免税行业；韩国延长签证豁免直接利好中韩旅游航线。",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游免税",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "携程集团",
+          "code": "TCOM",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "首旅酒店",
+          "code": "600258.SH",
+          "market": "SH",
+          "sector": "酒店餐饮",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "上海超级工厂出口量首次超过中国本土销量",
+      "logic": "特斯拉上海工厂出口量超越中国本土销量说明其作为全球出口枢纽的地位强化，利好特斯拉全球供应链效率；但中国本土销量相对走弱可能反映国内竞争加剧，利空国内新能源车企。",
+      "stocks": [
+        {
+          "name": "特斯拉",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "电动汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "电动汽车",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "旭升集团",
+          "code": "603305.SH",
+          "market": "SH",
+          "sector": "特斯拉供应链",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "特朗普对Anthropic政策反复如何帮了中国",
+      "logic": "美国对AI公司Anthropic的政策摇摆可能导致AI人才和资本流向中国，利好中国AI大模型及算力产业链；短期对美股AI概念股构成不确定性。",
+      "stocks": [
+        {
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "AI大模型",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "sector": "光模块/AI算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "NVIDIA",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "Microsoft",
+          "code": "MSFT",
+          "market": "US",
+          "sector": "云计算/AI",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "大型披萨连锁店在宣布关闭250家门店数月后以27亿美元被收购",
+      "logic": "指Papa Johns，27亿美元收购价反映行业整合趋势。利好收购方及餐饮行业并购概念，但被收购方此前关店250家反映经营困境。",
+      "stocks": [
+        {
+          "name": "棒约翰",
+          "code": "PZZA",
+          "market": "US",
+          "sector": "餐饮连锁",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "达美乐披萨",
+          "code": "DPZ",
+          "market": "US",
+          "sector": "餐饮连锁",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百胜中国",
+          "code": "YUMC",
+          "market": "US",
+          "sector": "餐饮连锁",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "AI驱动机器人协助中国杭州交警指挥交通",
+      "logic": "AI机器人落地城市治理场景加速，利好中国机器人及智慧城市产业链，尤其是机器视觉、边缘计算、自动驾驶相关企业。",
+      "stocks": [
+        {
+          "name": "海康威视",
+          "code": "002415.SZ",
+          "market": "SZ",
+          "sector": "机器视觉/安防",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "大华股份",
+          "code": "002236.SZ",
+          "market": "SZ",
+          "sector": "智慧城市",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "科大智能",
+          "code": "300222.SZ",
+          "market": "SZ",
+          "sector": "机器人",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "印日伙伴关系深化之际，中国递出橄榄枝：我们是朋友而非对手",
+      "logic": "中国在地缘政治上对印度释放缓和信号，若中印关系改善将利好双边贸易往来，尤其是电子、原料药、纺织品等领域；短期属于外交姿态，实际影响待观察。",
+      "stocks": [
+        {
+          "name": "小米集团",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "消费电子(印度市场)",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "OPPO/VIVO相关",
+          "code": "600745.SH",
+          "market": "SH",
+          "sector": "手机ODM",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "美国参议员谴责中国民族团结法为抹除少数民族的工具",
+      "logic": "中美在人权议题上持续摩擦，可能加剧美国对华制裁预期，短期不利于中概股及涉疆供应链企业，但市场对此类言论已部分脱敏。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "中概股",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中概互联网ETF",
+          "code": "KWEB",
+          "market": "US",
+          "sector": "中概股指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "国航将于9月开通北京—萨格勒布经布加勒斯特航线",
+      "logic": "国航拓展中东欧航线，利好出境游和一带一路航空互联互通，短期提振国航股价，中长期利好机场及旅游配套。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "机场运营",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "尼泊尔重申平衡印中政策，推动贸易与互联互通",
+      "logic": "尼泊尔在中印之间保持平衡，利好一带一路南亚通道建设，对中国基建出海企业有温和正面影响。",
+      "stocks": [
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "海外基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国铁建",
+          "code": "601186.SH",
+          "market": "SH",
+          "sector": "海外基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "德国副总理克林拜尔誓言对华采取更强硬路线",
+      "logic": "德国对华政策趋硬可能影响中欧贸易关系，尤其是汽车、机械、光伏等出口行业；短期市场情绪偏负面，中长期取决于具体政策落地程度。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "汽车出口",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏出口",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电出口",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "少年用雨伞砸裂中国世界最大玻璃栈道玻璃面板",
+      "logic": "社会趣闻，对股票市场无直接影响。可能对相关玻璃制造企业有极微弱的负面舆情关注。",
+      "stocks": [
+        {
+          "name": "福耀玻璃",
+          "code": "600660.SH",
+          "market": "SH",
+          "sector": "玻璃制造",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "荷兰启动人形机器人中心以追赶中国",
+      "logic": "荷兰设立人形机器人中心追赶中国，侧面印证中国在人形机器人领域的领先地位，利好国内机器人产业链；同时欧盟加速投入可能加剧中长期竞争。",
+      "stocks": [
+        {
+          "name": "优必选",
+          "code": "9880.HK",
+          "market": "HK",
+          "sector": "人形机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "拓斯达",
+          "code": "300607.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "伺服系统/机器人",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "绿的谐波",
+          "code": "688017.SH",
+          "market": "SH",
+          "sector": "减速器/机器人核心部件",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "中国评论员在巴基斯坦研讨会上就印度河水条约警告印度",
+      "logic": "中国在巴基斯坦研讨会上就水资源问题对印度发出警告，地缘紧张升级可能影响中印贸易和区域稳定，短期利空印度市场及在印中资企业。",
+      "stocks": [
+        {
+          "name": "印度Nifty 50 ETF",
+          "code": "INDY",
+          "market": "US",
+          "sector": "印度市场指数",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "小米集团",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "消费电子(印度市场)",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "北京中信大厦飞机撞击事故调查确认系飞行员个人原因",
+      "logic": "独立事故调查结论排除系统性风险，对航空板块短期负面情绪消退；但可能引发对私人飞行安全监管的加强讨论。",
+      "stocks": [
+        {
+          "name": "中信股份",
+          "code": "0267.HK",
+          "market": "HK",
+          "sector": "综合金融",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "苹果考虑从被列入黑名单的中国企业采购芯片以修复供应链",
+      "logic": "与第1条新闻关联，苹果积极寻求中国芯片供应商以修复供应链瓶颈，进一步利好中国半导体产业链；同时显示全球芯片供应链正在重构，中国企业的地缘价值上升。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华虹半导体",
+          "code": "1347.HK",
+          "market": "HK",
+          "sector": "晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "韦尔股份",
+          "code": "603501.SH",
+          "market": "SH",
+          "sector": "芯片设计",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "苹果",
+          "code": "AAPL",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "北京中信大厦飞机撞击事故调查确认系飞行员个人原因 / 阿南德抨击国大党在巴基斯坦印度教徒与中国问题上的立场",
+      "logic": "第18条已覆盖事故影响；印度国内政治争议涉及中国议题，对中印关系影响有限，短期无明确交易信号。",
+      "stocks": [
+        {
+          "name": "印度市场ETF",
+          "code": "INDA",
+          "market": "US",
+          "sector": "印度市场指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "苹果洽购中国存储芯片（新增）",
+        "theme": "苹果因全球内存短缺转向中国黑名单芯片企业采购存储芯片",
+        "stocks": [
+          {
+            "name": "苹果",
+            "code": "AAPL",
+            "short_term": "↑"
+          },
+          {
+            "name": "兆易创新",
+            "code": "603986.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "三星电子",
+            "code": "005930.KS",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "上海超级工厂出口量首超中国本土销量（新增）",
+        "theme": "特斯拉上海工厂出口量首次超过中国本土销量",
+        "stocks": [
+          {
+            "name": "特斯拉",
+            "code": "TSLA",
+            "short_term": "↑"
+          },
+          {
+            "name": "比亚迪",
+            "code": "1211.HK",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "特朗普Anthropic政策反复利好中国AI（新增）",
+        "theme": "美国对AI公司政策摇摆可能推动AI人才和资本流向中国",
+        "stocks": [
+          {
+            "name": "百度",
+            "code": "BIDU",
+            "short_term": "↑"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "荷兰启动人形机器人中心追赶中国（新增）",
+        "theme": "荷兰设立人形机器人中心侧面印证中国在机器人领域领先",
+        "stocks": [
+          {
+            "name": "优必选",
+            "code": "9880.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "绿的谐波",
+            "code": "688017.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "多国签证放宽利好出境游（新增）",
+        "theme": "中国联手东南亚多国及韩国延长签证豁免",
+        "stocks": [
+          {
+            "name": "中国中免",
+            "code": "601888.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "携程集团",
+            "code": "TCOM",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "德国对华强硬路线利空出口（新增）",
+        "theme": "德国副总理誓言对华采取更强硬路线",
+        "stocks": [
+          {
+            "name": "比亚迪",
+            "code": "1211.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "隆基绿能",
+            "code": "601012.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "中印地缘博弈双向影响（新增）",
+        "theme": "中国对印释放缓和信号但同时在水资源问题上警告印度",
+        "stocks": [
+          {
+            "name": "小米集团",
+            "code": "1810.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "印度ETF",
+            "code": "INDY",
+            "short_term": "↓"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月3日公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，请投资者自行判断风险。"
+}
