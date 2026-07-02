@@ -1,18 +1,18 @@
 {
   "meta": {
-    "name": "2026-07-02全球新闻股票推演",
-    "description": "基于2026-07-02新闻事件驱动的短中长期股票多空推演数据集",
+    "name": "2026年7月2日全球新闻股票推演",
+    "description": "基于公开新闻事件驱动的短中长期股票多空推演",
     "category": "daily",
-    "source": "2026-07-02综合整理",
-    "version": "1.0",
-    "update_time": "2026-07-02T16:30:00+08:00",
+    "source": "2026年7月2日综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-02T16:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国军舰南宁舰、衡阳舰首航香港庆祝回归29周年",
-      "logic": "解放军海军舰艇编队访问香港，彰显国家国防实力，增强香港市民国家认同感，利好与国防建设相关产业链及香港本地蓝筹股",
+      "title": "两艘中国军舰驶入香港进行为期五天的访问庆祝回归周年",
+      "logic": "解放军海军舰艇编队访问香港庆祝回归29周年，彰显国防实力，增强香港市民国家认同感，利好国防军工产业链及香港本地蓝筹股",
       "stocks": [
         {
           "name": "中船防务",
@@ -40,13 +40,142 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "东盟需求推动中国电动汽车出口同比增长49%创纪录",
-      "logic": "中国EV出口创纪录，东盟成为重要增长引擎，泰国、菲律宾需求激增，利好比亚迪等新能源车企及整个新能源汽车产业链",
+      "title": "习近平赞扬中国共产党105年的史诗，敦促建设社会主义现代化中国",
+      "logic": "中共高层强调社会主义现代化建设，政策确定性增强，利好与国家战略方向一致的科技自立、高端制造、新能源等板块",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "高端制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国：每日股票指数",
+      "logic": "中国A股及港股指数日常波动，反映市场整体情绪。近期政策面偏暖，指数有望震荡上行，利好宽基ETF及龙头蓝筹",
+      "stocks": [
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "消费",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国平安",
+          "code": "2318.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "大陆为海警在台湾附近巡逻辩护",
+      "logic": "台海局势紧张，海警常态化巡逻显示大陆对台海管控力增强，地缘政治风险上升，防务板块受益，两岸交流相关板块承压",
+      "stocks": [
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "造船/海工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中直股份",
+          "code": "600038.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "长荣航空",
+          "code": "2618.TW",
+          "market": "TW",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "华航",
+          "code": "2610.TW",
+          "market": "TW",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "东盟需求推动中国电动汽车出口同比增长49%",
+      "logic": "中国EV出口同比大增49%，东盟成为核心增长引擎，泰国、印尼、菲律宾需求旺盛，利好比亚迪等新能源车企及全产业链",
       "stocks": [
         {
           "name": "比亚迪股份",
@@ -83,13 +212,22 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "电控系统",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
-      "id": 3,
-      "title": "中欧贸易投资磋商机制正式启动秋季举行第二次例会",
-      "logic": "中欧建立常态化经贸交流机制，确定为关键贸易伙伴，AI和绿色转型领域合作有望深化，利好中欧贸易往来相关板块",
+      "id": 6,
+      "title": "中欧第二次贸易投资磋商机制将于秋季举行",
+      "logic": "中欧建立常态化经贸磋商机制，释放合作信号，利好中欧贸易往来相关板块，包括航空、汽车、奢侈品等",
       "stocks": [
         {
           "name": "中国国航",
@@ -98,6 +236,15 @@
           "sector": "航空",
           "short_term": "↑",
           "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "东方航空",
+          "code": "0670.HK",
+          "market": "HK",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
@@ -110,8 +257,8 @@
           "long_term": "↑"
         },
         {
-          "name": "大众汽车",
-          "code": "VOW3.DE",
+          "name": "宝马集团",
+          "code": "BMW.DE",
           "market": "DE",
           "sector": "汽车制造",
           "short_term": "↑",
@@ -121,9 +268,43 @@
       ]
     },
     {
-      "id": 4,
-      "title": "国航计划开通萨格勒布航班加强中欧航线网络",
-      "logic": "中国国航拓展中东欧航线网络，反映中国与中东欧经贸合作深化，利好航空运输板块",
+      "id": 7,
+      "title": "中美华东地区青少年通过文化体育加深友谊",
+      "logic": "中美民间交流回暖，有助于缓和两国关系预期，利好对美出口相关消费品板块及教育文化交流相关企业",
+      "stocks": [
+        {
+          "name": "李宁",
+          "code": "2331.HK",
+          "market": "HK",
+          "sector": "体育用品",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "安踏体育",
+          "code": "2020.HK",
+          "market": "HK",
+          "sector": "体育用品",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "新东方-S",
+          "code": "9901.HK",
+          "market": "HK",
+          "sector": "教育",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "国航计划在萨格勒布开通航班",
+      "logic": "中国国航拓展中东欧航线，反映中国与中东欧经贸合作深化，利好航空运输板块及一带一路相关基建企业",
       "stocks": [
         {
           "name": "中国国航",
@@ -151,13 +332,22 @@
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
+        },
+        {
+          "name": "中银航空租赁",
+          "code": "2588.HK",
+          "market": "HK",
+          "sector": "航空租赁",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
-      "id": 5,
-      "title": "中国内蒙古押注太阳能和风能但煤炭仍紧随其后",
-      "logic": "内蒙古清洁能源快速发展，但煤炭能源地位仍然重要，反映中国能源转型渐进式路径，利好清洁能源与传统能源平衡发展",
+      "id": 9,
+      "title": "中国内蒙古押注于太阳能和风能，但煤炭仍紧随其后",
+      "logic": "内蒙古清洁能源投资加速，但煤炭仍占重要地位，反映中国能源转型的渐进路径，利好新能源装备及煤炭龙头",
       "stocks": [
         {
           "name": "隆基绿能",
@@ -185,13 +375,108 @@
           "short_term": "→",
           "mid_term": "→",
           "long_term": "↓"
+        },
+        {
+          "name": "阳光电源",
+          "code": "300274.SZ",
+          "market": "SZ",
+          "sector": "光伏逆变器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "金风科技",
+          "code": "002202.SZ",
+          "market": "SZ",
+          "sector": "风电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
-      "id": 6,
-      "title": "中国C909支线航空商业服务十周年",
-      "logic": "中国商飞C919和C909飞机商业化运营稳步推进，利好国产航空制造业及配套产业链",
+      "id": 10,
+      "title": "内阁计划协调应对中国的民族团结法",
+      "logic": "台湾内阁计划协调应对中国大陆民族政策，两岸关系持续紧张，地缘政治风险上升，防务板块受益，两岸交流相关板块承压",
+      "stocks": [
+        {
+          "name": "国防军工ETF",
+          "code": "512660.SH",
+          "market": "SH",
+          "sector": "国防军工ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "台湾观光",
+          "code": "2707.TW",
+          "market": "TW",
+          "sector": "观光旅游",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "美国参议院两党决议草案谴责中国民族同化法",
+      "logic": "美国参议院跨党派谴责中国民族政策，中美关系紧张升级，可能影响科技、贸易领域，国产替代加速利好半导体自主可控板块",
+      "stocks": [
+        {
+          "name": "中芯国际A股",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华虹半导体",
+          "code": "1347.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国C909标志着支线航空的商业服务十周年",
+      "logic": "中国商飞C909支线客机商业运营满十周年，国产大飞机产业链日趋成熟，利好航空制造及配套产业链",
       "stocks": [
         {
           "name": "中航西飞",
@@ -219,13 +504,56 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "宝胜股份",
+          "code": "600973.SH",
+          "market": "SH",
+          "sector": "航空线缆",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
-      "id": 7,
-      "title": "欧盟退缩中国贸易重置担心遭受痛苦报复",
-      "logic": "欧盟在中欧贸易问题上态度软化，反映欧洲企业对中国市场依赖，利好与中国经贸往来密切的欧洲企业",
+      "id": 13,
+      "title": "WUFI希望对中国旅游广告上的民族团结法发出警告",
+      "logic": "台湾WUFI组织呼吁在旅游广告中警示中国大陆民族政策，两岸关系持续紧张，岛内观光旅游板块承压",
+      "stocks": [
+        {
+          "name": "台湾观光",
+          "code": "2707.TW",
+          "market": "TW",
+          "sector": "观光旅游",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "六福旅游",
+          "code": "2705.TW",
+          "market": "TW",
+          "sector": "观光旅游",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "免税零售",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "欧盟在中国贸易重置问题上退缩，担心遭受痛苦的报复",
+      "logic": "欧盟在中欧贸易问题上态度软化，反映欧洲企业对中国市场高度依赖，避免贸易战升级，利好中欧贸易往来密切的奢侈品、汽车板块",
       "stocks": [
         {
           "name": "路易威登",
@@ -253,13 +581,65 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "宝马集团",
+          "code": "BMW.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
-      "id": 8,
-      "title": "能源研究所揭示中国主导全球能源转型分歧",
-      "logic": "中国在全球能源转型中扮演关键角色但面临分歧，新能源产业持续扩张，利好光伏、风电、储能等清洁能源板块",
+      "id": 15,
+      "title": "解放军海军舰艇南宁舰、衡阳舰首航香港",
+      "logic": "解放军海军现代化进程持续推进，舰艇访问香港展示开放姿态，利好国防军工及船舶制造板块",
+      "stocks": [
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "造船",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国重工",
+          "code": "601989.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "金融",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "能源研究所揭示了中国主导的全球能源转型的分歧",
+      "logic": "中国在全球能源转型中扮演主导角色但面临国际分歧，国内新能源产业持续扩张，利好光伏、风电、储能等清洁能源全产业链",
       "stocks": [
         {
           "name": "阳光电源",
@@ -287,13 +667,22 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "派能科技",
+          "code": "688063.SH",
+          "market": "SH",
+          "sector": "储能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
-      "id": 9,
-      "title": "前5个月中国服务贸易增长6%显示经济韧性",
-      "logic": "中国服务贸易保持增长，反映经济结构优化和服务业国际化推进，利好服务业及消费类板块",
+      "id": 17,
+      "title": "前5个月中国服务贸易增长6%",
+      "logic": "中国服务贸易保持稳健增长，反映经济结构持续优化，服务业对外开放扩大，利好旅游、运输、金融等服务贸易相关板块",
       "stocks": [
         {
           "name": "中国中免",
@@ -321,13 +710,65 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
+        },
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
-      "id": 10,
-      "title": "日产Formula E车队前往上海参加中国站比赛",
-      "logic": "国际车企加大中国新能源市场投入，电动方程式赛事提升品牌影响力，利好日系车企新能源转型",
+      "id": 18,
+      "title": "美国特使敦促台湾建造无人机马蜂窝以威慑中国",
+      "logic": "地缘政治紧张推动无人机等防务需求上升，台海局势升温，利好无人机产业链及国防军工板块",
+      "stocks": [
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "无人机",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "炼石航空",
+          "code": "000697.SZ",
+          "market": "SZ",
+          "sector": "无人机/航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中无人机",
+          "code": "688297.SH",
+          "market": "SH",
+          "sector": "无人机",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "雷科防务",
+          "code": "002413.SZ",
+          "market": "SZ",
+          "sector": "雷达/防务电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "日产电动方程式车队前往上海参加系列赛第二站中国站",
+      "logic": "国际顶级电动赛事落户中国，反映中国市场在新能源领域的全球影响力，利好新能源汽车板块及赛事相关营销产业链",
       "stocks": [
         {
           "name": "日产汽车",
@@ -355,98 +796,48 @@
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO.US",
+          "market": "US",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     },
     {
-      "id": 11,
+      "id": 20,
       "title": "大陆批评台湾拒绝旅游经营者访华是政治操纵",
-      "logic": "两岸关系紧张影响旅游交流，航空和旅游板块承压，但反映中国对台政策立场坚定",
+      "logic": "两岸旅游交流持续受阻，岛内观光业承压，同时反映大陆对台政策立场坚定，两岸关系短期难见实质性缓和",
       "stocks": [
         {
-          "name": "长荣航空",
-          "code": "2618.TW",
+          "name": "台湾观光",
+          "code": "2707.TW",
           "market": "TW",
-          "sector": "航空运输",
+          "sector": "观光旅游",
           "short_term": "↓",
           "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "华航",
-          "code": "2610.TW",
+          "name": "六福旅游",
+          "code": "2705.TW",
           "market": "TW",
-          "sector": "航空运输",
+          "sector": "观光旅游",
           "short_term": "↓",
           "mid_term": "↓",
           "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "美参议院谴责中国民族同化法地缘政治紧张",
-      "logic": "中美关系持续紧张，美国对华政策趋严，可能影响科技、教育、文化交流等领域出口",
-      "stocks": [
-        {
-          "name": "中芯国际",
-          "code": "0981.HK",
-          "market": "HK",
-          "sector": "半导体",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
         },
         {
-          "name": "华虹半导体",
-          "code": "1347.HK",
-          "market": "HK",
-          "sector": "半导体",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "长江存储",
-          "code": "PRIVATE",
-          "market": "PRIVATE",
-          "sector": "半导体存储",
+          "name": "长荣海运",
+          "code": "2603.TW",
+          "market": "TW",
+          "sector": "航运",
           "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "美国特使敦促台湾建造无人机群威慑中国",
-      "logic": "地缘政治紧张推动国防支出增加，无人机、军工板块受益，同时可能加剧台海局势紧张",
-      "stocks": [
-        {
-          "name": "航天彩虹",
-          "code": "002389.SZ",
-          "market": "SZ",
-          "sector": "无人机",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "炼石航空",
-          "code": "000697.SZ",
-          "market": "SZ",
-          "sector": "无人机",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "台湾无人机概念股",
-          "code": "2634.TW",
-          "market": "TW",
-          "sector": "无人机",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
@@ -455,8 +846,8 @@
   "summary": {
     "newly_added": [
       {
-        "label": "中国军舰访港（新增）",
-        "theme": "解放军海军舰艇首航香港庆祝回归",
+        "label": "中国军舰访港庆祝回归（新增）",
+        "theme": "两艘中国军舰驶入香港进行为期五天的访问庆祝回归周年",
         "stocks": [
           {
             "name": "中船防务",
@@ -471,8 +862,8 @@
         ]
       },
       {
-        "label": "EV出口东盟+49%（新增）",
-        "theme": "东盟需求推动中国电动汽车出口创纪录",
+        "label": "EV出口东盟大增49%（新增）",
+        "theme": "东盟需求推动中国电动汽车出口同比增长49%",
         "stocks": [
           {
             "name": "比亚迪股份",
@@ -487,8 +878,8 @@
         ]
       },
       {
-        "label": "中欧贸易磋商（新增）",
-        "theme": "中欧贸易投资磋商机制正式启动",
+        "label": "中欧贸易磋商机制（新增）",
+        "theme": "中欧第二次贸易投资磋商机制将于秋季举行",
         "stocks": [
           {
             "name": "中国国航",
@@ -501,8 +892,88 @@
             "short_term": "↑"
           }
         ]
+      },
+      {
+        "label": "内蒙古清洁能源押注（新增）",
+        "theme": "中国内蒙古押注于太阳能和风能但煤炭仍紧随其后",
+        "stocks": [
+          {
+            "name": "隆基绿能",
+            "code": "601012.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "三峡能源",
+            "code": "600905.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "C909支线航空十周年（新增）",
+        "theme": "中国C909标志着支线航空的商业服务十周年",
+        "stocks": [
+          {
+            "name": "中航西飞",
+            "code": "000768.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "中航沈飞",
+            "code": "600760.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "欧盟贸易立场软化（新增）",
+        "theme": "欧盟在中国贸易重置问题上退缩担心遭受痛苦的报复",
+        "stocks": [
+          {
+            "name": "路易威登",
+            "code": "MC.PA",
+            "short_term": "↑"
+          },
+          {
+            "name": "开云集团",
+            "code": "KER.PA",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "无人机防务需求上升（新增）",
+        "theme": "美国特使敦促台湾建造无人机马蜂窝以威慑中国",
+        "stocks": [
+          {
+            "name": "航天彩虹",
+            "code": "002389.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中无人机",
+            "code": "688297.SH",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "日产Formula E上海站（新增）",
+        "theme": "日产电动方程式车队前往上海参加系列赛第二站中国站",
+        "stocks": [
+          {
+            "name": "小鹏汽车",
+            "code": "9868.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "理想汽车",
+            "code": "2015.HK",
+            "short_term": "↑"
+          }
+        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻，不构成投资建议。市场有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于公开新闻，不构成投资建议"
 }
