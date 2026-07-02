@@ -4,8 +4,8 @@
     "description": "基于2026-07-03当日全球热点新闻，推演潜在受影响的股票并给出短中长期方向预判，覆盖A股、港股、美股及亚太欧洲市场",
     "category": "daily",
     "source": "hk.k415.win/news 综合整理",
-    "version": "3.0",
-    "update_time": "2026-07-03T05:00:00+08:00",
+    "version": "3.1",
+    "update_time": "2026-07-03T06:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
@@ -1332,6 +1332,262 @@
           "long_term": "→"
         }
       ]
+    },
+    {
+      "id": 32,
+      "title": "人民币：PMI展现韧性但贸易风险上升",
+      "logic": "中国PMI数据展现经济韧性支撑人民币短期稳定，但中美欧贸易摩擦加剧带来贬值风险。短期人民币汇率承压利好出口型企业（纺织、家电），利空进口依赖型企业（航空、造纸）；中期若贸易谈判取得进展，汇率有望企稳；长期取决于中国产业升级能否对冲外部需求下滑。",
+      "stocks": [
+        {
+          "name": "申洲国际",
+          "code": "2313.HK",
+          "market": "HK",
+          "sector": "纺织服装",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒力石化",
+          "code": "600346.SH",
+          "market": "SH",
+          "sector": "石化/进口依赖",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "电解铜箔制造商Londian Wason申请纽交所IPO",
+      "logic": "中国电解铜箔制造商赴美IPO，反映新能源产业链企业加速国际化融资。短期利好铜箔行业关注度提升，A股铜箔概念股可能联动；中期若IPO估值超预期，将提升行业整体估值中枢；长期需关注中美监管环境下中概股上市可持续性。",
+      "stocks": [
+        {
+          "name": "诺德股份",
+          "code": "600110.SH",
+          "market": "SH",
+          "sector": "电解铜箔",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "嘉元科技",
+          "code": "688388.SH",
+          "market": "SH",
+          "sector": "电解铜箔",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "LG Energy Solution",
+          "code": "373220.KS",
+          "market": "KR",
+          "sector": "电池/铜箔下游",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Whale Rock对冲基金凭借半导体押注录得73%涨幅",
+      "logic": "顶级对冲基金在半导体的重仓押注获得73%回报，进一步验证半导体超级周期逻辑。短期提振市场对半导体板块信心，可能引发资金跟风流入；中期HBM/AI芯片需求持续旺盛支撑基本面；长期需警惕产能过剩和周期见顶风险。",
+      "stocks": [
+        {
+          "name": "SK海力士",
+          "code": "000660.KS",
+          "market": "KR",
+          "sector": "HBM/存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "存储芯片/代工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "美光科技",
+          "code": "MU.US",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA.US",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Terex宣布每股派发0.17美元季度股息",
+      "logic": "Terex持续派息显示工程机械行业现金流健康，全球基建投资需求稳健。短期稳定分红吸引防御型资金；中期受益于美国基建法案和全球矿山投资增长；长期需关注经济周期对设备需求的影响。",
+      "stocks": [
+        {
+          "name": "Terex",
+          "code": "TEX.US",
+          "market": "US",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "卡特彼勒",
+          "code": "CAT.US",
+          "market": "US",
+          "sector": "工程机械",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Barclays撤回Sound Physicians近10亿美元债务交易——需求不足",
+      "logic": "巴克莱撤回大额杠杆贷款交易反映信贷市场对医疗保健行业风险偏好下降。短期对巴克莱投行业务收入产生负面影响；中期若信贷紧缩蔓延，医疗保健行业融资成本将上升；长期关注美联储政策转向对信贷市场的改善。",
+      "stocks": [
+        {
+          "name": "巴克莱",
+          "code": "BCS.US",
+          "market": "US",
+          "sector": "银行/投行",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "HCA Healthcare",
+          "code": "HCA.US",
+          "market": "US",
+          "sector": "医疗保健",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "高盛",
+          "code": "GS.US",
+          "market": "US",
+          "sector": "投行",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "巴西柴油补贴退出步伐将慢于汽油补贴",
+      "logic": "巴西柴油补贴退出慢于汽油，反映政府对运输/农业成本的政治敏感性。短期利好巴西交通运输和农业股（成本维持低位），利空巴西石油公司（补贴压低市场化定价）；中期补贴逐步退出将推高柴油价格和通胀；长期有利于能源价格市场化改革。",
+      "stocks": [
+        {
+          "name": "巴西石油",
+          "code": "PBR.US",
+          "market": "US",
+          "sector": "石油天然气",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "巴西蔚蓝航空",
+          "code": "AZUL.US",
+          "market": "US",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "巴西食品公司",
+          "code": "BRFS.US",
+          "market": "US",
+          "sector": "食品/农业",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "FLOW加密货币面临投资者集体诉讼——持有者遭受损失",
+      "logic": "FLOW代币投资者集体诉讼反映加密市场监管趋严和投资者保护意识增强。短期利空FLOW及相关NFT/游戏公链代币；中期SEC等监管机构可能加强对加密项目的审查，合规成本上升；长期有利于行业出清劣质项目，利好合规加密平台。",
+      "stocks": [
+        {
+          "name": "Coinbase",
+          "code": "COIN.US",
+          "market": "US",
+          "sector": "加密货币交易平台",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "MicroStrategy",
+          "code": "MSTR.US",
+          "market": "US",
+          "sector": "比特币持仓/软件",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "HIVE Blockchain",
+          "code": "HIVE.US",
+          "market": "US",
+          "sector": "加密货币矿业",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
     }
   ],
   "summary": {
@@ -1589,6 +1845,163 @@
             "name": "摩根大通",
             "code": "JPM.US",
             "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "人民币：PMI展现韧性但贸易风险上升（新增）",
+        "theme": "中国PMI数据展现经济韧性支撑人民币短期稳定，但中美欧贸易摩擦加剧带来贬值风险",
+        "stocks": [
+          {
+            "name": "申洲国际",
+            "code": "2313.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国国航",
+            "code": "601111.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "美的集团",
+            "code": "000333.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "恒力石化",
+            "code": "600346.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "电解铜箔制造商Londian Wason申请纽交所IPO（新增）",
+        "theme": "中国电解铜箔制造商赴美IPO，反映新能源产业链企业加速国际化融资",
+        "stocks": [
+          {
+            "name": "诺德股份",
+            "code": "600110.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "嘉元科技",
+            "code": "688388.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "LG Energy Solution",
+            "code": "373220.KS",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "Whale Rock对冲基金凭借半导体押注录得73%涨幅（新增）",
+        "theme": "顶级对冲基金在半导体的重仓押注获得73%回报，进一步验证半导体超级周期逻辑",
+        "stocks": [
+          {
+            "name": "SK海力士",
+            "code": "000660.KS",
+            "short_term": "↑"
+          },
+          {
+            "name": "三星电子",
+            "code": "005930.KS",
+            "short_term": "↑"
+          },
+          {
+            "name": "美光科技",
+            "code": "MU.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "英伟达",
+            "code": "NVDA.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "Terex宣布每股派发0.17美元季度股息（新增）",
+        "theme": "Terex持续派息显示工程机械行业现金流健康，全球基建投资需求稳健",
+        "stocks": [
+          {
+            "name": "Terex",
+            "code": "TEX.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "卡特彼勒",
+            "code": "CAT.US",
+            "short_term": "→"
+          },
+          {
+            "name": "三一重工",
+            "code": "600031.SH",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "Barclays撤回Sound Physicians近10亿美元债务交易——需求不足（新增）",
+        "theme": "巴克莱撤回大额杠杆贷款交易反映信贷市场对医疗保健行业风险偏好下降",
+        "stocks": [
+          {
+            "name": "巴克莱",
+            "code": "BCS.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "HCA Healthcare",
+            "code": "HCA.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "高盛",
+            "code": "GS.US",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "巴西柴油补贴退出步伐将慢于汽油补贴（新增）",
+        "theme": "巴西柴油补贴退出慢于汽油，反映政府对运输/农业成本的政治敏感性",
+        "stocks": [
+          {
+            "name": "巴西石油",
+            "code": "PBR.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "巴西蔚蓝航空",
+            "code": "AZUL.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "巴西食品公司",
+            "code": "BRFS.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "FLOW加密货币面临投资者集体诉讼——持有者遭受损失（新增）",
+        "theme": "FLOW代币投资者集体诉讼反映加密市场监管趋严和投资者保护意识增强",
+        "stocks": [
+          {
+            "name": "Coinbase",
+            "code": "COIN.US",
+            "short_term": "→"
+          },
+          {
+            "name": "MicroStrategy",
+            "code": "MSTR.US",
+            "short_term": "→"
+          },
+          {
+            "name": "HIVE Blockchain",
+            "code": "HIVE.US",
+            "short_term": "↓"
           }
         ]
       }
