@@ -1,18 +1,18 @@
 {
   "meta": {
     "name": "2026年7月4日全球新闻股票推演",
-    "description": "基于2026年7月4日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
+    "description": "基于2026年7月4日hk.k415.win/news/新闻页面抓取的13条全球新闻，推演对A股、港股、美股及相关市场股票的短中长期影响",
     "category": "daily",
-    "source": "hk.k415.win/news 2026-07-04 综合整理",
+    "source": "hk.k415.win/news/ 2026-07-04整理",
     "version": "1.0",
-    "update_time": "2026-07-04T03:55:00+08:00",
+    "update_time": "2026-07-04T04:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
       "title": "NASA发射机器人任务抢救太空望远镜",
-      "logic": "NASA大型太空任务提振航天产业链信心，利好火箭发射、卫星组件及太空技术相关上市企业，短期情绪推动估值修复",
+      "logic": "NASA重大航天任务提振航天产业链信心，短期利好航天国防板块；中期若任务成功将推动商业化航天合作，长期利好太空探索技术相关企业",
       "stocks": [
         {
           "name": "波音",
@@ -20,100 +20,107 @@
           "market": "US",
           "sector": "航天国防",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
+          "mid_term": "↑",
+          "long_term": "→"
         },
         {
-          "name": "洛克希德·马丁",
+          "name": "洛克希德马丁",
           "code": "LMT.US",
           "market": "US",
           "sector": "航天国防",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "诺斯罗普·格鲁曼",
+          "name": "诺斯罗普格鲁曼",
           "code": "NOC.US",
           "market": "US",
           "sector": "航天国防",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "Rocket Lab",
-          "code": "RKLB.US",
-          "market": "US",
-          "sector": "航天",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 2,
-      "title": "人民币PMI韧性支撑多头延续涨势",
-      "logic": "人民币走强有利于外资回流A股和港股市场，利好金融、消费及人民币资产定价板块，但出口型企业承压",
+      "title": "西藏人在联合国总部前自焚，中国推行严苛民族同化法",
+      "logic": "地缘政治负面舆情可能引发西方对华制裁加码预期，短期冲击在美上市中概股及涉及新疆/西藏供应链企业；中长期若制裁落地将影响出口导向型企业",
       "stocks": [
         {
-          "name": "工商银行",
-          "code": "601398.SH",
-          "market": "SH",
-          "sector": "银行",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国平安",
-          "code": "601318.SH",
-          "market": "SH",
-          "sector": "保险",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "贵州茅台",
-          "code": "600519.SH",
-          "market": "SH",
-          "sector": "白酒消费",
-          "short_term": "↑",
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网电商",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "腾讯控股",
-          "code": "0700.HK",
-          "market": "HK",
-          "sector": "互联网科技",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "中概股ETF",
+          "code": "FXI.US",
+          "market": "US",
+          "sector": "ETF",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游零售",
+          "short_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 3,
-      "title": "奇瑞收购日产在非洲的前工厂",
-      "logic": "奇瑞加速全球产能布局，利好中国汽车出海产业链；日产出售资产表明其全球收缩战略持续，对日产自身影响中性偏空",
+      "title": "人民币：PMI韧性支撑多头延续涨势——法国兴业银行",
+      "logic": "PMI数据韧性支撑人民币汇率走强，利好人民币资产重估；短期利好航空（汇兑收益）、造纸（进口成本降低）、港股通资金流入；中长期利好外资增配A股",
       "stocks": [
         {
-          "name": "日产汽车",
-          "code": "7201.JP",
-          "market": "JP",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         },
         {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
-          "sector": "新能源汽车",
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生指数ETF",
+          "code": "2828.HK",
+          "market": "HK",
+          "sector": "ETF",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "奇瑞收购日产在非洲的前工厂",
+      "logic": "中国车企出海加速，奇瑞通过收购日产旧工厂切入非洲市场，短期提振汽车出海概念；中期若产能释放将利好国产零部件供应链；长期利好中国汽车品牌全球化",
+      "stocks": [
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "汽车制造",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
@@ -129,71 +136,87 @@
         },
         {
           "name": "长城汽车",
-          "code": "601633.SH",
-          "market": "SH",
+          "code": "2333.HK",
+          "market": "HK",
           "sector": "汽车制造",
           "short_term": "↑",
           "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "福耀玻璃",
+          "code": "600660.SH",
+          "market": "SH",
+          "sector": "汽车零部件",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "澳大利亚糟糕的亚洲语言素养正在拖累我们",
+      "logic": "澳大利亚反思亚洲语言能力不足，暗示未来将加强与亚洲（特别是中国和印尼）的经贸教育合作；短期利好中澳贸易相关及教育服务出口概念；中长期利好双边经贸关系回暖",
+      "stocks": [
+        {
+          "name": "兖矿能源",
+          "code": "1171.HK",
+          "market": "HK",
+          "sector": "能源矿产",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "必和必拓",
+          "code": "BHP.US",
+          "market": "US",
+          "sector": "矿业",
+          "short_term": "→",
+          "mid_term": "↑",
           "long_term": "→"
         }
       ]
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "印度政府命令苹果和谷歌下架7款中国应用",
-      "logic": "中印地缘政治摩擦延续，中国互联网出海受阻，利空有印度业务的中国互联网企业；对苹果谷歌影响有限但因合规成本增加偏空",
+      "logic": "印度对中国应用持续打压，影响中国互联网出海战略；短期利空在印度有业务布局的互联网企业；中长期加速中国科技企业转向其他新兴市场",
       "stocks": [
         {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
           "name": "阿里巴巴",
-          "code": "BABA.US",
-          "market": "US",
+          "code": "9988.HK",
+          "market": "HK",
           "sector": "互联网电商",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "腾讯控股",
-          "code": "0700.HK",
+          "name": "百度",
+          "code": "9888.HK",
           "market": "HK",
-          "sector": "互联网科技",
+          "sector": "互联网",
           "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "字节跳动",
-          "code": "PRIVATE",
-          "market": "PRIVATE",
-          "sector": "社交媒体",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "苹果",
-          "code": "AAPL.US",
-          "market": "US",
-          "sector": "消费电子",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "谷歌",
-          "code": "GOOGL.US",
-          "market": "US",
-          "sector": "互联网科技",
-          "short_term": "→",
-          "mid_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "海湾资源公司概述其化工业务，投资者关注长期战略",
-      "logic": "公司主动披露业务战略，市场关注溴化工及原油开采业务前景，短期情绪偏正面",
+      "logic": "海湾资源主动披露化工业务战略，吸引投资者关注；短期提振股价关注度；中长期取决于业务执行和溴化工市场供需",
       "stocks": [
         {
           "name": "海湾资源",
@@ -207,43 +230,68 @@
       ]
     },
     {
-      "id": 6,
+      "id": 8,
       "title": "瑞典拘留两名涉嫌间谍活动的嫌疑人",
-      "logic": "欧洲地缘安全紧张升级，可能涉及中俄因素，利空欧洲跨国企业及在欧有重大业务的中资企业",
+      "logic": "欧洲间谍事件频发可能加剧地缘紧张，短期利好网络安全和国防板块；中长期若涉及中国因素则可能影响中欧关系",
       "stocks": [
         {
-          "name": "爱立信",
-          "code": "ERIC.US",
+          "name": "Palo Alto Networks",
+          "code": "PANW.US",
           "market": "US",
-          "sector": "通信设备",
-          "short_term": "→",
+          "sector": "网络安全",
+          "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↓"
+          "long_term": "→"
         },
         {
-          "name": "诺基亚",
-          "code": "NOK.US",
+          "name": "CrowdStrike",
+          "code": "CRWD.US",
           "market": "US",
-          "sector": "通信设备",
-          "short_term": "→",
+          "sector": "网络安全",
+          "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↓"
+          "long_term": "→"
         },
         {
-          "name": "华为",
-          "code": "PRIVATE",
-          "market": "PRIVATE",
-          "sector": "通信设备",
-          "short_term": "↓",
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
           "mid_term": "→",
-          "long_term": "↓"
+          "long_term": "→"
         }
       ]
     },
     {
-      "id": 7,
+      "id": 9,
+      "title": "中国农村超载皮卡坠崖八名女农工遇难",
+      "logic": "农村交通安全事故引发社会关注，短期可能推动农用车辆安全监管加强；中长期利好商用车辆安全设备供应商",
+      "stocks": [
+        {
+          "name": "长城汽车",
+          "code": "601633.SH",
+          "market": "SH",
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "海康威视",
+          "code": "002415.SZ",
+          "market": "SZ",
+          "sector": "安防监控",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
       "title": "四家涉中电力设备公司获准竞标政府项目",
-      "logic": "中国电力设备企业在海外获得准入突破，利好输变电、智能电网出海板块",
+      "logic": "印度/南亚市场对中国电力设备公司放宽限制，短期利好电力设备出口概念；中长期打开新兴市场增长空间，利好特高压和电力设备龙头",
       "stocks": [
         {
           "name": "特变电工",
@@ -251,8 +299,17 @@
           "market": "SH",
           "sector": "电力设备",
           "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "许继电气",
+          "code": "000400.SZ",
+          "market": "SZ",
+          "sector": "电力设备",
+          "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
+          "long_term": "↑"
         },
         {
           "name": "国电南瑞",
@@ -264,53 +321,44 @@
           "long_term": "↑"
         },
         {
-          "name": "思源电气",
-          "code": "002028.SZ",
-          "market": "SZ",
-          "sector": "电力设备",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
           "name": "中国西电",
           "code": "601179.SH",
           "market": "SH",
-          "sector": "输变电设备",
-          "short_term": "↑↑",
+          "sector": "电力设备",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         }
       ]
     },
     {
-      "id": 8,
+      "id": 11,
       "title": "苹果计划至2027年推出五款新iPhone，折叠屏生产目标上调",
-      "logic": "苹果加速产品迭代及折叠屏扩产，利好苹果及其供应链企业，尤其折叠屏相关组件供应商",
+      "logic": "苹果2027年前5款新iPhone及折叠屏目标上调，短期利好苹果及消费电子供应链；中期折叠屏产业链受益；长期巩固苹果生态和高端市场地位",
       "stocks": [
         {
           "name": "苹果",
           "code": "AAPL.US",
           "market": "US",
           "sector": "消费电子",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "三星电子",
-          "code": "005930.KR",
-          "market": "KR",
-          "sector": "电子元器件",
-          "short_term": "↑",
+          "short_term": "↑↑",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑↑"
         },
         {
           "name": "立讯精密",
           "code": "002475.SZ",
           "market": "SZ",
-          "sector": "消费电子代工",
+          "sector": "消费电子零部件",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "歌尔股份",
+          "code": "002241.SZ",
+          "market": "SZ",
+          "sector": "消费电子零部件",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -325,36 +373,27 @@
           "long_term": "↑"
         },
         {
-          "name": "蓝思科技",
-          "code": "300433.SZ",
-          "market": "SZ",
-          "sector": "玻璃盖板",
-          "short_term": "↑",
+          "name": "富士康(鸿海)",
+          "code": "2317.TW",
+          "market": "TW",
+          "sector": "电子代工",
+          "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "→"
         }
       ]
     },
     {
-      "id": 9,
+      "id": 12,
       "title": "彼得·蒂尔称教皇利奥批评AI是在充当中共代理人",
-      "logic": "硅谷与宗教界AI安全争议升级，地缘政治色彩加剧AI监管不确定性，短期压制AI概念股情绪，长期利好AI安全合规赛道",
+      "logic": "硅谷大佬将宗教领袖与地缘政治挂钩引发争议，短期加剧中美科技脱钩叙事；中期利好美国本土AI和国防科技企业；长期AI治理分歧加大",
       "stocks": [
         {
           "name": "Palantir",
           "code": "PLTR.US",
           "market": "US",
-          "sector": "AI数据分析",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "微软",
-          "code": "MSFT.US",
-          "market": "US",
-          "sector": "AI/云计算",
-          "short_term": "→",
+          "sector": "AI/大数据",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
@@ -364,39 +403,14 @@
           "market": "US",
           "sector": "AI芯片",
           "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "CrowdStrike",
-          "code": "CRWD.US",
-          "market": "US",
-          "sector": "网络安全",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "澳大利亚糟糕的亚洲语言素养正在拖累经济",
-      "logic": "澳大利亚对亚洲语言能力不足影响贸易竞争力，间接利好中国教育出海及翻译/AI语言服务，但短期影响有限",
-      "stocks": [
-        {
-          "name": "新东方",
-          "code": "9901.HK",
-          "market": "HK",
-          "sector": "教育",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
-          "market": "SZ",
-          "sector": "AI语音翻译",
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "AI算力",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
@@ -407,88 +421,18 @@
   "summary": {
     "newly_added": [
       {
-        "label": "NASA抢救太空望远镜（新增）",
-        "theme": "NASA发射机器人任务抢救太空望远镜，利好航天产业链",
-        "stocks": [
-          {
-            "name": "波音",
-            "code": "BA.US",
-            "short_term": "↑"
-          },
-          {
-            "name": "Rocket Lab",
-            "code": "RKLB.US",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "人民币PMI韧性延续涨势（新增）",
-        "theme": "人民币走强利好A股港股金融消费板块",
-        "stocks": [
-          {
-            "name": "工商银行",
-            "code": "601398.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "腾讯控股",
-            "code": "0700.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "奇瑞收购日产非洲工厂（新增）",
-        "theme": "中国汽车出海加速，日产全球收缩",
-        "stocks": [
-          {
-            "name": "比亚迪",
-            "code": "002594.SZ",
-            "short_term": "↑"
-          },
-          {
-            "name": "日产汽车",
-            "code": "7201.JP",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "印度下架中国应用（新增）",
-        "theme": "中印摩擦延续，中国互联网出海受阻",
-        "stocks": [
-          {
-            "name": "阿里巴巴",
-            "code": "BABA.US",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "涉中电力设备获准竞标（新增）",
-        "theme": "中国电力设备海外准入突破",
-        "stocks": [
-          {
-            "name": "特变电工",
-            "code": "600089.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "中国西电",
-            "code": "601179.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "苹果五款新iPhone计划（新增）",
-        "theme": "苹果加速产品迭代，折叠屏扩产",
+        "label": "苹果折叠屏目标上调（新增）",
+        "theme": "苹果至2027年5款新iPhone及折叠屏量产目标上调，供应链全线受益",
         "stocks": [
           {
             "name": "苹果",
             "code": "AAPL.US",
-            "short_term": "↑"
+            "short_term": "↑↑"
+          },
+          {
+            "name": "立讯精密",
+            "code": "002475.SZ",
+            "short_term": "↑↑"
           },
           {
             "name": "京东方",
@@ -498,22 +442,54 @@
         ]
       },
       {
-        "label": "彼得·蒂尔AI争议（新增）",
-        "theme": "AI安全地缘争议升级",
+        "label": "中国电力设备出海获准（新增）",
+        "theme": "四家涉中电力设备公司获准竞标政府项目，打开南亚市场",
         "stocks": [
           {
-            "name": "Palantir",
-            "code": "PLTR.US",
-            "short_term": "→"
+            "name": "特变电工",
+            "code": "600089.SH",
+            "short_term": "↑"
           },
           {
-            "name": "CrowdStrike",
-            "code": "CRWD.US",
+            "name": "许继电气",
+            "code": "000400.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "奇瑞收购日产非洲工厂（新增）",
+        "theme": "中国车企出海再下一城，奇瑞收购日产非洲旧工厂加速全球化",
+        "stocks": [
+          {
+            "name": "比亚迪股份",
+            "code": "1211.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "吉利汽车",
+            "code": "0175.HK",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "人民币PMI韧性支撑（新增）",
+        "theme": "人民币多头延续涨势，航空造纸等汇兑受益板块短期利好",
+        "stocks": [
+          {
+            "name": "中国国航",
+            "code": "601111.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "恒生ETF",
+            "code": "2828.HK",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻信息进行逻辑推演，不构成任何投资建议。股票市场存在风险，投资需谨慎。预测方向基于新闻事件对相关方的基本面、情绪面综合判断，实际走势受多重因素影响。"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，仅供参考，不构成任何投资建议。股票市场存在风险，投资需谨慎。"
 }
