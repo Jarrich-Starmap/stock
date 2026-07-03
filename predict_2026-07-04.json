@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "name": "2026年7月4日全球新闻股票推演",
+    "description": "基于2026年7月3-4日公开新闻事件，分析对全球股市（A股/港股/美股/欧洲）相关个股的短中长期影响推演",
+    "category": "daily",
+    "source": "2026年7月4日综合整理（来源：The Guardian, Reuters, Bloomberg, CNBC, Fox News, Automotive News, NPR, BBC, SCMP, Al Jazeera等）",
+    "version": "1.0",
+    "update_time": "2026-07-04T08:00:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "北京小型飞机撞摩天大楼事件：飞行员已确认身份，官方称原因为个人/精神健康问题",
+      "logic": "北京发生飞安事件引发公众对航空管制和城市安全的担忧，短期内可能影响航空板块信心；保险理赔也会带来短期压力。但官方定性为个人原因而非系统性安全漏洞，中长期影响有限。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国人保",
+          "code": "601319.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "阿里巴巴将禁止员工使用Anthropic的编码工具",
+      "logic": "阿里禁用Anthropic工具可能释放两个信号：一是数据安全考量升级，二是推动国内AI替代方案（如通义千问/灵码）。利好阿里云及国产AI生态，短期对Anthropic略有负面但影响有限。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/互联网",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国汽车出口困境：内销疲软下出口受阻，大众在华销量下滑",
+      "logic": "中国汽车出口面临欧美关税壁垒，国内市场又因消费疲软竞争白热化。大众在华销量下滑证明合资品牌份额被自主品牌蚕食，但出口受阻对所有车企构成压力。短期利空整车，中长期头部自主品牌有望凭借成本优势突围。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "汽车制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "汽车制造",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "大众汽车",
+          "code": "VOW3.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国净零排放战略依赖大量煤炭引发关注",
+      "logic": "Bloomberg报道指出中国在推进碳中和过程中仍严重依赖煤炭，这意味着短期内煤炭需求不会快速下降，利好煤炭企业；但长期看政策方向仍向清洁能源倾斜，煤炭面临结构性下行压力。新能源在政策扶持下长线看好。",
+      "stocks": [
+        {
+          "name": "中国神华",
+          "code": "1088.HK",
+          "market": "HK",
+          "sector": "煤炭",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↓"
+        },
+        {
+          "name": "中国神华",
+          "code": "601088.SH",
+          "market": "SH",
+          "sector": "煤炭",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↓"
+        },
+        {
+          "name": "中煤能源",
+          "code": "1898.HK",
+          "market": "HK",
+          "sector": "煤炭",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "欧洲希望与北京贸易再平衡，但无法戒掉中国空调",
+      "logic": "欧洲对中国空调依赖度高（中国空调占欧洲进口份额大），即使寻求贸易再平衡短期内也无法替代。利好中国家电出口龙头，尤其是空调业务占比高的企业。长期需关注可能的反倾销调查风险。",
+      "stocks": [
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "海尔智家",
+          "code": "600690.SH",
+          "market": "SH",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海尔智家",
+          "code": "6690.HK",
+          "market": "HK",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "针对中国公司的禁令生效，美国国防部发布新指导意见",
+      "logic": "美国国防部新禁令扩大了对中国科技和军工企业的限制范围，直接冲击被列入实体清单的中国公司及其供应链。半导体、通信设备、AI等领域受负面影响最大，短期恐慌抛售，中长期倒逼国产替代加速。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国恢复购买美国大豆，但美国农民对未来仍感'令人畏惧'",
+      "logic": "中国重启采购美国大豆表明中美农产品贸易有所缓和，利好美国大豆出口商和航运，同时压低中国国内豆粕成本利好养殖业。但贸易政策不确定性使美国农民缺乏长期信心。",
+      "stocks": [
+        {
+          "name": "中粮糖业",
+          "code": "600737.SH",
+          "market": "SH",
+          "sector": "农产品贸易",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "牧原股份",
+          "code": "002714.SZ",
+          "market": "SZ",
+          "sector": "养殖业",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "温氏股份",
+          "code": "300498.SZ",
+          "market": "SZ",
+          "sector": "养殖业",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "习近平称赞中国快速工业化是发展中国家典范，中国-亚欧博览会深化区域商贸",
+      "logic": "中国工业化成就获高层背书，结合亚欧博览会推动一带一路商贸，利好工业装备、基建出海和高铁等优势产业出口。短期情绪提振，中长期一带一路沿线订单增长。",
+      "stocks": [
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "高铁装备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国绿色组织培训美国法官引起关注，美国250周年形象遭质疑",
+      "logic": "两则新闻共同指向中美关系持续紧张：绿色组织与中国联系引发美国司法界信任危机，同时The Guardian将美国描绘为'流氓国家'。地缘政治不确定性上升，利好黄金避险资产和军工板块。",
+      "stocks": [
+        {
+          "name": "山东黄金",
+          "code": "1787.HK",
+          "market": "HK",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "有色金属/黄金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航西飞",
+          "code": "000768.SZ",
+          "market": "SZ",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "SPDR黄金ETF",
+          "code": "GLD.US",
+          "market": "US",
+          "sector": "黄金ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中国年轻人正在远离美国梦",
+      "logic": "南华早报报道中国年轻人对赴美留学和移民兴趣下降，将影响海外留学中介、国际教育、托福GRE培训等产业；同时利好国内消费升级品牌（年轻人留国内消费）。关注中美人文交流降温的连锁反应。",
+      "stocks": [
+        {
+          "name": "新东方",
+          "code": "9901.HK",
+          "market": "HK",
+          "sector": "教育/留学",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "新东方",
+          "code": "EDU.US",
+          "market": "US",
+          "sector": "教育/留学",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "sector": "职业教育",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国-东南亚职业技术教育研讨会圆满结束",
+      "logic": "中国通过职业教育输出加强与东南亚合作，一带一路教育板块受益。职业教育龙头出海业务有望拓展，短期影响温和但中长期打开新增长空间。",
+      "stocks": [
+        {
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "sector": "职业教育",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国东方教育",
+          "code": "0667.HK",
+          "market": "HK",
+          "sector": "职业教育",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国新民族团结法立法并延伸到海外",
+      "logic": "民族团结法将法律效力延伸至海外华人，可能引起部分西方国家关注并出台反制措施。短期内对在海外有大量业务的中国企业构成不确定风险（合规审查、舆论压力），尤其科技和消费出海企业需关注。",
+      "stocks": [
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "字节跳动",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "佛教成为中国新软实力战线",
+      "logic": "Bloomberg报道中国通过佛教文化输出扩大软实力，利好文化旅游、宗教文化交流相关产业。短期内关注西藏、青海等佛教文化旅游目的地相关上市公司和文创板块。中长期有利于中国文化出海战略。",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游零售",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "万达电影",
+          "code": "002739.SZ",
+          "market": "SZ",
+          "sector": "文化传媒",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "阿里禁用Anthropic工具（新增）",
+        "theme": "阿里巴巴将禁止员工使用Anthropic的编码工具，推动国产AI替代",
+        "stocks": [
+          {
+            "name": "阿里巴巴",
+            "code": "9988.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中国汽车出口困境（新增）",
+        "theme": "内销疲软+出口受阻双重压力，大众在华销量下滑",
+        "stocks": [
+          {
+            "name": "比亚迪",
+            "code": "1211.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "上汽集团",
+            "code": "600104.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "中国恢复采购美国大豆（新增）",
+        "theme": "中美农产品贸易缓和，利好养殖业和航运",
+        "stocks": [
+          {
+            "name": "牧原股份",
+            "code": "002714.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "中远海控",
+            "code": "1919.HK",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "美国防部新禁令生效（新增）",
+        "theme": "对中国科技/军工企业扩大限制，国产替代加速",
+        "stocks": [
+          {
+            "name": "中芯国际",
+            "code": "0981.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "年轻人远离美国梦（新增）",
+        "theme": "中国年轻人留学/移民意愿下降，影响国际教育板块",
+        "stocks": [
+          {
+            "name": "新东方",
+            "code": "EDU.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "中公教育",
+            "code": "002607.SZ",
+            "short_term": "↑"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月3-4日公开新闻事件的逻辑推演，所有涨跌预测仅为基于当前信息的假设性判断，不构成任何投资建议。股市有风险，投资需谨慎。数据来源：The Guardian, Reuters, Bloomberg, CNBC, Fox News, Automotive News, NPR, BBC, SCMP, Al Jazeera, NBC News, PBS, South Dakota Searchlight, CNN, Federal News Network, UNESCO, PR Newswire。"
+}
