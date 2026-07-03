@@ -4,8 +4,8 @@
     "description": "基于2026年7月3日 hk.k415.win/news 聚合的20条全球新闻，逐条推演受影响的股票、行业、公司及相关方，并进行短中长期涨跌预测。覆盖A股、港股、美股、欧股、日股、加股及台股。",
     "category": "daily",
     "source": "https://hk.k415.win/news/ 2026-07-03综合整理",
-    "version": "1.0.0",
-    "update_time": "2026-07-03T07:00:00+08:00",
+    "version": "1.0.1",
+    "update_time": "2026-07-03T08:30:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议，仅供参考与学术研究使用。"
   },
   "news_analysis": [
@@ -14,11 +14,42 @@
       "title": "近120万人申请西班牙移民合法化",
       "logic": "西班牙大规模移民合法化将增加劳动力供给与消费人口，利好西班牙本地消费、房地产及银行业；同时可能引发欧洲其他国家移民政策连锁反应。",
       "stocks": [
-        {"name": "Banco Santander", "code": "SAN", "market": "US", "sector": "银行", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "BBVA", "code": "BBVA", "market": "US", "sector": "银行", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "Inditex (Zara)", "code": "IDEXY", "market": "US", "sector": "零售消费", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "Iberdrola", "code": "IBDRY", "market": "US", "sector": "公用事业", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "iShares西班牙ETF", "code": "EWP", "market": "US", "sector": "综合ETF", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "Banco Santander",
+          "code": "SAN",
+          "market": "US",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "BBVA",
+          "code": "BBVA",
+          "market": "US",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Inditex (Zara)",
+          "code": "IDEXY",
+          "market": "US",
+          "sector": "零售消费",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "iShares西班牙ETF",
+          "code": "EWP",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
@@ -26,23 +57,76 @@
       "title": "为何中国年轻人对美国梦逐渐失去兴趣",
       "logic": "中国年轻人赴美留学/移民意愿下降，利空留学中介、赴美旅游及中美航线；长期将影响美国高校收入及中美人员往来相关产业。",
       "stocks": [
-        {"name": "新东方", "code": "EDU", "market": "US", "sector": "教育培训", "short_term": "↓", "mid_term": "↓↓", "long_term": "↓"},
-        {"name": "好未来", "code": "TAL", "market": "US", "sector": "教育培训", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "携程集团", "code": "TCOM", "market": "US", "sector": "在线旅游", "short_term": "→", "mid_term": "↓", "long_term": "↓"},
-        {"name": "中国国航", "code": "601111.SH", "market": "SH", "sector": "航空运输", "short_term": "→", "mid_term": "↓", "long_term": "↓"},
-        {"name": "美国航空", "code": "AAL", "market": "US", "sector": "航空运输", "short_term": "→", "mid_term": "↓", "long_term": "↓"}
+        {
+          "name": "新东方",
+          "code": "EDU",
+          "market": "US",
+          "sector": "教育培训",
+          "short_term": "↓",
+          "mid_term": "↓↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "好未来",
+          "code": "TAL",
+          "market": "US",
+          "sector": "教育培训",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "携程集团",
+          "code": "TCOM",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
       ]
     },
     {
       "id": 3,
       "title": "埃博拉潜在疗法在刚果（金）开始试验",
-      "logic": "埃博拉新疗法进入临床试验阶段，利好拥有埃博拉/传染病管线的生物制药公司；试验在刚果（金）进行，也可能带动相关疫苗冷链物流。",
+      "logic": "WHO宣布在刚果(金)启动埃博拉新疗法临床试验，涉及Mapp Biopharmaceutical的MBP134和Gilead的remdesivir，同时Regeneron的Inmazeb获WHO推荐。直接利好拥有埃博拉/传染病管线的生物制药公司。",
       "stocks": [
-        {"name": "Gilead Sciences", "code": "GILD", "market": "US", "sector": "生物制药", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "Regeneron", "code": "REGN", "market": "US", "sector": "生物制药", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "Moderna", "code": "MRNA", "market": "US", "sector": "生物制药", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "智飞生物", "code": "300122.SZ", "market": "SZ", "sector": "疫苗生物", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "康希诺", "code": "688185.SH", "market": "SH", "sector": "疫苗研发", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "Gilead Sciences",
+          "code": "GILD",
+          "market": "US",
+          "sector": "生物制药",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Regeneron",
+          "code": "REGN",
+          "market": "US",
+          "sector": "生物制药",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Merck",
+          "code": "MRK",
+          "market": "US",
+          "sector": "制药",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "智飞生物",
+          "code": "300122.SZ",
+          "market": "SZ",
+          "sector": "疫苗生物",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
@@ -50,9 +134,24 @@
       "title": "飞虎队老兵与中国的不朽友谊",
       "logic": "中美二战合作历史叙事的正面报道，短期无直接市场影响；长期对中美民间交流、旅游及文化合作有温和正面作用。",
       "stocks": [
-        {"name": "中国中免", "code": "601888.SH", "market": "SH", "sector": "旅游零售", "short_term": "→", "mid_term": "→", "long_term": "↑"},
-        {"name": "迪士尼", "code": "DIS", "market": "US", "sector": "文化娱乐", "short_term": "→", "mid_term": "→", "long_term": "→"},
-        {"name": "中国国旅", "code": "601888.SH", "market": "SH", "sector": "旅游服务", "short_term": "→", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游零售",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "迪士尼",
+          "code": "DIS",
+          "market": "US",
+          "sector": "文化娱乐",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
@@ -60,191 +159,635 @@
       "title": "中国民族同化法——所谓「民族团结进步法」正式生效",
       "logic": "新法生效可能引发国际社会对中国新疆/西藏政策的关注及潜在制裁，利空涉及少数民族地区的上市公司及出口导向型企业；同时西藏/新疆本地基建可能受益于政策倾斜。",
       "stocks": [
-        {"name": "西藏天路", "code": "600326.SH", "market": "SH", "sector": "基建工程", "short_term": "→", "mid_term": "→", "long_term": "↑"},
-        {"name": "西部建设", "code": "002302.SZ", "market": "SZ", "sector": "建材", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "申洲国际", "code": "2313.HK", "market": "HK", "sector": "纺织出口", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "iShares中国大盘ETF", "code": "FXI", "market": "US", "sector": "综合ETF", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "西藏天路",
+          "code": "600326.SH",
+          "market": "SH",
+          "sector": "基建工程",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "西部建设",
+          "code": "002302.SZ",
+          "market": "SZ",
+          "sector": "建材",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "申洲国际",
+          "code": "2313.HK",
+          "market": "HK",
+          "sector": "纺织出口",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 6,
       "title": "危险热浪威胁美国独立日庆祝活动",
-      "logic": "美国极端高温增加电力需求、空调销售及保险公司赔付风险；同时可能影响户外活动相关消费（旅游/餐饮）。利好能源公用事业和家电零售，利空旅游户外板块。",
+      "logic": "美国极端高温覆盖1.3亿人，PJM电网负荷逼近165.5GW历史纪录，现货电价飙升至每兆瓦时超过600美元，可能出现轮流停电。利好电力公用事业、HVAC暖通空调、家居零售；利空保险赔付及户外活动相关消费。",
       "stocks": [
-        {"name": "NRG Energy", "code": "NRG", "market": "US", "sector": "电力能源", "short_term": "↑↑", "mid_term": "→", "long_term": "→"},
-        {"name": "Generac Holdings", "code": "GNRC", "market": "US", "sector": "发电设备", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "家得宝", "code": "HD", "market": "US", "sector": "家居零售", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "美国能源ETF", "code": "XLE", "market": "US", "sector": "能源ETF", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "Travelers保险", "code": "TRV", "market": "US", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "Live Nation", "code": "LYV", "market": "US", "sector": "现场娱乐", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "NRG Energy",
+          "code": "NRG",
+          "market": "US",
+          "sector": "电力能源",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Constellation Energy",
+          "code": "CEG",
+          "market": "US",
+          "sector": "电力能源",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Carrier Global (HVAC)",
+          "code": "CARR",
+          "market": "US",
+          "sector": "暖通空调",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "家得宝",
+          "code": "HD",
+          "market": "US",
+          "sector": "家居零售",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Travelers保险",
+          "code": "TRV",
+          "market": "US",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Live Nation",
+          "code": "LYV",
+          "market": "US",
+          "sector": "现场娱乐",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 7,
       "title": "台湾：美国外交官呼吁建立无人机武库作为威慑",
-      "logic": "美国外交官公开呼吁台湾建立无人机武库，地缘政治紧张升级，直接利好全球军工无人机产业链；同时台海局势升温可能冲击台股及亚太市场风险偏好。",
+      "logic": "美国外交官公开呼吁台湾建立无人机武库，台湾已披露计划采购20万架无人机及千艈无人艇（含1554架ALTIUS-700M巡飞弹），总预算达1.25万亿新台币。地缘政治紧张升级，直接利好全球军工无人机产业链。",
       "stocks": [
-        {"name": "洛克希德·马丁", "code": "LMT", "market": "US", "sector": "军工国防", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "雷神技术", "code": "RTX", "market": "US", "sector": "军工国防", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "AeroVironment", "code": "AVAV", "market": "US", "sector": "无人机", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "诺斯罗普·格鲁曼", "code": "NOC", "market": "US", "sector": "军工国防", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "航天彩虹", "code": "002389.SZ", "market": "SZ", "sector": "无人机", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "台积电", "code": "TSM", "market": "US", "sector": "半导体", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+        {
+          "name": "洛克希德·马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工国防",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "AeroVironment",
+          "code": "AVAV",
+          "market": "US",
+          "sector": "无人机",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "诺斯罗普·格鲁曼",
+          "code": "NOC",
+          "market": "US",
+          "sector": "军工国防",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "无人机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 8,
       "title": "高盛称欧洲增长受中国出口打击甚于贸易逆差扩大",
-      "logic": "高盛指出中国低价出口对欧洲制造业的冲击超过贸易逆差本身，利空欧洲汽车、钢铁、光伏等与中国存在竞争关系的行业；可能加速欧盟对华贸易壁垒。",
+      "logic": "高盛指出中国低价出口对欧洲制造业的冲击超过贸易逆差本身，STOXX 600预计2026年EPS增长5%但面临结构性风险。利空欧洲汽车、钢铁、光伏等与中国存在竞争关系的行业；利好中国出口导向型企业。",
       "stocks": [
-        {"name": "大众汽车", "code": "VWAGY", "market": "US", "sector": "汽车制造", "short_term": "↓", "mid_term": "↓↓", "long_term": "↓"},
-        {"name": "Stellantis", "code": "STLA", "market": "US", "sector": "汽车制造", "short_term": "↓", "mid_term": "↓↓", "long_term": "↓"},
-        {"name": "安赛乐米塔尔", "code": "MT", "market": "US", "sector": "钢铁", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "欧洲斯托克50 ETF", "code": "FEZ", "market": "US", "sector": "综合ETF", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "比亚迪", "code": "1211.HK", "market": "HK", "sector": "新能源汽车", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "大众汽车",
+          "code": "VWAGY",
+          "market": "US",
+          "sector": "汽车制造",
+          "short_term": "↓",
+          "mid_term": "↓↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "Stellantis",
+          "code": "STLA",
+          "market": "US",
+          "sector": "汽车制造",
+          "short_term": "↓",
+          "mid_term": "↓↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "欧洲斯托克50 ETF",
+          "code": "FEZ",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 9,
       "title": "美国就业数据疲软后美元下跌、股市上涨",
-      "logic": "美国就业数据不及预期强化美联储降息预期，美元走弱利好非美货币及新兴市场；美股短期因降息预期上涨，但中期需警惕经济衰退风险。美元走弱利好黄金、大宗商品。",
+      "logic": "美国6月非农仅增5.7万人(预期11.3万)，失业率降至4.2%，市场重新定价联储加息预期。道指涨477点，黄金突破4100美元，美元指数跌至100.66。短期利好股市、金价和美债，利空美元。",
       "stocks": [
-        {"name": "SPDR标普500 ETF", "code": "SPY", "market": "US", "sector": "综合ETF", "short_term": "↑↑", "mid_term": "→", "long_term": "→"},
-        {"name": "景顺QQQ", "code": "QQQ", "market": "US", "sector": "科技ETF", "short_term": "↑↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "SPDR黄金ETF", "code": "GLD", "market": "US", "sector": "贵金属ETF", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "iShares长期国债ETF", "code": "TLT", "market": "US", "sector": "债券ETF", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "美元指数ETF", "code": "UUP", "market": "US", "sector": "外汇ETF", "short_term": "↓↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "iShares新兴市场ETF", "code": "EEM", "market": "US", "sector": "新兴市场ETF", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "SPDR标普500 ETF",
+          "code": "SPY",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "SPDR黄金ETF",
+          "code": "GLD",
+          "market": "US",
+          "sector": "贵金属ETF",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "iShares长期国债ETF",
+          "code": "TLT",
+          "market": "US",
+          "sector": "债券ETF",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "美元指数ETF",
+          "code": "UUP",
+          "market": "US",
+          "sector": "外汇ETF",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "iShares新兴市场ETF",
+          "code": "EEM",
+          "market": "US",
+          "sector": "新兴市场ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 10,
-      "title": "苹果对华芯片谈判触碰美国红线",
-      "logic": "苹果与中国芯片供应商谈判触碰美国技术出口管制红线，可能引发美国政府审查甚至制裁；利空苹果及中国芯片供应商，利好美国本土替代芯片厂商。",
+      "title": "苹果对华芯片谈判触碰美国红线 + 供应链：苹果考虑从中国采购存储芯片",
+      "logic": "苹果正与五角大楼黑名单上的长鑫存储(CXMT)和长江存储(YMTC)谈判采购存储芯片以缓解全球内存短缺，美元延迟交付已达70天。众议院外交委员会主席马斯特警告此举将破坏特朗普战略目标。利好中国存储芯片产业链（长鑫/长江存储非上市），利空美光/三星/SK海力士等现有供应商。",
       "stocks": [
-        {"name": "苹果", "code": "AAPL", "market": "US", "sector": "消费电子", "short_term": "↓↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "英特尔", "code": "INTC", "market": "US", "sector": "半导体", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "高通", "code": "QCOM", "market": "US", "sector": "半导体", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体制造", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
-        {"name": "美光科技", "code": "MU", "market": "US", "sector": "存储芯片", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "西部数据", "code": "WDC", "market": "US", "sector": "存储", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "苹果",
+          "code": "AAPL",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "美光科技",
+          "code": "MU",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "西部数据",
+          "code": "WDC",
+          "market": "US",
+          "sector": "存储",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 11,
       "title": "人民币走强削弱估值偏低论点——纽约梅隆银行",
-      "logic": "人民币持续走强削弱了中国资产'估值偏低'的投资逻辑，可能减少外资流入A股/港股；但人民币国际化进程加快对离岸人民币债券及跨境支付有利。",
+      "logic": "离岸人民币汇率已突码6.8关口，按购买力平价计算仅约3.293，市场汇率偏离达2.07倍。人民币持续走强削弱了中国资产‘估值偏低’的投资逻辑，可能减少外资流入A股/港股；但人民币国际化进程加快对离岸人民币债券及跨境支付有利。",
       "stocks": [
-        {"name": "上证50 ETF", "code": "510050.SH", "market": "SH", "sector": "综合ETF", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "恒生中国企业ETF", "code": "2828.HK", "market": "HK", "sector": "综合ETF", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国人寿", "code": "2628.HK", "market": "HK", "sector": "保险", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "中国银行", "code": "3988.HK", "market": "HK", "sector": "银行", "short_term": "→", "mid_term": "→", "long_term": "↑"},
-        {"name": "WisdomTree人民币策略ETF", "code": "CYB", "market": "US", "sector": "外汇ETF", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "上证50 ETF",
+          "code": "510050.SH",
+          "market": "SH",
+          "sector": "综合ETF",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生中国企业ETF",
+          "code": "2828.HK",
+          "market": "HK",
+          "sector": "综合ETF",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国银行",
+          "code": "3988.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "WisdomTree人民币策略ETF",
+          "code": "CYB",
+          "market": "US",
+          "sector": "外汇ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 12,
       "title": "中国人寿保险派息获批后股价或被低估",
-      "logic": "中国人寿派息获批后市场认为其股价被低估，利好保险板块情绪；高股息策略在当前降息预期背景下更具吸引力。",
+      "logic": "中国人寿A股每股派息0.618元已获股东会批准，7月8日除权，市场认为股价被低估。高股息策略在降息预期背景下更具吸引力，利好保险板块情绪。",
       "stocks": [
-        {"name": "中国人寿(H股)", "code": "2628.HK", "market": "HK", "sector": "保险", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国人寿(A股)", "code": "601628.SH", "market": "SH", "sector": "保险", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国平安", "code": "2318.HK", "market": "HK", "sector": "保险", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "中国太保", "code": "2601.HK", "market": "HK", "sector": "保险", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中国人寿(H股)",
+          "code": "2628.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国人寿(A股)",
+          "code": "601628.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国平安",
+          "code": "2318.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国太保",
+          "code": "2601.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 13,
       "title": "美国因加拿大对华关系阻挠《美墨加协定》续签",
-      "logic": "美国以加拿大对华关系为由阻挠USMCA续签，贸易不确定性上升，利空加拿大出口企业及墨西哥制造业；加拿大-中国贸易相关企业面临政策风险。",
+      "logic": "美国贸易代表格里尔确认不会以现有形式延续USMCA，指责加拿大引进中国投资，要求收紧管控阻止中国零部件进入美国市场。贸易不确定性上升，利空加拿大出口企业及墨西哥制造业。",
       "stocks": [
-        {"name": "加拿大皇家银行", "code": "RY", "market": "US", "sector": "银行", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "多伦多道明银行", "code": "TD", "market": "US", "sector": "银行", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "加拿大ETF", "code": "EWC", "market": "US", "sector": "综合ETF", "short_term": "↓↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "墨西哥ETF", "code": "EWW", "market": "US", "sector": "综合ETF", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "Teck Resources", "code": "TECK", "market": "US", "sector": "矿业资源", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+        {
+          "name": "加拿大皇家银行",
+          "code": "RY",
+          "market": "US",
+          "sector": "银行",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "多伦多道明银行",
+          "code": "TD",
+          "market": "US",
+          "sector": "银行",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "加拿大ETF",
+          "code": "EWC",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "墨西哥ETF",
+          "code": "EWW",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 14,
       "title": "卑诗省长访华贸易团提前结束 细节未披露",
-      "logic": "不列颠哥伦比亚（卑诗）省长访华贸易团提前结束且未披露细节，暗示中加贸易关系出现摩擦或敏感问题，利空加拿大资源出口（木材/矿产/能源）及BC省经济。",
+      "logic": "BC省长访华贸易团提前结束且未披露细节，暗示中加贸易关系出现摩擦，利空加拿大资源出口（木材/矿产/能源）及BC省经济。",
       "stocks": [
-        {"name": "Suncor Energy", "code": "SU", "market": "US", "sector": "能源", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "Canadian Natural Resources", "code": "CNQ", "market": "US", "sector": "能源", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "West Fraser Timber", "code": "WFG", "market": "US", "sector": "木材", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "Canfor", "code": "CFPZF", "market": "US", "sector": "木材", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "Nutrien", "code": "NTR", "market": "US", "sector": "化肥农业", "short_term": "→", "mid_term": "↓", "long_term": "→"}
+        {
+          "name": "Suncor Energy",
+          "code": "SU",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "Canadian Natural Resources",
+          "code": "CNQ",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "West Fraser Timber",
+          "code": "WFG",
+          "market": "US",
+          "sector": "木材",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 15,
       "title": "卡纳与穆莱纳尔严厉批评中国阻挠台湾参加世贸部长级会议",
-      "logic": "美国国会议员批评中国阻挠台湾参与WTO，台海紧张升级，利空台股大盘但利好台湾本土军工和替代供应链概念；中美贸易摩擦情绪升温。",
+      "logic": "美国国会议员批评中国阻挠台湾参与WTO，台海紧张升级，利空台股大盘但利好台湾本土军工和替代供应链概念。",
       "stocks": [
-        {"name": "台积电", "code": "2330.TW", "market": "TW", "sector": "半导体", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
-        {"name": "联发科", "code": "2454.TW", "market": "TW", "sector": "半导体设计", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "汉翔航空", "code": "2634.TW", "market": "TW", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "iShares台湾ETF", "code": "EWT", "market": "US", "sector": "综合ETF", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "汉翔航空",
+          "code": "2634.TW",
+          "market": "TW",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "iShares台湾ETF",
+          "code": "EWT",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 16,
       "title": "中国捐赠16万美元支持斐济军队家属委员会设施",
-      "logic": "中国对斐济的小额军事援助属于南太平洋地缘影响力建设的一部分，短期无直接市场影响；长期关注中国在南太平洋的基建和资源投资布局。",
+      "logic": "中国对斐济的小额军事援助属于南太平洋地缘影响力建设，短期无直接市场影响；长期关注中国在南太平洋的基建和资源投资布局。",
       "stocks": [
-        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建工程", "short_term": "→", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "电力建设", "short_term": "→", "mid_term": "→", "long_term": "↑"},
-        {"name": "五矿资源", "code": "1208.HK", "market": "HK", "sector": "矿业资源", "short_term": "→", "mid_term": "→", "long_term": "↑"}
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建工程",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "五矿资源",
+          "code": "1208.HK",
+          "market": "HK",
+          "sector": "矿业资源",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 17,
-      "title": "供应链：苹果考虑从中国采购存储芯片",
-      "logic": "苹果评估从中国采购存储芯片以降低对韩国/美国的依赖，利好中国存储芯片产业链（长江存储/兆易创新等），利空三星/SK海力士/美光等现有供应商；但这可能引发美国技术出口管制审查。",
+      "title": "台湾应享有不受北京修正主义历史观的自由",
+      "logic": "华盛顿时报评论文章呼吁台湾享有独立历史叙事权，台海地缘政治紧张持续，利空台股及两岸贸易相关企业。",
       "stocks": [
-        {"name": "兆易创新", "code": "603986.SH", "market": "SH", "sector": "存储芯片", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "美光科技", "code": "MU", "market": "US", "sector": "存储芯片", "short_term": "↓↓", "mid_term": "↓", "long_term": "↓"},
-        {"name": "三星电子", "code": "SSNLF", "market": "US", "sector": "存储芯片", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "SK海力士", "code": "HXSCF", "market": "US", "sector": "存储芯片", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "苹果", "code": "AAPL", "market": "US", "sector": "消费电子", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "台积电",
+          "code": "TSM",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "鸿海精密",
+          "code": "2317.TW",
+          "market": "TW",
+          "sector": "电子制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "iShares台湾ETF",
+          "code": "EWT",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 18,
-      "title": "台湾应享有不受北京修正主义历史观的自由",
-      "logic": "华盛顿时报评论文章呼吁台湾享有独立历史叙事权，台海地缘政治紧张持续，利空台股及两岸贸易相关企业。",
+      "title": "路线图：日本与印度加速走近",
+      "logic": "日印峰会签署多项合作备忘录：首个联合防务研发项目(海军无线电天线)、AI战略研究伙伴、十年目标10万亿日元投资、在印日企数量翻番。重点合作方向：半导体、关键矿产、制药、清洁能源、ICT。利好日本军工/基建出口及印度制造。",
       "stocks": [
-        {"name": "台积电", "code": "TSM", "market": "US", "sector": "半导体", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
-        {"name": "鸿海精密", "code": "2317.TW", "market": "TW", "sector": "电子制造", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "富邦金控", "code": "2881.TW", "market": "TW", "sector": "金融", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "iShares安硕MSCI台湾ETF", "code": "EWT", "market": "US", "sector": "综合ETF", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "JP",
+          "sector": "军工制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "川崎重工业",
+          "code": "7012.T",
+          "market": "JP",
+          "sector": "军工/船舶",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "日立",
+          "code": "6501.T",
+          "market": "JP",
+          "sector": "基础设施/IT",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "iShares印度50 ETF",
+          "code": "INDY",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "日本ETF",
+          "code": "EWJ",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 19,
-      "title": "路线图：日本与印度加速走近",
-      "logic": "日本与印度加速战略接近，包括防务合作、供应链重组和基础设施投资，利好日本军工/基建出口及印度制造；对中国在亚洲影响力构成竞争。",
-      "stocks": [
-        {"name": "三菱重工", "code": "7011.T", "market": "JP", "sector": "军工制造", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "丰田汽车", "code": "TM", "market": "US", "sector": "汽车制造", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "索尼", "code": "SONY", "market": "US", "sector": "电子娱乐", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "日立", "code": "HTHIY", "market": "US", "sector": "基础设施", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "iShares印度50 ETF", "code": "INDY", "market": "US", "sector": "综合ETF", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "日本ETF", "code": "EWJ", "market": "US", "sector": "综合ETF", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
-      ]
-    },
-    {
-      "id": 20,
       "title": "北京正在赢得台湾叙事战吗？",
       "logic": "华盛顿时报分析中国在台湾问题上的国际话语权增强，暗示台湾在国际舆论场中趋于孤立；长期利好中国大陆统一概念股，利空台股风险偏好。",
       "stocks": [
-        {"name": "厦门港务", "code": "000905.SZ", "market": "SZ", "sector": "港口运输", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "福建高速", "code": "600033.SH", "market": "SH", "sector": "交通运输", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "台积电", "code": "TSM", "market": "US", "sector": "半导体", "short_term": "→", "mid_term": "↓", "long_term": "↓"},
-        {"name": "iShares台湾ETF", "code": "EWT", "market": "US", "sector": "综合ETF", "short_term": "→", "mid_term": "↓", "long_term": "↓"},
-        {"name": "平潭发展", "code": "000592.SZ", "market": "SZ", "sector": "区域开发", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "厦门港务",
+          "code": "000905.SZ",
+          "market": "SZ",
+          "sector": "港口运输",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "平潭发展",
+          "code": "000592.SZ",
+          "market": "SZ",
+          "sector": "区域开发",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "iShares台湾ETF",
+          "code": "EWT",
+          "market": "US",
+          "sector": "综合ETF",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
       ]
     }
   ],
@@ -252,32 +795,110 @@
     "newly_added": [
       {
         "label": "美军工无人机概念走强（新增）",
-        "theme": "美国外交官呼吁台湾建立无人机武库，军工无人机产业链受关注",
+        "theme": "美国外交官呼吁台湾建立无人机武库，台湾披露计划采购20万架无人机（含1554架ALTIUS-700M）",
         "stocks": [
-          {"name": "AeroVironment", "code": "AVAV", "short_term": "↑↑"},
-          {"name": "洛克希德·马丁", "code": "LMT", "short_term": "↑↑"},
-          {"name": "航天彩虹", "code": "002389.SZ", "short_term": "↑"}
+          {
+            "name": "AeroVironment",
+            "code": "AVAV",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "洛克希德·马丁",
+            "code": "LMT",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "航天彩虹",
+            "code": "002389.SZ",
+            "short_term": "↑"
+          }
         ]
       },
       {
         "label": "中国存储芯片迎苹果供应链机遇（新增）",
-        "theme": "苹果考虑从中国采购存储芯片，国产替代加速",
+        "theme": "苹果与五角大楼黑名单上的长鑫存储/长江存储谈判采购，国产替代加速，美光延迟交付达70天",
         "stocks": [
-          {"name": "兆易创新", "code": "603986.SH", "short_term": "↑↑"},
-          {"name": "中芯国际", "code": "688981.SH", "short_term": "↑"},
-          {"name": "美光科技", "code": "MU", "short_term": "↓↓"}
+          {
+            "name": "兆易创新",
+            "code": "603986.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中芯国际",
+            "code": "688981.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "美光科技",
+            "code": "MU",
+            "short_term": "↓↓"
+          }
         ]
       },
       {
         "label": "美国就业疲软推动降息预期（新增）",
-        "theme": "美国就业数据不及预期，美元下跌，黄金与美债上涨",
+        "theme": "美国6月非农仅5.7万人远低预期，美元下跌，黄金突破4100美元，9月加息概率降至51%",
         "stocks": [
-          {"name": "GLD黄金ETF", "code": "GLD", "short_term": "↑↑"},
-          {"name": "TLT长期国债ETF", "code": "TLT", "short_term": "↑↑"},
-          {"name": "UUP美元ETF", "code": "UUP", "short_term": "↓↓"}
+          {
+            "name": "GLD黄金ETF",
+            "code": "GLD",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "TLT长期国债ETF",
+            "code": "TLT",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "UUP美元ETF",
+            "code": "UUP",
+            "short_term": "↓↓"
+          }
+        ]
+      },
+      {
+        "label": "日印战略合作深化（新增）",
+        "theme": "日印峰会签署首个联合防务研发项目，十年目标10万亿日元投资，覆盖AI/半导体/关键矿产",
+        "stocks": [
+          {
+            "name": "三菱重工",
+            "code": "7011.T",
+            "short_term": "↑"
+          },
+          {
+            "name": "川崎重工业",
+            "code": "7012.T",
+            "short_term": "↑"
+          },
+          {
+            "name": "iShares印度50 ETF",
+            "code": "INDY",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "美国热浪推动电力HVAC板块（新增）",
+        "theme": "PJM电网负荷逼近历史纪录165.5GW，现货电价飙至600美元/MWh，1.3亿人处于高温预警",
+        "stocks": [
+          {
+            "name": "NRG Energy",
+            "code": "NRG",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "Carrier HVAC",
+            "code": "CARR",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "家得宝",
+            "code": "HD",
+            "short_term": "↑"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月3日公开新闻报道的纯逻辑推演，所有涨跌预测均为假设性分析，不构成任何投资建议。股市有风险，投资需谨慎。数据来源：综合整理自 Reuters, SCMP, RTHK, Washington Times, Table.Briefings, Xinhua 等媒体。"
+  "disclaimer": "以上分析基于2026年7月3日公开新闻报道的纯逻辑推演，所有涨跌预测均为假设性分析，不构成任何投资建议。股市有风险，投资需谨慎。数据来源：综合整理自 Reuters, SCMP, RTHK, Washington Times, Table.Briefings, Xinhua, Global News, Bloomberg, Kitco, ANI News 等媒体。"
 }
