@@ -1,9 +1,9 @@
 {
   "meta": {
-    "name": "2026-07-04 全球新闻股票推演",
-    "description": "基于2026-07-04公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股及亚太市场",
+    "name": "2026年7月4日全球新闻股票推演",
+    "description": "基于2026年7月4日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "2026-07-04 综合整理（来源：hk.k415.win 新闻聚合）",
+    "source": "2026年7月4日超级News聚合整理",
     "version": "1.0",
     "update_time": "2026-07-04T19:55:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
@@ -11,21 +11,12 @@
   "news_analysis": [
     {
       "id": 1,
-      "title": "国内航线燃油附加费明日下调 + 东方航空聚焦机队与航线扩张",
-      "logic": "燃油附加费下调直接降低旅客出行成本，叠加暑期出行旺季，航空客运量有望环比提升。东航同步宣布机队和航线扩张，反映行业对需求复苏的信心。短期利好航空股，中长期看油价走势和客座率恢复情况。",
+      "title": "国内航线燃油附加费明日再次下调，800公里以下航线50元",
+      "logic": "燃油附加费下调降低旅客出行成本，短期刺激航空出行需求，利好航空公司客运量和营收。中期若油价稳定，航司利润率改善。",
       "stocks": [
         {
-          "name": "中国东方航空",
+          "name": "中国东航",
           "code": "600115.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国南方航空",
-          "code": "600029.SH",
           "market": "SH",
           "sector": "航空运输",
           "short_term": "↑",
@@ -38,12 +29,21 @@
           "market": "SH",
           "sector": "航空运输",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中国东方航空股份",
-          "code": "0670.HK",
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国南方航空股份",
+          "code": "1055.HK",
           "market": "HK",
           "sector": "航空运输",
           "short_term": "↑",
@@ -54,59 +54,32 @@
     },
     {
       "id": 2,
-      "title": "台海紧张局势持续升级：中国海警巡逻、台湾新作战蓝图及民族团结法多方博弈（合并5条）",
-      "logic": "中国海警连续在台湾东部巡逻，台湾发布新作战蓝图（更长演习、智能武器、后备役改革），加之民族团结法引发跨境打压担忧，台海地缘风险溢价上升。短期军工板块受情绪提振，半导体供应链不确定性增加，海运及福建本地基建股或受关注。",
+      "title": "中美竞争下中等国家不选边站是否更明智",
+      "logic": "南华早报分析中等国家在中美博弈中的策略选择，反映全球供应链去风险化趋势持续。东南亚、中东等第三方市场可能受益于产业转移。",
       "stocks": [
         {
-          "name": "中航沈飞",
-          "code": "600760.SH",
+          "name": "中远海控",
+          "code": "601919.SH",
           "market": "SH",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工/造船",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "航发动力",
-          "code": "600893.SH",
-          "market": "SH",
-          "sector": "军工/航空发动机",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "半导体",
+          "sector": "航运物流",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "台积电",
-          "code": "TSM.US",
+          "name": "越南制造加工出口",
+          "code": "0422.HK",
+          "market": "HK",
+          "sector": "制造业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "iShares MSCI India ETF",
+          "code": "INDA",
           "market": "US",
-          "sector": "半导体",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "福建高速",
-          "code": "600033.SH",
-          "market": "SH",
-          "sector": "基建/交通",
+          "sector": "新兴市场",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
@@ -115,52 +88,272 @@
     },
     {
       "id": 3,
-      "title": "满载513辆中国汽车的货船从台州出发驶往坦桑尼亚",
-      "logic": "中国汽车出口持续增长，非洲市场成为新增长极。整车出口量价齐升利好自主品牌和航运物流，但需关注海外关税壁垒风险。",
+      "title": "浙江乡村举办荷花主题文化旅游活动",
+      "logic": "文化旅游活动推动乡村旅游经济，利好浙江本地旅游及消费产业链。乡村文旅是内需消费升级方向之一。",
       "stocks": [
         {
-          "name": "比亚迪",
-          "code": "002594.SZ",
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游零售",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "宋城演艺",
+          "code": "300144.SZ",
           "market": "SZ",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "吉利汽车",
-          "code": "0175.HK",
-          "market": "HK",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "长城汽车",
-          "code": "601633.SH",
-          "market": "SH",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运物流",
-          "short_term": "→",
-          "mid_term": "↑",
+          "sector": "旅游演艺",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 4,
-      "title": "美国AI限制为何可能给中国带来意想不到的优势",
-      "logic": "美国对华AI芯片和技术限制反而加速中国自主替代进程，国产AI芯片、算力基础设施、大模型应用等赛道获得政策和资本双重驱动。短期市场情绪偏积极，中长期国产替代逻辑持续强化。",
+      "title": "满载513辆中国汽车的货船从台州出发驶往坦桑尼亚",
+      "logic": "中国汽车出口持续强劲，非洲市场拓展加速。整车出口增长利好自主品牌车企及汽车物流供应链。",
       "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "长城汽车",
+          "code": "601633.SH",
+          "market": "SH",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中远海特",
+          "code": "600428.SH",
+          "market": "SH",
+          "sector": "航运物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "美国学生在成都机器人基地体验未来科技",
+      "logic": "中美民间科技交流持续，成都机器人产业基地获国际关注，利好中国机器人及AI产业形象。",
+      "stocks": [
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "机器人",
+          "code": "300024.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "台湾称其主权不容侵犯，中国结束海警巡逻",
+      "logic": "台海局势短期降温（巡逻结束），但台湾强硬表态暗示中长期紧张持续。军工板块短期承压但中期支撑仍在。",
+      "stocks": [
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "台湾加权指数",
+          "code": "TWII",
+          "market": "TW",
+          "sector": "大盘指数",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国持续在台湾东部进行海警巡逻",
+      "logic": "雅虎新闻等国际媒体持续关注台海巡逻，地缘风险溢价维持。芯片供应链安全担忧利好国产替代。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "TSMC",
+          "code": "TSM",
+          "market": "US",
+          "sector": "半导体制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "反腐清洗致高层减员后中国军队晋升两名新上将",
+      "logic": "军队反腐持续深入后新领导层确立，短期或有人事不确定性但中长期利好军队现代化和效率提升。",
+      "stocks": [
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "军工电子",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "军工电子",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国与台湾因新一轮海警巡逻紧张局势升级",
+      "logic": "耶路撒冷邮报等国际媒体报道台海紧张升级，短期避险情绪上升。军工和黄金受益，台股承压。",
+      "stocks": [
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "黄金矿业",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "黄金矿业",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "SPDR Gold ETF",
+          "code": "GLD",
+          "market": "US",
+          "sector": "黄金ETF",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中缅边境附近发生4.1级地震",
+      "logic": "小规模地震对金融市场影响有限。云南边境地区基础设施短期可能受轻微影响，但无重大冲击。",
+      "stocks": [
+        {
+          "name": "云南白药",
+          "code": "000538.SZ",
+          "market": "SZ",
+          "sector": "医药",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "华能水电",
+          "code": "600025.SH",
+          "market": "SH",
+          "sector": "水力发电",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国民族团结法引发台湾强烈反应，跨境打压担忧加剧",
+      "logic": "民族团结法加剧两岸紧张，台湾方面担忧跨境执法。半导体供应链地缘风险溢价上升，国产替代逻辑强化。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
         {
           "name": "寒武纪",
           "code": "688256.SH",
@@ -171,199 +364,27 @@
           "long_term": "↑↑"
         },
         {
-          "name": "海光信息",
-          "code": "688041.SH",
-          "market": "SH",
-          "sector": "AI芯片/CPU",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中科创达",
-          "code": "300496.SZ",
-          "market": "SZ",
-          "sector": "AI应用/操作系统",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "商汤-W",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "AI",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "英伟达",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "日本防卫省首次发布中国航母视频（含舰载机和军舰画面）",
-      "logic": "日本罕见发布中国航母详细影像，反映周边国家对中国海军扩张的高度戒备。此举可能推动日本及区域国家增加国防预算，亚太军工链受益。中国军工板块外部威胁叙事强化。",
-      "stocks": [
-        {
-          "name": "中国重工",
-          "code": "601989.SH",
-          "market": "SH",
-          "sector": "军工/造船",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "三菱重工",
-          "code": "7011.T",
-          "market": "JP",
-          "sector": "军工/制造",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "军工/造船",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "反腐清洗致高层减员后中国军队晋升两名新上将",
-      "logic": "军队高层人事调整显示反腐进入深水区后军队管理体系重塑。短期内军工企业可能面临管理层审查压力，但中长期有利于军工体系透明化和效率提升，利好优质军工龙头。",
-      "stocks": [
-        {
-          "name": "中航西飞",
-          "code": "000768.SZ",
-          "market": "SZ",
-          "sector": "军工/航空制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "航天电子",
-          "code": "600879.SH",
-          "market": "SH",
-          "sector": "军工/航天",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国卫星",
-          "code": "600118.SH",
-          "market": "SH",
-          "sector": "军工/航天",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "热浪袭击中国北方多地",
-      "logic": "极端高温天气将推升居民用电和商业制冷需求，利好电力、空调、啤酒饮料等板块。同时需关注高温对农作物产量的潜在负面影响，农产品期货和相关个股或有波动。",
-      "stocks": [
-        {
-          "name": "长江电力",
-          "code": "600900.SH",
-          "market": "SH",
-          "sector": "电力",
-          "short_term": "↑",
+          "name": "TSMC",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "半导体制造",
+          "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "美的集团",
-          "code": "000333.SZ",
-          "market": "SZ",
-          "sector": "家电/空调",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "格力电器",
-          "code": "000651.SZ",
-          "market": "SZ",
-          "sector": "家电/空调",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "青岛啤酒",
-          "code": "600600.SH",
-          "market": "SH",
-          "sector": "食品饮料",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "华能国际",
-          "code": "600011.SH",
-          "market": "SH",
-          "sector": "电力",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↓"
         }
       ]
     },
     {
-      "id": 8,
-      "title": "广东佛山酱油工厂采用先进AI技术",
-      "logic": "传统调味品行业引入AI技术提升生产效率和质量管控，标志着AI在传统制造业的渗透加速。海天味业作为佛山酱油龙头，AI赋能有望降低长期成本、提升利润率。",
-      "stocks": [
-        {
-          "name": "海天味业",
-          "code": "603288.SH",
-          "market": "SH",
-          "sector": "食品加工",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中炬高新",
-          "code": "600872.SH",
-          "market": "SH",
-          "sector": "食品加工",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "中国在科伦坡论坛重申与斯里兰卡长期发展伙伴关系",
-      "logic": "中国持续推进一带一路倡议，与斯里兰卡的基础设施和港口合作有望加深。利好参与海外基建的央企、港口运营商及工程机械出口企业。",
+      "id": 12,
+      "title": "中国在科伦坡论坛上重申与斯里兰卡的长期发展伙伴关系",
+      "logic": "一带一路南亚节点巩固，斯里兰卡港口和基建合作持续。利好海外基建和港口运营类企业。",
       "stocks": [
         {
           "name": "中国交建",
           "code": "601800.SH",
           "market": "SH",
-          "sector": "基建/一带一路",
-          "short_term": "→",
+          "sector": "基建工程",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
@@ -371,8 +392,8 @@
           "name": "中国中铁",
           "code": "601390.SH",
           "market": "SH",
-          "sector": "基建/一带一路",
-          "short_term": "→",
+          "sector": "基建工程",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
@@ -388,9 +409,86 @@
       ]
     },
     {
-      "id": 10,
-      "title": "TUI加速全球酒店扩张，土耳其西班牙中国等多国联动",
-      "logic": "全球旅游巨头TUI扩大酒店版图，反映国际旅游市场持续复苏。中国出入境游政策逐步放宽背景下，国内酒店和旅游平台有望受益于行业景气度提升。",
+      "id": 13,
+      "title": "美国AI限制为何可能给中国带来意想不到的优势",
+      "logic": "AOL分析美国对华AI限制的意外后果——倒逼中国加速自主创新，国产AI产业链中长期受益。利好国产GPU、AI框架、大模型企业。",
+      "stocks": [
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "日本防卫省首次发布中国航母视频，含舰载机和军舰画面",
+      "logic": "日本防卫省主动披露中国航母动态，东亚军事透明度博弈升级。日本安保概念股短期受益，中国军工长期逻辑不变。",
+      "stocks": [
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "T",
+          "sector": "军工制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "TUI加速全球酒店扩张，土耳其、西班牙、中国等多国联动",
+      "logic": "欧洲最大旅游集团TUI加速全球扩张，中国作为重要市场被纳入。利好中国入境旅游和国际酒店管理合作。",
       "stocks": [
         {
           "name": "锦江酒店",
@@ -402,44 +500,207 @@
           "long_term": "↑"
         },
         {
-          "name": "携程集团",
-          "code": "9961.HK",
-          "market": "HK",
-          "sector": "在线旅游",
+          "name": "首旅酒店",
+          "code": "600258.SH",
+          "market": "SH",
+          "sector": "酒店旅游",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
           "name": "TUI AG",
-          "code": "TUI.DE",
+          "code": "TUI1.DE",
           "market": "DE",
-          "sector": "旅游",
+          "sector": "旅游集团",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "热浪袭击中国北方多地",
+      "logic": "高温天气推升电力需求，利好电力股和空调家电消费。极端天气也利好农业保险和防灾减灾概念。",
+      "stocks": [
+        {
+          "name": "长江电力",
+          "code": "600900.SH",
+          "market": "SH",
+          "sector": "水力发电",
           "short_term": "↑",
           "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "华能国际",
+          "code": "600011.SH",
+          "market": "SH",
+          "sector": "火力发电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "家电制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电制造",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
-      "id": 11,
-      "title": "中美竞争下中等国家不选边站是否更明智？",
-      "logic": "中等国家在中美博弈中寻求平衡策略，可能推动多极化供应链格局。东南亚、中东等中间地带国家的制造业和资源出口可能获得更多议价空间，利好多元化布局的跨国企业和新兴市场ETF。",
+      "id": 17,
+      "title": "嘉兴南湖凯悦嘉轩酒店开业为中国旅游业注入新动力",
+      "logic": "国际酒店品牌在中国下沉市场扩张（嘉兴），反映中国旅游住宿需求持续升级，利好酒店管理和旅游产业链。",
       "stocks": [
         {
-          "name": "iShares MSCI新兴市场ETF",
-          "code": "EEM.US",
-          "market": "US",
-          "sector": "ETF/新兴市场",
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游零售",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "立讯精密",
-          "code": "002475.SZ",
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店旅游",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "广东佛山酱油工厂采用先进AI技术",
+      "logic": "传统调味品制造引入AI技术提升效率，利好工业AI应用落地和食品制造智能化升级。海天味业作为佛山酱油龙头直接受益。",
+      "stocks": [
+        {
+          "name": "海天味业",
+          "code": "603288.SH",
+          "market": "SH",
+          "sector": "食品调味品",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中炬高新",
+          "code": "600872.SH",
+          "market": "SH",
+          "sector": "食品调味品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
           "market": "SZ",
-          "sector": "消费电子/全球供应链",
+          "sector": "人工智能",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "台湾新对华作战蓝图：更长时间演习、智能武器及后备役改革",
+      "logic": "台湾军事改革计划引发两岸军备竞赛预期，短期军工板块情绪提振。中长期两岸紧张关系支撑军工需求。",
+      "stocks": [
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "无人机",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "军工电子",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "中国东方航空聚焦机队与航线扩张以应对旅行需求复苏",
+      "logic": "东航明确扩张战略，机队和航线双扩张，直接利好东航自身及相关航空产业链（飞机制造、机场运营）。",
+      "stocks": [
+        {
+          "name": "中国东航",
+          "code": "600115.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "机场运营",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "波音",
+          "code": "BA",
+          "market": "US",
+          "sector": "飞机制造",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
@@ -450,56 +711,40 @@
   "summary": {
     "newly_added": [
       {
-        "label": "燃油附加费下调 + 东航扩张（新增）",
-        "theme": "国内航线燃油附加费下调叠加东航机队扩张，航空板块短期利好",
+        "label": "燃油附加费下调利好航空（新增）",
+        "theme": "国内航线燃油附加费下调，航空出行成本降低",
         "stocks": [
           {
-            "name": "中国东方航空",
+            "name": "中国东航",
             "code": "600115.SH",
             "short_term": "↑"
           },
           {
-            "name": "中国南方航空",
+            "name": "南方航空",
             "code": "600029.SH",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "台海紧张五连发（新增）",
-        "theme": "海警巡逻、台湾新作战蓝图、民族团结法等台海博弈升级，军工半导体联动",
-        "stocks": [
-          {
-            "name": "中航沈飞",
-            "code": "600760.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "中芯国际",
-            "code": "688981.SH",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "汽车出口非洲（新增）",
-        "theme": "中国汽车整车出口坦桑尼亚，自主品牌海外扩张持续",
+        "label": "中国汽车出口非洲加速（新增）",
+        "theme": "513辆中国汽车从台州出口坦桑尼亚，出海势头强劲",
         "stocks": [
           {
             "name": "比亚迪",
-            "code": "002594.SZ",
-            "short_term": "→"
+            "code": "1211.HK",
+            "short_term": "↑"
           },
           {
-            "name": "吉利汽车",
-            "code": "0175.HK",
-            "short_term": "→"
+            "name": "长城汽车",
+            "code": "601633.SH",
+            "short_term": "↑"
           }
         ]
       },
       {
-        "label": "美国AI限制反向利好（新增）",
-        "theme": "美国AI限制加速中国自主替代，国产AI芯片及算力板块受益",
+        "label": "美国AI限制倒逼中国创新（新增）",
+        "theme": "美对华AI限制或意外利好中国自主AI产业链",
         "stocks": [
           {
             "name": "寒武纪",
@@ -507,29 +752,88 @@
             "short_term": "↑"
           },
           {
-            "name": "海光信息",
-            "code": "688041.SH",
+            "name": "科大讯飞",
+            "code": "002230.SZ",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "热浪经济（新增）",
-        "theme": "北方高温推升电力空调啤酒需求，但需关注农作物减产风险",
+        "label": "台海紧张局势多线升温（新增）",
+        "theme": "两岸海警巡逻、民族团结法、台湾军事改革引发地缘风险",
         "stocks": [
           {
-            "name": "美的集团",
-            "code": "000333.SZ",
+            "name": "航发动力",
+            "code": "600893.SH",
             "short_term": "↑"
           },
+          {
+            "name": "山东黄金",
+            "code": "600547.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "东航机队航线双扩张（新增）",
+        "theme": "东航明确扩张战略应对旅行需求复苏",
+        "stocks": [
+          {
+            "name": "中国东航",
+            "code": "600115.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "上海机场",
+            "code": "600009.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "热浪推升电力空调需求（新增）",
+        "theme": "中国北方多地遭遇热浪，电力需求攀升",
+        "stocks": [
           {
             "name": "长江电力",
             "code": "600900.SH",
             "short_term": "↑"
+          },
+          {
+            "name": "格力电器",
+            "code": "000651.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "海天味业AI升级（新增）",
+        "theme": "佛山酱油工厂采用AI技术，传统制造智能化提速",
+        "stocks": [
+          {
+            "name": "海天味业",
+            "code": "603288.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "一带一路斯里兰卡合作深化（新增）",
+        "theme": "中国重申与斯里兰卡长期发展伙伴关系",
+        "stocks": [
+          {
+            "name": "中国交建",
+            "code": "601800.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "招商局港口",
+            "code": "0144.HK",
+            "short_term": "→"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，预测仅供参考，投资者应独立判断并承担风险。"
+  "disclaimer": "以上分析基于2026年7月4日公开新闻事件，仅代表逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。"
 }
