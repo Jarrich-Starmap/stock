@@ -1,37 +1,19 @@
 {
   "meta": {
     "name": "2026年7月4日全球新闻股票推演",
-    "description": "基于2026年7月4日全球公开新闻，推演事件对相关股票市场的短、中、长期影响方向。覆盖A股、港股、美股及亚太市场。",
+    "description": "基于2026年7月4日全球公开新闻事件，对受影响个股进行短/中/长期涨跌方向推演，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "2026年7月4日 hk.k415.win/news/ 综合整理",
+    "source": "hk.k415.win/news/ 综合整理",
     "version": "1.0",
-    "update_time": "2026-07-04T09:00:00+08:00",
+    "update_time": "2026-07-04T08:55:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
       "title": "美元周线下跌，金属普遍走高，LME锡涨近5%，金银周线收阳",
-      "logic": "美元走弱直接利好以美元计价的大宗商品。锡价大涨近5%表明供需趋紧，金银同步收阳反映避险与抗通胀需求回暖。矿业公司收入以美元计价，美元贬值叠加金属价格上涨将显著提升矿企利润。",
+      "logic": "美元走弱+AI算力需求驱动锡等小金属供需缺口持续扩大，缅甸锡矿复产缓慢、印尼出口收紧，锡价半年涨超40%。金银受避险和美元走弱双重提振。矿企利润弹性显著。",
       "stocks": [
-        {
-          "name": "紫金矿业",
-          "code": "601899.SH",
-          "market": "SH",
-          "sector": "有色金属/黄金",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "黄金",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
         {
           "name": "锡业股份",
           "code": "000960.SZ",
@@ -42,114 +24,164 @@
           "long_term": "↑"
         },
         {
-          "name": "江西铜业",
-          "code": "600362.SH",
+          "name": "华锡有色",
+          "code": "600301.SH",
           "market": "SH",
-          "sector": "有色金属/铜",
+          "sector": "有色金属/锡",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "兴业银锡",
+          "code": "000426.SZ",
+          "market": "SZ",
+          "sector": "有色金属/锡银",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "贵金属/黄金",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中国铝业",
-          "code": "601600.SH",
+          "name": "紫金矿业",
+          "code": "601899.SH",
           "market": "SH",
-          "sector": "有色金属/铝",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "Freeport-McMoRan",
-          "code": "FCX",
-          "market": "US",
-          "sector": "铜矿",
+          "sector": "有色金属/综合",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "Newmont Corporation",
-          "code": "NEM",
-          "market": "US",
-          "sector": "黄金",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
       "title": "华润微上调功率芯片价格，中国供应商掀起新一轮涨价潮",
-      "logic": "功率芯片涨价直接提升芯片厂商毛利率，华润微作为国内功率半导体龙头率先提价，表明下游需求旺盛（新能源车/光伏/储能）且产能偏紧。同类厂商有望跟进涨价，行业景气度上行。",
+      "logic": "华润微7月起全品类涨价15%起，为年内第二轮涨价。8英寸成熟制程产能紧缺、AI算力+新能源双重刚需拉动，订单能见度达9个月。IDM龙头量价齐升逻辑稳固，板块估值修复启动。",
       "stocks": [
         {
           "name": "华润微",
           "code": "688396.SH",
           "market": "SH",
-          "sector": "半导体/功率芯片",
+          "sector": "半导体/功率器件",
           "short_term": "↑↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
           "name": "士兰微",
           "code": "600460.SH",
           "market": "SH",
-          "sector": "半导体/功率器件",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "斯达半导",
-          "code": "603290.SH",
-          "market": "SH",
-          "sector": "IGBT/功率模块",
+          "sector": "半导体/IDM",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "华虹半导体",
-          "code": "1347.HK",
-          "market": "HK",
-          "sector": "晶圆代工",
+          "name": "斯达半导",
+          "code": "603290.SH",
+          "market": "SH",
+          "sector": "半导体/IGBT",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "扬杰科技",
+          "code": "300373.SZ",
+          "market": "SZ",
+          "sector": "半导体/功率器件",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
-        },
-        {
-          "name": "中芯国际",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "晶圆代工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "英飞凌",
-          "code": "IFX.DE",
-          "market": "DE",
-          "sector": "功率半导体",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
         }
       ]
     },
     {
       "id": 3,
+      "title": "比亚迪在中国推出海豹08轿车搭载闪充技术",
+      "logic": "海豹08全系标配原生闪充平台，5分钟充好、9分钟充饱，插混纯电续航1660km。比亚迪闪充站已建7000+座，年底目标2万座。闪充生态闭环+刀片电池二代技术巩固电动化护城河，拉动上下游产业链。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "汽车/新能源",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "汽车/新能源",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "特锐德",
+          "code": "300001.SZ",
+          "market": "SZ",
+          "sector": "充电桩运营",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "印度批准4家中资企业参与电力项目",
+      "logic": "印度财政部批准特变电工、南京电气等4家中资电力设备企业参与政府招标，为期两年。印度输电设备缺口高达40%，此举直接打开特变电工增量市场，其印度工厂有望拿到30%以上输变电订单。印度本土电力设备股短期承压。",
+      "stocks": [
+        {
+          "name": "特变电工",
+          "code": "600089.SH",
+          "market": "SH",
+          "sector": "电力设备/变压器",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国西电",
+          "code": "601179.SH",
+          "market": "SH",
+          "sector": "电力设备/输变电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "Hitachi Energy India",
+          "code": "POWERINDIA.NS",
+          "market": "IN",
+          "sector": "电力设备",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
       "title": "缅甸将重启有争议的36亿美元中国援建水坝项目",
-      "logic": "缅甸密松水坝项目重启标志着中国在缅甸大型基建投资的复苏，利好参与海外水电建设的央企。一带一路沿线基建项目回暖也将带动工程机械、水泥建材等产业链。但项目争议性可能带来政治风险溢价。",
+      "logic": "缅甸重启中国援建的36亿美元水坝项目，利好承担海外水电建设的央企。中国电建在缅甸已有皎漂燃气电站等项目经验，有望直接受益。一带一路基建出海再添新单。",
       "stocks": [
         {
           "name": "中国电建",
           "code": "601669.SH",
           "market": "SH",
-          "sector": "水利水电建设",
+          "sector": "建筑/水电工程",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
@@ -158,208 +190,32 @@
           "name": "中国能建",
           "code": "601868.SH",
           "market": "SH",
-          "sector": "能源基建",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "三一重工",
-          "code": "600031.SH",
-          "market": "SH",
-          "sector": "工程机械",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "东方电气",
-          "code": "600875.SH",
-          "market": "SH",
-          "sector": "水电设备",
+          "sector": "建筑/能源工程",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "印度批准4家中资企业参与电力项目",
-      "logic": "印度在边境紧张背景下仍批准中资参与电力项目，释放中印经贸关系边际改善信号。获批企业直接受益于印度电力基建订单，同时为中资企业在印业务拓展打开窗口。利好有印度布局的电力设备与工程企业。",
-      "stocks": [
-        {
-          "name": "特变电工",
-          "code": "600089.SH",
-          "market": "SH",
-          "sector": "电力设备/变压器",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "上海电气",
-          "code": "601727.SH",
-          "market": "SH",
-          "sector": "电力设备",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "东方电气",
-          "code": "600875.SH",
-          "market": "SH",
-          "sector": "发电设备",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "正泰电器",
-          "code": "601877.SH",
-          "market": "SH",
-          "sector": "低压电器/光伏",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "Suzlon Energy",
-          "code": "SUZLON.IN",
-          "market": "IN",
-          "sector": "风电设备",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "中国门到门物流网络在美扩张以应对贸易战",
-      "logic": "中国物流企业主动在美扩建末端配送网络，旨在绕开关税壁垒、缩短交付链路，提升跨境电商竞争力。此举有利于跨境电商平台及配套物流企业降低成本、增强履约能力。贸易战升级反而加速了物流本地化布局。",
-      "stocks": [
-        {
-          "name": "极兔速递",
-          "code": "1519.HK",
-          "market": "HK",
-          "sector": "快递物流",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中通快递",
-          "code": "ZTO",
-          "market": "US",
-          "sector": "快递物流",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "菜鸟/阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "电商物流",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "京东物流",
-          "code": "2618.HK",
-          "market": "HK",
-          "sector": "供应链物流",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "拼多多/Temu",
-          "code": "PDD",
-          "market": "US",
-          "sector": "跨境电商",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "SHEIN",
-          "code": "SHEIN",
-          "market": "PRIVATE",
-          "sector": "快时尚跨境电商",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
         }
       ]
     },
     {
       "id": 6,
-      "title": "特朗普警告中国威胁：我们不会允许",
-      "logic": "特朗普再次发表对华强硬言论，市场对中美第二轮贸易摩擦升级的担忧加剧。若其政策兑现，可能对在美业务占比高的中概股产生冲击，同时利好美国本土替代产业的制造业和国防股。不确定性推高避险情绪。",
+      "title": "柬埔寨首相将访华以加强合作",
+      "logic": "柬埔寨首相访华加强双边合作，预计签署基础设施、贸易投资等领域协议。一带一路东南亚节点强化，利好已在柬布局的中资基建和贸易企业。",
       "stocks": [
         {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "互联网/电商",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "互联网/AI",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "拼多多",
-          "code": "PDD",
-          "market": "US",
-          "sector": "跨境电商",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "动力电池",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "洛克希德马丁",
-          "code": "LMT",
-          "market": "US",
-          "sector": "国防军工",
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "建筑/基建",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "英特尔",
-          "code": "INTC",
-          "market": "US",
-          "sector": "半导体制造",
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "建筑/水电工程",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -368,129 +224,75 @@
     },
     {
       "id": 7,
-      "title": "比亚迪在中国推出海豹08轿车搭载闪充技术",
-      "logic": "比亚迪持续迭代产品线，海豹08搭载闪充技术强化在纯电轿车市场的竞争力。闪充技术是消除里程焦虑的关键卖点，有望提升比亚迪在中高端市场的份额。对充电桩配套企业亦有拉动作用。",
-      "stocks": [
-        {
-          "name": "比亚迪",
-          "code": "1211.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
-          "sector": "新能源汽车",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "特锐德",
-          "code": "300001.SZ",
-          "market": "SZ",
-          "sector": "充电桩",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "动力电池",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "特斯拉",
-          "code": "TSLA",
-          "market": "US",
-          "sector": "新能源汽车",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "蔚来",
-          "code": "9866.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "外国政要抵达伊朗参加哈梅内伊葬礼",
-      "logic": "伊朗最高领袖哈梅内伊去世引发中东权力真空与地缘不确定性。短期可能推高油价（供给中断担忧），霍尔木兹海峡航运安全受关注。中长期取决于继任者的外交政策走向，若缓和则油价回落，若强硬则持续高位。",
+      "title": "外国政要抵达伊朗参加哈梅内伊葬礼，霍尔木兹海峡风险升温",
+      "logic": "哈梅内伊葬礼定于7月4-9日，伊朗警告美以勿在此期间攻击。霍尔木兹海峡承载全球约1/5油气运输，Brent原油已单日跳涨6%至118美元。短期油价高波动，利好上游油气开采企业；航运保险费率上升压制航运股。",
       "stocks": [
         {
           "name": "中国石油",
           "code": "601857.SH",
           "market": "SH",
-          "sector": "石油天然气",
-          "short_term": "↑",
-          "mid_term": "→",
+          "sector": "石油/上游开采",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中国石化",
-          "code": "600028.SH",
+          "name": "中国海油",
+          "code": "600938.SH",
           "market": "SH",
-          "sector": "石油化工",
-          "short_term": "↑",
-          "mid_term": "→",
+          "sector": "石油/海上开采",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
           "name": "中海油服",
           "code": "601808.SH",
           "market": "SH",
-          "sector": "油田服务",
+          "sector": "油服/钻井",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "Exxon Mobil",
-          "code": "XOM",
-          "market": "US",
-          "sector": "石油巨头",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中远海控",
-          "code": "601919.SH",
+          "name": "中远海能",
+          "code": "600026.SH",
           "market": "SH",
-          "sector": "航运",
-          "short_term": "↑",
+          "sector": "航运/油运",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
-        },
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国门到门物流网络在美扩张以应对贸易战",
+      "logic": "中国跨境电商物流企业加速在美建设门到门配送网络，菜鸟计划在美部署机器人仓储，极兔入股SwiftX补北美短板。中美贸易战背景下，自有物流网络成为跨境电商标配，利好已布局海外仓的龙头物流企业。",
+      "stocks": [
         {
-          "name": "中国黄金",
-          "code": "600916.SH",
-          "market": "SH",
-          "sector": "黄金珠宝",
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "物流/快递",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "中国神华",
-          "code": "601088.SH",
-          "market": "SH",
-          "sector": "煤炭/能源",
+          "name": "极兔速递",
+          "code": "1519.HK",
+          "market": "HK",
+          "sector": "物流/快递",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "京东物流",
+          "code": "2618.HK",
+          "market": "HK",
+          "sector": "物流/供应链",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -500,14 +302,14 @@
     {
       "id": 9,
       "title": "人民币预测：大华银行维持中性立场，预计兑美元区间波动",
-      "logic": "大华银行对人民币持中性预期，暗示短期无大幅贬值或升值预期。对出口型企业意味着汇率成本稳定，对进口依赖型企业和外币负债较高的航空/航运企业同样利好。人民币稳定有利于外资维持对A股的配置信心。",
+      "logic": "美元指数从98.8反弹至101.8，人民币从6.7贬至6.9+。人民币适度贬值利好出口型企业汇兑收益（美元结算多换3-5%人民币），纺织服装、家电、光模块等海外营收占比高的行业直接受益。但贬值空间有限，大华银行预计区间波动。",
       "stocks": [
         {
           "name": "美的集团",
           "code": "000333.SZ",
           "market": "SZ",
-          "sector": "家电出口",
-          "short_term": "→",
+          "sector": "家电/出口",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
@@ -515,77 +317,68 @@
           "name": "海尔智家",
           "code": "600690.SH",
           "market": "SH",
-          "sector": "家电出口",
-          "short_term": "→",
+          "sector": "家电/出口",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
-          "sector": "航空",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "立讯精密",
-          "code": "002475.SZ",
+          "name": "华孚时尚",
+          "code": "002042.SZ",
           "market": "SZ",
-          "sector": "消费电子代工",
-          "short_term": "→",
+          "sector": "纺织/出口",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
+        },
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "sector": "光模块/AI硬件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 10,
-      "title": "藏族男子在联合国总部外自焚身亡",
-      "logic": "该事件可能引发国际社会对中国民族政策的关注与批评，短期或对中概股情绪造成负面影响，特别是外资持股比例较高的互联网和消费类中概股。但历史经验表明此类单一事件对市场的冲击通常是短暂的。",
+      "title": "特朗普警告中国威胁：我们不会允许",
+      "logic": "特朗普再次发出对华强硬言论，市场对中美贸易摩擦升级担忧升温。利好国产替代（半导体、信创）、稀土（反制武器）、国防军工板块。对美出口占比高的消费电子和制造业短期承压。",
       "stocks": [
         {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "互联网/电商",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体/制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "腾讯控股",
-          "code": "0700.HK",
-          "market": "HK",
-          "sector": "互联网/游戏",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土/战略资源",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "互联网/AI",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "国防军工/航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "iShares China Large-Cap ETF",
-          "code": "FXI",
-          "market": "US",
-          "sector": "中国大盘ETF",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "KraneShares CSI China Internet",
-          "code": "KWEB",
-          "market": "US",
-          "sector": "中概互联网ETF",
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "消费电子/代工",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
@@ -594,68 +387,25 @@
     },
     {
       "id": 11,
-      "title": "柬埔寨首相将访华以加强合作",
-      "logic": "柬埔寨高层访华预计将签署一系列经济合作协议，在基建、农业、数字经济等领域深化合作。利好一带一路沿线的基建企业和在柬埔寨有投资的上市公司。",
+      "title": "斯里兰卡被世行重列为中上收入经济体",
+      "logic": "斯里兰卡经济复苏获世行认可，重新归类为中上收入经济体。该国经历2022年债务危机后经济反弹，利好已在斯里兰卡有基建投资的中资企业（如港口、电力项目），中国交建科伦坡港口城项目有望受益。",
       "stocks": [
         {
           "name": "中国交建",
           "code": "601800.SH",
           "market": "SH",
-          "sector": "基建",
+          "sector": "建筑/基建",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中国电建",
-          "code": "601669.SH",
-          "market": "SH",
-          "sector": "水利水电建设",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国中铁",
-          "code": "601390.SH",
-          "market": "SH",
-          "sector": "铁路基建",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中材国际",
-          "code": "600970.SH",
-          "market": "SH",
-          "sector": "水泥工程",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "斯里兰卡被世行重列为中上收入经济体",
-      "logic": "世界银行将斯里兰卡重新上调为中上收入经济体，表明该国经济从2022年危机中显著复苏。对在斯里兰卡有港口、基建投资的中国企业是积极信号，项目回报预期改善。",
-      "stocks": [
-        {
           "name": "招商局港口",
           "code": "0144.HK",
           "market": "HK",
-          "sector": "港口运营",
+          "sector": "港口/物流",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国港湾/中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "港口基建",
-          "short_term": "→",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
@@ -664,29 +414,8 @@
   "summary": {
     "newly_added": [
       {
-        "label": "美元走弱金属大涨（新增）",
-        "theme": "美元周线下跌，LME锡涨近5%，金银同步收阳，有色金属板块全面受益",
-        "stocks": [
-          {
-            "name": "紫金矿业",
-            "code": "601899.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "锡业股份",
-            "code": "000960.SZ",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "山东黄金",
-            "code": "600547.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "功率芯片涨价潮（新增）",
-        "theme": "华润微率先上调功率芯片价格，中国供应商掀起新一轮涨价潮，利好功率半导体板块",
+        "label": "功率半导体第二轮涨价（新增）",
+        "theme": "华润微领涨，中国功率芯片供应商全品类提价15%起，IDM龙头量价齐升",
         "stocks": [
           {
             "name": "华润微",
@@ -697,79 +426,69 @@
             "name": "士兰微",
             "code": "600460.SH",
             "short_term": "↑"
-          },
-          {
-            "name": "斯达半导",
-            "code": "603290.SH",
-            "short_term": "↑"
           }
         ]
       },
       {
-        "label": "比亚迪海豹08闪充发布（新增）",
-        "theme": "比亚迪推出海豹08轿车搭载闪充技术，强化纯电市场竞争力",
+        "label": "比亚迪海豹08闪充上市（新增）",
+        "theme": "海豹08全系标配闪充，5分钟充好9分钟充饱，年底建2万座闪充站",
         "stocks": [
           {
             "name": "比亚迪",
+            "code": "002594.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "比亚迪股份",
             "code": "1211.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "特锐德",
-            "code": "300001.SZ",
-            "short_term": "↑"
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "特朗普对华强硬警告（新增）",
-        "theme": "特朗普警告中国威胁，中美贸易摩擦预期升温，中概股短中期承压",
+        "label": "印度对中国电力设备开放招标（新增）",
+        "theme": "特变电工等4家中资企业获准参与印度电力项目招标，订单增量可期",
         "stocks": [
           {
-            "name": "阿里巴巴",
-            "code": "9988.HK",
-            "short_term": "↓"
-          },
-          {
-            "name": "拼多多",
-            "code": "PDD",
-            "short_term": "↓"
+            "name": "特变电工",
+            "code": "600089.SH",
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "伊朗哈梅内伊去世地缘动荡（新增）",
-        "theme": "伊朗最高领袖去世，中东不确定性推高油价和避险资产",
+        "label": "伊朗局势推高油价（新增）",
+        "theme": "哈梅内伊葬礼期间霍尔木兹海峡风险升温，Brent原油单日涨6%至118美元",
         "stocks": [
+          {
+            "name": "中国海油",
+            "code": "600938.SH",
+            "short_term": "↑↑"
+          },
           {
             "name": "中国石油",
             "code": "601857.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "中国黄金",
-            "code": "600916.SH",
-            "short_term": "↑"
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "中国物流在美扩张应对贸易战（新增）",
-        "theme": "中国门到门物流网络在美扩张以应对贸易战，利好跨境电商与物流板块",
+        "label": "特朗普对华强硬言论（新增）",
+        "theme": "中美摩擦预期升温，利好半导体国产替代、稀土反制、国防军工",
         "stocks": [
           {
-            "name": "极兔速递",
-            "code": "1519.HK",
-            "short_term": "↑"
+            "name": "北方稀土",
+            "code": "600111.SH",
+            "short_term": "↑↑"
           },
           {
-            "name": "中通快递",
-            "code": "ZTO",
+            "name": "中芯国际",
+            "code": "688981.SH",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月4日公开新闻的逻辑推演，不构成任何投资建议。股票市场受多重因素影响，预测存在不确定性，投资者应独立判断并承担风险。"
+  "disclaimer": "以上分析基于2026年7月4日公开新闻的逻辑推演，箭头方向仅为多空倾向示意，不构成任何投资建议。股市有风险，投资需谨慎。"
 }
