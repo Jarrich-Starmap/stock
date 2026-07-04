@@ -1,218 +1,851 @@
 {
   "meta": {
     "name": "2026年7月5日全球新闻股票推演",
-    "description": "基于2026-07-05全球公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股市场",
+    "description": "基于2026年7月5日hk.k415.win/news/新闻聚合页面的公开新闻，分析与受影响股票的逻辑关联及短中长期涨跌方向推演。覆盖A股、港股、美股、日股、印股、德股、韩股等多市场。",
     "category": "daily",
-    "source": "2026-07-05 综合整理自 hk.k415.win/news/",
-    "version": "1.0.0",
-    "update_time": "2026-07-05T04:30:00+08:00",
-    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+    "source": "hk.k415.win/news/ 2026-07-05综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-05T06:30:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议。市场有风险，投资需谨慎。"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国发射新型商业星座卫星组",
-      "logic": "千帆星座组网加速，2026年预计发射超40发，卫星制造、火箭配套、地面终端全产业链进入业绩兑现期。发射频次提升直接拉动发动机、结构件、载荷等核心环节订单。",
+      "title": "华润新能源首日股价飙升三倍，创2026年亚洲最大IPO",
+      "logic": "华润新能源(CR New Energy)IPO首日暴涨三倍，反映市场对清洁能源资产的高度追捧。该事件将提振整个新能源板块估值，尤其光伏、风电运营商。同时作为亚洲最大IPO分流资金效应可能短期压制其他新股，但中长期为港股市场注入流动性。",
       "stocks": [
-        {"name": "中国卫星", "code": "600118.SH", "market": "SH", "sector": "航天制造", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天电子", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "上海瀚讯", "code": "300762.SZ", "market": "SZ", "sector": "卫星通信", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "航天动力", "code": "600343.SH", "market": "SH", "sector": "火箭发动机", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "铂力特", "code": "688333.SH", "market": "SH", "sector": "3D打印", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"}
+        {
+          "name": "华润新能源",
+          "code": "0936.HK",
+          "market": "HK",
+          "sector": "新能源",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华润电力",
+          "code": "0836.HK",
+          "market": "HK",
+          "sector": "电力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "龙源电力",
+          "code": "0916.HK",
+          "market": "HK",
+          "sector": "新能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 2,
-      "title": "阿里巴巴以安全为由将禁止员工使用Anthropic的Claude Code",
-      "logic": "阿里禁止使用外部AI编程工具，反映企业对代码安全与数据主权的重视升级，利好国产AI编程工具及安全厂商；同时也可能反映阿里内部加速自研替代方案。",
+      "title": "伊朗特使称友好国家（含中国）将获霍尔木兹海峡优惠/特殊收费待遇",
+      "logic": "伊朗向中国等友好国家提供霍尔木兹海峡通行优惠，将降低中国原油进口运输成本。直接利好中石油、中石化等进口大户，同时地缘溢价消退后油价可能承压利空上游勘探。中伊关系深化也为一带一路基建企业打开伊朗市场想象空间。",
       "stocks": [
-        {"name": "阿里巴巴", "code": "9988.HK", "market": "HK", "sector": "互联网", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "奇安信", "code": "688561.SH", "market": "SH", "sector": "网络安全", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "深信服", "code": "300454.SZ", "market": "SZ", "sector": "网络安全", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "石油化工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油",
+          "code": "0883.HK",
+          "market": "HK",
+          "sector": "石油",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 3,
-      "title": "美国对华科技投资限制升级，中方谴责经济胁迫行为",
-      "logic": "美国MATCH法案等持续收紧对华半导体设备及AI芯片出口，短期压制依赖海外订单的算力产业链（工业富联、中际旭创等），中长期倒逼国产替代加速，利好国产半导体设备、晶圆代工及算力芯片厂商。",
+      "title": "大众汽车考虑在欧洲销售中国开发的车型",
+      "logic": "大众计划将中国开发的车型引入欧洲销售，标志着中国汽车工业从'引进来'到'走出去'的质变。利好为大众代工的中方合作伙伴及供应链，同时中国电动车品牌借大众渠道进入欧洲的可能性打开。但对欧洲本土车企构成潜在竞争威胁，大众自身短期面临品牌定位模糊风险。",
       "stocks": [
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "晶圆代工", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "中际旭创", "code": "300308.SZ", "market": "SZ", "sector": "光模块", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "工业富联", "code": "601138.SH", "market": "SH", "sector": "服务器代工", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "大众汽车",
+          "code": "VOW3.DE",
+          "market": "DE",
+          "sector": "汽车",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "电动车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 4,
-      "title": "中国央行持续降息以提振经济，房地产市场仍面临压力",
-      "logic": "央行降息降低购房成本，7月多部委联合楼市新政落地（首付15%、利率降至3.05-3.45%），短期利好房地产销售回暖及银行信贷扩张；但市场库存高企、信心修复需时间，中长期效果待观察。银行净息差承压但已近底部。",
+      "title": "阿里巴巴7月10日起禁止员工使用Anthropic的Claude Code",
+      "logic": "阿里巴巴禁止使用外部AI编码工具Claude Code，反映中国科技巨头加速AI工具国产替代的趋势。短期利空Anthropic生态相关标的，中期利好国内AI编程工具及大模型提供商（百度、阿里自研等）。同时也暗示中美科技脱钩进一步深化，AI领域国产化加速。",
       "stocks": [
-        {"name": "万科A", "code": "000002.SZ", "market": "SZ", "sector": "房地产", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "保利发展", "code": "600048.SH", "market": "SH", "sector": "房地产", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "招商银行", "code": "600036.SH", "market": "SH", "sector": "银行", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "工商银行", "code": "601398.SH", "market": "SH", "sector": "银行", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/互联网",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 5,
-      "title": "中国在汽油短缺之际开始向俄罗斯供应燃料",
-      "logic": "中国向俄罗斯出口燃料，一方面反映中国炼化产能充裕、出口能力增强；另一方面可能推高国内成品油价格预期。利好炼化及油运板块，但需关注国内保供政策风险。",
+      "title": "中国无人配送推广引发失业担忧，自动化加速推进",
+      "logic": "中国无人配送加速落地（美团、京东等已规模部署），社会层面引发失业讨论但政策面仍支持。短期利好无人配送技术提供商和部署企业（降本增效），中期可能引发监管收紧但大趋势不变。美团等平台型公司边际成本下降最受益。",
       "stocks": [
-        {"name": "中国石化", "code": "600028.SH", "market": "SH", "sector": "石油化工", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "中国石油", "code": "601857.SH", "market": "SH", "sector": "石油", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "中远海能", "code": "600026.SH", "market": "SH", "sector": "油运", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "美团-W",
+          "code": "3690.HK",
+          "market": "HK",
+          "sector": "本地生活/物流",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "京东集团-SW",
+          "code": "9618.HK",
+          "market": "HK",
+          "sector": "电商/物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "新石器无人车",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "无人配送",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "地平线机器人",
+          "code": "9660.HK",
+          "market": "HK",
+          "sector": "自动驾驶芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "物流",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 6,
-      "title": "加拿大与日本联手减少对中国稀土矿产的依赖",
-      "logic": "日加联手去中国化稀土供应链，信越化学在日本建厂，短期情绪面利空中国稀土出口预期；但中国掌控全球92%精炼产能且已实施对日出口管制，实际替代周期需3-5年，中期中国稀土龙头议价权反而强化，价格中枢上移。",
+      "title": "亚洲航班大面积取消：日本、韩国、印度、卡塔尔取消560架次，延误10910架次，影响国航等多家航司",
+      "logic": "大规模航班取消直接影响航空公司短期营收和运营成本（赔付、改签），同时可能反映亚太地区航空需求波动或突发事件（如天气/安全）。短期利空航空公司，但若为一次性事件，中期修复可期。机场运营也受客流量下降冲击。",
       "stocks": [
-        {"name": "北方稀土", "code": "600111.SH", "market": "SH", "sector": "稀土", "short_term": "↓", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "中国稀土", "code": "000831.SZ", "market": "SZ", "sector": "稀土", "short_term": "↓", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "金力永磁", "code": "300748.SZ", "market": "SZ", "sector": "永磁材料", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "日本航空",
+          "code": "9201.T",
+          "market": "T",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "大韩航空",
+          "code": "003490.KS",
+          "market": "KR",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "北京首都机场",
+          "code": "0694.HK",
+          "market": "HK",
+          "sector": "机场",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 7,
-      "title": "印度加强对中国除草剂进口的审查",
-      "logic": "印度作为中国农药重要出口市场，审查加严将影响除草剂出口量，短期利空农药出口型企业；中长期倒逼企业开拓其他市场或升级产品。",
+      "title": "委内瑞拉地震死亡人数升至近3000人",
+      "logic": "委内瑞拉大地震造成重大伤亡，短期推高国际人道主义援助和灾后重建需求。油价可能因委内瑞拉产油设施受影响的担忧而短期上涨，利好替代产油国。中长期灾后重建利好建材、工程机械出口企业。保险再保险板块面临赔付压力。",
       "stocks": [
-        {"name": "扬农化工", "code": "600486.SH", "market": "SH", "sector": "农药化工", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "利尔化学", "code": "002258.SZ", "market": "SZ", "sector": "农药化工", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "江山股份", "code": "600389.SH", "market": "SH", "sector": "农药化工", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "埃克森美孚",
+          "code": "XOM",
+          "market": "US",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "600585.SH",
+          "market": "SH",
+          "sector": "建材",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "慕尼黑再保险",
+          "code": "MUV2.DE",
+          "market": "DE",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 8,
-      "title": "泸州老窖在高端白酒传承与增长雄心之间寻求平衡",
-      "logic": "泸州老窖作为高端白酒龙头，在行业调整期寻求增长与品牌传承平衡。当前白酒行业处于去库存周期，高端酒需求相对稳健但增长放缓。公司品牌力与渠道优势仍在，中长期受益于消费升级。",
+      "title": "与中国对话停滞，日本加强与志同道合国家的联系",
+      "logic": "中日外交对话陷入停滞，日本转向强化与其他盟友（美/澳/印/韩等）的安全经济合作。短期压制中日贸易相关企业（汽车零部件、半导体材料等），中长期加速供应链去中国化趋势。日本军工和本土替代企业受益，中国对日出口型企业承压。",
       "stocks": [
-        {"name": "泸州老窖", "code": "000568.SZ", "market": "SZ", "sector": "白酒", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "贵州茅台", "code": "600519.SH", "market": "SH", "sector": "白酒", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "T",
+          "sector": "汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "T",
+          "sector": "军工/重工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "日本制铁",
+          "code": "5401.T",
+          "market": "T",
+          "sector": "钢铁",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "信越化学",
+          "code": "4063.T",
+          "market": "T",
+          "sector": "半导体材料",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "日经225ETF",
+          "code": "EWJ",
+          "market": "US",
+          "sector": "日本综合",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 9,
-      "title": "奇瑞接管前日产汽车工厂（南非及英国）",
-      "logic": "奇瑞接连接管日产南非、英国工厂，标志中国车企从卖车到输出标准、整合全球产能的2.0阶段。利好奇瑞供应链及中国汽车零部件出海，同时反映合资品牌全球收缩趋势。奇瑞未上市，但关联供应链企业受益。",
+      "title": "'产能过剩'论调反映出西方对中国工业崛起的不满",
+      "logic": "西方持续炒作中国'产能过剩'论调，本质是为新一轮贸易限制（关税、反补贴调查）铺路。新能源（光伏/电动车/电池）和钢铁是重灾区。短期出口型新能源企业面临关税不确定性，中长期倒逼中国企业加速海外建厂和品牌化转型。行业龙头因抗风险能力强反而可能受益于竞争对手出清。",
       "stocks": [
-        {"name": "伯特利", "code": "603596.SH", "market": "SH", "sector": "汽车零部件", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "均胜电子", "code": "600699.SH", "market": "SH", "sector": "汽车零部件", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "比亚迪", "code": "002594.SZ", "market": "SZ", "sector": "新能源汽车", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "宁德时代", "code": "300750.SZ", "market": "SZ", "sector": "动力电池", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "电动车",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 10,
-      "title": "秘鲁上诉法院恢复对中国钱凯港的全面国家监管",
-      "logic": "钱凯港是中国在拉美重要一带一路项目，秘鲁法院恢复国家监管增加运营不确定性，短期利空相关中资港口运营及工程企业；中长期取决于中秘政府间协调结果。",
+      "title": "中国军队反腐清洗后晋升2名新上将",
+      "logic": "中国军队经历大规模反腐后晋升新领导层，标志军队整顿告一段落。短期提振军工板块信心（管理层不确定性消除），中长期利好军工改革和装备采购正常化。同时中美军事对峙背景下，中国军费持续增长的大逻辑不变。",
       "stocks": [
-        {"name": "中远海控", "code": "601919.SH", "market": "SH", "sector": "港口航运", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建工程", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "军工/航空发动机",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "军工电子",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "国防ETF",
+          "code": "ITA",
+          "market": "US",
+          "sector": "国防综合",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 11,
-      "title": "乌干达国家反腐部门冻结向中国承包商支付的15亿先令款项",
-      "logic": "乌干达冻结中国承包商款项，反映非洲市场对中国工程企业的支付风险上升。短期利空在非业务占比高的基建承包商，但单一事件影响有限，需关注是否引发连锁反应。",
+      "title": "印度玩具市场增长潜力强劲——中国玩具协会会长表态",
+      "logic": "中国玩具协会看好印度市场增长，暗示中国玩具企业将加大印度市场布局。印度人口红利+消费升级推动玩具需求快速增长，中国玩具制造商在设计、成本和供应链上具有竞争优势。利好有出口业务的玩具及婴童用品企业。",
       "stocks": [
-        {"name": "中国中铁", "code": "601390.SH", "market": "SH", "sector": "基建工程", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国铁建", "code": "601186.SH", "market": "SH", "sector": "基建工程", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "泡泡玛特",
+          "code": "9992.HK",
+          "market": "HK",
+          "sector": "潮玩",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "奥飞娱乐",
+          "code": "002292.SZ",
+          "market": "SZ",
+          "sector": "玩具/动漫",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "星辉娱乐",
+          "code": "300043.SZ",
+          "market": "SZ",
+          "sector": "玩具/游戏",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "名创优品",
+          "code": "9896.HK",
+          "market": "HK",
+          "sector": "零售/IP",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 12,
-      "title": "安全专家警告澳大利亚：若中国入侵台湾需考虑如何应战",
-      "logic": "台海地缘政治紧张持续升温，澳大利亚作为AUKUS成员被卷入台海冲突假设场景。军工板块受益于全球及区域军备扩张预期，半导体供应链安全焦虑加剧国产替代紧迫性。",
+      "title": "美中加紧全球控制，非洲面临沦为AI殖民地的风险",
+      "logic": "报告揭示中美在非洲的AI基础设施竞赛，非洲可能成为两大AI巨头的'数据殖民地'。短期利好有非洲布局的中国AI和云计算企业，中长期非洲数字化基建需求巨大。但'殖民'叙事可能引发非洲国家监管反弹，华为/中兴等在非业务面临政治风险。",
       "stocks": [
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "晶圆代工", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"}
+        {
+          "name": "华为",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "通信/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中兴通讯",
+          "code": "0763.HK",
+          "market": "HK",
+          "sector": "通信",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "传音控股",
+          "code": "688036.SH",
+          "market": "SH",
+          "sector": "手机/非洲市场",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "谷歌",
+          "code": "GOOGL",
+          "market": "US",
+          "sector": "AI/云",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "微软",
+          "code": "MSFT",
+          "market": "US",
+          "sector": "AI/云",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 13,
-      "title": "中国分析师分享比特币近期上涨后预期的下一个价格水平",
-      "logic": "比特币上涨吸引市场关注，中国分析师讨论价格预期反映加密市场热度回升。利好区块链及数字人民币概念，但需注意国内对加密货币交易的政策限制。",
+      "title": "伊朗已故最高领袖告别仪式在德黑兰开始，为期两天",
+      "logic": "伊朗最高领袖去世引发权力交接不确定性。短期油价因地缘不确定性上升而上涨，黄金避险需求增加。中长期若温和派上台，中东局势可能缓和，利空油价和军工；若强硬派接任则相反。中国作为伊朗重要贸易伙伴，中伊合作项目短期面临审查延迟。",
       "stocks": [
-        {"name": "四方精创", "code": "300468.SZ", "market": "SZ", "sector": "区块链/金融科技", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "恒生电子", "code": "600570.SH", "market": "SH", "sector": "金融科技", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油",
+          "code": "0883.HK",
+          "market": "HK",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "SPDR黄金ETF",
+          "code": "GLD",
+          "market": "US",
+          "sector": "贵金属",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 14,
-      "title": "中国屋顶降雨降温系统走红：背后的科学原理",
-      "logic": "屋顶降温系统走红反映极端高温下绿色建筑、新型建材需求上升，利好环保建材及绿色建筑企业。但该技术处于早期概念阶段，商业化路径不明确。",
+      "title": "连接亚洲、非洲、中东：塞舌尔称赞莫迪总理近期访问",
+      "logic": "印度通过莫迪访问塞舌尔加强在印度洋的战略存在，对中国'一带一路'海上通道形成制衡。利好印度基建和港口企业，中长期印度洋地缘竞争加剧。中国海外基建企业面临更多竞争和地缘阻力。",
       "stocks": [
-        {"name": "东方雨虹", "code": "002271.SZ", "market": "SZ", "sector": "建材防水", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "北新建材", "code": "000786.SZ", "market": "SZ", "sector": "建材", "short_term": "→", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "阿达尼港口",
+          "code": "ADANIPORTS.NS",
+          "market": "IN",
+          "sector": "港口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "拉森特博洛",
+          "code": "LT.NS",
+          "market": "IN",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "招商局港口",
+          "code": "0144.HK",
+          "market": "HK",
+          "sector": "港口",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
       ]
     },
     {
       "id": 15,
-      "title": "中国清洁空气举措或带来意外后果（研究警告）",
-      "logic": "清洁空气政策趋严利好环保监测及治理企业，但研究警告暗示政策执行可能影响部分高排放行业产能。利好烟气治理、环境监测，利空高污染中小产能。",
+      "title": "摩洛哥无情击碎加拿大世界杯梦想 + 伊拉爆冷击败温网冠军斯瓦泰克",
+      "logic": "两项重大体育赛事爆冷带动博彩市场波动。摩洛哥晋级世界杯利好该国赞助商和旅游，加拿大出局利空其体育经济。温网女单爆冷短期增加赛事关注度利好转播方。将两条体育新闻合并分析。",
       "stocks": [
-        {"name": "龙净环保", "code": "600388.SH", "market": "SH", "sector": "环保治理", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "聚光科技", "code": "300203.SZ", "market": "SZ", "sector": "环境监测", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
-      ]
-    },
-    {
-      "id": 16,
-      "title": "重庆新未来主义航空枢纽与城市本身一样令人惊叹",
-      "logic": "重庆航空枢纽建成投用，利好成渝地区基建、航空物流及旅游消费板块。大型基建项目同时对当地建材、工程机械有短期拉动。",
-      "stocks": [
-        {"name": "厦门空港", "code": "600897.SH", "market": "SH", "sector": "机场运营", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "四川路桥", "code": "600039.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "→", "long_term": "→"}
-      ]
-    },
-    {
-      "id": 17,
-      "title": "科威特司法部长探讨与摩洛哥及中国加强法律司法合作",
-      "logic": "科威特与中国加强司法合作是一带一路在中东深化落地的信号，利好在中东有业务的基建、能源及法律服务企业。",
-      "stocks": [
-        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "基建工程", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "电力基建", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "Flutter Entertainment",
+          "code": "FLUT",
+          "market": "US",
+          "sector": "博彩",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "DraftKings",
+          "code": "DKNG",
+          "market": "US",
+          "sector": "博彩",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "迪士尼",
+          "code": "DIS",
+          "market": "US",
+          "sector": "体育转播",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Air Canada",
+          "code": "AC.TO",
+          "market": "CA",
+          "sector": "航空",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "商业航天卫星组网加速（新增）",
-        "theme": "中国发射新型商业星座卫星组，千帆星座进入高速部署期",
+        "label": "华润新能源IPO首日暴涨三倍（新增）",
+        "theme": "新能源/光伏板块估值重塑，港股新能源资产受追捧",
         "stocks": [
-          {"name": "中国卫星", "code": "600118.SH", "short_term": "↑↑"},
-          {"name": "上海瀚讯", "code": "300762.SZ", "short_term": "↑↑"}
+          {
+            "name": "华润新能源",
+            "code": "0936.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "龙源电力",
+            "code": "0916.HK",
+            "short_term": "↑"
+          }
         ]
       },
       {
-        "label": "美对华科技投资升级（新增）",
-        "theme": "美国对华半导体及AI投资限制持续升级，国产替代逻辑强化",
+        "label": "霍尔木兹海峡中国获优惠通行（新增）",
+        "theme": "中伊关系深化，中国原油进口成本降低利好石化链条",
         "stocks": [
-          {"name": "中芯国际", "code": "688981.SH", "short_term": "↑"},
-          {"name": "寒武纪", "code": "688256.SH", "short_term": "↑↑"}
+          {
+            "name": "中国石油",
+            "code": "601857.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中远海控",
+            "code": "1919.HK",
+            "short_term": "↑"
+          }
         ]
       },
       {
-        "label": "奇瑞全球化产能整合（新增）",
-        "theme": "奇瑞接管日产南非及英国工厂，中国车企出海进入2.0阶段",
+        "label": "大众拟在欧洲销售中国开发车型（新增）",
+        "theme": "中国汽车工业出海里程碑，供应链和电动车品牌受益",
         "stocks": [
-          {"name": "伯特利", "code": "603596.SH", "short_term": "↑"},
-          {"name": "比亚迪", "code": "002594.SZ", "short_term": "→"}
+          {
+            "name": "比亚迪",
+            "code": "002594.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ",
+            "short_term": "↑"
+          }
         ]
       },
       {
-        "label": "央行降息+楼市新政（新增）",
-        "theme": "央行持续降息配合7月楼市组合拳，房地产政策底确认",
+        "label": "阿里巴巴禁用Claude Code（新增）",
+        "theme": "国产AI替代加速，利好国内大模型和AI工具提供商",
         "stocks": [
-          {"name": "保利发展", "code": "600048.SH", "short_term": "↑"},
-          {"name": "招商银行", "code": "600036.SH", "short_term": "→"}
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "百度",
+            "code": "9888.HK",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中国无人配送加速引发失业讨论（新增）",
+        "theme": "自动化物流降本增效，平台型企业边际成本优化",
+        "stocks": [
+          {
+            "name": "美团-W",
+            "code": "3690.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "地平线机器人",
+            "code": "9660.HK",
+            "short_term": "↑"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻，仅为逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月5日公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。预测方向仅为方向性判断，非精确量化。数据来源：hk.k415.win/news/ 及公开市场信息。"
 }
