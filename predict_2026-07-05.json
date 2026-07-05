@@ -1,51 +1,51 @@
 {
   "meta": {
     "name": "2026-07-05 全球新闻股票推演",
-    "description": "基于2026年7月5日全球新闻的股票短中长期推演数据集，覆盖A股、港股、美股及亚太市场",
+    "description": "基于2026-07-05公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太欧洲市场",
     "category": "daily",
-    "source": "https://hk.k415.win/news/ 2026年7月5日综合整理",
+    "source": "2026-07-05 综合整理",
     "version": "1.0",
-    "update_time": "2026-07-05T23:59:00+08:00",
+    "update_time": "2026-07-05T14:05:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中俄将举行联合海军演习及海上巡逻",
-      "logic": "中俄联合海军演习及海上巡逻强化两国军事合作，向西方释放战略协作信号。地缘紧张升温利好国防军工板块，尤其海军装备、船舶制造企业。同时可能引发美日韩等周边国家防务加码。",
+      "title": "中国法律专家呼吁加强法治以推进中欧ESG合作",
+      "logic": "中欧ESG合作深化将利好ESG评级机构、绿色金融和新能源板块，欧洲投资者对中国ESG合规企业的配置意愿增强",
       "stocks": [
         {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工船舶",
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能/ESG科技",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源车",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         },
         {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "军工船舶",
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "中国动力",
-          "code": "600482.SH",
-          "market": "SH",
-          "sector": "船舶动力",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工航空",
+          "name": "MSCI Europe ESG ETF",
+          "code": "ESGE.US",
+          "market": "US",
+          "sector": "ESG基金",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -54,136 +54,254 @@
     },
     {
       "id": 2,
-      "title": "中国释放地下教会牧师Ezra Jin（合并5条相关报道）",
-      "logic": "在美国/特朗普施压下中国释放被监禁地下教会牧师Ezra Jin，为中美关系释放缓和信号。短期提振市场对中美关系阶段性改善的预期，利好中概股和贸易敏感型板块，但结构性矛盾未解。",
+      "title": "王毅会见瓦伦堡，中国寻求与欧洲加强商业联系",
+      "logic": "中欧外交高层互动释放经贸缓和信号，利好出口欧洲的制造业、奢侈品消费及跨境贸易板块",
       "stocks": [
         {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海尔智家",
+          "code": "6690.HK",
           "market": "HK",
-          "sector": "互联网电商",
+          "sector": "家电出口",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "阿里巴巴",
-          "code": "BABA",
-          "market": "US",
-          "sector": "互联网电商",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "LVMH",
+          "code": "MC.PA",
+          "market": "FR",
+          "sector": "奢侈品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "拼多多",
-          "code": "PDD",
-          "market": "US",
-          "sector": "电商",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "百度",
-          "code": "9888.HK",
+          "name": "中远海控",
+          "code": "1919.HK",
           "market": "HK",
-          "sector": "互联网/AI",
+          "sector": "航运物流",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "京东",
-          "code": "JD",
-          "market": "US",
-          "sector": "电商物流",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 3,
-      "title": "华尔街银行在中国交易热潮中强劲复苏",
-      "logic": "FT报道华尔街投行在中国市场交易业务强劲复苏，反映外资对中国资本市场信心回升。利好港交所、头部券商及外资投行在华业务。但需关注中美金融监管博弈持续性。",
+      "title": "团结促发展：中国新民族团结法出台",
+      "logic": "新法强化民族团结治理，利好新疆/西藏等边疆地区基础设施、旅游及特色产业，同时提振社会稳定预期",
       "stocks": [
         {
-          "name": "香港交易所",
-          "code": "0388.HK",
-          "market": "HK",
-          "sector": "金融交易平台",
+          "name": "新疆交建",
+          "code": "002941.SZ",
+          "market": "SZ",
+          "sector": "基建",
           "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中信证券",
-          "code": "600030.SH",
+          "name": "西部建设",
+          "code": "002302.SZ",
+          "market": "SZ",
+          "sector": "建材基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
           "market": "SH",
-          "sector": "证券",
+          "sector": "旅游零售",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "华泰证券",
-          "code": "6886.HK",
-          "market": "HK",
-          "sector": "证券",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "高盛",
-          "code": "GS",
-          "market": "US",
-          "sector": "投资银行",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "摩根士丹利",
-          "code": "MS",
-          "market": "US",
-          "sector": "投资银行",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "东盟秘书长出席中国政法大学中国-东盟学院揭牌仪式",
-      "logic": "东盟与中国在教育外交层面深化合作，中国-东盟学院揭牌标志双边关系从经贸向人文教育延伸。利好面向东盟的跨境贸易、基建和人民币国际化相关企业，中长期利好中国-东盟自贸区升级版概念。",
+      "title": "中国海军舰队将于本月访问越南",
+      "logic": "中越军事外交缓和南海紧张局势，利好中越跨境贸易、港口和东盟概念股",
       "stocks": [
         {
           "name": "北部湾港",
           "code": "000582.SZ",
           "market": "SZ",
           "sector": "港口物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华利集团",
+          "code": "300979.SZ",
+          "market": "SZ",
+          "sector": "纺织制造(越南产能)",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "五洲交通",
-          "code": "600368.SH",
-          "market": "SH",
-          "sector": "跨境交通基建",
-          "short_term": "→",
+          "name": "越南ETF",
+          "code": "VNM.US",
+          "market": "US",
+          "sector": "越南市场ETF",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国快递业务量创新纪录",
+      "logic": "快递业务量创新高反映电商消费强劲，直接利好快递物流龙头及电商平台",
+      "stocks": [
+        {
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "快递物流",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中通快递",
+          "code": "2057.HK",
+          "market": "HK",
+          "sector": "快递物流",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
+        {
+          "name": "京东集团",
+          "code": "9618.HK",
+          "market": "HK",
+          "sector": "电商物流",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "电商平台",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "东盟秘书长获委任为中国-东盟学院荣誉院长",
+      "logic": "中国-东盟教育外交深化，利好中国-东盟自贸区升级相关板块及一带一路概念",
+      "stocks": [
         {
           "name": "中国交建",
           "code": "601800.SH",
           "market": "SH",
-          "sector": "海外基建",
+          "sector": "基建/一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "柳工",
+          "code": "000528.SZ",
+          "market": "SZ",
+          "sector": "工程机械(东盟市场)",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "领克02升级版搭载800V平台与激光雷达Q3进入中国",
+      "logic": "吉利旗下领克新车搭载800V快充+激光雷达，利好吉利汽车及汽车电子产业链",
+      "stocks": [
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "汽车制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "禾赛科技",
+          "code": "HSAI.US",
+          "market": "US",
+          "sector": "激光雷达",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "德赛西威",
+          "code": "002920.SZ",
+          "market": "SZ",
+          "sector": "汽车电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "均胜电子",
+          "code": "600699.SH",
+          "market": "SH",
+          "sector": "汽车安全/电子",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "陈茂波呼吁港人支持国家发展",
+      "logic": "香港财政司长发声强化香港融入国家发展战略预期，利好港股本地金融及大湾区概念",
+      "stocks": [
+        {
+          "name": "港交所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "金融交易",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "恒生银行",
+          "code": "0011.HK",
+          "market": "HK",
+          "sector": "银行金融",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "新鸿基地产",
+          "code": "0016.HK",
+          "market": "HK",
+          "sector": "地产",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
@@ -191,16 +309,16 @@
       ]
     },
     {
-      "id": 5,
-      "title": "中国成功发射新一批卫星组进入太空",
-      "logic": "中国航天密集发射持续强化太空能力，卫星互联网和遥感应用产业链受益。商业航天赛道加速，利好卫星制造、火箭发射及下游应用企业。",
+      "id": 9,
+      "title": "中国发射通信卫星组推进太空计划",
+      "logic": "中国密集发射通信卫星（13颗），利好商业航天、卫星通信及军工电子板块",
       "stocks": [
         {
           "name": "中国卫星",
           "code": "600118.SH",
           "market": "SH",
           "sector": "航天制造",
-          "short_term": "↑",
+          "short_term": "↑↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
@@ -208,7 +326,7 @@
           "name": "航天电子",
           "code": "600879.SH",
           "market": "SH",
-          "sector": "航天电子",
+          "sector": "军工电子",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -218,204 +336,50 @@
           "code": "601698.SH",
           "market": "SH",
           "sector": "卫星通信",
-          "short_term": "↑",
+          "short_term": "↑↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "航天宏图",
-          "code": "688066.SH",
+          "name": "信科移动",
+          "code": "688387.SH",
           "market": "SH",
-          "sector": "遥感应用",
+          "sector": "通信技术",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "中国军队反腐清洗后晋升两名上将",
-      "logic": "军方反腐后高层洗牌，晋升两名上将稳固指挥体系，延续此前军方治理整顿。反腐短期对军工采购节奏或有扰动，但中长期指挥体系稳固有利于装备列装和军费执行效率提升。",
-      "stocks": [
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工航空",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中航西飞",
-          "code": "000768.SZ",
-          "market": "SZ",
-          "sector": "军工航空",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工船舶",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "航发动力",
-          "code": "600893.SH",
-          "market": "SH",
-          "sector": "航空发动机",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "中国初创公司即将推出AI驱动激光灭蚊器",
-      "logic": "AI+硬件创新应用拓展至消费级害虫防治领域。虽然短期体量有限，但体现中国AI技术在消费硬件领域的商业化能力，利好AI芯片、激光器件和智能硬件产业链。",
-      "stocks": [
-        {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "大族激光",
-          "code": "002008.SZ",
-          "market": "SZ",
-          "sector": "激光设备",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "小米集团",
-          "code": "1810.HK",
-          "market": "HK",
-          "sector": "智能硬件",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "台湾军方追踪14艘中国大陆舰船绕台活动",
-      "logic": "台海军事紧张持续，大陆舰船绕台活动被台湾军方追踪。地缘紧张常态化为军工板块提供持续催化，但短期对两岸经贸和台股情绪形成压制。",
-      "stocks": [
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工航空",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工船舶",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "台积电",
-          "code": "2330.TW",
-          "market": "TW",
-          "sector": "半导体制造",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "台湾50ETF",
-          "code": "0050.TW",
-          "market": "TW",
-          "sector": "台湾市场综合",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "马来西亚目标2030年榴莲对华出口达9.323亿令吉",
-      "logic": "马来西亚设定榴莲对华出口翻倍目标，反映中国高端水果消费市场持续扩容。利好冷链物流、跨境生鲜电商和热带水果进口贸易商，也利好中国-东盟农产品贸易链。",
-      "stocks": [
-        {
-          "name": "顺丰控股",
-          "code": "002352.SZ",
-          "market": "SZ",
-          "sector": "冷链物流",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "京东物流",
-          "code": "2618.HK",
-          "market": "HK",
-          "sector": "供应链物流",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "宏辉果蔬",
-          "code": "603336.SH",
-          "market": "SH",
-          "sector": "果蔬贸易",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
         }
       ]
     },
     {
       "id": 10,
-      "title": "习近平表示愿与金正恩合作维护中朝关系稳定（合并2条）",
-      "logic": "习近平表态愿与金正恩合作推动中朝关系长期稳定发展，朝鲜半岛稳定预期增强。利好东北亚边境贸易、丹东等口岸经济。但朝鲜经济开放程度低，实际贸易拉动有限。",
+      "title": "台风美莎克在广西与越南北部边界二次登陆",
+      "logic": "台风登陆广西越南边界，短期利空广西本地农业、旅游及保险板块，中长期利好灾后重建基建",
       "stocks": [
         {
-          "name": "吉林高速",
-          "code": "601518.SH",
+          "name": "中国人保",
+          "code": "601319.SH",
           "market": "SH",
-          "sector": "交通基建",
+          "sector": "保险(台风理赔)",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "0914.HK",
+          "market": "HK",
+          "sector": "建材水泥",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "长白山",
-          "code": "603099.SH",
+          "name": "桂冠电力",
+          "code": "600236.SH",
           "market": "SH",
-          "sector": "东北旅游",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "韩国综合ETF",
-          "code": "EWY",
-          "market": "US",
-          "sector": "韩国市场",
-          "short_term": "↑",
+          "sector": "广西水电",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -423,51 +387,33 @@
     },
     {
       "id": 11,
-      "title": "中国新型廉价AI模型在编码性能上追赶美国对手",
-      "logic": "中国低成本AI模型在编码能力上追赶Anthropic/OpenAI，标志中国大模型能力加速突破。利好国产AI算力芯片、AI应用开发和云计算基础设施。短期提振AI概念板块情绪，长期改变全球AI竞争格局。",
+      "title": "中国军队反腐清洗后晋升两名新上将",
+      "logic": "军队人事调整完成反腐阶段，利好军工企业订单恢复正常节奏，提振军工板块信心",
       "stocks": [
         {
-          "name": "寒武纪",
-          "code": "688256.SH",
+          "name": "中航沈飞",
+          "code": "600760.SH",
           "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
+          "sector": "军工航空",
+          "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "AI/大模型",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
-          "market": "SZ",
-          "sector": "AI应用",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "商汤科技",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "AI/计算机视觉",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中科曙光",
-          "code": "603019.SH",
+          "name": "航发动力",
+          "code": "600893.SH",
           "market": "SH",
-          "sector": "AI算力服务器",
-          "short_term": "↑↑",
+          "sector": "航空发动机",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "军工连接器",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         }
@@ -475,103 +421,171 @@
     },
     {
       "id": 12,
-      "title": "中国对科研人员向海外期刊投稿的热情降温",
-      "logic": "FT报道中国科研人员向海外期刊投稿意愿下降，反映科技脱钩趋势深化和国内期刊建设加速。利好国内学术出版和科研服务平台，但国际学术合作降温对部分高校概念形成拖累。",
+      "title": "中俄将于7月在青岛附近举行联合海军演习并在太平洋开展巡逻",
+      "logic": "中俄军事合作深化，利好军工船舶板块，但可能加剧亚太地缘紧张，短期对市场情绪有一定压制",
       "stocks": [
         {
-          "name": "中国科传",
-          "code": "601858.SH",
+          "name": "中国船舶",
+          "code": "600150.SH",
           "market": "SH",
-          "sector": "学术出版",
-          "short_term": "↑",
+          "sector": "船舶制造",
+          "short_term": "↑↑",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "人民网",
-          "code": "603000.SH",
-          "market": "SH",
-          "sector": "知识服务/信息服务",
-          "short_term": "→",
-          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "神州信息",
-          "code": "000555.SZ",
-          "market": "SZ",
-          "sector": "信息服务",
-          "short_term": "→",
-          "mid_term": "→",
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国动力",
+          "code": "600482.SH",
+          "market": "SH",
+          "sector": "船舶动力",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 13,
-      "title": "中国超市大力推广自有品牌商品寻求差异化竞争",
-      "logic": "日经报道中国超市加速自有品牌战略以应对零售竞争加剧。自有品牌高毛利特性利好头部连锁超市盈利能力，但行业竞争加剧使中小零售商承压。消费降级趋势下，高性价比自有品牌更受青睐。",
+      "title": "台湾军方以中国威胁为由恢复毕业生反共课程",
+      "logic": "台海紧张升温，短期利空台股及两岸经贸相关个股，利好大陆军工及自主可控板块",
       "stocks": [
         {
-          "name": "永辉超市",
-          "code": "601933.SH",
-          "market": "SH",
-          "sector": "连锁超市",
-          "short_term": "↑",
+          "name": "台积电",
+          "code": "TSM.US",
+          "market": "US",
+          "sector": "半导体代工",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "高鑫零售",
-          "code": "6808.HK",
+          "name": "富邦金控",
+          "code": "2881.TW",
+          "market": "TW",
+          "sector": "金融",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
           "market": "HK",
-          "sector": "大卖场零售",
+          "sector": "半导体/自主可控",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "越南果蔬对华出口寻求绿色通道",
+      "logic": "中越农产品贸易便利化，利好中国边境口岸、冷链物流及越南相关农产品进口替代",
+      "stocks": [
+        {
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "冷链物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "冰轮环境",
+          "code": "000811.SZ",
+          "market": "SZ",
+          "sector": "冷链设备",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "家家悦",
-          "code": "603708.SH",
+          "name": "宏辉果蔬",
+          "code": "603336.SH",
           "market": "SH",
-          "sector": "连锁超市",
-          "short_term": "→",
+          "sector": "果蔬贸易",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
-      "id": 14,
-      "title": "中国表示愿与瑞典加强各级别交流",
-      "logic": "中国释放与瑞典加强外交交流信号，中瑞关系有望回暖。瑞典是北欧最大经济体，关系改善利好对欧贸易和投资，尤其利好通信设备（华为/中兴海外环境改善）、汽车（沃尔沃/吉利产业链）等领域。",
+      "id": 15,
+      "title": "中共建党105周年：加拿大前共产党领导人赞扬中国成就",
+      "logic": "建党纪念日国际合作声音正面，提振市场对中资资产信心，间接利好A股及港股中国资产",
       "stocks": [
         {
-          "name": "吉利汽车",
-          "code": "0175.HK",
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "大盘指数ETF",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒生中国企业ETF",
+          "code": "2828.HK",
           "market": "HK",
-          "sector": "汽车制造",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
+          "sector": "港股指数ETF",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "中国释放被监禁牧师江天勇，此前特朗普曾请求释放",
+      "logic": "中美在人权议题上出现缓和信号，短期利好中美关系敏感板块（科技出口、贸易），但影响有限",
+      "stocks": [
         {
-          "name": "中兴通讯",
-          "code": "000063.SZ",
+          "name": "立讯精密",
+          "code": "002475.SZ",
           "market": "SZ",
-          "sector": "通信设备",
+          "sector": "消费电子代工",
           "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
+          "mid_term": "→",
+          "long_term": "↑"
         },
         {
-          "name": "中欧贸易ETF",
-          "code": "FLEE",
-          "market": "US",
-          "sector": "欧洲市场",
+          "name": "歌尔股份",
+          "code": "002241.SZ",
+          "market": "SZ",
+          "sector": "声学元件",
           "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "苹果",
+          "code": "AAPL.US",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
         }
       ]
     }
@@ -579,70 +593,97 @@
   "summary": {
     "newly_added": [
       {
-        "label": "中国廉价AI模型追赶美国（新增）",
-        "theme": "中国新型低成本AI模型在编码性能上追赶Anthropic/OpenAI，国产AI能力加速突破",
+        "label": "领克02 800V平台发布（新增）",
+        "theme": "吉利旗下领克02升级版搭载800V快充与激光雷达，Q3进入中国市场",
         "stocks": [
           {
-            "name": "寒武纪",
-            "code": "688256.SH",
+            "name": "吉利汽车",
+            "code": "0175.HK",
             "short_term": "↑↑"
           },
           {
-            "name": "中科曙光",
-            "code": "603019.SH",
+            "name": "禾赛科技",
+            "code": "HSAI.US",
             "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "华尔街银行中国交易复苏（新增）",
-        "theme": "华尔街投行在中国交易业务强劲复苏，外资对中国市场信心回升",
+        "label": "中国密集发射通信卫星（新增）",
+        "theme": "中国以13颗卫星发射推进太空计划，商业航天板块受关注",
         "stocks": [
           {
-            "name": "香港交易所",
-            "code": "0388.HK",
+            "name": "中国卫星",
+            "code": "600118.SH",
             "short_term": "↑↑"
           },
           {
-            "name": "中信证券",
-            "code": "600030.SH",
+            "name": "中国卫通",
+            "code": "601698.SH",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "快递业务量创新纪录（新增）",
+        "theme": "中国快递业务量创历史新高，物流板块获提振",
+        "stocks": [
+          {
+            "name": "顺丰控股",
+            "code": "002352.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中通快递",
+            "code": "2057.HK",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "台海14艘大陆舰船绕台（新增）",
-        "theme": "台湾军方追踪14艘大陆舰船绕台活动，台海紧张持续",
+        "label": "中俄联合海军演习（新增）",
+        "theme": "中俄7月青岛附近联合海军演习，利好军工船舶",
         "stocks": [
           {
-            "name": "台积电",
-            "code": "2330.TW",
+            "name": "中国船舶",
+            "code": "600150.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中船防务",
+            "code": "600685.SH",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "台海紧张升温（新增）",
+        "theme": "台湾恢复反共课程，两岸紧张利好自主可控半导体",
+        "stocks": [
+          {
+            "name": "中芯国际",
+            "code": "0981.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "台风美莎克登陆广西（新增）",
+        "theme": "台风二次登陆广西越南边界，短期利空保险/农业",
+        "stocks": [
+          {
+            "name": "中国人保",
+            "code": "601319.SH",
             "short_term": "↓"
-          },
-          {
-            "name": "中航沈飞",
-            "code": "600760.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "中国释放牧师Ezra Jin（新增）",
-        "theme": "在美国施压下中国释放地下教会牧师，中美关系释放缓和信号",
-        "stocks": [
-          {
-            "name": "阿里巴巴",
-            "code": "9988.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "拼多多",
-            "code": "PDD",
-            "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻，不构成投资建议。股票涨跌受多重因素影响，推演仅供研究参考。"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
 }
