@@ -4,8 +4,8 @@
     "description": "基于2026年7月5日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股市场",
     "category": "daily",
     "source": "hk.k415.win/news 综合整理",
-    "version": "1.0",
-    "update_time": "2026-07-05T09:59:23.416503+08:00",
+    "version": "1.22",
+    "update_time": "2026-07-05T10:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
@@ -463,10 +463,596 @@
           "long_term": "↑↑"
         }
       ]
+    },
+    {
+      "id": 12,
+      "title": "天气迫使美国建国250周年纪念活动疏散",
+      "logic": "极端天气导致美国国庆大型纪念活动紧急疏散，短期冲击旅游保险、酒店及活动运营企业；中长期若极端天气频发，保险公司或提高保费、收紧承保，利好再保险板块。",
+      "stocks": [
+        {
+          "name": "旅行者保险",
+          "code": "TRV",
+          "market": "US",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "迪士尼",
+          "code": "DIS",
+          "market": "US",
+          "sector": "娱乐/旅游",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "万豪国际",
+          "code": "MAR",
+          "market": "US",
+          "sector": "酒店",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "美国国际集团",
+          "code": "AIG",
+          "market": "US",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "香港学生为何前往内地实习",
+      "logic": "港生赴内地实习趋势加强，反映大湾区融合加速与内地对港人才吸引力提升。中长期利好大湾区教育地产及跨境服务；对香港本地高等教育机构构成人才外流压力。",
+      "stocks": [
+        {
+          "name": "新东方",
+          "code": "9901.HK",
+          "market": "HK",
+          "sector": "教育",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中教控股",
+          "code": "0839.HK",
+          "market": "HK",
+          "sector": "教育",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "越秀地产",
+          "code": "0123.HK",
+          "market": "HK",
+          "sector": "大湾区地产",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "如何管理中国作为文明大国的崛起",
+      "logic": "南华早报评论文章讨论中国文明大国叙事的全球影响，暗示中国将在国际治理中发挥更大角色。中长期利好一带一路基建、人民币国际化相关标的，但短期市场情绪受中美博弈压制。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "轨道交通",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国银行",
+          "code": "3988.HK",
+          "market": "HK",
+          "sector": "金融",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "中国著名地下教会创始人出狱",
+      "logic": "长期关押的宗教人士获释，或释放中国在宗教自由问题上的缓和信号。短期改善国际社会对中国人权状况的评价，阶段性缓解中美在人权议题上的对抗，但持续性不确定。",
+      "stocks": [
+        {
+          "name": "中国海外互联网ETF",
+          "code": "KWEB",
+          "market": "US",
+          "sector": "中概科技",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国大盘股ETF",
+          "code": "FXI",
+          "market": "US",
+          "sector": "中国大盘",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "中国习近平誓言发展中朝关系'长期稳定'",
+      "logic": "习主席公开表态稳定中朝关系，降低朝鲜半岛地缘冲突风险。利好东北亚贸易、中朝边境基建及韩国市场风险偏好回升；对军工短期情绪降温。",
+      "stocks": [
+        {
+          "name": "韩国综合指数ETF",
+          "code": "EWY",
+          "market": "US",
+          "sector": "韩国大盘",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "长白山旅游",
+          "code": "603099.SH",
+          "market": "SH",
+          "sector": "旅游/边境贸易",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "韩国电力",
+          "code": "015760.KS",
+          "market": "KR",
+          "sector": "公用事业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "习近平如何压制斯大林和毛泽东策略的异议（WSJ）",
+      "logic": "华尔街日报深度报道习主席领导风格，西方主流媒体负面叙事可能加剧外资对中国政治风险的担忧。短期内或加剧中概股波动，外资配置中国资产更趋谨慎。",
+      "stocks": [
+        {
+          "name": "中国海外互联网ETF",
+          "code": "KWEB",
+          "market": "US",
+          "sector": "中概科技",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "为什么中美两国难以就未来关系达成共识",
+      "logic": "南华早报分析中美关系结构性分歧持续，关税、科技封锁、供应链脱钩等议题短期无解。持续压制半导体、新能源等受制裁板块，利好国产替代和稀土战略资源。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "MP Materials",
+          "code": "MP",
+          "market": "US",
+          "sector": "稀土",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "朝鲜领导人视察武器试验",
+      "logic": "金正恩视察武器试验释放军事强硬信号，加剧朝鲜半岛紧张局势。利好美韩军工、导弹防御系统和东北亚防御板块；压制韩国消费及旅游板块风险偏好。",
+      "stocks": [
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工/国防",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "诺斯罗普格鲁曼",
+          "code": "NOC",
+          "market": "US",
+          "sector": "军工/国防",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "雷神技术",
+          "code": "RTX",
+          "market": "US",
+          "sector": "军工/导弹防御",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "韩华航空航天",
+          "code": "012450.KS",
+          "market": "KR",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "朝中社：习近平表示准备与金正恩合作维护稳定中朝关系",
+      "logic": "中方通过朝中社渠道释放对朝合作信号，试图对冲朝鲜武器试验带来的紧张。两条新闻形成多空交织：短期军工仍有地缘溢价，中期若外交斡旋奏效则利好韩国市场。",
+      "stocks": [
+        {
+          "name": "韩国综合指数ETF",
+          "code": "EWY",
+          "market": "US",
+          "sector": "韩国大盘",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "科技",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "1号风暴已移至中国，但仍造成大雨、危险天气",
+      "logic": "热带风暴穿过中国带来持续暴雨，叠加辽宁暴雨形成多省洪涝。保险赔付压力上升，但灾后重建拉动基建材料需求。农业受损可能推高粮食及猪肉价格。",
+      "stocks": [
+        {
+          "name": "中国人保",
+          "code": "601319.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "0914.HK",
+          "market": "HK",
+          "sector": "建材",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "温氏股份",
+          "code": "300498.SZ",
+          "market": "SZ",
+          "sector": "养殖/农业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "农业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "精疲力尽的中国工人涌向旅游景点'诗人演员'寻求生活智慧",
+      "logic": "中国职场倦怠情绪推动'疗愈旅游'和'精神消费'需求上升，反映消费降级背景下情绪价值消费成为新趋势。利好文旅演艺、短途休闲度假和心理健康服务板块，高价可选消费承压。",
+      "stocks": [
+        {
+          "name": "携程",
+          "code": "TCOM",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "同程旅行",
+          "code": "0780.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "宋城演艺",
+          "code": "300144.SZ",
+          "market": "SZ",
+          "sector": "文旅演艺",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中青旅",
+          "code": "600138.SH",
+          "market": "SH",
+          "sector": "旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
     }
   ],
   "summary": {
     "newly_added": [
+      {
+        "label": "天气迫使美国建国250周年纪念活动疏散（新增）",
+        "theme": "极端天气导致美国国庆大型纪念活动紧急疏散，短期冲击旅游保险、酒店及活动运营企业；中长期若极端天气频发...",
+        "stocks": [
+          {
+            "name": "旅行者保险",
+            "code": "TRV",
+            "short_term": "↓"
+          },
+          {
+            "name": "迪士尼",
+            "code": "DIS",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "香港学生为何前往内地实习（新增）",
+        "theme": "港生赴内地实习趋势加强，反映大湾区融合加速与内地对港人才吸引力提升。中长期利好大湾区教育地产及跨境服...",
+        "stocks": [
+          {
+            "name": "新东方",
+            "code": "9901.HK",
+            "short_term": "→"
+          },
+          {
+            "name": "中教控股",
+            "code": "0839.HK",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "如何管理中国作为文明大国的崛起（新增）",
+        "theme": "南华早报评论文章讨论中国文明大国叙事的全球影响，暗示中国将在国际治理中发挥更大角色。中长期利好一带一...",
+        "stocks": [
+          {
+            "name": "中国交建",
+            "code": "601800.SH",
+            "short_term": "→"
+          },
+          {
+            "name": "中国中车",
+            "code": "601766.SH",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "中国著名地下教会创始人出狱（新增）",
+        "theme": "长期关押的宗教人士获释，或释放中国在宗教自由问题上的缓和信号。短期改善国际社会对中国人权状况的评价，...",
+        "stocks": [
+          {
+            "name": "中国海外互联网ETF",
+            "code": "KWEB",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国大盘股ETF",
+            "code": "FXI",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中国习近平誓言发展中朝关系'长期稳定'（新增）",
+        "theme": "习主席公开表态稳定中朝关系，降低朝鲜半岛地缘冲突风险。利好东北亚贸易、中朝边境基建及韩国市场风险偏好...",
+        "stocks": [
+          {
+            "name": "韩国综合指数ETF",
+            "code": "EWY",
+            "short_term": "↑"
+          },
+          {
+            "name": "长白山旅游",
+            "code": "603099.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "习近平如何压制斯大林和毛泽东策略的异议（（新增）",
+        "theme": "华尔街日报深度报道习主席领导风格，西方主流媒体负面叙事可能加剧外资对中国政治风险的担忧。短期内或加剧...",
+        "stocks": [
+          {
+            "name": "中国海外互联网ETF",
+            "code": "KWEB",
+            "short_term": "↓"
+          },
+          {
+            "name": "阿里巴巴",
+            "code": "9988.HK",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "为什么中美两国难以就未来关系达成共识（新增）",
+        "theme": "南华早报分析中美关系结构性分歧持续，关税、科技封锁、供应链脱钩等议题短期无解。持续压制半导体、新能源...",
+        "stocks": [
+          {
+            "name": "中芯国际",
+            "code": "0981.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "朝鲜领导人视察武器试验（新增）",
+        "theme": "金正恩视察武器试验释放军事强硬信号，加剧朝鲜半岛紧张局势。利好美韩军工、导弹防御系统和东北亚防御板块...",
+        "stocks": [
+          {
+            "name": "洛克希德马丁",
+            "code": "LMT",
+            "short_term": "↑"
+          },
+          {
+            "name": "诺斯罗普格鲁曼",
+            "code": "NOC",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "朝中社：习近平表示准备与金正恩合作维护稳（新增）",
+        "theme": "中方通过朝中社渠道释放对朝合作信号，试图对冲朝鲜武器试验带来的紧张。两条新闻形成多空交织：短期军工仍...",
+        "stocks": [
+          {
+            "name": "韩国综合指数ETF",
+            "code": "EWY",
+            "short_term": "→"
+          },
+          {
+            "name": "洛克希德马丁",
+            "code": "LMT",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "1号风暴已移至中国，但仍造成大雨、危险天（新增）",
+        "theme": "热带风暴穿过中国带来持续暴雨，叠加辽宁暴雨形成多省洪涝。保险赔付压力上升，但灾后重建拉动基建材料需求...",
+        "stocks": [
+          {
+            "name": "中国人保",
+            "code": "601319.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "海螺水泥",
+            "code": "0914.HK",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "精疲力尽的中国工人涌向旅游景点'诗人演员（新增）",
+        "theme": "中国职场倦怠情绪推动'疗愈旅游'和'精神消费'需求上升，反映消费降级背景下情绪价值消费成为新趋势。利...",
+        "stocks": [
+          {
+            "name": "携程",
+            "code": "TCOM",
+            "short_term": "↑"
+          },
+          {
+            "name": "同程旅行",
+            "code": "0780.HK",
+            "short_term": "↑"
+          }
+        ]
+      },
       {
         "label": "密松大坝项目重启（新增）",
         "theme": "缅甸密松水电站15年后重启，中国基建出海重大突破",
