@@ -1,238 +1,310 @@
 {
   "meta": {
     "name": "2026年7月5日全球新闻股票推演",
-    "description": "基于2026年7月5日公开新闻事件，推演对全球股票市场的短中长期影响，覆盖A股（SH/SZ）、港股（HK）、美股（US）等市场",
+    "description": "基于2026年7月5日全球18条新闻事件，推演对A股、港股、美股及亚太欧洲市场的短中长期股票影响。覆盖地缘政治、气候灾害、产业政策、贸易摩擦、科技创新等维度。",
     "category": "daily",
-    "source": "2026-07-05 综合整理",
+    "source": "2026年7月新闻推演分析",
     "version": "1.0",
-    "update_time": "2026-07-05T18:00:00+08:00",
+    "update_time": "2026-07-05T19:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国成功发射新卫星组进入太空",
-      "logic": "中国成功发射新卫星组，表明航天发射任务密集推进，卫星制造、火箭配套、地面测控等产业链受益。短期市场情绪正面，军工航天板块获催化；中期随着卫星互联网等应用落地，相关企业订单增长；长期受益于太空经济战略持续推进。",
+      "title": "中俄将举行联合海军演习及海上巡逻",
+      "logic": "中俄联合海军演习展示两国军事协作深化，短期提振军工板块市场情绪；中长期看，亚太地缘格局变化将推动国防预算持续增长，利好船舶制造和军工电子产业链。",
       "stocks": [
-        {
-          "name": "中国卫星",
-          "code": "600118.SH",
-          "market": "SH",
-          "sector": "航天军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "航天电子",
-          "code": "600879.SH",
-          "market": "SH",
-          "sector": "航天军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "航天科技",
-          "code": "000901.SZ",
-          "market": "SZ",
-          "sector": "航天军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "中国监管机构责令益盛药业暂停两款产品",
-      "logic": "益盛药业被监管责令暂停两款产品，直接影响公司营收和品牌声誉。短期股价承压，投资者信心受损；中期若整改不力可能面临更严厉处罚，同时中药行业监管趋严连带影响板块内其他企业；长期取决于公司整改效果及行业合规化进程。",
-      "stocks": [
-        {
-          "name": "益盛药业",
-          "code": "002566.SZ",
-          "market": "SZ",
-          "sector": "中药",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "同仁堂",
-          "code": "600085.SH",
-          "market": "SH",
-          "sector": "中药",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "片仔癀",
-          "code": "600436.SH",
-          "market": "SH",
-          "sector": "中药",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "东盟秘书长谈东盟-中国合作未来",
-      "logic": "东盟秘书长接受CGTN采访谈东盟-中国合作，利好中国-东盟贸易关系深化。短期提振区域贸易概念股和港口物流板块；中期RCEP框架下双边贸易额有望持续扩大，港口、跨境物流企业受益；长期中国-东盟经济一体化趋势利好西南沿边及北部湾区域经济。",
-      "stocks": [
-        {
-          "name": "北部湾港",
-          "code": "000582.SZ",
-          "market": "SZ",
-          "sector": "港口航运",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "五洲交通",
-          "code": "600368.SH",
-          "market": "SH",
-          "sector": "交通运输",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "中俄将举行联合海军演习与海上巡逻",
-      "logic": "中俄联合海军演习及海上巡逻表明两国军事合作深化，地缘政治信号强烈。短期军工船舶板块获事件催化，市场关注度提升；中期军演常态化可能推动装备采购和升级需求；长期大国博弈背景下国防预算持续增长，利好军工龙头。",
-      "stocks": [
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "船舶制造",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
         {
           "name": "中船防务",
           "code": "600685.SH",
           "market": "SH",
-          "sector": "船舶制造",
+          "sector": "国防军工-船舶制造",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "国防军工-船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         },
         {
           "name": "中航沈飞",
           "code": "600760.SH",
           "market": "SH",
-          "sector": "军工航空",
+          "sector": "国防军工-航空装备",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
+          "long_term": "↑"
+        },
+        {
+          "name": "中国重工",
+          "code": "601989.SH",
+          "market": "SH",
+          "sector": "国防军工-船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
-      "id": 5,
-      "title": "中国抗击酷暑：郑州部署水雾喷洒和降温站",
-      "logic": "极端高温天气推升用电量、空调需求及制冷设备销售。短期电力负荷攀升利好发电企业，空调销量增加利好白电龙头；中期若高温持续，电力保供压力加大，制冷产业链持续受益；长期气候变暖趋势下，制冷需求结构性增长，同时利好新能源电力替代。",
+      "id": 2,
+      "title": "伊朗新任最高领袖穆杰塔巴·哈梅内伊对华持积极态度",
+      "logic": "伊朗新最高领袖对华积极表态，有利于中国在中东的能源战略布局，保障原油进口通道稳定。长期利好中国石油企业的上游资源获取和一带一路能源合作，同时利好人民币国际化在中东的推进。",
       "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "能源-石油开采",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "能源-石油化工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国海油",
+          "code": "0883.HK",
+          "market": "HK",
+          "sector": "能源-海洋石油",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中海油服",
+          "code": "601808.SH",
+          "market": "SH",
+          "sector": "能源-油田服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "暴雨致中国北方5人死亡，热带风暴美莎克袭击南方及越南",
+      "logic": "极端天气频发短期增加保险赔付压力利空保险股；但灾后重建预期利好水利基建和建材板块；同时极端天气影响农作物产量，推升农产品价格利好农业板块；越南受灾可能影响当地制造业供应链，利好国内替代产能。",
+      "stocks": [
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "金融-保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "基建-水利水电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "三峡水利",
+          "code": "600116.SH",
+          "market": "SH",
+          "sector": "公用事业-水利",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "青龙管业",
+          "code": "002457.SZ",
+          "market": "SZ",
+          "sector": "建材-管道",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "农业-种植",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国多地遭遇极端高温天气",
+      "logic": "持续高温推升全社会用电负荷，直接利好电力企业发电量增长；高温刺激空调等制冷设备销售，利好白电龙头；同时高温可能导致部分地区干旱，关注农业和水利板块。",
+      "stocks": [
+        {
+          "name": "长江电力",
+          "code": "600900.SH",
+          "market": "SH",
+          "sector": "公用事业-水力发电",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "华能国际",
+          "code": "600011.SH",
+          "market": "SH",
+          "sector": "公用事业-火力发电",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
         {
           "name": "格力电器",
           "code": "000651.SZ",
           "market": "SZ",
-          "sector": "白色家电",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "sector": "家电-空调",
+          "short_term": "↑↑",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
           "name": "美的集团",
           "code": "000333.SZ",
           "market": "SZ",
-          "sector": "白色家电",
+          "sector": "家电-综合",
           "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中美文化交流：从学习川剧到了解中国",
+      "logic": "CGTN报道中美民间文化交流，释放中美关系非官方层面缓和的积极信号。虽然短期对金融市场直接影响有限，但有助于改善市场对中美关系的悲观预期，间接利好中概股和在美上市中国企业的估值修复。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "科技-电商",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "国电电力",
-          "code": "600795.SH",
-          "market": "SH",
-          "sector": "电力",
-          "short_term": "↑",
+          "name": "京东",
+          "code": "JD",
+          "market": "US",
+          "sector": "科技-电商",
+          "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "长江电力",
-          "code": "600900.SH",
-          "market": "SH",
-          "sector": "电力",
-          "short_term": "↑",
+          "name": "百度",
+          "code": "BIDU",
+          "market": "US",
+          "sector": "科技-AI",
+          "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 6,
-      "title": "中国北方暴雨致5人死亡+热带风暴美莎克袭击南方",
-      "logic": "极端天气造成人员伤亡和财产损失，灾后重建和保险理赔需求上升。短期保险股或承压（赔付增加），但基建修复需求利好工程建筑板块；中期灾后重建项目落地，水泥建材、工程机械需求增长；长期极端天气频发推动防灾减灾基础设施投资增加。",
+      "title": "研究显示中国稀土产业存在关键短板",
+      "logic": "SCMP报道中国稀土产业关键短板（高端加工和专利技术受制于人），短期引发市场对稀土企业技术实力的担忧；但中长期来看，暴露短板将倒逼政策加大稀土深加工研发投入，利好掌握核心分离技术的龙头企业和稀土永磁材料企业。",
       "stocks": [
         {
-          "name": "中国平安",
-          "code": "601318.SH",
+          "name": "北方稀土",
+          "code": "600111.SH",
           "market": "SH",
-          "sector": "保险",
+          "sector": "有色金属-稀土",
           "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "中国太保",
-          "code": "601601.SH",
-          "market": "SH",
-          "sector": "保险",
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "有色金属-稀土",
           "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "中国中铁",
-          "code": "601390.SH",
+          "name": "盛和资源",
+          "code": "600392.SH",
           "market": "SH",
-          "sector": "基建工程",
-          "short_term": "↑",
+          "sector": "有色金属-稀土",
+          "short_term": "↓",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "中科三环",
+          "code": "000970.SZ",
+          "market": "SZ",
+          "sector": "有色金属-稀土永磁",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 7,
-      "title": "台湾大学生齐聚参加两岸交流活动",
-      "logic": "两岸青年交流活动释放两岸关系缓和信号，市场对两岸经贸往来预期改善。短期两岸概念股受情绪提振；中期若交流活动持续扩大，两岸经贸政策或有所松动，利好福建及厦门区域经济和港口贸易；长期两岸和平发展预期下，海峡西岸经济区概念受益。",
+      "title": "欧盟主席警告中国贸易对话必须取得成果",
+      "logic": "欧盟对中国贸易失衡问题施压升级，短期对出口欧盟占比较高的光伏、新能源汽车、家电等板块构成情绪面利空。若后续谈判破裂可能触发新一轮关税，中长期需关注实际贸易政策落地情况。",
       "stocks": [
         {
-          "name": "厦门港务",
-          "code": "000905.SZ",
+          "name": "比亚迪",
+          "code": "002594.SZ",
           "market": "SZ",
-          "sector": "港口航运",
-          "short_term": "↑",
-          "mid_term": "→",
+          "sector": "汽车-新能源整车",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "平潭发展",
-          "code": "000592.SZ",
+          "name": "宁德时代",
+          "code": "300750.SZ",
           "market": "SZ",
-          "sector": "区域开发",
-          "short_term": "↑",
+          "sector": "电力设备-电池",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "电力设备-光伏",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "海尔智家",
+          "code": "600690.SH",
+          "market": "SH",
+          "sector": "家电-白电",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -240,49 +312,298 @@
     },
     {
       "id": 8,
-      "title": "中国致力于以人为本的数字未来",
-      "logic": "新华社发布中国数字未来愿景，政策信号明确支持数字经济发展。短期数字经济、人工智能、大数据等科技板块获政策预期催化；中期数字基础设施建设加速，信创、数据安全等领域受益；长期中国数字化转型战略持续推进，利好科技龙头。",
+      "title": "台湾恢复反共军事课程，台海局势趋紧",
+      "logic": "台湾恢复反共军事课程加剧两岸紧张关系，短期利好军工板块避险情绪；同时台海局势紧张可能影响台积电等台湾半导体企业的供应链稳定性，间接利好大陆半导体自主可控产业链。",
       "stocks": [
         {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "国防军工-航空装备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
           "market": "SZ",
-          "sector": "人工智能",
+          "sector": "国防军工-无人机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "电子-半导体制造",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "海康威视",
-          "code": "002415.SZ",
+          "name": "北方华创",
+          "code": "002371.SZ",
           "market": "SZ",
-          "sector": "安防科技",
+          "sector": "电子-半导体设备",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 9,
-      "title": "纽约独立日8人中枪受伤",
-      "logic": "美国独立日发生枪击事件，枪支暴力问题再度引发社会关注，枪支管制舆论升温。短期市场情绪可能推动枪支销售（恐慌性购买），利好枪支制造商；中期若推动更严格的枪支管制立法，可能抑制民用枪支销售；长期美国枪支文化根深蒂固，需求刚性较强，但政策不确定性增加。",
+      "title": "中国出口1037.7万台国产机器人",
+      "logic": "国产机器人出口突破千万台量级，标志着中国机器人产业在全球竞争力的质变。短期数据超预期直接利好机器人产业链；中期看海外市场拓展加速；长期看国产替代+出海双轮驱动成长逻辑确立。",
       "stocks": [
         {
-          "name": "Axon Enterprise",
-          "code": "AXON.US",
-          "market": "US",
-          "sector": "安防科技",
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "机械设备-工业机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "机械设备-伺服系统",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "机器人",
+          "code": "300024.SZ",
+          "market": "SZ",
+          "sector": "机械设备-机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "绿的谐波",
+          "code": "688017.SH",
+          "market": "SH",
+          "sector": "机械设备-精密减速器",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "厦门工业展会连接中国制造商与36国",
+      "logic": "厦门工业展连接36国采购商，体现中国制造业出海渠道拓宽。短期利好厦门本地上市企业和会展经济概念；中期利好参与展会的出口型制造企业获取新订单。",
+      "stocks": [
+        {
+          "name": "厦门港务",
+          "code": "000905.SZ",
+          "market": "SZ",
+          "sector": "交通运输-港口",
           "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "厦门国贸",
+          "code": "600755.SH",
+          "market": "SH",
+          "sector": "贸易-供应链",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "米奥会展",
+          "code": "300795.SZ",
+          "market": "SZ",
+          "sector": "社会服务-会展",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "小商品城",
+          "code": "600415.SH",
+          "market": "SH",
+          "sector": "商贸-批发市场",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中美外交互动：中国牧师及地下教会人士获释出狱",
+      "logic": "特朗普向习近平提及案件后中国牧师获释，释放中美高层外交渠道仍然畅通的积极信号，有助于缓解市场对中美关系全面恶化的担忧。短期利好中概股情绪修复，但中长期需观察是否有更多实质性缓和措施跟进。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "科技-电商",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD",
+          "market": "US",
+          "sector": "科技-电商",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "汽车-新能源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "科技-互联网",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国军队反腐清洗后晋升两名新上将",
+      "logic": "军队反腐后晋升新上将标志着军队人事调整趋于稳定，有利于国防工业体系的长期规划执行。短期影响中性，中长期有助于军工企业订单交付和管理效率提升。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "国防军工-航空装备",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "国防军工-船舶制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "国防军工-航空发动机",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "土耳其联手英法俄中等国推动乌兹别克斯坦旅游业发展",
+      "logic": "多国联合推动中亚旅游开发是一带一路文旅合作的典型案例。短期情绪面利好旅游出境游板块；中长期利好参与中亚基础设施建设的工程企业和跨境旅游服务商。",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "社会服务-免税",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "众信旅游",
+          "code": "002707.SZ",
+          "market": "SZ",
+          "sector": "社会服务-出境游",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建-交通建设",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "Smith & Wesson Brands",
-          "code": "SWBI.US",
+          "name": "中国铁建",
+          "code": "601186.SH",
+          "market": "SH",
+          "sector": "基建-铁路建设",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "年轻村官为福建古镇注入新活力",
+      "logic": "新华社报道福建乡村振兴案例，体现政策层面对文旅融合和乡村经济的持续关注。对整体股市直接影响有限，但间接利好福建本地旅游和乡村振兴概念股的长期政策预期。",
+      "stocks": [
+        {
+          "name": "平潭发展",
+          "code": "000592.SZ",
+          "market": "SZ",
+          "sector": "农林牧渔-林业",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "福建金森",
+          "code": "002679.SZ",
+          "market": "SZ",
+          "sector": "农林牧渔-林业",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "越南美食赢得香港消费者青睐",
+      "logic": "越南美食在香港走红反映东南亚消费文化对中国市场的渗透，短期对相关个股直接影响有限；但可关注越南经济成长背景下在越南有布局的港股和内地企业，中长期受益于东南亚消费升级。",
+      "stocks": [
+        {
+          "name": "海底捞",
+          "code": "6862.HK",
+          "market": "HK",
+          "sector": "消费-餐饮",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百胜中国",
+          "code": "YUMC",
           "market": "US",
-          "sector": "枪支制造",
-          "short_term": "↑",
+          "sector": "消费-餐饮",
+          "short_term": "→",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -292,82 +613,96 @@
   "summary": {
     "newly_added": [
       {
-        "label": "卫星发射（新增）",
-        "theme": "中国成功发射新卫星组，航天军工板块受益",
+        "label": "中国出口1037.7万台国产机器人（重点新增）",
+        "theme": "国产机器人出口突破千万台量级，全球竞争力质变，利好机器人全产业链",
         "stocks": [
-          { "name": "中国卫星", "code": "600118.SH", "short_term": "↑" },
-          { "name": "航天电子", "code": "600879.SH", "short_term": "↑" },
-          { "name": "航天科技", "code": "000901.SZ", "short_term": "↑" }
+          {
+            "name": "埃斯顿",
+            "code": "002747.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "绿的谐波",
+            "code": "688017.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "汇川技术",
+            "code": "300124.SZ",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "医药监管利空（新增）",
-        "theme": "益盛药业被责令暂停产品，中药监管趋严",
+        "label": "欧盟主席警告中国贸易对话必须取得成果（重点新增）",
+        "theme": "中欧贸易摩擦升级风险，短期利空光伏/新能源汽车/家电出口板块",
         "stocks": [
-          { "name": "益盛药业", "code": "002566.SZ", "short_term": "↓" }
+          {
+            "name": "比亚迪",
+            "code": "002594.SZ",
+            "short_term": "↓"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ",
+            "short_term": "↓"
+          },
+          {
+            "name": "隆基绿能",
+            "code": "601012.SH",
+            "short_term": "↓"
+          }
         ]
       },
       {
-        "label": "东盟合作利好（新增）",
-        "theme": "东盟-中国合作深化，区域贸易与港口受益",
+        "label": "中俄联合海军演习（重点新增）",
+        "theme": "中俄军事协作深化，利好船舶制造和军工电子板块",
         "stocks": [
-          { "name": "北部湾港", "code": "000582.SZ", "short_term": "↑" },
-          { "name": "五洲交通", "code": "600368.SH", "short_term": "↑" }
+          {
+            "name": "中船防务",
+            "code": "600685.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国船舶",
+            "code": "600150.SH",
+            "short_term": "↑"
+          }
         ]
       },
       {
-        "label": "中俄军演（新增）",
-        "theme": "中俄联合海军演习，军工船舶板块催化",
+        "label": "中国稀土产业存在关键短板（重点新增）",
+        "theme": "稀土高端加工技术短板曝光，短期利空但倒逼政策扶持预期",
         "stocks": [
-          { "name": "中国船舶", "code": "600150.SH", "short_term": "↑" },
-          { "name": "中船防务", "code": "600685.SH", "short_term": "↑" },
-          { "name": "中航沈飞", "code": "600760.SH", "short_term": "↑" }
+          {
+            "name": "北方稀土",
+            "code": "600111.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "中国稀土",
+            "code": "000831.SZ",
+            "short_term": "↓"
+          }
         ]
       },
       {
-        "label": "高温天气（新增）",
-        "theme": "极端高温推升用电与空调需求，电力白电受益",
+        "label": "中美外交互动牧师获释（新增）",
+        "theme": "中美高层外交渠道畅通信号，短期利好中概股情绪修复",
         "stocks": [
-          { "name": "格力电器", "code": "000651.SZ", "short_term": "↑" },
-          { "name": "美的集团", "code": "000333.SZ", "short_term": "↑" },
-          { "name": "国电电力", "code": "600795.SH", "short_term": "↑" },
-          { "name": "长江电力", "code": "600900.SH", "short_term": "↑" }
-        ]
-      },
-      {
-        "label": "暴雨灾害（新增）",
-        "theme": "北方暴雨+热带风暴，保险承压基建受益",
-        "stocks": [
-          { "name": "中国平安", "code": "601318.SH", "short_term": "↓" },
-          { "name": "中国太保", "code": "601601.SH", "short_term": "↓" },
-          { "name": "中国中铁", "code": "601390.SH", "short_term": "↑" }
-        ]
-      },
-      {
-        "label": "两岸交流（新增）",
-        "theme": "台湾大学生参加两岸交流活动，两岸关系缓和信号",
-        "stocks": [
-          { "name": "厦门港务", "code": "000905.SZ", "short_term": "↑" },
-          { "name": "平潭发展", "code": "000592.SZ", "short_term": "↑" }
-        ]
-      },
-      {
-        "label": "数字经济（新增）",
-        "theme": "中国致力于以人为本的数字未来，科技板块政策利好",
-        "stocks": [
-          { "name": "科大讯飞", "code": "002230.SZ", "short_term": "↑" },
-          { "name": "海康威视", "code": "002415.SZ", "short_term": "↑" }
-        ]
-      },
-      {
-        "label": "美国枪击（新增）",
-        "theme": "纽约独立日枪击事件，枪支制造与安防概念",
-        "stocks": [
-          { "name": "Axon", "code": "AXON.US", "short_term": "↑" },
-          { "name": "Smith & Wesson", "code": "SWBI.US", "short_term": "↑" }
+          {
+            "name": "阿里巴巴",
+            "code": "BABA",
+            "short_term": "↑"
+          },
+          {
+            "name": "拼多多",
+            "code": "PDD",
+            "short_term": "↑"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻，不构成投资建议"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，实际走势可能与推演存在重大偏差。投资者应独立判断并承担投资风险。"
 }
