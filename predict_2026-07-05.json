@@ -1,135 +1,128 @@
 {
   "meta": {
-    "name": "2026-07-05 全球新闻股票推演",
-    "description": "基于2026年7月5日全球新闻事件，对受影响的股票进行短、中、长期涨跌逻辑推演。覆盖A股、港股、美股、德股、日股、加股及印度市场。",
+    "name": "2026年7月5日全球新闻股票推演",
+    "description": "基于2026年7月5日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股市场",
     "category": "daily",
-    "source": "2026-07-05 综合整理",
-    "version": "1.0.0",
-    "update_time": "2026-07-05T08:55:00+08:00",
+    "source": "hk.k415.win/news 综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-05T09:59:23.416503+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "宝马在德国和美国销量激增，但中国利润警告使股价接近低点",
-      "logic": "宝马欧美销量增长利好营收，但中国作为全球最大汽车市场出现利润警告，新能源转型中BBA在华份额被国产新能源持续挤压。短期利空主导，中期关注中国刺激政策是否落地，长期取决于电动化转型进度。",
+      "title": "乐高副总裁：中国更强的知识产权保护让外国投资者更有信心",
+      "logic": "知识产权保护加强→外资企业对中国市场信心提升→在华业务扩张预期增强→利好外资消费品牌及知识产权密集型企业",
       "stocks": [
         {
-          "name": "宝马",
-          "code": "BMW.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "奔驰",
-          "code": "MBG.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "大众",
-          "code": "VOW3.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "比亚迪股份",
-          "code": "1211.HK",
+          "name": "泡泡玛特",
+          "code": "9992.HK",
           "market": "HK",
-          "sector": "新能源汽车",
+          "sector": "消费/潮玩",
           "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "迪士尼",
+          "code": "DIS",
+          "market": "US",
+          "sector": "娱乐/消费",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "蔚来",
-          "code": "NIO.US",
-          "market": "US",
-          "sector": "新能源汽车",
+          "name": "乐高(未上市)",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "玩具/消费",
           "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 2,
-      "title": "蔚来ES8——蔚来经典阵容的长续航家用SUV",
-      "logic": "蔚来ES8作为旗舰家用SUV获得媒体关注，有助于品牌曝光和潜在销量提振。但蔚来整体交付量仍需持续验证，短期正面情绪、中期看交付数据、长期看盈利拐点。",
+      "title": "中国外长敦促瑞典工商界深化对华合作",
+      "logic": "中欧贸易关系改善信号→瑞典及北欧企业对华出口/投资预期升温→利好中欧贸易相关板块及瑞典在华业务企业",
       "stocks": [
         {
-          "name": "蔚来",
-          "code": "NIO.US",
-          "market": "US",
-          "sector": "新能源汽车",
+          "name": "沃尔沃",
+          "code": "VOLV-B.ST",
+          "market": "SE",
+          "sector": "汽车制造",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "蔚来-SW",
-          "code": "09866.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
+          "name": "爱立信",
+          "code": "ERIC",
+          "market": "US",
+          "sector": "通信设备",
           "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "H&M",
+          "code": "HM-B.ST",
+          "market": "SE",
+          "sector": "服装零售",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "宜家(未上市)",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "家居零售",
+          "short_term": "→",
           "mid_term": "→",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 3,
-      "title": "春秋航空上海——中国国内航班的廉价基地",
-      "logic": "春秋航空以上海为廉价航空基地的定位强化，低成本运营模式在国内出行需求复苏背景下具备竞争优势。短期受益于暑期出行旺季预期，中长期看航线拓展和客座率。",
+      "title": "辽宁暴雨创纪录 3人死亡数千人疏散",
+      "logic": "极端天气→农作物/基础设施受损→保险理赔增加、农产品供应短期收紧→利空保险股，短期利好农产品期货/种植替代区域",
       "stocks": [
         {
-          "name": "春秋航空",
-          "code": "601021.SH",
+          "name": "中国人保",
+          "code": "601319.SH",
           "market": "SH",
-          "sector": "航空运输",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "农业",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "台海冲突：中国恢复在台湾附近争议海域的海上巡逻",
-      "logic": "台海局势升温推升地缘风险溢价，利好大陆军工板块；对台积电等台湾权重股构成短期不确定性压力。中长期关注局势是否持续升级或缓和。",
-      "stocks": [
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑↑",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "航发动力",
-          "code": "600893.SH",
+          "name": "中国太保",
+          "code": "601601.SH",
           "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "台积电",
-          "code": "TSM.US",
-          "market": "US",
-          "sector": "半导体",
+          "sector": "保险",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
@@ -137,59 +130,129 @@
       ]
     },
     {
-      "id": 5,
-      "title": "消息人士称日本考虑自2019年以来首次进口伊朗石油",
-      "logic": "日本若恢复进口伊朗石油，将增加全球原油供给渠道，短期对油价形成一定压制，利空国际原油巨头。对日本炼油商而言，多元化原油来源有助于降低成本，构成利好。",
+      "id": 4,
+      "title": "中美两国难以就未来关系达成共识",
+      "logic": "中美关系持续紧张→贸易摩擦/科技脱钩风险加大→利空出口型企业和半导体等受制裁行业；利好国产替代/自主可控板块",
       "stocks": [
         {
-          "name": "埃克森美孚",
-          "code": "XOM.US",
-          "market": "US",
-          "sector": "能源",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "JXTG控股",
-          "code": "5020.T",
-          "market": "JP",
-          "sector": "石油炼化",
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "消费电子代工",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "INPEX",
-          "code": "1605.T",
-          "market": "JP",
-          "sector": "能源",
-          "short_term": "→",
-          "mid_term": "→",
+          "name": "中兴通讯",
+          "code": "000063.SZ",
+          "market": "SZ",
+          "sector": "通信设备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "美国在化石燃料支出方面数十年来首次超过中国",
+      "logic": "美国化石燃料投资超越中国→美国传统能源产能扩张、中国加速清洁能源转型→利空中国煤炭/石油上游，利好新能源和油服美企",
+      "stocks": [
+        {
+          "name": "中国神华",
+          "code": "601088.SH",
+          "market": "SH",
+          "sector": "煤炭",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
+        },
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "埃克森美孚",
+          "code": "XOM",
+          "market": "US",
+          "sector": "石油天然气",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "斯伦贝谢",
+          "code": "SLB",
+          "market": "US",
+          "sector": "油服",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 6,
-      "title": "加拿大在北约峰会前推动全球国防银行",
-      "logic": "加拿大推动全球国防银行机制，表明西方国家国防投入持续扩大趋势。加拿大本土军工企业有望获得更多订单，短期受北约峰会情绪催化。",
+      "title": "中国茶叶连锁店Molly Tea因商标侵权被判向Louis Vuitton支付150万美元",
+      "logic": "中国本土品牌商标侵权案→品牌合规风险上升→短期利空中国消费品牌出海形象，但中长期推动品牌升级和原创设计意识，利好注重IP和设计的本土品牌",
       "stocks": [
         {
-          "name": "CAE Inc.",
-          "code": "CAE.TO",
-          "market": "CA",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "LVMH",
+          "code": "MC.PA",
+          "market": "FR",
+          "sector": "奢侈品",
+          "short_term": "→",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "庞巴迪",
-          "code": "BBD-B.TO",
-          "market": "CA",
-          "sector": "国防军工",
-          "short_term": "↑",
+          "name": "奈雪的茶",
+          "code": "2150.HK",
+          "market": "HK",
+          "sector": "茶饮消费",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "泡泡玛特",
+          "code": "9992.HK",
+          "market": "HK",
+          "sector": "消费/IP",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         }
@@ -197,101 +260,207 @@
     },
     {
       "id": 7,
-      "title": "印度特使支持更多中国投资以加强两国关系",
-      "logic": "中印关系缓和信号有利于双边贸易和投资恢复。印度市场对中国电子、新能源、基建企业重新打开，利好有印度业务的中国公司。",
+      "title": "1号风暴已移至中国 仍造成大雨和危险天气",
+      "logic": "台风过境→东南沿海农业/物流/旅游短期受冲击→保险理赔增加、基建修复需求上升→利空保险/旅游，利好基建建材",
       "stocks": [
         {
-          "name": "小米集团-W",
-          "code": "1810.HK",
-          "market": "HK",
-          "sector": "消费电子",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
-          "name": "比亚迪股份",
-          "code": "1211.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
+          "name": "海螺水泥",
+          "code": "600585.SH",
+          "market": "SH",
+          "sector": "建材",
           "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 8,
-      "title": "印度联邦部长为2500亿卢比阿达尼国防制造工厂奠基",
-      "logic": "阿达尼集团获政府支持建设大型国防制造工厂，强化其在印度国防工业地位。2500亿卢比（约30亿美元）投资规模可观，利好集团旗下上市公司。",
+      "title": "中国推出新的商业星座卫星群",
+      "logic": "商业卫星星座发射→中国商业航天加速→利好卫星制造/发射服务/卫星互联网产业链，中长期打开低轨卫星通信市场",
       "stocks": [
         {
-          "name": "阿达尼企业",
-          "code": "ADE.IN",
-          "market": "IN",
-          "sector": "综合企业",
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天/卫星制造",
           "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "阿达尼港口",
-          "code": "ADSEZ.IN",
-          "market": "IN",
-          "sector": "港口物流",
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天电子",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "航天连接器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国卫通",
+          "code": "601698.SH",
+          "market": "SH",
+          "sector": "卫星通信",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 9,
-      "title": "印度政府将洋葱采购价格提高13%至2125卢比/公担",
-      "logic": "印度提高洋葱采购价13%，直接提升农民收入、推升食品通胀预期。利好农业相关和农村消费板块，但食品加工企业成本端承压。",
+      "title": "国航9月4日起开通北京—布加勒斯特航线",
+      "logic": "国际航线新增→中国与中东欧直航扩容→利好航空出行及旅游，中长期推动一带一路沿线经贸交流",
       "stocks": [
         {
-          "name": "马恒达",
-          "code": "M&M.IN",
-          "market": "IN",
-          "sector": "农业设备",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "印度斯坦联合利华",
-          "code": "HINDUNILVR.IN",
-          "market": "IN",
-          "sector": "消费品",
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空运输",
           "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "上海机场",
+          "code": "600009.SH",
+          "market": "SH",
+          "sector": "机场运营",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 10,
-      "title": "中非农业合作助力黑玉米产量翻番",
-      "logic": "中非农业合作成果显著，黑玉米产量翻番有助于中国农业技术和种子企业拓展非洲市场。农业板块获得政策面和基本面双重支撑。",
+      "title": "中国联通沃+宽带——家庭光纤捆绑推动家庭流媒体",
+      "logic": "中国联通推出光纤+流媒体捆绑套餐→家庭宽带ARPU提升、流媒体生态扩容→利好运营商及流媒体内容平台",
       "stocks": [
         {
-          "name": "隆平高科",
-          "code": "000998.SZ",
-          "market": "SZ",
-          "sector": "农业种业",
+          "name": "中国联通",
+          "code": "600050.SH",
+          "market": "SH",
+          "sector": "电信运营",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
-          "name": "大北农",
-          "code": "002385.SZ",
-          "market": "SZ",
-          "sector": "农业",
+          "name": "中国联通",
+          "code": "0762.HK",
+          "market": "HK",
+          "sector": "电信运营",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "爱奇艺",
+          "code": "IQ",
+          "market": "US",
+          "sector": "流媒体",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
+        },
+        {
+          "name": "芒果超媒",
+          "code": "300413.SZ",
+          "market": "SZ",
+          "sector": "流媒体/内容",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "缅甸在中断15年后重启中国支持的密松大坝项目",
+      "logic": "密松水电站项目重启→中国在东南亚基建/水电投资取得突破→利好水电建设、电力设备出口及一带一路基建企业",
+      "stocks": [
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "水电建设",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国能建",
+          "code": "601868.SH",
+          "market": "SH",
+          "sector": "能源基建",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "东方电气",
+          "code": "600875.SH",
+          "market": "SH",
+          "sector": "电力设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三峡能源",
+          "code": "600905.SH",
+          "market": "SH",
+          "sector": "清洁能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     }
@@ -299,29 +468,39 @@
   "summary": {
     "newly_added": [
       {
-        "label": "台海局势升温（新增）",
-        "theme": "中国恢复台湾附近争议海域海上巡逻，地缘风险推升军工板块",
+        "label": "密松大坝项目重启（新增）",
+        "theme": "缅甸密松水电站15年后重启，中国基建出海重大突破",
         "stocks": [
-          { "name": "中航沈飞", "code": "600760.SH", "short_term": "↑↑" },
-          { "name": "航发动力", "code": "600893.SH", "short_term": "↑↑" },
-          { "name": "台积电", "code": "TSM.US", "short_term": "↓" }
+          {
+            "name": "中国电建",
+            "code": "601669.SH",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "阿达尼2500亿卢比国防工厂（新增）",
-        "theme": "阿达尼集团获印度政府支持建设大型国防制造工厂",
+        "label": "中国商业卫星星座发射（新增）",
+        "theme": "中国商业航天加速，低轨卫星互联网产业启动",
         "stocks": [
-          { "name": "阿达尼企业", "code": "ADE.IN", "short_term": "↑↑" }
+          {
+            "name": "中国卫星",
+            "code": "600118.SH",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "日本考虑进口伊朗石油（新增）",
-        "theme": "日本自2019年以来首次考虑进口伊朗石油，利好日本炼油商",
+        "label": "美国化石燃料支出超中国（新增）",
+        "theme": "能源投资重心转移，中美能源战略分化",
         "stocks": [
-          { "name": "JXTG控股", "code": "5020.T", "short_term": "↑" }
+          {
+            "name": "隆基绿能",
+            "code": "601012.SH",
+            "short_term": "↑"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。预测方向仅供参考，实际市场走势受多重因素影响，请投资者理性决策、风险自担。"
+  "disclaimer": "以上分析基于2026年7月5日公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，预测仅供参考，请投资者自行判断决策。"
 }
