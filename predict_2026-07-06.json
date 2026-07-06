@@ -1,291 +1,843 @@
 {
   "meta": {
     "name": "2026年7月6日全球新闻股票推演",
-    "description": "基于2026年7月6日 hk.k415.win/news 采集的20条全球新闻，推演相关股票短中长期影响",
+    "description": "基于2026年7月6日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股市场",
     "category": "daily",
-    "source": "2026年7月6日 hk.k415.win/news 综合整理",
-    "version": "1.0.0",
-    "update_time": "2026-07-06T12:00:00+08:00",
+    "source": "https://hk.k415.win/news/ 2026年7月6日",
+    "version": "1.0",
+    "update_time": "2026-07-06T15:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "德约科维奇温网创纪录获第106胜",
-      "logic": "温网作为顶级体育IP带动博彩、体育用品、媒体转播产业链。德约科维奇赞助商Lacoste及赛事赞助商受益于曝光度提升。温网热潮短期提振运动品牌及体育媒体板块。",
+      "title": "天问二号探测器成功抵达目标小行星，开始科学探索",
+      "logic": "天问二号成功抵达小行星标志着中国深空探测能力迈上新台阶。航天五院作为核心研制单位直接受益，卫星制造、精密零部件、火箭配套等全产业链需求将持续增长。商业航天赛道关注度提升，2026年航天发射高密度延续。",
       "stocks": [
-        {"name": "Lacoste (Maus Frères)", "code": "PRIVATE", "market": "PRIVATE", "sector": "奢侈品/运动服饰", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "Nike", "code": "NKE", "market": "US", "sector": "运动服饰", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "IMG/Endeavor", "code": "EDR", "market": "US", "sector": "体育经纪/媒体", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "陕西华达",
+          "code": "301517.SZ",
+          "market": "SZ",
+          "sector": "航天连接器",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "航天电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 2,
-      "title": "北部都会区7万套住房目标被认为是良好基准",
-      "logic": "香港北部都会区建设进入实质阶段，7万套住房目标为基建和地产商提供明确增量。利好香港本地建筑、建材及拥有北部都会区土储的地产商。中长期随着人口导入带动零售消费。",
+      "title": "中俄将举行联合海军演习",
+      "logic": "中俄海上联合演习提振军工船舶板块情绪，舰船制造、海军装备、舰载电子等产业链受益。中船系核心标的手持订单饱满，常态化联合巡航推升长期装备需求。短期地缘催化+中期订单释放逻辑清晰。",
       "stocks": [
-        {"name": "新鸿基地产", "code": "0016.HK", "market": "HK", "sector": "地产", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "恒基兆业地产", "code": "0012.HK", "market": "HK", "sector": "地产", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "长实集团", "code": "1113.HK", "market": "HK", "sector": "地产", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国建筑国际", "code": "3311.HK", "market": "HK", "sector": "基建建筑", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国动力",
+          "code": "600482.SH",
+          "market": "SH",
+          "sector": "舰船动力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "海军电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "舰载机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 3,
-      "title": "孟加拉国在改善与印度关系的同时也在争取中国",
-      "logic": "孟加拉国新政府在中印间采取对冲外交，推动中国参与提斯塔河治理和孟加拉湾港口经济区建设，同时恢复与印度贸易。利好中资基建出海和在孟有业务的纺织服装代工企业。印度因边境安全和能源管道地位获提振。",
+      "title": "澳大利亚与斐济签署共同防御协议以加强太平洋安全",
+      "logic": "澳斐防御联盟是澳大利亚在南太平洋制衡中国影响力的外交胜利，加剧区域地缘博弈。中国军工板块受此催化可获短期情绪提振，但实际订单拉动有限。中长期看，南太平洋安全格局变化可能影响中国远洋战略布局。",
       "stocks": [
-        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "申洲国际", "code": "2313.HK", "market": "HK", "sector": "纺织服装代工", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 4,
-      "title": "达美乐中国深化市场领导地位，Q2门店持续扩张销售势头改善",
-      "logic": "DPC Dash Q2净新增235家门店，总数达1550家覆盖75城，5-6月同店销售转正。会员达4190万同比增39%。与新城控股战略合作加速下沉市场扩张。Q2数据显示中国披萨市场渗透率持续提升。",
+      "title": "中国与芬兰同意加强合作，共同应对挑战",
+      "logic": "中芬合作聚焦新能源、锂电池材料和通信技术领域。芬兰是欧洲锂电池前驱体和负极材料重要布局地，中国企业如当升科技、杉杉股份等在芬兰有产能规划，合作深化利好中资锂电材料出海和北欧新能源供应链。",
       "stocks": [
-        {"name": "达势股份(达美乐中国)", "code": "1405.HK", "market": "HK", "sector": "餐饮连锁", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "百胜中国", "code": "9987.HK", "market": "HK", "sector": "餐饮连锁", "short_term": "↑", "mid_term": "→", "long_term": "↑"},
-        {"name": "新城控股", "code": "601155.SH", "market": "SH", "sector": "商业地产", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "当升科技",
+          "code": "300073.SZ",
+          "market": "SZ",
+          "sector": "锂电材料",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "杉杉股份",
+          "code": "600884.SH",
+          "market": "SH",
+          "sector": "锂电材料",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中伟股份",
+          "code": "300919.SZ",
+          "market": "SZ",
+          "sector": "锂电前驱体",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 5,
-      "title": "越南押注40亿美元港口以牵制中国海军力量",
-      "logic": "越南在靠近柬埔寨边境建设新港口，旨在削弱中国对柬埔寨港口的依赖，影响中国在南海及中南半岛的航运和贸易路线。短期利好越南基建概念和中资替代性港口标的，长期强化东南亚地缘竞争格局。",
+      "title": "中国在新监管高层领导下加大金融风险清理力度",
+      "logic": "金融风险清理短期压制中小金融机构，众邦银行被接管等事件增加市场对中小银行风险担忧。但中长期看，金融法落地后行业合规化、头部集中趋势明确，利好大型银行和头部券商。保险板块受自律新规短期承压，长期利好。",
       "stocks": [
-        {"name": "招商局港口", "code": "0144.HK", "market": "HK", "sector": "港口航运", "short_term": "↓", "mid_term": "→", "long_term": "↓"},
-        {"name": "中远海运港口", "code": "1199.HK", "market": "HK", "sector": "港口航运", "short_term": "↓", "mid_term": "→", "long_term": "↓"},
-        {"name": "越南工商业股份银行", "code": "CTG.VN", "market": "TH", "sector": "银行", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "国泰海通",
+          "code": "600837.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "建设银行",
+          "code": "0939.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 6,
-      "title": "台湾为何为新一阶段对华紧张局势备战",
-      "logic": "台湾恢复军事院校反共爱国教育，24年来首次。同时监控到110+中国军舰穿越第一岛链。两岸紧张局势升级，利好台湾本土军工、网络安全和美国对台军售相关企业。半导体供应链因地缘风险承压。",
+      "title": "中国股市本周开局上涨",
+      "logic": "A股本周开门红提振市场情绪，券商板块直接受益于交投活跃度提升。中报业绩预告季来临，国泰海通等券商Q2业绩大幅增长验证权益市场上行弹性。短期情绪利好但需警惕获利回吐。",
       "stocks": [
-        {"name": "汉翔航空工业", "code": "2634.TW", "market": "TW", "sector": "军工航空", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "雷神技术(RTX)", "code": "RTX", "market": "US", "sector": "军工", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "台积电", "code": "2330.TW", "market": "TW", "sector": "半导体", "short_term": "↓", "mid_term": "→", "long_term": "↓"},
-        {"name": "洛克希德·马丁", "code": "LMT", "market": "US", "sector": "军工", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "国泰海通",
+          "code": "600837.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "东方财富",
+          "code": "300059.SZ",
+          "market": "SZ",
+          "sector": "券商/互金",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "华泰证券",
+          "code": "601688.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 7,
-      "title": "观点：中国是世界的巨大希望",
-      "logic": "前圭亚那总统撰文称赞中国为全球和平与AI治理提供方案，一带一路持续输出基建投资。主观色彩浓厚，对市场直接影响有限，但反映出全球南方国家对中国的正面叙事，中长期利好中资出海。",
+      "title": "粤港澳大湾区高度互联推动科技创新",
+      "logic": "广东省服务业扩能提质方案明确推进大湾区算力枢纽、6G/卫星互联网等前沿布局。数据中心（IDC）、光通信、半导体封测等硬科技赛道直接受益，奥飞数据、光库科技等广东本土科技企业政策红利确定性高。",
       "stocks": [
-        {"name": "中国中车", "code": "601766.SH", "market": "SH", "sector": "轨道交通", "short_term": "→", "mid_term": "→", "long_term": "↑"},
-        {"name": "中国铁建", "code": "601186.SH", "market": "SH", "sector": "基建工程", "short_term": "→", "mid_term": "→", "long_term": "↑"}
+        {
+          "name": "奥飞数据",
+          "code": "300738.SZ",
+          "market": "SZ",
+          "sector": "IDC/云计算",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "光库科技",
+          "code": "300620.SZ",
+          "market": "SZ",
+          "sector": "光通信器件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "佰维存储",
+          "code": "688525.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "长飞光纤",
+          "code": "601869.SH",
+          "market": "SH",
+          "sector": "光通信",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 8,
-      "title": "FGR将向中国市场推出PureGRAPH CEM产品",
-      "logic": "First Graphene与第六元素签署MOU进入全球最大水泥市场中国。中国水泥年产量超23亿吨，占全球15%碳排放。石墨烯添加剂可提升水泥性能并助力减碳。若年售200吨触发合资建厂条款，中国市场潜力巨大。",
+      "title": "茉莉茶品牌被勒令向路易威登赔偿150万美元引热议",
+      "logic": "茉莉奶白千万级商标侵权案成为新茶饮行业标杆判决，暴露新消费品牌视觉抄袭风险。已上市茶饮品牌（奈雪、茶百道、蜜雪冰城等）短期面临知识产权合规成本上升压力，但头部品牌由于合规体系完善，中长期反而受益于行业出清。",
       "stocks": [
-        {"name": "First Graphene", "code": "FGR.AX", "market": "AU", "sector": "新材料/石墨烯", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "水泥建材", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国建材", "code": "3323.HK", "market": "HK", "sector": "水泥建材", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "奈雪的茶",
+          "code": "2150.HK",
+          "market": "HK",
+          "sector": "新茶饮",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "茶百道",
+          "code": "2555.HK",
+          "market": "HK",
+          "sector": "新茶饮",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "蜜雪集团",
+          "code": "2097.HK",
+          "market": "HK",
+          "sector": "新茶饮",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "霸王茶姬",
+          "code": "CHA.US",
+          "market": "US",
+          "sector": "新茶饮",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 9,
-      "title": "超强台风巴威袭击美国罗塔岛",
-      "logic": "台风巴威袭击美国关岛附近罗塔岛，预计带来财产损失。短期利好财产保险/再保险板块赔付预期推升费率，同时利空在关岛及太平洋岛屿有基建项目的建筑企业。关岛军事基地受损可能加速国防基建投入。",
+      "title": "中国成功发射新一批千帆极轨卫星",
+      "logic": "千帆星座组网加速，2026年发射密度大幅提升，卫星制造、通信载荷、地面终端全产业链迎来订单爆发。上海瀚讯作为独家通信载荷供应商深度绑定，铖昌科技T/R芯片、航天电子测控系统等核心环节确定性高。",
       "stocks": [
-        {"name": "伯克希尔哈撒韦", "code": "BRK.B", "market": "US", "sector": "保险/再保险", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "慕尼黑再保险", "code": "MUV2.DE", "market": "DE", "sector": "再保险", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "瑞士再保险", "code": "SREN.CH", "market": "CH", "sector": "再保险", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "上海瀚讯",
+          "code": "300762.SZ",
+          "market": "SZ",
+          "sector": "卫星通信载荷",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "卫星制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "铖昌科技",
+          "code": "001270.SZ",
+          "market": "SZ",
+          "sector": "相控阵T/R芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "测控通信",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "国博电子",
+          "code": "688375.SH",
+          "market": "SH",
+          "sector": "射频芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 10,
-      "title": "中国想解决机器人领域最难的课题——制造灵巧手",
-      "logic": "中国灵巧手产业规模从2024年130亿元飙升至2026年超500亿元。LinkerBot月产5000只手、Wuji Technology等初创快速崛起。中国供应链优势（电动车产业链外溢）使硬件成本骤降。政策将'具身智能'列为万亿级新赛道。",
+      "title": "中国锂电池库存预警：碳酸锂现货交易大幅萎缩",
+      "logic": "碳酸锂现货交易萎缩、库存预警信号闪现，短期锂价承压。但中长期供需紧平衡趋势未变（2026年全球锂需求增16%而供给仅增13%），储能需求爆发支撑价格中枢。锂矿股短期回调后反是布局机会。",
       "stocks": [
-        {"name": "汇川技术", "code": "300124.SZ", "market": "SZ", "sector": "工业自动化/伺服电机", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "绿的谐波", "code": "688017.SH", "market": "SH", "sector": "机器人减速器", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "拓普集团", "code": "601689.SH", "market": "SH", "sector": "汽车零部件/机器人", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "三花智控", "code": "002050.SZ", "market": "SZ", "sector": "机电执行器", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "宇树科技(Unitree)", "code": "PRIVATE", "market": "PRIVATE", "sector": "人形机器人", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"}
+        {
+          "name": "赣锋锂业",
+          "code": "002460.SZ",
+          "market": "SZ",
+          "sector": "锂矿/锂盐",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "天齐锂业",
+          "code": "002466.SZ",
+          "market": "SZ",
+          "sector": "锂矿/锂盐",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中矿资源",
+          "code": "002738.SZ",
+          "market": "SZ",
+          "sector": "锂矿/锂盐",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "永兴材料",
+          "code": "002756.SZ",
+          "market": "SZ",
+          "sector": "锂云母",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 11,
-      "title": "暴雨致北方五人死亡，热带风暴美莎克袭击南方和越南",
-      "logic": "中国北方暴雨和南方台风美莎克导致洪水、人员伤亡及财产损失。短期利空受影响地区的农业、旅游及地方银行。保险理赔增加，灾后重建利好建材和工程机械。越南广宁省同样受损，影响中越边境贸易。",
+      "title": "世界银行任命中国、蒙古和韩国新区域主管",
+      "logic": "世界银行人事变动对资本市场直接影响有限。但新区域主管可能调整对中国等东亚国家的贷款和项目策略，间接影响基建、新能源等领域的国际融资环境。短期几无影响。",
       "stocks": [
-        {"name": "中国人保", "code": "601319.SH", "market": "SH", "sector": "财产保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国太保", "code": "601601.SH", "market": "SH", "sector": "财产保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "三一重工", "code": "600031.SH", "market": "SH", "sector": "工程机械", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "水泥建材", "short_term": "→", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 12,
-      "title": "澳大利亚与斐济达成里程碑式防务联盟以遏制中国影响力",
-      "logic": "澳大利亚与斐济签署Ocean of Peace防务联盟，包括互防条款。这是澳大利亚第四个正式盟约，被视为对中国在太平洋影响力（所罗门群岛治安协议等）的重大反击。利好澳大利亚军工及区域矿产安全，利空中国太平洋岛国基建拓展。",
+      "title": "中国企业出海不再只是卖产品——从无人机到电动自行车构建海外生态",
+      "logic": "中国企业出海进入3.0阶段，从单纯出口商品转向输出品牌、供应链和服务体系。XAG（农业无人机）、TCL（Mini LED电视）、ADO（电动自行车）等企业海外营收占比持续提升。出海概念板块中长期受益于全球化生态构建，TCL电子、九号公司等标的直接受益。",
       "stocks": [
-        {"name": "必和必拓(BHP)", "code": "BHP.AX", "market": "AU", "sector": "矿业", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "力拓(RIO)", "code": "RIO.AX", "market": "AU", "sector": "矿业", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "Austal", "code": "ASB.AX", "market": "AU", "sector": "军工造船", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建工程", "short_term": "↓", "mid_term": "→", "long_term": "↓"}
+        {
+          "name": "TCL电子",
+          "code": "1070.HK",
+          "market": "HK",
+          "sector": "消费电子出海",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "九号公司",
+          "code": "689009.SH",
+          "market": "SH",
+          "sector": "短交通出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "无人机出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "爱玛科技",
+          "code": "603529.SH",
+          "market": "SH",
+          "sector": "电动车出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 13,
-      "title": "中国觅风与华谊签署物理AI供应协议",
-      "logic": "觅风科技（智元机器人子公司）与华谊科技签署IMU惯性测量单元供应协议，用于MEgo物理AI数据采集设备。华谊从智能驾驶IMU拓展至具身智能数据采集硬件，产业链从汽车延伸至机器人。利好中国传感器及具身智能数据生态。",
+      "title": "台湾称正追踪中国海军活动的上升趋势",
+      "logic": "台海局势持续紧张催化军工板块情绪，海军装备和舰载机产业链需求刚性最强。中国船舶、中航沈飞等核心标的手持订单饱满，地缘政治溢价将持续。但需注意情绪退潮后短期回调风险。",
       "stocks": [
-        {"name": "华谊科技", "code": "603042.SH", "market": "SH", "sector": "传感器/MEMS", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "智元机器人", "code": "PRIVATE", "market": "PRIVATE", "sector": "具身智能机器人", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "韦尔股份", "code": "603501.SH", "market": "SH", "sector": "传感器/图像", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "船舶总装",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "舰载机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "海军电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北方导航",
+          "code": "600435.SH",
+          "market": "SH",
+          "sector": "精确制导",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 14,
-      "title": "中国Z.ai成为OpenAI和Anthropic的新挑战者",
-      "logic": "智谱AI(Z.ai)发布GLM-5.2模型，在代码和AI Agent能力上接近美国领先水平，但成本仅为其零头。印度市场定价比ChatGPT Plus低19%。在美国AI出口限制背景下，中国开源低成本模型获开发者青睐，重塑全球AI竞争格局。",
+      "title": "铁矿石过剩加剧，中国钢铁利润持续承压",
+      "logic": "铁矿石进入新扩产周期，四大矿山垄断地位削弱，矿价面临下行压力。钢企成本端受益但需求端疲软（粗钢产量跌破10亿吨），行业利润整体承压。高端特钢企业（宝钢股份等）凭借技术壁垒和产品溢价相对抗跌。",
       "stocks": [
-        {"name": "智谱AI(Z.ai)", "code": "PRIVATE", "market": "PRIVATE", "sector": "AI大模型", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "百度", "code": "9888.HK", "market": "HK", "sector": "AI/搜索", "short_term": "↓", "mid_term": "→", "long_term": "↓"},
-        {"name": "阿里巴巴", "code": "9988.HK", "market": "HK", "sector": "AI/云计算", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "中科曙光", "code": "603019.SH", "market": "SH", "sector": "AI算力基础设施", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"}
+        {
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "华菱钢铁",
+          "code": "000932.SZ",
+          "market": "SZ",
+          "sector": "钢铁",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "太钢不锈",
+          "code": "000825.SZ",
+          "market": "SZ",
+          "sector": "特钢",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 15,
-      "title": "中国部署射程超350公里导弹，欧洲流星导弹终遇对手",
-      "logic": "中国PL-15已在2025年印巴冲突中实战验证，PL-17射程超350公里可攻击加油机/预警机。英国已取消流星导弹中期升级，英法启动为期12个月的替代方案研究。利好中国军工航空产业链，利空欧洲导弹制造商MBDA及F-35整合延期相关的企业。",
+      "title": "华北电缆行业会议：河北丹舒铝业邀您共赴2026 SMM盛会",
+      "logic": "华北电缆行业会议推动铝电缆和铝合金线材应用标准化，利好铝加工和电缆制造企业。电力基建投资增长叠加特高压建设推进，铝缆替代铜缆趋势下的铝加工企业受益。",
       "stocks": [
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "洪都航空", "code": "600316.SH", "market": "SH", "sector": "导弹/无人机", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "空中客车(Airbus/MBDA)", "code": "AIR.PA", "market": "FR", "sector": "军工/航空", "short_term": "↓", "mid_term": "→", "long_term": "↓"},
-        {"name": "BAE Systems", "code": "BA.L", "market": "UK", "sector": "军工", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "洛克希德·马丁", "code": "LMT", "market": "US", "sector": "军工", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "明泰铝业",
+          "code": "601677.SH",
+          "market": "SH",
+          "sector": "铝加工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "起帆电缆",
+          "code": "605222.SH",
+          "market": "SH",
+          "sector": "电缆制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国铝业",
+          "code": "601600.SH",
+          "market": "SH",
+          "sector": "铝业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 16,
-      "title": "孟加拉国为何不能忽视缅甸的外交回归",
-      "logic": "缅甸军政府领导人敏昂莱先后访问印度和中国实现外交突围。孟加拉面临罗兴亚难民危机升级（118万人）、边境毒品走私和地雷问题。若印缅中走廊绕过孟加拉将使孟失去区域枢纽地位。利好印缅基建走廊和印度东北部发展。",
+      "title": "中国北方暴雨致5人死亡",
+      "logic": "北方暴雨短期冲击保险板块赔付压力，但水利基建、防汛设备、防灾建材等板块受益于灾后重建需求。中国平安等险企启动应急机制，估损上升但头部险企承保能力充足。中长期水利投资加码确定性高。",
       "stocks": [
-        {"name": "印度国家火电(NTPC)", "code": "NTPC.IN", "market": "IN", "sector": "能源基建", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "Larsen & Toubro", "code": "LT.IN", "market": "IN", "sector": "基建工程", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "中国石油", "code": "601857.SH", "market": "SH", "sector": "能源/中缅管道", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "东方雨虹",
+          "code": "002271.SZ",
+          "market": "SZ",
+          "sector": "防水建材",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "青龙管业",
+          "code": "002457.SZ",
+          "market": "SZ",
+          "sector": "水利管道",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "泰福泵业",
+          "code": "300992.SZ",
+          "market": "SZ",
+          "sector": "防汛排涝",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "长江电力",
+          "code": "600900.SH",
+          "market": "SH",
+          "sector": "水电",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 17,
-      "title": "中国多地航班大面积延误取消，数千旅客滞留",
-      "logic": "中国多地航班大面积延误取消导致数千旅客滞留。短期利空航空公司和机场运营收入（退票、赔偿、旅客滞留成本），但通常为一次性事件影响。台风季持续可能加剧Q3航空业经营压力。",
+      "title": "美国牛肉对华出口有望回升，竞争对手配额耗尽",
+      "logic": "中国对进口牛肉实施配额管理，巴西、阿根廷配额用尽后美国牛肉有望填补缺口。对国内肉牛养殖企业构成短期竞争压力，但对下游屠宰加工企业而言原材料来源多元化有利。进口牛肉增加可能压制国内牛肉价格上行空间。",
       "stocks": [
-        {"name": "中国国航", "code": "601111.SH", "market": "SH", "sector": "航空运输", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国东航", "code": "600115.SH", "market": "SH", "sector": "航空运输", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "南方航空", "code": "600029.SH", "market": "SH", "sector": "航空运输", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "上海机场", "code": "600009.SH", "market": "SH", "sector": "机场运营", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "福成股份",
+          "code": "600965.SH",
+          "market": "SH",
+          "sector": "肉牛养殖",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "光明肉业",
+          "code": "600073.SH",
+          "market": "SH",
+          "sector": "肉类加工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "西部牧业",
+          "code": "300106.SZ",
+          "market": "SZ",
+          "sector": "畜牧业",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 18,
-      "title": "中国歼-36战机航程覆盖1500英里外台湾，美军F-47无法比拟",
-      "logic": "美军F-47作战半径官方数据1000+海里，仍无法从关岛不经空中加油抵达台湾海峡。中国歼-36验证机据信拥有约1500海里作战半径。美军空中加油机队老化且NGAS隐身加油机项目推迟至2036年，太平洋空中优势对比出现结构性变化。利好中国航空工业及远程打击武器链，利空依赖加油机的美军空中力量体系。",
+      "title": "重庆调解员获颁七一勋章",
+      "logic": "七一勋章授予基层调解员体现社会治理导向，但无直接资本市场关联。属于社会新闻，对个股无显著影响。",
       "stocks": [
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空/战斗机", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "航发动力", "code": "600893.SH", "market": "SH", "sector": "航空发动机", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "波音", "code": "BA", "market": "US", "sector": "军工/加油机", "short_term": "↓", "mid_term": "→", "long_term": "↓"},
-        {"name": "诺斯罗普·格鲁曼", "code": "NOC", "market": "US", "sector": "军工/B-21", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "无直接关联标的",
+          "code": "N/A",
+          "market": "HK",
+          "sector": "无",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 19,
-      "title": "全球新闻简报：法国山火、英国政治变动、中俄联合军演",
-      "logic": "法国西南部山火影响环法自行车赛（旅游业受损），英国首相斯塔默辞职引发政治不确定性，中俄海军联合演习及北约峰会外交博弈。综合来看，欧洲短期不确定性上升，中俄军事合作强化利空军工竞争格局。",
+      "title": "中国机器人出租车IPO引关注",
+      "logic": "中国robotaxi企业IPO引发市场对L4自动驾驶商业化加速的预期。小鹏成立Robotaxi业务部、特斯拉FSD V14持续推进，自动驾驶产业链（芯片、域控、传感器、线控底盘）迎来催化。德赛西威、经纬恒润等核心供应商受益。",
       "stocks": [
-        {"name": "法国安盛保险(AXA)", "code": "CS.PA", "market": "FR", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "法国巴黎银行", "code": "BNP.PA", "market": "FR", "sector": "银行", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "英镑/富时100ETF", "code": "ISF.L", "market": "UK", "sector": "英国大盘", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "俄罗斯Rosneft", "code": "ROSN.ME", "market": "T", "sector": "能源", "short_term": "→", "mid_term": "↑", "long_term": "→"}
-      ]
-    },
-    {
-      "id": 20,
-      "title": "超强台风巴威袭击美国罗塔岛 + 暴雨致北方五人死亡（综合灾害）",
-      "logic": "同一天中美均受极端天气冲击，全球气候灾害频发加剧。保险公司承保压力上升推动再保险费率走强。灾后重建利好建材供应链，农业损失推升粮食价格预期。气候适应型基建投资逻辑强化。",
-      "stocks": [
-        {"name": "卡特彼勒", "code": "CAT", "market": "US", "sector": "工程机械", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "Generac", "code": "GNRC", "market": "US", "sector": "备用电源", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "Weyerhaeuser", "code": "WY", "market": "US", "sector": "木材/建材", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "德赛西威",
+          "code": "002920.SZ",
+          "market": "SZ",
+          "sector": "自动驾驶域控",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "经纬恒润",
+          "code": "688326.SH",
+          "market": "SH",
+          "sector": "智能驾驶",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "小鹏汽车",
+          "code": "9868.HK",
+          "market": "HK",
+          "sector": "智能汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "伯特利",
+          "code": "603596.SH",
+          "market": "SH",
+          "sector": "线控底盘",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "均胜电子",
+          "code": "600699.SH",
+          "market": "SH",
+          "sector": "汽车电子",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "达美乐中国Q2扩张强劲（新增）",
-        "theme": "DPC Dash门店达1550家，5-6月同店销售转正，会员4190万",
+        "label": "天问二号抵达小行星（新增）",
+        "theme": "深空探测里程碑，航天产业链全线受益",
         "stocks": [
-          {"name": "达势股份", "code": "1405.HK", "short_term": "↑↑"}
+          {
+            "name": "中国卫星",
+            "code": "600118.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "陕西华达",
+            "code": "301517.SZ",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "台湾恢复反共爱国教育（新增）",
-        "theme": "台湾24年来首次恢复军事院校反共课程，两岸紧张升级",
+        "label": "千帆星座组网加速（新增）",
+        "theme": "低轨卫星互联网加速部署，通信载荷和芯片受益显著",
         "stocks": [
-          {"name": "汉翔航空", "code": "2634.TW", "short_term": "↑↑"},
-          {"name": "台积电", "code": "2330.TW", "short_term": "↓"}
+          {
+            "name": "上海瀚讯",
+            "code": "300762.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "铖昌科技",
+            "code": "001270.SZ",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "FGR石墨烯打入中国水泥市场（新增）",
-        "theme": "First Graphene与第六元素签约，目标全球最大水泥市场",
+        "label": "Robotaxi IPO（新增）",
+        "theme": "自动驾驶商业化加速，产业链核心供应商受益",
         "stocks": [
-          {"name": "First Graphene", "code": "FGR.AX", "short_term": "↑↑"}
+          {
+            "name": "德赛西威",
+            "code": "002920.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "经纬恒润",
+            "code": "688326.SH",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "中国灵巧手产业爆发（新增）",
-        "theme": "中国灵巧手产业规模超500亿元，供应链优势推动硬件成本骤降",
+        "label": "茉莉奶白知识产权案（新增）",
+        "theme": "新茶饮行业知识产权风险暴露，合规成本上升",
         "stocks": [
-          {"name": "绿的谐波", "code": "688017.SH", "short_term": "↑↑"},
-          {"name": "汇川技术", "code": "300124.SZ", "short_term": "↑↑"}
+          {
+            "name": "奈雪的茶",
+            "code": "2150.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "霸王茶姬",
+            "code": "CHA.US",
+            "short_term": "↓"
+          }
         ]
       },
       {
-        "label": "澳斐防务联盟遏制中国（新增）",
-        "theme": "澳大利亚与斐济签署Ocean of Peace防务联盟含互防条款",
+        "label": "锂电池库存预警（新增）",
+        "theme": "碳酸锂现货交易萎缩短期承压，中期供需紧平衡趋势不改",
         "stocks": [
-          {"name": "Austal", "code": "ASB.AX", "short_term": "↑"},
-          {"name": "必和必拓", "code": "BHP.AX", "short_term": "→"}
-        ]
-      },
-      {
-        "label": "中国Z.ai挑战OpenAI（新增）",
-        "theme": "智谱GLM-5.2低成本接近美国前沿水平，印度定价低19%",
-        "stocks": [
-          {"name": "寒武纪", "code": "688256.SH", "short_term": "↑"},
-          {"name": "中科曙光", "code": "603019.SH", "short_term": "↑"}
-        ]
-      },
-      {
-        "label": "中国歼-36 vs 美军F-47航程对比（新增）",
-        "theme": "F-47作战半径1000海里仍无法从关岛抵达台海，歼-36达1500海里",
-        "stocks": [
-          {"name": "中航沈飞", "code": "600760.SH", "short_term": "↑↑"},
-          {"name": "波音", "code": "BA", "short_term": "↓"}
-        ]
-      },
-      {
-        "label": "华谊科技进军具身智能IMU（新增）",
-        "theme": "觅风科技采购华谊IMU用于MEgo物理AI数据采集设备",
-        "stocks": [
-          {"name": "华谊科技", "code": "603042.SH", "short_term": "↑↑"}
+          {
+            "name": "赣锋锂业",
+            "code": "002460.SZ",
+            "short_term": "↓"
+          },
+          {
+            "name": "天齐锂业",
+            "code": "002466.SZ",
+            "short_term": "↓"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月6日公开新闻，所有涨跌预测均为基于新闻逻辑的推演，不构成任何投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月6日公开新闻的逻辑推演，不构成任何投资建议。股票市场存在风险，投资需谨慎。数据来源：https://hk.k415.win/news/"
 }
