@@ -1,378 +1,68 @@
 {
   "meta": {
     "name": "2026年7月6日全球新闻股票推演",
-    "description": "基于2026年7月6日hk.k415.win/news抓取的全球新闻，进行股票市场影响推演分析",
+    "description": "基于2026年7月6日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "2026年7月6日综合整理",
+    "source": "2026年7月6日综合整理自hk.k415.win/news",
     "version": "1.0",
-    "update_time": "2026-07-06T17:59:44.898343+08:00",
+    "update_time": "2026-07-06T18:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国在南太平洋试射远程弹道导弹（核常兼备/核潜艇发射），引发澳大利亚、新西兰、日本等多国批评与警惕",
-      "logic": "大规模导弹试射直接利好军工板块（导弹/潜艇/舰船产业链）；地缘紧张加剧推升避险情绪，利好黄金及国防军工ETF；澳大利亚旅游/贸易相关股可能承压",
-      "stocks": [
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国重工",
-          "code": "601989.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "航天科技",
-          "code": "000901.SZ",
-          "market": "SZ",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "贵金属",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "国防ETF",
-          "code": "512670.SH",
-          "market": "SH",
-          "sector": "ETF",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "Flight Centre Travel",
-          "code": "FLT.AX",
-          "market": "AU",
-          "sector": "旅游",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "俄中海上联合-2026演习在青岛开幕",
-      "logic": "中俄联合军演强化军事合作信号，利好造船、舰载装备、军工电子产业链；地缘政治联动提升国防板块关注度",
-      "stocks": [
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国动力",
-          "code": "600482.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "航天电子",
-          "code": "600879.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "国防ETF",
-          "code": "512670.SH",
-          "market": "SH",
-          "sector": "ETF",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "中国技校为失业大学毕业生带来希望与绝望；党群服务中心介入失业援助",
-      "logic": "青年失业问题持续，消费信心受压制，利空消费/零售/地产；利好职业教育和就业培训板块；就业压力加大可能促使政策刺激预期升温",
-      "stocks": [
-        {
-          "name": "中公教育",
-          "code": "002607.SZ",
-          "market": "SZ",
-          "sector": "教育培训",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↓"
-        },
-        {
-          "name": "中国东方教育",
-          "code": "0667.HK",
-          "market": "HK",
-          "sector": "教育培训",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "贵州茅台",
-          "code": "600519.SH",
-          "market": "SH",
-          "sector": "消费",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "万科A",
-          "code": "000002.SZ",
-          "market": "SZ",
-          "sector": "房地产",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "中国发射千帆星座新卫星组",
-      "logic": "低轨卫星星座建设加速，直接利好卫星制造、火箭发射、卫星互联网产业链；千帆星座对标Starlink，商业化前景持续催化",
-      "stocks": [
-        {
-          "name": "中国卫星",
-          "code": "600118.SH",
-          "market": "SH",
-          "sector": "航天",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "航天电子",
-          "code": "600879.SH",
-          "market": "SH",
-          "sector": "航天",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国卫通",
-          "code": "601698.SH",
-          "market": "SH",
-          "sector": "卫星通信",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "航天科技",
-          "code": "000901.SZ",
-          "market": "SZ",
-          "sector": "航天",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "城市更新推动更绿色更安全的新增长（新华社报道）",
-      "logic": "城市更新政策持续推进，利好建筑建材（水泥/钢材/玻璃）、绿色建筑、装配式建筑、智慧城市板块；政策驱动中长期基建投资",
-      "stocks": [
-        {
-          "name": "海螺水泥",
-          "code": "600585.SH",
-          "market": "SH",
-          "sector": "建筑材料",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国建筑",
-          "code": "601668.SH",
-          "market": "SH",
-          "sector": "建筑",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "东方雨虹",
-          "code": "002271.SZ",
-          "market": "SZ",
-          "sector": "建筑材料",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "北新建材",
-          "code": "000786.SZ",
-          "market": "SZ",
-          "sector": "建筑材料",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "First Graphene进入中国水泥市场",
-      "logic": "石墨烯材料进入水泥市场，利好石墨烯/新材料概念股；First Graphene(FGR.AX)直接受益；中国水泥行业技术升级预期升温",
-      "stocks": [
-        {
-          "name": "First Graphene",
-          "code": "FGR.AX",
-          "market": "AU",
-          "sector": "新材料",
-          "short_term": "↑↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "海螺水泥",
-          "code": "600585.SH",
-          "market": "SH",
-          "sector": "建筑材料",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "方大炭素",
-          "code": "600516.SH",
-          "market": "SH",
-          "sector": "新材料",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "华丽家族",
-          "code": "600503.SH",
-          "market": "SH",
-          "sector": "石墨烯",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "澳大利亚与斐济签署重大防务联盟，意图制衡中国在太平洋影响力",
-      "logic": "澳斐防务联盟加剧太平洋地区地缘博弈，中国军工板块获事件催化；澳大利亚国防承包商受益；避险情绪推升黄金",
+      "title": "中国在南太平洋无核区进行潜射弹道导弹试射，引发美日澳等多国担忧（合并8条同类报道）",
+      "logic": "中国罕见在南太平洋进行潜射弹道导弹试射，路透/彭博/金融时报/美联社等多家国际媒体密集报道。日本防卫大臣木原稔公开表达担忧，澳大利亚外长称其'破坏稳定'。地缘紧张升级短期推升军工板块情绪，中长期可能加速区域军备竞赛，利好国防军工产业链。",
       "stocks": [
         {
           "name": "中航沈飞",
           "code": "600760.SH",
           "market": "SH",
           "sector": "国防军工",
-          "short_term": "↑",
+          "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "国防ETF",
-          "code": "512670.SH",
-          "market": "SH",
-          "sector": "ETF",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "贵金属",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "Austal",
-          "code": "ASB.AX",
-          "market": "AU",
-          "sector": "国防",
+          "name": "中航西飞",
+          "code": "000768.SZ",
+          "market": "SZ",
+          "sector": "国防军工",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "四川舰（076型两栖攻击舰）接收新装备，服役在即",
-      "logic": "新型两栖攻击舰即将服役，标志中国海军两栖作战能力跃升；利好舰船制造、舰载装备、海军电子产业链",
-      "stocks": [
+          "long_term": "↑"
+        },
         {
           "name": "中国船舶",
           "code": "600150.SH",
           "market": "SH",
-          "sector": "国防军工",
+          "sector": "船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "无人机/军工",
           "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "国防军工",
+          "name": "三菱重工",
+          "code": "7011.T",
+          "market": "T",
+          "sector": "国防/工业",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国动力",
-          "code": "600482.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中国重工",
-          "code": "601989.SH",
-          "market": "SH",
+          "name": "洛克希德·马丁",
+          "code": "LMT.US",
+          "market": "US",
           "sector": "国防军工",
           "short_term": "↑",
           "mid_term": "↑",
@@ -381,42 +71,42 @@
       ]
     },
     {
-      "id": 9,
-      "title": "中国6月物流指数升至50.6%，重回扩张区间",
-      "logic": "物流指数回升表明经济活动回暖，利好快递物流、交通运输板块；电商及供应链相关企业受益",
+      "id": 2,
+      "title": "澳大利亚与斐济意外签署防务联盟，限制中国在太平洋地区影响力",
+      "logic": "澳斐防务联盟旨在制衡中国在南太平洋的军事存在，可能影响中澳经贸关系及中国在南太平洋的基建/资源投资。短期对涉澳贸易企业构成情绪压力，利好澳洲本土国防供应商和矿产替代概念股。",
       "stocks": [
         {
-          "name": "顺丰控股",
-          "code": "002352.SZ",
-          "market": "SZ",
-          "sector": "物流",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中通快递",
-          "code": "2057.HK",
-          "market": "HK",
-          "sector": "物流",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "圆通速递",
-          "code": "600233.SH",
+          "name": "兖矿能源",
+          "code": "600188.SH",
           "market": "SH",
-          "sector": "物流",
-          "short_term": "↑",
+          "sector": "能源/煤炭",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "京东物流",
-          "code": "2618.HK",
-          "market": "HK",
-          "sector": "物流",
+          "name": "洛阳钼业",
+          "code": "603993.SH",
+          "market": "SH",
+          "sector": "有色金属",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "黄金/有色",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "BHP Group",
+          "code": "BHP.US",
+          "market": "US",
+          "sector": "矿业",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -424,96 +114,191 @@
       ]
     },
     {
-      "id": 10,
-      "title": "法国两大电力巨头负责人：欧盟应学习中国能源技术",
-      "logic": "欧洲能源巨头公开认可中国能源技术，利好中国新能源出口（光伏/储能/核电）；中欧能源合作预期升温，新能源产业链获正面催化",
+      "id": 3,
+      "title": "中美峰会后续：中国释放特朗普养大的牧师，释放缓和信号",
+      "logic": "彭博社报道称中美峰会后中国释放了一名美籍牧师，被视为双边关系缓和的善意姿态。若中美关系阶段性回暖，利好对美出口企业、中概股及科技板块，短期市场情绪偏向积极。",
       "stocks": [
         {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "新能源",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "隆基绿能",
-          "code": "601012.SH",
-          "market": "SH",
-          "sector": "光伏",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "阳光电源",
-          "code": "300274.SZ",
-          "market": "SZ",
-          "sector": "光伏储能",
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网/电商",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中国核电",
-          "code": "601985.SH",
-          "market": "SH",
-          "sector": "核电",
+          "name": "京东",
+          "code": "JD.US",
+          "market": "US",
+          "sector": "电商",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "中国电动汽车交付量持续下滑，加剧行业担忧",
-      "logic": "EV交付量下滑反映需求疲软或竞争加剧，利空整车企业；但上游电池/材料若由出口驱动可能相对抗跌；行业内卷加剧，小型车企承压更大",
-      "stocks": [
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD.US",
+          "market": "US",
+          "sector": "电商",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "立讯精密",
+          "code": "002475.SZ",
+          "market": "SZ",
+          "sector": "消费电子/出口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
         {
           "name": "比亚迪",
           "code": "1211.HK",
           "market": "HK",
-          "sector": "新能源车",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "台风美莎克引发广西大坝垮塌及南宁特大洪水，数百人紧急疏散",
+      "logic": "台风美莎克带来的极端降雨导致广西水库垮塌、南宁进入高度戒备状态（路透/南华早报）。灾害短期冲击当地保险赔付和交通运输，但中长期基建重建和水利工程加固需求将释放，利好水泥/建材/水利建设板块。",
+      "stocks": [
+        {
+          "name": "海螺水泥",
+          "code": "600585.SH",
+          "market": "SH",
+          "sector": "建筑材料",
           "short_term": "↓",
-          "mid_term": "→",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "蔚来",
-          "code": "NIO",
-          "market": "US",
-          "sector": "新能源车",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "小鹏汽车",
-          "code": "9868.HK",
-          "market": "HK",
-          "sector": "新能源车",
-          "short_term": "↓↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "理想汽车",
-          "code": "2015.HK",
-          "market": "HK",
-          "sector": "新能源车",
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
           "short_term": "↓",
           "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建/水利",
+          "short_term": "↓",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "宁德时代",
-          "code": "300750.SZ",
+          "name": "东方雨虹",
+          "code": "002271.SZ",
           "market": "SZ",
-          "sector": "电池",
+          "sector": "建材/防水",
           "short_term": "→",
           "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "安徽水利",
+          "code": "600502.SH",
+          "market": "SH",
+          "sector": "水利建设",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国汽车出口运力创新：当专业承运商不够时如何运输汽车",
+      "logic": "CarNewsChina报道中国汽车出口持续高速增长，传统滚装船运力不足倒逼创新运输模式。中国已成为全球最大汽车出口国，2026年出口势头不减，利好远洋航运和汽车制造出口企业。",
+      "stocks": [
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运/物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "上汽集团",
+          "code": "600104.SH",
+          "market": "SH",
+          "sector": "汽车制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "招商轮船",
+          "code": "601872.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国航天探测器历经10亿公里首次从小行星带回样品返回地球",
+      "logic": "Phys.org报道中国探测器成功从小行星取样返回，标志深空探测能力重大突破。利好航天产业链及高端制造板块，短期提振航天概念股情绪，中长期体现中国航天技术商业化潜力。",
+      "stocks": [
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天/军工",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "卫星/航天",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "航天电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "连接器/军工电子",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "↑"
         }
       ]
@@ -522,70 +307,107 @@
   "summary": {
     "newly_added": [
       {
-        "label": "中国南太平洋导弹试射（新增）",
-        "theme": "中国核潜艇在南太平洋试射远程弹道导弹，引发澳大利亚、新西兰、日本等多国抗议，地缘紧张加剧",
+        "label": "中国潜射导弹试射（新增/合并8条）",
+        "theme": "中国在南太平洋无核区试射潜射弹道导弹，美日澳多国表达担忧，地缘紧张升级",
         "stocks": [
           {
-            "name": "中船防务",
-            "code": "600685.SH",
+            "name": "中航沈飞",
+            "code": "600760.SH",
             "short_term": "↑↑"
           },
           {
-            "name": "中国重工",
-            "code": "601989.SH",
+            "name": "航天彩虹",
+            "code": "002389.SZ",
             "short_term": "↑↑"
           },
           {
-            "name": "国防ETF",
-            "code": "512670.SH",
-            "short_term": "↑↑"
+            "name": "三菱重工",
+            "code": "7011.T",
+            "short_term": "↑"
           }
         ]
       },
       {
-        "label": "千帆星座新卫星发射（新增）",
-        "theme": "中国低轨卫星星座建设持续推进，千帆星座发射新卫星组",
+        "label": "澳斐防务联盟（新增）",
+        "theme": "澳大利亚与斐济签署防务联盟制衡中国太平洋影响力，影响涉澳资源贸易",
         "stocks": [
+          {
+            "name": "兖矿能源",
+            "code": "600188.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "BHP Group",
+            "code": "BHP.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中美关系缓和信号（新增）",
+        "theme": "中美峰会后续中国释放美籍牧师，关系阶段性回暖利好中概股及出口企业",
+        "stocks": [
+          {
+            "name": "阿里巴巴",
+            "code": "BABA.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "立讯精密",
+            "code": "002475.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "广西台风洪灾（新增）",
+        "theme": "台风美莎克致广西大坝垮塌南宁洪水，短期冲击保险/基建，中期利好重建",
+        "stocks": [
+          {
+            "name": "海螺水泥",
+            "code": "600585.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "中国交建",
+            "code": "601800.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "中国汽车出口运力创新（新增）",
+        "theme": "汽车出口高增长倒逼创新运输模式，利好航运及汽车出口企业",
+        "stocks": [
+          {
+            "name": "中远海控",
+            "code": "601919.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "招商轮船",
+            "code": "601872.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "小行星采样返回（新增）",
+        "theme": "中国探测器首次从小行星采样返回，深空探测重大突破利好航天产业",
+        "stocks": [
+          {
+            "name": "航天科技",
+            "code": "000901.SZ",
+            "short_term": "↑↑"
+          },
           {
             "name": "中国卫星",
             "code": "600118.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "中国卫通",
-            "code": "601698.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "四川舰服役在即（新增）",
-        "theme": "076型两栖攻击舰四川舰接收新装备即将服役",
-        "stocks": [
-          {
-            "name": "中国船舶",
-            "code": "600150.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "EV交付量持续下滑（新增）",
-        "theme": "中国电动汽车交付量持续下滑加剧行业担忧，小型车企承压",
-        "stocks": [
-          {
-            "name": "小鹏汽车",
-            "code": "9868.HK",
-            "short_term": "↓↓"
-          },
-          {
-            "name": "蔚来",
-            "code": "NIO",
-            "short_term": "↓"
+            "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月6日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向（↑看多 / ↓看空 / →中性）仅为基于事件逻辑的主观推演，不代表未来实际走势。"
+  "disclaimer": "以上分析基于2026年7月6日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。"
 }
