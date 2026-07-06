@@ -1,9 +1,9 @@
 {
   "meta": {
     "name": "2026年7月6日全球新闻股票推演",
-    "description": "基于2026年7月6日公开新闻事件驱动的短中长期股票多空推演数据，覆盖A股、港股、美股及欧洲市场",
+    "description": "基于2026年7月6日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及全球多市场",
     "category": "daily",
-    "source": "hk.k415.win/news/ 综合整理",
+    "source": "2026年7月6日综合整理，来源：hk.k415.win/news",
     "version": "1.0",
     "update_time": "2026-07-06T08:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
@@ -11,41 +11,93 @@
   "news_analysis": [
     {
       "id": 1,
-      "title": "Vossloh赢得6000万欧元中国铁路订单",
-      "logic": "德国Vossloh AG获得中国铁路6000万欧元订单，直接利好Vossloh营收预期；同时订单反映出中国铁路基建持续投入，国内铁路装备产业链（轨道扣件、道岔等）同步受益。",
+      "title": "委内瑞拉地震死亡人数升至3342人，震后重建需求巨大",
+      "logic": "委内瑞拉6月24日强震死亡人数已升至3342人，超过17000人无家可归。震后重建面临巨大基建需求，但受美西方制裁影响，委国炼油体系崩溃导致救援机具无油可用。美国已发布临时许可证对部分领域给予制裁豁免。重建将拉动建材、工程机械需求，同时制裁豁免前景利好委国石油出口恢复预期，国际油价短期受供给扰动上行。中国已追加1亿元紧急援助，中资基建企业有望参与重建。",
       "stocks": [
         {
-          "name": "Vossloh AG",
-          "code": "VOS.DE",
-          "market": "DE",
-          "sector": "铁路设备",
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中国中铁",
-          "code": "601390.SH",
+          "name": "中国石油",
+          "code": "601857.SH",
           "market": "SH",
-          "sector": "铁路基建",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
-          "name": "中国铁建",
-          "code": "601186.SH",
-          "market": "SH",
-          "sector": "铁路基建",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "name": "埃克森美孚",
+          "code": "XOM.US",
+          "market": "US",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
-          "name": "铁科轨道",
-          "code": "688569.SH",
+          "name": "中国建筑",
+          "code": "601668.SH",
           "market": "SH",
-          "sector": "铁路扣件",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "伊朗新领导人缺席哈梅内伊葬礼，中东权力过渡不确定性上升",
+      "logic": "伊朗最高领袖哈梅内伊逝世后，新领导人缺席葬礼引发权力交接稳定性担忧。伊朗作为OPEC重要产油国，政权过渡期可能引发霍尔木兹海峡航运安全担忧，短期推升油价风险溢价。中长期看，若伊朗内部权力斗争加剧，可能影响其石油出口稳定性，但也会为OPEC+其他成员争取份额空间。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海油",
+          "code": "600938.SH",
+          "market": "SH",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "先锋自然资源",
+          "code": "PXD.US",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油服",
+          "code": "601808.SH",
+          "market": "SH",
+          "sector": "油服",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -53,60 +105,17 @@
       ]
     },
     {
-      "id": 2,
-      "title": "特朗普'美国优先'外交政策可能推动中国崛起——吴心伯分析",
-      "logic": "SCMP刊文分析特朗普'美国优先'削弱美国国际联盟体系，为中国扩大全球影响力创造空间。中长期利好中国在国际贸易、一带一路等领域的资产定价，中概股及中国核心资产可能获得重估。",
-      "stocks": [
-        {
-          "name": "阿里巴巴",
-          "code": "BABA.US",
-          "market": "US",
-          "sector": "互联网电商",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国ETF-iShares",
-          "code": "FXI.US",
-          "market": "US",
-          "sector": "中国大盘股",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "腾讯控股",
-          "code": "0700.HK",
-          "market": "HK",
-          "sector": "互联网科技",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运贸易",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
       "id": 3,
-      "title": "王毅在峰会前夕寻求与欧盟加强商贸关系",
-      "logic": "中国外长王毅主动寻求与欧盟加强商贸关系，暗示中欧贸易紧张局势可能出现缓和，利好中欧贸易链企业（新能源、汽车出口、光伏等），同时对在华欧资企业构成正面信号。",
+      "title": "王毅在峰会前夕寻求加强与欧盟经贸关系",
+      "logic": "中国外长王毅在峰会前积极释放加强中欧经贸合作信号。当前美中关系紧张背景下，中欧经贸关系升温有利于中国新能源、光伏、电动汽车等出口导向型产业。若峰会达成实质性贸易便利化协议，将降低中国出口企业关税壁垒，尤其利好光伏组件、动力电池和新能源整车对欧出口。",
       "stocks": [
         {
-          "name": "比亚迪",
-          "code": "1211.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
@@ -115,59 +124,267 @@
           "market": "SZ",
           "sector": "动力电池",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "隆基绿能",
-          "code": "601012.SH",
-          "market": "SH",
-          "sector": "光伏",
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
-          "name": "宝马集团",
-          "code": "BMW.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
+          "name": "阳光电源",
+          "code": "300274.SZ",
+          "market": "SZ",
+          "sector": "光伏逆变器",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "天合光能",
+          "code": "688599.SH",
+          "market": "SH",
+          "sector": "光伏组件",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "阿尔巴尼斯对中国威胁采取重大举措",
-      "logic": "澳大利亚总理阿尔巴尼斯对中国采取强硬举措，中澳关系趋紧。澳大利亚铁矿石、煤炭等对华出口面临不确定性，利空澳洲矿业股；同时可能推动中国加速铁矿石进口多元化，短期利好非澳洲矿石来源。",
+      "title": "清华大学挖角诺贝尔化学奖得主，AI材料人才争夺战加剧",
+      "logic": "清华大学成功挖角诺贝尔化学奖得主，标志着全球AI材料领域人才竞争白热化。AI驱动的新材料研发正成为各国科技竞争新高地，中国在资金投入和政策扶持上持续加码。这一事件对国内AI+材料科学概念股构成情绪提振，同时利好算力基础设施和科学计算相关企业。中长期看，人才聚集将加速国内AI材料产业化进程。",
       "stocks": [
         {
-          "name": "必和必拓",
-          "code": "BHP.AU",
-          "market": "AU",
-          "sector": "矿业",
-          "short_term": "↓",
-          "mid_term": "↓",
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "算力基础设施",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "广联达",
+          "code": "002410.SZ",
+          "market": "SZ",
+          "sector": "AI+建筑",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "欧洲热浪成为中国便携式空调制造商的亮点",
+      "logic": "欧洲多国遭遇史无前例高温（法国/德国/英国刷新高温纪录），中国空调品牌在欧洲卖爆：美的PortaSplit销量翻倍超20万套、格力法国终端+50%、海尔西欧市占率9%排名第二、海信法国+100%、TCL法国+300%。海关数据显示2026H1中国对欧盟空调出口额37.6亿美元/+43.2%，移动空调出口+70%。中国品牌欧洲空调市占率从2023年27%升至41%。短期财报确定性极强，中期品牌渠道沉淀后可持续受益。",
+      "stocks": [
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "力拓",
-          "code": "RIO.AU",
-          "market": "AU",
-          "sector": "矿业",
-          "short_term": "↓",
-          "mid_term": "↓",
+          "name": "海尔智家",
+          "code": "600690.SH",
+          "market": "SH",
+          "sector": "家电",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海信家电",
+          "code": "000921.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "FMG集团",
-          "code": "FMG.AU",
-          "market": "AU",
-          "sector": "铁矿石",
-          "short_term": "↓",
+          "name": "三花智控",
+          "code": "002050.SZ",
+          "market": "SZ",
+          "sector": "零部件",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国长鑫存储放弃价格战，DRAM供需格局再定价",
+      "logic": "长鑫存储（CXMT）DDR5价格已与三星/SK海力士/美光三大原厂持平，此前市场期待的'廉价DDR5拉低全球价格'落空。背后逻辑：通用DRAM供需缺口达40%、DDR5现货价自底部涨414%、三大厂80%产能倾斜HBM留供给缺口。长鑫优势在于商务条款灵活+产能全部投入消费级市场，而非价格战。放弃价格战意味着行业定价纪律修复，对存储芯片板块整体利好——兆易创新等合作方受益于稳定出货，而三星/SK海力士/美光利润率进一步巩固。",
+      "stocks": [
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北京君正",
+          "code": "300223.SZ",
+          "market": "SZ",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "美光科技",
+          "code": "MU.US",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三星电子",
+          "code": "005930.KR",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "SK海力士",
+          "code": "000660.KR",
+          "market": "KR",
+          "sector": "存储芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "澜起科技",
+          "code": "688008.SH",
+          "market": "SH",
+          "sector": "内存接口芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "特朗普向习近平提及案件后中国释放牧师，中美关系微调",
+      "logic": "特朗普向习近平提及具体案件后中国释放被拘留牧师，显示出两国领导人间仍存在私人沟通渠道且能产生实际结果。事件叠加阿里巴巴游说禁令暂缓，表明中美关系在紧张中仍有局部缓和空间。短期利好中概股风险偏好修复，尤其是此前受制裁风险压制的互联网板块。但中期看，美国国防部黑名单持续扩大（已至188家）、半导体管制仍在加码，系统性风险未解除。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网",
+          "short_term": "↑",
           "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU.US",
+          "market": "US",
+          "sector": "互联网",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "巴西6月贸易顺差大幅扩大",
+      "logic": "巴西6月贸易顺差大幅扩大，反映大宗商品出口（铁矿石、大豆、石油）强劲和巴西雷亚尔汇率优势。作为全球主要大宗商品出口国，巴西顺差扩大表明全球资源需求韧性，尤其中国作为巴西最大贸易伙伴的进口需求稳定。利好巴西股市及大宗商品相关标的，铁矿石/农产品出口链受益。",
+      "stocks": [
+        {
+          "name": "淡水河谷",
+          "code": "VALE.US",
+          "market": "US",
+          "sector": "铁矿石",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "巴西石油",
+          "code": "PBR.US",
+          "market": "US",
+          "sector": "石油",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "iShares巴西ETF",
+          "code": "EWZ.US",
+          "market": "US",
+          "sector": "巴西市场",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
@@ -175,160 +392,6 @@
           "code": "600019.SH",
           "market": "SH",
           "sector": "钢铁",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "台湾军方恢复'反共'爱国主义课程，强调中国威胁",
-      "logic": "台湾军方恢复'反共'课程凸显两岸紧张局势持续升温。地缘政治风险上升，军工板块短期获情绪催化，台积电等台湾核心科技股面临不确定性溢价上升。",
-      "stocks": [
-        {
-          "name": "台积电",
-          "code": "2330.TW",
-          "market": "TW",
-          "sector": "半导体",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工航空",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工船舶",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "中俄海军将在中国青岛沿海举行联合演习",
-      "logic": "中俄海军联合演习进一步强化两国军事合作信号，短期提振军工板块情绪，尤其利好舰船制造、海洋防务相关个股。但演习属常态化行动，中长期影响需看后续战略协同深度。",
-      "stocks": [
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工船舶",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "军工防务",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国动力",
-          "code": "600482.SH",
-          "market": "SH",
-          "sector": "舰船动力",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "中国入境旅游热潮推动服务贸易增长，便利入境政策开辟新机遇",
-      "logic": "中国入境旅游持续升温，叠加签证便利化政策，直接利好航空、酒店、OTA平台及免税消费。服务贸易顺差扩大趋势下，旅游产业链上下游均受益。",
-      "stocks": [
-        {
-          "name": "携程集团",
-          "code": "9961.HK",
-          "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中国中免",
-          "code": "601888.SH",
-          "market": "SH",
-          "sector": "免税消费",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "锦江酒店",
-          "code": "600754.SH",
-          "market": "SH",
-          "sector": "酒店",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "NASA局长称美国正在与中国进行太空竞赛",
-      "logic": "NASA局长公开承认中美太空竞赛，暗示美国将加大航天投入。全球航天产业资本开支预期上升，商业航天、卫星互联网产业链受益，中国航天概念股同步获情绪提振。",
-      "stocks": [
-        {
-          "name": "中国卫星",
-          "code": "600118.SH",
-          "market": "SH",
-          "sector": "航天制造",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "航天电子",
-          "code": "600879.SH",
-          "market": "SH",
-          "sector": "航天电子",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "Rocket Lab",
-          "code": "RKLB.US",
-          "market": "US",
-          "sector": "商业航天",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "波音",
-          "code": "BA.US",
-          "market": "US",
-          "sector": "航空航天",
           "short_term": "→",
           "mid_term": "↑",
           "long_term": "→"
@@ -337,69 +400,200 @@
     },
     {
       "id": 9,
-      "title": "中国屋顶'雨水'降温系统走红：背后的科学原理",
-      "logic": "中国屋顶雨水降温系统引发关注，反映绿色节能建筑技术的新需求增长点。建筑节能、智能楼宇、新型建材等概念获市场兴趣，短期情绪利好相关个股。",
+      "title": "阿里巴巴获美国防部黑名单游说禁令暂缓",
+      "logic": "美国联邦法官裁定五角大楼在审理期间（60天内）不得对阿里执行游说限制——此前新规生效后所有顶级游说机构均终止与阿里合作。这是阿里状告美国防部后取得的阶段性法律胜利，恢复其在华盛顿的游说能力。叠加中美领导人沟通释放牧师事件，短期内中概股情绪修复。但1260H名单已扩至188家中国企业（含百度/比亚迪/蔚来），结构性风险未消除。阿里港股、美股短期反弹可期。",
       "stocks": [
         {
-          "name": "东方雨虹",
-          "code": "002271.SZ",
-          "market": "SZ",
-          "sector": "建筑防水",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "三棵树",
-          "code": "603737.SH",
-          "market": "SH",
-          "sector": "涂料建材",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "美的集团",
-          "code": "000333.SZ",
-          "market": "SZ",
-          "sector": "暖通空调",
-          "short_term": "→",
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网",
+          "short_term": "↑↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "互联网",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "蔚来",
+          "code": "NIO.US",
+          "market": "US",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 10,
-      "title": "越南旅游业创新高，中国、印度和韩国推动创纪录游客增长",
-      "logic": "越南旅游业2026年创新高，中印韩三国为最大客源国，反映亚太地区出境游强劲复苏。利好东南亚航线密集的航空公司、在线旅游平台及越南本地消费/酒店概念。",
+      "title": "22辆比亚迪电动双层巴士从烟台港运往英国",
+      "logic": "比亚迪22辆电动双层巴士从烟台港出口英国，是其在欧洲公共交通电动化市场的又一突破。英国近年加速公交电动化转型，比亚迪凭借成熟电动巴士技术和成本优势持续获取海外订单。事件规模虽小，但象征意义重大——中国新能源商用车在欧洲公共采购领域的认可度持续提升，为后续更大规模订单铺路。结合王毅寻求中欧经贸合作升温背景，比亚迪欧洲战略进入收获期。",
       "stocks": [
         {
-          "name": "携程集团",
-          "code": "9961.HK",
-          "market": "HK",
-          "sector": "在线旅游",
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
           "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "南方航空",
-          "code": "600029.SH",
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宇通客车",
+          "code": "600066.SH",
           "market": "SH",
-          "sector": "航空运输",
+          "sector": "客车",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "亚洲航空",
-          "code": "5099.KL",
-          "market": "HK",
-          "sector": "廉价航空",
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "美国稀土公司试图打破中国主导地位",
+      "logic": "CBS《60分钟》专题报道美国稀土公司试图打破中国在稀土供应链的垄断。MP Materials（NYSE:MP）推进得州磁材制造基地，目标打造从矿到磁材的全链条本土供应链，并与通用汽车签订长期供货协议。但MP Materials年产能力远不及中国北方稀土（全球40%份额），短期难以撼动格局。该报道可能加速美国《国防生产法》对稀土领域的资金投入，中长期利好MP Materials及西方稀土替代标的，对北方稀土构成远期竞争压力预期。",
+      "stocks": [
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "MP Materials",
+          "code": "MP.US",
+          "market": "US",
+          "sector": "稀土",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Lynas稀土",
+          "code": "LYC.AU",
+          "market": "AU",
+          "sector": "稀土",
           "short_term": "↑",
           "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "盛和资源",
+          "code": "600392.SH",
+          "market": "SH",
+          "sector": "稀土加工",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "泰国领跑2026年高端旅游竞赛，亚洲多国加码",
+      "logic": "泰国领跑2026年高端旅游竞赛，新加坡、日本、越南、中国、韩国等纷纷加码高端旅游市场。后疫情时代亚洲旅游复苏强劲，各国争抢高净值游客。高端旅游竞赛利好受益方：航空（国际航线恢复+票价上涨）、高端酒店（ADR提升）、免税零售。中国出境游持续回暖叠加暑期旺季，航空和免税板块短期弹性最大。",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "免税",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
+        },
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华住集团",
+          "code": "1179.HK",
+          "market": "HK",
+          "sector": "酒店",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "新加坡航空",
+          "code": "C6L.SI",
+          "market": "SE",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
         }
       ]
     }
@@ -407,28 +601,86 @@
   "summary": {
     "newly_added": [
       {
-        "label": "Vossloh中国铁路大单（新增）",
-        "theme": "德国Vossloh AG赢得6000万欧元中国铁路订单，利好铁路基建产业链",
+        "label": "欧洲热浪引爆中国家电出口（焦点）",
+        "theme": "欧洲多国极端高温，美的/格力/海尔/海信/TCL空调全线售罄，H1中国对欧空调出口+43%，移动空调+70%",
         "stocks": [
           {
-            "name": "Vossloh AG",
-            "code": "VOS.DE",
-            "short_term": "↑"
+            "name": "美的集团",
+            "code": "000333.SZ",
+            "short_term": "↑↑"
           },
           {
-            "name": "中国中铁",
-            "code": "601390.SH",
-            "short_term": "→"
+            "name": "海尔智家",
+            "code": "600690.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "格力电器",
+            "code": "000651.SZ",
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "中欧商贸关系缓和信号（新增）",
-        "theme": "王毅峰会前寻求与欧盟加强商贸关系，新能源/汽车出口受益",
+        "label": "长鑫存储放弃价格战（焦点）",
+        "theme": "CXMT DDR5价格与三星/SK海力士/美光持平，DRAM供需缺口40%，存储芯片超级周期延续",
         "stocks": [
           {
-            "name": "比亚迪",
-            "code": "1211.HK",
+            "name": "兆易创新",
+            "code": "603986.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "美光科技",
+            "code": "MU.US",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "澜起科技",
+            "code": "688008.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "阿里巴巴游说禁令暂缓（焦点）",
+        "theme": "美法官裁定五角大楼60天内不对阿里执行游说限制，中概股情绪修复窗口打开",
+        "stocks": [
+          {
+            "name": "阿里巴巴",
+            "code": "BABA.US",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "阿里巴巴",
+            "code": "9988.HK",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "委内瑞拉地震死亡升至3342人",
+        "theme": "震后重建需求巨大，中方追加1亿援助，制裁豁免预期利好基建与石油",
+        "stocks": [
+          {
+            "name": "中国交建",
+            "code": "601800.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国建筑",
+            "code": "601668.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "王毅寻求加强中欧经贸关系",
+        "theme": "中欧峰会前夕释放合作信号，利好光伏/动力电池/新能源车对欧出口",
+        "stocks": [
+          {
+            "name": "隆基绿能",
+            "code": "601012.SH",
             "short_term": "↑"
           },
           {
@@ -439,49 +691,22 @@
         ]
       },
       {
-        "label": "中美太空竞赛升温（新增）",
-        "theme": "NASA局长承认中美太空竞赛，航天产业链获长期催化",
+        "label": "美国稀土公司挑战中国主导地位",
+        "theme": "CBS 60分钟专题推动美国稀土供应链建设，MP Materials获政策催化，中国稀土企业远期承压",
         "stocks": [
           {
-            "name": "中国卫星",
-            "code": "600118.SH",
+            "name": "MP Materials",
+            "code": "MP.US",
             "short_term": "↑"
           },
           {
-            "name": "Rocket Lab",
-            "code": "RKLB.US",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "中俄联合军演提振军工（新增）",
-        "theme": "中俄海军青岛联合演习，短期催化船舶军工板块",
-        "stocks": [
-          {
-            "name": "中国船舶",
-            "code": "600150.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "入境游热潮利好旅游链（新增）",
-        "theme": "中国入境旅游政策红利释放，航空免税酒店OTA全链受益",
-        "stocks": [
-          {
-            "name": "携程集团",
-            "code": "9961.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "中国中免",
-            "code": "601888.SH",
-            "short_term": "↑"
+            "name": "北方稀土",
+            "code": "600111.SH",
+            "short_term": "→"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月6日公开新闻的逻辑推演，不构成投资建议。股票市场存在不确定性，投资需谨慎。"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，预测存在不确定性，投资者应独立判断并承担风险。数据来源：hk.k415.win/news，整理日期：2026-07-06。"
 }
