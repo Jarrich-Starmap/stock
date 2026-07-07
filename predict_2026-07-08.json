@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "name": "2026年7月8日全球新闻股票推演",
+    "description": "基于2026年7月7日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股市场",
+    "category": "daily",
+    "source": "2026年7月7日新闻综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-08T00:00:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "香港生育诊所因胚胎混淆事件被调查",
+      "logic": "胚胎混淆事件引发公众对辅助生殖行业监管和信任的担忧，短期内相关诊所面临声誉风险和监管收紧压力，但中长期头部合规机构有望因行业出清而受益。",
+      "stocks": [
+        {
+          "name": "锦欣生殖",
+          "code": "1951.HK",
+          "market": "HK",
+          "sector": "医疗服务",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "贝康医疗-B",
+          "code": "2170.HK",
+          "market": "HK",
+          "sector": "医疗器械",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "中国顶尖经济学家高善文去世，曾质疑官方GDP数据",
+      "logic": "高善文是少数公开质疑官方经济数据的知名学者，其离世可能削弱市场对经济数据独立审视的声音，短期内对市场信心有轻微负面情绪影响。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "综合指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生指数ETF",
+          "code": "2800.HK",
+          "market": "HK",
+          "sector": "综合指数",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国多地遭遇极端天气：龙卷风、暴风雨、洪灾与山体滑坡致至少20人死亡",
+      "logic": "极端天气造成严重人员伤亡与财产损失，短期保险公司理赔压力增大，利空保险股；中长期灾后重建将拉动基建建材需求，利好基建板块；农业产区受灾可能推高粮食价格。",
+      "stocks": [
+        {
+          "name": "中国平安",
+          "code": "2318.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国太保",
+          "code": "2601.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "农业",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Texxon控股在中国河南开设聚苯乙烯生产设施",
+      "logic": "新生产设施落地河南将增加国内聚苯乙烯供给，利好上游苯乙烯原料供应商和下游塑料制品产业链，产能扩张反映化工行业景气度回升。",
+      "stocks": [
+        {
+          "name": "万华化学",
+          "code": "600309.SH",
+          "market": "SH",
+          "sector": "化工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "荣盛石化",
+          "code": "002493.SZ",
+          "market": "SZ",
+          "sector": "化工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国罕见弹道导弹试验据称破坏南太平洋无核区",
+      "logic": "中国罕见进行弹道导弹试验引发国际关注和区域紧张，短期提振军工板块情绪；中长期地缘博弈加剧将推动国防预算持续增长，利好军工全产业链。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "UCN推出中国进口海鲜批发定价平台",
+      "logic": "进口海鲜批发定价平台的推出将提升市场透明度和交易效率，利好国内水产品贸易和冷链物流企业，中长期促进行业规范化发展。",
+      "stocks": [
+        {
+          "name": "国联水产",
+          "code": "300094.SZ",
+          "market": "SZ",
+          "sector": "水产品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "开创国际",
+          "code": "600097.SH",
+          "market": "SH",
+          "sector": "渔业",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国在科技竞赛中领先西方",
+      "logic": "外媒报道中国科技竞赛领先西方，强化市场对中国科技自主可控的信心，半导体和先进制造板块有望获得估值提升。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华虹半导体",
+          "code": "1347.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "上海将于7月17-20日举办创纪录的世界人工智能大会",
+      "logic": "世界人工智能大会在上海举办规模创纪录，短期内对AI板块形成强催化剂效应；中长期AI产业政策持续加码，利好AI算力、大模型、应用全产业链。",
+      "stocks": [
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度集团-SW",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "北京约见阿里和字节跳动，考虑限制海外访问中国顶级AI模型",
+      "logic": "监管层考虑限制AI模型海外访问，短期利空有出海业务的阿里云和字节跳动；但该政策将加速国产AI生态闭环，利好纯国内AI基础设施和信创板块，科大讯飞等纯内需AI企业有望受益。",
+      "stocks": [
+        {
+          "name": "阿里巴巴-SW",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网/云服务",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "百度集团-SW",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "算力基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "牛津学者称中国是关键伙伴：欧洲为何需要中国",
+      "logic": "牛津学者正面评价中欧关系，缓解市场对中欧贸易摩擦的担忧，利好中欧贸易相关的新能源和高端制造出口企业。",
+      "stocks": [
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "锂电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "自然灾害冲击保险与基建（新增）",
+        "theme": "中国多地极端天气致20人死亡，短期利空保险、利好灾后基建",
+        "stocks": [
+          {
+            "name": "中国平安",
+            "code": "2318.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "中国建筑",
+            "code": "601668.SH",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "AI政策收紧出海受限（新增）",
+        "theme": "北京考虑限制海外访问中国AI模型，阿里承压、国产替代受益",
+        "stocks": [
+          {
+            "name": "阿里巴巴-SW",
+            "code": "9988.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "弹道导弹试验驱动军工（新增）",
+        "theme": "中国罕见弹道导弹试验引发地缘担忧，军工板块获短期催化",
+        "stocks": [
+          {
+            "name": "中航沈飞",
+            "code": "600760.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "航天彩虹",
+            "code": "002389.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "上海世界AI大会催化AI板块（新增）",
+        "theme": "创纪录规模世界人工智能大会即将在上海举办，AI全产业链受益",
+        "stocks": [
+          {
+            "name": "商汤-W",
+            "code": "0020.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月7日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。"
+}
