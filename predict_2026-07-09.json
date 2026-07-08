@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "name": "2026-07-09 全球新闻股票推演",
+    "description": "基于 2026-07-09 公开新闻事件驱动的短中长期股票多空推演数据集，覆盖 A 股、港股、美股及亚洲市场",
+    "category": "daily",
+    "source": "2026-07-09 综合整理自 hk.k415.win/news/",
+    "version": "1.0.0",
+    "update_time": "2026-07-09T02:15:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "中国进行自2023年以来最大规模美国大豆采购",
+      "logic": "中国大规模采购美国大豆将利好农产品贸易商和航运企业，短期提振大豆相关期货；中期利好国内粮油加工企业降低原料成本，同时可能推升CBOT大豆期货价格。长期若中美贸易关系缓和持续，利好中美农业贸易链。",
+      "stocks": [
+        {
+          "name": "中粮糖业",
+          "code": "600737.SH",
+          "market": "SH",
+          "sector": "农业/食品加工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北大荒",
+          "code": "600598.SH",
+          "market": "SH",
+          "sector": "农业",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "Archer-Daniels-Midland",
+          "code": "ADM.US",
+          "market": "US",
+          "sector": "农业贸易",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "Bunge",
+          "code": "BG.US",
+          "market": "US",
+          "sector": "农业贸易",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运物流",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "加拿大女排在VNL中以五局险胜中国队",
+      "logic": "体育赛事结果对宏观股票市场直接影响有限，但可间接影响体育用品/运动品牌短期关注度及赞助商曝光。对中国女排相关赞助商形成轻微负面情绪。",
+      "stocks": [
+        {
+          "name": "安踏体育",
+          "code": "2020.HK",
+          "market": "HK",
+          "sector": "体育用品",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "李宁",
+          "code": "2331.HK",
+          "market": "HK",
+          "sector": "体育用品",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "耐克",
+          "code": "NKE.US",
+          "market": "US",
+          "sector": "体育用品",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国海警在台湾东部巡逻释放新常态信号",
+      "logic": "台海地缘政治紧张加剧将直接影响台股市场情绪，短期台股承压；军工板块（A股）受事件驱动短期活跃；航运保险成本上升可能影响途经台海的航运公司。中长期若紧张常态化，利好国防军工产业。",
+      "stocks": [
+        {
+          "name": "台积电",
+          "code": "TSM.US",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台湾加权指数ETF",
+          "code": "EWT.US",
+          "market": "US",
+          "sector": "ETF/台湾市场",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "国防军工/造船",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "国防军工/无人机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国计划部署千颗卫星网络监视中亚地区",
+      "logic": "大规模卫星星座计划直接利好航天产业链（卫星制造、火箭发射、地面设备），短期提振航天板块情绪；中期带动相关供应链订单增长；长期利好商业航天和遥感应用市场。",
+      "stocks": [
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天/卫星制造",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天电子",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电器",
+          "code": "002025.SZ",
+          "market": "SZ",
+          "sector": "航天电子元器件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "铖昌科技",
+          "code": "001270.SZ",
+          "market": "SZ",
+          "sector": "卫星通信/相控阵芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "毒蛇从中国被洪水淹没的养殖场逃出并咬伤居民",
+      "logic": "洪水灾害及毒蛇咬伤事件短期利好抗蛇毒血清及急救药品生产商；洪灾概念涉及水利建设、应急管理、农业保险等板块。中期关注灾后重建需求。",
+      "stocks": [
+        {
+          "name": "上海医药",
+          "code": "601607.SH",
+          "market": "SH",
+          "sector": "医药/抗蛇毒血清",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "华兰生物",
+          "code": "002007.SZ",
+          "market": "SZ",
+          "sector": "生物制品",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "水利建设",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "大禹节水",
+          "code": "300021.SZ",
+          "market": "SZ",
+          "sector": "水利/节水灌溉",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国需求与天气风险提振粮食市场乐观情绪",
+      "logic": "中国强劲的粮食进口需求叠加极端天气风险，推动全球粮食期货价格看涨；利好国际粮商和国内种业/农化企业；中长期全球粮食安全主题持续利好农业科技和种子板块。",
+      "stocks": [
+        {
+          "name": "先正达",
+          "code": "SYT.US",
+          "market": "US",
+          "sector": "农业科技/种子",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "隆平高科",
+          "code": "000998.SZ",
+          "market": "SZ",
+          "sector": "种业",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "大北农",
+          "code": "002385.SZ",
+          "market": "SZ",
+          "sector": "农业/饲料",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "Mosaic",
+          "code": "MOS.US",
+          "market": "US",
+          "sector": "化肥",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "Nutrien",
+          "code": "NTR.US",
+          "market": "US",
+          "sector": "化肥/农业服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国在7月6日导弹试验前仅向美方提供极少通知和细节",
+      "logic": "中美军事透明度摩擦加剧地缘紧张，短期利好A股军工板块；市场避险情绪可能推高黄金和国防股；中长期若紧张持续，利好国内军工自主可控产业链。总体影响偏负面但军工反向受益。",
+      "stocks": [
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "军工电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "洪都航空",
+          "code": "600316.SH",
+          "market": "SH",
+          "sector": "国防军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "黄金/有色金属",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中金黄金",
+          "code": "600489.SH",
+          "market": "SH",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT.US",
+          "market": "US",
+          "sector": "国防军工",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国石化开发概述其在亚洲化工供应链中的角色",
+      "logic": "中国石化（Sinopec）在亚洲化工供应链中的地位巩固，短期利好其自身股价及化工板块；中期亚洲化工品贸易格局稳定有利于国内化工龙头；长期关注绿色化工转型。",
+      "stocks": [
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "石油化工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中石化冠德",
+          "code": "0934.HK",
+          "market": "HK",
+          "sector": "石化物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "万华化学",
+          "code": "600309.SH",
+          "market": "SH",
+          "sector": "化工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒力石化",
+          "code": "600346.SH",
+          "market": "SH",
+          "sector": "石化",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "消息称中国或允许阿里、字节跳动、DeepSeek购买英伟达H200芯片 供应可能严格受限",
+      "logic": "若获准购买H200，阿里云/字节等AI算力将大幅提升，利好中国AI/云计算板块；但供应受限意味着总量有限，利好国产AI芯片替代（华为昇腾、寒武纪等）；英伟达短期受益于订单但长期面临替代风险。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网/云计算",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA.US",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "sector": "光模块/AI算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "经济学家：印美贸易协议可重塑经济 拖延只会让中国受益",
+      "logic": "印美贸易协议推进可能分流部分制造业订单从中国转向印度，短期对中国出口型制造业形成竞争压力；中期利好印度市场及相关ETF；长期若印度制造崛起，中国部分中低端制造面临替代风险。",
+      "stocks": [
+        {
+          "name": "印度ETF",
+          "code": "INDA.US",
+          "market": "US",
+          "sector": "ETF/印度市场",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "塔塔汽车",
+          "code": "TTM.US",
+          "market": "US",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Infosys",
+          "code": "INFY.US",
+          "market": "US",
+          "sector": "IT服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "富士康工业互联网",
+          "code": "601138.SH",
+          "market": "SH",
+          "sector": "制造业",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "↓"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "中国大规模采购美国大豆（新增）",
+        "theme": "中美农产品贸易回暖，利好农业贸易链",
+        "stocks": [
+          {
+            "name": "中粮糖业",
+            "code": "600737.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "ADM",
+            "code": "ADM.US",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "台海巡逻新常态（新增）",
+        "theme": "地缘紧张推升军工与避险需求",
+        "stocks": [
+          {
+            "name": "中航沈飞",
+            "code": "600760.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "TSM",
+            "code": "TSM.US",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "千颗卫星监视网络（新增）",
+        "theme": "航天产业链重大利好",
+        "stocks": [
+          {
+            "name": "中国卫星",
+            "code": "600118.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "铖昌科技",
+            "code": "001270.SZ",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "中国或开放阿里等购买H200芯片（新增）",
+        "theme": "AI算力格局变动，国产替代加速",
+        "stocks": [
+          {
+            "name": "阿里巴巴",
+            "code": "BABA.US",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "印美贸易协议竞争（新增）",
+        "theme": "印度制造崛起或分流中国制造业订单",
+        "stocks": [
+          {
+            "name": "INDA",
+            "code": "INDA.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "富士康工业",
+            "code": "601138.SH",
+            "short_term": "→"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，请投资者自行判断风险。"
+}
