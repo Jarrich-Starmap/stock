@@ -1,19 +1,28 @@
 {
   "meta": {
-    "name": "2026年7月8日全球新闻股票推演",
-    "description": "基于2026年7月8日公开新闻事件，推演A股、港股、美股受影响的个股短中长期涨跌方向",
+    "name": "2026-07-08 全球新闻股票推演",
+    "description": "基于 2026年7月8日 hk.k415.win/news/ 抓取的 10 条全球新闻，推演相关股票短中长期多空影响",
     "category": "daily",
-    "source": "2026年7月8日综合整理",
-    "version": "1.0.0",
+    "source": "2026-07-08 综合整理，来源 hk.k415.win/news/",
+    "version": "1.0",
     "update_time": "2026-07-08T20:15:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "超强台风巴维略逼近台湾及华东，多地严阵以待",
-      "logic": "超强台风巴维略将冲击台湾、八重山群岛及华东沿海，短期引发财产保险理赔上升（利空保险股），农业产区受损推高农产品价格（短期利好农业股、利空下游食品加工），灾后重建预期拉动基建建材需求（中期利好）。航运港口短期停摆（利空），但灾后物资运输需求反弹。",
+      "title": "超强台风巴维略减弱，台湾、八重山群岛及华东地区严阵以待",
+      "logic": "台风袭击台湾及华东沿海 → 短期航班取消/港口停运冲击航空海运 → 中期灾后重建利好工程机械与建材 → 财产险理赔增加短期利空保险公司",
       "stocks": [
+        {
+          "name": "中国太保",
+          "code": "601601.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
         {
           "name": "中国平安",
           "code": "601318.SH",
@@ -24,38 +33,29 @@
           "long_term": "→"
         },
         {
-          "name": "中国人保",
-          "code": "601319.SH",
+          "name": "东方航空",
+          "code": "600115.SH",
           "market": "SH",
-          "sector": "保险",
+          "sector": "航空运输",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "海螺水泥",
-          "code": "600585.SH",
+          "name": "南方航空",
+          "code": "600029.SH",
           "market": "SH",
-          "sector": "建材",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "东方雨虹",
-          "code": "002271.SZ",
-          "market": "SZ",
-          "sector": "建材防水",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "北大荒",
-          "code": "600598.SH",
+          "name": "上港集团",
+          "code": "600018.SH",
           "market": "SH",
-          "sector": "农业",
-          "short_term": "↑",
+          "sector": "港口航运",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
@@ -69,11 +69,20 @@
           "long_term": "→"
         },
         {
-          "name": "台泥",
-          "code": "1101.TW",
-          "market": "TW",
-          "sector": "水泥",
-          "short_term": "↑",
+          "name": "海螺水泥",
+          "code": "600585.SH",
+          "market": "SH",
+          "sector": "建材",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "建筑工程",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "→"
         }
@@ -82,41 +91,41 @@
     {
       "id": 2,
       "title": "AerCap货运与南航集团签署三架波音777-300ERSF改装货机租赁协议",
-      "logic": "南航集团通过AerCap引入三架波音777货机，强化航空货运能力。短期提升南航货运竞争力（利好南航），反映航空货运需求回暖，利好航空物流板块。波音作为飞机制造商获得间接订单背书，但量级有限。长期看中国航空货运市场扩张趋势利好头部航司。",
+      "logic": "AerCap与南航签约新增3架波音货机 → 航空货运运力扩张利好货运物流 → 利好波音订单及售后维护 → 增强南航货运板块竞争力",
       "stocks": [
+        {
+          "name": "AerCap",
+          "code": "AER",
+          "market": "US",
+          "sector": "航空租赁",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
         {
           "name": "南方航空",
           "code": "600029.SH",
           "market": "SH",
           "sector": "航空运输",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "波音",
-          "code": "BA.US",
-          "market": "US",
-          "sector": "飞机制造",
-          "short_term": "→",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "顺丰控股",
-          "code": "002352.SZ",
-          "market": "SZ",
-          "sector": "快递物流",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "name": "南方航空",
+          "code": "1055.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "→",
+          "name": "波音",
+          "code": "BA",
+          "market": "US",
+          "sector": "航空航天",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         }
@@ -125,8 +134,17 @@
     {
       "id": 3,
       "title": "中国央行承诺在需求疲软和外部冲击下维持宽松政策",
-      "logic": "央行明确宽松信号，预计后续降准降息概率加大，流动性宽松直接利好银行信贷扩张、地产融资环境改善、券商交易活跃度提升。短期提振市场情绪，中期支撑估值修复。但需求疲软背景意味着经济基本面改善仍需时间，长期效果取决于政策传导效率。",
+      "logic": "央行明确宽松信号 → 流动性宽松利好银行信贷扩张与地产融资 → 降息预期压低银行息差中期偏中性 → 宽松环境整体利好A股/港股估值修复",
       "stocks": [
+        {
+          "name": "工商银行",
+          "code": "601398.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
         {
           "name": "招商银行",
           "code": "600036.SH",
@@ -141,85 +159,85 @@
           "code": "000002.SZ",
           "market": "SZ",
           "sector": "房地产",
-          "short_term": "↑↑",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中信证券",
-          "code": "600030.SH",
+          "name": "保利发展",
+          "code": "600048.SH",
           "market": "SH",
-          "sector": "券商",
+          "sector": "房地产",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "恒生银行",
-          "code": "0011.HK",
-          "market": "HK",
-          "sector": "银行",
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "宽基指数",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "贝壳",
-          "code": "BEKE.US",
-          "market": "US",
-          "sector": "房产交易平台",
-          "short_term": "↑",
-          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 4,
-      "title": "中国警告Anthropic Claude Code AI编码工具存在安全后门风险",
-      "logic": "中国官方警告Claude Code存在安全后门，将加速国产AI代码工具替代进程，利好国产AI安全与开发工具厂商。短期引发对海外AI工具安全审查收紧，利好网络安全板块。中长期看国产替代趋势强化，国产大模型和开发工具链企业受益。但需关注中美科技摩擦升级风险。",
+      "title": "中国警告Anthropic AI编码工具Claude Code存在安全后门",
+      "logic": "官方对海外AI工具发出安全警告 → 推动国产替代需求 → 利好国内AI编程工具和安全软件 → 海外AI对华业务受限但影响有限 → 国产大模型/芯片自主可控逻辑强化",
       "stocks": [
         {
           "name": "奇安信",
           "code": "688561.SH",
           "market": "SH",
           "sector": "网络安全",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "深信服",
-          "code": "300454.SZ",
-          "market": "SZ",
-          "sector": "网络安全",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
-          "market": "SZ",
-          "sector": "AI大模型",
-          "short_term": "↑",
-          "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
           "name": "三六零",
           "code": "601360.SH",
           "market": "SH",
-          "sector": "安全/AI",
+          "sector": "网络安全",
           "short_term": "↑",
           "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度集团-SW",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
           "name": "金山办公",
           "code": "688111.SH",
           "market": "SH",
-          "sector": "国产办公软件",
+          "sector": "办公软件/AI",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -229,17 +247,8 @@
     {
       "id": 5,
       "title": "中国在暴风雨和致命山体滑坡后拨款数百万用于新救灾",
-      "logic": "国家救灾拨款落地，短期利好水利建设、应急设备、临时安置相关建材企业。灾后基础设施修复需求将逐步释放，中期利好基建工程板块。保险理赔压力上升但已被市场消化。长期看气候灾害频发趋势下防灾减灾投入将持续增加。",
+      "logic": "政府拨款救灾 → 利好工程机械/建材/水利建设 → 灾后重建周期3-6个月 → 保险理赔增加但已Price-in",
       "stocks": [
-        {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建工程",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "→"
-        },
         {
           "name": "三一重工",
           "code": "600031.SH",
@@ -250,19 +259,37 @@
           "long_term": "→"
         },
         {
-          "name": "安徽水利",
-          "code": "600502.SH",
-          "market": "SH",
-          "sector": "水利建设",
-          "short_term": "↑↑",
-          "mid_term": "→",
+          "name": "中联重科",
+          "code": "000157.SZ",
+          "market": "SZ",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "中国铁建",
-          "code": "601186.SH",
+          "name": "中国中铁",
+          "code": "601390.SH",
           "market": "SH",
-          "sector": "基建",
+          "sector": "基建工程",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建工程",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "东方雨虹",
+          "code": "002271.SZ",
+          "market": "SZ",
+          "sector": "建材防水",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
@@ -271,15 +298,24 @@
     },
     {
       "id": 6,
-      "title": "柬埔寨旅游业下滑，中国游客访客量暴跌47.8%",
-      "logic": "中国出境游需求大幅萎缩，反映居民消费信心不足，出境游相关产业链承压。短期利空出境游旅行社、国际航线（东南亚航线占比高的航司）、免税零售。柬埔寨本地旅游经济受挫，但间接利好国内旅游替代需求（国内游替代出境游）。中长期看消费降级趋势下出境游复苏道阻且长。",
+      "title": "柬埔寨旅游业下滑，中国游客骤减47.8%",
+      "logic": "中国游客出境柬埔寨大幅减少 → 利空柬埔寨赌场/酒店 → 中国出境游消费转向国内利好国内旅游 → 对东南亚航线需求下降",
       "stocks": [
         {
-          "name": "携程集团",
+          "name": "金界控股",
+          "code": "3918.HK",
+          "market": "HK",
+          "sector": "博彩旅游",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "携程集团-S",
           "code": "9961.HK",
           "market": "HK",
           "sector": "在线旅游",
-          "short_term": "↓",
+          "short_term": "→",
           "mid_term": "→",
           "long_term": "→"
         },
@@ -287,34 +323,25 @@
           "name": "中国中免",
           "code": "601888.SH",
           "market": "SH",
-          "sector": "免税零售",
-          "short_term": "↓",
-          "mid_term": "↓",
+          "sector": "免税旅游零售",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "南方航空",
+          "code": "1055.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
           "name": "春秋航空",
           "code": "601021.SH",
           "market": "SH",
-          "sector": "廉价航空",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "复星旅游文化",
-          "code": "1992.HK",
-          "market": "HK",
-          "sector": "旅游度假",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "美团",
-          "code": "3690.HK",
-          "market": "HK",
-          "sector": "本地生活",
+          "sector": "航空运输",
           "short_term": "→",
           "mid_term": "→",
           "long_term": "→"
@@ -324,7 +351,7 @@
     {
       "id": 7,
       "title": "中国瞄准自动驾驶新AI技术",
-      "logic": "中国加码自动驾驶AI技术布局，政策驱动下自动驾驶产业链加速发展。短期利好激光雷达、高精地图、智能驾驶芯片、车载AI算法企业。中期看L3/L4级自动驾驶落地预期升温。长期趋势明确但需关注技术路线不确定性和监管进度。",
+      "logic": "政策层面推动自动驾驶AI技术研发 → 利好智能驾驶产业链（激光雷达/芯片/算法/整车）→ 长期AI+汽车融合赛道确定性增强",
       "stocks": [
         {
           "name": "比亚迪",
@@ -332,78 +359,146 @@
           "market": "SZ",
           "sector": "新能源汽车",
           "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "德赛西威",
-          "code": "002920.SZ",
-          "market": "SZ",
-          "sector": "汽车电子",
-          "short_term": "↑↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         },
         {
-          "name": "百度集团",
+          "name": "百度集团-SW",
           "code": "9888.HK",
           "market": "HK",
           "sector": "自动驾驶/AI",
           "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
           "name": "禾赛科技",
-          "code": "HSAI.US",
+          "code": "HSAI",
           "market": "US",
           "sector": "激光雷达",
-          "short_term": "↑↑",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "地平线机器人-W",
+          "code": "9660.HK",
+          "market": "HK",
+          "sector": "自动驾驶芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "小鹏汽车",
+          "code": "9868.HK",
+          "market": "HK",
+          "sector": "智能电动汽车",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "四维图新",
-          "code": "002405.SZ",
-          "market": "SZ",
-          "sector": "高精地图",
+          "name": "蔚来",
+          "code": "NIO",
+          "market": "US",
+          "sector": "智能电动汽车",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
+          "mid_term": "→",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 8,
-      "title": "泰国警察因在中国走私大麻被捕（跨境快递渠道）",
-      "logic": "跨境毒品通过快递渠道走私事件曝光，短期强化快递安检监管预期，利空跨境物流效率和成本。对快递企业而言短期合规成本上升，但影响有限（个案）。中长期快递安检设备和AI检测需求增加。大麻产业链相关概念承压。",
+      "title": "Claude Code引发中国安全警告（综合）",
+      "logic": "与第4条事件关联——多源报道强化国产替代叙事 → AI安全审查趋严 → 国产代码工具/安全软件/信创板块持续受益",
       "stocks": [
         {
-          "name": "韵达股份",
-          "code": "002120.SZ",
-          "market": "SZ",
-          "sector": "快递物流",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "圆通速递",
-          "code": "600233.SH",
+          "name": "奇安信",
+          "code": "688561.SH",
           "market": "SH",
-          "sector": "快递物流",
-          "short_term": "↓",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "信创/算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国软件",
+          "code": "600536.SH",
+          "market": "SH",
+          "sector": "信创/国产软件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国：Anthropic Claude Code面临后门风险（跟进报道）",
+      "logic": "与第4/8条事件关联——连续多篇报道发酵 → 市场对AI安全审查预期升温 → 强化国产AI替代逻辑",
+      "stocks": [
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "泰国警察因在中国走私大麻被捕",
+      "logic": "中泰跨境毒品走私个案 → 对资本市场影响极小 → 短期利空中泰跨境物流监管趋严预期",
+      "stocks": [
+        {
+          "name": "嘉里物流",
+          "code": "0636.HK",
+          "market": "HK",
+          "sector": "跨境物流",
+          "short_term": "→",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "海康威视",
-          "code": "002415.SZ",
-          "market": "SZ",
-          "sector": "安检AI",
-          "short_term": "↑",
+          "name": "极兔速递-W",
+          "code": "1519.HK",
+          "market": "HK",
+          "sector": "跨境物流",
+          "short_term": "→",
           "mid_term": "→",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     }
@@ -411,8 +506,24 @@
   "summary": {
     "newly_added": [
       {
-        "label": "央行宽松信号（新增）",
-        "theme": "中国央行承诺维持宽松政策以应对需求疲软和外部冲击，降准降息预期升温",
+        "label": "台风巴维袭击华东（新增）",
+        "theme": "超强台风巴维略减弱但仍威胁台湾及华东沿海，短期利空航空/港口/保险，中期利好建材/基建",
+        "stocks": [
+          {
+            "name": "东方航空",
+            "code": "600115.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "海螺水泥",
+            "code": "600585.SH",
+            "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "央行宽松政策（新增）",
+        "theme": "中国央行承诺维持宽松政策应对需求疲软和外部冲击，利好银行/地产/宽基指数",
         "stocks": [
           {
             "name": "招商银行",
@@ -422,59 +533,43 @@
           {
             "name": "万科A",
             "code": "000002.SZ",
-            "short_term": "↑↑"
+            "short_term": "↑"
           }
         ]
       },
       {
-        "label": "Claude Code安全后门警告（新增）",
-        "theme": "中国警告Anthropic Claude Code存在安全后门，国产AI安全替代加速",
+        "label": "AI安全国产替代（新增）",
+        "theme": "中国对Anthropic Claude Code发出安全后门警告，多篇报道发酵强化国产AI/信创替代逻辑",
         "stocks": [
           {
             "name": "奇安信",
             "code": "688561.SH",
-            "short_term": "↑↑"
+            "short_term": "↑"
           },
           {
-            "name": "科大讯飞",
-            "code": "002230.SZ",
+            "name": "寒武纪",
+            "code": "688256.SH",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "自动驾驶AI政策加码（新增）",
-        "theme": "中国瞄准自动驾驶新AI技术，产业链加速",
+        "label": "自动驾驶AI新政策（新增）",
+        "theme": "中国瞄准自动驾驶新AI技术，利好激光雷达/智驾芯片/新能源整车产业链",
         "stocks": [
           {
-            "name": "德赛西威",
-            "code": "002920.SZ",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "百度集团",
-            "code": "9888.HK",
+            "name": "地平线机器人-W",
+            "code": "9660.HK",
             "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "台风巴维略冲击华东（新增）",
-        "theme": "超强台风逼近台湾及华东，保险承压，建材农业短期利好",
-        "stocks": [
-          {
-            "name": "中国平安",
-            "code": "601318.SH",
-            "short_term": "↓"
           },
           {
-            "name": "海螺水泥",
-            "code": "600585.SH",
+            "name": "禾赛科技",
+            "code": "HSAI",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月8日公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月8日公开新闻的逻辑推演，不构成任何投资建议。股票市场受多重因素影响，实际走势可能与推演存在重大偏差。投资决策请独立判断并咨询专业顾问。"
 }
