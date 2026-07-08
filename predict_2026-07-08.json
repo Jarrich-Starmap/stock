@@ -1,86 +1,77 @@
 {
   "meta": {
     "name": "2026年7月8日全球新闻股票推演",
-    "description": "基于2026年7月8日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太欧洲市场",
+    "description": "基于2026年7月8日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "hk.k415.win/news/ 2026年7月8日综合整理",
-    "version": "1.0.0",
-    "update_time": "2026-07-08T11:15:00+08:00",
+    "source": "2026年7月8日综合整理，源自hk.k415.win/news/聚合新闻",
+    "version": "1.0",
+    "update_time": "2026-07-08T17:30:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "中国制定五年旅游规划，目标2030年入境游客达1.9亿人次",
-      "logic": "国务院级别旅游产业规划将带来基建投资、免签扩围、消费刺激等多重利好，酒店、免税、景区运营及OTA平台直接受益；中期入境游人次翻倍目标驱动免税销售额与航空客运量增长",
+      "title": "匈牙利战机因国泰航空客机触发北约警报紧急升空",
+      "logic": "南华早报报道一架国泰航空客机在空中触发北约警报，导致匈牙利战机紧急升空拦截。此事件虽最终可能为误报或通信故障，但短期引发航空安全担忧和市场情绪波动，对国泰航空股价构成压力；中长期若无后续制裁或调查影响有限，航空业运营整体恢复趋势不变。",
       "stocks": [
         {
-          "name": "中国中免",
-          "code": "601888.SH",
-          "market": "SH",
-          "sector": "免税零售",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "携程集团",
-          "code": "9961.HK",
+          "name": "国泰航空",
+          "code": "0293.HK",
           "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "首旅酒店",
-          "code": "600258.SH",
-          "market": "SH",
-          "sector": "酒店餐饮",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
           "sector": "航空运输",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "中国西北部山体滑坡致21人遇难，同日发生5.0级地震",
-      "logic": "自然灾害事件短期推升保险理赔预期，财险公司承保压力增大；同时灾后重建需求利好建材、工程机械板块；保险板块短期承压但中长期因保费提价预期偏正面",
-      "stocks": [
-        {
-          "name": "中国平安",
-          "code": "601318.SH",
-          "market": "SH",
-          "sector": "保险",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国人保",
-          "code": "601319.SH",
-          "market": "SH",
-          "sector": "财险",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "海螺水泥",
-          "code": "600585.SH",
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "南方航空",
+          "code": "1055.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2026年中国十大超市排名发布，永辉、华润万家等上榜",
+      "logic": "Vino Joy News发布2026年中国十大超市排名，反映中国零售行业竞争格局。排名发布利于上榜企业品牌曝光和消费者信心，短期提振零售龙头股情绪；中长期线下零售仍面临电商和社区团购分流压力，分化加剧，龙头集中度提升趋势利好头部企业。",
+      "stocks": [
+        {
+          "name": "永辉超市",
+          "code": "601933.SH",
           "market": "SH",
-          "sector": "建材",
+          "sector": "零售/超市",
           "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "高鑫零售",
+          "code": "6808.HK",
+          "market": "HK",
+          "sector": "零售/超市",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "联华超市",
+          "code": "0980.HK",
+          "market": "HK",
+          "sector": "零售/超市",
+          "short_term": "→",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -88,254 +79,407 @@
     },
     {
       "id": 3,
-      "title": "LVMH需警惕中国奢侈品市场雷区",
-      "logic": "中国奢侈品消费增速放缓叠加本土品牌崛起，LVMH等欧洲奢侈品巨头在华收入承压；贵州茅台等国产高端消费品相对受益于消费回流趋势",
+      "title": "中国呼吁荷兰为中资企业创造公平投资环境（商务部+外交部两条合并）",
+      "logic": "新华社与China Daily分别报道中方希望荷兰为中资企业创造公平稳定营商环境，尤其涉及半导体设备出口管制。此举表明中荷经贸关系面临政策博弈，短期利好中芯国际等受益于国产替代的半导体企业；中期若荷兰放松部分限制则利好中荷贸易相关企业；长期看中国半导体自主可控战略不变，国产替代趋势确定。",
       "stocks": [
         {
-          "name": "LVMH",
-          "code": "MC.PA",
-          "market": "FR",
-          "sector": "奢侈品",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "开云集团",
-          "code": "KER.PA",
-          "market": "FR",
-          "sector": "奢侈品",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "贵州茅台",
-          "code": "600519.SH",
+          "name": "中芯国际",
+          "code": "688981.SH",
           "market": "SH",
-          "sector": "白酒/高端消费",
-          "short_term": "→",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "华虹半导体",
+          "code": "1347.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿斯麦",
+          "code": "ASML",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 4,
-      "title": "中国与北欧国家同意加强全球AI治理对话",
-      "logic": "AI治理国际合作信号利好合规型AI企业，中国AI公司在全球治理框架下获更多国际认可空间；同时北欧合作可能推动AI硬件与算力基础设施出口",
+      "title": "中国汽车销量再度下滑，但出口保持强劲增长",
+      "logic": "路透社/TradingView报道中国6月汽车销量再度下滑，但出口保持强劲。内需疲软对依赖国内市场的车企构成压力，比亚迪、吉利等出口占比较高的车企反而受益于海外增量。新能源车出口趋势持续，利好有海外布局的头部车企；传统燃油车为主的合资品牌承压更大。",
       "stocks": [
         {
-          "name": "百度",
-          "code": "9888.HK",
+          "name": "比亚迪",
+          "code": "1211.HK",
           "market": "HK",
-          "sector": "人工智能",
+          "sector": "新能源汽车",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
+          "name": "比亚迪",
+          "code": "002594.SZ",
           "market": "SZ",
-          "sector": "人工智能",
+          "sector": "新能源汽车",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         },
         {
-          "name": "商汤-W",
-          "code": "0020.HK",
+          "name": "吉利汽车",
+          "code": "0175.HK",
           "market": "HK",
-          "sector": "人工智能",
+          "sector": "汽车制造",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "爱立信",
-          "code": "ERIC",
-          "market": "US",
-          "sector": "通信设备",
-          "short_term": "→",
-          "mid_term": "↑",
           "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "CRG抢走离开中国的订单：从吊扇到无人机产业链转移",
-      "logic": "制造业订单从中国向CRG（柬埔寨/越南等）转移加速，中国低端制造出口承压，但高端制造（无人机等）仍具竞争力；利好已在东南亚布局的中国代工厂及物流企业",
-      "stocks": [
-        {
-          "name": "航天彩虹",
-          "code": "002389.SZ",
-          "market": "SZ",
-          "sector": "无人机/军工",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
         },
         {
-          "name": "申洲国际",
-          "code": "2313.HK",
+          "name": "长城汽车",
+          "code": "2333.HK",
           "market": "HK",
-          "sector": "纺织代工",
+          "sector": "汽车制造/出口",
           "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        },
-        {
-          "name": "中无人机",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "无人机",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "台湾顶级造船商押注国防建设以应对中国威压",
-      "logic": "台海地缘紧张升级推动两岸国防预算扩张，造船及军工企业订单预期增长；大陆海军装备建设提速利好船舶制造龙头",
-      "stocks": [
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "船舶制造",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "军工船舶",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工航空",
-          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "2026年上半年中国原油进口同比下降约23%，为战争以来最大降幅",
-      "logic": "原油进口骤降反映新能源替代加速及经济结构调整，利空国际原油价格及油运需求；利好新能源产业链（光伏、电动车）及天然气替代",
-      "stocks": [
-        {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "↓"
         },
         {
-          "name": "中远海能",
-          "code": "600026.SH",
+          "name": "上汽集团",
+          "code": "600104.SH",
           "market": "SH",
-          "sector": "油运",
+          "sector": "汽车制造",
           "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "↓"
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
           "name": "宁德时代",
           "code": "300750.SZ",
           "market": "SZ",
-          "sector": "新能源电池",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "隆基绿能",
-          "code": "601012.SH",
-          "market": "SH",
-          "sector": "光伏",
-          "short_term": "→",
+          "sector": "动力电池",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         }
       ]
     },
     {
-      "id": 8,
-      "title": "澳大利亚推动太平洋国家联合应对中国影响力",
-      "logic": "澳大利亚主导太平洋地缘联盟可能影响中澳贸易关系，铁矿石/煤炭出口中国面临不确定性；但中国对澳洲资源依赖度中短期难替代，实际影响有限",
+      "id": 5,
+      "title": "央视播出东风-17导弹画面展示军力；菲律宾对中国潜射弹道导弹关切（两条合并）",
+      "logic": "Defense News报道央视罕见播出东风-17高超音速导弹视频展示军力，同时菲律宾外交部对中国潜射弹道导弹试验表达关切。中国密集展示战略军事力量，地缘紧张情绪升温。短期军工股受事件催化大幅上涨；中期军费增长预期和装备列装加速利好军工全产业链；黄金等避险资产也获支撑。",
       "stocks": [
         {
-          "name": "必和必拓",
-          "code": "BHP",
-          "market": "US",
-          "sector": "矿业",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "力拓",
-          "code": "RIO",
-          "market": "US",
-          "sector": "矿业",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "宝钢股份",
-          "code": "600019.SH",
+          "name": "中航沈飞",
+          "code": "600760.SH",
           "market": "SH",
-          "sector": "钢铁",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "中国罕见弹道导弹试验引发国际关切",
-      "logic": "导弹试验强化军备竞赛预期，全球国防预算扩张趋势延续；中国军工企业新型号列装及出口预期提升，美国防务承包商同样受益",
-      "stocks": [
-        {
-          "name": "航天科工",
-          "code": "600677.SH",
-          "market": "SH",
-          "sector": "军工航天",
+          "sector": "军工/航空",
           "short_term": "↑↑",
-          "mid_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "洛克希德·马丁",
-          "code": "LMT",
-          "market": "US",
-          "sector": "国防军工",
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "军工/无人机",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/船舶",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "雷神技术",
-          "code": "RTX",
+          "name": "北方导航",
+          "code": "600435.SH",
+          "market": "SH",
+          "sector": "军工/导航",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "洪都航空",
+          "code": "600316.SH",
+          "market": "SH",
+          "sector": "军工/导弹",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "2899.HK",
+          "market": "HK",
+          "sector": "黄金/避险",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "山东黄金",
+          "code": "1787.HK",
+          "market": "HK",
+          "sector": "黄金/避险",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国西北山体滑坡遇难21人；中部龙卷风暴雨致至少11人死亡（灾害合并）",
+      "logic": "CNA等多家媒体报道中国西北山体滑坡遇难人数升至21人，中部龙卷风及暴风雨致至少11人死亡。灾害将推高保险公司短期赔付压力，利空保险股；灾后重建需求利好水泥、建材、工程机械等基建板块；极端天气频发也推动防灾减灾和应急管理产业关注度提升。",
+      "stocks": [
+        {
+          "name": "中国平安",
+          "code": "2318.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国人保",
+          "code": "1339.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "0914.HK",
+          "market": "HK",
+          "sector": "建材/水泥",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国建材",
+          "code": "3323.HK",
+          "market": "HK",
+          "sector": "建材",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "东方雨虹",
+          "code": "002271.SZ",
+          "market": "SZ",
+          "sector": "建材/防水",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "台湾立法委员计划访问东沙群岛；台官员称大陆行动或造成新现状（合并）",
+      "logic": "Taiwan News报道台湾立法委员计划访问东沙群岛，同时台湾官员警告大陆行动可能造成新现状。台海局势持续紧张，南海方向博弈也在升级。军工板块持续受益于地缘紧张；航运安全担忧可能推高海运运费，利好航运股；同时外资对台海风险资产的短期避险行为可能增加。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工/航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工/船舶",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "招商轮船",
+          "code": "601872.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM",
           "market": "US",
-          "sector": "国防军工",
+          "sector": "半导体/台湾",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "雅高集团在华扩展奢华酒店版图，目标1600家酒店",
+      "logic": "THP News报道法国雅高集团（Accor）在中国加速奢华酒店扩张，目标总规模达1600家。这反映出国际酒店巨头对中国旅游消费升级的长期信心。利好中国文旅酒店板块和商业地产；雅高扩张将加大中国本土酒店集团的竞争压力，但总体上做大蛋糕利好整个酒店文旅产业链。",
+      "stocks": [
+        {
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店/文旅",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "首旅酒店",
+          "code": "600258.SH",
+          "market": "SH",
+          "sector": "酒店/文旅",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华住集团",
+          "code": "1179.HK",
+          "market": "HK",
+          "sector": "酒店",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "雅高集团",
+          "code": "AC.PA",
+          "market": "FR",
+          "sector": "酒店",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "1880.HK",
+          "market": "HK",
+          "sector": "文旅/免税",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国发布2030年旅游发展规划：目标吸引1.9亿入境游客",
+      "logic": "Nation Thailand报道中国发布2030年旅游发展规划，目标吸引1.9亿入境游客。这是继144小时过境免签等政策后的重磅旅游顶层设计，短期极大提振文旅板块市场情绪；中期入境游增长直接利好航空、酒店、免税、餐饮等全产业链；长期看，中国旅游开放战略将重塑入境游格局。",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "1880.HK",
+          "market": "HK",
+          "sector": "免税/旅游零售",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "同程旅行",
+          "code": "0780.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店/文旅",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "宋城演艺",
+          "code": "300144.SZ",
+          "market": "SZ",
+          "sector": "文旅/演艺",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -344,76 +488,94 @@
     },
     {
       "id": 10,
-      "title": "中日航线航班取消数量持续激增",
-      "logic": "中日航线大幅削减直接冲击航空公司营收，两国航司均受负面影响；但高铁及国内旅游替代效应部分对冲，国内线占比高的航司承压较小",
+      "title": "无人机在中国洪灾救援中将被困居民吊至安全地带",
+      "logic": "Yahoo News UK报道无人机在中国洪灾救援中发挥关键作用，成功吊运被困居民。此事件展示了中国无人机在应急救援领域的实战能力和技术领先性，利好无人机整机制造商、飞控系统及低空经济产业链；灾后无人机采购需求将增加，推动行业加速发展。",
       "stocks": [
         {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "全日空",
-          "code": "9202.T",
-          "market": "T",
-          "sector": "航空运输",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "春秋航空",
-          "code": "601021.SH",
-          "market": "SH",
-          "sector": "航空运输",
+          "name": "大疆创新",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "无人机",
           "short_term": "→",
-          "mid_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
+        },
+        {
+          "name": "纵横股份",
+          "code": "688070.SH",
+          "market": "SH",
+          "sector": "无人机/低空经济",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "无人机/军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "亿航智能",
+          "code": "EH",
+          "market": "US",
+          "sector": "无人机/飞行器",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中无人机",
+          "code": "688297.SH",
+          "market": "SH",
+          "sector": "无人机",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 11,
-      "title": "中国或计划告诉美国：不再需要英伟达芯片，国产替代已就绪",
-      "logic": "中国AI芯片自主替代宣言对英伟达构成长期利空，中国市场份额面临永久性流失；国产AI芯片厂商（寒武纪、海光）迎来战略机遇期，但短期性能差距仍需验证",
+      "title": "巴中友谊医院6月接诊近2.8万名门诊患者，中巴医疗合作持续推进",
+      "logic": "Independent News Pakistan报道巴中友谊医院6月接诊近2.8万名门诊患者，体现中巴经济走廊（CPEC）在医疗民生领域的实质性进展。利好参与中巴经济走廊基建和医疗合作的中资企业；一带一路医疗出海概念获正面验证。",
       "stocks": [
         {
-          "name": "英伟达",
-          "code": "NVDA",
-          "market": "US",
-          "sector": "半导体",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "↓"
+          "name": "中国交建",
+          "code": "1800.HK",
+          "market": "HK",
+          "sector": "基建/一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "name": "中国中铁",
+          "code": "0390.HK",
+          "market": "HK",
+          "sector": "基建/一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "海光信息",
-          "code": "688041.SH",
-          "market": "SH",
-          "sector": "AI芯片/CPU",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "name": "迈瑞医疗",
+          "code": "300760.SZ",
+          "market": "SZ",
+          "sector": "医疗器械",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "中芯国际",
-          "code": "688981.SH",
+          "name": "联影医疗",
+          "code": "688271.SH",
           "market": "SH",
-          "sector": "晶圆代工",
-          "short_term": "↑",
+          "sector": "医疗设备",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         }
@@ -421,33 +583,51 @@
     },
     {
       "id": 12,
-      "title": "中国股市创一个月新低",
-      "logic": "市场情绪低迷，短期恐慌抛售可能延续但估值已具吸引力；权重股超跌后国家队资金入场预期升温，银行、券商等金融权重可能率先企稳",
+      "title": "Claude Code安全警告引发中国警觉：AI编程工具数据安全风险",
+      "logic": "Blockchain.news报道Anthropic的Claude Code安全警告引发中国警觉，关注AI编程工具的数据安全和供应链风险。此事件将加速中国自主AI编程工具和国产大模型生态的发展；短期对使用海外AI工具的科技企业有合规压力，长期利好国产AI安全和自主可控产业链。",
       "stocks": [
         {
-          "name": "华泰柏瑞沪深300ETF",
-          "code": "510300.SH",
-          "market": "SH",
-          "sector": "指数基金",
-          "short_term": "↓",
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI/大模型",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤科技",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中信证券",
-          "code": "600030.SH",
+          "name": "奇安信",
+          "code": "688561.SH",
           "market": "SH",
-          "sector": "券商",
-          "short_term": "↓",
+          "sector": "网络安全",
+          "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "工商银行",
-          "code": "601398.SH",
+          "name": "三六零",
+          "code": "601360.SH",
           "market": "SH",
-          "sector": "银行",
-          "short_term": "→",
+          "sector": "网络安全/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         }
@@ -455,78 +635,96 @@
     },
     {
       "id": 13,
-      "title": "中国外长结束北欧之行，各国承诺深化贸易与绿色合作",
-      "logic": "北欧之行成果积极，中欧贸易关系暂时缓和利好出口导向型企业；绿色能源合作深化为光伏、风电出口打开北欧市场",
+      "title": "美国AI模型是否优于中国？舆论认为应用落地才是关键",
+      "logic": "南华早报评论文章讨论中美AI模型竞争，核心观点为单纯比较模型能力意义有限，更应关注应用生态和产业落地。此舆论引导市场从算力军备竞赛叙事转向AI应用落地叙事，利好AI应用层企业（如AI+金融、AI+医疗、AI+制造等垂直场景），而非单纯利好算力硬件。",
       "stocks": [
         {
-          "name": "沃尔沃",
-          "code": "VOLV-B.ST",
-          "market": "SE",
-          "sector": "汽车制造",
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/互联网",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "阳光电源",
-          "code": "300274.SZ",
-          "market": "SZ",
-          "sector": "光伏逆变器",
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网/AI应用",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "AI/云计算",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "金山办公",
+          "code": "688111.SH",
+          "market": "SH",
+          "sector": "AI办公应用",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
         },
         {
-          "name": "金风科技",
-          "code": "002202.SZ",
+          "name": "海康威视",
+          "code": "002415.SZ",
           "market": "SZ",
-          "sector": "风电",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "诺基亚",
-          "code": "NOK",
-          "market": "US",
-          "sector": "通信设备",
+          "sector": "AI安防",
           "short_term": "→",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 14,
-      "title": "美国共和党高层麦康奈尔住院引关注，国会权力格局存变数",
-      "logic": "麦康奈尔作为共和党核心人物健康恶化可能影响美国国会立法进程，医保政策不确定性增加；大型医保股短期承压，但行业基本面仍然稳健",
+      "title": "中方欢迎更多美国民众来华亲身体验中国",
+      "logic": "China Daily报道中方欢迎更多美国民众来华亲身体验中国，呼应近期中国扩大单方面免签国家范围的旅游开放政策。中美民间交流回暖利好跨境旅游和航空业；叠加2030旅游发展规划，旅游全产业链迎来政策共振。",
       "stocks": [
         {
-          "name": "联合健康",
-          "code": "UNH",
-          "market": "US",
-          "sector": "医疗保险",
-          "short_term": "↓",
-          "mid_term": "→",
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "哈门那",
-          "code": "HUM",
-          "market": "US",
-          "sector": "医疗保险",
-          "short_term": "↓",
-          "mid_term": "→",
+          "name": "中国中免",
+          "code": "1880.HK",
+          "market": "HK",
+          "sector": "免税",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "信诺",
-          "code": "CI",
-          "market": "US",
-          "sector": "医疗保险",
-          "short_term": "↓",
-          "mid_term": "→",
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "东方航空",
+          "code": "0670.HK",
+          "market": "HK",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     }
@@ -534,134 +732,86 @@
   "summary": {
     "newly_added": [
       {
-        "label": "中国五年旅游规划（新增）",
-        "theme": "2030年入境游客目标1.9亿人次，旅游全产业链受益",
+        "label": "中国发布2030旅游发展规划：目标1.9亿入境游客（重磅利好）",
+        "theme": "中国发布2030年旅游顶层设计，目标吸引1.9亿入境游客，叠加近期免签扩大政策，旅游全产业链迎来政策共振",
         "stocks": [
           {
             "name": "中国中免",
-            "code": "601888.SH",
-            "short_term": "↑"
+            "code": "1880.HK",
+            "short_term": "↑↑"
           },
           {
             "name": "携程集团",
             "code": "9961.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "原油进口骤降23%（新增）",
-        "theme": "上半年进口创战争以来最大降幅，新能源替代加速",
-        "stocks": [
-          {
-            "name": "中国石油",
-            "code": "601857.SH",
-            "short_term": "↓"
-          },
-          {
-            "name": "宁德时代",
-            "code": "300750.SZ",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "中国称不再需要英伟达芯片（新增）",
-        "theme": "国产AI芯片替代宣言，寒武纪/海光迎来战略窗口",
-        "stocks": [
-          {
-            "name": "英伟达",
-            "code": "NVDA",
-            "short_term": "↓"
-          },
-          {
-            "name": "寒武纪",
-            "code": "688256.SH",
             "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "中日航线航班取消激增（新增）",
-        "theme": "两国航线大幅削减，航空股短期承压",
+        "label": "东风-17导弹展示+潜射弹道导弹试验引发多国关切（地缘升温）",
+        "theme": "央视罕见播出东风-17画面+菲律宾对中国潜射导弹表关切，军工股和黄金避险需求短期显著上升",
         "stocks": [
           {
-            "name": "中国国航",
-            "code": "601111.SH",
-            "short_term": "↓"
-          },
-          {
-            "name": "全日空",
-            "code": "9202.T",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "LVMH中国奢侈品雷区（新增）",
-        "theme": "中国奢侈品消费放缓，欧洲巨头承压",
-        "stocks": [
-          {
-            "name": "LVMH",
-            "code": "MC.PA",
-            "short_term": "↓"
-          },
-          {
-            "name": "贵州茅台",
-            "code": "600519.SH",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "弹道导弹试验引发关切（新增）",
-        "theme": "军备竞赛预期升温，全球国防股受益",
-        "stocks": [
-          {
-            "name": "航天科工",
-            "code": "600677.SH",
+            "name": "中航沈飞",
+            "code": "600760.SH",
             "short_term": "↑↑"
           },
           {
-            "name": "洛克希德·马丁",
-            "code": "LMT",
+            "name": "紫金矿业",
+            "code": "2899.HK",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "台湾造船押注国防（新增）",
-        "theme": "台海紧张推升两岸军工造船订单",
+        "label": "Claude Code安全警告引发中国AI安全警觉（新催化）",
+        "theme": "Anthropic的Claude Code安全警告加速中国自主AI工具和网络安全产业链布局，利好国产AI安全和网安板块",
         "stocks": [
           {
-            "name": "中国船舶",
-            "code": "600150.SH",
-            "short_term": "↑"
+            "name": "奇安信",
+            "code": "688561.SH",
+            "short_term": "↑↑"
           },
           {
-            "name": "中船防务",
-            "code": "600685.SH",
+            "name": "科大讯飞",
+            "code": "002230.SZ",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "中国股市创一月新低（新增）",
-        "theme": "市场恐慌中权重股超跌，国家队护盘预期升温",
+        "label": "中国汽车内销下滑但出口强劲（分化加剧）",
+        "theme": "6月汽车销量再度下滑但出口保持强劲，比亚迪等出口占比高的车企受益，上汽等依赖国内市场的承压",
         "stocks": [
           {
-            "name": "沪深300ETF",
-            "code": "510300.SH",
+            "name": "比亚迪",
+            "code": "1211.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "上汽集团",
+            "code": "600104.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "多省极端天气致重大伤亡：保险承压建材受益",
+        "theme": "西北山体滑坡+中部龙卷风暴雨综合灾害链致死超30人，保险短期赔付压力上升，灾后重建利好水泥建材",
+        "stocks": [
+          {
+            "name": "中国平安",
+            "code": "2318.HK",
             "short_term": "↓"
           },
           {
-            "name": "中信证券",
-            "code": "600030.SH",
-            "short_term": "↓"
+            "name": "海螺水泥",
+            "code": "0914.HK",
+            "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月8日公开新闻报道的逻辑推演，所有涨跌方向均为假设性判断，不构成任何投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月8日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向仅供学术研究参考，实际走势受多重因素影响。"
 }
