@@ -1,0 +1,637 @@
+{
+  "meta": {
+    "name": "2026年7月10日全球新闻股票推演",
+    "description": "基于 https://hk.k415.win/news/ 2026-07-10 02:15 更新的20条全球新闻，对受影响股票进行短中长期多空推演分析。覆盖A股、港股、美股、印度等市场。",
+    "category": "daily",
+    "source": "https://hk.k415.win/news/ 2026-07-10",
+    "version": "1.0.0",
+    "update_time": "2026-07-10T02:15:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "广西洪水死亡人数升至39人，数百条毒蛇逃离养殖场引发恐慌",
+      "logic": "广西极端洪水灾害造成重大人员伤亡与生态次生风险（毒蛇逃逸）。短期利空广西本地基建/保险板块（理赔压力+资产损失）；中长期利好水利基建（灾后重建需求）、农业保险、应急管理相关标的。洪水造成的供应链中断也影响糖业（广西为中国最大甘蔗产区）。",
+      "stocks": [
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国人保",
+          "code": "601319.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "sector": "水利基建",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中粮糖业",
+          "code": "600737.SH",
+          "market": "SH",
+          "sector": "农产品",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "福建晋江鞋厂火灾致至少28人死亡，习近平指示全力救援追责",
+      "logic": "中国鞋都晋江发生重大工业火灾，短期利空晋江本地鞋服产业链标的（安踏、特步等总部在晋江，虽然工厂不一定直接受影响，但市场情绪和监管收紧预期压制板块）。中长期推动安全生产监管升级，利好安全设备/消防检测板块；鞋业供给端收紧可能推高订单向龙头企业集中。",
+      "stocks": [
+        {
+          "name": "安踏体育",
+          "code": "2020.HK",
+          "market": "HK",
+          "sector": "运动鞋服",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "特步国际",
+          "code": "1368.HK",
+          "market": "HK",
+          "sector": "运动鞋服",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "华利集团",
+          "code": "300979.SZ",
+          "market": "SZ",
+          "sector": "鞋履代工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "青鸟消防",
+          "code": "002960.SZ",
+          "market": "SZ",
+          "sector": "消防设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "梅思安",
+          "code": "MSA",
+          "market": "US",
+          "sector": "安全设备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "美国空管企业以中国安全关切为由打压竞争对手Leidos/RTX/Thales",
+      "logic": "美国空管行业将中国网络安全议题武器化，用于商业竞争。短期利好提及的美国空管巨头（获得政策保护溢价）；中长期加剧中美航空技术脱钩，利空Thales（被点名受打压，但欧洲市场相对独立），利好中国空管自主可控标的。",
+      "stocks": [
+        {
+          "name": "Leidos Holdings",
+          "code": "LDOS",
+          "market": "US",
+          "sector": "国防/空管",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "RTX Corp",
+          "code": "RTX",
+          "market": "US",
+          "sector": "国防/航空",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "Thales SA",
+          "code": "HO.PA",
+          "market": "FR",
+          "sector": "国防/空管",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中航电测",
+          "code": "300114.SZ",
+          "market": "SZ",
+          "sector": "军工/航空",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "四创电子",
+          "code": "600990.SH",
+          "market": "SH",
+          "sector": "雷达/空管",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "美国或已打击连接中俄贸易的伊朗关键桥梁",
+      "logic": "地缘冲突升级，美国打击伊朗-中俄贸易关键基础设施。短期推高原油价格（供应担忧+中东风险溢价），利好能源股和军工股；利空依赖中俄伊贸易路线的一带一路基建标的。中长期若冲突持续，全球供应链重构加速，利好航运（绕道需求）和替代能源。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油服",
+          "code": "601808.SH",
+          "market": "SH",
+          "sector": "油田服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "北方国际",
+          "code": "000065.SZ",
+          "market": "SZ",
+          "sector": "一带一路基建",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "历时18个月，Dixon终获印度政府批准与Vivo合资",
+      "logic": "印度最大电子代工厂Dixon与Vivo合资获批，标志中印电子制造业合作破冰。短期利好Dixon（扩充手机代工产能+品牌客户）和Vivo供应链上游（印度市场准入扩大）。中长期利好印度电子制造板块，对中国手机ODM厂商在印度的竞争格局产生分流效应。",
+      "stocks": [
+        {
+          "name": "Dixon Technologies",
+          "code": "DIXON.NS",
+          "market": "IN",
+          "sector": "电子代工",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "闻泰科技",
+          "code": "600745.SH",
+          "market": "SH",
+          "sector": "ODM/半导体",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "传音控股",
+          "code": "688036.SH",
+          "market": "SH",
+          "sector": "手机品牌",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "富士康工业互联网",
+          "code": "601138.SH",
+          "market": "SH",
+          "sector": "电子代工",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "舜宇光学",
+          "code": "2382.HK",
+          "market": "HK",
+          "sector": "手机零部件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Anthropic否认中国有关后门安全漏洞的指控",
+      "logic": "AI安全信任危机：Anthropic被指AI产品存在后门，虽否认但中美AI信任进一步恶化。短期利空Anthropic相关概念及合作方；中长期加速中美AI生态割裂，利好中国AI自主可控标的及国产大模型。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI/大模型",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度集团",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/互联网",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "商汤科技",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Amazon",
+          "code": "AMZN",
+          "market": "US",
+          "sector": "云计算/AI投资",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "顶级银行对英伟达中国芯片市场机会发出严厉警告 + 美国国会拟遏制美企使用中国AI模型 + 中俄煽动美AI数据中心辩论",
+      "logic": "三重AI利空叠加：英伟达中国芯片市场前景被银行看衰（H20等降级版AI芯片需求不及预期）、美国国会收紧中国AI模型使用、中俄被指操控AI舆论。短期利空英伟达及AI芯片供应链（中国市场贡献占比承压）；中长期加速中国AI芯片国产替代（华为昇腾、寒武纪等受益），利好国产算力基础设施。利空使用中国AI模型的出海应用标的。",
+      "stocks": [
+        {
+          "name": "NVIDIA",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "芯片代工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "芯片代工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "AI芯片/CPU",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "年产5万吨：中国新型生物炭技术革新废弃物处理 + 碳简报：广西洪水、美丽中国计划、中欧新机制",
+      "logic": "中国在生物炭碳负排放技术上取得规模化突破（年产5万吨级），叠加美丽中国政策推进和中欧碳市场新机制。短期利好生物炭/碳捕集概念股；中长期碳交易机制完善利好新能源和碳资产管理标的，中欧碳市场联通利好欧洲碳配额和中国CCER相关标的。",
+      "stocks": [
+        {
+          "name": "光大环境",
+          "code": "0257.HK",
+          "market": "HK",
+          "sector": "环保/废弃物处理",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "瀚蓝环境",
+          "code": "600323.SH",
+          "market": "SH",
+          "sector": "环保",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华能国际",
+          "code": "600011.SH",
+          "market": "SH",
+          "sector": "电力/碳交易",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "龙源电力",
+          "code": "001289.SZ",
+          "market": "SZ",
+          "sector": "新能源",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "岳阳林纸",
+          "code": "600963.SH",
+          "market": "SH",
+          "sector": "碳汇/林业",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "西方必须停止将俄中伊视为孤立挑战（RFE/RL评论） + 中国警告美国不要支持西藏独立",
+      "logic": "地缘政治博弈加剧：西方内部出现反思孤立中俄伊策略的声音（缓和信号），但中国对美涉藏警告显示中美在主权问题上的对抗无缓和迹象。短期市场对地缘缓和的预期减弱，军工板块维持高位震荡；中长期若西方对俄中伊政策出现松动，利好受制裁中概股及贸易相关标的。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国铝业",
+          "code": "601600.SH",
+          "market": "SH",
+          "sector": "有色金属/受制裁",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网/中概",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中国军事研究中的认知盲点（Asia Society）",
+      "logic": "智库文章指出中国军事研究存在系统性认知盲点，暗示西方对华军事研判可能低估中国真实战力。短期对军工板块影响中性偏正面（中国军事实力被重估）；中长期若西方据此调整对华军事部署，利好中国军工产业链升级和出口预期。",
+      "stocks": [
+        {
+          "name": "中国重工",
+          "code": "601989.SH",
+          "market": "SH",
+          "sector": "军工/造船",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "航空发动机",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中无人机",
+          "code": "600132.SH",
+          "market": "SH",
+          "sector": "无人机/军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "广西特大洪水39人死亡（新增）",
+        "theme": "极端天气灾害推动灾后重建与保险理赔潮，水利基建和农业保险受益",
+        "stocks": [
+          {
+            "name": "中国电建",
+            "code": "601669.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国平安",
+            "code": "601318.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "中粮糖业",
+            "code": "600737.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "晋江鞋厂特大火灾28人死亡（新增）",
+        "theme": "制造业安全生产警钟，消防设备需求暴增，鞋服板块情绪承压",
+        "stocks": [
+          {
+            "name": "青鸟消防",
+            "code": "002960.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "安踏体育",
+            "code": "2020.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "华利集团",
+            "code": "300979.SZ",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "英伟达中国芯片机会遭银行严厉警告（新增）",
+        "theme": "AI芯片市场格局加速重构，国产替代主线强化",
+        "stocks": [
+          {
+            "name": "NVDA",
+            "code": "NVDA",
+            "short_term": "↓"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中芯国际",
+            "code": "688981.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "Dixon-Vivo合资获批（新增）",
+        "theme": "中印电子制造业合作破冰，印度电子代工龙头受益",
+        "stocks": [
+          {
+            "name": "Dixon Technologies",
+            "code": "DIXON.NS",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "闻泰科技",
+            "code": "600745.SH",
+            "short_term": "→"
+          },
+          {
+            "name": "舜宇光学",
+            "code": "2382.HK",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "Anthropic AI后门指控（新增）",
+        "theme": "AI安全信任危机加速中美AI生态割裂，国产大模型产业链受益",
+        "stocks": [
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "百度集团",
+            "code": "9888.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中欧碳市场新机制+生物炭技术突破（新增）",
+        "theme": "碳市场国际化加速，环保技术和碳汇标的双重受益",
+        "stocks": [
+          {
+            "name": "光大环境",
+            "code": "0257.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "岳阳林纸",
+            "code": "600963.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "龙源电力",
+            "code": "001289.SZ",
+            "short_term": "→"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月10日公开新闻的逻辑推演，所有预测方向（↑↑/↑/↓/→）仅为基于新闻逻辑的主观判断，不构成任何投资建议。股市有风险，投资需谨慎。"
+}
