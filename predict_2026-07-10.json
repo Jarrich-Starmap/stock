@@ -1,174 +1,329 @@
 {
   "meta": {
     "name": "2026年7月10日全球新闻股票推演",
-    "description": "基于2026年7月10日hk.k415.win/news/页面的公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股市场",
+    "description": "基于2026年7月10日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股市场",
     "category": "daily",
-    "source": "https://hk.k415.win/news/ 2026-07-10整理",
-    "version": "1.0.0",
+    "source": "https://hk.k415.win/news/ 2026年7月10日综合整理",
+    "version": "1.0",
     "update_time": "2026-07-10T14:14:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "长征十号乙火箭首飞成功，首次实现一级可控回收",
-      "logic": "长征十号乙首飞成功标志中国重型运载火箭及可回收技术重大突破，利好航天军工全产业链。短期市场情绪推动航天板块上涨；中期可回收技术降低发射成本利好商业航天；长期巩固中国在全球航天竞争力。",
+      "title": "长征十号乙火箭首飞成功并实现一级可控回收，海上火箭助推器回收系统同步测试成功",
+      "logic": "长征十号乙首飞标志中国商业航天进入回收复用时代，海上回收系统验证成功进一步降低发射成本。航天产业链上游（火箭制造/发动机/电子设备）直接受益，卫星互联网和商业发射需求扩张推动中长期增长。",
       "stocks": [
-        {"name": "航天动力", "code": "600343.SH", "market": "SH", "sector": "航天装备", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天电子", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中航西飞", "code": "000768.SZ", "market": "SZ", "sector": "航空制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "航天宏图", "code": "688066.SH", "market": "SH", "sector": "航天遥感", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "中国卫通", "code": "601698.SH", "market": "SH", "sector": "卫星通信", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天装备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天动力",
+          "code": "600343.SH",
+          "market": "SH",
+          "sector": "航天装备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天装备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "sector": "电子元器件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 2,
-      "title": "中国成功测试海上火箭助推器回收系统",
-      "logic": "海上火箭助推器回收测试成功，直接利好海上发射平台建设、液体火箭发动机研发及商业航天发射成本下降。短期利好航天发射相关标的；中期推动商业卫星发射市场扩容；长期降低进入太空门槛利好卫星互联网全产业链。",
+      "title": "朝鲜总理朴泰成抵京出席中朝友好条约签署65周年纪念活动并开始正式访问",
+      "logic": "中朝高层互访强化双边经贸合作预期，边境贸易、对朝基础设施投资概念受益。东北亚地缘缓和有利于中韩/中日贸易通道稳定。但制裁框架未解除前实质性突破有限。",
       "stocks": [
-        {"name": "航天动力", "code": "600343.SH", "market": "SH", "sector": "航天装备", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "中国卫星", "code": "600118.SH", "market": "SH", "sector": "卫星制造", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "航天电器", "code": "002025.SZ", "market": "SZ", "sector": "航天连接器", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "船舶制造", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "长白山",
+          "code": "603099.SH",
+          "market": "SH",
+          "sector": "旅游",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "锦州港",
+          "code": "600190.SH",
+          "market": "SH",
+          "sector": "港口航运",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "吉林高速",
+          "code": "601518.SH",
+          "market": "SH",
+          "sector": "交通运输",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 3,
-      "title": "朝鲜总理抵京出席中朝友好条约签署65周年纪念活动",
-      "logic": "中朝高层互动强化双边经贸合作预期，利好东北边境贸易、对朝基建和物流企业。短期提振中朝概念股情绪；中期若实质性合作落地利好边境经济；长期地缘缓和改善东北亚投资环境。",
+      "title": "中国弹道导弹发射被解读为对美信号，巴坦群岛最新说法引发菲方法新社驳斥",
+      "logic": "中美战略博弈升级+南海主权争议升温，国防军工板块短期情绪提振。导弹/舰船/雷达等装备需求刚性，地缘摩擦常态化推动军费持续增长，行业基本面确定性强。",
       "stocks": [
-        {"name": "吉林高速", "code": "601518.SH", "market": "SH", "sector": "交通基建", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "长春高新", "code": "000661.SZ", "market": "SZ", "sector": "生物医药", "short_term": "→", "mid_term": "→", "long_term": "→"},
-        {"name": "龙建股份", "code": "600853.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "长白山", "code": "603099.SH", "market": "SH", "sector": "旅游", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工造船",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天彩虹",
+          "code": "002389.SZ",
+          "market": "SZ",
+          "sector": "军工无人机",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "军工电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 4,
-      "title": "法新社驳斥中国关于巴坦群岛最新说法，称其毫无根据",
-      "logic": "南海/台海周边地缘摩擦升级，菲律宾巴坦群岛争议可能加剧区域紧张局势。短期军工板块获避险资金关注；中期局势紧张利好军工订单；长期区域不稳定或影响航运和贸易。",
+      "title": "中国鞋厂火灾致28人死亡，为近年来最致命工业火灾之一，引发全国安全调查",
+      "logic": "重大安全事故将推动安全生产监管全面收紧，高危制造业（化工/纺织/鞋服/煤矿）面临整改成本上升。利好安全生产设备/服务供应商，短期利空安全事故频发行业的中小企业。",
       "stocks": [
-        {"name": "中船防务", "code": "600685.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "中国海防", "code": "600764.SH", "market": "SH", "sector": "海洋防务", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "中远海控", "code": "601919.SH", "market": "SH", "sector": "航运", "short_term": "→", "mid_term": "↓", "long_term": "→"},
-        {"name": "招商南油", "code": "601975.SH", "market": "SH", "sector": "能源航运", "short_term": "→", "mid_term": "↓", "long_term": "→"}
+        {
+          "name": "华荣股份",
+          "code": "603855.SH",
+          "market": "SH",
+          "sector": "防爆电器/安全生产",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "梅思安(中国)",
+          "code": "MSA.N",
+          "market": "US",
+          "sector": "安全防护设备",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "际华集团",
+          "code": "601718.SH",
+          "market": "SH",
+          "sector": "鞋服制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 5,
-      "title": "中国鞋厂火灾致28人死亡，引发安全调查",
-      "logic": "重大工业火灾事故将引发全国性安全生产大检查，短期利空制造业中小工厂密集地区相关个股；但利好安全检测、消防设备、工业保险等标的。中长期监管趋严加速行业洗牌，利好龙头合规企业。",
+      "title": "中国南方洪灾致39人死亡，强台风即将来袭叠加灾情",
+      "logic": "极端天气连续冲击南方多省，灾后重建需求迫切。水利基建（管道/防洪/排水）、水泥建材短期受益于抢修重建订单；农业种植/养殖受直接损失中期减产推升价格；保险业理赔压力增大短期承压。",
       "stocks": [
-        {"name": "华利集团", "code": "300979.SZ", "market": "SZ", "sector": "鞋类代工", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "青鸟消防", "code": "002960.SZ", "market": "SZ", "sector": "消防设备", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "→", "mid_term": "→", "long_term": "→"},
-        {"name": "思源电气", "code": "002028.SZ", "market": "SZ", "sector": "电力安全", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "青龙管业",
+          "code": "002457.SZ",
+          "market": "SZ",
+          "sector": "水利管道",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建工程",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "600585.SH",
+          "market": "SH",
+          "sector": "建筑材料",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 6,
-      "title": "中国弹道导弹发射是对美国释放的信号",
-      "logic": "中国弹道导弹发射被解读为对美战略威慑信号，地缘博弈加剧。短期军工板块全面受提振，尤其导弹、雷达、电子对抗等领域；中美关系紧张利空军民两用科技股；中长期国防投入确定性增强。",
+      "title": "中国和印度关联黑客同时攻击巴基斯坦警方系统——安全分析报告",
+      "logic": "国家级网络攻击事件曝光推动各国加强网络防御投入，网络安全行业需求刚性增长。地缘网络对抗常态化背景下，网安企业订单景气度持续攀升。同时中印巴地缘紧张可能加剧，军工IT化也是隐形利好。",
       "stocks": [
-        {"name": "洪都航空", "code": "600316.SH", "market": "SH", "sector": "导弹武器", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "航天电器", "code": "002025.SZ", "market": "SZ", "sector": "航天连接器", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "战斗机制造", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "北方导航", "code": "600435.SH", "market": "SH", "sector": "导航控制", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "启明星辰",
+          "code": "002439.SZ",
+          "market": "SZ",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Palo Alto Networks",
+          "code": "PANW.US",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 7,
-      "title": "中国南方洪灾致39人死亡",
-      "logic": "极端天气引发南方严重洪灾，短期利空农业（农作物受损）和旅游（出行受阻），利好水利基建、应急物资、灾害保险板块。中期灾后重建拉动水泥建材需求；长期水利投资有望加码。",
+      "title": "中国南方洪水致数百条蛇从养殖场逃出——生态次生灾害",
+      "logic": "蛇类养殖是中药蛇胆/蛇毒原料来源之一，养殖场被毁短期减少供给推升相关中药材价格。同时灾后防疫消毒、动物无害化处理需求增加。",
       "stocks": [
-        {"name": "三峡水利", "code": "600116.SH", "market": "SH", "sector": "水利发电", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "水利基建", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "水泥建材", "short_term": "→", "mid_term": "↑↑", "long_term": "→"},
-        {"name": "北大荒", "code": "600598.SH", "market": "SH", "sector": "农业种植", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国人保", "code": "601319.SH", "market": "SH", "sector": "保险", "short_term": "→", "mid_term": "→", "long_term": "→"}
-      ]
-    },
-    {
-      "id": 8,
-      "title": "与中国和印度有关黑客同时攻击巴基斯坦警方",
-      "logic": "国家级黑客APT攻击事件曝光，凸显网络安全威胁升级。短期利好网络安全板块，尤其涉及APT防护、态势感知的企业；地缘政治紧张叠加网络战预期推动网安支出增长。中长期网安成为国防预算重要组成部分。",
-      "stocks": [
-        {"name": "奇安信", "code": "688561.SH", "market": "SH", "sector": "网络安全", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
-        {"name": "深信服", "code": "300454.SZ", "market": "SZ", "sector": "网络安全", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "绿盟科技", "code": "300369.SZ", "market": "SZ", "sector": "网络安全", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "卫士通", "code": "002268.SZ", "market": "SZ", "sector": "信息安全", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑↑"}
-      ]
-    },
-    {
-      "id": 9,
-      "title": "中国为强台风来袭做准备",
-      "logic": "强台风即将登陆中国沿海，短期利空沿海地区旅游、航空、港口运输；利好应急物资、防汛设备；灾后重建预期提振建材和基建。保险板块赔付压力与保费增长并存，整体中性。",
-      "stocks": [
-        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "水利基建", "short_term": "↑", "mid_term": "↑↑", "long_term": "→"},
-        {"name": "上海机场", "code": "600009.SH", "market": "SH", "sector": "航空运输", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "上港集团", "code": "600018.SH", "market": "SH", "sector": "港口", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国太保", "code": "601601.SH", "market": "SH", "sector": "保险", "short_term": "→", "mid_term": "→", "long_term": "→"},
-        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "水泥建材", "short_term": "→", "mid_term": "↑", "long_term": "→"}
-      ]
-    },
-    {
-      "id": 10,
-      "title": "中国鞋厂火灾28人死亡，为近年来最致命工业火灾之一",
-      "logic": "28人死亡重特大工业火灾引发全国性安全生产整顿，将进一步收紧制造业安全标准。短期制造业中小厂承压，利好安全装备、消防检测企业；中长期行业集中度提升利好龙头。",
-      "stocks": [
-        {"name": "青鸟消防", "code": "002960.SZ", "market": "SZ", "sector": "消防设备", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "华利集团", "code": "300979.SZ", "market": "SZ", "sector": "鞋类代工", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "海康威视", "code": "002415.SZ", "market": "SZ", "sector": "安防监控", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "片仔癀",
+          "code": "600436.SH",
+          "market": "SH",
+          "sector": "中药",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "同仁堂",
+          "code": "600085.SH",
+          "market": "SH",
+          "sector": "中药",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "大禹节水",
+          "code": "300021.SZ",
+          "market": "SZ",
+          "sector": "水利/农业",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "长征十号乙火箭首飞及海上回收测试（新增）",
-        "theme": "中国重型运载火箭首飞+海上助推器回收双突破，航天产业商业化加速",
+        "label": "长征十号乙首飞+海上回收（新增）",
+        "theme": "长征十号乙火箭首飞成功并实现一级可控回收，海上火箭助推器回收系统同步测试成功，中国商业航天进入回收复用时代",
         "stocks": [
-          {"name": "航天动力", "code": "600343.SH", "short_term": "↑↑"},
-          {"name": "航天电子", "code": "600879.SH", "short_term": "↑↑"},
-          {"name": "中航西飞", "code": "000768.SZ", "short_term": "↑"}
+          { "name": "航天电子", "code": "600879.SH", "short_term": "↑" },
+          { "name": "中国卫星", "code": "600118.SH", "short_term": "↑" }
         ]
       },
       {
-        "label": "中美地缘博弈加剧+朝鲜高层访华（新增）",
-        "theme": "导弹信号+南海争议+中朝互动，军工与边境概念受关注",
+        "label": "鞋厂火灾安全调查（新增）",
+        "theme": "中国鞋厂火灾致28人死亡，引发全国安全生产大调查，利好安全设备供应商",
         "stocks": [
-          {"name": "洪都航空", "code": "600316.SH", "short_term": "↑↑"},
-          {"name": "北方导航", "code": "600435.SH", "short_term": "↑↑"},
-          {"name": "龙建股份", "code": "600853.SH", "short_term": "↑"}
+          { "name": "华荣股份", "code": "603855.SH", "short_term": "↑↑" }
         ]
       },
       {
-        "label": "南方洪灾+强台风双灾叠加（新增）",
-        "theme": "极端天气冲击农业旅游，利好水利基建与灾后重建链",
+        "label": "南方洪灾+台风预警（新增）",
+        "theme": "中国南方洪灾致39人死亡，强台风即将来袭，灾后重建+水利基建需求急升",
         "stocks": [
-          {"name": "中国电建", "code": "601669.SH", "short_term": "↑↑"},
-          {"name": "三峡水利", "code": "600116.SH", "short_term": "↑"},
-          {"name": "北大荒", "code": "600598.SH", "short_term": "↓"}
+          { "name": "青龙管业", "code": "002457.SZ", "short_term": "↑↑" }
         ]
       },
       {
-        "label": "鞋厂28人死亡重特大火灾（新增）",
-        "theme": "工业安全生产事故触发全国整顿，消防装备需求激增",
+        "label": "中印黑客攻击巴基斯坦（新增）",
+        "theme": "中印关联黑客同时攻击巴基斯坦警方系统，网络安全行业需求持续增长",
         "stocks": [
-          {"name": "青鸟消防", "code": "002960.SZ", "short_term": "↑↑"},
-          {"name": "华利集团", "code": "300979.SZ", "short_term": "↓"}
+          { "name": "奇安信", "code": "688561.SH", "short_term": "↑" }
         ]
       },
       {
-        "label": "中印黑客攻击巴基斯坦警方（新增）",
-        "theme": "国家级网络攻击事件曝光，网络安全投入加码预期升温",
+        "label": "弹道导弹对美信号+南海争议（新增）",
+        "theme": "中国弹道导弹发射被解读为对美信号，南海巴坦群岛争议升温，国防军工板块受催化",
         "stocks": [
-          {"name": "奇安信", "code": "688561.SH", "short_term": "↑↑"},
-          {"name": "卫士通", "code": "002268.SZ", "short_term": "↑↑"}
+          { "name": "中航沈飞", "code": "600760.SH", "short_term": "↑" },
+          { "name": "航天彩虹", "code": "002389.SZ", "short_term": "↑" }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月10日公开新闻的逻辑推演，不构成任何投资建议。股票市场存在不确定性，投资者应独立判断并承担风险。"
+  "disclaimer": "以上分析基于2026年7月10日公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
 }
