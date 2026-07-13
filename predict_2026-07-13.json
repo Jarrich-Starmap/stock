@@ -1,150 +1,587 @@
 {
   "meta": {
-    "name": "2026年7月13日全球新闻股票推演",
-    "description": "基于2026年7月13日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股市场",
+    "name": "2026-07-13 全球新闻股票推演",
+    "description": "基于2026-07-13抓取自 hk.k415.win/news/ 的公开新闻，逐条推演受影响的个股/行业/市场，输出短中长期涨跌方向。覆盖A股、港股、美股。",
     "category": "daily",
-    "source": "2026年7月13日综合整理",
-    "version": "1.0",
-    "update_time": "2026-07-13T13:30:00+08:00",
+    "source": "2026-07-13 hk.k415.win/news/ 综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-13T17:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "台风巴威登陆中国东部，近200万人疏散（合并7条报道）",
-      "logic": "超强台风巴威登陆中国东部沿海，造成大规模人员疏散和财产损失。短期内保险理赔激增利空保险股，但灾后重建将拉动基建建材需求利好建筑类股票；农业产区受损可能推高农产品价格利好农业股。",
+      "title": "中国航天双进展：神舟23号测试升级版在轨装置 + 遥感四十三号成功发射",
+      "logic": "神舟23号任务验证升级版在轨质量测量装置，提升空间站实验能力；同日遥感四十三号成功发射，强化对地观测体系。航天产业持续高密度发射，利好卫星制造、火箭配套、地面设备全产业链。短期事件驱动资金关注航天板块，中期受益于国家航天强国战略及商业航天开放政策。",
       "stocks": [
-        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国人寿", "code": "601628.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "建筑工程", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "北大荒", "code": "600598.SH", "market": "SH", "sector": "农业", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天装备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天装备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 2,
-      "title": "南海仲裁十周年：中国拒绝裁决，14国联合反对中国南海主张（合并4条报道）",
-      "logic": "南海仲裁案十周年之际，中国重申不接受裁决，同时包括日本在内的14国联合表态反对中国南海主张。地缘政治紧张升级利好军工板块，南海油气开发预期增强利好海工装备，岛礁建设预期利好基建出海。",
+      "title": "Shein拟于Q3启动香港IPO，目标估值超400亿美元",
+      "logic": "快时尚巨头Shein计划Q3在港上市，估值超400亿美元，将成为港交所年内最大型IPO之一。直接利好港交所交易量与上市费收入，同时提振港股新经济板块估值。短期港交所股价受IPO消息催化；中期若成功上市将改善港股IPO市场情绪，吸引更多中概股回流。",
       "stocks": [
-        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工造船", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中船防务", "code": "600685.SH", "market": "SH", "sector": "军工", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中海油服", "code": "601808.SH", "market": "SH", "sector": "油服海工", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "中国重工", "code": "601989.SH", "market": "SH", "sector": "军工装备", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "金融服务",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Shein",
+          "code": "SHEIN.PRIVATE",
+          "market": "PRIVATE",
+          "sector": "电商/快时尚",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 3,
-      "title": "中国在沙漠建造全尺寸美国军舰复制品用于导弹打靶（合并3条报道）",
-      "logic": "卫星图像显示中国在沙漠中建造全尺寸美军航母及驱逐舰模型用于弹道导弹打靶训练，同时美国议员警告中国弹道导弹威胁。此举表明中国反舰弹道导弹体系加速实战化，利好导弹产业链及军用无人机产业。",
+      "title": "台风逼近：香港天文台评估今晚至明早是否发出1号戒备信号",
+      "logic": "热带气旋逼近香港，天文台评估发出1号戒备信号。台风天气通常短期压制本地消费、零售、交通出行，但利好保险板块（灾后理赔预期）和基建修复概念。香港本地公用事业防御属性凸显。",
       "stocks": [
-        {"name": "航天彩虹", "code": "002389.SZ", "market": "SZ", "sector": "无人机/导弹", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中兵红箭", "code": "000519.SZ", "market": "SZ", "sector": "军工导弹", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "北方导航", "code": "600435.SH", "market": "SH", "sector": "导弹制导", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天军工电子", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "友邦保险",
+          "code": "1299.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "港铁公司",
+          "code": "0066.HK",
+          "market": "HK",
+          "sector": "交通运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中电控股",
+          "code": "0002.HK",
+          "market": "HK",
+          "sector": "公用事业",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 4,
-      "title": "周星驰《功夫足球》中国首映两天票房7400万美元",
-      "logic": "周星驰经典IP新作《功夫足球》在中国市场首映表现强劲，两天斩获7400万美元票房，远超市场预期。暑期档票房回暖利好院线及影视出品公司，提振影视板块整体情绪。",
+      "title": "中英外交摩擦：中国驻英使馆敦促英国停止干涉中国内政",
+      "logic": "中英关系持续紧张，中国驻英使馆就英方涉华言论提出严正交涉。地缘政治摩擦短期压制市场风险偏好，尤其是涉及英国业务的港股公司（汇丰、渣打等）。但对整体市场影响有限，属常态化外交博弈。",
       "stocks": [
-        {"name": "万达电影", "code": "002739.SZ", "market": "SZ", "sector": "影院院线", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "中国电影", "code": "600977.SH", "market": "SH", "sector": "影视出品", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "阿里影业", "code": "1060.HK", "market": "HK", "sector": "影视投资", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "汇丰控股",
+          "code": "0005.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "渣打集团",
+          "code": "2888.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 5,
-      "title": "外媒报道中国宗教人权事件引发国际关注",
-      "logic": "英国《每日电讯报》报道中国基督徒因信仰失踪事件，可能引发西方国家对华新一轮制裁或限制措施，加大中概股在美退市风险，短期利空在美上市中概股及港股科技权重。",
+      "title": "中国6月外贸进出口同比增长5.2%",
+      "logic": "6月外贸数据显示进出口同比增长5.2%，出口韧性超预期。港口吞吐量提升直接利好港口航运企业；出口结构持续优化利好高端制造出口企业。短期数据提振市场对出口链信心，中期关注全球需求变化。",
       "stocks": [
-        {"name": "阿里巴巴-SW", "code": "9988.HK", "market": "HK", "sector": "互联网科技", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "腾讯控股", "code": "0700.HK", "market": "HK", "sector": "互联网科技", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "阿里巴巴", "code": "BABA.US", "market": "US", "sector": "中概股", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海运港口",
+          "code": "1199.HK",
+          "market": "HK",
+          "sector": "港口",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "上港集团",
+          "code": "600018.SH",
+          "market": "SH",
+          "sector": "港口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
       ]
     },
     {
       "id": 6,
-      "title": "朝鲜和中国承诺在条约周年之际加强关系",
-      "logic": "朝中在友好合作条约签署周年之际互致信函，承诺加强双边关系。中期边境贸易和旅游合作有望扩大，利好东北地区边境贸易概念股及朝鲜相关概念。",
+      "title": "美国涉台新言论引发中国外交部严正回应",
+      "logic": "美方发表涉台新言论，中国外交部强硬回应。台海地缘风险升温短期压制市场情绪，军工板块获事件催化。半导体产业链因地缘风险溢价上升而受关注（国产替代逻辑强化）。中期若无实质性升级则影响消退。",
       "stocks": [
-        {"name": "吉林高速", "code": "601518.SH", "market": "SH", "sector": "交通物流", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "长白山", "code": "603099.SH", "market": "SH", "sector": "旅游", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
       ]
     },
     {
       "id": 7,
-      "title": "台湾人在中国大陆被拘留失踪案件迅速增加",
-      "logic": "台北时报报道台湾居民在中国大陆遭拘留失踪案件急剧上升，两岸关系进一步恶化。紧张局势可能加速台海相关军事准备，利好军工板块，但利空两岸贸易及台商概念。",
+      "title": "中国第二季度GDP增长超预期",
+      "logic": "Q2 GDP增速超出市场预期，显示经济复苏动能强于预期。消费、投资、出口均有改善。宏观基本面向好提振整体市场信心，利好顺周期板块（消费、金融、地产链）。A股和港股短期有望迎来估值修复行情。",
       "stocks": [
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "厦门港务", "code": "000905.SZ", "market": "SZ", "sector": "两岸贸易港口", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "白酒/消费",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "宽基指数",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 8,
-      "title": "中国天问二号到达小行星目标，五角大楼发布新UFO档案",
-      "logic": "中国深空探测任务天问二号成功抵达小行星目标，标志中国航天深空探测能力再上新台阶。五角大楼同期发布新一批UFO档案增加全球对航空航天领域的关注度，利好航天产业链。",
+      "title": "香港交易所下月引入Z.ai等18只个股期权",
+      "logic": "港交所宣布下月新增18只个股期权，包括AI公司Z.ai（MiniMax关联）等科技新贵。扩大期权产品线将提升港交所衍生品交易量和收入，同时增加相关标的的流动性和机构参与度。利好港交所及被纳入期权的科技股。",
       "stocks": [
-        {"name": "中国卫星", "code": "600118.SH", "market": "SH", "sector": "航天制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天电子", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "航天电器", "code": "002025.SZ", "market": "SZ", "sector": "航天元器件", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "金融服务",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网/科技",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
       ]
     },
     {
       "id": 9,
-      "title": "中俄海军联合演习圆满结束",
-      "logic": "中俄海军在亚太海域的联合军事演习圆满结束，展示两国海军协同作战能力。演习常态化利好军工船舶板块，同时向西方传递战略信号可能加剧与美日关系的紧张。",
+      "title": "中国就美国新贸易限制措施作出回应 + 中国电动汽车在欧盟关税下出口仍飙升38%",
+      "logic": "美国出台新贸易限制措施，中国作出回应，贸易博弈持续。但另一数据表明中国EV出口在欧盟加征关税背景下仍飙升38%，显示中国电动车全球竞争力极强，关税壁垒难以阻挡。短期贸易摩擦压制半导体等受限行业，但EV出口高增长利好新能源车产业链。中长期国产替代和全球化布局趋势不变。",
       "stocks": [
-        {"name": "中船防务", "code": "600685.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工造船", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "理想汽车",
+          "code": "LI.US",
+          "market": "US",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中国央行向市场注入流动性以支持经济",
+      "logic": "央行持续向市场注入流动性，配合GDP超预期数据，释放政策继续宽松信号。流动性充裕直接利好银行间市场，降低企业融资成本，对金融板块和地产链形成支撑。短期银行股受益于流动性改善预期，中期关注信贷需求能否实质性回升。",
+      "stocks": [
+        {
+          "name": "工商银行",
+          "code": "601398.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "建设银行",
+          "code": "0939.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "万科A",
+          "code": "000002.SZ",
+          "market": "SZ",
+          "sector": "房地产",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "AI政策利好推动中国科技股大幅上涨",
+      "logic": "中国出台新一轮人工智能产业扶持政策，叠加此前DeepSeek等国产大模型突破，AI产业链全线爆发。科技股估值修复行情启动，资金加速流入AI算力、应用、大模型等赛道。短期情绪高涨，中期需关注业绩兑现能力，但长期AI产业趋势确定性强。",
+      "stocks": [
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网/AI",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网/AI",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度集团",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "互联网/AI",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国与孟加拉国/新西兰/阿塞拜疆贸易合作持续扩展",
+      "logic": "一日之内传出与孟加拉国达成新贸易协议、与新西兰贸易关系加强、与阿塞拜疆经济合作扩展三条消息，显示中国'一带一路'贸易多元化战略加速推进。利好对外工程承包、装备出口、跨境贸易等板块，分散对单一市场依赖风险。",
+      "stocks": [
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "0390.HK",
+          "market": "HK",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "中国量子计算实现里程碑式突破",
+      "logic": "中国研究人员在量子计算领域取得里程碑式突破，相关论文发表于国际顶级期刊。量子计算是中美科技竞争核心赛道之一，技术突破将强化国产量子计算产业链信心。短期事件驱动量子概念股上涨，中长期商业化前景广阔但不确定性仍高。",
+      "stocks": [
+        {
+          "name": "国盾量子",
+          "code": "688027.SH",
+          "market": "SH",
+          "sector": "量子科技",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI/量子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "中国显示面板制造商主导全球电视面板市场",
+      "logic": "中国面板厂商在全球电视面板市场份额持续扩大，已形成主导地位。京东方、TCL华星等龙头在LCD领域成本优势和产能规模无可匹敌，OLED也在加速追赶韩厂。行业集中度提升有利于议价能力和盈利改善。短期受益于面板价格企稳回升，中长期受益于行业整合和技术升级。",
+      "stocks": [
+        {
+          "name": "京东方A",
+          "code": "000725.SZ",
+          "market": "SZ",
+          "sector": "面板/显示",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "TCL科技",
+          "code": "000100.SZ",
+          "market": "SZ",
+          "sector": "面板/显示",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "中国可再生能源装机容量创历史新高",
+      "logic": "中国可再生能源装机再创新高，光伏、风电新增装机增速强劲，储能配套加速。在全球能源转型和碳中和目标驱动下，新能源产业链景气度持续高涨。短期装机数据催化光伏风电板块，中期关注产能过剩风险，长期受益于能源结构转型大趋势。",
+      "stocks": [
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阳光电源",
+          "code": "300274.SZ",
+          "market": "SZ",
+          "sector": "光伏逆变器/储能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三峡能源",
+          "code": "600905.SH",
+          "market": "SH",
+          "sector": "风电/光伏运营",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
       ]
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "台风巴威登陆（新增）",
-        "theme": "超强台风巴威登陆中国东部，近200万人疏散，短期利空保险利好基建农业",
+        "label": "航天双进展（新增）",
+        "theme": "神舟23号在轨测试 + 遥感四十三号发射，航天产业链受益",
         "stocks": [
-          {"name": "中国平安", "code": "601318.SH", "short_term": "↓"},
-          {"name": "中国建筑", "code": "601668.SH", "short_term": "↑"},
-          {"name": "北大荒", "code": "600598.SH", "short_term": "↑"}
+          {
+            "name": "中国卫星",
+            "code": "600118.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "航天电子",
+            "code": "600879.SH",
+            "short_term": "↑"
+          }
         ]
       },
       {
-        "label": "南海争端升级（新增）",
-        "theme": "南海仲裁十周年14国联合反对中国主张，南海紧张局势利好军工海工",
+        "label": "Shein香港IPO（新增）",
+        "theme": "Shein拟Q3启动400亿美元香港IPO，利好港交所",
         "stocks": [
-          {"name": "中船防务", "code": "600685.SH", "short_term": "↑"},
-          {"name": "中海油服", "code": "601808.SH", "short_term": "↑"}
+          {
+            "name": "香港交易所",
+            "code": "0388.HK",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "沙漠美舰模型+导弹威慑（新增）",
-        "theme": "中国沙漠建造美军舰模型用于导弹打靶训练，利好导弹产业链",
+        "label": "GDP超预期 + 央行放水（新增）",
+        "theme": "Q2 GDP超预期叠加央行注入流动性，顺周期板块受益",
         "stocks": [
-          {"name": "航天彩虹", "code": "002389.SZ", "short_term": "↑↑"},
-          {"name": "中兵红箭", "code": "000519.SZ", "short_term": "↑↑"}
+          {
+            "name": "贵州茅台",
+            "code": "600519.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "沪深300ETF",
+            "code": "510300.SH",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "功夫足球票房大卖（新增）",
-        "theme": "周星驰《功夫足球》两天票房7400万美元，暑期档影视板块受益",
+        "label": "AI政策利好（新增）",
+        "theme": "AI产业政策推动科技股大涨，腾讯/阿里/百度受益",
         "stocks": [
-          {"name": "万达电影", "code": "002739.SZ", "short_term": "↑"},
-          {"name": "阿里影业", "code": "1060.HK", "short_term": "↑"}
+          {
+            "name": "腾讯控股",
+            "code": "0700.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "天问二号抵达小行星（新增）",
-        "theme": "中国深空探测重大里程碑，航天产业链中长期受益",
+        "label": "EV出口飙升38%（新增）",
+        "theme": "欧盟关税下中国EV出口仍飙升，比亚迪/理想/宁德时代受益",
         "stocks": [
-          {"name": "中国卫星", "code": "600118.SH", "short_term": "↑"},
-          {"name": "航天电子", "code": "600879.SH", "short_term": "↑"}
+          {
+            "name": "比亚迪股份",
+            "code": "1211.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "量子计算突破（新增）",
+        "theme": "中国量子计算里程碑式突破，国盾量子受催化",
+        "stocks": [
+          {
+            "name": "国盾量子",
+            "code": "688027.SH",
+            "short_term": "↑↑"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月13日公开新闻事件，所有股票涨跌方向均为逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月13日公开新闻的纯逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向（↑/↓/→）仅代表基于新闻逻辑的推测方向，实际走势受多重因素影响。"
 }
