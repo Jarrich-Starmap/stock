@@ -1,169 +1,150 @@
 {
   "meta": {
     "name": "2026年7月13日全球新闻股票推演",
-    "description": "基于2026年7月13日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
+    "description": "基于2026年7月13日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股市场",
     "category": "daily",
-    "source": "https://hk.k415.win/news/ 2026-07-13综合整理",
+    "source": "2026年7月13日综合整理",
     "version": "1.0",
-    "update_time": "2026-07-13T05:15:00+08:00",
+    "update_time": "2026-07-13T13:30:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "台风巴威在浙江登陆，中国东部超两百万人疏散",
-      "logic": "台风巴威登陆浙江造成严重破坏，短期内保险理赔压力上升（利空保险股）；灾后重建需求将拉动建材、工程机械需求（中期利好基建股）；农业损失推高农产品价格（利好农业股）；电力设施受损抢修利好电力设备股",
+      "title": "台风巴威登陆中国东部，近200万人疏散（合并7条报道）",
+      "logic": "超强台风巴威登陆中国东部沿海，造成大规模人员疏散和财产损失。短期内保险理赔激增利空保险股，但灾后重建将拉动基建建材需求利好建筑类股票；农业产区受损可能推高农产品价格利好农业股。",
       "stocks": [
         {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国人保", "code": "601319.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中国太保", "code": "601601.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "建材", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "东方雨虹", "code": "002271.SZ", "market": "SZ", "sector": "建材防水", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "三一重工", "code": "600031.SH", "market": "SH", "sector": "工程机械", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "隆平高科", "code": "000998.SZ", "market": "SZ", "sector": "农业种业", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "国电南瑞", "code": "600406.SH", "market": "SH", "sector": "电力设备", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "正泰电器", "code": "601877.SH", "market": "SH", "sector": "电力设备", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "牧原股份", "code": "002714.SZ", "market": "SZ", "sector": "生猪养殖", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {"name": "中国人寿", "code": "601628.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "建筑工程", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "北大荒", "code": "600598.SH", "market": "SH", "sector": "农业", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 2,
-      "title": "南海仲裁案十周年：14国与欧盟重申否定中国南海主张",
-      "logic": "南海地缘政治紧张加剧，短期军工板块受情绪催化走高；海洋油气开发受争议影响面临不确定性（利空中海油服等）；航运板块因地缘风险溢价上升短期承压；中长期国防预算增加预期利好军工龙头",
+      "title": "南海仲裁十周年：中国拒绝裁决，14国联合反对中国南海主张（合并4条报道）",
+      "logic": "南海仲裁案十周年之际，中国重申不接受裁决，同时包括日本在内的14国联合表态反对中国南海主张。地缘政治紧张升级利好军工板块，南海油气开发预期增强利好海工装备，岛礁建设预期利好基建出海。",
       "stocks": [
-        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中船防务", "code": "600685.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "航发动力", "code": "600893.SH", "market": "SH", "sector": "军工航空发动机", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "中海油服", "code": "601808.SH", "market": "SH", "sector": "海洋油气服务", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
-        {"name": "海油工程", "code": "600583.SH", "market": "SH", "sector": "海洋工程", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "中远海控", "code": "601919.SH", "market": "SH", "sector": "航运", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "招商南油", "code": "601975.SH", "market": "SH", "sector": "航运", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工造船", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中船防务", "code": "600685.SH", "market": "SH", "sector": "军工", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中海油服", "code": "601808.SH", "market": "SH", "sector": "油服海工", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中国重工", "code": "601989.SH", "market": "SH", "sector": "军工装备", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 3,
-      "title": "中国建造全尺寸美军战舰模型用于导弹靶标训练",
-      "logic": "中国反舰导弹研发与训练加速，直接利好导弹产业链（航天科工、航天科技系）；靶标建造涉及大型钢结构，利好船舶重工板块；中美军事博弈升级强化国防自主可控逻辑，中长期利好军工电子及新材料",
+      "title": "中国在沙漠建造全尺寸美国军舰复制品用于导弹打靶（合并3条报道）",
+      "logic": "卫星图像显示中国在沙漠中建造全尺寸美军航母及驱逐舰模型用于弹道导弹打靶训练，同时美国议员警告中国弹道导弹威胁。此举表明中国反舰弹道导弹体系加速实战化，利好导弹产业链及军用无人机产业。",
       "stocks": [
-        {"name": "航天彩虹", "code": "002389.SZ", "market": "SZ", "sector": "军工无人机/导弹", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "洪都航空", "code": "600316.SH", "market": "SH", "sector": "军工导弹", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "中兵红箭", "code": "000519.SZ", "market": "SZ", "sector": "军工弹药", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "菲利华", "code": "300395.SZ", "market": "SZ", "sector": "军工新材料石英", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中国重工", "code": "601989.SH", "market": "SH", "sector": "军工船舶重工", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "紫光国微", "code": "002049.SZ", "market": "SZ", "sector": "军工电子芯片", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+        {"name": "航天彩虹", "code": "002389.SZ", "market": "SZ", "sector": "无人机/导弹", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中兵红箭", "code": "000519.SZ", "market": "SZ", "sector": "军工导弹", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "北方导航", "code": "600435.SH", "market": "SH", "sector": "导弹制导", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天军工电子", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 4,
-      "title": "中国歼-16战机'野兽模式'升级对区域空中力量的影响",
-      "logic": "歼-16升级强化中国空军战力，利好航空工业体系；'野兽模式'意味着载弹量大幅提升，对机载武器、雷达电子战系统需求增加；区域军备竞赛预期推动亚太国家增加国防采购，利好全球防务板块",
+      "title": "周星驰《功夫足球》中国首映两天票房7400万美元",
+      "logic": "周星驰经典IP新作《功夫足球》在中国市场首映表现强劲，两天斩获7400万美元票房，远超市场预期。暑期档票房回暖利好院线及影视出品公司，提振影视板块整体情绪。",
       "stocks": [
-        {"name": "中航西飞", "code": "000768.SZ", "market": "SZ", "sector": "军工航空制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中航光电", "code": "002179.SZ", "market": "SZ", "sector": "军工连接器", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "国睿科技", "code": "600562.SH", "market": "SH", "sector": "军工雷达", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中航电子", "code": "600372.SH", "market": "SH", "sector": "军工航电系统", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
-        {"name": "Lockheed Martin", "code": "LMT", "market": "US", "sector": "国防军工", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
-        {"name": "RTX Corp", "code": "RTX", "market": "US", "sector": "国防军工", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+        {"name": "万达电影", "code": "002739.SZ", "market": "SZ", "sector": "影院院线", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "中国电影", "code": "600977.SH", "market": "SH", "sector": "影视出品", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "阿里影业", "code": "1060.HK", "market": "HK", "sector": "影视投资", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 5,
-      "title": "议员穆勒纳尔警告中国弹道导弹试验威胁美国及盟友",
-      "logic": "中国弹道导弹试验引发美国国会关注，可能加速对华科技封锁和军事围堵；短期利好美国防务承包商和导弹防御系统相关企业；中长期中美科技脱钩加剧，利好中国半导体自主可控和稀土反制板块",
+      "title": "外媒报道中国宗教人权事件引发国际关注",
+      "logic": "英国《每日电讯报》报道中国基督徒因信仰失踪事件，可能引发西方国家对华新一轮制裁或限制措施，加大中概股在美退市风险，短期利空在美上市中概股及港股科技权重。",
       "stocks": [
-        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体制造", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
-        {"name": "北方稀土", "code": "600111.SH", "market": "SH", "sector": "稀土", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "中国稀土", "code": "000831.SZ", "market": "SZ", "sector": "稀土", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "Northrop Grumman", "code": "NOC", "market": "US", "sector": "国防导弹系统", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "Boeing", "code": "BA", "market": "US", "sector": "国防航天", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+        {"name": "阿里巴巴-SW", "code": "9988.HK", "market": "HK", "sector": "互联网科技", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "腾讯控股", "code": "0700.HK", "market": "HK", "sector": "互联网科技", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "阿里巴巴", "code": "BABA.US", "market": "US", "sector": "中概股", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
       ]
     },
     {
       "id": 6,
-      "title": "中国或向爱彼迎、英伟达等受中国模式震撼的CEO传递信息",
-      "logic": "中美科技巨头高层互动信号，暗示中美科技关系可能出现缓和窗口；英伟达对华芯片出口预期改善（短期利好）；爱彼迎中国业务可能获得更友好政策环境；但不确定性仍高，中期需观察实质政策落地",
+      "title": "朝鲜和中国承诺在条约周年之际加强关系",
+      "logic": "朝中在友好合作条约签署周年之际互致信函，承诺加强双边关系。中期边境贸易和旅游合作有望扩大，利好东北地区边境贸易概念股及朝鲜相关概念。",
       "stocks": [
-        {"name": "NVIDIA", "code": "NVDA", "market": "US", "sector": "AI芯片", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "Airbnb", "code": "ABNB", "market": "US", "sector": "共享经济旅游", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "工业富联", "code": "601138.SH", "market": "SH", "sector": "AI服务器代工", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "中际旭创", "code": "300308.SZ", "market": "SZ", "sector": "光模块", "short_term": "→", "mid_term": "↑", "long_term": "→"},
-        {"name": "携程集团", "code": "TCOM", "market": "US", "sector": "在线旅游", "short_term": "→", "mid_term": "→", "long_term": "→"},
-        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片国产替代", "short_term": "↓", "mid_term": "→", "long_term": "↑"}
+        {"name": "吉林高速", "code": "601518.SH", "market": "SH", "sector": "交通物流", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "长白山", "code": "603099.SH", "market": "SH", "sector": "旅游", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 7,
-      "title": "菲律宾与中国领土争端持续升级",
-      "logic": "中菲南海摩擦持续，菲律宾可能加速军事现代化采购；南海渔业和油气勘探活动受限；东盟内部对华立场分化，利好与中国关系密切的东盟贸易伙伴；海上执法和海洋监控需求增加",
+      "title": "台湾人在中国大陆被拘留失踪案件迅速增加",
+      "logic": "台北时报报道台湾居民在中国大陆遭拘留失踪案件急剧上升，两岸关系进一步恶化。紧张局势可能加速台海相关军事准备，利好军工板块，但利空两岸贸易及台商概念。",
       "stocks": [
-        {"name": "中国海防", "code": "600764.SH", "market": "SH", "sector": "海洋防务电子", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
-        {"name": "亚星锚链", "code": "601890.SH", "market": "SH", "sector": "船舶装备", "short_term": "↑", "mid_term": "→", "long_term": "→"},
-        {"name": "海兰信", "code": "300065.SZ", "market": "SZ", "sector": "海洋监测", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
-        {"name": "中远海能", "code": "600026.SH", "market": "SH", "sector": "能源航运", "short_term": "↓", "mid_term": "→", "long_term": "→"},
-        {"name": "海南橡胶", "code": "601118.SH", "market": "SH", "sector": "天然橡胶", "short_term": "→", "mid_term": "↑", "long_term": "→"}
+        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "厦门港务", "code": "000905.SZ", "market": "SZ", "sector": "两岸贸易港口", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国天问二号到达小行星目标，五角大楼发布新UFO档案",
+      "logic": "中国深空探测任务天问二号成功抵达小行星目标，标志中国航天深空探测能力再上新台阶。五角大楼同期发布新一批UFO档案增加全球对航空航天领域的关注度，利好航天产业链。",
+      "stocks": [
+        {"name": "中国卫星", "code": "600118.SH", "market": "SH", "sector": "航天制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天电子", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "航天电器", "code": "002025.SZ", "market": "SZ", "sector": "航天元器件", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中俄海军联合演习圆满结束",
+      "logic": "中俄海军在亚太海域的联合军事演习圆满结束，展示两国海军协同作战能力。演习常态化利好军工船舶板块，同时向西方传递战略信号可能加剧与美日关系的紧张。",
+      "stocks": [
+        {"name": "中船防务", "code": "600685.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工造船", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "台风巴威登陆浙江（新增）",
-        "theme": "台风灾害驱动保险承压、灾后重建利好基建建材、农业受损推高农产品",
+        "label": "台风巴威登陆（新增）",
+        "theme": "超强台风巴威登陆中国东部，近200万人疏散，短期利空保险利好基建农业",
         "stocks": [
           {"name": "中国平安", "code": "601318.SH", "short_term": "↓"},
-          {"name": "海螺水泥", "code": "600585.SH", "short_term": "→"},
-          {"name": "三一重工", "code": "600031.SH", "short_term": "→"},
-          {"name": "隆平高科", "code": "000998.SZ", "short_term": "↑"}
+          {"name": "中国建筑", "code": "601668.SH", "short_term": "↑"},
+          {"name": "北大荒", "code": "600598.SH", "short_term": "↑"}
         ]
       },
       {
-        "label": "南海仲裁十周年多国联合声明（新增）",
-        "theme": "地缘政治升温利好军工船舶航空，利空海洋油气开发和航运",
+        "label": "南海争端升级（新增）",
+        "theme": "南海仲裁十周年14国联合反对中国主张，南海紧张局势利好军工海工",
         "stocks": [
-          {"name": "中航沈飞", "code": "600760.SH", "short_term": "↑"},
-          {"name": "中国船舶", "code": "600150.SH", "short_term": "↑"},
-          {"name": "中海油服", "code": "601808.SH", "short_term": "↓"}
+          {"name": "中船防务", "code": "600685.SH", "short_term": "↑"},
+          {"name": "中海油服", "code": "601808.SH", "short_term": "↑"}
         ]
       },
       {
-        "label": "中国建造美军战舰靶标模型（新增）",
-        "theme": "反舰导弹产业链受益，军工电子和新材料中长期看涨",
+        "label": "沙漠美舰模型+导弹威慑（新增）",
+        "theme": "中国沙漠建造美军舰模型用于导弹打靶训练，利好导弹产业链",
         "stocks": [
-          {"name": "洪都航空", "code": "600316.SH", "short_term": "↑"},
-          {"name": "航天彩虹", "code": "002389.SZ", "short_term": "↑"},
-          {"name": "紫光国微", "code": "002049.SZ", "short_term": "→"}
+          {"name": "航天彩虹", "code": "002389.SZ", "short_term": "↑↑"},
+          {"name": "中兵红箭", "code": "000519.SZ", "short_term": "↑↑"}
         ]
       },
       {
-        "label": "歼-16野兽模式升级（新增）",
-        "theme": "航空工业体系全线受益，亚太军备竞赛利好全球防务",
+        "label": "功夫足球票房大卖（新增）",
+        "theme": "周星驰《功夫足球》两天票房7400万美元，暑期档影视板块受益",
         "stocks": [
-          {"name": "中航西飞", "code": "000768.SZ", "short_term": "↑"},
-          {"name": "中航电子", "code": "600372.SH", "short_term": "↑"},
-          {"name": "Lockheed Martin", "code": "LMT", "short_term": "→"}
+          {"name": "万达电影", "code": "002739.SZ", "short_term": "↑"},
+          {"name": "阿里影业", "code": "1060.HK", "short_term": "↑"}
         ]
       },
       {
-        "label": "中美科技巨头互动信号（新增）",
-        "theme": "中美科技关系缓和窗口预期，英伟达对华出口预期改善，国产替代短期承压",
+        "label": "天问二号抵达小行星（新增）",
+        "theme": "中国深空探测重大里程碑，航天产业链中长期受益",
         "stocks": [
-          {"name": "NVIDIA", "code": "NVDA", "short_term": "↑"},
-          {"name": "Airbnb", "code": "ABNB", "short_term": "↑"},
-          {"name": "寒武纪", "code": "688256.SH", "short_term": "↓"}
-        ]
-      },
-      {
-        "label": "中菲南海争端升级（新增）",
-        "theme": "海洋防务与监控需求增加，南海航运和能源开发短期承压",
-        "stocks": [
-          {"name": "中国海防", "code": "600764.SH", "short_term": "↑"},
-          {"name": "海兰信", "code": "300065.SZ", "short_term": "↑"},
-          {"name": "中远海能", "code": "600026.SH", "short_term": "↓"}
+          {"name": "中国卫星", "code": "600118.SH", "short_term": "↑"},
+          {"name": "航天电子", "code": "600879.SH", "short_term": "↑"}
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻事件推演，不构成任何投资建议。股市有风险，投资需谨慎。数据来源：BBC、AP News、Bloomberg、Al Jazeera、Reuters等主流媒体2026年7月13日报道。"
+  "disclaimer": "以上分析基于2026年7月13日公开新闻事件，所有股票涨跌方向均为逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。"
 }
