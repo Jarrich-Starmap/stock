@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "name": "2026年7月15日全球新闻股票推演",
+    "description": "基于2026年7月15日超级News聚合新闻，逐条推演潜在受影响的个股及短中长期涨跌方向，覆盖A股、港股、美股",
+    "category": "daily",
+    "source": "https://hk.k415.win/news/ 2026-07-15综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-15T01:15:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "中国与墨西哥推进绿色铁路合作",
+      "logic": "中墨绿色铁路合作将带动中国铁路基建与装备出口订单增长，利好铁路建设、机车车辆制造商及绿色能源配套企业",
+      "stocks": [
+        {"name": "中国中铁", "code": "0390.HK", "market": "HK", "sector": "基建", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中国中车", "code": "1766.HK", "market": "HK", "sector": "轨道交通装备", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中国铁建", "code": "1186.HK", "market": "HK", "sector": "基建", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "印尼与中国联合行动遣返四名逃犯",
+      "logic": "双边司法合作例行事件，无明确资本市场标的，但反映中国-印尼关系稳定，间接利好涉印尼贸易/基建中资企业",
+      "stocks": [
+        {"name": "青山实业（间接关联）", "code": "PRIVATE", "market": "PRIVATE", "sector": "镍矿/不锈钢", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国否认美国科学家陈友林被错误拘留的报道",
+      "logic": "中美外交摩擦加剧，紧张情绪可能短期压制在美业务占比较高的中概股及中美贸易敏感板块",
+      "stocks": [
+        {"name": "阿里巴巴", "code": "9988.HK", "market": "HK", "sector": "互联网", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "百度", "code": "BIDU", "market": "US", "sector": "互联网/AI", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "美国批准向三家中国公司出口Nvidia H200芯片许可并已开始发货",
+      "logic": "H200芯片出口许可获批并已发货，直接利好Nvidia及获得芯片的中国AI服务器/算力企业。中国AI基础设施企业算力供给改善，有望加速大模型训练部署，板块情绪提振显著。寒武纪等国产AI芯片面临竞争压力短期利空",
+      "stocks": [
+        {"name": "NVIDIA", "code": "NVDA", "market": "US", "sector": "AI芯片", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "浪潮信息", "code": "000977.SZ", "market": "SZ", "sector": "AI服务器", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "工业富联", "code": "601138.SH", "market": "SH", "sector": "AI服务器/云计算", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "中科曙光", "code": "603019.SH", "market": "SH", "sector": "高性能计算", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "美国科学家在华被关押近两年，特朗普已向习近平提出",
+      "logic": "中美高层外交博弈，案件若激化可能引发新一轮科技/学术交流限制，利空在美有深度研发合作的中国生物医药及科技企业",
+      "stocks": [
+        {"name": "药明康德", "code": "2359.HK", "market": "HK", "sector": "CXO", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "华大基因", "code": "300676.SZ", "market": "SZ", "sector": "基因检测", "short_term": "↓", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国超级大使馆被指侵犯伦敦居民人权，法院听证",
+      "logic": "中英外交摩擦升级，可能影响中国企业在英投资审批及基建项目推进，短期利空在英有重大资产的中资企业",
+      "stocks": [
+        {"name": "中广核电力", "code": "1816.HK", "market": "HK", "sector": "核电", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "长江基建", "code": "1038.HK", "market": "HK", "sector": "基建/公用事业", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Coinbase向中国用户开放注册",
+      "logic": "Coinbase向中国用户开放注册，可能预示加密货币合规化信号，利好Coinbase及加密货币概念股。但中国境内监管态度仍需观察",
+      "stocks": [
+        {"name": "Coinbase", "code": "COIN", "market": "US", "sector": "加密货币交易所", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "MicroStrategy", "code": "MSTR", "market": "US", "sector": "比特币持仓", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国扩大加密货币洗钱打击行动",
+      "logic": "监管打击加码短期压制加密货币市场情绪，利空加密货币相关标的；但中长期有利行业合规化，区分合规与非合规平台",
+      "stocks": [
+        {"name": "Coinbase", "code": "COIN", "market": "US", "sector": "加密货币交易所", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "嘉楠科技", "code": "CAN", "market": "US", "sector": "矿机", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "东南亚各国如何看待北京（Asia Society研讨）",
+      "logic": "东南亚国家对华态度多元化，利好与中国关系密切的东盟贸易/基建概念股；但若出现负面导向，则对中资出海构成情绪压力",
+      "stocks": [
+        {"name": "中国交建", "code": "1800.HK", "market": "HK", "sector": "基建/一带一路", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "电力基建", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "美国地震学家或在中国面临间谍指控",
+      "logic": "中美学术/科技领域信任危机加深，科技脱钩风险上升，利空依赖中美技术交流合作的半导体设备、科研仪器板块",
+      "stocks": [
+        {"name": "中微公司", "code": "688012.SH", "market": "SH", "sector": "半导体设备", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "WAIC 2026：中国AI治理模式与西方的对比",
+      "logic": "WAIC大会展现中国AI治理路线，差异化监管框架可能吸引本土AI企业获得政策倾斜，利好国产AI大模型及应用标的",
+      "stocks": [
+        {"name": "百度", "code": "9888.HK", "market": "HK", "sector": "AI/互联网", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "AI/语音", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "商汤", "code": "0020.HK", "market": "HK", "sector": "AI/计算机视觉", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "腾讯控股", "code": "0700.HK", "market": "HK", "sector": "互联网/AI", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "石药集团HER2抗体获中国突破性疗法认定",
+      "logic": "突破性疗法认定加速审批流程，缩短上市周期，显著利好石药集团肿瘤管线估值重估",
+      "stocks": [
+        {"name": "石药集团", "code": "1093.HK", "market": "HK", "sector": "医药/肿瘤", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "长鑫存储拟融资85亿美元，创中国芯片IPO之最",
+      "logic": "长鑫存储巨额融资反映中国存储芯片国产替代加速，利好半导体设备及材料供应商。CXMT上市将提升存储芯片板块关注度",
+      "stocks": [
+        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中微公司", "code": "688012.SH", "market": "SH", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "兆易创新", "code": "603986.SH", "market": "SH", "sector": "存储芯片", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑"},
+        {"name": "江波龙", "code": "301308.SZ", "market": "SZ", "sector": "存储模组", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "中国称与所罗门群岛合作不附加任何条件",
+      "logic": "南太平洋外交持续布局，利好有太平洋岛国基建/渔业/矿产合作的中资企业，但短期无直接催化剂",
+      "stocks": [
+        {"name": "中国交建", "code": "1800.HK", "market": "HK", "sector": "基建/一带一路", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "冲突背景下的中国能源安全（评论文章）",
+      "logic": "能源安全意识提升，中国持续加大国内油气勘探开采及新能源投入，利好三桶油及新能源龙头",
+      "stocks": [
+        {"name": "中国石油", "code": "0857.HK", "market": "HK", "sector": "石油天然气", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中国海油", "code": "0883.HK", "market": "HK", "sector": "石油天然气", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "宁德时代", "code": "300750.SZ", "market": "SZ", "sector": "新能源电池", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "隆基绿能", "code": "601012.SH", "market": "SH", "sector": "光伏", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "猴子供应链：世界对中国实验猴的依赖",
+      "logic": "实验猴供应链依赖中国出口，若出现管控收紧可能影响全球新药研发进度，利好有自建猴场产能的国内CRO企业",
+      "stocks": [
+        {"name": "药明康德", "code": "2359.HK", "market": "HK", "sector": "CXO", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
+        {"name": "康龙化成", "code": "3759.HK", "market": "HK", "sector": "CXO", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "为何俄罗斯与中国不惧西方",
+      "logic": "中俄战略协作叙事强化，利好中俄贸易（能源、机械、农产品）及跨境支付体系替代方案相关标的",
+      "stocks": [
+        {"name": "中国石油", "code": "0857.HK", "market": "HK", "sector": "石油天然气", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国中车", "code": "1766.HK", "market": "HK", "sector": "轨道交通装备", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {"label": "H200芯片获准出口中国（新增）", "theme": "美国批准Nvidia H200芯片出口中国，已开始发货，利好AI算力板块", "stocks": [{"name": "NVIDIA", "code": "NVDA", "short_term": "↑↑"}, {"name": "浪潮信息", "code": "000977.SZ", "short_term": "↑↑"}]},
+      {"label": "长鑫存储85亿美元IPO（新增）", "theme": "长鑫存储拟融资85亿美元创中国芯片IPO纪录，半导体设备及存储板块受益", "stocks": [{"name": "北方华创", "code": "002371.SZ", "short_term": "↑↑"}, {"name": "兆易创新", "code": "603986.SH", "short_term": "↑↑"}]},
+      {"label": "石药集团HER2突破性疗法（新增）", "theme": "石药集团HER2双抗获突破性疗法认定，肿瘤管线加速推进", "stocks": [{"name": "石药集团", "code": "1093.HK", "short_term": "↑↑"}]},
+      {"label": "Coinbase开放中国注册（新增）", "theme": "Coinbase向中国用户开放注册，加密货币合规化信号", "stocks": [{"name": "Coinbase", "code": "COIN", "short_term": "↑↑"}]}
+    ]
+  },
+  "disclaimer": "以上分析基于公开新闻进行逻辑推演，所有涨跌方向仅代表基于现有信息的合理推测，不构成任何投资建议。股市有风险，投资需谨慎。数据来源：https://hk.k415.win/news/，更新于2026-07-15 01:15"
+}
