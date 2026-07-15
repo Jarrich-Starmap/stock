@@ -1,0 +1,585 @@
+{
+  "meta": {
+    "name": "2026年7月16日全球新闻股票推演",
+    "description": "基于2026年7月16日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
+    "category": "daily",
+    "source": "https://hk.k415.win/news/ 2026年7月16日综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-16T01:15:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "Apple Intelligence获中国监管批准，携手阿里巴巴千问AI、百度在中国推出iPhone AI功能",
+      "logic": "Apple AI功能在中国获批并与阿里、百度合作，意味着苹果在中国市场的AI生态补齐短板，有望提振iPhone在华销量；阿里和百度作为AI合作方直接受益于技术输出和生态绑定，短期情绪正面，中长期看商业化落地效果",
+      "stocks": [
+        {
+          "name": "苹果",
+          "code": "AAPL.US",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "sector": "互联网/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "阿里巴巴",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "互联网/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度",
+          "code": "BIDU.US",
+          "market": "US",
+          "sector": "互联网/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "互联网/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "中国经济第二季度增长4.3%，为2022年末以来最低增速",
+      "logic": "GDP增速低于预期加剧市场对通缩和需求不足的担忧，短期压制A股整体情绪；但低增速可能倒逼更强力刺激政策出台，中期若降准降息或财政加码则对基建、消费形成支撑",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "大盘蓝筹",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "白酒消费",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "金融保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "恒生指数ETF",
+          "code": "2800.HK",
+          "market": "HK",
+          "sector": "港股大盘",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "美光因中国竞争担忧下跌8%，拖累英特尔、AMD和Marvell",
+      "logic": "中国存储芯片（长江存储等）产能扩张和技术突破对美光构成直接竞争威胁，美光暴跌反映市场对中国半导体自主化加速的定价；英特尔、AMD、Marvell作为半导体板块联动下跌，但本质是因AI泡沫消化+地缘供应链风险共振",
+      "stocks": [
+        {
+          "name": "美光科技",
+          "code": "MU.US",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "英特尔",
+          "code": "INTC.US",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "AMD",
+          "code": "AMD.US",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Marvell Technology",
+          "code": "MRVL.US",
+          "market": "US",
+          "sector": "数据中心芯片",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "华盛顿双面施压：英伟达中国困境加剧，合法出口与走私冲突",
+      "logic": "美国对华芯片出口管制持续收紧，英伟达中国特供版GPU（H20等）面临更严审查，合法合规出口通道收窄；走私/灰色渠道曝光可能引发新一轮制裁升级，短期压制英伟达中国区营收预期",
+      "stocks": [
+        {
+          "name": "英伟达",
+          "code": "NVDA.US",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "国产GPU",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM.US",
+          "market": "US",
+          "sector": "晶圆代工",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "台湾部署海马斯与反舰导弹进行大规模防御演习",
+      "logic": "台湾大规模军事演习彰显防御决心，地缘紧张局势升温；短期军工板块受情绪驱动上涨，台海周边航运和供应链风险溢价上升；但大规模冲突概率仍低，中期情绪可能回落",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "晶圆代工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运物流",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国制药控股异常股票交易活动引纽交所问询",
+      "logic": "中国制药控股(CPHI)出现异常交易量和价格波动，纽交所已介入问询；公司回应称不知晓任何导致异常的事件，信息不对称加剧投机风险；短期波动极大，中长期取决于是否有实质性未披露事件",
+      "stocks": [
+        {
+          "name": "中国制药控股",
+          "code": "CPHI.US",
+          "market": "US",
+          "sector": "制药",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "药明康德",
+          "code": "603259.SH",
+          "market": "SH",
+          "sector": "CXO医药",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国炼油量降至新冠疫情以来最低水平",
+      "logic": "炼油量大幅下降反映中国工业需求疲弱和能源消费结构转型加速（电动车渗透率提升）；三桶油短期业绩承压，但炼化利润压缩可能倒逼行业整合和新能源转型提速",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油石化",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "石油炼制",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海油",
+          "code": "0883.HK",
+          "market": "HK",
+          "sector": "油气勘探",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "美国会在AI竞赛中落后于中国吗？新威胁正在浮现",
+      "logic": "美国主流媒体开始讨论中美AI差距缩小的可能性，反映中国AI大模型（DeepSeek、千问等）快速追赶引发美国战略焦虑；情绪上利好中国AI产业链，但美国可能加速技术封锁应对",
+      "stocks": [
+        {
+          "name": "微软",
+          "code": "MSFT.US",
+          "market": "US",
+          "sector": "AI/云计算",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "谷歌",
+          "code": "GOOGL.US",
+          "market": "US",
+          "sector": "AI/搜索",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "AI视觉",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "美中紧张局势加剧，美国向太平洋部署海岸警卫队快艇",
+      "logic": "美国在太平洋增加军事存在加强了对中国海上活动的监控和威慑，南海和台海风险溢价上升；短期利好军工和国防板块，航运保险成本可能上升",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运物流",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "台湾立法委员重启反对中国《民族团结法》的动议",
+      "logic": "台湾立法机构重启反制大陆法律的动议显示两岸政治对立持续僵化，短期加剧台海不确定性；但对实际经贸影响有限，更多是政治表态，市场反应可能较为温和",
+      "stocks": [
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "sector": "晶圆代工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "富邦金控",
+          "code": "2881.TW",
+          "market": "TW",
+          "sector": "金融",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "厦门国贸",
+          "code": "600755.SH",
+          "market": "SH",
+          "sector": "两岸贸易",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "100%关税威胁考验印度对俄罗斯原油的战略",
+      "logic": "若美国对印度进口俄罗斯原油加征100%关税，印度炼油企业原油成本将大幅上升，利润承压；印度可能被迫减少俄油进口转而寻求中东替代，推高全球油价；印度能源股和卢比汇率短期承压",
+      "stocks": [
+        {
+          "name": "信实工业",
+          "code": "RELIANCE.IN",
+          "market": "IN",
+          "sector": "炼油石化",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "印度石油天然气公司",
+          "code": "ONGC.IN",
+          "market": "IN",
+          "sector": "油气勘探",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "埃克森美孚",
+          "code": "XOM.US",
+          "market": "US",
+          "sector": "国际石油",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油石化",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "Apple Intelligence中国获批（新增）",
+        "theme": "Apple携手阿里、百度在中国推出AI功能获监管批准，利好消费电子与AI生态链",
+        "stocks": [
+          {
+            "name": "苹果",
+            "code": "AAPL.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "阿里巴巴",
+            "code": "BABA.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "百度",
+            "code": "BIDU.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中国经济增速放缓（新增）",
+        "theme": "Q2 GDP增长4.3%为2022年末以来最低，短期压制A股情绪但或催生刺激政策预期",
+        "stocks": [
+          {
+            "name": "沪深300ETF",
+            "code": "510300.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "贵州茅台",
+            "code": "600519.SH",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "美半导体遭中国竞争冲击（新增）",
+        "theme": "美光跌8%拖累美股半导体板块，中国存储芯片自主化加速引发华尔街重估",
+        "stocks": [
+          {
+            "name": "美光科技",
+            "code": "MU.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "中芯国际",
+            "code": "688981.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "英伟达中国出口困境加剧（新增）",
+        "theme": "美国对华芯片管制持续收紧，英伟达特供版GPU面临合规与走私双重压力",
+        "stocks": [
+          {
+            "name": "英伟达",
+            "code": "NVDA.US",
+            "short_term": "↓"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "台湾大规模军事演习（新增）",
+        "theme": "台湾部署海马斯反舰导弹演习加剧台海地缘紧张，利好军工产业链",
+        "stocks": [
+          {
+            "name": "中航沈飞",
+            "code": "600760.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "台积电",
+            "code": "2330.TW",
+            "short_term": "↓"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。本数据集仅供研究参考，作者不对任何基于此数据的投资决策承担责任。"
+}
