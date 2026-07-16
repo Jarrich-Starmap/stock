@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "name": "2026-07-17 全球新闻股票推演",
+    "description": "基于 2026-07-17 当日及近期公开新闻事件驱动的短中长期股票多空推演数据集，覆盖 A 股、港股、美股及亚太欧洲市场",
+    "category": "daily",
+    "source": "2026-07-17 hk.jarrich.cn/news 综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-17T00:42:12+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "美国关税迫在眉睫，中国5月航空货运量创三年新高",
+      "logic": "美国关税威胁倒逼中国出口提前抢运，航空货运需求短期暴增利好航空物流企业；但关税落地后外贸货运量可能回落，中长期存在不确定性。",
+      "stocks": [
+        {
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "物流/快递",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国外运",
+          "code": "601598.SH",
+          "market": "SH",
+          "sector": "物流/货运代理",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "东航物流",
+          "code": "601156.SH",
+          "market": "SH",
+          "sector": "航空货运",
+          "short_term": "↑↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "菲律宾卷入与中国的领土争端，向以色列寻求武器",
+      "logic": "南海地缘紧张升级刺激区域军备需求，中国军工企业受益于国防开支预期增加；菲律宾转向以色列采购武器短期不直接影响中方军工销售，但整体地缘紧张推升军工板块情绪。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工/航空装备",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "中国超市蝉联全球生鲜农产品排名第一",
+      "logic": "中国超市在全球生鲜供应链中占据主导地位，利好国内头部连锁超市品牌；生鲜零售竞争加剧，但龙头品牌受益于规模与供应链优势。",
+      "stocks": [
+        {
+          "name": "永辉超市",
+          "code": "601933.SH",
+          "market": "SH",
+          "sector": "零售/超市",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "家家悦",
+          "code": "603708.SH",
+          "market": "SH",
+          "sector": "零售/超市",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "伊朗斯诺克选手夺得中国斯诺克冠军",
+      "logic": "国际体育赛事在中国举办提升体育产业关注度，间接利好体育用品及赛事运营相关企业；但单一赛事影响力有限，属短期情绪催化。",
+      "stocks": [
+        {
+          "name": "安踏体育",
+          "code": "2020.HK",
+          "market": "HK",
+          "sector": "体育用品",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国科技新闻摘要——7月16日",
+      "logic": "综合科技新闻传递中国科技创新持续投入信号，利好半导体、AI 等战略方向；政策面支持自主可控长期趋势不变。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "联发科在华推出新芯片：天玑9500瞄准旗舰智能手机",
+      "logic": "联发科推出旗舰芯片天玑9500，直接挑战高通骁龙在高端市场的份额，利好联发科营收预期；国内手机品牌可获更具性价比的旗舰芯片供应，利好相关产业链。",
+      "stocks": [
+        {
+          "name": "联发科",
+          "code": "2454.TW",
+          "market": "TW",
+          "sector": "半导体/芯片设计",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "韦尔股份",
+          "code": "603501.SH",
+          "market": "SH",
+          "sector": "半导体/图像传感器",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "中国电动汽车价格战正在缓和，但对供应商的损害已经造成",
+      "logic": "价格战缓和意味着车企利润率有望触底回升，利好整车企业；但供应商已受挤压，利润修复滞后于整车厂，短期分化明显。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车/整车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪股份",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车/整车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "洲际酒店集团在大中华区开设首家英迪格酒店",
+      "logic": "洲际酒店加大中国布局验证中国高端酒店市场需求强劲，直接利好洲际集团；同时反映中国旅游消费升级趋势，利好国内酒店龙头。",
+      "stocks": [
+        {
+          "name": "洲际酒店集团",
+          "code": "IHG.US",
+          "market": "US",
+          "sector": "酒店/旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "华住集团",
+          "code": "1179.HK",
+          "market": "HK",
+          "sector": "酒店/旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国威士忌市场进口量激增77%，2025年将达到5.4亿美元",
+      "logic": "中国威士忌消费爆发式增长直接利好全球主要威士忌生产商和进口商；高端烈酒在中国市场的渗透率持续提升，长期趋势确定。",
+      "stocks": [
+        {
+          "name": "帝亚吉欧",
+          "code": "DEO.US",
+          "market": "US",
+          "sector": "消费品/烈酒",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "保乐力加",
+          "code": "RI.PA",
+          "market": "FR",
+          "sector": "消费品/烈酒",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "谷歌正在就收购 TikTok 中国业务进行深入谈判",
+      "logic": "谷歌收购 TikTok 中国业务若落地，将显著增强其在中国市场的短视频和社交布局；对字节跳动是战略收缩，对腾讯等国内社交流量竞争格局产生变数。",
+      "stocks": [
+        {
+          "name": "Alphabet（谷歌）",
+          "code": "GOOGL.US",
+          "market": "US",
+          "sector": "互联网/科技",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网/社交媒体",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国回击特朗普关税威胁，警告采取反制措施",
+      "logic": "贸易摩擦升级预期下，中国可能以稀土出口管制、技术产品限制等方式反制，利好稀土和自主替代板块；出口导向型企业承压。",
+      "stocks": [
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土/资源",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土/资源",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "中国品牌如何利用欧洲汽车传统来销售电动汽车",
+      "logic": "中国电动车品牌借欧洲汽车文化营销，有望加速欧洲市场渗透；品牌溢价能力提升利好出海战略，中长期打开增量市场空间。",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车/整车",
+          "short_term": "→",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "蔚来汽车",
+          "code": "NIO.US",
+          "market": "US",
+          "sector": "新能源汽车/整车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "长城汽车将在英国推出哈弗SUV，中国品牌扩大欧洲市场",
+      "logic": "长城汽车进军英国市场是其欧洲战略的重要里程碑，哈弗品牌海外销量增长预期提升；中国汽车品牌集体出海趋势强化，利好整车出口企业。",
+      "stocks": [
+        {
+          "name": "长城汽车",
+          "code": "601633.SH",
+          "market": "SH",
+          "sector": "汽车/整车制造",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "长城汽车",
+          "code": "2333.HK",
+          "market": "HK",
+          "sector": "汽车/整车制造",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "中国正在大连建设世界最大人工岛机场",
+      "logic": "大型基建项目直接拉动建筑、建材、工程机械需求；大连金州湾国际机场作为国家重点项目，体现基建投资持续发力，利好基建产业链。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建/交通建设",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建/建筑工程",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "中国航空业蓬勃发展，客运量创历史新高",
+      "logic": "航空客运量创纪录表明出行需求强劲复苏，航空公司营收弹性大；叠加暑期出行旺季，短期业绩确定性高，中长期受益于消费升级与出行渗透率提升。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空/客运",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空/客运",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国东航",
+          "code": "600115.SH",
+          "market": "SH",
+          "sector": "航空/客运",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "日本出现新的'中国冲击'，游客人数激增至创纪录水平",
+      "logic": "中国赴日游客爆发式增长利好日本旅游零售、航空、酒店等消费板块；同时国内出境游平台（OTA）也受益于海外旅游需求增长。",
+      "stocks": [
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游/OTA",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "日本航空",
+          "code": "9201.T",
+          "market": "T",
+          "sector": "航空/客运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "中国男子因涉嫌参与跨国诈骗网络在泰国被捕",
+      "logic": "跨国网络诈骗案件频发推动各国加强网络安全立法和投入，利好网络安全企业；企业和政府的网络安全支出有望持续增长。",
+      "stocks": [
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "中国在南海领土紧张局势下举行大规模海军演习",
+      "logic": "大规模军演直接体现国防现代化加速推进，军工订单预期增强；地缘紧张持续推升全球国防预算，中国军工企业长期受益于装备升级换代需求。",
+      "stocks": [
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工/航空装备",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工/船舶制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国重工",
+          "code": "601989.SH",
+          "market": "SH",
+          "sector": "军工/船舶制造",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "中国国家支持的网络攻击针对澳大利亚政府机构",
+      "logic": "国家级网络攻击事件升级促使各国加大网络安全防护投入，网络安全赛道景气度持续走高；中国网络安全企业虽不直接受益于海外事件，但全球网安意识提升带动行业估值扩张。",
+      "stocks": [
+        {
+          "name": "奇安信",
+          "code": "688561.SH",
+          "market": "SH",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "深信服",
+          "code": "300454.SZ",
+          "market": "SZ",
+          "sector": "网络安全/云计算",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Palo Alto Networks",
+          "code": "PANW.US",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "上半年中国GDP同比增长4.7%，经济顶住压力运行在合理区间",
+      "logic": "GDP 增速 4.7% 符合市场预期，经济整体稳中有进；宏观基本面稳健支撑 A 股大盘估值，消费和蓝筹股受益于经济韧性带来的信心修复。",
+      "stocks": [
+        {
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "指数基金",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "消费品/白酒",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "长城汽车进军英国欧洲市场（新增）",
+        "theme": "长城汽车在英国推出哈弗SUV，中国汽车品牌加速欧洲扩张",
+        "stocks": [
+          {
+            "name": "长城汽车",
+            "code": "601633.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "长城汽车",
+            "code": "2333.HK",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "中国航空客运量创历史新高（新增）",
+        "theme": "中国航空业快速复苏，客运量创新高叠加暑期旺季",
+        "stocks": [
+          {
+            "name": "中国国航",
+            "code": "601111.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "南方航空",
+            "code": "600029.SH",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "谷歌收购TikTok中国业务谈判（新增）",
+        "theme": "谷歌深入谈判收购TikTok中国业务，影响全球社交媒体格局",
+        "stocks": [
+          {
+            "name": "Alphabet（谷歌）",
+            "code": "GOOGL.US",
+            "short_term": "↑"
+          },
+          {
+            "name": "腾讯控股",
+            "code": "0700.HK",
+            "short_term": "→"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
+}
