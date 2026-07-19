@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "name": "2026年7月20日全球新闻股票推演",
+    "description": "基于2026年7月19日超级News聚合页采集的全球新闻，逐条分析资本市场影响链路，覆盖A股、港股、美股及亚太市场",
+    "category": "daily",
+    "source": "超级News (hk.jarrich.cn/news/) 2026-07-19采集整理",
+    "version": "1.0",
+    "update_time": "2026-07-20T00:00:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "台湾地区领导人发表敏感言论，两岸关系再度紧张",
+      "logic": "台湾地区领导人声称"民主台湾绝不能成为中国的台湾"，此类挑衅性言论将加剧两岸紧张局势，短期内推升市场避险情绪。地缘政治升温利好军工/国防板块，但对台股及依赖大陆市场的台企形成压力。中长期看，若局势持续紧张，可能触发新一轮制裁与反制，半导体供应链安全议题再度升温。",
+      "stocks": [
+        {"name": "北方导航", "code": "600435.SH", "market": "SH", "sector": "国防军工", "short_term": "↑", "mid_term": "↑↑", "long_term": "→"},
+        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "国防军工", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中兵红箭", "code": "000519.SZ", "market": "SZ", "sector": "国防军工", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "台积电", "code": "2330.TW", "market": "TW", "sector": "半导体", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "佛州律师因策划中国大使馆爆炸被取消律师资格，中美关系持续承压",
+      "logic": "美国公民针对中国外交机构的极端行为曝光，反映美国国内部分群体对华敌意升温。此类事件短期加深中美互不信任，利好国防及网络安全板块。中长期若两国无法有效管控分歧，关税升级预期增强，出口导向型企业承压。",
+      "stocks": [
+        {"name": "北方导航", "code": "600435.SH", "market": "SH", "sector": "国防军工", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "国防军工", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "奇安信", "code": "688561.SH", "market": "SH", "sector": "网络安全", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "三六零", "code": "601360.SH", "market": "SH", "sector": "网络安全", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "联合国副秘书长肯定中国AI成就：中国将人工智能概念变为现实",
+      "logic": "联合国高层对中国AI发展的公开赞誉具有里程碑意义，强化中国在全球AI治理中的话语权。短线提振AI概念板块情绪，对国内AI龙头形成估值支撑。中长期中国AI企业国际合作空间拓宽，有利于出海和标准制定。",
+      "stocks": [
+        {"name": "百度集团", "code": "9888.HK", "market": "HK", "sector": "人工智能", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "人工智能", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "商汤集团", "code": "0020.HK", "market": "HK", "sector": "人工智能", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中科曙光", "code": "603019.SH", "market": "SH", "sector": "AI算力", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "浪潮信息", "code": "000977.SZ", "market": "SZ", "sector": "AI服务器", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "苹果股价因中国AI利好创历史新高334美元，7月30日财报成关键节点",
+      "logic": "苹果受中国AI生态利好推动股价创新高，中国作为苹果最大市场之一，AI功能落地驱动换机预期。财报前市场情绪偏乐观但存在获利回吐风险。苹果供应链中中国厂商最受益，AI手机放量预期拉动零部件/代工板块。",
+      "stocks": [
+        {"name": "苹果", "code": "AAPL", "market": "US", "sector": "消费电子", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "立讯精密", "code": "002475.SZ", "market": "SZ", "sector": "消费电子代工", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "歌尔股份", "code": "002241.SZ", "market": "SZ", "sector": "声学/光学组件", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "蓝思科技", "code": "300433.SZ", "market": "SZ", "sector": "玻璃盖板", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "瑞声科技", "code": "2018.HK", "market": "HK", "sector": "声学组件", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "舜宇光学", "code": "2382.HK", "market": "HK", "sector": "光学镜头", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "月之暗面AI（Moonshot AI）Kimi K3发布后计划赴港IPO，估值达300亿美元",
+      "logic": "月之暗面Kimi K3发布引发市场对AI竞争格局的重新评估，300亿美元IPO将是今年全球AI领域最大上市之一。短期提振港股AI板块及香港交易所，同时引发对现有AI上市公司的比价效应。中长期若成功上市将吸引更多中国AI公司赴港，改变港交所科技板块结构。其AI模型引发市场抛售的报道暗示竞争加剧，对部分AI概念股形成压力。",
+      "stocks": [
+        {"name": "香港交易所", "code": "0388.HK", "market": "HK", "sector": "金融交易所", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "商汤集团", "code": "0020.HK", "market": "HK", "sector": "人工智能", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "百度集团", "code": "9888.HK", "market": "HK", "sector": "人工智能", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "第四范式", "code": "6682.HK", "market": "HK", "sector": "AI平台", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "金山云", "code": "3896.HK", "market": "HK", "sector": "云计算/AI", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "华南地区持续暴雨，重庆山体滑坡34人仍失联",
+      "logic": "华南持续强降水和重庆重大山体滑坡灾害造成重大人员伤亡和经济损失，短期内保险理赔压力上升，基建修复和防灾工程需求增加。中长期政策层面可能加快防灾减灾基建投资，水泥、建材、工程机械板块受益。暴雨也对农业和物流形成短期冲击。",
+      "stocks": [
+        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "水泥建材", "short_term": "→", "mid_term": "↑", "long_term": "→"},
+        {"name": "三一重工", "code": "600031.SH", "market": "SH", "sector": "工程机械", "short_term": "→", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国人保", "code": "601319.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "长鑫存储（CXMT）无视半导体市场低迷，IPO需求强劲",
+      "logic": "长鑫存储作为中国DRAM龙头，在行业周期低谷依然获得强劲IPO认购需求，反映市场对中国半导体自主可控战略的高度信心。短期提振半导体设备和材料板块估值，中长期若长鑫成功量产先进制程DRAM，将重塑全球存储芯片格局。",
+      "stocks": [
+        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体制造", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中微公司", "code": "688012.SH", "market": "SH", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "兆易创新", "code": "603986.SH", "market": "SH", "sector": "存储芯片设计", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "华虹半导体", "code": "1347.HK", "market": "HK", "sector": "半导体制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "三星电子", "code": "005930.KS", "market": "KR", "sector": "存储芯片制造", "short_term": "→", "mid_term": "↓", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国海南暑期免税购物大幅增长",
+      "logic": "海南暑期免税购物数据亮眼，显示国内消费复苏势头强劲，免税政策持续释放红利。暑期旺季叠加出境游替代效应继续向海南倾斜，短期利好免税龙头和海南本地消费/旅游/机场板块。中长期海南自贸港封关预期进一步推升估值。",
+      "stocks": [
+        {"name": "中国中免", "code": "601888.SH", "market": "SH", "sector": "免税零售", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "海南机场", "code": "600515.SH", "market": "SH", "sector": "机场/商业地产", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "王府井", "code": "600859.SH", "market": "SH", "sector": "免税/零售", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "海南发展", "code": "002163.SZ", "market": "SZ", "sector": "海南板块", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "南非在推动莫桑比克旅游发展方面领先中国、印度和英国",
+      "logic": "南非在莫桑比克旅游推广上超越中印英等国，显示非洲旅游市场的区域竞争格局变化。短期利好南非旅游相关企业及航空板块，中长期反映非洲大陆内部投资和基础设施合作的加速，中国旅游企业在该区域的布局可能面临竞争压力。",
+      "stocks": [
+        {"name": "携程集团", "code": "9961.HK", "market": "HK", "sector": "在线旅游", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "同程旅行", "code": "0780.HK", "market": "HK", "sector": "在线旅游", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "中国国航", "code": "601111.SH", "market": "SH", "sector": "航空运输", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "印度地方政府计划将中国战争公墓开发为旅游景点",
+      "logic": "印度地方政府将二战中国军人公墓列为旅游开发项目，具有积极的中印人文交流信号，有助于缓和两国紧张关系。短期对中印贸易和投资氛围有边际改善预期，但影响有限。印度旅游相关标的可能间接受益。",
+      "stocks": [
+        {"name": "携程集团", "code": "9961.HK", "market": "HK", "sector": "在线旅游", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "印度酒店公司", "code": "500850.BO", "market": "IN", "sector": "酒店旅游", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "周生生营收增长，黄金首饰需求保持稳定",
+      "logic": "周生生营收表现稳健，黄金首饰需求在高金价环境下依然坚挺，反映避险需求和消费升级双重驱动。短期利好黄金珠宝零售板块，中长期黄金价格走势仍是关键变量。周生生的直接竞争对手和上游金矿企业都将受到关注。",
+      "stocks": [
+        {"name": "周生生", "code": "0116.HK", "market": "HK", "sector": "珠宝零售", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "周大福", "code": "1929.HK", "market": "HK", "sector": "珠宝零售", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "老凤祥", "code": "600612.SH", "market": "SH", "sector": "珠宝零售", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "紫金矿业", "code": "601899.SH", "market": "SH", "sector": "黄金矿业", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "山东黄金", "code": "600547.SH", "market": "SH", "sector": "黄金矿业", "short_term": "→", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "阿塞拜疆在北京中国文学大会上强调丝绸之路联系",
+      "logic": "阿塞拜疆高调参与中国文学大会并强调丝绸之路历史联系，是"一带一路"倡议在中亚-高加索地区持续推进的信号。短期提振"一带一路"基建、能源合作概念股，中长期反映中国在欧亚大陆腹地影响力深化，利好相关工程承包和贸易企业。",
+      "stocks": [
+        {"name": "中国交建", "code": "601800.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中国中铁", "code": "601390.SH", "market": "SH", "sector": "基建工程", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中国石油", "code": "601857.SH", "market": "SH", "sector": "能源", "short_term": "→", "mid_term": "→", "long_term": "↑"},
+        {"name": "中油工程", "code": "600339.SH", "market": "SH", "sector": "油气工程", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "中国PHL-191远程火箭炮展示空爆弹药改变现代战场压制方式",
+      "logic": "中国新型远程火箭炮PHL-191的公开亮相展示空爆弹药技术，标志中国在远程精确打击领域的重大突破。短期强化军工板块情绪，利好精确制导、弹药和火箭炮相关产业链。中长期反映中国陆军远程火力投射能力的阶跃，相关军工企业订单预期增强。",
+      "stocks": [
+        {"name": "北方导航", "code": "600435.SH", "market": "SH", "sector": "国防军工", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中兵红箭", "code": "000519.SZ", "market": "SZ", "sector": "弹药/军工", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "航天电子", "code": "600879.SH", "market": "SH", "sector": "航天/制导", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "光电股份", "code": "600184.SH", "market": "SH", "sector": "光电/精确制导", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国兵器工业集团", "code": "PRIVATE", "market": "PRIVATE", "sector": "国防军工", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"}
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "月之暗面AI赴港IPO（新增）",
+        "theme": "月之暗面Kimi K3发布后计划赴港IPO，估值300亿美元，将改变AI板块竞争格局",
+        "stocks": [
+          {"name": "香港交易所", "code": "0388.HK", "short_term": "↑"},
+          {"name": "商汤集团", "code": "0020.HK", "short_term": "↓"},
+          {"name": "金山云", "code": "3896.HK", "short_term": "↑"}
+        ]
+      },
+      {
+        "label": "苹果因中国AI利好创新高（新增）",
+        "theme": "苹果股价创历史新高334美元，中国AI生态赋能拉动换机预期，供应链受益",
+        "stocks": [
+          {"name": "苹果", "code": "AAPL", "short_term": "↑"},
+          {"name": "立讯精密", "code": "002475.SZ", "short_term": "↑"},
+          {"name": "舜宇光学", "code": "2382.HK", "short_term": "↑"}
+        ]
+      },
+      {
+        "label": "重庆山体滑坡灾害（新增）",
+        "theme": "华南暴雨引发重庆重大山体滑坡，34人仍失联，保险承压基建受益",
+        "stocks": [
+          {"name": "中国平安", "code": "601318.SH", "short_term": "↓"},
+          {"name": "中国建筑", "code": "601668.SH", "short_term": "↑"},
+          {"name": "三一重工", "code": "600031.SH", "short_term": "→"}
+        ]
+      },
+      {
+        "label": "长鑫存储IPO强劲（新增）",
+        "theme": "CXMT在半导体低迷期获强劲IPO认购，中国存储芯片自主化加速",
+        "stocks": [
+          {"name": "北方华创", "code": "002371.SZ", "short_term": "↑"},
+          {"name": "中芯国际", "code": "688981.SH", "short_term": "↑"},
+          {"name": "三星电子", "code": "005930.KS", "short_term": "→"}
+        ]
+      },
+      {
+        "label": "海南免税购物增长（新增）",
+        "theme": "暑期海南免税消费大幅增长，自贸港红利持续释放",
+        "stocks": [
+          {"name": "中国中免", "code": "601888.SH", "short_term": "↑↑"},
+          {"name": "海南机场", "code": "600515.SH", "short_term": "↑"}
+        ]
+      },
+      {
+        "label": "PHL-191远程火箭炮亮相（新增）",
+        "theme": "中国新型火箭炮展示空爆弹药技术，远程精确打击能力跃升",
+        "stocks": [
+          {"name": "中兵红箭", "code": "000519.SZ", "short_term": "↑↑"},
+          {"name": "北方导航", "code": "600435.SH", "short_term": "↑↑"}
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月19日超级News (hk.jarrich.cn/news/) 采集的公开新闻，所有涨跌方向均为基于新闻事件的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。数据更新时间：2026-07-20T00:00:00+08:00。"
+}
