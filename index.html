@@ -228,6 +228,46 @@
     border-radius: 2px;
   }
 
+  .date-picker-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .date-picker-row input[type=date] {
+    padding: 6px 10px;
+    font-size: 13px;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--fg);
+    outline: none;
+  }
+  .date-picker-row input[type=date]:focus {
+    border-color: #888;
+  }
+  .date-nav {
+    display: flex;
+    gap: 4px;
+  }
+  .date-nav button {
+    padding: 6px 12px;
+    font-size: 13px;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--fg);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .date-nav button:hover { background: #f0f0f0; }
+  .date-nav button:active { background: #e0e0e0; }
+  .date-nav button:disabled { opacity: 0.35; cursor: default; background: #fff; }
+  .date-picker-row input[type="date"].invalid-date { border-color: #e53935; background: #fff5f5; }
+
   @media (max-width: 600px) {
     body { padding: 0 10px 30px; }
     header h1 { font-size: 17px; }
@@ -247,6 +287,14 @@
 
 <header>
   <h1 id="pageHeading">新闻-股票分析</h1>
+  <div class="date-picker-row">
+    <div class="date-nav">
+      <button id="btnPrev" title="前一天">&larr;</button>
+      <input type="date" id="datePicker">
+      <button id="btnNext" title="后一天">&rarr;</button>
+      <button id="btnToday">今天</button>
+    </div>
+  </div>
   <div class="meta"><span>数据更新: <span id="updateTime">加载中...</span></span><a target="_blank" href="../news/">新闻源 &rarr;</a></div>
 </header>
 
@@ -273,8 +321,80 @@
   var mm = String(today.getMonth() + 1).padStart(2, '0');
   var dd = String(today.getDate()).padStart(2, '0');
   var dayStr = yyyy + '-' + mm + '-' + dd;
-  var DATA_URL = '/stock/predict_' + dayStr + '.json';
+  var currentDate = dayStr;
+  var DATA_URL = '/stock/predict_' + currentDate + '.json';
+  var availableDates = [];
+  var dateIdx = -1;
 
+  function updateDateUI(d) {
+    document.getElementById('datePicker').value = d;
+  }
+
+function updateBtnState() {
+    document.getElementById('btnPrev').disabled = (dateIdx <= 0);
+    document.getElementById('btnNext').disabled = (dateIdx >= availableDates.length - 1);
+  }
+
+    function setDate(newDate) {
+    currentDate = newDate;
+    dateIdx = availableDates.indexOf(newDate);
+    DATA_URL = '/stock/predict_' + currentDate + '.json';
+    updateDateUI(currentDate);
+    updateBtnState();
+    document.getElementById('datePicker').classList.remove('invalid-date');
+    document.getElementById('newsList').innerHTML = '<div class="loading-state">加载数据中...</div>';
+    document.getElementById('summaryGrid').innerHTML = '';
+    document.getElementById('updateTime').textContent = '加载中...';
+    loadData();
+  }
+
+  fetch('/stock/dates.json')
+    .then(function(r) { return r.json(); })
+    .then(function(dates) {
+      availableDates = dates;
+      if (availableDates.length > 0) {
+        document.getElementById('datePicker').min = availableDates[0];
+        document.getElementById('datePicker').max = availableDates[availableDates.length - 1];
+      }
+      dateIdx = availableDates.indexOf(dayStr);
+      if (dateIdx === -1 && availableDates.length > 0) {
+        for (var i = availableDates.length - 1; i >= 0; i--) {
+          if (availableDates[i] <= dayStr) { dateIdx = i; break; }
+        }
+        if (dateIdx === -1) dateIdx = 0;
+      }
+      if (dateIdx >= 0) setDate(availableDates[dateIdx]);
+    })
+    .catch(function() { setDate(dayStr); });
+
+  var datePicker = document.getElementById('datePicker');
+  datePicker.value = dayStr;
+  datePicker.addEventListener('change', function() {
+    var val = this.value;
+    if (availableDates.indexOf(val) === -1) {
+      this.classList.add('invalid-date');
+      setTimeout(function() { datePicker.value = currentDate; datePicker.classList.remove('invalid-date'); }, 1500);
+      return;
+    }
+    setDate(val);
+  });
+
+  document.getElementById('btnPrev').addEventListener('click', function() {
+    if (dateIdx > 0) setDate(availableDates[dateIdx - 1]);
+  });
+  document.getElementById('btnNext').addEventListener('click', function() {
+    if (dateIdx < availableDates.length - 1) setDate(availableDates[dateIdx + 1]);
+  });
+  document.getElementById('btnToday').addEventListener('click', function() {
+    var idx = availableDates.indexOf(dayStr);
+    if (idx >= 0) { setDate(dayStr); }
+    else {
+      for (var i = availableDates.length - 1; i >= 0; i--) {
+        if (availableDates[i] <= dayStr) { setDate(availableDates[i]); return; }
+      }
+      if (availableDates.length > 0) setDate(availableDates[0]);
+    }
+  });
   function ratingClass(val) {
     if (!val) return 'rating-flat';
     if (val === '↑↑') return 'rating-up2';
@@ -464,5 +584,14 @@
   });
 })();
 </script>
+
+<script>
+if (!AbortSignal.prototype.throwIfAborted) {
+  AbortSignal.prototype.throwIfAborted = function() {
+    if (this.aborted) throw new DOMException('The operation was aborted.', 'AbortError');
+  };
+}
+</script>
+
 </body>
 </html>
