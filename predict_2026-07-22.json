@@ -1,62 +1,44 @@
 {
   "meta": {
     "name": "2026年7月22日全球新闻股票推演",
-    "description": "基于2026年7月22日公开新闻事件驱动的短中长期股票多空推演，覆盖A股、港股、美股及亚太市场",
+    "description": "基于2026年7月22日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖中美贸易、地缘政治、科技产业、能源市场等方向",
     "category": "daily",
-    "source": "https://hk.jarrich.cn/news/ 2026年7月22日综合整理",
+    "source": "2026年7月22日 hk.jarrich.cn/news/ 抓取整理",
     "version": "1.0.0",
-    "update_time": "2026-07-22T00:40:00+08:00",
+    "update_time": "2026-07-22T12:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
       "title": "加拿大总理：将考虑所有选项应对美加征关税",
-      "logic": "美加贸易摩擦升级，加拿大可能对美国商品加征报复性关税。北美贸易紧张局势影响全球供应链，利好中国替代出口商（机电、汽车零部件），利空依赖北美市场的跨国企业。避险情绪推高贵金属。",
+      "logic": "美国对加拿大加征关税（可能涉及钢铝/汽车/木材等）将使加拿大出口导向型企业承压。加拿大总理表态考虑所有反制选项，贸易紧张升级预期将打压加元汇率和加拿大股市，但加拿大本土钢铁/铝业反制措施若落地可能短期受益。关注美加能源贸易（Keystone管道）是否受波及。",
       "stocks": [
         {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "贵金属",
-          "short_term": "↑",
+          "name": "加拿大皇家银行",
+          "code": "RY.TO",
+          "market": "T",
+          "sector": "金融",
+          "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中金黄金",
-          "code": "600489.SH",
-          "market": "SH",
-          "sector": "贵金属",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "福耀玻璃",
-          "code": "600660.SH",
-          "market": "SH",
-          "sector": "汽车零部件",
-          "short_term": "→",
-          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
-          "sector": "汽车",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "name": "森科能源",
+          "code": "SU.TO",
+          "market": "T",
+          "sector": "能源",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "特斯拉",
-          "code": "TSLA.US",
+          "name": "Magna International",
+          "code": "MGA",
           "market": "US",
-          "sector": "汽车",
+          "sector": "汽车零部件",
           "short_term": "↓",
-          "mid_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
@@ -64,60 +46,33 @@
     {
       "id": 2,
       "title": "联合国人权高专办：以色列对加沙的袭击升级",
-      "logic": "中东地缘冲突再度升温，以色列-哈马斯冲突扩大化风险上升。布伦特原油面临供应中断溢价，短期利好能源股和军工股。航运安全受威胁推高运费。避险需求支撑黄金。",
+      "logic": "以巴冲突升级将推高地缘风险溢价，油价短期内受供应中断担忧支撑上行。国际社会施压可能带来停火谈判预期，但冲突扩大化风险仍在。中东不稳定也推动黄金等避险资产需求。",
       "stocks": [
         {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国石化",
-          "code": "600028.SH",
-          "market": "SH",
-          "sector": "石油化工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "埃克森美孚",
-          "code": "XOM.US",
+          "name": "布伦特原油",
+          "code": "CL=F",
           "market": "US",
-          "sector": "石油",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "洛克希德·马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "国防",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "洛克希德马丁",
-          "code": "LMT.US",
+          "name": "SPDR黄金ETF",
+          "code": "GLD",
           "market": "US",
-          "sector": "军工",
+          "sector": "贵金属",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         }
       ]
@@ -125,7 +80,7 @@
     {
       "id": 3,
       "title": "受墨江地震影响封锁的中老铁路区间已检查完毕",
-      "logic": "中老铁路受地震影响短暂封锁后恢复运营，短期利空出尽。中老铁路是中国'一带一路'标志性项目，恢复运营维护了基建出海信心，利好铁路基建、工程机械和云南本地基建企业。",
+      "logic": "中老铁路（泛亚铁路中线关键段）因云南墨江地震短暂封锁后恢复，短期扰动有限。中长期该铁路是连接中国-老挝-泰国-马来西亚-新加坡的陆路大通道，恢复运营利好区域贸易和跨境物流。",
       "stocks": [
         {
           "name": "中国中铁",
@@ -137,73 +92,46 @@
           "long_term": "↑"
         },
         {
-          "name": "中国铁建",
-          "code": "601186.SH",
+          "name": "中国中车",
+          "code": "601766.SH",
           "market": "SH",
-          "sector": "基建",
+          "sector": "轨道交通",
           "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "三一重工",
-          "code": "600031.SH",
-          "market": "SH",
-          "sector": "工程机械",
-          "short_term": "→",
-          "mid_term": "→",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "中国为在日本附近海域进行的演习辩护，日本抗议中国驱逐舰实弹演习",
-      "logic": "中日军事紧张局势升级，中国驱逐舰在日本附近海域实弹演习遭日方强烈抗议。地缘风险提振军工板块，同时可能影响两国经贸合作预期。稀土出口限制叠加军事对峙，进一步凸显中国稀土战略价值。航运保险成本上升。",
+      "title": "中国在日本附近海域进行军事演习引发日本抗议",
+      "logic": "中国驱逐舰在日本附近海域实弹演习遭日方抗议，叠加此前中国对日本重稀土出口冻结，中日关系进一步紧张。日本防务股短期受情绪提振，但贸易摩擦升级可能导致日本汽车、半导体设备对华出口受限，日本出口型企业承压。",
       "stocks": [
         {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "北方稀土",
-          "code": "600111.SH",
-          "market": "SH",
-          "sector": "稀土",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工船舶",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
           "name": "三菱重工",
-          "code": "7011.JP",
+          "code": "7011.T",
           "market": "JP",
-          "sector": "军工",
+          "sector": "国防/重工",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
           "name": "丰田汽车",
-          "code": "7203.JP",
+          "code": "7203.T",
           "market": "JP",
           "sector": "汽车",
           "short_term": "↓",
           "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "半导体设备",
+          "short_term": "↓",
+          "mid_term": "↓",
           "long_term": "→"
         }
       ]
@@ -211,66 +139,48 @@
     {
       "id": 5,
       "title": "中国盟友所罗门群岛邀请美国海岸警卫队巡逻",
-      "logic": "所罗门群岛在中美之间寻求安全合作平衡，邀请美国海岸警卫队巡逻，显示太平洋岛国外交多元化趋势。削弱中国在南太平洋的排他性影响力预期，短期对已在当地投资的中国基建/矿业企业形成情绪压力。",
+      "logic": "所罗门群岛作为中国在南太平洋的重要盟友，同时邀请美海岸警卫队巡逻，表明太平洋岛国外交策略趋于平衡。此举可能弱化中国在该地区的排他性影响力，对一带一路南太平洋支点战略形成制衡，但短期内对资本市场直接影响有限。",
       "stocks": [
         {
           "name": "中国交建",
           "code": "601800.SH",
           "market": "SH",
-          "sector": "基建",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "紫金矿业",
-          "code": "601899.SH",
-          "market": "SH",
-          "sector": "矿业",
+          "sector": "基建/海外工程",
           "short_term": "→",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↓"
         }
       ]
     },
     {
       "id": 6,
       "title": "贝森特称中国和伊朗的石油购买量已减少",
-      "logic": "美国财长贝森特公开表示中国已减少伊朗石油进口，暗示对伊制裁正在收紧。伊朗原油供应缺口利好其他产油国，推高国际油价。中国炼化企业面临原料替代成本上升，利好国内上游油气生产商。",
+      "logic": "美国财长贝森特称中国减少伊朗石油采购，若属实将影响全球石油供需格局。中国转向其他供应源（如俄罗斯、沙特）支撑运费需求，同时伊朗石油出口受限推高油价。但中国炼化企业原油成本可能上升。",
       "stocks": [
-        {
-          "name": "中国海油",
-          "code": "600938.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
         {
           "name": "中国石油",
           "code": "601857.SH",
           "market": "SH",
-          "sector": "石油",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "恒力石化",
-          "code": "600346.SH",
-          "market": "SH",
-          "sector": "炼化",
+          "sector": "油气",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "沙特阿美",
-          "code": "2222.SR",
-          "market": "T",
-          "sector": "石油",
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运",
           "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "炼化",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -278,8 +188,8 @@
     },
     {
       "id": 7,
-      "title": "匈牙利前外交部长加盟比亚迪任对外关系负责人",
-      "logic": "比亚迪聘请匈牙利前外长负责对外关系，强化欧洲政商布局，彰显在欧洲市场的长期战略决心。匈牙利是比亚迪欧洲工厂所在地，此举直接利好比亚迪欧洲业务前景，并提振整个中国新能源车出海板块的市场信心。",
+      "title": "匈牙利前外交部长加盟中国比亚迪",
+      "logic": "匈牙利前外长加入比亚迪担任对外关系负责人，强化比亚迪在欧洲的政商关系网络。匈牙利是比亚迪欧洲重要生产基地，此举有助于应对欧盟对中国电动车关税审查。比亚迪欧洲市场扩张预期增强。",
       "stocks": [
         {
           "name": "比亚迪",
@@ -287,7 +197,7 @@
           "market": "SZ",
           "sector": "新能源汽车",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
@@ -296,42 +206,15 @@
           "market": "HK",
           "sector": "新能源汽车",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑↑"
-        },
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "动力电池",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "蔚来",
-          "code": "NIO.US",
-          "market": "US",
-          "sector": "新能源汽车",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "大众汽车",
-          "code": "VOW3.DE",
-          "market": "DE",
-          "sector": "汽车",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
         }
       ]
     },
     {
       "id": 8,
       "title": "都柏林机场至上海新航线开通",
-      "logic": "都柏林-上海直飞航线开通，标志着中欧航空互联互通进一步恢复。后疫情时代国际航线持续复苏，利好航空公司客运收入增长。该航线同时促进中爱经贸和旅游业双向流动，旺季临近叠加暑期出行需求。",
+      "logic": "爱尔兰都柏林-上海直航开通，利好中欧航空客运和旅游复苏。爱尔兰作为欧洲科技企业聚集地（苹果/谷歌/微软欧洲总部），直航便利化有利于中欧商务往来和贸易。",
       "stocks": [
         {
           "name": "中国国航",
@@ -339,17 +222,8 @@
           "market": "SH",
           "sector": "航空",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国东航",
-          "code": "600115.SH",
-          "market": "SH",
-          "sector": "航空",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
           "name": "上海机场",
@@ -358,90 +232,20 @@
           "sector": "机场",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "国泰航空",
-          "code": "0293.HK",
-          "market": "HK",
-          "sector": "航空",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 9,
-      "title": "中国对日本重稀土出口仍处于冻结状态",
-      "logic": "中日重稀土贸易冻结状态持续，重稀土（镝、铽等）是高端永磁体和军工关键材料。日本电子和汽车产业高度依赖中国重稀土，供应中断将推高稀土价格，利好中国稀土开采和加工企业。加速日本及其他国家稀土供应链去中国化布局。",
+      "title": "中菲海上冲突升级（船员受伤事件+猴子视频外交风波）",
+      "logic": "菲律宾指控中国海警在争议浅滩打伤船员，叠加中国日报发布猴子视频引发的外交风波，中菲关系急速恶化。菲律宾可能进一步向美靠拢，南海局势紧张将推高航运保险费率，利好军工板块，但区域贸易不确定性增加。",
       "stocks": [
         {
-          "name": "北方稀土",
-          "code": "600111.SH",
+          "name": "中国船舶",
+          "code": "600150.SH",
           "market": "SH",
-          "sector": "稀土",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国稀土",
-          "code": "000831.SZ",
-          "market": "SZ",
-          "sector": "稀土",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "厦门钨业",
-          "code": "600549.SH",
-          "market": "SH",
-          "sector": "稀土/钨",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "丰田汽车",
-          "code": "7203.JP",
-          "market": "JP",
-          "sector": "汽车",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "索尼",
-          "code": "6758.JP",
-          "market": "JP",
-          "sector": "电子",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "MP Materials",
-          "code": "MP.US",
-          "market": "US",
-          "sector": "稀土",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "中菲海上冲突升级：菲律宾指责中国海警打伤菲船员",
-      "logic": "南海中菲对峙持续升级，菲律宾指责中国海警在争议浅滩打伤船员。地缘冲突风险推高航运保险成本、威胁关键航道安全（南海承载全球三分之一海运贸易）。利好军工板块，利空依赖南海航道的航运和贸易企业。",
-      "stocks": [
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工",
+          "sector": "军工/造船",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -450,7 +254,7 @@
           "name": "中船防务",
           "code": "600685.SH",
           "market": "SH",
-          "sector": "军工船舶",
+          "sector": "军工",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -463,110 +267,124 @@
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中国对日本重稀土出口仍处于冻结状态",
+      "logic": "中国对日重稀土出口持续冻结，重稀土（镝/铽等）是高性能永磁体关键原料，直接影响日本新能源汽车电机和精密电子制造。日本被迫寻求替代供应（澳大利亚Lynas等），短期推动稀土价格和稀土股上行。",
+      "stocks": [
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
         },
         {
-          "name": "马士基",
-          "code": "MAERSK-B.CO",
-          "market": "DK",
-          "sector": "航运",
-          "short_term": "↓",
-          "mid_term": "→",
+          "name": "中国稀土",
+          "code": "000831.SZ",
+          "market": "SZ",
+          "sector": "稀土",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
+        },
+        {
+          "name": "Lynas Rare Earths",
+          "code": "LYC.AX",
+          "market": "AU",
+          "sector": "稀土",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 11,
-      "title": "王毅会见马来西亚外长和东盟秘书长高金洪",
-      "logic": "中国外长密集开展东盟外交，与马来西亚外长及东盟秘书长会晤，释放强化中国-东盟合作的积极信号。对冲南海紧张局势带来的负面预期，利好东盟贸易、跨境电商、区域基建合作概念股。RCEP框架下贸易便利化预期增强。",
+      "title": "王毅会见马来西亚外长及东盟秘书长",
+      "logic": "中国外长密集会见马来西亚外长和东盟秘书长，在南海局势紧张背景下加强区域外交。此举意在稳定东盟国家立场、防止菲律宾局势外溢，利好中国-东盟自贸区和RCEP框架下的跨境贸易与投资。",
       "stocks": [
         {
           "name": "北部湾港",
           "code": "000582.SZ",
           "market": "SZ",
-          "sector": "港口",
+          "sector": "港口/东盟贸易",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建",
-          "short_term": "→",
-          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "电商",
+          "name": "五洲交通",
+          "code": "600368.SH",
+          "market": "SH",
+          "sector": "东盟交通基建",
           "short_term": "→",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "Shopee/Sea Ltd",
-          "code": "SE.US",
-          "market": "US",
-          "sector": "电商",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 12,
-      "title": "中国扩大市场救援规模，创纪录资金流入科技ETF（彭博社）",
-      "logic": "中国加大市场托底力度，国家队资金通过科技ETF大规模入市，创历史纪录。此举明确释放政策护盘信号，短期强力提振科技板块情绪。半导体、AI、信创等自主可控赛道受益最大，科创50和创业板指数相关ETF及成分股迎来增量资金支撑。",
+      "title": "中国扩大市场救援规模，创纪录资金流入科技ETF",
+      "logic": "彭博报道中国加大市场救助力度，创纪录资金流入科技ETF（如科创50/恒生科技ETF）。国家队和机构资金集中抄底科技板块，表明政策底信号明确。科技股短期情绪和资金面显著改善，但需关注基本面能否跟上。",
       "stocks": [
+        {
+          "name": "科创50ETF",
+          "code": "588000.SH",
+          "market": "SH",
+          "sector": "科技/ETF",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒生科技ETF",
+          "code": "3033.HK",
+          "market": "HK",
+          "sector": "科技/ETF",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
         {
           "name": "中芯国际",
           "code": "688981.SH",
           "market": "SH",
           "sector": "半导体",
-          "short_term": "↑↑",
+          "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑↑"
         },
         {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SZ",
-          "sector": "半导体设备",
+          "name": "腾讯控股",
+          "code": "0700.HK",
+          "market": "HK",
+          "sector": "互联网/科技",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
-        },
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "中国在500亿美元Pre-IPO基金谈判中实现登月计划",
+      "logic": "彭博报道中国在500亿美元规模Pre-IPO基金谈判中取得突破，将为科技创新企业提供巨额融资通道。此举直接利好创投/私募股权板块，加速科技独角兽IPO进程，提振科创板流动性和估值。",
+      "stocks": [
         {
-          "name": "中微公司",
-          "code": "688012.SH",
+          "name": "中信证券",
+          "code": "600030.SH",
           "market": "SH",
-          "sector": "半导体设备",
+          "sector": "券商/投行",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "金山办公",
-          "code": "688111.SH",
-          "market": "SH",
-          "sector": "信创/软件",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
           "name": "华泰证券",
@@ -574,155 +392,94 @@
           "market": "SH",
           "sector": "券商",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "为何硅谷无法停止关注中国（纽约时报中文网）",
-      "logic": "纽约时报深度报道硅谷对中国科技发展的持续关注，反映美国科技界对中国AI、新能源、机器人等领域进展的警惕与学习心态。中美科技竞争叙事持续强化，利好中国自主可控科技股获得全球资本关注。技术封锁倒逼国产替代加速。",
-      "stocks": [
-        {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "AI/互联网",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "商汤科技",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "AI",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
-          "market": "SZ",
-          "sector": "AI",
-          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中芯国际",
-          "code": "0981.HK",
+          "name": "香港交易所",
+          "code": "0388.HK",
           "market": "HK",
-          "sector": "半导体",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "英伟达",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↓"
+          "sector": "交易所",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 14,
-      "title": "中国在价值500亿美元的Pre-IPO基金谈判中实现登月计划（彭博社）",
-      "logic": "彭博社报道中国正在谈判设立500亿美元规模的Pre-IPO产业基金，同时航天登月计划取得实质进展。巨量资金将投向硬科技、航天军工、半导体等战略领域，创投生态注入强心剂。航天概念股和科创板IPO储备企业直接受益于估值提升预期。",
+      "title": "路透社：中美将于9月举行人工智能会谈",
+      "logic": "中美计划9月举行AI双边会谈，释放两国在科技竞争中有意建立沟通管控机制的信号。若会谈取得实质成果（如AI安全标准互认、算力芯片出口豁免），将显著利好中国AI产业链；反之若谈判破裂，可能引发新一轮制裁。",
       "stocks": [
         {
-          "name": "航天科技",
-          "code": "000901.SZ",
+          "name": "科大讯飞",
+          "code": "002230.SZ",
           "market": "SZ",
-          "sector": "航天",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国卫星",
-          "code": "600118.SH",
-          "market": "SH",
-          "sector": "航天",
+          "sector": "人工智能",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中科创达",
-          "code": "300496.SZ",
-          "market": "SZ",
-          "sector": "智能系统",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "科创50ETF",
-          "code": "588000.SH",
-          "market": "SH",
-          "sector": "指数基金",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "路透社消息：中美将于9月举行人工智能会谈",
-      "logic": "路透社独家消息称中美计划9月举行AI会谈，这是全球两大AI强国在竞争烈度升级背景下的罕见对话窗口。若会谈顺利，可能为AI芯片出口管制松绑铺路，利好英伟达以及中国AI应用层企业。但如果会谈破裂则强化技术脱钩预期，利好国产AI芯片替代。",
-      "stocks": [
-        {
-          "name": "英伟达",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "百度",
-          "code": "BIDU.US",
-          "market": "US",
-          "sector": "AI",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
           "name": "寒武纪",
           "code": "688256.SH",
           "market": "SH",
           "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "→",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/互联网",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "微软",
-          "code": "MSFT.US",
+          "name": "英伟达",
+          "code": "NVDA",
           "market": "US",
-          "sector": "AI/云计算",
-          "short_term": "→",
+          "sector": "AI芯片",
+          "short_term": "↑",
           "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "为何硅谷无法停止关注中国",
+      "logic": "纽约时报分析硅谷持续关注中国科技发展，反映中美科技竞合关系的深化。中国在AI应用层（如DeepSeek、字节豆包）和硬件创新上的突破正在改变全球科技格局。美国科技巨头在中国市场的参与度成为关键变量。",
+      "stocks": [
+        {
+          "name": "苹果",
+          "code": "AAPL",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "→",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "海光信息",
-          "code": "688041.SH",
-          "market": "SH",
-          "sector": "国产芯片",
+          "name": "特斯拉",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "电动车/科技",
           "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "字节跳动(私有)",
+          "code": "PRIVATE",
+          "market": "PRIVATE",
+          "sector": "AI/社交",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     }
@@ -730,24 +487,56 @@
   "summary": {
     "newly_added": [
       {
-        "label": "科技ETF资金创纪录（新增）",
-        "theme": "中国国家队通过科技ETF大规模入市，创历史资金流入纪录",
+        "label": "中国扩大市场救援规模，创纪录资金流入科技ETF（新增）",
+        "theme": "中国国家队加大市场救助，科技ETF资金流入创纪录，政策底信号明确，利好科技板块",
         "stocks": [
           {
-            "name": "中芯国际",
-            "code": "688981.SH",
+            "name": "科创50ETF",
+            "code": "588000.SH",
             "short_term": "↑↑"
           },
           {
-            "name": "寒武纪",
-            "code": "688256.SH",
+            "name": "恒生科技ETF",
+            "code": "3033.HK",
             "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "比亚迪欧洲布局升级（新增）",
-        "theme": "匈牙利前外长加盟比亚迪任对外关系负责人，强化欧洲政商网络",
+        "label": "中国重稀土对日出口冻结持续（新增）",
+        "theme": "重稀土供应中断持续，利好稀土板块和海外替代供应商",
+        "stocks": [
+          {
+            "name": "北方稀土",
+            "code": "600111.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "Lynas Rare Earths",
+            "code": "LYC.AX",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "中美9月AI会谈（新增）",
+        "theme": "中美计划举行AI双边会谈，AI产业链情绪提振",
+        "stocks": [
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "匈牙利前外长加盟比亚迪（新增）",
+        "theme": "比亚迪强化欧洲政商关系，欧洲市场扩张预期增强",
         "stocks": [
           {
             "name": "比亚迪",
@@ -760,72 +549,8 @@
             "short_term": "↑"
           }
         ]
-      },
-      {
-        "label": "中日稀土冻结+军事对峙（新增）",
-        "theme": "中国对日重稀土出口冻结持续，叠加中日海上军事对峙升级",
-        "stocks": [
-          {
-            "name": "北方稀土",
-            "code": "600111.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "中国稀土",
-            "code": "000831.SZ",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "中美9月AI会谈（新增）",
-        "theme": "路透社报道中美计划9月举行人工智能会谈",
-        "stocks": [
-          {
-            "name": "英伟达",
-            "code": "NVDA.US",
-            "short_term": "↑"
-          },
-          {
-            "name": "寒武纪",
-            "code": "688256.SH",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "500亿Pre-IPO基金+登月（新增）",
-        "theme": "中国谈判设立500亿美元Pre-IPO基金，航天登月计划取得进展",
-        "stocks": [
-          {
-            "name": "航天科技",
-            "code": "000901.SZ",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "科创50ETF",
-            "code": "588000.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "南海中菲冲突升级（新增）",
-        "theme": "菲律宾指责中国海警在争议浅滩打伤船员，南海局势升温",
-        "stocks": [
-          {
-            "name": "中航沈飞",
-            "code": "600760.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "中远海控",
-            "code": "601919.SH",
-            "short_term": "↓"
-          }
-        ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月22日公开新闻事件的逻辑推演，所有涨跌方向仅为基于因果链条的假设情景，不构成任何投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月22日公开新闻，所有股票涨跌预测均为基于新闻逻辑的推演分析，不构成任何投资建议。股市有风险，投资需谨慎。"
 }
