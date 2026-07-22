@@ -1,14 +1,6 @@
 {
-  "AU": {
-    "bullish": 1,
-    "bearish": 8
-  },
-  "AG": {
-    "bullish": 1,
-    "bearish": 7
-  },
-  "SC": {
-    "bullish": 10,
-    "bearish": 0
-  }
+  "date": "2026-07-22",
+  "AU": { "bullish": 1, "bearish": 8 },
+  "AG": { "bullish": 1, "bearish": 7 },
+  "SC": { "bullish": 10, "bearish": 0 }
 }
