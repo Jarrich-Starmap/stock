@@ -1,9 +1,9 @@
 {
   "meta": {
-    "name": "2026年7月22日全球新闻股票推演",
-    "description": "基于 hk.jarrich.cn/news/ 2026-07-22 新闻数据，筛选与资本市场相关的条目，推演受影响的股票及短中长期涨跌方向",
+    "name": "2026-07-22 全球新闻股票推演",
+    "description": "基于 2026-07-22 hk.jarrich.cn/news/ 聚合新闻的股票多空逻辑推演，覆盖A股、港股、美股市场",
     "category": "daily",
-    "source": "hk.jarrich.cn/news/ 2026年7月22日综合整理",
+    "source": "2026-07-22 hk.jarrich.cn/news/ 综合整理",
     "version": "1.0",
     "update_time": "2026-07-22T16:40:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
@@ -11,11 +11,11 @@
   "news_analysis": [
     {
       "id": 1,
-      "title": "战事持续叠加特朗普强硬表态，地缘政治风险升温",
-      "logic": "特朗普怒怼记者追问战事，暗示美方对冲突延续持强硬立场。地缘紧张预期推升国防开支预期和避险需求，利好军工与贵金属；同时石油供给担忧或推高原油价格。",
+      "title": "记者追问战事不停美方作何打算 特朗普怒怼：你比我了解情况？",
+      "logic": "特朗普对记者追问战事的强硬回应暗示美国在冲突中的立场短期内不会软化，地缘政治紧张持续将推高能源价格、刺激避险资产需求，利好军工和黄金板块",
       "stocks": [
         {
-          "name": "洛克希德马丁",
+          "name": "洛克希德·马丁",
           "code": "LMT",
           "market": "US",
           "sector": "国防军工",
@@ -33,24 +33,6 @@
           "long_term": "→"
         },
         {
-          "name": "北方导航",
-          "code": "600435.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "贵金属",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
           "name": "SPDR黄金ETF",
           "code": "GLD",
           "market": "US",
@@ -60,20 +42,20 @@
           "long_term": "→"
         },
         {
-          "name": "中国石油",
-          "code": "601857.SH",
+          "name": "中海油服",
+          "code": "601808.SH",
           "market": "SH",
           "sector": "能源",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 2,
-      "title": "中国国际时装周·童话小镇在北京启幕，消费复苏信号",
-      "logic": "国际时装周启幕释放线下消费场景复苏信号，利好纺织服装、时尚消费板块，特别是童装及国潮品牌。",
+      "title": "2026中国国际时装周·童话小镇在北京启幕",
+      "logic": "中国国际时装周启幕将带动服装品牌曝光与消费热度，短期利好纺织服装板块，尤其具有自有品牌和设计能力的龙头企业",
       "stocks": [
         {
           "name": "安踏体育",
@@ -82,20 +64,20 @@
           "sector": "纺织服装",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "太平鸟",
-          "code": "603877.SH",
-          "market": "SH",
+          "name": "李宁",
+          "code": "2331.HK",
+          "market": "HK",
           "sector": "纺织服装",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "森马服饰",
-          "code": "002563.SZ",
+          "name": "比音勒芬",
+          "code": "002832.SZ",
           "market": "SZ",
           "sector": "纺织服装",
           "short_term": "↑",
@@ -106,8 +88,8 @@
     },
     {
       "id": 3,
-      "title": "具身智能多场景落地：泡茶、做实验、弹钢琴",
-      "logic": "具身智能从实验室走向多场景应用，展示泡茶、实验操作、钢琴演奏等能力，产业化进程加速，核心零部件（减速器、伺服、传感器）及整机厂商将受益。",
+      "title": "【活力中国调研行】探访具身智能应用场景：泡茶 做实验 弹钢琴",
+      "logic": "具身智能（Embodied AI）进入实际应用场景展示阶段，泡茶、做实验、弹钢琴等多场景落地加速，利好机器人产业链和人形机器人核心零部件供应商",
       "stocks": [
         {
           "name": "绿的谐波",
@@ -115,26 +97,26 @@
           "market": "SH",
           "sector": "机器人零部件",
           "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "埃斯顿",
-          "code": "002747.SZ",
+          "name": "汇川技术",
+          "code": "300124.SZ",
           "market": "SZ",
-          "sector": "工业机器人",
+          "sector": "工业自动化",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "步科股份",
-          "code": "688160.SH",
+          "name": "拓普集团",
+          "code": "601689.SH",
           "market": "SH",
           "sector": "机器人零部件",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
           "name": "优必选",
@@ -142,49 +124,49 @@
           "market": "HK",
           "sector": "人形机器人",
           "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "创新药研发加速遭遇实验用猴供应短缺",
-      "logic": "创新药研发对食蟹猴等实验动物需求刚性，猴荒将推高CRO企业成本、延缓项目进度，短期利空临床前CRO；但长期倒逼替代技术（类器官、AI药物发现）发展，具备技术储备的龙头有望受益。",
+      "title": "创新药研发加速遇猴荒",
+      "logic": "创新药研发对实验用猴（食蟹猴/猕猴）需求持续增长而供给紧缺，利好实验动物养殖企业和CRO龙头，同时可能推高研发成本对小型药企形成压力",
       "stocks": [
+        {
+          "name": "昭衍新药",
+          "code": "603127.SH",
+          "market": "SH",
+          "sector": "CRO/实验动物",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
         {
           "name": "药明康德",
           "code": "603259.SH",
           "market": "SH",
-          "sector": "医药研发外包",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
+          "sector": "CRO",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         },
         {
           "name": "康龙化成",
           "code": "300759.SZ",
           "market": "SZ",
-          "sector": "医药研发外包",
-          "short_term": "↓",
-          "mid_term": "→",
+          "sector": "CRO",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "昭衍新药",
-          "code": "603127.SH",
+          "name": "百济神州",
+          "code": "688235.SH",
           "market": "SH",
-          "sector": "药物安评",
+          "sector": "创新药",
           "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "药明生物",
-          "code": "2269.HK",
-          "market": "HK",
-          "sector": "生物药CDMO",
-          "short_term": "→",
           "mid_term": "→",
           "long_term": "↑"
         }
@@ -192,8 +174,8 @@
     },
     {
       "id": 5,
-      "title": "中国力争到2030年林草覆盖率达56.4%，生态建设提速",
-      "logic": "政策目标明确，生态修复、林业碳汇、草种业等领域将获得持续财政投入，相关上市公司订单预期改善。",
+      "title": "中国力争到2030年林草覆盖率达到56.4%",
+      "logic": "国家层面明确的林草覆盖率目标（2030年56.4%）将驱动大规模国土绿化、生态修复投入，利好林业碳汇、园林绿化、生态修复板块",
       "stocks": [
         {
           "name": "蒙草生态",
@@ -201,17 +183,17 @@
           "market": "SZ",
           "sector": "生态修复",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "福建金森",
-          "code": "002679.SZ",
+          "name": "东方园林",
+          "code": "002310.SZ",
           "market": "SZ",
-          "sector": "林业",
+          "sector": "园林绿化",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
           "name": "岳阳林纸",
@@ -219,33 +201,33 @@
           "market": "SH",
           "sector": "林业碳汇",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "东方园林",
-          "code": "002310.SZ",
+          "name": "福建金森",
+          "code": "002679.SZ",
           "market": "SZ",
-          "sector": "园林生态",
+          "sector": "林业",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 6,
       "title": "韩国2025年制造业增加值占GDP比重创近十年新高",
-      "logic": "韩国制造业强势表现主要由半导体、汽车、电池等高附加值行业驱动，反映韩国出口竞争力持续提升，利好韩国权益市场及相关ETF。",
+      "logic": "韩国制造业占比创新高反映全球供应链重构下韩国作为半导体、汽车、电池制造中心的地位强化，利好韩国出口型企业和相关供应链",
       "stocks": [
         {
           "name": "三星电子",
           "code": "005930.KS",
           "market": "KR",
-          "sector": "半导体/电子",
+          "sector": "半导体",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑↑"
         },
         {
           "name": "SK海力士",
@@ -253,33 +235,33 @@
           "market": "KR",
           "sector": "半导体",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "iShares MSCI韩国ETF",
+          "name": "iShares韩国ETF",
           "code": "EWY",
           "market": "US",
-          "sector": "韩国综合",
+          "sector": "韩国市场",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 7,
-      "title": "中方就全球网络治理提出重要原则，网络安全关注度提升",
-      "logic": "中国在全球网络治理中提出新原则，预示网络空间规则博弈加剧，国家级网络安全建设需求持续增长，利好网安龙头企业。",
+      "title": "中方就全球网络治理提出又一重要原则 外交部介绍有关情况",
+      "logic": "中国在全球网络治理中提出新原则，表明网络主权和数据安全议题持续升温，利好网络安全、数据安全、信创板块，对依赖数据跨境流动的互联网巨头形成潜在约束",
       "stocks": [
         {
           "name": "奇安信",
           "code": "688561.SH",
           "market": "SH",
           "sector": "网络安全",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
           "name": "深信服",
@@ -296,19 +278,80 @@
           "market": "SZ",
           "sector": "网络安全",
           "short_term": "↑",
-          "mid_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "信创/算力",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 8,
-      "title": "从赛场到烟火日常，中国机器人加速上岗",
-      "logic": "与具身智能多场景落地形成呼应，机器人从竞技展示走向商业化量产，服务机器人、协作机器人市场渗透率快速提升，产业链中游集成商和上游零部件厂商持续受益。",
+      "title": "取得这三类证书，可申领技能提升补贴",
+      "logic": "职业技能培训补贴政策扩大覆盖面，利好职业教育培训机构和技能认证平台，消费端补贴也将间接刺激在线教育付费意愿",
       "stocks": [
         {
-          "name": "汇川技术",
-          "code": "300124.SZ",
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "sector": "职业教育",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国东方教育",
+          "code": "0667.HK",
+          "market": "HK",
+          "sector": "职业教育",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "传智教育",
+          "code": "003032.SZ",
+          "market": "SZ",
+          "sector": "IT培训",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "从赛场到烟火日常 中国机器人加速上岗",
+      "logic": "机器人从竞技赛场向日常生活场景加速渗透，覆盖餐饮、清洁、养老、物流等领域，人形机器人和服务机器人商业化进入快车道",
+      "stocks": [
+        {
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "机器人",
+          "code": "300024.SZ",
+          "market": "SZ",
+          "sector": "机器人整机",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "拓斯达",
+          "code": "300607.SZ",
           "market": "SZ",
           "sector": "工业自动化",
           "short_term": "↑",
@@ -316,22 +359,149 @@
           "long_term": "↑"
         },
         {
-          "name": "机器人",
-          "code": "300024.SZ",
+          "name": "科沃斯",
+          "code": "603486.SH",
+          "market": "SH",
+          "sector": "服务机器人",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "肥美花蛤丰收 福建渔民行走齐腰深海水沙中淘金",
+      "logic": "福建花蛤丰收反映海水养殖业产出良好，叠加消费旺季到来，利好水产养殖和渔业板块，但对短期价格可能形成一定压力",
+      "stocks": [
+        {
+          "name": "国联水产",
+          "code": "300094.SZ",
           "market": "SZ",
-          "sector": "机器人整机",
+          "sector": "水产养殖",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "好当家",
+          "code": "600467.SH",
+          "market": "SH",
+          "sector": "水产养殖",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "獐子岛",
+          "code": "002069.SZ",
+          "market": "SZ",
+          "sector": "水产养殖",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "山西省消协拒绝虚假宣传提升消费品质专项普法宣传系列活动启动",
+      "logic": "消费者权益保护强化和反虚假宣传执法力度加大，短期对依赖夸大营销的消费品企业形成合规压力，长期利好注重品质和品牌建设的龙头企业",
+      "stocks": [
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "sector": "白酒",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "伊利股份",
+          "code": "600887.SH",
+          "market": "SH",
+          "sector": "乳制品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海天味业",
+          "code": "603288.SH",
+          "market": "SH",
+          "sector": "调味品",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "江苏睢宁打造新就业群体10分钟暖新服务圈",
+      "logic": "新就业形态（外卖/快递/网约车）群体服务设施建设，利好即时配送和本地生活服务平台，同时反映政府对灵活就业的扶持态度",
+      "stocks": [
+        {
+          "name": "美团",
+          "code": "3690.HK",
+          "market": "HK",
+          "sector": "本地生活",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "快递物流",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "滴滴出行",
+          "code": "DIDIY",
+          "market": "US",
+          "sector": "出行服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "美丽宁德建设指挥部工作推进会举行：全域攻坚守护碧海清波",
+      "logic": "宁德市全域环保攻坚推进，作为宁德时代总部所在地，当地环保治理升级可能影响锂电池产业链上游的环保合规成本，同时也利好环保治理企业",
+      "stocks": [
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "碧水源",
+          "code": "300070.SZ",
+          "market": "SZ",
+          "sector": "水处理",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "拓斯达",
-          "code": "300607.SZ",
-          "market": "SZ",
-          "sector": "工业机器人",
+          "name": "高能环境",
+          "code": "603588.SH",
+          "market": "SH",
+          "sector": "环境治理",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     }
@@ -339,24 +509,8 @@
   "summary": {
     "newly_added": [
       {
-        "label": "地缘政治升温（新增）",
-        "theme": "特朗普强硬回应战事提问，地缘风险推升军工与避险资产",
-        "stocks": [
-          {
-            "name": "洛克希德马丁",
-            "code": "LMT",
-            "short_term": "↑"
-          },
-          {
-            "name": "山东黄金",
-            "code": "600547.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "具身智能产业化加速（新增）",
-        "theme": "具身智能从泡茶到弹钢琴多场景落地，机器人产业链受益",
+        "label": "具身智能加速落地（新增）",
+        "theme": "具身智能（Embodied AI）多场景应用展示，机器人产业链核心零部件和整机厂商受益",
         "stocks": [
           {
             "name": "绿的谐波",
@@ -367,58 +521,47 @@
             "name": "优必选",
             "code": "9880.HK",
             "short_term": "↑↑"
+          },
+          {
+            "name": "埃斯顿",
+            "code": "002747.SZ",
+            "short_term": "↑"
           }
         ]
       },
       {
-        "label": "创新药猴荒（新增）",
-        "theme": "实验用猴供应短缺推高CRO成本，短期利空长期利好龙头",
+        "label": "创新药实验猴供给紧张（新增）",
+        "theme": "创新药研发加速遭遇实验用猴供给瓶颈，CRO和实验动物养殖企业受益，小型创新药企成本承压",
         "stocks": [
           {
             "name": "昭衍新药",
             "code": "603127.SH",
-            "short_term": "↓"
+            "short_term": "↑"
           },
           {
             "name": "药明康德",
             "code": "603259.SH",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "林草覆盖率2030目标（新增）",
-        "theme": "中国林草覆盖率目标明确，生态修复与林业碳汇迎政策红利",
-        "stocks": [
-          {
-            "name": "蒙草生态",
-            "code": "300355.SZ",
-            "short_term": "↑"
-          },
-          {
-            "name": "岳阳林纸",
-            "code": "600963.SH",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "韩国制造业新高（新增）",
-        "theme": "韩国制造业增加值占GDP比重创十年新高，半导体出口强劲",
+        "label": "全球网络治理中国新原则（新增）",
+        "theme": "网络主权和数据安全议题升温，网络安全和信创板块持续受益",
         "stocks": [
           {
-            "name": "三星电子",
-            "code": "005930.KS",
-            "short_term": "↑"
+            "name": "奇安信",
+            "code": "688561.SH",
+            "short_term": "↑↑"
           },
           {
-            "name": "SK海力士",
-            "code": "000660.KS",
+            "name": "深信服",
+            "code": "300454.SZ",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于 2026-07-22 hk.jarrich.cn/news/ 聚合的公开新闻进行逻辑推演，不构成任何投资建议。股票市场受多重因素影响，过往推演不代表未来表现，投资者应独立判断并承担风险。"
 }
