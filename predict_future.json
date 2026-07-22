@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "2026-07-22": {
     "AU": {
       "bullish": 16,
@@ -12,5 +13,18 @@
       "bullish": 23,
       "bearish": 1
     }
+=======
+  "AU": {
+    "bullish": 13,
+    "bearish": 17
+  },
+  "AG": {
+    "bullish": 7,
+    "bearish": 3
+  },
+  "SC": {
+    "bullish": 21,
+    "bearish": 9
+>>>>>>> 076306f70167e68d751f42326e481c9909d8b05c
   }
 }

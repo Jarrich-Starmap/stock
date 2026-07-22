@@ -228,45 +228,54 @@
     border-radius: 2px;
   }
 
-  .date-picker-row {
+
+  .futures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .future-card {
+    border: 1px solid var(--border);
+    padding: 12px 14px;
+    background: var(--card-bg);
+  }
+  .future-card .future-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .future-card .future-bar-wrap {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
-    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 4px;
+    font-size: 12px;
   }
-  .date-picker-row input[type=date] {
-    padding: 6px 10px;
-    font-size: 13px;
-    font-family: inherit;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    background: #fff;
-    color: var(--fg);
-    outline: none;
+  .future-card .future-bar-wrap .label {
+    width: 28px;
+    text-align: right;
+    color: var(--muted);
   }
-  .date-picker-row input[type=date]:focus {
-    border-color: #888;
-  }
-  .date-nav {
+  .future-card .future-bar {
+    flex: 1;
+    height: 8px;
+    background: #eee;
+    border-radius: 2px;
+    overflow: hidden;
     display: flex;
-    gap: 4px;
   }
-  .date-nav button {
-    padding: 6px 12px;
-    font-size: 13px;
-    font-family: inherit;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    background: #fff;
-    color: var(--fg);
-    cursor: pointer;
-    transition: background 0.15s;
+  .future-card .future-bar .bull { background: #c62828; height: 100%; }
+  .future-card .future-bar .bear { background: #2e7d32; height: 100%; }
+  .future-card .future-count {
+    font-size: 11px;
+    color: var(--muted);
+    min-width: 24px;
+    text-align: left;
   }
-  .date-nav button:hover { background: #f0f0f0; }
-  .date-nav button:active { background: #e0e0e0; }
-  .date-nav button:disabled { opacity: 0.35; cursor: default; background: #fff; }
-  .date-picker-row input[type="date"].invalid-date { border-color: #e53935; background: #fff5f5; }
+  @media (max-width: 500px) {
+    .futures-grid { grid-template-columns: 1fr; }
+  }
 
   @media (max-width: 600px) {
     body { padding: 0 10px 30px; }
@@ -287,14 +296,6 @@
 
 <header>
   <h1 id="pageHeading">新闻-股票分析</h1>
-  <div class="date-picker-row">
-    <div class="date-nav">
-      <button id="btnPrev" title="前一天">&larr;</button>
-      <input type="date" id="datePicker">
-      <button id="btnNext" title="后一天">&rarr;</button>
-      <button id="btnToday">今天</button>
-    </div>
-  </div>
   <div class="meta"><span>数据更新: <span id="updateTime">加载中...</span></span><a target="_blank" href="../news/">新闻源 &rarr;</a></div>
 </header>
 
@@ -303,6 +304,9 @@
   <input type="text" id="searchInput" placeholder="搜索股票名称、代码、新闻关键词..." autocomplete="off">
   <span id="searchCount" class="search-count"></span>
 </div>
+
+<div class="section-title">期货预测</div>
+<div class="futures-grid" id="futuresGrid"></div>
 
 <div class="section-title">综合判断</div>
 <div class="summary-grid" id="summaryGrid"></div>
@@ -321,80 +325,8 @@
   var mm = String(today.getMonth() + 1).padStart(2, '0');
   var dd = String(today.getDate()).padStart(2, '0');
   var dayStr = yyyy + '-' + mm + '-' + dd;
-  var currentDate = dayStr;
-  var DATA_URL = '/stock/predict_' + currentDate + '.json';
-  var availableDates = [];
-  var dateIdx = -1;
+  var DATA_URL = '/stock/predict_' + dayStr + '.json';
 
-  function updateDateUI(d) {
-    document.getElementById('datePicker').value = d;
-  }
-
-function updateBtnState() {
-    document.getElementById('btnPrev').disabled = (dateIdx <= 0);
-    document.getElementById('btnNext').disabled = (dateIdx >= availableDates.length - 1);
-  }
-
-    function setDate(newDate) {
-    currentDate = newDate;
-    dateIdx = availableDates.indexOf(newDate);
-    DATA_URL = '/stock/predict_' + currentDate + '.json';
-    updateDateUI(currentDate);
-    updateBtnState();
-    document.getElementById('datePicker').classList.remove('invalid-date');
-    document.getElementById('newsList').innerHTML = '<div class="loading-state">加载数据中...</div>';
-    document.getElementById('summaryGrid').innerHTML = '';
-    document.getElementById('updateTime').textContent = '加载中...';
-    loadData();
-  }
-
-  fetch('/stock/dates.json')
-    .then(function(r) { return r.json(); })
-    .then(function(dates) {
-      availableDates = dates;
-      if (availableDates.length > 0) {
-        document.getElementById('datePicker').min = availableDates[0];
-        document.getElementById('datePicker').max = availableDates[availableDates.length - 1];
-      }
-      dateIdx = availableDates.indexOf(dayStr);
-      if (dateIdx === -1 && availableDates.length > 0) {
-        for (var i = availableDates.length - 1; i >= 0; i--) {
-          if (availableDates[i] <= dayStr) { dateIdx = i; break; }
-        }
-        if (dateIdx === -1) dateIdx = 0;
-      }
-      if (dateIdx >= 0) setDate(availableDates[dateIdx]);
-    })
-    .catch(function() { setDate(dayStr); });
-
-  var datePicker = document.getElementById('datePicker');
-  datePicker.value = dayStr;
-  datePicker.addEventListener('change', function() {
-    var val = this.value;
-    if (availableDates.indexOf(val) === -1) {
-      this.classList.add('invalid-date');
-      setTimeout(function() { datePicker.value = currentDate; datePicker.classList.remove('invalid-date'); }, 1500);
-      return;
-    }
-    setDate(val);
-  });
-
-  document.getElementById('btnPrev').addEventListener('click', function() {
-    if (dateIdx > 0) setDate(availableDates[dateIdx - 1]);
-  });
-  document.getElementById('btnNext').addEventListener('click', function() {
-    if (dateIdx < availableDates.length - 1) setDate(availableDates[dateIdx + 1]);
-  });
-  document.getElementById('btnToday').addEventListener('click', function() {
-    var idx = availableDates.indexOf(dayStr);
-    if (idx >= 0) { setDate(dayStr); }
-    else {
-      for (var i = availableDates.length - 1; i >= 0; i--) {
-        if (availableDates[i] <= dayStr) { setDate(availableDates[i]); return; }
-      }
-      if (availableDates.length > 0) setDate(availableDates[0]);
-    }
-  });
   function ratingClass(val) {
     if (!val) return 'rating-flat';
     if (val === '↑↑') return 'rating-up2';
@@ -440,6 +372,34 @@ function updateBtnState() {
     grid.innerHTML = html;
   }
 
+
+  function renderFutures(data) {
+    var grid = document.getElementById('futuresGrid');
+    var map = { 'AU': '黄金', 'AG': '白银', 'SC': '原油' };
+    var html = '';
+    ['AU', 'AG', 'SC'].forEach(function(key) {
+      var d = data[key];
+      if (!d) return;
+      var total = d.bullish + d.bearish;
+      var bullPct = total > 0 ? Math.round(d.bullish / total * 100) : 50;
+      var bearPct = 100 - bullPct;
+      html += '<div class="future-card">' +
+        '<div class="future-name">' + map[key] + ' (' + key + ')</div>' +
+        '<div class="future-bar-wrap">' +
+          '<span class="label">看多</span>' +
+          '<div class="future-bar"><div class="bull" style="width:' + bullPct + '%"></div></div>' +
+          '<span class="future-count">' + d.bullish + '</span>' +
+        '</div>' +
+        '<div class="future-bar-wrap">' +
+          '<span class="label">看空</span>' +
+          '<div class="future-bar"><div class="bear" style="width:' + bearPct + '%"></div></div>' +
+          '<span class="future-count">' + d.bearish + '</span>' +
+        '</div>' +
+      '</div>';
+    });
+    grid.innerHTML = html;
+  }
+
   function renderNewsList(data) {
     var list = document.getElementById('newsList');
     if (!data.news_analysis || !data.news_analysis.length) {
@@ -480,12 +440,35 @@ function updateBtnState() {
       '逐条分析（' + data.news_analysis.length + '条）';
   }
 
+
+  function fetchWithFallback(basePath, prefix, suffix, maxRetry) {
+    maxRetry = maxRetry || 5;
+    var parts = dayStr.split('-');
+    var d = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+    var attempt = 0;
+
+    function tryFetch() {
+      var y = d.getFullYear();
+      var m = String(d.getMonth() + 1).padStart(2, '0');
+      var day = String(d.getDate()).padStart(2, '0');
+      var url = basePath + prefix + y + '-' + m + '-' + day + suffix;
+      return fetch(url).then(function(res) {
+        if (res.ok) return res.json();
+        if (attempt >= maxRetry) throw new Error('exhausted');
+        attempt++;
+        d.setDate(d.getDate() - 1);
+        return tryFetch();
+      });
+    }
+    return tryFetch();
+  }
+
   function loadData() {
-    fetch(DATA_URL)
-      .then(function(res) {
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        return res.json();
-      })
+    fetch('/stock/predict_future.json').then(function(r){return r.json()})
+      .then(function(fdata) { renderFutures(fdata); })
+      .catch(function() {});
+
+    fetchWithFallback('/stock/', 'predict_', '.json', 5)
       .then(function(data) {
         document.getElementById('updateTime').textContent = (data.meta && data.meta.update_time) || data.update_time || '未知';
         var pageName = (data.meta && data.meta.name) || '';
@@ -584,14 +567,5 @@ function updateBtnState() {
   });
 })();
 </script>
-
-<script>
-if (!AbortSignal.prototype.throwIfAborted) {
-  AbortSignal.prototype.throwIfAborted = function() {
-    if (this.aborted) throw new DOMException('The operation was aborted.', 'AbortError');
-  };
-}
-</script>
-
 </body>
 </html>
