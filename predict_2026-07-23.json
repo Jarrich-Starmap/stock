@@ -1,86 +1,86 @@
 {
   "meta": {
     "name": "2026年7月23日全球新闻股票推演",
-    "description": "基于2026年7月23日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及全球市场",
+    "description": "基于2026年7月23日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
     "category": "daily",
-    "source": "https://hk.jarrich.cn/news/ 2026-07-23 综合整理",
-    "version": "1.0.0",
-    "update_time": "2026-07-23T12:50:00+08:00",
+    "source": "2026年7月23日 综合整理自中国新闻网、中新网福建等",
+    "version": "1.0",
+    "update_time": "2026-07-23T17:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "巴西扩大巴西主权计划 应对美关税新政冲击",
-      "logic": "巴西应对美国关税新政，推出主权计划扩大内需和产业链自主。短期利好巴西本地制造、资源出口替代；巴西雷亚尔汇率波动可能影响新兴市场资金流向；大宗商品（铁矿石、农产品）出口结构变化利好巴西矿业和农业巨头。中长期若计划见效，巴西经济独立性和增长韧性增强，利好巴西股市整体。",
+      "title": "上半年中央企业实现利润总额1.4万亿元",
+      "logic": "央企上半年利润达1.4万亿，显示国企改革成效与盈利能力持续增强。直接利好央企控股上市公司，现金流改善支撑分红预期，同时增强市场对国企估值重塑的信心。基建、能源、制造类央企受益最为直接，短期情绪提振、中期业绩兑现驱动估值修复。",
       "stocks": [
         {
-          "name": "淡水河谷",
-          "code": "VALE",
-          "market": "US",
-          "sector": "矿业/铁矿石",
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "轨交装备",
           "short_term": "↑",
-          "mid_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "巴西石油",
-          "code": "PBR",
-          "market": "US",
-          "sector": "能源",
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建工程",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "iShares MSCI Brazil ETF",
-          "code": "EWZ",
-          "market": "US",
-          "sector": "ETF/新兴市场",
+          "name": "中国神华",
+          "code": "601088.SH",
+          "market": "SH",
+          "sector": "煤炭能源",
           "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
-          "name": "巴西国家钢铁",
-          "code": "SID",
-          "market": "US",
-          "sector": "钢铁",
+          "name": "中国移动",
+          "code": "600941.SH",
+          "market": "SH",
+          "sector": "电信运营",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "西班牙中部特大山火趋于稳定",
-      "logic": "西班牙特大山火造成大面积损失，保险理赔金额预计大幅上升。短期利空承保该区域的再保险公司（赔付压力），但中长期保险费率可能上调，利好保险定价能力。欧洲保险股短期承压，全球再保险巨头受影响。",
+      "title": "王毅会见英国外交大臣米利班德",
+      "logic": "中英高层外交接触释放两国关系回暖信号。此前英国对华政策趋于务实，此次会见有望推动双边贸易、金融合作和投资便利化。利好伦敦人民币离岸市场、中英跨境金融及保险业务，港股中英资背景金融股短期情绪正面。",
       "stocks": [
         {
-          "name": "慕尼黑再保险",
-          "code": "MUV2.DE",
-          "market": "DE",
-          "sector": "保险/再保险",
-          "short_term": "↓",
-          "mid_term": "↑",
+          "name": "汇丰控股",
+          "code": "0005.HK",
+          "market": "HK",
+          "sector": "银行金融",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "瑞士再保险",
-          "code": "SREN.SW",
-          "market": "CH",
-          "sector": "保险/再保险",
-          "short_term": "↓",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "曼福保险",
-          "code": "MAP.MC",
-          "market": "CH",
+          "name": "中国太保",
+          "code": "2601.HK",
+          "market": "HK",
           "sector": "保险",
-          "short_term": "↓",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "渣打集团",
+          "code": "2888.HK",
+          "market": "HK",
+          "sector": "银行金融",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -88,250 +88,375 @@
     },
     {
       "id": 3,
-      "title": "上半年东莞-香港国际空港中心进出口货值超220亿元",
-      "logic": "东莞-香港空港中心进出口货值上半年超220亿元，显示粤港澳大湾区跨境物流强劲增长。利好大湾区本地物流企业、港口运营、跨境贸易服务商。空港中心的持续扩容反映中国外贸韧性，中长期利好出口导向型企业和物流基础设施板块。",
+      "title": "商务部：上半年外资企业、国有企业进出口均实现两位数增长",
+      "logic": "外贸数据超预期，外资和国企进出口均两位数增长表明中国外贸韧性强劲。直接利好港口航运、跨境物流和外贸服务企业，港口吞吐量和航运运价有望维持高位。短期数据利好催化，中期关注全球需求持续性。",
       "stocks": [
         {
-          "name": "招商局港口",
-          "code": "0144.HK",
-          "market": "HK",
-          "sector": "港口/物流",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中远海运港口",
-          "code": "1199.HK",
-          "market": "HK",
-          "sector": "港口/航运",
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运物流",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "嘉里物流",
-          "code": "0636.HK",
-          "market": "HK",
-          "sector": "物流",
+          "name": "上港集团",
+          "code": "600018.SH",
+          "market": "SH",
+          "sector": "港口",
           "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "宁波港",
+          "code": "601018.SH",
+          "market": "SH",
+          "sector": "港口",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
         },
         {
           "name": "顺丰控股",
           "code": "002352.SZ",
           "market": "SZ",
-          "sector": "物流/快递",
+          "sector": "物流快递",
           "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑↑"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "尼日利亚博尔诺州霍乱疫情已致198人死亡",
-      "logic": "尼日利亚爆发严重霍乱疫情，非洲公共卫生危机升级。短期利好疫苗和抗生素生产商，WHO和援助机构将加大采购；检测试剂和医疗设备需求上升。中长期推动全球卫生基础设施投资和疫苗储备。",
+      "title": "APEC数字周在四川聚焦人工智能",
+      "logic": "APEC层面聚焦AI表明亚太各国对人工智能的战略重视，中国将AI纳入多边合作议程，政策红利持续释放。利好AI基础设施（算力/芯片）、大模型应用和AI+行业落地。四川本地AI企业及全国AI龙头受益。短期政策主题催化，中长期产业趋势确定。",
       "stocks": [
         {
-          "name": "智飞生物",
-          "code": "300122.SZ",
+          "name": "科大讯飞",
+          "code": "002230.SZ",
           "market": "SZ",
-          "sector": "生物医药/疫苗",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "康希诺",
-          "code": "688185.SH",
-          "market": "SH",
-          "sector": "生物医药/疫苗",
+          "sector": "人工智能",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "华大基因",
-          "code": "300676.SZ",
-          "market": "SZ",
-          "sector": "基因检测",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "默沙东",
-          "code": "MRK",
+          "name": "百度",
+          "code": "BIDU.US",
           "market": "US",
-          "sector": "制药",
-          "short_term": "→",
+          "sector": "人工智能/互联网",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "算力基础设施",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 5,
-      "title": "菲律宾两公务船侵闯黄岩岛管辖海域 中国海警依法驱离",
-      "logic": "南海地缘政治紧张局势升温，菲律宾公务船侵闯黄岩岛。短期提振军工板块（海上防御、舰船装备），航运保险成本可能上升。若局势持续升级，区域贸易通道风险溢价上升，利好国内军工和安防企业，利空在菲有业务的跨国公司。",
+      "title": "聚焦下一代航空器、能源关键基础设施等 中国科协年会举办专题论坛",
+      "logic": "中国科协年会专题聚焦航空器和能源基础设施，表明国家科研资源向高端制造和能源安全倾斜。利好航空发动机、大飞机产业链和新型电力系统建设。短期政策主题驱动，中期关注国产替代与技术突破进展。",
       "stocks": [
         {
-          "name": "中国船舶",
-          "code": "600150.SH",
+          "name": "中航沈飞",
+          "code": "600760.SH",
           "market": "SH",
-          "sector": "军工/船舶制造",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "军工/舰船",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国海防",
-          "code": "600764.SH",
-          "market": "SH",
-          "sector": "军工/海洋防务",
-          "short_term": "↑↑",
+          "sector": "航空制造",
+          "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
-          "name": "海兰信",
-          "code": "300065.SZ",
-          "market": "SZ",
-          "sector": "海洋信息化",
+          "name": "航发动力",
+          "code": "600893.SH",
+          "market": "SH",
+          "sector": "航空发动机",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "国电南瑞",
+          "code": "600406.SH",
+          "market": "SH",
+          "sector": "电力设备/能源IT",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "新能源电池",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 6,
-      "title": "尹丽波在海口调研乡村振兴及重点招商引资项目推进情况",
-      "logic": "海南省委常委在海口调研招商引资项目，强调乡村振兴和招商推进。海南自贸港封关运作在即，政策利好持续释放。招商项目推进信号利好海南本地基建、旅游、免税及农产品加工企业。中长期海南自贸港政策红利持续。",
+      "title": "澳大利亚6月失业率维持在4.4%",
+      "logic": "澳洲失业率低位企稳表明经济韧性较好，劳动力市场健康支撑消费需求，间接利好中国对澳铁矿石、煤炭等大宗商品进口需求。澳洲矿业公司和相关ETF短期无方向性变化，中期因中国经济复苏带动资源需求。",
       "stocks": [
         {
-          "name": "海南机场",
-          "code": "600515.SH",
-          "market": "SH",
-          "sector": "基础设施/机场",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中国中免",
-          "code": "601888.SH",
-          "market": "SH",
-          "sector": "免税/旅游零售",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "海南橡胶",
-          "code": "601118.SH",
-          "market": "SH",
-          "sector": "农业/橡胶",
+          "name": "BHP Group",
+          "code": "BHP.US",
+          "market": "US",
+          "sector": "矿业/大宗商品",
           "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "→"
         },
         {
-          "name": "海峡股份",
-          "code": "002320.SZ",
-          "market": "SZ",
-          "sector": "航运/交通",
-          "short_term": "↑",
+          "name": "力拓",
+          "code": "RIO.US",
+          "market": "US",
+          "sector": "矿业/大宗商品",
+          "short_term": "→",
           "mid_term": "↑",
-          "long_term": "↑↑"
+          "long_term": "→"
+        },
+        {
+          "name": "宝钢股份",
+          "code": "600019.SH",
+          "market": "SH",
+          "sector": "钢铁",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 7,
-      "title": "市场监管总局公布四起旅游行业不正当竞争典型案件",
-      "logic": "市场监管总局公布旅游行业不正当竞争案件，释放加强旅游市场监管信号。短期利空涉及违规的旅游平台和旅行社（合规成本上升），中长期行业出清利好合规龙头，市场集中度提升。消费者权益保护增强有利于行业健康发展。",
+      "title": "国家喊你健身啦！场地设施、科学指导、展示舞台都有安排",
+      "logic": "全民健身政策加码，涵盖场地设施建设、科学指导和赛事展示，形成完整产业链利好。利好体育用品制造、健身器材、运动服装品牌，政策驱动下消费扩容。短期情绪提振消费预期，中期业绩兑现驱动估值提升。",
       "stocks": [
         {
-          "name": "携程集团",
-          "code": "9961.HK",
+          "name": "安踏体育",
+          "code": "2020.HK",
           "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↓",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "同程旅行",
-          "code": "0780.HK",
-          "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中青旅",
-          "code": "600138.SH",
-          "market": "SH",
-          "sector": "旅游服务",
-          "short_term": "→",
+          "sector": "体育用品",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中国中免",
-          "code": "601888.SH",
+          "name": "李宁",
+          "code": "2331.HK",
+          "market": "HK",
+          "sector": "体育用品",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "舒华体育",
+          "code": "605299.SH",
           "market": "SH",
-          "sector": "免税/旅游零售",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑↑"
+          "sector": "健身器材",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中体产业",
+          "code": "600158.SH",
+          "market": "SH",
+          "sector": "体育服务",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 8,
-      "title": "渝巫山客1007首航 守护巫峡的背篓轮渡焕新",
-      "logic": "长江三峡新型客轮投入运营，巫峡轮渡焕新标志内河航运升级。利好内河船舶制造、航运运营企业。三峡旅游基础设施提升有望带动区域旅游增长。中长期长江经济带绿色航运发展战略利好相关企业。",
+      "title": "国际举联主席：很高兴世锦赛重回中国举办",
+      "logic": "国际举重世锦赛重返中国，叠加全民健身政策热潮，利好体育赛事运营、场馆经济及体育旅游。短期对赛事承办城市（待公布）的本地消费有提振，中期利好体育传媒和赞助商。",
       "stocks": [
         {
-          "name": "长航凤凰",
-          "code": "000520.SZ",
-          "market": "SZ",
-          "sector": "内河航运",
-          "short_term": "↑",
+          "name": "中体产业",
+          "code": "600158.SH",
+          "market": "SH",
+          "sector": "体育赛事运营",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "三峡旅游",
-          "code": "002627.SZ",
+          "name": "莱茵体育",
+          "code": "000558.SZ",
           "market": "SZ",
-          "sector": "旅游/交通",
+          "sector": "体育场馆",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "《星辰足迹——月背之约》航天大空间VR科普科幻剧落地四川科技馆",
+      "logic": "航天主题VR科普剧商业化落地，标志着航天IP与沉浸式娱乐消费的融合提速。利好航天产业链下游（航天文旅/科普教育）和VR/AR硬件及内容生态。短期概念驱动，中期关注航天+消费模式的规模化复制。",
+      "stocks": [
+        {
+          "name": "航天科技",
+          "code": "000901.SZ",
+          "market": "SZ",
+          "sector": "航天技术",
           "short_term": "↑",
-          "mid_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "↑"
         },
+        {
+          "name": "歌尔股份",
+          "code": "002241.SZ",
+          "market": "SZ",
+          "sector": "VR/AR硬件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天卫星",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "30余名港澳青年齐聚佛山对接创新创业资源",
+      "logic": "港澳青年赴大湾区内地城市创业，反映大湾区一体化进程加速。佛山作为制造业重镇，吸引港澳创新资源有助于产业升级。利好大湾区概念、产业园区开发及创业服务平台。短期政策驱动，中长期大湾区经济融合趋势确定。",
+      "stocks": [
+        {
+          "name": "招商蛇口",
+          "code": "001979.SZ",
+          "market": "SZ",
+          "sector": "园区开发/房地产",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "深圳机场",
+          "code": "000089.SZ",
+          "market": "SZ",
+          "sector": "交通枢纽",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "越秀地产",
+          "code": "0123.HK",
+          "market": "HK",
+          "sector": "大湾区地产",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国科大先研院两项目斩获安徽省科学技术进步奖一等奖",
+      "logic": "中国科大先研院获省级科技进步一等奖，反映科研转化能力持续提升，利好中科大系产学研生态及安徽本地科技企业。科大讯飞等校友企业有望受益于技术溢出和人才供给。短期影响有限，中长期技术积累推动产业升级。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中科曙光",
+          "code": "603019.SH",
+          "market": "SH",
+          "sector": "算力基础设施",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "联合国官员：中国在全球事务中发挥独特作用",
+      "logic": "联合国官员正面评价中国全球角色，强化中国在国际治理中的话语权。利好一带一路基建出海、人民币国际化及中国品牌全球影响力。短期无直接股价催化，中长期对海外工程承包、跨境贸易有正向预期。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建/一带一路",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "601766.SH",
+          "market": "SH",
+          "sector": "轨交装备出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "\"渝巫山客1007\"首航 守护巫峡的\"背篓轮渡\"焕新",
+      "logic": "长江内河航运船舶更新换代，新客轮首航体现内河客运现代化升级。利好内河船舶制造和绿色航运转型。短期影响局限于区域航运企业，中长期长江经济带绿色航运政策持续推进。",
+      "stocks": [
         {
           "name": "中国船舶",
           "code": "600150.SH",
           "market": "SH",
           "sector": "船舶制造",
           "short_term": "→",
-          "mid_term": "↑",
+          "mid_term": "→",
           "long_term": "↑"
+        },
+        {
+          "name": "招商轮船",
+          "code": "601872.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
         }
       ]
     }
@@ -339,65 +464,70 @@
   "summary": {
     "newly_added": [
       {
-        "label": "巴西主权计划应对美关税（新增）",
-        "theme": "巴西扩大主权计划应对美关税新政，利好巴西矿业、能源和新兴市场",
+        "label": "央企利润1.4万亿（新增）",
+        "theme": "上半年央企利润达1.4万亿，国企改革红利持续释放",
         "stocks": [
           {
-            "name": "淡水河谷",
-            "code": "VALE",
+            "name": "中国中车",
+            "code": "601766.SH",
             "short_term": "↑"
           },
           {
-            "name": "iShares MSCI Brazil ETF",
-            "code": "EWZ",
+            "name": "中国建筑",
+            "code": "601668.SH",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "南海黄岩岛紧张局势（新增）",
-        "theme": "菲律宾公务船侵闯黄岩岛，中国海警驱离，军工船舶板块短期受提振",
+        "label": "APEC聚焦AI（新增）",
+        "theme": "APEC数字周在四川聚焦人工智能，政策红利持续释放",
         "stocks": [
           {
-            "name": "中国船舶",
-            "code": "600150.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "中国海防",
-            "code": "600764.SH",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "尼日利亚霍乱疫情（新增）",
-        "theme": "霍乱致198人死亡，疫苗和检测试剂需求上升",
-        "stocks": [
-          {
-            "name": "智飞生物",
-            "code": "300122.SZ",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "东莞-香港空港中心进出口超220亿（新增）",
-        "theme": "粤港澳大湾区跨境物流强劲增长，利好港口和物流企业",
-        "stocks": [
-          {
-            "name": "招商局港口",
-            "code": "0144.HK",
+            "name": "科大讯飞",
+            "code": "002230.SZ",
             "short_term": "↑"
           },
           {
-            "name": "嘉里物流",
-            "code": "0636.HK",
+            "name": "百度",
+            "code": "BIDU.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "航空器与能源基础设施（新增）",
+        "theme": "中国科协年会聚焦下一代航空器与能源关键基础设施",
+        "stocks": [
+          {
+            "name": "中航沈飞",
+            "code": "600760.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "航发动力",
+            "code": "600893.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "全民健身政策加码（新增）",
+        "theme": "国家推动全民健身体系建设，利好体育消费全产业链",
+        "stocks": [
+          {
+            "name": "安踏体育",
+            "code": "2020.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "舒华体育",
+            "code": "605299.SH",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，所有涨跌方向均为主观判断，不构成任何投资建议。股市有风险，投资需谨慎。数据仅供参考，请勿据此做出投资决策。"
+  "disclaimer": "以上分析基于2026年7月23日公开新闻的逻辑推演，所有预测方向（↑/↑↑/↓/→）仅为新闻事件驱动的情景推演，不构成任何投资建议。股市有风险，投资需谨慎。实际股价受多重因素影响，请勿将本数据集作为交易决策依据。"
 }
