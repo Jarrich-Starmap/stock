@@ -1,40 +1,31 @@
 {
   "meta": {
     "name": "2026年7月23日全球新闻股票推演",
-    "description": "基于2026年7月22日hk.jarrich.cn/news/抓取的20条公开新闻，逐条推演对A股、港股、美股、韩股等多市场相关股票的短中长期涨跌影响",
+    "description": "基于2026年7月23日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及全球市场",
     "category": "daily",
-    "source": "hk.jarrich.cn/news/ 2026-07-22",
-    "version": "1.0",
-    "update_time": "2026-07-23T00:00:00+08:00",
+    "source": "https://hk.jarrich.cn/news/ 2026-07-23 综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-23T12:50:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "特朗普称对伊朗军事打击远未结束，或打击地下核设施",
-      "logic": "美伊军事冲突持续升级，短期推高避险情绪（黄金）和原油价格（供应中断风险），利好军工和能源板块；中长期若冲突扩大将加剧全球供应链扰动",
+      "title": "巴西扩大巴西主权计划 应对美关税新政冲击",
+      "logic": "巴西应对美国关税新政，推出主权计划扩大内需和产业链自主。短期利好巴西本地制造、资源出口替代；巴西雷亚尔汇率波动可能影响新兴市场资金流向；大宗商品（铁矿石、农产品）出口结构变化利好巴西矿业和农业巨头。中长期若计划见效，巴西经济独立性和增长韧性增强，利好巴西股市整体。",
       "stocks": [
         {
-          "name": "洛克希德马丁",
-          "code": "LMT",
+          "name": "淡水河谷",
+          "code": "VALE",
           "market": "US",
-          "sector": "国防军工",
+          "sector": "矿业/铁矿石",
           "short_term": "↑",
-          "mid_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
-          "name": "雷神技术",
-          "code": "RTX",
-          "market": "US",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "埃克森美孚",
-          "code": "XOM",
+          "name": "巴西石油",
+          "code": "PBR",
           "market": "US",
           "sector": "能源",
           "short_term": "↑",
@@ -42,470 +33,305 @@
           "long_term": "→"
         },
         {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "能源",
+          "name": "iShares MSCI Brazil ETF",
+          "code": "EWZ",
+          "market": "US",
+          "sector": "ETF/新兴市场",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑"
         },
         {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "贵金属",
+          "name": "巴西国家钢铁",
+          "code": "SID",
+          "market": "US",
+          "sector": "钢铁",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "→",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 2,
-      "title": "2026中国国际时装周·童话小镇北京启幕，安踏童装亮相",
-      "logic": "安踏品牌童装在国际时装周展示，强化品牌高端化与童装线市场认知，短期提振品牌声量，中长期利好童装赛道增长",
+      "title": "西班牙中部特大山火趋于稳定",
+      "logic": "西班牙特大山火造成大面积损失，保险理赔金额预计大幅上升。短期利空承保该区域的再保险公司（赔付压力），但中长期保险费率可能上调，利好保险定价能力。欧洲保险股短期承压，全球再保险巨头受影响。",
       "stocks": [
         {
-          "name": "安踏体育",
-          "code": "2020.HK",
-          "market": "HK",
-          "sector": "纺织服装",
-          "short_term": "↑",
+          "name": "慕尼黑再保险",
+          "code": "MUV2.DE",
+          "market": "DE",
+          "sector": "保险/再保险",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "瑞士再保险",
+          "code": "SREN.SW",
+          "market": "CH",
+          "sector": "保险/再保险",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "曼福保险",
+          "code": "MAP.MC",
+          "market": "CH",
+          "sector": "保险",
+          "short_term": "↓",
           "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "上半年东莞-香港国际空港中心进出口货值超220亿元",
+      "logic": "东莞-香港空港中心进出口货值上半年超220亿元，显示粤港澳大湾区跨境物流强劲增长。利好大湾区本地物流企业、港口运营、跨境贸易服务商。空港中心的持续扩容反映中国外贸韧性，中长期利好出口导向型企业和物流基础设施板块。",
+      "stocks": [
+        {
+          "name": "招商局港口",
+          "code": "0144.HK",
+          "market": "HK",
+          "sector": "港口/物流",
+          "short_term": "↑",
+          "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
-          "name": "李宁",
-          "code": "2331.HK",
+          "name": "中远海运港口",
+          "code": "1199.HK",
           "market": "HK",
-          "sector": "纺织服装",
+          "sector": "港口/航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "嘉里物流",
+          "code": "0636.HK",
+          "market": "HK",
+          "sector": "物流",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "顺丰控股",
+          "code": "002352.SZ",
+          "market": "SZ",
+          "sector": "物流/快递",
           "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "尼日利亚博尔诺州霍乱疫情已致198人死亡",
+      "logic": "尼日利亚爆发严重霍乱疫情，非洲公共卫生危机升级。短期利好疫苗和抗生素生产商，WHO和援助机构将加大采购；检测试剂和医疗设备需求上升。中长期推动全球卫生基础设施投资和疫苗储备。",
+      "stocks": [
+        {
+          "name": "智飞生物",
+          "code": "300122.SZ",
+          "market": "SZ",
+          "sector": "生物医药/疫苗",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "康希诺",
+          "code": "688185.SH",
+          "market": "SH",
+          "sector": "生物医药/疫苗",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "森马服饰",
-          "code": "002563.SZ",
+          "name": "华大基因",
+          "code": "300676.SZ",
           "market": "SZ",
-          "sector": "纺织服装",
-          "short_term": "→",
+          "sector": "基因检测",
+          "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
+        },
+        {
+          "name": "默沙东",
+          "code": "MRK",
+          "market": "US",
+          "sector": "制药",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 5,
-      "title": "常州具身智能机器人产业集群成型，2025年营收41.8亿元",
-      "logic": "常州已形成机器人核心零部件到整机制造完整产业链，具身智能落地场景增多（泡茶、实验、弹钢琴），行业进入快速成长期，利好机器人产业链上下游",
+      "title": "菲律宾两公务船侵闯黄岩岛管辖海域 中国海警依法驱离",
+      "logic": "南海地缘政治紧张局势升温，菲律宾公务船侵闯黄岩岛。短期提振军工板块（海上防御、舰船装备），航运保险成本可能上升。若局势持续升级，区域贸易通道风险溢价上升，利好国内军工和安防企业，利空在菲有业务的跨国公司。",
       "stocks": [
         {
-          "name": "机器人",
-          "code": "300024.SZ",
-          "market": "SZ",
-          "sector": "机器人",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "绿的谐波",
-          "code": "688017.SH",
+          "name": "中国船舶",
+          "code": "600150.SH",
           "market": "SH",
-          "sector": "机器人零部件",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "埃斯顿",
-          "code": "002747.SZ",
-          "market": "SZ",
-          "sector": "工业机器人",
-          "short_term": "↑",
+          "sector": "军工/船舶制造",
+          "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "汇川技术",
-          "code": "300124.SZ",
-          "market": "SZ",
-          "sector": "运动控制",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "拓斯达",
-          "code": "300607.SZ",
-          "market": "SZ",
-          "sector": "机器人集成",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "创新药研发加速遇猴荒：实验猴价格翻倍突破20万元/只",
-      "logic": "实验猴供需缺口达1.5-2万只（2026-2028年），价格从不到10万涨至20万+，直接增加CXO企业成本但利好猴资源储备企业；新药临床试验同比增36%支撑CXO长期需求",
-      "stocks": [
-        {
-          "name": "昭衍新药",
-          "code": "603127.SH",
+          "name": "中船防务",
+          "code": "600685.SH",
           "market": "SH",
-          "sector": "CXO/药物安评",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "药明康德",
-          "code": "603259.SH",
-          "market": "SH",
-          "sector": "CXO",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "泰格医药",
-          "code": "300347.SZ",
-          "market": "SZ",
-          "sector": "临床CRO",
-          "short_term": "→",
+          "sector": "军工/舰船",
+          "short_term": "↑↑",
           "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "康龙化成",
-          "code": "300759.SZ",
-          "market": "SZ",
-          "sector": "CXO",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "美迪西",
-          "code": "688202.SH",
-          "market": "SH",
-          "sector": "药物安评",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "中国力争到2030年林草覆盖率达56.4%，布局9项重大工程",
-      "logic": "十五五林业规划出台，林草产业总产值目标14万亿元，9项重大工程将拉动林业、环保、生态修复等板块投资",
-      "stocks": [
-        {
-          "name": "平潭发展",
-          "code": "000592.SZ",
-          "market": "SZ",
-          "sector": "林业",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "丰林集团",
-          "code": "601996.SH",
-          "market": "SH",
-          "sector": "林业",
-          "short_term": "↑",
-          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "蒙草生态",
-          "code": "300355.SZ",
-          "market": "SZ",
-          "sector": "生态修复",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "东方园林",
-          "code": "002310.SZ",
-          "market": "SZ",
-          "sector": "园林生态",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "宁德全域攻坚守护碧海清波，近岸海域水质持续改善",
-      "logic": "宁德海洋环境治理持续推进，利好本地环保及海洋经济相关企业，但政策面影响偏区域性，全国性企业受益有限",
-      "stocks": [
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "新能源电池",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "碧水源",
-          "code": "300070.SZ",
-          "market": "SZ",
-          "sector": "水处理",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "韩国2025年制造业增加值占GDP 27.2%创近十年新高",
-      "logic": "半导体驱动韩国制造业占比攀升，计算机电子光学设备占制造业37.4%，印证全球半导体景气度持续，利好三星/SK海力士及半导体设备材料链",
-      "stocks": [
-        {
-          "name": "三星电子",
-          "code": "005930.KS",
-          "market": "KR",
-          "sector": "半导体",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "SK海力士",
-          "code": "000660.KS",
-          "market": "KR",
-          "sector": "半导体存储",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "688981.SH",
+          "name": "中国海防",
+          "code": "600764.SH",
           "market": "SH",
-          "sector": "半导体制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SZ",
-          "sector": "半导体设备",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "中方向联合国提交全球网络治理立场文件，倡导数字主权",
-      "logic": "中国在全球网络治理中提出数字主权原则，各国有权自主选择AI路径不被胁迫选边，利好国产网络安全、信创和AI自主可控产业链",
-      "stocks": [
-        {
-          "name": "深信服",
-          "code": "300454.SZ",
-          "market": "SZ",
-          "sector": "网络安全",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "奇安信",
-          "code": "688561.SH",
-          "market": "SH",
-          "sector": "网络安全",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "启明星辰",
-          "code": "002439.SZ",
-          "market": "SZ",
-          "sector": "网络安全",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "中科曙光",
-          "code": "603019.SH",
-          "market": "SH",
-          "sector": "信创/算力",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "华为/海光信息",
-          "code": "688041.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "技能提升补贴上半年发放12亿元，三类证书可申领",
-      "logic": "技能提升补贴政策持续加码，数字经济/绿色职业证书获补贴激励，利好职业教育和技能培训赛道",
-      "stocks": [
-        {
-          "name": "中公教育",
-          "code": "002607.SZ",
-          "market": "SZ",
-          "sector": "职业教育",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "全通教育",
-          "code": "300359.SZ",
-          "market": "SZ",
-          "sector": "在线教育",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "传智教育",
-          "code": "003032.SZ",
-          "market": "SZ",
-          "sector": "IT培训",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "福建诏安花蛤丰收：养殖面积万亩年产量约3万吨",
-      "logic": "花蛤丰收供应充足，短期可能压制水产品价格但利好水产养殖和加工企业，乡村振兴政策背景下渔业板块获关注",
-      "stocks": [
-        {
-          "name": "国联水产",
-          "code": "300094.SZ",
-          "market": "SZ",
-          "sector": "水产养殖",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "好当家",
-          "code": "600467.SH",
-          "market": "SH",
-          "sector": "水产养殖",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "獐子岛",
-          "code": "002069.SZ",
-          "market": "SZ",
-          "sector": "水产养殖",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "中国机器人加速上岗：四足机器人全球销量近七成，人形机器人超400款",
-      "logic": "中国机器人产业在全球占据主导地位，四足机器人市占率近70%、人形机器人整机400余款超全球半数，养老服务机器人2026年市场规模将破百亿，行业进入爆发期",
-      "stocks": [
-        {
-          "name": "机器人",
-          "code": "300024.SZ",
-          "market": "SZ",
-          "sector": "机器人",
+          "sector": "军工/海洋防务",
           "short_term": "↑↑",
           "mid_term": "↑↑",
-          "long_term": "↑↑"
+          "long_term": "↑"
         },
         {
-          "name": "绿的谐波",
-          "code": "688017.SH",
+          "name": "海兰信",
+          "code": "300065.SZ",
+          "market": "SZ",
+          "sector": "海洋信息化",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "尹丽波在海口调研乡村振兴及重点招商引资项目推进情况",
+      "logic": "海南省委常委在海口调研招商引资项目，强调乡村振兴和招商推进。海南自贸港封关运作在即，政策利好持续释放。招商项目推进信号利好海南本地基建、旅游、免税及农产品加工企业。中长期海南自贸港政策红利持续。",
+      "stocks": [
+        {
+          "name": "海南机场",
+          "code": "600515.SH",
           "market": "SH",
-          "sector": "谐波减速器",
+          "sector": "基础设施/机场",
           "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "埃斯顿",
-          "code": "002747.SZ",
-          "market": "SZ",
-          "sector": "工业机器人",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "双环传动",
-          "code": "002472.SZ",
-          "market": "SZ",
-          "sector": "RV减速器",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "步科股份",
-          "code": "688160.SH",
+          "name": "中国中免",
+          "code": "601888.SH",
           "market": "SH",
-          "sector": "运动控制",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "奥比中光",
-          "code": "688322.SH",
-          "market": "SH",
-          "sector": "3D视觉传感器",
+          "sector": "免税/旅游零售",
           "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
-          "market": "SZ",
-          "sector": "AI/机器人交互",
+          "name": "海南橡胶",
+          "code": "601118.SH",
+          "market": "SH",
+          "sector": "农业/橡胶",
           "short_term": "→",
           "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海峡股份",
+          "code": "002320.SZ",
+          "market": "SZ",
+          "sector": "航运/交通",
+          "short_term": "↑",
+          "mid_term": "↑",
           "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "市场监管总局公布四起旅游行业不正当竞争典型案件",
+      "logic": "市场监管总局公布旅游行业不正当竞争案件，释放加强旅游市场监管信号。短期利空涉及违规的旅游平台和旅行社（合规成本上升），中长期行业出清利好合规龙头，市场集中度提升。消费者权益保护增强有利于行业健康发展。",
+      "stocks": [
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "同程旅行",
+          "code": "0780.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中青旅",
+          "code": "600138.SH",
+          "market": "SH",
+          "sector": "旅游服务",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "免税/旅游零售",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "渝巫山客1007首航 守护巫峡的背篓轮渡焕新",
+      "logic": "长江三峡新型客轮投入运营，巫峡轮渡焕新标志内河航运升级。利好内河船舶制造、航运运营企业。三峡旅游基础设施提升有望带动区域旅游增长。中长期长江经济带绿色航运发展战略利好相关企业。",
+      "stocks": [
+        {
+          "name": "长航凤凰",
+          "code": "000520.SZ",
+          "market": "SZ",
+          "sector": "内河航运",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "三峡旅游",
+          "code": "002627.SZ",
+          "market": "SZ",
+          "sector": "旅游/交通",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "船舶制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     }
@@ -513,107 +339,65 @@
   "summary": {
     "newly_added": [
       {
-        "label": "美伊冲突升级推高军工能源（新增）",
-        "theme": "特朗普称对伊朗军事打击远未结束，或打击地下核设施",
+        "label": "巴西主权计划应对美关税（新增）",
+        "theme": "巴西扩大主权计划应对美关税新政，利好巴西矿业、能源和新兴市场",
         "stocks": [
           {
-            "name": "洛克希德马丁",
-            "code": "LMT",
+            "name": "淡水河谷",
+            "code": "VALE",
             "short_term": "↑"
           },
           {
-            "name": "埃克森美孚",
-            "code": "XOM",
-            "short_term": "↑"
-          },
-          {
-            "name": "山东黄金",
-            "code": "600547.SH",
+            "name": "iShares MSCI Brazil ETF",
+            "code": "EWZ",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "实验猴价格翻倍创新药CXO分化（新增）",
-        "theme": "创新药研发遇猴荒，昭衍新药等概念股受关注",
+        "label": "南海黄岩岛紧张局势（新增）",
+        "theme": "菲律宾公务船侵闯黄岩岛，中国海警驱离，军工船舶板块短期受提振",
         "stocks": [
           {
-            "name": "昭衍新药",
-            "code": "603127.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "药明康德",
-            "code": "603259.SH",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "韩国半导体驱动制造业GDP新高（新增）",
-        "theme": "韩国2025年制造业占GDP 27.2%，半导体为核心驱动力",
-        "stocks": [
-          {
-            "name": "三星电子",
-            "code": "005930.KS",
-            "short_term": "↑"
-          },
-          {
-            "name": "SK海力士",
-            "code": "000660.KS",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "中国机器人全球主导地位强化（新增）",
-        "theme": "四足机器人全球近七成，人形机器人超400款，养老机器人市场破百亿",
-        "stocks": [
-          {
-            "name": "机器人",
-            "code": "300024.SZ",
+            "name": "中国船舶",
+            "code": "600150.SH",
             "short_term": "↑↑"
           },
           {
-            "name": "绿的谐波",
-            "code": "688017.SH",
-            "short_term": "↑"
+            "name": "中国海防",
+            "code": "600764.SH",
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "数字主权原则利好信创与网络安全（新增）",
-        "theme": "中方提交全球网络治理立场文件倡导数字主权",
+        "label": "尼日利亚霍乱疫情（新增）",
+        "theme": "霍乱致198人死亡，疫苗和检测试剂需求上升",
         "stocks": [
           {
-            "name": "深信服",
-            "code": "300454.SZ",
-            "short_term": "↑"
-          },
-          {
-            "name": "奇安信",
-            "code": "688561.SH",
-            "short_term": "↑"
+            "name": "智飞生物",
+            "code": "300122.SZ",
+            "short_term": "↑↑"
           }
         ]
       },
       {
-        "label": "林草十五五规划发布9项重大工程（新增）",
-        "theme": "中国力争2030年林草覆盖率56.4%，总产值目标14万亿",
+        "label": "东莞-香港空港中心进出口超220亿（新增）",
+        "theme": "粤港澳大湾区跨境物流强劲增长，利好港口和物流企业",
         "stocks": [
           {
-            "name": "平潭发展",
-            "code": "000592.SZ",
+            "name": "招商局港口",
+            "code": "0144.HK",
             "short_term": "↑"
           },
           {
-            "name": "蒙草生态",
-            "code": "300355.SZ",
+            "name": "嘉里物流",
+            "code": "0636.HK",
             "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月22日hk.jarrich.cn/news/公开新闻的逻辑推演，不构成投资建议。股票市场受多重因素影响，单一新闻事件的推演仅供参考，投资者应独立判断并承担风险。"
+  "disclaimer": "以上分析基于公开新闻的逻辑推演，所有涨跌方向均为主观判断，不构成任何投资建议。股市有风险，投资需谨慎。数据仅供参考，请勿据此做出投资决策。"
 }
