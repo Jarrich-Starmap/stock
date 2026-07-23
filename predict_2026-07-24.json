@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "name": "2026年7月24日全球新闻股票推演",
+    "description": "基于2026年7月24日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太市场",
+    "category": "daily",
+    "source": "2026年7月24日综合整理 - 来源：hk.jarrich.cn/news/",
+    "version": "1.0.0",
+    "update_time": "2026-07-24T00:50:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "东盟会议上团结与合作成为焦点",
+      "logic": "东盟会议强调成员国团结与区域合作，中国-东盟关系稳定向好，利好一带一路基建出海及区域贸易相关企业。基建订单预期增加，港口物流受益。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "北部湾港",
+          "code": "000582.SZ",
+          "market": "SZ",
+          "sector": "港口物流",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "两位中国数学家获菲尔兹奖，标志中国数学界里程碑",
+      "logic": "中国数学基础研究获得国际最高认可，强化科技自主创新信心。利好AI基础研究、高端人才培养及科技教育板块，对依赖算法创新的科技企业构成长期利好。",
+      "stocks": [
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "吉利将在福特西班牙工厂生产电动SUV并联合开发欧洲车型",
+      "logic": "吉利与福特深度合作进入欧洲市场，利用福特现有产能绕过欧盟关税壁垒，是中国车企出海的战略性突破。利好吉利供应链及电池供应商，同时对比亚迪等国内竞争对手构成欧洲市场竞争压力。",
+      "stocks": [
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "动力电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "福特汽车",
+          "code": "F.US",
+          "market": "US",
+          "sector": "传统汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国炼油厂抢购9月俄罗斯原油，中东供应风险上升",
+      "logic": "中东地缘风险导致供应不确定性上升，中国炼油厂加速锁定俄罗斯折扣原油以保障原料供应。短期推高原油贸易量和炼化利润率，但需关注伊朗供应前景带来的油价波动风险。",
+      "stocks": [
+        {
+          "name": "中国石化",
+          "code": "600028.SH",
+          "market": "SH",
+          "sector": "石油炼化",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油天然气",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油服",
+          "code": "601808.SH",
+          "market": "SH",
+          "sector": "油服",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国神华能源批准设立全资子公司",
+      "logic": "神华设立全资子公司可能指向新业务板块（如新能源、碳资产管理或海外业务）的独立运营，是央企改革与业务多元化的信号。短期提振股价预期。",
+      "stocks": [
+        {
+          "name": "中国神华",
+          "code": "601088.SH",
+          "market": "SH",
+          "sector": "煤炭能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国力争2030年森林覆盖率达26%，从防治荒漠化到绿色经济",
+      "logic": "国家层面明确的森林覆盖率目标将推动林业碳汇、生态修复及绿色经济产业链加速发展。碳交易市场扩容预期增强，林业碳汇项目价值重估。",
+      "stocks": [
+        {
+          "name": "岳阳林纸",
+          "code": "600963.SH",
+          "market": "SH",
+          "sector": "林业碳汇",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "蒙草生态",
+          "code": "300355.SZ",
+          "market": "SZ",
+          "sector": "生态修复",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三峡能源",
+          "code": "600905.SH",
+          "market": "SH",
+          "sector": "绿色能源",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "特朗普告知马科斯将向习近平提出南海关切",
+      "logic": "美国介入南海问题升高地缘紧张，可能引发新一轮对华施压。短期刺激军工板块避险情绪，航运安全担忧也可能推高航运保险成本。",
+      "stocks": [
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工船舶",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "印尼敦促在不确定性中加强东盟-中国伙伴关系",
+      "logic": "印尼作为东盟最大经济体主动推动对华合作深化，在全球化不确定性背景下提供区域稳定性。利好中国在东盟投资布局的制造业、基建及贸易企业。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "海尔智家",
+          "code": "600690.SH",
+          "market": "SH",
+          "sector": "家电出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "白宫指控中国AI公司月之暗面窃取美国技术",
+      "logic": "美国对中国AI公司的技术窃取指控可能引发新一轮AI领域出口管制和技术封锁，短期利空中国AI概念股，尤其依赖美国芯片和基础模型的公司。但国产替代逻辑中长期强化。",
+      "stocks": [
+        {
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "百度集团-SW",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中国山西省-马来西亚经贸文化旅游交流会在吉隆坡举行",
+      "logic": "地方政府层面的对外经贸合作推动区域经济开放，山西能源转型和文化旅游出海值得关注。利好山西本地龙头企业及中马贸易相关企业。",
+      "stocks": [
+        {
+          "name": "山西汾酒",
+          "code": "600809.SH",
+          "market": "SH",
+          "sector": "白酒消费",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "大秦铁路",
+          "code": "601006.SH",
+          "market": "SH",
+          "sector": "物流运输",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "国航将于10月开通冰岛-中国直飞航班",
+      "logic": "中国国际航线持续恢复和扩展，冰岛直飞开通填补北欧航线空白，利好航空客运及出境旅游产业链。国庆黄金周前开通有望直接贡献Q4营收。",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "春秋航空",
+          "code": "601021.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "美国议员要求被指控削弱美国制造商的涉中共公司作出回应",
+      "logic": "美国国会层面对中国供应链企业的审查升级，可能引发新一轮涉华贸易限制。在美有业务的中国制造企业面临合规和政策风险，短期承压。",
+      "stocks": [
+        {
+          "name": "阿里巴巴-W",
+          "code": "9988.HK",
+          "market": "HK",
+          "sector": "电商科技",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "拼多多",
+          "code": "PDD.US",
+          "market": "US",
+          "sector": "电商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "中国引力一号火箭成功发射九颗卫星入轨",
+      "logic": "商业火箭一箭九星展示中国商业航天发射能力的快速提升，卫星互联网组网加速。利好商业航天和卫星产业链上下游企业。",
+      "stocks": [
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "sector": "航天军工",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "sector": "航天军工",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "中国可再生能源大型基地仍严重依赖煤电输送",
+      "logic": "可再生能源基地对煤电输送的依赖暴露了中国能源转型的结构性瓶颈——电网灵活性和储能不足。短期煤炭需求刚性支撑煤企，但中长期倒逼储能和智能电网投资加速。",
+      "stocks": [
+        {
+          "name": "中国神华",
+          "code": "601088.SH",
+          "market": "SH",
+          "sector": "煤炭能源",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "宁德时代",
+          "code": "300750.SZ",
+          "market": "SZ",
+          "sector": "储能电池",
+          "short_term": "→",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "国电南瑞",
+          "code": "600406.SH",
+          "market": "SH",
+          "sector": "智能电网",
+          "short_term": "→",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "巴基斯坦将向中国出口6万吨大米",
+      "logic": "巴基斯坦在财政紧张背景下扩大对华农产品出口，中巴经济走廊农业合作深化。利好中国粮食贸易加工企业，同时强化中巴经济纽带。",
+      "stocks": [
+        {
+          "name": "金健米业",
+          "code": "600127.SH",
+          "market": "SH",
+          "sector": "粮食加工",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "京粮控股",
+          "code": "000505.SZ",
+          "market": "SZ",
+          "sector": "粮食贸易",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "吉利发布银河TT挑战小米在中国电动轿车市场的地位",
+      "logic": "吉利银河TT直接对标小米SU7，中国电动轿车市场竞争白热化。吉利凭借制造和成本优势可能抢占市场份额，小米面临更大竞争压力但品牌生态仍是护城河。",
+      "stocks": [
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "小米集团-W",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "消费电子/汽车",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "中巴城市签署友好城市谅解备忘录深化合作",
+      "logic": "中巴地方城市层面合作持续深化，中巴经济走廊从国家战略下沉至城市落地，利好参与巴基斯坦基建和产业投资的中国企业。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "601800.SH",
+          "market": "SH",
+          "sector": "基建出海",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建出海",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "吉利福特欧洲合作造车（新增）",
+        "theme": "吉利将在福特西班牙工厂生产电动SUV，联合开发欧洲车型，标志中国车企借力欧美产能实现战略出海",
+        "stocks": [
+          {
+            "name": "吉利汽车",
+            "code": "0175.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ",
+            "short_term": "↑"
+          },
+          {
+            "name": "比亚迪",
+            "code": "002594.SZ",
+            "short_term": "→"
+          },
+          {
+            "name": "福特汽车",
+            "code": "F.US",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "白宫指控月之暗面窃取技术（新增）",
+        "theme": "白宫指控中国AI公司月之暗面窃取美国技术，可能引发新一轮AI制裁与出口管制",
+        "stocks": [
+          {
+            "name": "商汤-W",
+            "code": "0020.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "百度集团-SW",
+            "code": "9888.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "引力一号一箭九星发射成功（新增）",
+        "theme": "中国商业火箭引力一号成功发射九颗卫星入轨，商业航天加速组网",
+        "stocks": [
+          {
+            "name": "中国卫星",
+            "code": "600118.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "航天电子",
+            "code": "600879.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "吉利银河TT挑战小米电动轿车（新增）",
+        "theme": "吉利发布银河TT直接对标小米SU7，中国电动轿车市场竞争白热化",
+        "stocks": [
+          {
+            "name": "吉利汽车",
+            "code": "0175.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "小米集团-W",
+            "code": "1810.HK",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "可再生能源基地依赖煤电输送（新增）",
+        "theme": "中国可再生能源大型基地严重依赖煤电输送，能源转型的结构性瓶颈暴露",
+        "stocks": [
+          {
+            "name": "宁德时代",
+            "code": "300750.SZ",
+            "short_term": "→"
+          },
+          {
+            "name": "国电南瑞",
+            "code": "600406.SH",
+            "short_term": "→"
+          },
+          {
+            "name": "中国神华",
+            "code": "601088.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中国炼油厂抢购俄罗斯原油（新增）",
+        "theme": "中东供应风险上升，中国炼油厂加速抢购9月俄罗斯折扣原油",
+        "stocks": [
+          {
+            "name": "中国石化",
+            "code": "600028.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国石油",
+            "code": "601857.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中海油服",
+            "code": "601808.SH",
+            "short_term": "↑"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月24日公开新闻的逻辑推演，不构成任何投资建议。股票市场受多重因素影响，预测具有不确定性。投资者应独立判断、自负盈亏。"
+}
