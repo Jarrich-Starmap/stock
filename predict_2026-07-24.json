@@ -1,696 +1,243 @@
 {
   "meta": {
-    "name": "2026-07-24 全球新闻股票推演",
-    "description": "基于 2026-07-24 hk.jarrich.cn/news/ 新闻聚合页面抓取的20条公开新闻，逐条分析潜在股票市场影响，给出短中长期多空方向推演",
+    "name": "2026年7月24日全球新闻股票推演",
+    "description": "基于2026年7月24日 hk.jarrich.cn/news 聚合的全球新闻事件，对相关股票进行短中长期多空逻辑推演",
     "category": "daily",
-    "source": "hk.jarrich.cn/news/ 综合整理",
-    "version": "1.0",
-    "update_time": "2026-07-24T17:00:00+08:00",
+    "source": "https://hk.jarrich.cn/news/ 2026-07-24 综合整理",
+    "version": "1.0.0",
+    "update_time": "2026-07-24T16:40:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
       "title": "美国对包括中国在内的60国征收新一波关税",
-      "logic": "新关税加剧中美贸易摩擦，中国出口型企业成本上升利润承压；稀土等战略资源作为反制工具受益；航运因贸易量预期下降承压",
+      "logic": "新一轮关税抬升中国出口成本，对出口导向型企业利润形成直接压力，同时可能引发中国反制措施，短期利空外贸板块；中长期加速供应链向东南亚/印度转移，利好转口贸易和海外产能布局企业",
       "stocks": [
-        {
-          "name": "中远海控",
-          "code": "1919.HK",
-          "market": "HK",
-          "sector": "航运物流",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "海尔智家",
-          "code": "6690.HK",
-          "market": "HK",
-          "sector": "家电出口",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "北方稀土",
-          "code": "600111.SH",
-          "market": "SH",
-          "sector": "稀土",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "申通快递",
-          "code": "002468.SZ",
-          "market": "SZ",
-          "sector": "物流内需",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "美的集团", "code": "000333.SZ", "market": "SZ", "sector": "家电出口", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "海尔智家", "code": "600690.SH", "market": "SH", "sector": "家电出口", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "申洲国际", "code": "2313.HK", "market": "HK", "sector": "纺织代工", "short_term": "↓", "mid_term": "↓", "long_term": "↓"},
+        {"name": "中远海控", "code": "601919.SH", "market": "SH", "sector": "航运物流", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 2,
       "title": "特朗普称人工智能将在9月习近平访美议程中",
-      "logic": "中美AI合作预期升温，利好两国AI产业链上下游企业；市场对AI监管缓和及技术合作持乐观态度",
+      "logic": "中美高层对话聚焦AI，预示两国在AI监管、标准制定方面可能达成合作框架，利好有海外业务的AI企业；同时也可能涉及技术出口限制谈判，对受制裁AI芯片企业短期情绪正面但实质改善有限",
       "stocks": [
-        {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "人工智能",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "商汤-W",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "人工智能",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "NVIDIA",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "百度", "code": "9888.HK", "market": "HK", "sector": "人工智能", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "商汤-W", "code": "0020.HK", "market": "HK", "sector": "人工智能", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "人工智能", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 3,
       "title": "中国海岸警卫队在南中国海用水炮驱逐菲律宾船只",
-      "logic": "南海紧张局势升级，军工板块受事件驱动走强；航运安全担忧短期推高运费但抑制航线稳定性",
+      "logic": "南海局势升级推高地缘风险溢价，利好军工、海工装备板块，同时可能扰动区域贸易和能源运输，短期对航运保险成本有抬升效应",
       "stocks": [
-        {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工造船",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中船防务",
-          "code": "0317.HK",
-          "market": "HK",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工航空",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
+        {"name": "中国船舶", "code": "600150.SH", "market": "SH", "sector": "军工船舶", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中航沈飞", "code": "600760.SH", "market": "SH", "sector": "军工航空", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "中国海防", "code": "600764.SH", "market": "SH", "sector": "海洋防务", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 4,
       "title": "Chris Wood警告：中国挑战AI热潮或致美国大规模资本毁灭",
-      "logic": "中国AI崛起威胁美国AI产业估值，美国AI巨头面临竞争加剧风险；中国AI自主可控概念受益",
+      "logic": "知名策略师警示中国AI崛起可能冲击美国AI估值泡沫，短期加剧市场对高估值美科技股的获利了结情绪；中长期若中国AI企业持续突破，将分流全球AI投资流向",
       "stocks": [
-        {
-          "name": "NVIDIA",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↓"
-        },
-        {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "0981.HK",
-          "market": "HK",
-          "sector": "半导体制造",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
+        {"name": "NVIDIA", "code": "NVDA.US", "market": "US", "sector": "AI芯片", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "Microsoft", "code": "MSFT.US", "market": "US", "sector": "云计算/AI", "short_term": "→", "mid_term": "→", "long_term": "→"},
+        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中芯国际", "code": "0981.HK", "market": "HK", "sector": "半导体制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 5,
       "title": "特朗普对印度征10%关税却对中国日本征12.5%",
-      "logic": "关税差异化体现美国对中国依赖度更高的供应链施压，中国出口竞争劣势加剧；南亚替代供应链（印度/越南）相对受益",
+      "logic": "差异化关税率反映美国对华贸易仍然强硬，中国出口竞争力相对受损；但对印度关税较低可能加速制造业向印度转移，利好在印度有产能布局的跨国公司",
       "stocks": [
-        {
-          "name": "立讯精密",
-          "code": "002475.SZ",
-          "market": "SZ",
-          "sector": "消费电子代工",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "美的集团",
-          "code": "000333.SZ",
-          "market": "SZ",
-          "sector": "家电出口",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "Infosys",
-          "code": "INFY.US",
-          "market": "US",
-          "sector": "IT服务",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "立讯精密", "code": "002475.SZ", "market": "SZ", "sector": "消费电子代工", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "富士康工业互联网", "code": "601138.SH", "market": "SH", "sector": "电子制造", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "丰田汽车", "code": "7203.JP", "market": "JP", "sector": "汽车制造", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 6,
       "title": "小鹏X9因高温空气悬挂故障大规模召回",
-      "logic": "大规模召回损害小鹏品牌信誉，短期股价承压；竞品理想、蔚来等或受益于市场份额转移；新能源汽车供应链相关零部件供应商受影响",
+      "logic": "X9是小鹏主力高端车型，大规模召回直接打击品牌声誉和Q3交付预期，维修成本增加拖累利润；短期股价承压，中长期取决于召回处理效率和后续产品力修复",
       "stocks": [
-        {
-          "name": "小鹏汽车",
-          "code": "9868.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↓↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "理想汽车",
-          "code": "2015.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "蔚来",
-          "code": "9866.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
+        {"name": "小鹏汽车", "code": "9868.HK", "market": "HK", "sector": "新能源汽车", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "小鹏汽车", "code": "XPEV.US", "market": "US", "sector": "新能源汽车", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "蔚来-SW", "code": "9866.HK", "market": "HK", "sector": "新能源汽车", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "理想汽车-W", "code": "2015.HK", "market": "HK", "sector": "新能源汽车", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 7,
       "title": "中美在东盟会议期间举行双边会晤",
-      "logic": "中美高层外交接触释放缓和信号，市场风险偏好回升；恒生及A股整体情绪面利好，尤其利好受关税压制的板块",
+      "logic": "中美外交渠道保持沟通对市场情绪偏正面，降低误判和冲突升级风险；对受贸易摩擦影响板块有短期情绪修复作用，但实质性政策变化需观察后续公报",
       "stocks": [
-        {
-          "name": "沪深300ETF",
-          "code": "510300.SH",
-          "market": "SH",
-          "sector": "宽基指数",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "恒生中国企业",
-          "code": "2828.HK",
-          "market": "HK",
-          "sector": "港股指数",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "互联网科技",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
+        {"name": "沪深300ETF", "code": "510300.SH", "market": "SH", "sector": "宽基指数", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "iShares中国大盘股ETF", "code": "FXI.US", "market": "US", "sector": "中国概念", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 8,
       "title": "中国代表团驳斥日方涉台海南海错误言论",
-      "logic": "中日地缘政治摩擦加剧，军工及自主可控板块短期受事件驱动；日系合资车企及相关供应链面临政治风险",
+      "logic": "中日外交摩擦升温，可能影响中日经贸关系；日本在中国有大量汽车和电子产能，若关系恶化可能波及相关供应链企业",
       "stocks": [
-        {
-          "name": "中航西飞",
-          "code": "000768.SZ",
-          "market": "SZ",
-          "sector": "军工航空",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "广汽集团",
-          "code": "2238.HK",
-          "market": "HK",
-          "sector": "汽车合资",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        }
+        {"name": "丰田汽车", "code": "7203.JP", "market": "JP", "sector": "汽车制造", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "本田汽车", "code": "7267.JP", "market": "JP", "sector": "汽车制造", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "索尼", "code": "6758.JP", "market": "JP", "sector": "电子消费", "short_term": "→", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 9,
-      "title": "中国双人首获菲尔兹奖：一周七大要闻回顾",
-      "logic": "中国数学界历史性突破提振民族信心，但对资本市场直接影响有限；长期利好教育及基础科研投入预期",
+      "title": "中国排除设定老年人医疗自付上限的可能性",
+      "logic": "政府表态维持医疗费用分担机制，对商业健康险是结构性利好——民众为对冲高额医疗支出将增加商业保险配置；同时医疗控费压力持续，对仿制药、高值耗材企业形成长期利润压制",
       "stocks": [
-        {
-          "name": "中公教育",
-          "code": "002607.SZ",
-          "market": "SZ",
-          "sector": "教育培训",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国人寿", "code": "601628.SH", "market": "SH", "sector": "保险", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "友邦保险", "code": "1299.HK", "market": "HK", "sector": "保险", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "恒瑞医药", "code": "600276.SH", "market": "SH", "sector": "制药", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 10,
-      "title": "中国排除设定老年人医疗自付上限的可能性",
-      "logic": "政策表态表明医保基金可持续性优先于扩大覆盖，商业健康险需求预期上升；医保控费压力持续，仿制药及医疗器械承压",
+      "title": "欧洲议会外事委员会代表团结束访华",
+      "logic": "欧盟与中国外交接触释放关系缓和信号，有助于降低中欧贸易摩擦预期；利好对欧出口占比较高的光伏、新能源车、机械设备企业",
       "stocks": [
-        {
-          "name": "中国平安",
-          "code": "2318.HK",
-          "market": "HK",
-          "sector": "保险",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国人寿",
-          "code": "2628.HK",
-          "market": "HK",
-          "sector": "保险",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "恒瑞医药",
-          "code": "600276.SH",
-          "market": "SH",
-          "sector": "医药",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        }
+        {"name": "比亚迪", "code": "1211.HK", "market": "HK", "sector": "新能源汽车", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "隆基绿能", "code": "601012.SH", "market": "SH", "sector": "光伏", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "宁德时代", "code": "300750.SZ", "market": "SZ", "sector": "动力电池", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 11,
-      "title": "欧洲议会外事委员会代表团结束访华",
-      "logic": "中欧外交互动释放关系缓和信号，利好中欧贸易链；光伏、新能源车等对欧出口板块情绪改善",
+      "title": "中国全力追赶美国AI芯片的内幕",
+      "logic": "WSJ深度报道中国AI芯片产业进展，引发市场对国产替代加速的预期；短期提振半导体自主可控板块情绪，中长期关注实际量产良率和生态建设进展",
       "stocks": [
-        {
-          "name": "隆基绿能",
-          "code": "601012.SH",
-          "market": "SH",
-          "sector": "光伏",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "比亚迪",
-          "code": "1211.HK",
-          "market": "HK",
-          "sector": "新能源汽车",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
+        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "半导体制造", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "寒武纪", "code": "688256.SH", "market": "SH", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "海光信息", "code": "688041.SH", "market": "SH", "sector": "CPU/AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "ASML", "code": "ASML.US", "market": "US", "sector": "光刻设备", "short_term": "→", "mid_term": "↓", "long_term": "↓"}
       ]
     },
     {
       "id": 12,
-      "title": "中国数学家首次赢得菲尔兹奖",
-      "logic": "与id=9主题类似，数学界历史性突破，象征意义大于实际市场影响，短期对科技股情绪有微弱正面作用",
+      "title": "中美推进相互关税削减",
+      "logic": "关税削减直接降低双边贸易成本，对跨境电商业绩有立竿见影的提振；利好出口导向型企业恢复利润率，同时对美国零售商和消费者也是积极信号",
       "stocks": [
-        {
-          "name": "科大讯飞",
-          "code": "002230.SZ",
-          "market": "SZ",
-          "sector": "人工智能",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "阿里巴巴", "code": "9988.HK", "market": "HK", "sector": "跨境电商", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "拼多多", "code": "PDD.US", "market": "US", "sector": "跨境电商", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "SHEIN", "code": "SHEIN.PRIVATE", "market": "PRIVATE", "sector": "跨境电商", "short_term": "↑↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "沃尔玛", "code": "WMT.US", "market": "US", "sector": "零售", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "美的集团", "code": "000333.SZ", "market": "SZ", "sector": "家电出口", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 13,
-      "title": "中国全力追赶美国AI芯片的内幕",
-      "logic": "中国AI芯片自主化进程加速，国产替代概念持续受益；对NVIDIA等美国芯片巨头长期市场份额构成威胁",
+      "title": "中国山体滑坡死亡人数升至11人，50人仍失踪",
+      "logic": "重大自然灾害短期推高保险理赔预期，财险公司承保利润承压；中长期可能推动防灾基建投资和巨灾保险制度完善，利好基建和再保险板块",
       "stocks": [
-        {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "0981.HK",
-          "market": "HK",
-          "sector": "半导体制造",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "海光信息",
-          "code": "688041.SH",
-          "market": "SH",
-          "sector": "芯片设计",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "NVIDIA",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        }
+        {"name": "中国财险", "code": "2328.HK", "market": "HK", "sector": "财产保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "→", "mid_term": "→", "long_term": "→"},
+        {"name": "中国中铁", "code": "601390.SH", "market": "SH", "sector": "基建工程", "short_term": "→", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 14,
-      "title": "中美推进相互关税削减",
-      "logic": "关税削减直接利好中美贸易相关企业，出口成本降低；航运贸易量预期回升；跨境电商及外贸企业利润空间扩大",
+      "title": "中国金价下跌后黄金进口激增",
+      "logic": "中国趁金价回调大幅增持，反映官方和民间对黄金的战略配置需求强劲，对金价形成底部支撑；利好黄金矿业和珠宝零售企业，同时暗示人民币贬值预期下的避险需求",
       "stocks": [
-        {
-          "name": "中远海控",
-          "code": "1919.HK",
-          "market": "HK",
-          "sector": "航运物流",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "海尔智家",
-          "code": "6690.HK",
-          "market": "HK",
-          "sector": "家电出口",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "SHEIN",
-          "code": "SHEIN.PRIVATE",
-          "market": "PRIVATE",
-          "sector": "跨境电商",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "跨境电商",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
+        {"name": "紫金矿业", "code": "601899.SH", "market": "SH", "sector": "黄金矿业", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "山东黄金", "code": "600547.SH", "market": "SH", "sector": "黄金矿业", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "周大福", "code": "1929.HK", "market": "HK", "sector": "珠宝零售", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "SPDR黄金ETF", "code": "GLD.US", "market": "US", "sector": "黄金ETF", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 15,
-      "title": "中国山体滑坡死亡人数升至11人，50人仍失踪",
-      "logic": "重大自然灾害短期推升保险赔付预期，利空财险公司；灾后重建预期利好基建及工程机械板块",
+      "title": "调查显示更多美国人认为中国是AI领域世界领导者",
+      "logic": "舆论认知转变可能影响投资流向和政策制定，增强全球资金对中国AI资产的配置意愿；短期提振中概AI概念股估值，中长期有利于中国AI企业获得更高估值溢价",
       "stocks": [
-        {
-          "name": "中国平安",
-          "code": "2318.HK",
-          "market": "HK",
-          "sector": "保险",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "三一重工",
-          "code": "600031.SH",
-          "market": "SH",
-          "sector": "工程机械",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国中铁",
-          "code": "0390.HK",
-          "market": "HK",
-          "sector": "基建",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
+        {"name": "百度", "code": "9888.HK", "market": "HK", "sector": "人工智能", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "阿里巴巴", "code": "BABA.US", "market": "US", "sector": "云计算/AI", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "腾讯控股", "code": "0700.HK", "market": "HK", "sector": "互联网/AI", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "KraneShares中国科技ETF", "code": "KWEB.US", "market": "US", "sector": "中概科技", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 16,
-      "title": "中国力争提升基础教育：聚焦德育、健康与公平",
-      "logic": "教育政策利好教育信息化及素质教育赛道；课外培训监管环境未明确放松，K12学科培训仍受限",
+      "title": "中国双人首获菲尔兹奖：一周七大要闻回顾（含关税要闻）",
+      "logic": "菲尔兹奖零突破提振中国基础科研信心，对高等教育和科研服务板块有长期正面影响；同时该文涉及的关税要闻已在其他条目中分析，本条目聚焦科研突破的资本市场映射",
       "stocks": [
-        {
-          "name": "好未来",
-          "code": "TAL.US",
-          "market": "US",
-          "sector": "教育科技",
-          "short_term": "→",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "网易有道",
-          "code": "DAO.US",
-          "market": "US",
-          "sector": "教育科技",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "中教控股", "code": "0839.HK", "market": "HK", "sector": "高等教育", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 17,
-      "title": "调查显示更多美国人认为中国是AI领域世界领导者",
-      "logic": "认知转变强化中国AI产业估值逻辑，利好中概AI股；可能促使美国加大AI投资以维持领先地位",
+      "title": "中国力争提升基础教育：聚焦德育、健康与公平",
+      "logic": "教育政策转向素质教育利好教育信息化、体育器材和健康食品赛道，对学科类培训维持严监管态度不变",
       "stocks": [
-        {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "人工智能",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "商汤-W",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "人工智能",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "NVIDIA",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "教育信息化", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "视源股份", "code": "002841.SZ", "market": "SZ", "sector": "教育交互平板", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 18,
-      "title": "中国金价下跌后黄金进口激增",
-      "logic": "金价回调刺激中国实物黄金需求大增，利好黄金零售商及矿业公司；进口激增反映中国对黄金的长期战略储备需求",
-      "stocks": [
-        {
-          "name": "紫金矿业",
-          "code": "2899.HK",
-          "market": "HK",
-          "sector": "黄金矿业",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "山东黄金",
-          "code": "1787.HK",
-          "market": "HK",
-          "sector": "黄金矿业",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "周大福",
-          "code": "1929.HK",
-          "market": "HK",
-          "sector": "黄金珠宝零售",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
+      "title": "赤峰主教在中国晋牧（梵蒂冈报道）",
+      "logic": "中梵关系持续正常化，对在梵蒂冈有业务往来的宗教用品和文化交流企业有边际利好，但整体对资本市场直接影响较小",
+      "stocks": []
+    },
+    {
+      "id": 19,
+      "title": "花3万卢比赢回前任？中国新兴情感挽回产业引关注",
+      "logic": "情感挽回产业兴起反映消费心理服务市场增长，但行业缺乏规范、公司多为小微企业，暂无直接上市公司标的；可关注消费心理和社交服务赛道长期趋势",
+      "stocks": []
     }
   ],
   "summary": {
     "newly_added": [
       {
-        "label": "中美关税新一波（新增）",
-        "theme": "美国对60国加征新关税，中国出口承压",
+        "label": "中美关税削减（新增）",
+        "theme": "中美推进互相削减关税，跨境电商和出口板块迎来直接利好",
         "stocks": [
-          {
-            "name": "中远海控",
-            "code": "1919.HK",
-            "short_term": "↓"
-          },
-          {
-            "name": "北方稀土",
-            "code": "600111.SH",
-            "short_term": "↑"
-          }
+          {"name": "阿里巴巴", "code": "9988.HK", "short_term": "↑↑"},
+          {"name": "拼多多", "code": "PDD.US", "short_term": "↑↑"},
+          {"name": "美的集团", "code": "000333.SZ", "short_term": "↑"}
         ]
       },
       {
-        "label": "中美AI合作预期（新增）",
-        "theme": "特朗普称AI入9月习拜会议程",
+        "label": "中国AI芯片追赶内幕（新增）",
+        "theme": "WSJ深度报道中国AI芯片进展，半导体自主可控板块获提振",
         "stocks": [
-          {
-            "name": "百度",
-            "code": "9888.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "商汤-W",
-            "code": "0020.HK",
-            "short_term": "↑↑"
-          }
+          {"name": "寒武纪", "code": "688256.SH", "short_term": "↑"},
+          {"name": "中芯国际", "code": "688981.SH", "short_term": "↑"},
+          {"name": "海光信息", "code": "688041.SH", "short_term": "↑"}
         ]
       },
       {
-        "label": "南海紧张升级（新增）",
-        "theme": "中国海警水炮驱逐菲船",
+        "label": "金价回调中国增持（新增）",
+        "theme": "中国趁金价下跌大举进口黄金，黄金矿业和珠宝零售获支撑",
         "stocks": [
-          {
-            "name": "中国船舶",
-            "code": "600150.SH",
-            "short_term": "↑"
-          }
+          {"name": "紫金矿业", "code": "601899.SH", "short_term": "↑"},
+          {"name": "山东黄金", "code": "600547.SH", "short_term": "↑"},
+          {"name": "GLD", "code": "GLD.US", "short_term": "↑"}
         ]
       },
       {
-        "label": "中国AI芯片追赶（新增）",
-        "theme": "WSJ爆中国追赶美国AI芯片内幕",
+        "label": "美国人对中国AI领导力认知转变（新增）",
+        "theme": "调查显示更多美国人认为中国是AI领导者，利好中概AI概念估值",
         "stocks": [
-          {
-            "name": "寒武纪",
-            "code": "688256.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "NVIDIA",
-            "code": "NVDA.US",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "小鹏X9大规模召回（新增）",
-        "theme": "高温致空气悬挂故障召回",
-        "stocks": [
-          {
-            "name": "小鹏汽车",
-            "code": "9868.HK",
-            "short_term": "↓↓"
-          }
-        ]
-      },
-      {
-        "label": "金价下跌黄金进口激增（新增）",
-        "theme": "中国趁金价回调大量进口黄金",
-        "stocks": [
-          {
-            "name": "紫金矿业",
-            "code": "2899.HK",
-            "short_term": "↑"
-          },
-          {
-            "name": "山东黄金",
-            "code": "1787.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "中美推进关税削减（新增）",
-        "theme": "相互关税削减推进中",
-        "stocks": [
-          {
-            "name": "中远海控",
-            "code": "1919.HK",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "阿里巴巴",
-            "code": "9988.HK",
-            "short_term": "↑"
-          }
+          {"name": "腾讯控股", "code": "0700.HK", "short_term": "↑"},
+          {"name": "百度", "code": "9888.HK", "short_term": "↑"},
+          {"name": "KWEB", "code": "KWEB.US", "short_term": "↑"}
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月24日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向符号说明：↑上涨、↑↑强势上涨、→横盘震荡、↓下跌。"
 }
