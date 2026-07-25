@@ -1,67 +1,94 @@
 {
   "meta": {
     "name": "2026年7月25日全球新闻股票推演",
-    "description": "基于2026年7月25日hk.jarrich.cn/news/聚合的全球新闻，逐条分析对相关上市公司的短中长期影响，覆盖A股、港股、美股、台股、日股、菲股、印股等市场",
+    "description": "基于2026年7月25日全球新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及亚太欧洲市场，共计19条市场相关新闻分析",
     "category": "daily",
-    "source": "2026年7月25日 hk.jarrich.cn/news/ 综合整理",
-    "version": "1.0.0",
-    "update_time": "2026-07-25T00:40:00+08:00",
+    "source": "hk.jarrich.cn/news/ 2026年7月25日综合整理",
+    "version": "1.0",
+    "update_time": "2026-07-25T10:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "星耀未来青少年羽毛球年度总决赛启幕",
-      "logic": "青少年羽毛球总决赛属于体育赛事，对运动品牌、体育营销有短期关注度提振，但赛事规模有限，影响主要集中在国产运动装备板块的情绪面。",
+      "title": "新闻人间：梁文锋的克制与野心",
+      "logic": "梁文锋作为DeepSeek创始人与幻方量化掌舵人，其个人形象与战略动向直接影响市场对中国AI大模型赛道的信心。深度报道揭示其商业布局与野心，若释放技术突破或商业化加速信号，将提振中国AI产业链整体估值；反之若强调行业瓶颈或监管压力，则打压板块预期。幻方量化作为头部量化私募，其策略动向亦影响A股量化资金流向。",
       "stocks": [
         {
-          "name": "李宁",
-          "code": "2331.HK",
+          "name": "商汤-W",
+          "code": "0020.HK",
           "market": "HK",
-          "sector": "体育用品",
+          "sector": "人工智能",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑↑"
         },
         {
-          "name": "安踏体育",
-          "code": "2020.HK",
+          "name": "百度集团-SW",
+          "code": "9888.HK",
           "market": "HK",
-          "sector": "体育用品",
+          "sector": "人工智能",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "台湾科技部长称AI机器人战略与中国不同",
-      "logic": "台湾强调差异化AI机器人战略，凸显两岸科技竞争加剧。台湾在半导体制造（台积电）和AI硬件供应链上有优势，差异化路线可能强化其产业链自主性，但两岸关系紧张对科技供应链构成长期风险。",
+      "title": "民调：36%美国人认为中国AI领先",
+      "logic": "民调显示超三分之一美国人认可中国AI领先地位，反映出全球AI竞争格局正在发生深刻变化。这一公众认知转变将推动美国政策层面加大对AI投入与对华技术限制力度，短期利空美国AI供应链但利好自主可控方向；同时增强国际资本对中国AI资产的信心，有利于中国AI概念股估值修复。中美AI博弈加剧，双方相关企业均将受益于政策资源倾斜。",
       "stocks": [
         {
-          "name": "台积电",
-          "code": "2330.TW",
-          "market": "TW",
-          "sector": "半导体",
-          "short_term": "→",
-          "mid_term": "↑",
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "鸿海精密",
-          "code": "2317.TW",
-          "market": "TW",
-          "sector": "电子制造",
-          "short_term": "→",
+          "name": "商汤-W",
+          "code": "0020.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度集团-SW",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "人工智能",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
           "name": "中芯国际",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "半导体",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体制造",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑↑"
@@ -70,24 +97,42 @@
     },
     {
       "id": 3,
-      "title": "孟加拉国议长担任代理总统",
-      "logic": "孟加拉国政局变动，议长代理总统暗示政权过渡。孟加拉是全球第二大服装出口国，政局不稳可能影响纺织供应链稳定性，利好替代产能国家（越南、印度），对在孟加拉有大量产能的纺织企业构成短期风险。",
+      "title": "英伟达、微软、Palantir引领科技巨头联合反对AI限制",
+      "logic": "英伟达、微软、Palantir联合反对美国政府AI出口限制政策，表明大型科技企业对当前管制框架的不满已达到临界点。若游说成功推动政策放松，将直接利好三家公司的海外营收预期，尤其是英伟达对华芯片销售。短期市场可能因政策不确定性而波动，但中长期看企业联合发声增加了政策松动概率，对AI硬件和软件出口链形成利好。",
       "stocks": [
         {
-          "name": "申洲国际",
-          "code": "2313.HK",
-          "market": "HK",
-          "sector": "纺织服装",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
         },
         {
-          "name": "鲁泰纺织",
-          "code": "000726.SZ",
-          "market": "SZ",
-          "sector": "纺织服装",
-          "short_term": "→",
+          "name": "微软",
+          "code": "MSFT",
+          "market": "US",
+          "sector": "云计算/AI",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Palantir",
+          "code": "PLTR",
+          "market": "US",
+          "sector": "大数据/AI",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "AMD",
+          "code": "AMD",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         }
@@ -95,210 +140,84 @@
     },
     {
       "id": 4,
-      "title": "王毅出席上海合作组织外长会：以中国行动赋能地区发展",
-      "logic": "上合组织外长会强调中国在中亚和南亚地区的经济合作，利好一带一路基建、能源、贸易相关企业。中国与中亚的能源管道、铁路互联互通项目有望加速推进。",
+      "title": "华尔街股市震荡，油价同步下跌",
+      "logic": "华尔街股市与原油价格同步下挫，反映出市场对宏观经济前景的担忧加剧。股市震荡可能源于企业财报不及预期或美联储政策信号偏鹰；油价下跌则暗示全球需求走弱预期。双重压力下市场避险情绪升温，资金可能从风险资产向避险资产转移，短期内周期股和能源股承压，防御性板块相对受益。",
       "stocks": [
         {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "标普500 ETF",
+          "code": "SPY",
+          "market": "US",
+          "sector": "指数",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "中国中铁",
-          "code": "601390.SH",
-          "market": "SH",
-          "sector": "基建",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "埃克森美孚",
+          "code": "XOM",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "↑"
         },
         {
-          "name": "中油工程",
-          "code": "600339.SH",
-          "market": "SH",
-          "sector": "能源工程",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "雪佛龙",
+          "code": "CVX",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
+        },
+        {
+          "name": "美国石油基金",
+          "code": "USO",
+          "market": "US",
+          "sector": "原油",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 5,
-      "title": "特朗普警告中俄不要向伊朗提供武器",
-      "logic": "地缘政治紧张升级，特朗普公开警告中俄不得向伊朗提供武器，暗示中东局势可能进一步恶化。原油供应风险上升，利好油价和军工板块；同时中美关系因伊朗问题承压，对在中国有大量业务的美国科技公司构成政策风险。",
+      "title": "中国斡旋下美伊关系修复再启新尝试",
+      "logic": "中国积极斡旋美伊关系修复，若取得实质性进展将缓解中东地缘紧张局势，降低原油供应中断风险。短期利空原油价格（地缘溢价消退），但中长期有利于中东稳定和全球贸易畅通。对中国而言，成功斡旋将提升国际影响力，利好一带一路沿线投资和能源合作项目，中石油、中海油等海外业务占比高的能源央企受益于中东局势稳定。",
       "stocks": [
         {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↑",
+          "name": "中国石油股份",
+          "code": "0857.HK",
+          "market": "HK",
+          "sector": "能源",
+          "short_term": "↓",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑↑"
         },
         {
-          "name": "中国海油",
-          "code": "600938.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↑",
+          "name": "中国海洋石油",
+          "code": "0883.HK",
+          "market": "HK",
+          "sector": "能源",
+          "short_term": "↓",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "洛克希德·马丁",
-          "code": "LMT.US",
+          "name": "埃克森美孚",
+          "code": "XOM",
           "market": "US",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "RTX Corp",
-          "code": "RTX.US",
-          "market": "US",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "五角大楼扩大黑名单，纳入中国顶尖民用大学",
-      "logic": "美国国防部进一步扩大实体清单，将中国顶尖民用大学纳入黑名单，加剧中美科技脱钩。直接影响高校合作项目及科研设备进口，间接影响中国半导体、AI、量子计算等前沿科技的研发进度，利好国产替代和自主可控概念。",
-      "stocks": [
-        {
-          "name": "中芯国际",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "半导体",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SZ",
-          "sector": "半导体设备",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "华大九天",
-          "code": "301269.SZ",
-          "market": "SZ",
-          "sector": "EDA",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "APEC人工智能高级别论坛发布促进亚太地区人工智能发展声明",
-      "logic": "APEC论坛发表AI发展联合声明，亚太各国将在AI治理、标准制定、产业合作上协同推进。利好亚太地区AI产业链，包括算力基础设施、AI应用、数据服务等。中国AI企业有望在区域合作中获得更多市场机会。",
-      "stocks": [
-        {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "AI/互联网",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "AI/云计算",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "NVIDIA",
-          "code": "NVDA.US",
-          "market": "US",
-          "sector": "AI芯片",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "商汤-W",
-          "code": "0020.HK",
-          "market": "HK",
-          "sector": "AI",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "腾讯控股",
-          "code": "0700.HK",
-          "market": "HK",
-          "sector": "AI/互联网",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "前南卡警察因杀妻案在逃21年后从中国被引渡回美",
-      "logic": "纯社会/司法新闻，中美司法合作个案的体现，利好两国执法合作关系，但对资本市场无直接标的映射，仅在宏观层面显示中美可在具体领域保持合作。",
-      "stocks": []
-    },
-    {
-      "id": 9,
-      "title": "特朗普称中俄已保证不向伊朗提供武器",
-      "logic": "特朗普表态中俄已保证不向伊朗供武，与第5条形成对冲。若保证属实，中东局势降温，油价回落预期增强。但言辞可信度存疑，市场可能维持谨慎观望。航空、运输业受益于低油价预期。",
-      "stocks": [
-        {
-          "name": "中国国航",
-          "code": "601111.SH",
-          "market": "SH",
-          "sector": "航空运输",
-          "short_term": "↑",
+          "sector": "能源",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "达美航空",
-          "code": "DAL.US",
+          "name": "WTI原油期货",
+          "code": "CL=F",
           "market": "US",
-          "sector": "航空运输",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "雪佛龙",
-          "code": "CVX.US",
-          "market": "US",
-          "sector": "石油",
+          "sector": "原油",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
@@ -306,52 +225,36 @@
       ]
     },
     {
-      "id": 10,
-      "title": "巴基斯坦与伊朗在中国支持下探索重启对美谈判",
-      "logic": "中国斡旋巴基斯坦与伊朗重启对美谈判，体现中国在中东/南亚外交影响力的上升。一带一路沿线国家关系改善利好中国基建、能源和贸易企业在巴伊两国的项目推进。",
+      "id": 6,
+      "title": "美国众议院审查AI网络威胁，聚焦中国兵棋推演",
+      "logic": "美国众议院以中国为假想敌开展AI网络威胁兵棋推演审查，预示着新一轮针对AI和网络安全领域的立法与监管行动即将出台。这将加速美国政府和企业对网络安全基础设施的投入，同时对涉及跨境数据流动的科技公司形成合规压力。网络安全板块将直接受益于预算增长，而中资背景科技企业可能面临更严格的审查。",
       "stocks": [
         {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国能建",
-          "code": "601868.SH",
-          "market": "SH",
-          "sector": "能源基建",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国电建",
-          "code": "601669.SH",
-          "market": "SH",
-          "sector": "电力基建",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "中美在禁毒、遣返追逃、打击电诈等领域执法合作取得最新成果",
-      "logic": "中美在非敏感领域执法合作取得进展，释放双边关系局部缓和信号。缓解市场对全面脱钩的担忧，利好中美贸易相关企业及在美有业务的中概股。网络安全板块因电诈打击合作受关注。",
-      "stocks": [
-        {
-          "name": "阿里巴巴",
-          "code": "BABA.US",
+          "name": "CrowdStrike",
+          "code": "CRWD",
           "market": "US",
-          "sector": "电商/云计算",
+          "sector": "网络安全",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Palo Alto Networks",
+          "code": "PANW",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Fortinet",
+          "code": "FTNT",
+          "market": "US",
+          "sector": "网络安全",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
           "name": "奇安信",
@@ -359,14 +262,302 @@
           "market": "SH",
           "sector": "网络安全",
           "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "欧洲能否避免陷入衰退？",
+      "logic": "市场对欧洲经济衰退风险的讨论升温，反映出欧元区在能源转型、制造业疲软和地缘不确定性下面临的深层挑战。若衰退预期兑现，将拖累全球贸易和大宗商品需求，欧元及欧股承压；但同时也增加了欧洲央行加速降息的概率，对利率敏感的房地产和公用事业板块形成对冲支撑。全球经济联动下，新兴市场出口导向型企业需警惕需求萎缩风险。",
+      "stocks": [
+        {
+          "name": "欧元区ETF",
+          "code": "EZU",
+          "market": "US",
+          "sector": "指数",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "深信服",
-          "code": "300454.SZ",
-          "market": "SZ",
-          "sector": "网络安全",
+          "name": "德意志银行",
+          "code": "DB",
+          "market": "US",
+          "sector": "金融",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "LVMH",
+          "code": "MC.PA",
+          "market": "FR",
+          "sector": "奢侈品",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "宝马",
+          "code": "BMW.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "特朗普：美国与伊朗现在仍在对话",
+      "logic": "特朗普确认美伊对话持续进行，与第5条新闻（中国斡旋）形成呼应。持续对话降低军事冲突的尾部风险，对中东稳定构成边际利好。原油市场的地缘溢价值进一步压缩，能源股短期承压但中长期受益于稳定的商业环境。军工板块可能因冲突预期降温而面临短期回调压力。",
+      "stocks": [
+        {
+          "name": "洛克希德·马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "雷神技术",
+          "code": "RTX",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "WTI原油期货",
+          "code": "CL=F",
+          "market": "US",
+          "sector": "原油",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海洋石油",
+          "code": "0883.HK",
+          "market": "HK",
+          "sector": "能源",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "天宝集团内部人士增持230万港元股票",
+      "logic": "天宝集团(1979.HK)内部人士斥资230万港元增持公司股票，属于强烈的看涨信号。内部人士增持通常基于对公司未来前景的深度了解，信号可信度较高。天宝集团主营电源解决方案，受益于全球电子制造和新能源产业链扩张。内部增持叠加行业顺风，短期提振市场信心。",
+      "stocks": [
+        {
+          "name": "天宝集团",
+          "code": "1979.HK",
+          "market": "HK",
+          "sector": "电子制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "维珍妮国际盈利质量获市场认可",
+      "logic": "Simply Wall St对维珍妮国际(2199.HK)的盈利质量给予正面评价，认为其利润不仅来自账面数字更有实质性现金流支撑。维珍妮作为全球领先的内衣及运动服装OEM制造商，受益于全球消费复苏和运动休闲趋势。盈利质量获认可有助于估值修复，吸引价值投资者关注。",
+      "stocks": [
+        {
+          "name": "维珍妮国际",
+          "code": "2199.HK",
+          "market": "HK",
+          "sector": "服装制造",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "国泰航空公布2026年上半年盈利及运量增长",
+      "logic": "国泰航空(0293.HK)公布2026年上半年实现盈利且运量增长，标志着疫情后航空业复苏进入实质盈利阶段。客运和货运双增长反映出香港国际枢纽地位持续恢复，叠加暑期旅游旺季预期，短期业绩催化明显。然而第18条新闻提及台风红霞直扑香港，短期可能对航班运营造成扰动，需关注天气因素对Q3业绩的潜在影响。",
+      "stocks": [
+        {
+          "name": "国泰航空",
+          "code": "0293.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国国航",
+          "code": "0753.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "南方航空",
+          "code": "1055.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "台湾半导体故事启发巴西，纪录片引热烈回响",
+      "logic": "台湾半导体产业发展经验通过纪录片形式在巴西引发关注，反映出全球新兴市场国家对建立自主半导体产业链的强烈诉求。台湾半导体模式向拉美输出将拓展台积电等企业的地缘多元化布局空间，降低供应链过度集中于东亚的风险。巴西作为拉美最大经济体若启动半导体战略，将为全球设备商和IP授权方带来增量市场。",
+      "stocks": [
+        {
+          "name": "台积电",
+          "code": "TSM",
+          "market": "US",
+          "sector": "半导体制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "阿斯麦",
+          "code": "ASML",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "联发科",
+          "code": "2454.TW",
+          "market": "TW",
+          "sector": "IC设计",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体制造",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "英国夏季混乱与水务公司高管涨薪引发争议",
+      "logic": "英国夏季供水混乱与水务公司高管涨薪同时发生，引发公众和政治层面的强烈反弹。此类争议通常推动监管机构加强对水务行业的审查和限价，对水务公司盈利预期构成政策风险。但若混乱暴露了基础设施投资不足的深层问题，长期看反而可能推动政府加大水务基建投入。短期政治压力利空，长期基建需求利多。",
+      "stocks": [
+        {
+          "name": "United Utilities",
+          "code": "UU.L",
+          "market": "UK",
+          "sector": "水务",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Severn Trent",
+          "code": "SVT.L",
+          "market": "UK",
+          "sector": "水务",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "勒布朗·詹姆斯将加盟费城76人队",
+      "logic": "勒布朗·詹姆斯若加盟费城76人队将是NBA历史上最具震撼力的转会之一，对体育产业产生多维度影响：76人队商业价值飙升（门票、转播权、周边销售），NBA整体关注度和收视率大幅提升，体育博彩市场活跃度增加。耐克作为詹姆斯终身代言品牌直接受益于其市场曝光度增加。麦迪逊广场花园体育(MSG Sports)若涉及相关商业权益也将受益。",
+      "stocks": [
+        {
+          "name": "耐克",
+          "code": "NKE",
+          "market": "US",
+          "sector": "体育用品",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "DraftKings",
+          "code": "DKNG",
+          "market": "US",
+          "sector": "体育博彩",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "麦迪逊广场花园体育",
+          "code": "MSGS",
+          "market": "US",
+          "sector": "体育娱乐",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "委内瑞拉强震遇难人数上升至5546人",
+      "logic": "委内瑞拉强震造成重大人员伤亡，将对全球保险和再保险行业产生显著的理赔压力。大型自然灾害通常推高再保险费率，短期利空承担巨灾风险的保险公司股价但中长期有利于费率提升。地震还可能影响委内瑞拉石油生产基础设施，若产能受损将对原油价格形成短期上行扰动。",
+      "stocks": [
+        {
+          "name": "安达保险",
+          "code": "CB",
+          "market": "US",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "美国国际集团",
+          "code": "AIG",
+          "market": "US",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "慕尼黑再保险",
+          "code": "MUV2.DE",
+          "market": "DE",
+          "sector": "再保险",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "WTI原油期货",
+          "code": "CL=F",
+          "market": "US",
+          "sector": "原油",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
@@ -374,33 +565,67 @@
       ]
     },
     {
-      "id": 12,
-      "title": "中国海警在巴霍德马辛洛克对菲方船只发射水炮",
-      "logic": "南海紧张局势持续升级，中国海警对菲律宾船只使用水炮，显示南海争端趋于激化。军工板块受情绪提振，同时南海航线安全担忧可能推升航运保险成本，对航运股构成压力。",
+      "id": 16,
+      "title": "九龙龙翔道进行升级改造工程",
+      "logic": "九龙龙翔道作为香港重要的交通干道启动升级改造，反映出香港特区政府持续推进基础设施更新。基建投资直接利好本地建筑承包商和建材供应商，同时改善交通效率对沿线商业物业价值构成长期正面影响。项目规模虽单独有限，但叠加香港北部都会区等大型基建规划，香港基建板块处于上升周期。",
       "stocks": [
         {
-          "name": "中船防务",
-          "code": "600685.SH",
-          "market": "SH",
-          "sector": "军工造船",
-          "short_term": "↑",
+          "name": "长江基建集团",
+          "code": "1038.HK",
+          "market": "HK",
+          "sector": "基建",
+          "short_term": "→",
           "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "香港铁路",
+          "code": "0066.HK",
+          "market": "HK",
+          "sector": "交通基建",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "新鸿基地产",
+          "code": "0016.HK",
+          "market": "HK",
+          "sector": "房地产",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "台风红霞升呢台风级直扑香港",
+      "logic": "台风红霞升级为台风级并直扑香港，将对香港正常经济活动造成短期冲击。航空业首当其冲（航班取消或延误），保险业面临财产险理赔压力，零售和旅游业亦受负面影响。但台风影响通常是短暂的一次性冲击，对长期基本面影响有限。国泰航空刚刚公布上半年盈利增长，台风可能对Q3初期运营数据造成扰动。",
+      "stocks": [
+        {
+          "name": "国泰航空",
+          "code": "0293.HK",
+          "market": "HK",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工造船",
-          "short_term": "↑",
-          "mid_term": "↑",
+          "name": "友邦保险",
+          "code": "1299.HK",
+          "market": "HK",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中远海控",
-          "code": "601919.SH",
-          "market": "SH",
-          "sector": "航运",
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "金融",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
@@ -408,106 +633,61 @@
       ]
     },
     {
-      "id": 13,
-      "title": "中国Kimi K3 AI模型缩小与美国差距，引发第二次中国AI冲击",
-      "logic": "The Economic Times报道Kimi K3（月之暗面Moonshot AI旗下）性能大幅提升，缩小与OpenAI等美国前沿模型的差距。这是继DeepSeek之后第二次'中国AI冲击'，直接利好中国AI产业链：大模型厂商、算力基础设施、AI应用生态。对美股AI龙头构成竞争压力。",
+      "id": 18,
+      "title": "曼联与阿森纳筹划引进奥利·沃特金斯",
+      "logic": "曼联和阿森纳两大英超豪门同时追逐阿斯顿维拉前锋沃特金斯，反映出顶级俱乐部在转会市场的积极布局。对于曼联(MANU)而言，重大引援传闻通常提振股价，市场将其解读为俱乐部增强竞技实力和商业价值的信号。体育博彩和转播权市场也将受益于转会话题热度提升。",
       "stocks": [
         {
-          "name": "百度",
-          "code": "9888.HK",
-          "market": "HK",
-          "sector": "AI/大模型",
-          "short_term": "↑↑",
+          "name": "曼联",
+          "code": "MANU",
+          "market": "US",
+          "sector": "体育娱乐",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "DraftKings",
+          "code": "DKNG",
+          "market": "US",
+          "sector": "体育博彩",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "文莱部长现身APEC数字周，数字丝绸之路加速落地",
+      "logic": "文莱部长在APEC数字周期间亲自体验中国数字解决方案，标志着数字丝绸之路在东盟地区加速落地。中国数字经济出海从基础设施输出升级为应用生态输出，利好云服务、跨境电商、数字支付等领域的龙头企业。APEC框架下的数字合作共识增强，为中国科技企业拓展亚太市场提供政策背书。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA",
+          "market": "US",
+          "sector": "电商/云计算",
+          "short_term": "↑",
           "mid_term": "↑↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         },
         {
           "name": "腾讯控股",
           "code": "0700.HK",
           "market": "HK",
-          "sector": "AI/互联网",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "阿里巴巴",
-          "code": "9988.HK",
-          "market": "HK",
-          "sector": "AI/云计算",
+          "sector": "科技",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "寒武纪",
-          "code": "688256.SH",
-          "market": "SH",
-          "sector": "AI芯片",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
           "long_term": "↑↑"
         },
         {
-          "name": "中际旭创",
-          "code": "300308.SZ",
+          "name": "华为概念",
+          "code": "002415.SZ",
           "market": "SZ",
-          "sector": "光模块",
-          "short_term": "↑",
+          "sector": "数字安防",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
-        },
-        {
-          "name": "Kimi(月之暗面)",
-          "code": "PRIVATE",
-          "market": "PRIVATE",
-          "sector": "AI/大模型",
-          "short_term": "↑↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "特朗普警告中俄不要卷入伊朗战争（综合）",
-      "logic": "汇总多条特朗普对中俄的伊朗相关警告，地缘政治风险溢价持续。军工、原油板块短期获支撑，但若外交斡旋成功则局势可能缓和。市场对中东不确定性定价。",
-      "stocks": [
-        {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "石油",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "埃克森美孚",
-          "code": "XOM.US",
-          "market": "US",
-          "sector": "石油",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "洛克希德·马丁",
-          "code": "LMT.US",
-          "market": "US",
-          "sector": "军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "SPDR黄金ETF",
-          "code": "GLD.US",
-          "market": "US",
-          "sector": "贵金属",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
         }
       ]
     }
@@ -515,91 +695,143 @@
   "summary": {
     "newly_added": [
       {
-        "label": "中国Kimi K3 AI冲击（新增）",
-        "theme": "Kimi K3模型性能逼近美国前沿水平，第二次中国AI冲击，利好国产AI全产业链",
+        "label": "梁文锋深度报道引发AI赛道关注（新增）",
+        "theme": "DeepSeek创始人梁文锋的克制与野心引发市场对中国AI产业链的重新评估",
         "stocks": [
+          {
+            "name": "商汤-W",
+            "code": "0020.HK",
+            "short_term": "↑"
+          },
           {
             "name": "寒武纪",
             "code": "688256.SH",
-            "short_term": "↑↑"
+            "short_term": "↑"
           },
           {
-            "name": "百度",
+            "name": "百度集团-SW",
             "code": "9888.HK",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "腾讯控股",
-            "code": "0700.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "五角大楼扩大中国大学黑名单（新增）",
-        "theme": "美国将中国顶尖民用大学纳入实体清单，国产替代/自主可控概念受益",
-        "stocks": [
-          {
-            "name": "北方华创",
-            "code": "002371.SZ",
-            "short_term": "↑"
-          },
-          {
-            "name": "中芯国际",
-            "code": "688981.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "南海水炮事件（新增）",
-        "theme": "中国海警对菲船只使用水炮，南海局势升温利好军工板块",
-        "stocks": [
-          {
-            "name": "中船防务",
-            "code": "600685.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "中国船舶",
-            "code": "600150.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "APEC AI论坛声明（新增）",
-        "theme": "亚太地区AI发展联合声明发布，利好亚太AI产业链",
-        "stocks": [
-          {
-            "name": "NVIDIA",
-            "code": "NVDA.US",
-            "short_term": "↑"
-          },
-          {
-            "name": "百度",
-            "code": "9888.HK",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "台湾AI机器人差异化战略（新增）",
-        "theme": "台湾强调与中国不同的AI机器人战略，利好台积电/鸿海等供应链",
-        "stocks": [
-          {
-            "name": "台积电",
-            "code": "2330.TW",
             "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "科技巨头联合反对AI出口限制（新增）",
+        "theme": "英伟达、微软、Palantir联合施压美国政府放松AI出口管制",
+        "stocks": [
+          {
+            "name": "英伟达",
+            "code": "NVDA",
+            "short_term": "↑"
           },
           {
-            "name": "鸿海精密",
-            "code": "2317.TW",
+            "name": "Palantir",
+            "code": "PLTR",
+            "short_term": "↑"
+          },
+          {
+            "name": "微软",
+            "code": "MSFT",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "美伊对话持续，中东地缘风险缓释（新增）",
+        "theme": "中国斡旋叠加特朗普确认对话，美伊关系修复出现新窗口",
+        "stocks": [
+          {
+            "name": "中国石油股份",
+            "code": "0857.HK",
+            "short_term": "↓"
+          },
+          {
+            "name": "洛克希德·马丁",
+            "code": "LMT",
+            "short_term": "↓"
+          },
+          {
+            "name": "WTI原油期货",
+            "code": "CL=F",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "委内瑞拉强震冲击保险板块（新增）",
+        "theme": "委内瑞拉5546人遇难强震引发巨灾理赔，再保险费率面临上行",
+        "stocks": [
+          {
+            "name": "安达保险",
+            "code": "CB",
+            "short_term": "↓"
+          },
+          {
+            "name": "慕尼黑再保险",
+            "code": "MUV2.DE",
+            "short_term": "↓"
+          },
+          {
+            "name": "WTI原油期货",
+            "code": "CL=F",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "国泰航空上半年盈利增长（新增）",
+        "theme": "国泰航空H1 2026实现盈利与运量双增长，但台风红霞构成短期扰动",
+        "stocks": [
+          {
+            "name": "国泰航空",
+            "code": "0293.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "中国国航",
+            "code": "0753.HK",
             "short_term": "→"
+          }
+        ]
+      },
+      {
+        "label": "华尔街股市与油价同步下挫（新增）",
+        "theme": "宏观担忧情绪升温导致风险资产普跌，防御性板块相对受益",
+        "stocks": [
+          {
+            "name": "标普500 ETF",
+            "code": "SPY",
+            "short_term": "↓"
+          },
+          {
+            "name": "埃克森美孚",
+            "code": "XOM",
+            "short_term": "↓"
+          },
+          {
+            "name": "美国石油基金",
+            "code": "USO",
+            "short_term": "↓"
+          }
+        ]
+      },
+      {
+        "label": "勒布朗·詹姆斯加盟76人震动体育产业（新增）",
+        "theme": "NBA历史级转会推动体育博彩和运动品牌板块活跃",
+        "stocks": [
+          {
+            "name": "耐克",
+            "code": "NKE",
+            "short_term": "↑"
+          },
+          {
+            "name": "DraftKings",
+            "code": "DKNG",
+            "short_term": "↑"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成任何形式的投资建议。股市有风险，投资需谨慎。预测方向符号说明：↑↑=强烈看涨，↑=看涨，→=中性/横盘，↓=看跌。短中长期定义：短期(1-30天)、中期(1-6个月)、长期(6个月以上)。"
+  "disclaimer": "以上分析基于2026年7月25日公开新闻的逻辑推演，所有涨跌方向符号（↑/↑↑/↓/→）仅为基于新闻事件影响的定性判断，不构成任何投资建议。股票市场受多重因素影响，实际走势可能与推演方向存在差异。投资者应独立判断并自行承担投资风险。数据来源：hk.jarrich.cn/news/，整理时间：2026-07-25 10:00 CST。"
 }
