@@ -1,5 +1,14 @@
 {
-  "AU": { "bullish": 7, "bearish": 2 },
-  "AG": { "bullish": 7, "bearish": 2 },
-  "SC": { "bullish": 7, "bearish": 1 }
+  "AU": {
+    "bullish": 2,
+    "bearish": 0
+  },
+  "AG": {
+    "bullish": 4,
+    "bearish": 0
+  },
+  "SC": {
+    "bullish": 9,
+    "bearish": 0
+  }
 }
