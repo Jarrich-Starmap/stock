@@ -1,77 +1,120 @@
 {
   "meta": {
     "name": "2026年7月26日全球新闻股票推演",
-    "description": "基于2026年7月26日 hk.jarrich.cn/news/ 聚合的全球新闻事件，逐条分析对相关公司、行业、国家及地区的股票市场潜在影响，并给出短中长期多空方向推演",
+    "description": "基于2026年7月26日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股及美股市场",
     "category": "daily",
-    "source": "2026年7月26日 hk.jarrich.cn/news/ 综合整理",
+    "source": "2026年7月26日 hk.jarrich.cn/news 综合整理",
     "version": "1.0.0",
-    "update_time": "2026-07-26T20:00:00+08:00",
+    "update_time": "2026-07-26T14:00:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "美国国防部发布涉及问题行为的外国机构最新名单",
-      "logic": "美国国防部更新外国机构名单，可能导致相关中概股面临额外审查和退市风险，同时利好美国本土军工和国防承包商",
+      "title": "探访南京AI镜界餐厅：机器人大厨炒菜解锁干饭新姿势",
+      "logic": "AI机器人进入餐饮场景落地，商用服务机器人需求预期提升，利好机器人整机及核心零部件企业；同时AI视觉与交互技术赋能餐饮智能化，利好AI解决方案商",
       "stocks": [
         {
-          "name": "iShares China Large-Cap ETF",
-          "code": "FXI",
-          "market": "US",
-          "sector": "中国大盘股ETF",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "KraneShares CSI China Internet ETF",
-          "code": "KWEB",
-          "market": "US",
-          "sector": "中国互联网ETF",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "Lockheed Martin",
-          "code": "LMT",
-          "market": "US",
-          "sector": "国防军工",
+          "name": "机器人",
+          "code": "300024.SZ",
+          "market": "SZ",
+          "sector": "机器人",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "工业自动化",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "台风诺尔逼近华南沿海 中国紧急疏散超34万人",
-      "logic": "台风造成大规模人员疏散和潜在财产损失，短期利空华南地区保险股（理赔增加）；灾后重建预期利好基建和建材板块",
+      "title": "中伏首日遇加长版酷暑 汤旺河林海奇石景区成避暑热门",
+      "logic": "极端高温持续推高避暑旅游需求，利好景区运营及在线旅游平台；同时高温带动空调和电力消费激增，利好电力及家电板块",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游免税",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "携程集团",
+          "code": "TCOM.US",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "长江电力",
+          "code": "600900.SH",
+          "market": "SH",
+          "sector": "电力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "格力电器",
+          "code": "000651.SZ",
+          "market": "SZ",
+          "sector": "家电",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "最高九号风球！台风红霞登陆 风推人移动树木倒伏",
+      "logic": "强台风造成财产损失预期上升，利好财险理赔需求推升保费；同时灾后重建预期提振建材和基建需求",
       "stocks": [
         {
           "name": "中国平安",
-          "code": "2318.HK",
-          "market": "HK",
+          "code": "601318.SH",
+          "market": "SH",
           "sector": "保险",
           "short_term": "↓",
-          "mid_term": "→",
+          "mid_term": "↑",
           "long_term": "→"
         },
         {
           "name": "中国太保",
-          "code": "2601.HK",
-          "market": "HK",
+          "code": "601601.SH",
+          "market": "SH",
           "sector": "保险",
           "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国建筑",
-          "code": "601668.SH",
-          "market": "SH",
-          "sector": "基建",
-          "short_term": "→",
           "mid_term": "↑",
           "long_term": "→"
         },
@@ -80,143 +123,145 @@
           "code": "600585.SH",
           "market": "SH",
           "sector": "建材",
-          "short_term": "→",
+          "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "印度反驳北京声称尊重中国主权的说法",
-      "logic": "中印外交摩擦升级，边境地区紧张局势可能影响双边贸易和投资信心，短期利空印度市场及在印有业务的中国企业",
-      "stocks": [
-        {
-          "name": "iShares MSCI India ETF",
-          "code": "INDA",
-          "market": "US",
-          "sector": "印度市场ETF",
-          "short_term": "↓",
-          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "小米集团",
-          "code": "1810.HK",
-          "market": "HK",
-          "sector": "消费电子",
-          "short_term": "↓",
-          "mid_term": "→",
+          "name": "东方雨虹",
+          "code": "002271.SZ",
+          "market": "SZ",
+          "sector": "建材防水",
+          "short_term": "↑↑",
+          "mid_term": "↑",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 4,
-      "title": "中国实习生在比利时因涉嫌在北约总部从事间谍活动被捕",
-      "logic": "北约与中国之间的间谍指控加剧地缘政治紧张，可能引发欧洲对中国科技企业的更严格审查，同时利好国防军工板块",
+      "title": "改善宫寒痛经 广西市民贴三伏贴助孕",
+      "logic": "三伏贴等中医药传统疗法关注度提升，利好中医药品牌及中药消费品；辅助生殖需求叠加中医药概念，利好相关中药龙头",
       "stocks": [
         {
-          "name": "RTX Corp",
-          "code": "RTX",
-          "market": "US",
-          "sector": "国防军工",
+          "name": "片仔癀",
+          "code": "600436.SH",
+          "market": "SH",
+          "sector": "中药",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "↑"
+          "long_term": "↑↑"
         },
         {
-          "name": "Thales SA",
-          "code": "HO.PA",
-          "market": "FR",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "华为产业链相关（中兴通讯）",
-          "code": "000063.SZ",
+          "name": "云南白药",
+          "code": "000538.SZ",
           "market": "SZ",
-          "sector": "通信设备",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
+          "sector": "中药",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "同仁堂",
+          "code": "600085.SH",
+          "market": "SH",
+          "sector": "中药",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 5,
-      "title": "惠誉：中国出口缓解内需疲软 GDP增长4.7%",
-      "logic": "惠誉评级指出中国出口强劲对冲内需不足，出口导向型企业短期受益，但内需疲软对消费类股票构成压力",
+      "title": "香江观澜：深耕东盟市场 香港内联外通优势再彰显",
+      "logic": "香港与老挝签署黄金市场备忘录、与马来西亚签基金互认及股票跨市场上市安排，港交所新增马来西亚交易所为认可证交所；利好港交所互联互通业务、香港金融及贸易相关标的",
       "stocks": [
         {
-          "name": "中远海控",
-          "code": "1919.HK",
+          "name": "香港交易所",
+          "code": "0388.HK",
           "market": "HK",
-          "sector": "航运物流",
+          "sector": "金融",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中银香港",
+          "code": "2388.HK",
+          "market": "HK",
+          "sector": "银行",
           "short_term": "↑",
           "mid_term": "↑",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "美的集团",
-          "code": "000333.SZ",
-          "market": "SZ",
-          "sector": "家电出口",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "申洲国际",
-          "code": "2313.HK",
+          "name": "招商局港口",
+          "code": "0144.HK",
           "market": "HK",
-          "sector": "纺织出口",
+          "sector": "港口物流",
           "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "mid_term": "↑",
+          "long_term": "↑"
         },
         {
-          "name": "贵州茅台",
-          "code": "600519.SH",
-          "market": "SH",
-          "sector": "白酒消费",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
+          "name": "周大福",
+          "code": "1929.HK",
+          "market": "HK",
+          "sector": "黄金珠宝",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 6,
-      "title": "携程因垄断被中国罚款7.65亿美元",
-      "logic": "中国监管机构对携程开出巨额反垄断罚单，短期股价承压，但中长期看处罚落地消除不确定性，且携程市场地位难以撼动",
+      "title": "美媒曝特朗普暂停打击伊朗内幕：担忧消耗导弹库存",
+      "logic": "美伊冲突降温信号利好油价回落和全球风险偏好修复；特朗普暂停打击意味着短期地缘溢价消退，利空军工短期情绪但利好航运/航空等受油价压制的板块",
       "stocks": [
         {
-          "name": "Trip.com Group",
-          "code": "TCOM",
-          "market": "US",
-          "sector": "在线旅游",
-          "short_term": "↓↓",
-          "mid_term": "↓",
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油能源",
+          "short_term": "↓",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "携程集团",
-          "code": "9961.HK",
-          "market": "HK",
-          "sector": "在线旅游",
-          "short_term": "↓↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "同程旅行",
-          "code": "0780.HK",
-          "market": "HK",
-          "sector": "在线旅游",
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运",
           "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "西方石油",
+          "code": "OXY.US",
+          "market": "US",
+          "sector": "石油能源",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         }
@@ -224,41 +269,23 @@
     },
     {
       "id": 7,
-      "title": "泽连斯基指控俄罗斯协助伊朗获取美军中东基地卫星图像",
-      "logic": "俄伊军事合作加深引发中东局势升级担忧，原油供应风险推高油价预期，同时增加全球国防开支预期，利好能源和军工板块",
+      "title": "台风登陆地点又变了？其实是预报更准了",
+      "logic": "气象预报技术进步体现气象科技和卫星遥感应用价值提升，利好相关技术提供商；精准预报降低社会防灾成本，间接利好保险业风险管理能力提升",
       "stocks": [
         {
-          "name": "United States Oil Fund",
-          "code": "USO",
-          "market": "US",
-          "sector": "原油ETF",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "Energy Select Sector SPDR",
-          "code": "XLE",
-          "market": "US",
-          "sector": "能源ETF",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "Lockheed Martin",
-          "code": "LMT",
-          "market": "US",
-          "sector": "国防军工",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中国石油",
-          "code": "601857.SH",
+          "name": "航天宏图",
+          "code": "688066.SH",
           "market": "SH",
-          "sector": "石油能源",
+          "sector": "卫星遥感",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "四维图新",
+          "code": "002405.SZ",
+          "market": "SZ",
+          "sector": "地理信息",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "↑"
@@ -267,44 +294,234 @@
     },
     {
       "id": 8,
-      "title": "黄金4055美元关键点：中国整治与百元油价如何酝酿完美风暴",
-      "logic": "中国金融整治叠加高油价环境，避险情绪推升黄金需求；通胀预期和地缘政治不确定性支撑金价中长期走强，同时油价高企利好能源股",
+      "title": "红霞影响持续！交通运输部抓实抓细各项防御应对措施",
+      "logic": "台风持续影响下交通基础设施受损和停运利空短期交运板块，但灾后抢修提振基建建材需求；同时保险理赔压力持续",
       "stocks": [
         {
-          "name": "SPDR Gold Trust",
-          "code": "GLD",
-          "market": "US",
-          "sector": "黄金ETF",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "山东黄金",
-          "code": "1787.HK",
-          "market": "HK",
-          "sector": "黄金矿业",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "紫金矿业",
-          "code": "601899.SH",
+          "name": "中国交建",
+          "code": "601800.SH",
           "market": "SH",
-          "sector": "黄金矿业",
+          "sector": "基建",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国中铁",
+          "code": "601390.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "宁沪高速",
+          "code": "600377.SH",
+          "market": "SH",
+          "sector": "高速公路",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "日本借演试弹海上磨刀 对华封锁围堵意图明显",
+      "logic": "日本在菲律宾吕宋岛试射反舰导弹意在封锁巴士海峡，地缘紧张升级利好中国军工板块；海上封锁威胁推升航运安全溢价，利空亚太航运但利好中国造船和军工电子",
+      "stocks": [
+        {
+          "name": "中船防务",
+          "code": "600685.SH",
+          "market": "SH",
+          "sector": "军工造船",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国船舶",
+          "code": "600150.SH",
+          "market": "SH",
+          "sector": "军工造船",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中航沈飞",
+          "code": "600760.SH",
+          "market": "SH",
+          "sector": "军工航空",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中国海防",
+          "code": "600764.SH",
+          "market": "SH",
+          "sector": "军工电子",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "sector": "航运",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "跨境流量带火入境经济 China Travel欧洲火出圈",
+      "logic": "入境旅游爆发式增长直接利好免税零售、航空、酒店及文旅板块；中国对欧洲免签政策持续扩大效应，入境消费成为新的经济增长点",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游免税",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "携程集团",
+          "code": "TCOM.US",
+          "market": "US",
+          "sector": "在线旅游",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店",
           "short_term": "↑",
           "mid_term": "↑↑",
           "long_term": "↑"
         },
         {
-          "name": "Exxon Mobil",
-          "code": "XOM",
-          "market": "US",
-          "sector": "石油能源",
+          "name": "众信旅游",
+          "code": "002707.SZ",
+          "market": "SZ",
+          "sector": "出境旅游",
           "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "网约跨城定制 公交转型新模式上线省钱又方便",
+      "logic": "智慧公交数字化转型利好智慧交通及车联网板块；新能源公交渗透率提升利好新能源客车产业链；定制公交模式利好出行平台及数字化调度技术提供商",
+      "stocks": [
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "千方科技",
+          "code": "002373.SZ",
+          "market": "SZ",
+          "sector": "智慧交通",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "宇通客车",
+          "code": "600066.SH",
+          "market": "SH",
+          "sector": "客车制造",
+          "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
+        },
+        {
+          "name": "海康威视",
+          "code": "002415.SZ",
+          "market": "SZ",
+          "sector": "智能交通",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "广东省减灾委将省III级救灾应急响应提升至II级",
+      "logic": "广东救灾响应升级表明台风红霞灾情严重，短期利空广东本地保险股但利好建材、基建和工程机械等灾后重建板块；政府救灾投入增加有利于基建央企业绩",
+      "stocks": [
+        {
+          "name": "中国平安",
+          "code": "601318.SH",
+          "market": "SH",
+          "sector": "保险",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "600585.SH",
+          "market": "SH",
+          "sector": "建材",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "→"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "sector": "工程机械",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国建筑",
+          "code": "601668.SH",
+          "market": "SH",
+          "sector": "基建",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
         }
       ]
     }
@@ -312,30 +529,86 @@
   "summary": {
     "newly_added": [
       {
-        "label": "携程反垄断巨额罚单（新增）",
-        "theme": "中国监管机构对携程开出7.65亿美元反垄断罚单，短期重挫股价，但处罚落地消除不确定性",
+        "label": "AI餐饮机器人落地（新增）",
+        "theme": "南京AI镜界餐厅展示机器人大厨炒菜，AI+餐饮商业化加速",
         "stocks": [
-          { "name": "Trip.com Group", "code": "TCOM", "short_term": "↓↓" },
-          { "name": "携程集团", "code": "9961.HK", "short_term": "↓↓" }
+          {
+            "name": "埃斯顿",
+            "code": "002747.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "科大讯飞",
+            "code": "002230.SZ",
+            "short_term": "↑"
+          }
         ]
       },
       {
-        "label": "台风诺尔袭击华南（新增）",
-        "theme": "超强台风诺尔逼近华南，34万人紧急疏散，短期利空保险股，中期利好基建重建",
+        "label": "香港与东盟签署金融合作备忘录（新增）",
+        "theme": "港交所新增马来西亚交易所为认可证交所，香港与老挝签黄金市场备忘录",
         "stocks": [
-          { "name": "中国平安", "code": "2318.HK", "short_term": "↓" },
-          { "name": "中国建筑", "code": "601668.SH", "short_term": "→" }
+          {
+            "name": "香港交易所",
+            "code": "0388.HK",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "周大福",
+            "code": "1929.HK",
+            "short_term": "↑↑"
+          }
         ]
       },
       {
-        "label": "中东局势升级推升油价金价（新增）",
-        "theme": "泽连斯基指控俄协助伊朗获取美军基地卫星图像，叠加中国金融整治，黄金和原油双重受益",
+        "label": "台风红霞与广东II级救灾（新增）",
+        "theme": "台风红霞登陆引发九号风球，广东救灾应急响应升至II级",
         "stocks": [
-          { "name": "SPDR Gold Trust", "code": "GLD", "short_term": "↑" },
-          { "name": "US Oil Fund", "code": "USO", "short_term": "↑" }
+          {
+            "name": "东方雨虹",
+            "code": "002271.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "海螺水泥",
+            "code": "600585.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "日本对华海上封锁演练（新增）",
+        "theme": "日本在吕宋岛试射反舰导弹意在封锁巴士海峡，地缘紧张升级",
+        "stocks": [
+          {
+            "name": "中船防务",
+            "code": "600685.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中国海防",
+            "code": "600764.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "China Travel入境经济爆发（新增）",
+        "theme": "跨境流量带火入境经济，China Travel在欧洲火出圈",
+        "stocks": [
+          {
+            "name": "中国中免",
+            "code": "601888.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "携程集团",
+            "code": "TCOM.US",
+            "short_term": "↑↑"
+          }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于公开新闻的逻辑推演，不构成投资建议。股市有风险，投资需谨慎。"
+  "disclaimer": "以上分析基于2026年7月26日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。涨跌预测仅代表基于新闻逻辑的方向判断，实际市场走势受多种因素影响。"
 }
