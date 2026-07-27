@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "name": "2026年7月28日全球新闻股票推演",
+    "description": "基于 2026年7月28日 hk.jarrich.cn/news/ 聚合的全球新闻，进行短中长期股票多空推演分析，覆盖 A 股、港股、美股及亚太市场",
+    "category": "daily",
+    "source": "2026年7月28日综合整理，数据源：hk.jarrich.cn/news/",
+    "version": "1.0",
+    "update_time": "2026-07-28T12:00:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "特朗普称若谈判破裂将强力打击伊朗",
+      "logic": "美伊紧张局势升级将推高原油价格，利好能源股；地缘风险升温也推动避险资产黄金走强，同时军工股受益于潜在军事冲突预期",
+      "stocks": [
+        {
+          "name": "埃克森美孚",
+          "code": "XOM",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "雪佛龙",
+          "code": "CVX",
+          "market": "US",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "能源",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "洛克希德马丁",
+          "code": "LMT",
+          "market": "US",
+          "sector": "军工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "SPDR黄金ETF",
+          "code": "GLD",
+          "market": "US",
+          "sector": "贵金属",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "北方稀土",
+          "code": "600111.SH",
+          "market": "SH",
+          "sector": "稀土",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "机票超售与高额退票费 是否触碰公平消费底线？",
+      "logic": "消费者权益争议可能引发监管介入，对航空公司短期形成舆论压力和合规成本，中长期若出台更严格的退改签政策将压缩航司辅助收入",
+      "stocks": [
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "东方航空",
+          "code": "600115.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "2026年7月中国氢燃料电池行业动态",
+      "logic": "氢燃料电池行业持续获得政策与资本关注，中国在氢能产业链布局加速，利好相关设备制造和氢能应用企业",
+      "stocks": [
+        {
+          "name": "亿华通",
+          "code": "688339.SH",
+          "market": "SH",
+          "sector": "氢燃料电池",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "美锦能源",
+          "code": "000723.SZ",
+          "market": "SZ",
+          "sector": "氢能源",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Plug Power",
+          "code": "PLUG",
+          "market": "US",
+          "sector": "氢燃料电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Bloom Energy",
+          "code": "BE",
+          "market": "US",
+          "sector": "氢燃料电池",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "中国崛起搅局，闪迪、ASML等芯片股暴跌",
+      "logic": "中国存储芯片和半导体设备的自主化进程加速，直接冲击海外芯片巨头市场份额预期。闪迪（存储）和 ASML（光刻机）首当其冲，短期恐慌性抛售，中长期取决于中国量产进度",
+      "stocks": [
+        {
+          "name": "西部数据（闪迪母公司）",
+          "code": "WDC",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "ASML",
+          "code": "ASML",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "长鑫存储（概念关联）",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "晶圆代工",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "SOXX半导体ETF",
+          "code": "SOXX",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "中国碳中和开发公司签署意向书",
+      "logic": "碳中和领域持续获得政策支持和商业落地，意向书签署标志着项目推进加速，利好碳交易和新能源板块",
+      "stocks": [
+        {
+          "name": "华能国际",
+          "code": "600011.SH",
+          "market": "SH",
+          "sector": "碳中和/电力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "三峡能源",
+          "code": "600905.SH",
+          "market": "SH",
+          "sector": "新能源",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "隆基绿能",
+          "code": "601012.SH",
+          "market": "SH",
+          "sector": "光伏",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "002594.SZ",
+          "market": "SZ",
+          "sector": "新能源车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "中国新型芯片设备震动AI股，以太坊保持坚挺",
+      "logic": "中国自研芯片设备进展对海外AI芯片供应链形成冲击，英伟达等AI芯片股承压；但去中心化的以太坊不受地缘政治直接影响，反而因AI算力需求转移预期获支撑",
+      "stocks": [
+        {
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "AMD",
+          "code": "AMD",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "博通",
+          "code": "AVGO",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "以太坊",
+          "code": "ETH-USD",
+          "market": "US",
+          "sector": "加密货币",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "CGTN：中国为何成为今夏热门旅游目的地",
+      "logic": "中国入境旅游热度攀升，利好旅游酒店、免税消费和航空板块，暑期旺季叠加入境政策优化，旅游消费股短期有催化",
+      "stocks": [
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "sector": "旅游免税",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "携程集团",
+          "code": "9961.HK",
+          "market": "HK",
+          "sector": "在线旅游",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "锦江酒店",
+          "code": "600754.SH",
+          "market": "SH",
+          "sector": "酒店",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "首旅酒店",
+          "code": "600258.SH",
+          "market": "SH",
+          "sector": "酒店",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "新三样进化成新新三样？海关数据：机器人出口+67%，中国AI全球调用40%+",
+      "logic": "机器人出口暴增67%和AI全球调用占比超40%标志着中国高端制造和AI产业的全球竞争力跃升，利好机器人产业链和AI应用企业",
+      "stocks": [
+        {
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "工业机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "汇川技术",
+          "code": "300124.SZ",
+          "market": "SZ",
+          "sector": "工业自动化",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "绿的谐波",
+          "code": "688017.SH",
+          "market": "SH",
+          "sector": "机器人核心部件",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "AI应用",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "拓斯达",
+          "code": "300607.SZ",
+          "market": "SZ",
+          "sector": "机器人",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "中国指责美国AI霸权主义，威胁对潜在调查采取反制措施",
+      "logic": "中美AI领域摩擦升级，短期对全球AI供应链形成不确定性冲击，尤其美国AI公司面临中国反制风险；中长期加速中国AI自主化进程，利好国产替代",
+      "stocks": [
+        {
+          "name": "英伟达",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "微软",
+          "code": "MSFT",
+          "market": "US",
+          "sector": "AI/云计算",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "Palantir",
+          "code": "PLTR",
+          "market": "US",
+          "sector": "AI/大数据",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "海光信息",
+          "code": "688041.SH",
+          "market": "SH",
+          "sector": "AI芯片/CPU",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/互联网",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "KLA股价今日为何下跌？",
+      "logic": "KLA（科磊）作为全球半导体检测设备龙头，受中国芯片设备自研量产消息冲击，市场担心其中国市场收入大幅下滑，短期恐慌情绪主导",
+      "stocks": [
+        {
+          "name": "科磊",
+          "code": "KLAC",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "应用材料",
+          "code": "AMAT",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "泛林集团",
+          "code": "LRCX",
+          "market": "US",
+          "sector": "半导体设备",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中微公司",
+          "code": "688012.SH",
+          "market": "SH",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "盛美上海",
+          "code": "688082.SH",
+          "market": "SH",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "中国计划量产芯片设备，ASML股价暴跌",
+      "logic": "中国芯片设备量产化是半导体行业格局变化的标志性事件，直接威胁ASML在光刻机领域的垄断地位，同时利好中国半导体设备全产业链",
+      "stocks": [
+        {
+          "name": "ASML",
+          "code": "ASML",
+          "market": "US",
+          "sector": "光刻机",
+          "short_term": "↓↓",
+          "mid_term": "↓↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "半导体设备",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "上海微电子（概念关联）",
+          "code": "600895.SH",
+          "market": "SH",
+          "sector": "光刻机/半导体",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "芯源微",
+          "code": "688037.SH",
+          "market": "SH",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "SMH半导体ETF",
+          "code": "SMH",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "苏杰生与王毅会晤后，米斯里在北京会见中国领导人",
+      "logic": "中印高层外交互动频繁，边境缓和信号增强，利好两国经贸合作预期，尤其印度市场相关的中资企业和中印贸易链条",
+      "stocks": [
+        {
+          "name": "小米集团",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "消费电子/印度市场",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "Oppo/Vivo相关（传音控股）",
+          "code": "688036.SH",
+          "market": "SH",
+          "sector": "手机/印度市场",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "印度Nifty50 ETF",
+          "code": "INDY",
+          "market": "US",
+          "sector": "印度市场",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "塔塔汽车",
+          "code": "TTM",
+          "market": "US",
+          "sector": "汽车/中印贸易",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "中国芯片设备量产化冲击全球半导体格局（新增）",
+        "theme": "中国计划量产自研芯片设备，ASML、KLA、闪迪等海外芯片股集体暴跌，中国半导体设备自主化进程取得里程碑突破",
+        "stocks": [
+          {
+            "name": "ASML",
+            "code": "ASML",
+            "short_term": "↓↓"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "中微公司",
+            "code": "688012.SH",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "中美AI摩擦升级（新增）",
+        "theme": "中国指责美国AI霸权主义并威胁反制，AI芯片供应链不确定性加剧，国产AI替代逻辑强化",
+        "stocks": [
+          {
+            "name": "英伟达",
+            "code": "NVDA",
+            "short_term": "↓↓"
+          },
+          {
+            "name": "寒武纪",
+            "code": "688256.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "海光信息",
+            "code": "688041.SH",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "机器人出口暴增+67%（新增）",
+        "theme": "海关数据显示中国机器人出口同比增长67%，AI全球调用占比超40%，高端制造出口升级趋势明确",
+        "stocks": [
+          {
+            "name": "埃斯顿",
+            "code": "002747.SZ",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "绿的谐波",
+            "code": "688017.SH",
+            "short_term": "↑↑"
+          },
+          {
+            "name": "拓斯达",
+            "code": "300607.SZ",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "美伊紧张局势推高油价与黄金（新增）",
+        "theme": "特朗普威胁强力打击伊朗，地缘风险升温推动原油和避险资产走强",
+        "stocks": [
+          {
+            "name": "埃克森美孚",
+            "code": "XOM",
+            "short_term": "↑"
+          },
+          {
+            "name": "SPDR黄金ETF",
+            "code": "GLD",
+            "short_term": "↑"
+          },
+          {
+            "name": "洛克希德马丁",
+            "code": "LMT",
+            "short_term": "↑"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026年7月28日公开新闻的逻辑推演，不构成任何投资建议。股市有风险，投资需谨慎。预测方向仅代表基于新闻事件的逻辑推理，实际市场走势受多重因素影响。"
+}
