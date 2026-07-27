@@ -1,810 +1,376 @@
 {
   "meta": {
     "name": "2026年7月27日全球新闻股票推演",
-    "description": "基于2026年7月27日 hk.jarrich.cn/news/ 聚合的60条全球新闻，筛选市场相关新闻并逐条推演关联股票及短中长期涨跌预测。覆盖A股、港股、美股、欧股及亚太市场。",
+    "description": "基于2026年7月27日香港Jarrich新闻平台聚合的全球60条公开新闻（国内/香港/国际），逐条分析潜在金融市场影响，推演受影响的相关方股票短中长期多空方向。覆盖A股、港股、美股、台股、日股、欧股等多市场。",
     "category": "daily",
-    "source": "2026年7月27日综合整理，数据来源 hk.jarrich.cn/news/",
+    "source": "2026年7月27日 hk.jarrich.cn/news/ 综合整理",
     "version": "1.0.0",
-    "update_time": "2026-07-27T16:40:00+08:00",
+    "update_time": "2026-07-27T20:40:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "6月末广东社会融资规模存量44.2万亿元",
-      "logic": "广东社会融资规模存量数据显示信贷环境宽松，企业融资活跃，利好银行信贷业务及区域经济发展。银行板块受益于贷款规模增长和资产质量改善预期。",
+      "title": "香港6月商品整体出口货值同比上升53.4%",
+      "logic": "出口暴增反映香港贸易枢纽复苏强劲，利好香港本地贸易物流、港口航运及金融服务企业。亚太贸易链活跃度提升，利好区域贸易相关股。",
       "stocks": [
-        {
-          "name": "招商银行",
-          "code": "600036.SH",
-          "market": "SH",
-          "sector": "银行",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "招商银行",
-          "code": "3968.HK",
-          "market": "HK",
-          "sector": "银行",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "平安银行",
-          "code": "000001.SZ",
-          "market": "SZ",
-          "sector": "银行",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "格力电器",
-          "code": "000651.SZ",
-          "market": "SZ",
-          "sector": "家电",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "和记港口信托", "code": "NS8U.SI", "market": "HK", "sector": "港口物流", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "香港交易所", "code": "0388.HK", "market": "HK", "sector": "金融服务", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中远海运港口", "code": "1199.HK", "market": "HK", "sector": "港口物流", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "招商局港口", "code": "0144.HK", "market": "HK", "sector": "港口运营", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 2,
-      "title": "西班牙马略卡岛数万民众抗议过度旅游",
-      "logic": "大规模反旅游抗议可能促使当地政府出台限制政策（如限流、加税），影响欧洲旅游产业链。航空公司、酒店集团和旅游平台面临政策风险，但短期内暑期旺季不受影响。",
+      "title": "上半年中国发行新增地方政府债券24475亿元",
+      "logic": "大规模地方债发行支撑基建投资，利好基建施工、建材水泥、工程机械产业链。地方政府获得更多财政空间用于项目建设，短期提振基建板块。",
       "stocks": [
-        {
-          "name": "IAG(International Airlines Group)",
-          "code": "IAG.L",
-          "market": "UK",
-          "sector": "航空",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        },
-        {
-          "name": "TUI AG",
-          "code": "TUI1.DE",
-          "market": "DE",
-          "sector": "旅游",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        },
-        {
-          "name": "Booking Holdings",
-          "code": "BKNG.US",
-          "market": "US",
-          "sector": "在线旅游",
-          "short_term": "→",
-          "mid_term": "↓",
-          "long_term": "↓"
-        }
+        {"name": "中国建筑", "code": "601668.SH", "market": "SH", "sector": "建筑施工", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "海螺水泥", "code": "600585.SH", "market": "SH", "sector": "建材水泥", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "三一重工", "code": "600031.SH", "market": "SH", "sector": "工程机械", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "中国中铁", "code": "601390.SH", "market": "SH", "sector": "基建施工", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 3,
-      "title": "动画电影《八仙》带火山东烟台蓬莱，核心景区客流量上涨",
-      "logic": "文化IP影视作品对旅游目的地有明显的引流效应，暑期叠加IP热度，利好文旅产业链（景区运营、免税零售、影视制作）。短期效应显著，中长期看IP持续运营能力。",
+      "title": "金融监管总局：多措并举有效提升经济金融适配性",
+      "logic": "监管层强调金融服务实体经济，预计信贷政策持续宽松，利好银行信贷扩张和保险资金入市。金融改革信号对券商投行业务形成利好。",
       "stocks": [
-        {
-          "name": "中国中免",
-          "code": "601888.SH",
-          "market": "SH",
-          "sector": "旅游零售",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "宋城演艺",
-          "code": "300144.SZ",
-          "market": "SZ",
-          "sector": "旅游演艺",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "光线传媒",
-          "code": "300251.SZ",
-          "market": "SZ",
-          "sector": "影视传媒",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "招商银行", "code": "600036.SH", "market": "SH", "sector": "银行", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "中信证券", "code": "600030.SH", "market": "SH", "sector": "券商", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国平安", "code": "601318.SH", "market": "SH", "sector": "保险", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 4,
-      "title": "内幕交易刑事司法解释新规今起施行",
-      "logic": "新司法解释加大内幕交易刑事打击力度，短期对涉嫌违规个股形成威慑，中长期提升A股市场监管透明度和投资者信心，利好合规券商和指数基金，利空ST股及壳资源。",
+      "title": "香港中电与清华合办首届暑期实习计划在港结业",
+      "logic": "中电控股加强产学合作培养人才，提升品牌形象和长期技术储备。利好香港电力公用事业股的ESG评级和人才竞争力。",
       "stocks": [
-        {
-          "name": "中信证券",
-          "code": "600030.SH",
-          "market": "SH",
-          "sector": "券商",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "华泰证券",
-          "code": "601688.SH",
-          "market": "SH",
-          "sector": "券商",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "香港交易所",
-          "code": "0388.HK",
-          "market": "HK",
-          "sector": "交易所",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "中电控股", "code": "0002.HK", "market": "HK", "sector": "电力公用", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
+        {"name": "港灯", "code": "2638.HK", "market": "HK", "sector": "电力公用", "short_term": "→", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 5,
-      "title": "透过数据看我国工业生产稳中有进，新动能蒸蒸日上",
-      "logic": "官方定调工业生产稳中有进，强调新动能。利好高端制造、工业自动化和新能源产业链。政策支持下制造业升级逻辑清晰，中长期结构性利好持续释放。",
+      "title": "日本大分县多车相撞事故致10余人受伤",
+      "logic": "交通事故可能引发对日本汽车安全性的审查关注，短期利空日本汽车制造商股价。保险理赔压力增加。",
       "stocks": [
-        {
-          "name": "汇川技术",
-          "code": "300124.SZ",
-          "market": "SZ",
-          "sector": "工业自动化",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "工业富联",
-          "code": "601138.SH",
-          "market": "SH",
-          "sector": "智能制造",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中控技术",
-          "code": "688777.SH",
-          "market": "SH",
-          "sector": "工业软件",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
+        {"name": "丰田汽车", "code": "7203.T", "market": "JP", "sector": "汽车制造", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "东京海上控股", "code": "8766.T", "market": "JP", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 6,
-      "title": "上市首日长鑫科技创多项纪录，市值3.65万亿飙升逾500%",
-      "logic": "CXMT（长鑫科技）作为中国最大DRAM存储芯片厂商，首日暴涨500%市值达3.65万亿，超越宁德时代成为A股市值第一。引爆半导体板块情绪，利好国产芯片产业链，尤其是设备和材料环节。",
+      "title": "两岸合资券商放宽台胞开户材料便利台胞投资",
+      "logic": "两岸金融开放政策推进，台胞投资大陆证券市场更加便利。利好台股券商、两岸合资券商，增加A股增量资金。",
       "stocks": [
-        {
-          "name": "长鑫科技",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "半导体存储",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中芯国际",
-          "code": "0981.HK",
-          "market": "HK",
-          "sector": "半导体制造",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SZ",
-          "sector": "半导体设备",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中微公司",
-          "code": "688012.SH",
-          "market": "SH",
-          "sector": "半导体设备",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
+        {"name": "元大金控", "code": "2885.TW", "market": "TW", "sector": "金融控股", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "富邦金控", "code": "2881.TW", "market": "TW", "sector": "金融控股", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "华泰证券", "code": "601688.SH", "market": "SH", "sector": "券商", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 7,
-      "title": "厦门维修境外飞机累计达4001架次居中国首位",
-      "logic": "厦门航空维修产业规模持续扩大，体现中国在全球MRO（维护、修理、大修）市场的竞争力提升。航空维修是高壁垒高毛利的细分赛道，受益于全球机队老龄化及亚太航空增长。",
+      "title": "APEC数字周嘉宾探访成都 聚焦超大城市数字治理创新探索",
+      "logic": "中国数字治理经验获国际关注，利好智慧城市、数字政务、AI城市管理等相关科技企业。成都本地科技股受关注。",
       "stocks": [
-        {
-          "name": "航新科技",
-          "code": "300424.SZ",
-          "market": "SZ",
-          "sector": "航空维修",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "海特高新",
-          "code": "002023.SZ",
-          "market": "SZ",
-          "sector": "航空维修",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "安达维尔",
-          "code": "300719.SZ",
-          "market": "SZ",
-          "sector": "航空设备",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "海康威视", "code": "002415.SZ", "market": "SZ", "sector": "智慧城市/AI", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "科大讯飞", "code": "002230.SZ", "market": "SZ", "sector": "人工智能", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "数字政通", "code": "300075.SZ", "market": "SZ", "sector": "数字政务", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "大华股份", "code": "002236.SZ", "market": "SZ", "sector": "智慧城市", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 8,
-      "title": "现货黄金报4090.92美元，金价持续高位运行",
-      "logic": "金价突破4000美元大关并持续高位，地缘政治不确定性（中东、俄乌）和全球央行购金需求构成支撑。黄金开采企业利润弹性极大，但需注意金价高位回调风险。",
+      "title": "两部门预拨1.8亿元支持6省防汛防台风应急抢险救灾",
+      "logic": "自然灾害频发推动水利建设、应急管理需求。利好水利工程、管网建设、应急设备企业。保险理赔增加对财险公司形成短期压力。",
       "stocks": [
-        {
-          "name": "紫金矿业",
-          "code": "601899.SH",
-          "market": "SH",
-          "sector": "黄金矿业",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "紫金矿业",
-          "code": "2899.HK",
-          "market": "HK",
-          "sector": "黄金矿业",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "黄金矿业",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "招金矿业",
-          "code": "1818.HK",
-          "market": "HK",
-          "sector": "黄金矿业",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        }
+        {"name": "中国电建", "code": "601669.SH", "market": "SH", "sector": "水利工程", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "青龙管业", "code": "002457.SZ", "market": "SZ", "sector": "管材水利", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国太保", "code": "601601.SH", "market": "SH", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 9,
-      "title": "SpaceX与特斯拉双双重挫，马斯克身家急跌自嘲前亿万富翁",
-      "logic": "特斯拉股价重挫反映市场对电动车竞争加剧、交付增长放缓和马斯克分心SpaceX等担忧。短期情绪面承压，中长期取决于FSD落地和低价车型进展。",
+      "title": "海口搭建药械出海服务平台 护航企业拓展全球市场",
+      "logic": "海南自贸港医药出海政策加码，利好国内医疗器械和药品出口企业。海南本地医药平台和国际化的CRO/CMO公司受益。",
       "stocks": [
-        {
-          "name": "特斯拉",
-          "code": "TSLA.US",
-          "market": "US",
-          "sector": "电动汽车",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "比亚迪",
-          "code": "1211.HK",
-          "market": "HK",
-          "sector": "电动汽车",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "Lucid Group",
-          "code": "LCID.US",
-          "market": "US",
-          "sector": "电动汽车",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        }
+        {"name": "迈瑞医疗", "code": "300760.SZ", "market": "SZ", "sector": "医疗器械", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "药明康德", "code": "603259.SH", "market": "SH", "sector": "CXO", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "康希诺", "code": "688185.SH", "market": "SH", "sector": "生物医药", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "海南海药", "code": "000566.SZ", "market": "SZ", "sector": "医药制造", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 10,
-      "title": "延长交易时段乃全球大势所趋",
-      "logic": "香港讨论延长交易时段以与国际接轨，若落地将直接增加港交所交易量和收入，同时提升港股市场吸引力和流动性。全球交易所合并延长交易时间趋势明确。",
+      "title": "七部门联合印发《疾病预防控制十五五规划》",
+      "logic": "国家层面疾病预防体系升级，利好疫苗、检测试剂、公共卫生信息化企业。长期利好疾控相关生物医药公司。",
       "stocks": [
-        {
-          "name": "香港交易所",
-          "code": "0388.HK",
-          "market": "HK",
-          "sector": "交易所",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        }
+        {"name": "智飞生物", "code": "300122.SZ", "market": "SZ", "sector": "疫苗", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "华兰生物", "code": "002007.SZ", "market": "SZ", "sector": "血液制品/疫苗", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "万泰生物", "code": "603392.SH", "market": "SH", "sector": "体外诊断/疫苗", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "华大基因", "code": "300676.SZ", "market": "SZ", "sector": "基因检测", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 11,
-      "title": "Jefferies上调宁德时代目标价至736港元，维持买入评级",
-      "logic": "国际投行上调宁德时代目标价，反映对其全球动力电池龙头地位和储能业务增长的认可。CATL 技术领先和规模优势构筑护城河，海外产能扩张打开增长空间。",
+      "title": "反复湿疹竟是罕见肿瘤？多模态AI赋能疑难皮肤病诊断",
+      "logic": "多模态AI在医疗诊断取得突破，利好AI医疗影像、辅助诊断赛道。医疗AI公司技术价值获得验证。",
       "stocks": [
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "动力电池",
-          "short_term": "↑",
-          "mid_term": "↑↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "亿纬锂能",
-          "code": "300014.SZ",
-          "market": "SZ",
-          "sector": "锂电池",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "先导智能",
-          "code": "300450.SZ",
-          "market": "SZ",
-          "sector": "锂电设备",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "卫宁健康", "code": "300253.SZ", "market": "SZ", "sector": "医疗信息化", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "鹰瞳科技", "code": "2251.HK", "market": "HK", "sector": "AI医疗", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "医渡科技", "code": "2158.HK", "market": "HK", "sector": "医疗AI/大数据", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "商汤-W", "code": "0020.HK", "market": "HK", "sector": "AI平台", "short_term": "↑", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 12,
-      "title": "伊朗暗示若美国停止打击将停止报复，原油暴跌6%",
-      "logic": "伊朗释放缓和信号，中东地缘风险溢价快速消退，油价单日暴跌6%。短期利空能源股，但OPEC+减产和全球需求复苏构成支撑，下行空间有限。",
+      "title": "Asia Pacific Resources (01104) has issued a profit warning",
+      "logic": "盈警直接利空公司股价，短期抛售压力大。作为资源类企业，可能反映亚太资源行业整体需求疲软。",
       "stocks": [
-        {
-          "name": "中国海洋石油",
-          "code": "600938.SH",
-          "market": "SH",
-          "sector": "石油开采",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "中国海洋石油",
-          "code": "0883.HK",
-          "market": "HK",
-          "sector": "石油开采",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "→"
-        },
-        {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "石油石化",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "埃克森美孚",
-          "code": "XOM.US",
-          "market": "US",
-          "sector": "石油石化",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
+        {"name": "亚太资源", "code": "01104.HK", "market": "HK", "sector": "资源/矿业", "short_term": "↓", "mid_term": "↓", "long_term": "→"},
+        {"name": "五矿资源", "code": "1208.HK", "market": "HK", "sector": "矿业", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 13,
-      "title": "奥迪下调销售和利润展望",
-      "logic": "奥迪作为大众集团高端品牌下调业绩指引，反映欧洲汽车市场需求疲软、电动化转型成本高企和中国市场竞争加剧。传统豪华车企面临新势力挑战，盈利承压。",
+      "title": "Hong Kong set for stronger storms and wetter winter as El Nino intensifies",
+      "logic": "极端天气加剧影响香港保险理赔、基建维护成本。厄尔尼诺加强利好农产品期货、气候适应相关产业。香港保险股承压。",
       "stocks": [
-        {
-          "name": "大众集团",
-          "code": "VOW3.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "↓",
-          "mid_term": "↓",
-          "long_term": "↓"
-        },
-        {
-          "name": "宝马集团",
-          "code": "BMW.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↓"
-        },
-        {
-          "name": "梅赛德斯-奔驰",
-          "code": "MBG.DE",
-          "market": "DE",
-          "sector": "汽车制造",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↓"
-        },
-        {
-          "name": "比亚迪",
-          "code": "002594.SZ",
-          "market": "SZ",
-          "sector": "电动汽车",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        }
+        {"name": "友邦保险", "code": "1299.HK", "market": "HK", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "保诚", "code": "2378.HK", "market": "HK", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "香港电讯", "code": "6823.HK", "market": "HK", "sector": "电信基建", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 14,
-      "title": "Atlas签署首笔交易，此前完成4亿英镑基金募集",
-      "logic": "私募股权市场持续活跃，Atlas完成大规模募资并快速部署，反映另类投资需求旺盛。全球PE行业管理规模持续增长，利好上市另类资产管理公司。",
+      "title": "CXMT Soars Over 400% in A-Share Debut; GigaDevice Still Drops Nearly 8%",
+      "logic": "长鑫存储（CXMT）A股首日暴涨400%表明市场对国产内存芯片自主替代的极高热情。资金从兆易创新等老牌存储芯片股转移，形成虹吸效应。长期利好国产半导体产业链。",
       "stocks": [
-        {
-          "name": "黑石集团",
-          "code": "BX.US",
-          "market": "US",
-          "sector": "另类资产管理",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "KKR & Co.",
-          "code": "KKR.US",
-          "market": "US",
-          "sector": "另类资产管理",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "阿波罗全球管理",
-          "code": "APO.US",
-          "market": "US",
-          "sector": "另类资产管理",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "兆易创新", "code": "603986.SH", "market": "SH", "sector": "存储芯片", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "北方华创", "code": "002371.SZ", "market": "SZ", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "中微公司", "code": "688012.SH", "market": "SH", "sector": "半导体设备", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "中芯国际", "code": "688981.SH", "market": "SH", "sector": "晶圆代工", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 15,
-      "title": "萬寧每月80萬搶租羅素街地舖，銅鑼灣區分店擴充至6間",
-      "logic": "万宁（Mannings，属牛奶国际旗下）在铜锣湾核心地段积极扩张，每月80万港元租金抢租罗素街地铺，反映香港零售复苏和核心区商铺需求回暖。利好香港零售REITs和商业地产。",
+      "title": "Dow Jones, Nasdaq, S&P 500 Preview: AI Giants Lead Busiest Q2 Earnings Week",
+      "logic": "AI巨头集中发布Q2财报，市场对AI相关收入和资本支出高度关注。财报超预期将带动整个AI产业链上涨；不及预期则引发科技股回调。",
       "stocks": [
-        {
-          "name": "牛奶国际",
-          "code": "D01.SI",
-          "market": "PRIVATE",
-          "sector": "零售",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "九龙仓置业",
-          "code": "1997.HK",
-          "market": "HK",
-          "sector": "商业地产",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "领展房产基金",
-          "code": "0823.HK",
-          "market": "HK",
-          "sector": "REITs",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "太古地产",
-          "code": "1972.HK",
-          "market": "HK",
-          "sector": "商业地产",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "NVIDIA", "code": "NVDA.US", "market": "US", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "Microsoft", "code": "MSFT.US", "market": "US", "sector": "云计算/AI", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "Alphabet", "code": "GOOGL.US", "market": "US", "sector": "搜索/AI", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "AMD", "code": "AMD.US", "market": "US", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 16,
-      "title": "Tokai Tokyo增资香港证券子公司，提升战略地位",
-      "logic": "东海东京证券（日本中型券商）加大对香港子公司资本投入，表明看好亚洲资本市场前景。日本券商积极布局海外，香港作为桥头堡地位强化。",
+      "title": "AiRWA acquires Hong Kong import/export company for US$50 million",
+      "logic": "跨境并购活跃反映亚太贸易和物流整合趋势，利好跨境物流和供应链管理企业。并购活动增加利好投行和相关服务商。",
       "stocks": [
-        {
-          "name": "东海东京金融集团",
-          "code": "8616.T",
-          "market": "JP",
-          "sector": "证券",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "野村控股",
-          "code": "8604.T",
-          "market": "JP",
-          "sector": "证券",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "香港交易所",
-          "code": "0388.HK",
-          "market": "HK",
-          "sector": "交易所",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "嘉里物流", "code": "0636.HK", "market": "HK", "sector": "物流", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "DSV", "code": "DSV.DE", "market": "DE", "sector": "物流", "short_term": "→", "mid_term": "↑", "long_term": "→"}
       ]
     },
     {
       "id": 17,
-      "title": "尹锡悦涉选举期间发布虚假事实，法院判囚1年半缓刑3年",
-      "logic": "韩国前总统刑事判决增加韩国政治不确定性，短期冲击韩国市场信心和韩元汇率。但政治风险已部分price-in，实质性经济影响有限，关注对韩国大型财阀企业的影响。",
+      "title": "Haier Smart Home (06690.HK) repurchased 2.1M shares for RMB 45.98M",
+      "logic": "海尔智家持续回购股票，表明管理层对公司价值有信心。回购减少流通股本、提升EPS，利好股价。",
       "stocks": [
-        {
-          "name": "三星电子",
-          "code": "005930.KS",
-          "market": "KR",
-          "sector": "半导体电子",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "SK海力士",
-          "code": "000660.KS",
-          "market": "KR",
-          "sector": "半导体存储",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "↑"
-        },
-        {
-          "name": "iShares MSCI South Korea ETF",
-          "code": "EWY.US",
-          "market": "US",
-          "sector": "韩国ETF",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        }
+        {"name": "海尔智家", "code": "6690.HK", "market": "HK", "sector": "家电制造", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "美的集团", "code": "000333.SZ", "market": "SZ", "sector": "家电制造", "short_term": "→", "mid_term": "→", "long_term": "→"},
+        {"name": "格力电器", "code": "000651.SZ", "market": "SZ", "sector": "家电制造", "short_term": "→", "mid_term": "→", "long_term": "→"}
       ]
     },
     {
       "id": 18,
-      "title": "利比亚的黎波里爆发抗议活动，民众不满停电",
-      "logic": "利比亚首都大规模抗议反映该国能源基础设施脆弱和政治不稳定，可能影响该国原油生产和出口。利比亚是OPEC成员国，供应中断风险对油价形成短线支撑，但需求端更主导。",
+      "title": "Norges Bank reduced stake in Pharmaron (03759.HK) by 55,200 shares",
+      "logic": "挪威央行减持康龙化成，可能反映国际机构对CXO板块的短期谨慎态度。但减持量较小，影响有限。CXO行业长期受益于创新药研发外包趋势。",
       "stocks": [
-        {
-          "name": "中国海洋石油",
-          "code": "0883.HK",
-          "market": "HK",
-          "sector": "石油开采",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "西方石油",
-          "code": "OXY.US",
-          "market": "US",
-          "sector": "石油开采",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "埃克森美孚",
-          "code": "XOM.US",
-          "market": "US",
-          "sector": "石油石化",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        }
+        {"name": "康龙化成", "code": "3759.HK", "market": "HK", "sector": "CXO", "short_term": "↓", "mid_term": "→", "long_term": "↑"},
+        {"name": "药明生物", "code": "2269.HK", "market": "HK", "sector": "CXO", "short_term": "→", "mid_term": "↑", "long_term": "↑"},
+        {"name": "泰格医药", "code": "3347.HK", "market": "HK", "sector": "CXO", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 19,
-      "title": "Gordon Howe国际大桥即将开通，连接美加",
-      "logic": "连接底特律和温莎的Gordie Howe国际大桥开通，是北美最大基建项目之一，将显著提升美加跨境贸易效率。利好物流、汽车产业和基建相关企业。",
+      "title": "BofA Securities names most attractive semiconductor stocks after sell-off",
+      "logic": "美银证券在半导体板块回调后推荐最具吸引力标的，对板块形成催化。机构背书推动资金回流半导体板块。",
       "stocks": [
-        {
-          "name": "Brookfield Asset Management",
-          "code": "BAM.US",
-          "market": "US",
-          "sector": "基建投资",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "加拿大国家铁路",
-          "code": "CNI.US",
-          "market": "US",
-          "sector": "铁路运输",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "通用汽车",
-          "code": "GM.US",
-          "market": "US",
-          "sector": "汽车制造",
-          "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑"
-        }
+        {"name": "台积电", "code": "2330.TW", "market": "TW", "sector": "晶圆代工", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "英伟达", "code": "NVDA.US", "market": "US", "sector": "AI芯片", "short_term": "↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "ASML", "code": "ASML.US", "market": "US", "sector": "光刻设备", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "博通", "code": "AVGO.US", "market": "US", "sector": "半导体", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "韦尔股份", "code": "603501.SH", "market": "SH", "sector": "芯片设计", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
       ]
     },
     {
       "id": 20,
-      "title": "英国首相警告：没有社会护理改革NHS将崩溃",
-      "logic": "英国NHS面临系统性危机，社会护理改革迫在眉睫。政府可能加大医疗和社会护理投入，利好英国医疗服务和护理行业。但财政压力可能对英镑和英国国债形成压力。",
+      "title": "Swang Chai Chuan (02321.HK) to pay special dividend of HK$0.0086 per share",
+      "logic": "双财庄派发特别股息，反映公司现金流充裕，短期提振股价。但特别股息不具备可持续性。",
       "stocks": [
-        {
-          "name": "Spire Healthcare",
-          "code": "SPI.L",
-          "market": "UK",
-          "sector": "私立医疗",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "Smith & Nephew",
-          "code": "SN.L",
-          "market": "UK",
-          "sector": "医疗器械",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "↑"
-        }
+        {"name": "双财庄", "code": "2321.HK", "market": "HK", "sector": "食品饮料", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "SHOG Creation Limited reduced stake in Wei Hua Da Holdings (00622.HK)",
+      "logic": "大股东减持威华达控股，短期对股价形成压力。需关注后续减持动态。",
+      "stocks": [
+        {"name": "威华达控股", "code": "0622.HK", "market": "HK", "sector": "综合企业", "short_term": "↓", "mid_term": "↓", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Correctional Services Department and HKSTP renew MOU on Smart Prison",
+      "logic": "香港科技园与惩教署深化智慧监狱合作，利好安防科技、IoT、人工智能监控企业。科技园生态企业受益。",
+      "stocks": [
+        {"name": "海康威视", "code": "002415.SZ", "market": "SZ", "sector": "安防/AI", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "香港科技园相关标的", "code": "PRIVATE", "market": "PRIVATE", "sector": "科技园区", "short_term": "→", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Zhenhealth Medical-B (02697.HK) closes up 9.85%",
+      "logic": "臻和科技单日大涨近10%，市场对精准医疗/肿瘤早筛赛道关注度提升。板块效应可能扩散至同类企业。",
+      "stocks": [
+        {"name": "臻和科技", "code": "2697.HK", "market": "HK", "sector": "精准医疗", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "贝瑞基因", "code": "000710.SZ", "market": "SZ", "sector": "基因检测", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "燃石医学", "code": "BNR.US", "market": "US", "sector": "肿瘤早筛", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Senior MP Stresses Safeguarding Iran's Rights in Hormuz Strait",
+      "logic": "霍尔木兹海峡紧张局势升级，全球约20%石油经此运输。地缘风险推高原油价格，利好石油股和油运公司。黄金避险需求上升。",
+      "stocks": [
+        {"name": "中国海油", "code": "600938.SH", "market": "SH", "sector": "石油开采", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中国石油", "code": "601857.SH", "market": "SH", "sector": "石油天然气", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "中远海能", "code": "600026.SH", "market": "SH", "sector": "油运", "short_term": "↑↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "SPDR Gold", "code": "GLD.US", "market": "US", "sector": "黄金ETF", "short_term": "↑", "mid_term": "↑", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Huge News For Nvidia Stock Fans",
+      "logic": "英伟达重大利好消息（具体内容需查看原文），但标题暗示股价正面催化。英伟达作为AI芯片龙头，消息面驱动强势。",
+      "stocks": [
+        {"name": "NVIDIA", "code": "NVDA.US", "market": "US", "sector": "AI芯片", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "台积电", "code": "2330.TW", "market": "TW", "sector": "晶圆代工", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "SK海力士", "code": "000660.KR", "market": "KR", "sector": "存储芯片", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "SMCI", "code": "SMCI.US", "market": "US", "sector": "AI服务器", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Industry urges governments not to cut EU R&I funds",
+      "logic": "欧盟研发创新资金面临削减风险，利空欧洲科技和生物医药公司。研发密集型行业未来竞争力受威胁。",
+      "stocks": [
+        {"name": "ASML", "code": "ASML.US", "market": "US", "sector": "光刻设备", "short_term": "↓", "mid_term": "↓", "long_term": "↓"},
+        {"name": "SAP", "code": "SAP.US", "market": "US", "sector": "企业软件", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "Novo Nordisk", "code": "NVO.US", "market": "US", "sector": "制药", "short_term": "→", "mid_term": "↓", "long_term": "→"},
+        {"name": "阿斯利康", "code": "AZN.US", "market": "US", "sector": "制药", "short_term": "→", "mid_term": "↓", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "BGO and Investa joint venture buys three offices in Australia",
+      "logic": "澳洲商业地产交易活跃，反映机构投资者看好办公地产复苏。利好澳洲REITs和商业地产相关股票。",
+      "stocks": [
+        {"name": "Scentre Group", "code": "SCG.AX", "market": "AU", "sector": "商业地产REIT", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "Dexus", "code": "DXS.AX", "market": "AU", "sector": "办公地产REIT", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "France and Spain Are Burning",
+      "logic": "法国和西班牙严重野火造成保险理赔激增，利空欧洲保险股；短期利好消防设备和气候适应企业；长期增加碳排放关注度，利好新能源。",
+      "stocks": [
+        {"name": "AXA", "code": "CS.PA", "market": "FR", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "安联保险", "code": "ALV.DE", "market": "DE", "sector": "保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "维斯塔斯", "code": "VWS.DE", "market": "DE", "sector": "风电/新能源", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"},
+        {"name": "Orsted", "code": "ORSTED.DE", "market": "DE", "sector": "可再生能源", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Zhixing Technology expects first-half revenue to increase by over 107%",
+      "logic": "知行科技上半年营收翻倍增长，反映自动驾驶/智能驾驶赛道高速成长。利好智能驾驶产业链。",
+      "stocks": [
+        {"name": "知行科技", "code": "1274.HK", "market": "HK", "sector": "智能驾驶", "short_term": "↑↑", "mid_term": "↑↑", "long_term": "↑↑"},
+        {"name": "德赛西威", "code": "002920.SZ", "market": "SZ", "sector": "汽车电子/智驾", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "经纬恒润", "code": "688326.SH", "market": "SH", "sector": "智能驾驶", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Wildfires in southwest Europe: What we know so far",
+      "logic": "欧洲西南部野火持续，与第28条新闻联动。加剧保险股压力，利好消防、气候适应、碳排放交易相关标的。",
+      "stocks": [
+        {"name": "慕尼黑再保险", "code": "MUV2.DE", "market": "DE", "sector": "再保险", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "NextEra Energy", "code": "NEE.US", "market": "US", "sector": "可再生能源", "short_term": "↑", "mid_term": "↑", "long_term": "↑↑"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "FIS: Fuel Oil Report 27 July",
+      "logic": "燃料油市场报告影响航运和能源交易企业。油价波动直接影响油运公司成本和海运企业盈利能力。",
+      "stocks": [
+        {"name": "中远海控", "code": "601919.SH", "market": "SH", "sector": "航运", "short_term": "→", "mid_term": "→", "long_term": "→"},
+        {"name": "招商轮船", "code": "601872.SH", "market": "SH", "sector": "油运", "short_term": "→", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Ebola Death Toll Tops 1,400 in DR Congo",
+      "logic": "刚果埃博拉疫情持续蔓延，利好疫苗和传染病防治企业。疫情可能影响当地矿业生产和国际旅行。",
+      "stocks": [
+        {"name": "智飞生物", "code": "300122.SZ", "market": "SZ", "sector": "疫苗", "short_term": "↑", "mid_term": "↑", "long_term": "→"},
+        {"name": "默沙东", "code": "MRK.US", "market": "US", "sector": "制药/疫苗", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "强生", "code": "JNJ.US", "market": "US", "sector": "制药", "short_term": "↑", "mid_term": "→", "long_term": "→"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Hong Kong Disneyland adapts to unpredictable weather with new measures",
+      "logic": "迪士尼乐园应对极端天气投资增加运营成本，短期承压。但提升游客体验保障长期客流。",
+      "stocks": [
+        {"name": "迪士尼", "code": "DIS.US", "market": "US", "sector": "主题公园/娱乐", "short_term": "→", "mid_term": "→", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "ACGHK2026 fever continues with non-stop shopping",
+      "logic": "香港动漫电玩节持续火爆，利好游戏、动漫IP、二次元消费相关企业。线下消费场景活跃提振香港本地零售。",
+      "stocks": [
+        {"name": "腾讯控股", "code": "0700.HK", "market": "HK", "sector": "游戏/互联网", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "网易", "code": "9999.HK", "market": "HK", "sector": "游戏", "short_term": "↑", "mid_term": "→", "long_term": "→"},
+        {"name": "哔哩哔哩", "code": "9626.HK", "market": "HK", "sector": "二次元/游戏", "short_term": "↑", "mid_term": "↑", "long_term": "↑"},
+        {"name": "泡泡玛特", "code": "9992.HK", "market": "HK", "sector": "潮玩/IP", "short_term": "↑", "mid_term": "↑", "long_term": "↑"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "One year on, is the Turnberry deal already at risk?",
+      "logic": "Turnberry高尔夫度假村交易面临风险，涉及特朗普集团资产。商业地产和高端度假酒店资产不确定性增加。若交易破裂，影响相关房地产信托。",
+      "stocks": [
+        {"name": "Host Hotels", "code": "HST.US", "market": "US", "sector": "酒店REIT", "short_term": "↓", "mid_term": "→", "long_term": "→"},
+        {"name": "Pebblebrook Hotel", "code": "PEB.US", "market": "US", "sector": "高端酒店REIT", "short_term": "↓", "mid_term": "→", "long_term": "→"}
       ]
     }
   ],
   "summary": {
     "newly_added": [
-      {
-        "label": "长鑫科技上市首日暴涨500%（新增）",
-        "theme": "中国最大DRAM厂商CXMT在A股上市，首日市值达3.65万亿，超越宁德时代成A股市值第一，引爆半导体板块",
-        "stocks": [
-          {
-            "name": "长鑫科技",
-            "code": "688981.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "北方华创",
-            "code": "002371.SZ",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "中微公司",
-            "code": "688012.SH",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "伊朗释放缓和信号油价暴跌6%（新增）",
-        "theme": "伊朗暗示若美国停止打击将停止报复行动，中东风险溢价快速消退，原油单日暴跌6%",
-        "stocks": [
-          {
-            "name": "中国海洋石油",
-            "code": "600938.SH",
-            "short_term": "↓"
-          },
-          {
-            "name": "埃克森美孚",
-            "code": "XOM.US",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "内幕交易新司法解释今起施行（新增）",
-        "theme": "内幕交易刑事司法解释新规正式生效，加大打击力度，提升A股市场监管透明度和投资者信心",
-        "stocks": [
-          {
-            "name": "中信证券",
-            "code": "600030.SH",
-            "short_term": "→"
-          },
-          {
-            "name": "华泰证券",
-            "code": "601688.SH",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "西班牙过度旅游抗议（新增）",
-        "theme": "马略卡岛数万民众上街抗议过度旅游，可能促使当地政府出台限制政策，影响欧洲旅游产业链",
-        "stocks": [
-          {
-            "name": "IAG",
-            "code": "IAG.L",
-            "short_term": "→"
-          },
-          {
-            "name": "TUI AG",
-            "code": "TUI1.DE",
-            "short_term": "→"
-          }
-        ]
-      },
-      {
-        "label": "特斯拉股价重挫（新增）",
-        "theme": "SpaceX与特斯拉双双重挫，马斯克身家急跌自嘲前亿万富翁，电动车竞争加剧引发市场担忧",
-        "stocks": [
-          {
-            "name": "特斯拉",
-            "code": "TSLA.US",
-            "short_term": "↓"
-          },
-          {
-            "name": "比亚迪",
-            "code": "1211.HK",
-            "short_term": "↑"
-          }
-        ]
-      }
+      {"label": "CXMT A股首日暴涨400%（新增）", "theme": "国产内存芯片龙头长鑫存储上市首日暴涨，半导体自主替代概念持续升温", "stocks": [{"name": "北方华创", "code": "002371.SZ", "short_term": "↑"}, {"name": "中微公司", "code": "688012.SH", "short_term": "↑"}]},
+      {"label": "霍尔木兹海峡地缘紧张（新增）", "theme": "伊朗强调维护霍尔木兹海峡权利，全球石油运输风险上升", "stocks": [{"name": "中国海油", "code": "600938.SH", "short_term": "↑↑"}, {"name": "中远海能", "code": "600026.SH", "short_term": "↑↑"}]},
+      {"label": "知行科技H1营收增107%（新增）", "theme": "智能驾驶赛道高速增长验证，产业链信心提振", "stocks": [{"name": "知行科技", "code": "1274.HK", "short_term": "↑↑"}, {"name": "德赛西威", "code": "002920.SZ", "short_term": "↑"}]},
+      {"label": "法西野火+厄尔尼诺气候冲击（新增）", "theme": "极端气候事件频发，新能源和气候适应投资逻辑强化", "stocks": [{"name": "维斯塔斯", "code": "VWS.DE", "short_term": "↑"}, {"name": "NextEra Energy", "code": "NEE.US", "short_term": "↑"}]},
+      {"label": "药械出海服务平台+疾控十五五（新增）", "theme": "中国医药出海政策加码叠加疾控体系升级，医疗板块多线催化", "stocks": [{"name": "迈瑞医疗", "code": "300760.SZ", "short_term": "↑"}, {"name": "智飞生物", "code": "300122.SZ", "short_term": "↑"}]},
+      {"label": "英伟达重大利好（新增）", "theme": "英伟达消息面催化，AI芯片供应链全线受益", "stocks": [{"name": "NVDA.US", "code": "NVDA.US", "short_term": "↑↑"}, {"name": "台积电", "code": "2330.TW", "short_term": "↑"}]},
+      {"label": "美银推荐半导体抄底标的（新增）", "theme": "机构背书半导体回调后价值，板块有望触底反弹", "stocks": [{"name": "ASML", "code": "ASML.US", "short_term": "↑"}, {"name": "台积电", "code": "2330.TW", "short_term": "↑"}]},
+      {"label": "欧盟研发资金削减风险（新增）", "theme": "欧洲科技和医药行业面临研发资金压力，竞争力受损", "stocks": [{"name": "ASML", "code": "ASML.US", "short_term": "↓"}, {"name": "SAP", "code": "SAP.US", "short_term": "↓"}]}
     ]
   },
-  "disclaimer": "以上分析基于2026年7月27日 hk.jarrich.cn/news/ 聚合的公开新闻内容，所有涨跌预测均为基于事件逻辑的中性推演，不构成任何投资建议。股市有风险，投资需谨慎。数据来源包括中国新闻网、雅虎财经、BBC、华尔街日报等公开媒体。"
+  "disclaimer": "以上分析基于2026年7月27日hk.jarrich.cn/news/聚合的公开新闻，所有股票推演仅为基于公开信息的逻辑分析，不构成任何投资建议。股市有风险，投资需谨慎。数据仅供参考，不保证准确性。"
 }
