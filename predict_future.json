@@ -10,5 +10,13 @@
   "SC": {
     "bullish": 4,
     "bearish": 26
+  },
+  "IC": {
+    "bullish": 56,
+    "bearish": 20
+  },
+  "IM": {
+    "bullish": 57,
+    "bearish": 23
   }
 }
