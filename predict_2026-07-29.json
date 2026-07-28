@@ -1,429 +1,389 @@
 {
   "meta": {
     "name": "2026年7月29日全球新闻股票推演",
-    "description": "基于2026年7月29日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖A股、港股、美股及欧洲市场",
+    "description": "基于2026年7月29日公开新闻事件驱动的短中长期股票多空推演数据集，覆盖半导体、地缘政治、航运、汽车等板块",
     "category": "daily",
-    "source": "2026年7月29日综合整理",
+    "source": "2026年7月29日综合整理，来源：Reuters / Bloomberg / NYT / SBS / Arab News 等",
     "version": "1.0.0",
-    "update_time": "2026-07-29T01:30:00+08:00",
+    "update_time": "2026-07-29T04:40:00+08:00",
     "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
   },
   "news_analysis": [
     {
       "id": 1,
-      "title": "特朗普重申若未与伊朗达成核协议将威胁摧毁伊朗核设施",
-      "logic": "特朗普对伊朗发出军事威胁，中东地缘政治风险急剧升温。伊朗核设施（镐山）若遭打击将严重破坏地区稳定，推高原油价格和避险资产需求。军工、能源和黄金板块短期受情绪推动上涨；中长期若局势持续紧张，油价高企将拖累全球经济复苏。",
+      "title": "中国国产浸没式DUV光刻机量产，全球芯片股抛售加剧",
+      "logic": "中国开始量产国产浸没式DUV光刻机，意味着半导体制造设备实现重大突破，降低对ASML等海外供应商的依赖。同时全球芯片股因中国竞争加剧和AI支出可持续性担忧而大幅下跌。短期市场恐慌情绪占主导，但中长期看，国产替代加速将重塑半导体设备格局。AI产品出口激增表明中国人工智能产业链已具备全球竞争力。",
       "stocks": [
         {
-          "name": "中国石油",
-          "code": "601857.SH",
-          "market": "SH",
-          "sector": "能源/石油",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国石化",
-          "code": "600028.SH",
-          "market": "SH",
-          "sector": "能源/石化",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中海油服",
-          "code": "601808.SH",
-          "market": "SH",
-          "sector": "能源/油服",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "山东黄金",
-          "code": "600547.SH",
-          "market": "SH",
-          "sector": "贵金属/黄金",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "中金黄金",
-          "code": "600489.SH",
-          "market": "SH",
-          "sector": "贵金属/黄金",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "洛克希德马丁",
-          "code": "LMT.US",
+          "name": "ASML Holding",
+          "code": "ASML",
           "market": "US",
-          "sector": "军工/国防",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
+          "sector": "半导体设备",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "↓"
         },
         {
-          "name": "雷神技术",
-          "code": "RTX.US",
+          "name": "东京电子",
+          "code": "8035.T",
+          "market": "JP",
+          "sector": "半导体设备",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "↓"
+        },
+        {
+          "name": "ACM Research",
+          "code": "ACMR",
           "market": "US",
-          "sector": "军工/国防",
-          "short_term": "↑",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
           "mid_term": "↑",
           "long_term": "↑"
         },
         {
-          "name": "中航沈飞",
-          "code": "600760.SH",
-          "market": "SH",
-          "sector": "军工/航空",
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中芯国际",
+          "code": "0981.HK",
+          "market": "HK",
+          "sector": "半导体制造",
           "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "NVIDIA",
+          "code": "NVDA",
+          "market": "US",
+          "sector": "AI芯片",
+          "short_term": "↓",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "希捷科技",
+          "code": "STX",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中国船舶",
-          "code": "600150.SH",
-          "market": "SH",
-          "sector": "军工/造船",
-          "short_term": "↑",
+          "name": "西部数据",
+          "code": "WDC",
+          "market": "US",
+          "sector": "存储芯片",
+          "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
+        },
+        {
+          "name": "TSMC",
+          "code": "TSM",
+          "market": "US",
+          "sector": "半导体制造",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "华虹半导体",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体制造",
+          "short_term": "↑↑",
+          "mid_term": "↑",
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 2,
-      "title": "中国西南重庆山体滑坡死亡人数升至41人",
-      "logic": "重庆发生重大山体滑坡自然灾害，已造成41人死亡。灾害将推动保险理赔支出增加，短期利空财险公司；灾后重建需求将利好基建、工程机械和水泥行业。同时，自然灾害频发可能促使政府加大防灾减灾基础设施投入。",
+      "title": "美国拟增加数亿美元反华支出，特朗普政府将禁止新进口中国仿人机器人",
+      "logic": "美国增加反华支出和仿人机器人禁令进一步加剧中美科技脱钩，短期将对中国机器人和AI企业的海外业务构成压力。但中长期看，这将倒逼中国加快自主研发和国内替代，反而有利于产业升级。美国机器人企业短期受益于竞争减少，但长期可能面临中国替代方案在其他市场的扩张。",
       "stocks": [
         {
-          "name": "中国人保",
-          "code": "601319.SH",
-          "market": "SH",
-          "sector": "金融/保险",
+          "name": "优必选",
+          "code": "9880.HK",
+          "market": "HK",
+          "sector": "机器人",
+          "short_term": "↓↓",
+          "mid_term": "↓",
+          "long_term": "↑"
+        },
+        {
+          "name": "Tesla",
+          "code": "TSLA",
+          "market": "US",
+          "sector": "机器人/AI",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "百度",
+          "code": "9888.HK",
+          "market": "HK",
+          "sector": "AI/机器人",
           "short_term": "↓",
           "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Boston Dynamics (Hyundai)",
+          "code": "005380.KS",
+          "market": "KR",
+          "sector": "机器人",
+          "short_term": "↑",
+          "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "中国平安",
-          "code": "601318.SH",
-          "market": "SH",
-          "sector": "金融/保险",
+          "name": "小米集团",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "消费电子/机器人",
           "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国太保",
-          "code": "601601.SH",
-          "market": "SH",
-          "sector": "金融/保险",
-          "short_term": "↓",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "中国交建",
-          "code": "601800.SH",
-          "market": "SH",
-          "sector": "基建/工程",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "中国建筑",
-          "code": "601668.SH",
-          "market": "SH",
-          "sector": "基建/建筑",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "三一重工",
-          "code": "600031.SH",
-          "market": "SH",
-          "sector": "机械/工程机械",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "海螺水泥",
-          "code": "600585.SH",
-          "market": "SH",
-          "sector": "建材/水泥",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "东方雨虹",
-          "code": "002271.SZ",
-          "market": "SZ",
-          "sector": "建材/防水",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         }
       ]
     },
     {
       "id": 3,
-      "title": "青海省连发多次地震，道路和建筑受损（5.8级/5.7级/5.0级余震）",
-      "logic": "青海兴海县接连发生5.8级、5.7级地震及多次余震，至少七个村庄道路和建筑受损，已触发山体滑坡，应急响应队伍已部署。地震灾害叠加重庆滑坡，短期将推升保险理赔压力；中期灾后重建对水泥、钢材、工程机械形成需求拉动；地震监测预警设备需求也将提升。",
+      "title": "中国与也门胡塞武装达成协议保护红海油轮通行",
+      "logic": "中国与胡塞武装达成协议保护红海油轮通行，大幅降低红海航运中断风险，短期航运费率下行压力增大，但全球贸易通道恢复将中长期利好贸易和石油进口。中国石油进口成本下降利好下游化工和燃油销售企业。",
       "stocks": [
         {
-          "name": "中国人寿",
-          "code": "601628.SH",
-          "market": "SH",
-          "sector": "金融/保险",
+          "name": "中远海控",
+          "code": "1919.HK",
+          "market": "HK",
+          "sector": "航运",
           "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "中国太保",
-          "code": "601601.SH",
-          "market": "SH",
-          "sector": "金融/保险",
+          "name": "A.P. Moller-Maersk",
+          "code": "MAERSK-B.CO",
+          "market": "DK",
+          "sector": "航运",
           "short_term": "↓",
           "mid_term": "→",
-          "long_term": "→"
+          "long_term": "↑"
         },
         {
-          "name": "华新水泥",
-          "code": "600801.SH",
-          "market": "SH",
-          "sector": "建材/水泥",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "祁连山",
-          "code": "600720.SH",
-          "market": "SH",
-          "sector": "建材/水泥",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "八一钢铁",
-          "code": "600581.SH",
-          "market": "SH",
-          "sector": "钢铁",
+          "name": "中国石油",
+          "code": "0857.HK",
+          "market": "HK",
+          "sector": "石油化工",
           "short_term": "↑",
           "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "Frontline",
+          "code": "FRO",
+          "market": "US",
+          "sector": "油轮运输",
+          "short_term": "↓↓",
+          "mid_term": "↓",
           "long_term": "→"
         },
         {
-          "name": "中联重科",
-          "code": "000157.SZ",
-          "market": "SZ",
-          "sector": "机械/工程机械",
+          "name": "中国石化",
+          "code": "0386.HK",
+          "market": "HK",
+          "sector": "石油化工",
           "short_term": "↑",
           "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "辰安科技",
-          "code": "300523.SZ",
-          "market": "SZ",
-          "sector": "科技/应急监测",
-          "short_term": "↑↑",
-          "mid_term": "↑",
           "long_term": "↑"
         }
       ]
     },
     {
       "id": 4,
-      "title": "ASML股票展望：因中国DUV担忧超卖，但长期护城河完好",
-      "logic": "ASML因中国DUV光刻机出口限制及市场对出口管制升级的担忧而超卖，股价被低估。ASML在EUV光刻机领域具有绝对垄断地位，长期技术护城河稳固。短期市场情绪偏空但已过度反映，中期若中国DUV管制落地则利空出尽，长期高端芯片需求增长趋势不变，ASML龙头地位难以撼动。",
+      "title": "澳大利亚在南太平洋面临60亿美元影响力竞赛中的战略转变",
+      "logic": "中国在南太平洋地区的发展援助战略转变，澳大利亚面临更大的地缘竞争压力。短期可能影响澳洲矿业和基建企业在太平洋岛国的项目招标，但中长期中澳经贸关系仍是双边重要支柱。",
       "stocks": [
         {
-          "name": "阿斯麦",
-          "code": "ASML.US",
-          "market": "US",
-          "sector": "科技/半导体设备",
-          "short_term": "↓",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "北方华创",
-          "code": "002371.SZ",
-          "market": "SZ",
-          "sector": "科技/半导体设备",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "中微公司",
-          "code": "688012.SH",
-          "market": "SH",
-          "sector": "科技/半导体设备",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "台积电",
-          "code": "TSM.US",
-          "market": "US",
-          "sector": "科技/晶圆代工",
+          "name": "BHP Group",
+          "code": "BHP.AX",
+          "market": "AU",
+          "sector": "矿业",
           "short_term": "→",
-          "mid_term": "↑",
-          "long_term": "↑↑"
+          "mid_term": "↓",
+          "long_term": "→"
         },
         {
-          "name": "中芯国际",
-          "code": "688981.SH",
-          "market": "SH",
-          "sector": "科技/晶圆代工",
+          "name": "Rio Tinto",
+          "code": "RIO.AX",
+          "market": "AU",
+          "sector": "矿业",
+          "short_term": "→",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国铝业",
+          "code": "2600.HK",
+          "market": "HK",
+          "sector": "矿业",
           "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "东京电子",
-          "code": "8035.T",
-          "market": "JP",
-          "sector": "科技/半导体设备",
-          "short_term": "↓",
           "mid_term": "→",
-          "long_term": "↑"
+          "long_term": "→"
         }
       ]
     },
     {
       "id": 5,
-      "title": "中国专属宝马X5和iX5长轴版发布，配备7系同款31.3英寸后排巨幕",
-      "logic": "宝马发布中国市场专属X5和iX5长轴版，轴距加长130mm至3165mm，配备7系同款31.3英寸8K后排影院屏、按摩通风座椅及中国专属ADAS，预计2027年初开售。此举表明豪华品牌持续加码中国市场，将利好宝马及其中国供应链（华晨宝马合资方、电池供应商等），同时对奔驰、奥迪等竞品形成竞争压力。",
+      "title": "重庆山体滑坡遇难人数升至41人",
+      "logic": "重庆山体滑坡造成重大人员伤亡，短期保险理赔压力增大，但灾后重建将中期拉动水泥、建材、工程建设等需求。",
       "stocks": [
         {
-          "name": "宝马集团",
-          "code": "BMW.DE",
-          "market": "DE",
-          "sector": "汽车/豪华车",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "华晨中国",
-          "code": "1114.HK",
+          "name": "中国平安",
+          "code": "2318.HK",
           "market": "HK",
-          "sector": "汽车/合资制造",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "宁德时代",
-          "code": "300750.SZ",
-          "market": "SZ",
-          "sector": "新能源/动力电池",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑↑"
-        },
-        {
-          "name": "德赛西威",
-          "code": "002920.SZ",
-          "market": "SZ",
-          "sector": "汽车/智能座舱",
-          "short_term": "↑",
-          "mid_term": "↑",
-          "long_term": "↑"
-        },
-        {
-          "name": "均胜电子",
-          "code": "600699.SH",
-          "market": "SH",
-          "sector": "汽车/汽车电子",
-          "short_term": "↑",
-          "mid_term": "→",
-          "long_term": "→"
-        },
-        {
-          "name": "奔驰集团",
-          "code": "MBG.DE",
-          "market": "DE",
-          "sector": "汽车/豪华车",
+          "sector": "保险",
           "short_term": "↓",
           "mid_term": "→",
           "long_term": "→"
         },
         {
-          "name": "奥迪",
-          "code": "VOW3.DE",
-          "market": "DE",
-          "sector": "汽车/豪华车",
+          "name": "中国太保",
+          "code": "2601.HK",
+          "market": "HK",
+          "sector": "保险",
           "short_term": "↓",
           "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "海螺水泥",
+          "code": "0914.HK",
+          "market": "HK",
+          "sector": "建材",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国建材",
+          "code": "3323.HK",
+          "market": "HK",
+          "sector": "建材",
+          "short_term": "→",
+          "mid_term": "↑",
           "long_term": "→"
         }
       ]
     },
     {
       "id": 6,
-      "title": "中国玛沁县西北128公里发生5.7级显著地震",
-      "logic": "该地震与青海兴海县地震属同一地震序列，震级显著（5.7级），震中位于玛沁县西北高海拔地区。连续强震将进一步推动青海省抗震救灾和灾后重建工作，对建材、工程机械、应急设备以及当地基础设施相关股票形成持续利好。区域性水泥企业和钢铁企业受益最为直接。",
+      "title": "印中里普列克边境贸易将于8月1日重启",
+      "logic": "印度与中国边境贸易重启是双边关系缓和的重要信号，短期利好边境贸易相关企业和物流公司，中期有望扩展为更广泛的经贸合作。",
       "stocks": [
         {
-          "name": "金圆股份",
-          "code": "000546.SZ",
-          "market": "SZ",
-          "sector": "建材/水泥（青海）",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
-          "name": "西宁特钢",
-          "code": "600117.SH",
-          "market": "SH",
-          "sector": "钢铁（青海）",
-          "short_term": "↑↑",
-          "mid_term": "↑",
-          "long_term": "→"
-        },
-        {
           "name": "中国中铁",
-          "code": "601390.SH",
-          "market": "SH",
-          "sector": "基建/铁路公路",
+          "code": "0390.HK",
+          "market": "HK",
+          "sector": "基建",
           "short_term": "↑",
           "mid_term": "↑",
           "long_term": "→"
         },
         {
-          "name": "徐工机械",
-          "code": "000425.SZ",
-          "market": "SZ",
-          "sector": "机械/工程机械",
+          "name": "iShares MSCI India ETF",
+          "code": "INDA",
+          "market": "US",
+          "sector": "印度市场",
           "short_term": "↑",
           "mid_term": "→",
           "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "奔驰股价涨3.5%，成本削减提升利润",
+      "logic": "奔驰通过成本削减显著提升利润，表明传统豪华车企在电动化转型中通过运营效率提升维护盈利能力。短期股价反应积极，但中长期仍面临中国电动车品牌在全球市场的强劲竞争。",
+      "stocks": [
+        {
+          "name": "Mercedes-Benz",
+          "code": "MBG.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
         },
         {
-          "name": "震安科技",
-          "code": "300767.SZ",
-          "market": "SZ",
-          "sector": "建材/减隔震",
-          "short_term": "↑↑",
+          "name": "BMW",
+          "code": "BMW.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "电动车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "Volkswagen",
+          "code": "VOW3.DE",
+          "market": "DE",
+          "sector": "汽车制造",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "↓"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "中国重申对全球发展与南南合作的承诺",
+      "logic": "中国重申对南南合作和全球发展的承诺，表明将继续加大对发展中国家的基建和投资支持。中期利好海外工程承包和基建企业，特别是在非洲和东南亚有重大布局的公司。",
+      "stocks": [
+        {
+          "name": "中国交建",
+          "code": "1800.HK",
+          "market": "HK",
+          "sector": "基建工程",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国铁建",
+          "code": "1186.HK",
+          "market": "HK",
+          "sector": "基建工程",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国中车",
+          "code": "1766.HK",
+          "market": "HK",
+          "sector": "轨道交通",
+          "short_term": "→",
           "mid_term": "↑",
           "long_term": "↑"
         }
@@ -433,96 +393,59 @@
   "summary": {
     "newly_added": [
       {
-        "label": "特朗普伊朗核威胁（新增）",
-        "theme": "特朗普威胁若未达成协议将摧毁伊朗核设施，中东局势升温",
+        "label": "中国DUV光刻机量产 + 全球芯片股抛售（新增）",
+        "theme": "中国国产浸没式DUV光刻机开始量产，引发全球半导体股抛售潮，涉及ASML、东京电子、中芯国际、北方华创等10只股票",
         "stocks": [
           {
-            "name": "中国石油",
-            "code": "601857.SH",
+            "name": "ASML",
+            "code": "ASML",
+            "short_term": "↓↓"
+          },
+          {
+            "name": "中芯国际",
+            "code": "0981.HK",
             "short_term": "↑"
-          },
-          {
-            "name": "山东黄金",
-            "code": "600547.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "洛克希德马丁",
-            "code": "LMT.US",
-            "short_term": "↑"
-          }
-        ]
-      },
-      {
-        "label": "重庆山体滑坡41人死亡（新增）",
-        "theme": "重庆重大地质灾害造成重大伤亡，灾后重建利好基建板块",
-        "stocks": [
-          {
-            "name": "中国交建",
-            "code": "601800.SH",
-            "short_term": "↑"
-          },
-          {
-            "name": "中国人保",
-            "code": "601319.SH",
-            "short_term": "↓"
-          }
-        ]
-      },
-      {
-        "label": "青海连发多次强震（新增）",
-        "theme": "青海兴海县连续发生5.8级/5.7级地震，七个村庄受损",
-        "stocks": [
-          {
-            "name": "祁连山",
-            "code": "600720.SH",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "辰安科技",
-            "code": "300523.SZ",
-            "short_term": "↑↑"
-          }
-        ]
-      },
-      {
-        "label": "ASML因中国DUV担忧超卖（新增）",
-        "theme": "ASML受中国出口管制担忧超卖，但长期护城河完好",
-        "stocks": [
-          {
-            "name": "阿斯麦",
-            "code": "ASML.US",
-            "short_term": "↓"
           },
           {
             "name": "北方华创",
             "code": "002371.SZ",
+            "short_term": "↑↑"
+          }
+        ]
+      },
+      {
+        "label": "美国禁令中国仿人机器人（新增）",
+        "theme": "特朗普政府将禁止新进口中国仿人机器人，优必选、小米等受到短期冲击",
+        "stocks": [
+          {
+            "name": "优必选",
+            "code": "9880.HK",
+            "short_term": "↓↓"
+          },
+          {
+            "name": "Tesla",
+            "code": "TSLA",
             "short_term": "↑"
           }
         ]
       },
       {
-        "label": "宝马中国专属X5/iX5长轴版发布（新增）",
-        "theme": "宝马发布中国市场专属长轴版X5和iX5，配备31.3英寸后排巨幕",
+        "label": "红海航运恢复协议（新增）",
+        "theme": "中国与胡塞武装达成协议保护红海油轮，航运股短期承压但长期利好",
         "stocks": [
           {
-            "name": "宝马集团",
-            "code": "BMW.DE",
-            "short_term": "↑"
+            "name": "中远海控",
+            "code": "1919.HK",
+            "short_term": "↓"
           },
           {
-            "name": "华晨中国",
-            "code": "1114.HK",
-            "short_term": "↑↑"
-          },
-          {
-            "name": "宁德时代",
-            "code": "300750.SZ",
-            "short_term": "↑"
+            "name": "Frontline",
+            "code": "FRO",
+            "short_term": "↓↓"
           }
         ]
       }
     ]
   },
-  "disclaimer": "以上分析基于2026年7月29日公开新闻的逻辑推演，所有涨跌预测仅为基于事件驱动的假设性分析，不构成任何投资建议。股市有风险，投资需谨慎。预测方向使用↑（看涨）、↑↑（强烈看涨）、↓（看跌）、→（横盘/中性）表示。"
+  "disclaimer": "以上分析基于2026年7月29日公开新闻，仅为逻辑推演，不构成任何投资建议。股市有风险，投资须谨慎。数据来源：Reuters / Bloomberg / NYT / SBS / Arab News / TradingView 等。"
 }
