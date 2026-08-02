@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "name": "2026-08-03 全球新闻股票推演",
+    "description": "基于 2026-08-02 19:40 ~ 2026-08-03 07:40 公开新闻事件驱动的短中长期股票多空推演，覆盖 A 股、港股、美股、日韩市场",
+    "category": "daily",
+    "source": "2026-08-03 hk.jarrich.cn 新闻综合整理（国内/国际/香港各30条）",
+    "version": "1.0",
+    "update_time": "2026-08-03T07:40:00+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "央行下半年工作会议：继续实施好适度宽松的货币政策",
+      "logic": "央行明确下半年延续适度宽松货币政策，市场对于降准降息及流动性充裕的预期升温，利好银行估值修复、券商经纪与两融业务，以及利率敏感型的地产与成长板块。宽松环境下权益资产风险偏好改善。",
+      "stocks": [
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "保利发展",
+          "code": "600048.SH",
+          "market": "SH",
+          "sector": "房地产",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "沪深300ETF",
+          "code": "510300.SH",
+          "market": "SH",
+          "sector": "指数基金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "国常会放宽住房公积金提取与使用范围",
+      "logic": "国务院常务会议通过住房公积金管理条例修改决定，拓宽提取和使用范围，有助于释放刚需与改善型住房消费，对地产链（开发、建材、家居）形成边际提振，建材与防水龙头受益更直接。",
+      "stocks": [
+        {
+          "name": "万科A",
+          "code": "000002.SZ",
+          "market": "SZ",
+          "sector": "房地产",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "保利发展",
+          "code": "600048.SH",
+          "market": "SH",
+          "sector": "房地产",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "东方雨虹",
+          "code": "002271.SZ",
+          "market": "SZ",
+          "sector": "建材防水",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "证监会对广发证券、红塔证券等多家券商执业及内控问题问责",
+      "logic": "监管层对多家券商执业质量与内控缺陷集中问责，短期压制被点名券商估值与投行业务预期，行业合规成本上升；但头部风控稳健券商有望在监管出清后获得份额提升。",
+      "stocks": [
+        {
+          "name": "广发证券",
+          "code": "000776.SZ",
+          "market": "SZ",
+          "sector": "券商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "红塔证券",
+          "code": "601236.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "sector": "券商",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "长鑫科技登顶A股市值榜首 市值攀升至3.61万亿元",
+      "logic": "长鑫科技（CXMT，未上市）市值登顶A股，标志国产DRAM存储与半导体自主可控进入新阶段，强烈提振半导体设备、晶圆代工与存储芯片链条的估值与情绪，国产替代逻辑再强化。",
+      "stocks": [
+        {
+          "name": "中芯国际",
+          "code": "688981.SH",
+          "market": "SH",
+          "sector": "半导体",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "北方华创",
+          "code": "002371.SZ",
+          "market": "SZ",
+          "sector": "半导体设备",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "sector": "存储芯片",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "7月新能源车企成绩单：吉利银河超10万辆、零跑交付首破10万辆",
+      "logic": "主流自主车企7月交付延续高增，吉利银河与零跑双双站上10万辆，行业以旧换新与渗透率提升逻辑延续。销量高增改善盈利预期，利好相关整车与供应链标的。",
+      "stocks": [
+        {
+          "name": "吉利汽车",
+          "code": "0175.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "零跑汽车",
+          "code": "9863.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "宇树科技IPO在即、比亚迪人形机器人首秀、智元创新启动赴港上市",
+      "logic": "人形机器人赛道资本化提速：宇树冲刺上市、比亚迪首款人形机器人亮相、智元筹备港股，板块关注度与估值中枢上移，利好本体厂商及核心零部件（执行器、减速器、热管理）供应链。",
+      "stocks": [
+        {
+          "name": "优必选",
+          "code": "9880.HK",
+          "market": "HK",
+          "sector": "机器人",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "sector": "工业自动化",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "三花智控",
+          "code": "002050.SZ",
+          "market": "SZ",
+          "sector": "机器人零部件",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "比亚迪",
+          "code": "1211.HK",
+          "market": "HK",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "OpenRouter周榜前五全为中国模型 小米MiMo-V2.5单周调用10.5万亿Token",
+      "logic": "国产大模型在海外平台调用量集体登顶，验证中国AI模型性价比与开源生态竞争力，强化国产算力、大模型与应用落地主线，利好模型厂商、AI训练芯片与云服务。",
+      "stocks": [
+        {
+          "name": "小米集团",
+          "code": "1810.HK",
+          "market": "HK",
+          "sector": "AI与消费电子",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "科大讯飞",
+          "code": "002230.SZ",
+          "market": "SZ",
+          "sector": "人工智能",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑↑"
+        },
+        {
+          "name": "寒武纪",
+          "code": "688256.SH",
+          "market": "SH",
+          "sector": "AI芯片",
+          "short_term": "↑",
+          "mid_term": "↑↑",
+          "long_term": "↑↑"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "“欧佩克+”9月日均增产18.8万桶 布伦特原油一度大跌超7%报83.91美元",
+      "logic": "OPEC+主要产油国决定9月增产，叠加地缘风险阶段性缓和，布伦特原油单日重挫超7%，压制上游油气盈利预期； conversely 燃油成本下行利好航空与交运。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "sector": "石油石化",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海油",
+          "code": "600938.SH",
+          "market": "SH",
+          "sector": "石油石化",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "中国国航",
+          "code": "601111.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "南方航空",
+          "code": "600029.SH",
+          "market": "SH",
+          "sector": "航空运输",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "美伊谈判与霍尔木兹海峡不确定性 现货黄金涨0.64%、白银涨1.5%",
+      "logic": "美伊谈判前景未明、霍尔木兹海峡通行仍存风险，避险情绪推升贵金属，现货黄金与白银联袂上涨；地缘溢价与央行购金支撑金银中长期配置价值。香港加速建设国际黄金交易中心亦形成催化。",
+      "stocks": [
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "sector": "有色贵金属",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "招金矿业",
+          "code": "1818.HK",
+          "market": "HK",
+          "sector": "黄金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "盛达资源",
+          "code": "000603.SZ",
+          "market": "SZ",
+          "sector": "白银",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "美股上周五收涨：亚马逊暴涨15.32%、苹果重挫7.35% 纳指100期货涨0.78%",
+      "logic": "美股分化明显：亚马逊受云与AI资本开支叙事驱动大涨，苹果因硬件需求担忧重挫；股指期货走高反映风险偏好修复，AI算力链（英伟达）相对占优。",
+      "stocks": [
+        {
+          "name": "亚马逊",
+          "code": "AMZN.US",
+          "market": "US",
+          "sector": "电商与云",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "苹果",
+          "code": "AAPL.US",
+          "market": "US",
+          "sector": "消费电子",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        },
+        {
+          "name": "英伟达",
+          "code": "NVDA.US",
+          "market": "US",
+          "sector": "AI算力",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "费城半导体指数7月跌16.9% 美光跌5.9% FMS2026闪存峰会本周举行",
+      "logic": "半导体板块经历7月深跌后估值回归，FMS2026闪存峰会（三星、SK海力士、铠侠、美光出席）或带来技术与需求指引；存储链短期仍承压，但AI服务器拉动的HBM与高端存储中长期需求向好。",
+      "stocks": [
+        {
+          "name": "美光科技",
+          "code": "MU.US",
+          "market": "US",
+          "sector": "半导体存储",
+          "short_term": "↓",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "AMD",
+          "code": "AMD.US",
+          "market": "US",
+          "sector": "半导体",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "台积电",
+          "code": "TSM.US",
+          "market": "US",
+          "sector": "半导体代工",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "西部数据",
+          "code": "WDC.US",
+          "market": "US",
+          "sector": "存储",
+          "short_term": "→",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "美财政部罕见介入汇市 与日韩联手实施近30年最大规模协调干预",
+      "logic": "美日韩协同汇市干预稳定汇率，缓和本币升值压力，利好日韩出口导向型企业（汽车、电子）的盈利与估值；同时也反映美元走弱背景下的全球汇率博弈。",
+      "stocks": [
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "sector": "半导体",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "丰田汽车",
+          "code": "7203.T",
+          "market": "JP",
+          "sector": "汽车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "现代汽车",
+          "code": "005380.KS",
+          "market": "KR",
+          "sector": "汽车",
+          "short_term": "→",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "港交所离岸人民币国债期货上市、下调最低上落价位 港股7月涨超13%",
+      "logic": "港交所8月3日推出5年期离岸人民币国债期货并落地降低股票最小变动价位第二阶段，补齐离岸利率风险管理工具链、提升市场流动性；叠加港股7月领跑全球，交易活跃度与港交所盈利预期双升，人民币国际化利好中资银行港股。",
+      "stocks": [
+        {
+          "name": "香港交易所",
+          "code": "0388.HK",
+          "market": "HK",
+          "sector": "交易所",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中银香港",
+          "code": "2388.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "恒生中国企业ETF",
+          "code": "2828.HK",
+          "market": "HK",
+          "sector": "指数基金",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "港股中报密集披露：药明康德、汇丰、创科实业、百济神州相继放榜",
+      "logic": "港股步入中报密集期，药明康德、汇丰控股、创科实业、百济神州等权重股陆续披露业绩，盈利兑现与指引将主导个股方向，整体有望支撑港股盈利预期改善。",
+      "stocks": [
+        {
+          "name": "药明康德",
+          "code": "2359.HK",
+          "market": "HK",
+          "sector": "CXO医药",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "汇丰控股",
+          "code": "0005.HK",
+          "market": "HK",
+          "sector": "银行",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "创科实业",
+          "code": "0669.HK",
+          "market": "HK",
+          "sector": "电动工具",
+          "short_term": "↑",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "ST际华四年虚增营收近百亿被罚2320万元 涉三任董事长",
+      "logic": "ST际华因长期财务造假被监管重罚，信披违规暴露治理风险，短期估值与流动性承压，亦强化市场对ST及治理瑕疵公司的风险折价。",
+      "stocks": [
+        {
+          "name": "ST际华",
+          "code": "601718.SH",
+          "market": "SH",
+          "sector": "纺织军工",
+          "short_term": "↓",
+          "mid_term": "↓",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "北汽蓝谷7月销量22828辆 同比增长122% 一博科技PCB净利大增",
+      "logic": "北汽蓝谷销量翻倍验证新能源放量，一博科技上半年净利同比增超15倍、PCB订单强劲，反映汽车电子与AI服务器带动的PCB高景气，利好相关制造链。",
+      "stocks": [
+        {
+          "name": "北汽蓝谷",
+          "code": "600733.SH",
+          "market": "SH",
+          "sector": "新能源汽车",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "一博科技",
+          "code": "301366.SZ",
+          "market": "SZ",
+          "sector": "PCB",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "沪电股份",
+          "code": "002463.SZ",
+          "market": "SZ",
+          "sector": "PCB",
+          "short_term": "↑",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "央行延续适度宽松（新增）",
+        "theme": "流动性宽松提振风险偏好",
+        "stocks": [
+          {
+            "name": "招商银行",
+            "code": "600036.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中信证券",
+            "code": "600030.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "长鑫市值登顶A股（新增）",
+        "theme": "半导体自主可控再强化",
+        "stocks": [
+          {
+            "name": "中芯国际",
+            "code": "688981.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "北方华创",
+            "code": "002371.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "人形机器人资本化提速（新增）",
+        "theme": "宇树IPO/比亚迪首秀/智元赴港",
+        "stocks": [
+          {
+            "name": "优必选",
+            "code": "9880.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "三花智控",
+            "code": "002050.SZ",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "OPEC+增产油价重挫（新增）",
+        "theme": "油气承压、航空受益",
+        "stocks": [
+          {
+            "name": "中国石油",
+            "code": "601857.SH",
+            "short_term": "↓"
+          },
+          {
+            "name": "中国国航",
+            "code": "601111.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "港交所人民币国债期货上市（新增）",
+        "theme": "离岸人民币与港股流动性双升",
+        "stocks": [
+          {
+            "name": "香港交易所",
+            "code": "0388.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "中银香港",
+            "code": "2388.HK",
+            "short_term": "↑"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于2026-08-03公开新闻事件，所有股票涨跌预测均为逻辑推演，不构成任何投资建议。投资有风险，入市需谨慎。"
+}
