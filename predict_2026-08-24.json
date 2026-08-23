@@ -1,0 +1,1098 @@
+{
+  "meta": {
+    "name": "2026年8月24日全球新闻股票推演",
+    "description": "基于2026-08-23 19:45至2026-08-24 07:45窗口内国内/国际/香港新闻，对潜在受影响股票做短中长期多空推演",
+    "category": "daily",
+    "source": "2026年8月24日早间财经早餐/要闻综合整理",
+    "version": "2026-08-24",
+    "update_time": "2026-08-24T07:48:37+08:00",
+    "declaration": "以下为基于公开新闻的逻辑推演，不构成投资建议"
+  },
+  "news_analysis": [
+    {
+      "id": 1,
+      "title": "嫦娥七号任务推迟 文昌航空航天论坛开幕",
+      "logic": "嫦娥七号今年预定窗口不具备发射条件，短期航天发射链预期降温；但8/24-26文昌国际航空航天论坛集中展示产业成果，利好卫星制造、航天电子与配套部件中长期需求。",
+      "stocks": [
+        {
+          "name": "中国卫星",
+          "code": "600118.SH",
+          "market": "SH",
+          "short_term": "→",
+          "sector": "航天制造",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "航天电子",
+          "code": "600879.SH",
+          "market": "SH",
+          "short_term": "→",
+          "sector": "航天电子",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中航光电",
+          "code": "002179.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "连接器",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "白菜蘸甲醛事件 三部门严查流向",
+      "logic": "食品安全事件催化监管抽检与溯源需求，食品检测、第三方检测机构订单预期提升，利好检测服务龙头。",
+      "stocks": [
+        {
+          "name": "华测检测",
+          "code": "300012.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "第三方检测",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "广电计量",
+          "code": "002967.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "计量检测",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "谱尼测试",
+          "code": "300887.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "检测服务",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "云南泥石流、广西台风救灾物资调拨",
+      "logic": "台风“紫檀”与云南地质灾害触发中央救灾物资调拨与应急抢险，利好水利工程、应急装备与重型机械的灾后重建订单。",
+      "stocks": [
+        {
+          "name": "中国电建",
+          "code": "601669.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "水利基建",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中船应急",
+          "code": "300527.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "应急装备",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "三一重工",
+          "code": "600031.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "工程机械",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "世界人形机器人运动会天工双冠 银河通用自主网球赛",
+      "logic": "天工队400米大型组38.15秒、小型组45.66秒双夺冠并超越人类纪录，银河通用实现全球首次机器人自主网球赛，具身智能产业化加速，利好减速器、伺服、控制器与本体厂商。",
+      "stocks": [
+        {
+          "name": "绿的谐波",
+          "code": "688017.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "减速器",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "鸣志电器",
+          "code": "603728.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "伺服电机",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "埃斯顿",
+          "code": "002747.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "工业机器人",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "江苏北人",
+          "code": "688218.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "机器人集成",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "荣耀机器人破纪录 灵巧手核心零部件自主可控",
+      "logic": "荣耀机器人闪电100/400/1500米均破人类纪录，国产灵巧手核心零部件完全自主可控，标志机器人末端执行器国产化突破，利好微型传动与力觉传感。",
+      "stocks": [
+        {
+          "name": "兆威机电",
+          "code": "003021.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "微型传动",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "柯力传感",
+          "code": "603662.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "力觉传感",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "五洲新春",
+          "code": "603667.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "轴承/传动",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "暑期档电影票房破271亿元",
+      "logic": "截至8/23暑期档票房破115亿、年度总票房破271亿，内容供给复苏带动影视制作与院线景气，利好头部内容方与院线运营商。",
+      "stocks": [
+        {
+          "name": "光线传媒",
+          "code": "300251.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "影视内容",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "万达电影",
+          "code": "002739.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "院线",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中国电影",
+          "code": "600977.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "发行院线",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "第48届世界技能大赛中国代表团成立",
+      "logic": "71名选手参加64个项目，职业教育与技能培训受政策与产业双重重视，利好职教培训与教育信息化。",
+      "stocks": [
+        {
+          "name": "中公教育",
+          "code": "002607.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "职业教育",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "传智教育",
+          "code": "003032.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "IT培训",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "1-7月税收增6.7% 证券交易印花税增99.2%",
+      "logic": "印花税高增反映市场活跃度与成交额放大，直接利好券商与交易软件、金融信息服务提供商。",
+      "stocks": [
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "券商",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "东方财富",
+          "code": "300059.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "互联网券商",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "同花顺",
+          "code": "300033.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "金融信息",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "财政部升级促消费贴息 信用卡分期纳入",
+      "logic": "促消费贴息扩围至信用卡分期，财政“投资于人”导向强化，利好银行消费金融、免税与家电耐用品消费。",
+      "stocks": [
+        {
+          "name": "招商银行",
+          "code": "600036.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "银行/消费金融",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国中免",
+          "code": "601888.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "免税",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "美的集团",
+          "code": "000333.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "家电",
+          "mid_term": "→",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "中央网信委支持创新企业境内外上市",
+      "logic": "支持高成长创新型企业境内外上市融资，利好创投与投行保荐业务，A+H双上市通道预期受益。",
+      "stocks": [
+        {
+          "name": "鲁信创投",
+          "code": "600783.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "创投",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "九鼎投资",
+          "code": "600053.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "创投",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "投行",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "李强强调统筹推进“四网”建设",
+      "logic": "算力网、通信网、新型电网等“四网”建设提档，利好通信设备、电网设备与算力基础设施供应商。",
+      "stocks": [
+        {
+          "name": "中兴通讯",
+          "code": "000063.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "通信设备",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中国联通",
+          "code": "600050.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "电信运营",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "特变电工",
+          "code": "600089.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "电网设备",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "长江存储科创板IPO获受理 拟融资330亿",
+      "logic": "长江存储1-3月营收470亿、净利334亿，IPO受理提振国产存储估值锚，利好存储芯片与封测配套。",
+      "stocks": [
+        {
+          "name": "兆易创新",
+          "code": "603986.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "存储芯片",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "佰维存储",
+          "code": "688525.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "存储模组",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "江波龙",
+          "code": "301308.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "存储模组",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "中际旭创上半年净利暴增241.7%",
+      "logic": "AI算力需求驱动光模块量价齐升，中际旭创业绩高增确立板块景气，利好光模块与光器件龙头。",
+      "stocks": [
+        {
+          "name": "中际旭创",
+          "code": "300308.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "光模块",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "新易盛",
+          "code": "300502.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "光模块",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "天孚通信",
+          "code": "300394.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "光器件",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "贵州茅台回应“增收不增利”",
+      "logic": "改革转型致阶段性利润波动，短期估值承压，但品牌壁垒与分红逻辑未破，中长期看改革成效兑现。",
+      "stocks": [
+        {
+          "name": "贵州茅台",
+          "code": "600519.SH",
+          "market": "SH",
+          "short_term": "↓",
+          "sector": "白酒",
+          "mid_term": "→",
+          "long_term": "↑"
+        },
+        {
+          "name": "五粮液",
+          "code": "000858.SZ",
+          "market": "SZ",
+          "short_term": "→",
+          "sector": "白酒",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "阿里配售800亿港元新股 全部投入AI",
+      "logic": "阿里七年首次配售、募资全投AI并获超额认购，强化全栈AI算力叙事，利好阿里及国内算力基础设施链。",
+      "stocks": [
+        {
+          "name": "阿里巴巴",
+          "code": "BABA.US",
+          "market": "US",
+          "short_term": "↑",
+          "sector": "电商/云",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "阿里巴巴-W",
+          "code": "9988.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "电商/云",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "浪潮信息",
+          "code": "000977.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "算力服务器",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "工业富联",
+          "code": "601138.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "AI服务器",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "紫金矿业上半年净利增68.17%",
+      "logic": "金价高位与铜价强势驱动资源龙头业绩高增，叠加避险与通胀对冲需求，利好黄金及有色资源。",
+      "stocks": [
+        {
+          "name": "紫金矿业",
+          "code": "2899.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "黄金/有色",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "紫金矿业",
+          "code": "601899.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "黄金/有色",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "黄金",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "中金黄金",
+          "code": "600489.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "黄金",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "东方财富上半年净利增44.85%",
+      "logic": "市场成交额放大与资管业务扩张驱动业绩，金融科技情绪随行情回暖，利好互联网券商与金融数据服务。",
+      "stocks": [
+        {
+          "name": "东方财富",
+          "code": "300059.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "互联网券商",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "指南针",
+          "code": "300803.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "金融信息",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "长飞光纤上半年净利增888.88%",
+      "logic": "AI数据中心与出海拉动光纤光缆量价齐升，光通信景气外溢，利好光纤光缆与海缆厂商。",
+      "stocks": [
+        {
+          "name": "长飞光纤",
+          "code": "601869.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "光纤光缆",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "亨通光电",
+          "code": "600487.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "光纤海缆",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "东山精密上半年净利增290.09%",
+      "logic": "AI服务器与新能源结构件需求爆发，PCB与精密制造景气延续，利好消费电子与算力结构件供应商。",
+      "stocks": [
+        {
+          "name": "东山精密",
+          "code": "002384.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "PCB/精密制造",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "鹏鼎控股",
+          "code": "002938.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "PCB",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "鸡肉价格连涨两周 出口大增",
+      "logic": "供需偏紧推动禽肉价格上行、出口高增，利好白羽鸡养殖与禽类食品产业链盈利改善。",
+      "stocks": [
+        {
+          "name": "圣农发展",
+          "code": "002299.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "白羽鸡养殖",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "益生股份",
+          "code": "002458.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "种鸡",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "民和股份",
+          "code": "002234.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "商品鸡",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "国产叉车订单排到第四季度 全球爆单",
+      "logic": "制造业与物流自动化需求旺盛，国产叉车出海份额提升，利好工业车辆与智能物流装备。",
+      "stocks": [
+        {
+          "name": "安徽合力",
+          "code": "600761.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "工业车辆",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "杭叉集团",
+          "code": "603298.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "叉车",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "中东航线海运费突破1万美元",
+      "logic": "地缘扰动与绕航推升集装箱与油运运价，利好具有运力与航线调配能力的航运龙头。",
+      "stocks": [
+        {
+          "name": "中远海控",
+          "code": "601919.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "集装箱航运",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中远海能",
+          "code": "600026.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "油运",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "恒指成分股增至95只 纳入华虹宏力、潍柴动力",
+      "logic": "恒指季度检视扩容并纳入半导体与装备制造龙头，被动资金与指数权重调整利好相关标的。",
+      "stocks": [
+        {
+          "name": "华虹半导体",
+          "code": "1347.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "半导体代工",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "潍柴动力",
+          "code": "2338.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "装备制造",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "潍柴动力",
+          "code": "000338.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "装备制造",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "中信证券、国泰海通净利双双破200亿",
+      "logic": "券商中报业绩创纪录，牛市旗手从“靠天吃饭”转向资产负债表扩张，利好头部券商估值重塑。",
+      "stocks": [
+        {
+          "name": "中信证券",
+          "code": "600030.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "券商",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "国泰海通",
+          "code": "601211.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "券商",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "华泰证券",
+          "code": "601688.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "券商",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "美PMI强劲 美股反弹 降息交易升温",
+      "logic": "美国综合PMI超预期、服务业扩张，叠加降息预期，美股科技反弹但估值仍高，短期中性偏多、中期看盈利兑现。",
+      "stocks": [
+        {
+          "name": "英伟达",
+          "code": "NVDA.US",
+          "market": "US",
+          "short_term": "→",
+          "sector": "AI芯片",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "特斯拉",
+          "code": "TSLA.US",
+          "market": "US",
+          "short_term": "↑",
+          "sector": "电动车/自动驾驶",
+          "mid_term": "→",
+          "long_term": "→"
+        },
+        {
+          "name": "苹果",
+          "code": "AAPL.US",
+          "market": "US",
+          "short_term": "→",
+          "sector": "消费电子",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "现货黄金突破4600美元 创三个月新高",
+      "logic": "美元走弱、美债回购疑虑与避险需求推升黄金，技术面突破200日均线打开上行空间，利好黄金与贵金属。",
+      "stocks": [
+        {
+          "name": "紫金矿业",
+          "code": "2899.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "黄金",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "山东黄金",
+          "code": "600547.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "黄金",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "盛达资源",
+          "code": "000603.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "白银",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Moderna mRNA癌症疫苗突破 股价翻倍",
+      "logic": "个性化mRNA癌症疫苗重大突破带动生物科技板块，映射国内mRNA与CXO创新药产业链估值重估。",
+      "stocks": [
+        {
+          "name": "Moderna",
+          "code": "MRNA.US",
+          "market": "US",
+          "short_term": "↑",
+          "sector": "mRNA疫苗",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "药明康德",
+          "code": "2359.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "CXO",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "药明康德",
+          "code": "603259.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "CXO",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "智飞生物",
+          "code": "300122.SZ",
+          "market": "SZ",
+          "short_term": "↑",
+          "sector": "疫苗",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "加对美关税、伊朗经济战 油价六连涨",
+      "logic": "美加贸易摩擦与伊朗“经济战”推升霍尔木兹供应风险，油价六连涨，利好上游油气与油服，航空承压。",
+      "stocks": [
+        {
+          "name": "中国石油",
+          "code": "601857.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "油气开采",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中国海油",
+          "code": "600938.SH",
+          "market": "SH",
+          "short_term": "↑",
+          "sector": "油气开采",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "中海油田服务",
+          "code": "2883.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "油服",
+          "mid_term": "↑",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "比特币ETF周净流入26亿美元 加密续涨",
+      "logic": "美国现货比特币/以太坊ETF单周净流入创去年10月来新高，加密情绪回暖利好交易所与区块链服务商。",
+      "stocks": [
+        {
+          "name": "Coinbase",
+          "code": "COIN.US",
+          "market": "US",
+          "short_term": "↑",
+          "sector": "加密交易所",
+          "mid_term": "↑",
+          "long_term": "→"
+        },
+        {
+          "name": "欧科云链",
+          "code": "1499.HK",
+          "market": "HK",
+          "short_term": "↑",
+          "sector": "区块链服务",
+          "mid_term": "→",
+          "long_term": "→"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "三星2026股东回报最高110万亿韩元",
+      "logic": "三星拟最高110万亿韩元股东回报提振韩股半导体估值，映射存储与代工景气，利好港股/亚太存储链。",
+      "stocks": [
+        {
+          "name": "三星电子",
+          "code": "005930.KS",
+          "market": "KR",
+          "short_term": "↑",
+          "sector": "半导体",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "SK海力士",
+          "code": "000660.KS",
+          "market": "KR",
+          "short_term": "↑",
+          "sector": "存储芯片",
+          "mid_term": "↑",
+          "long_term": "↑"
+        },
+        {
+          "name": "台积电",
+          "code": "2330.TW",
+          "market": "TW",
+          "short_term": "↑",
+          "sector": "晶圆代工",
+          "mid_term": "↑",
+          "long_term": "↑"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "newly_added": [
+      {
+        "label": "黄金突破4600美元（新增）",
+        "theme": "美元走弱与避险推升金价创三个月新高",
+        "stocks": [
+          {
+            "name": "紫金矿业",
+            "code": "2899.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "山东黄金",
+            "code": "600547.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "阿里配售800亿投AI（新增）",
+        "theme": "七年首次配售募资全投全栈AI并获超额认购",
+        "stocks": [
+          {
+            "name": "阿里巴巴-W",
+            "code": "9988.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "工业富联",
+            "code": "601138.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "人形机器人运动会双冠（新增）",
+        "theme": "天工队400米双组夺冠并超人类纪录",
+        "stocks": [
+          {
+            "name": "绿的谐波",
+            "code": "688017.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "鸣志电器",
+            "code": "603728.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "长江存储IPO受理（新增）",
+        "theme": "国产存储龙头科创板IPO拟融资330亿",
+        "stocks": [
+          {
+            "name": "兆易创新",
+            "code": "603986.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "佰维存储",
+            "code": "688525.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "中东航运运费破万美元（新增）",
+        "theme": "地缘扰动推升集装箱与油运运价",
+        "stocks": [
+          {
+            "name": "中远海控",
+            "code": "601919.SH",
+            "short_term": "↑"
+          },
+          {
+            "name": "中远海能",
+            "code": "600026.SH",
+            "short_term": "↑"
+          }
+        ]
+      },
+      {
+        "label": "Moderna mRNA癌症疫苗突破（新增）",
+        "theme": "个性化mRNA疫苗带动生物科技板块",
+        "stocks": [
+          {
+            "name": "药明康德",
+            "code": "2359.HK",
+            "short_term": "↑"
+          },
+          {
+            "name": "智飞生物",
+            "code": "300122.SZ",
+            "short_term": "→"
+          }
+        ]
+      }
+    ]
+  },
+  "disclaimer": "以上分析基于公开新闻事件的逻辑推演，仅供研究参考，不构成任何投资建议。股市有风险，投资需谨慎。"
+}
