@@ -12,11 +12,11 @@
     "bearish": 15
   },
   "IC": {
-    "bullish": 5,
+    "bullish": 3,
     "bearish": 4
   },
   "IM": {
-    "bullish": 14,
-    "bearish": 11
+    "bullish": 11,
+    "bearish": 8
   }
 }
